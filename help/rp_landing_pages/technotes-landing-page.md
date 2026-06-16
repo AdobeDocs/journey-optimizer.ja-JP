@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: テクニカルノート
-description: 信頼性シーケンス、上昇率計算、コンバージョン率など、Journey Optimizer実験の背後にある統計的手法について説明します。
+description: 信頼性シーケンス、上昇率の計算、コンバージョン率など、Journey Optimizer 実験の背後にある統計手法について説明します。
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
-workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 54%
+workflow-type: ht
+source-wordcount: '131'
+ht-degree: 100%
 
 ---
 
 # テクニカルノート{#section-overview}
 
-これらのテクニカルノートでは、Adobe Journey Optimizerの実験とレポートで使用される統計的手法を説明します。 これらの指標を使用して、実験の監視方法、上昇率やコンバージョン率などの指標の計算方法、信頼性を使用して結果を解釈する方法を理解します。
+このテクニカルノートでは、Adobe Journey Optimizer の実験とレポートで使用される統計手法について説明します。 これらを使用すると、実験の監視方法、上昇率やコンバージョン率などの指標の計算方法、自信を持って結果を解釈する方法を理解できます。
 
 ## テクニカルノート
 

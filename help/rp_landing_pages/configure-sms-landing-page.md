@@ -6,15 +6,15 @@ description: SMS／MMS／RCS チャネルの設定
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # SMS／MMS／RCS チャネルの設定{#section-overview}
 
-Adobe Journey OptimizerのSMS/MMS/RCS チャネルは、トランザクションアラートやマーケティングキャンペーン向けのモバイルメッセージを通じて、顧客とつながることができます。 このガイドでは、シンプルなSMS通知を送信する場合でも、マルチメディアのMMS メッセージを送信する場合でも、ブランドプロファイルなどのインタラクティブなRCS機能を活用する場合でも、メッセージングチャネルを設定するあらゆるステップについて説明します。 Sinch、Twilio、Infobipなどの人気の高いプロバイダーを統合する方法や、メッセージのニーズに合わせてカスタムプロバイダーを設定する方法をご紹介します。 明確な指示、実践的な例、権限や設定に関するインサイトがあれば、目標に合わせたテキストコミュニケーションを自信を持って設定することができます。
+Adobe Journey Optimizer の SMS／MMS／RCS チャネルを使用すると、企業はトランザクションアラートやマーケティングキャンペーン用のモバイルメッセージを通じてお客様とつながることができます。シンプルな SMS 通知、マルチメディアがリッチな MMS メッセージを送信する場合でも、ブランドプロファイルなどのインタラクティブな RCS 機能を活用する場合でも、このガイドでは、メッセージチャネルを設定するすべての手順について説明します。Sinch、Twilio、Infobip などの一般的なプロバイダーを統合する方法や、カスタマイズされたメッセージのニーズに合わせてカスタムプロバイダーを設定する方法について説明します。明確な指示、実用的な例、権限と設定に関するインサイトにより、目標に沿ったテキストコミュニケーションを自信を持って設定できます。
 
 ## SMS／MMS／RCS チャネルの設定
 
@@ -70,7 +70,7 @@ API 資格情報を作成し、Webhook を管理し、安全な通信チャネ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 SMS／MMS／RCS チャネル設定の作成
 

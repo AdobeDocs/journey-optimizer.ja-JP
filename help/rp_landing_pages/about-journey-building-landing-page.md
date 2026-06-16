@@ -6,15 +6,15 @@ description: アクティビティ
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # アクティビティ{#section-overview}
 
-Adobe Journey Optimizer のアクティビティとは、ユーザーがイベントをトリガーし、意思決定を行い、様々なチャネルで有意義なアクションを実行できる、カスタマージャーニーの具体的な構成要素です。 購入イベントのリッスン、パーソナライズされたメールの送信、リアルタイムでのプロファイルの更新など、アクティビティを使用すると、ジャーニーのすべての手順をカスタマイズできます。 イベント、オーケストレーション、アクションなどの各タイプのアクティビティは、それぞれが独自の役割を果たし、連携しながらシームレスで魅力的なエクスペリエンスを作成します。 これらのツールを検討する際には、トリガー、条件、アクションを使用して、顧客のニーズに合わせて動的なジャーニーを構築する方法を紹介します。
+Adobe Journey Optimizer のアクティビティとは、ユーザーがイベントをトリガーし、意思決定を行い、様々なチャネルで有意義なアクションを実行できる、カスタマージャーニーの具体的な構成要素です。 購入イベントのリッスン、パーソナライズされたメールの送信、リアルタイムでのプロファイルの更新など、アクティビティを使用すると、ジャーニーのすべての手順をカスタマイズできます。 イベント、オーケストレーション、アクションなどの各タイプのアクティビティは、それぞれが独自の役割を果たし、連携しながらシームレスで魅力的なエクスペリエンスを作成します。 これらのツールを探索しながら、トリガー、条件、アクションを使用して、顧客のニーズに応じて動的なジャーニーを作成する方法について説明します。
 
 ## Adobe Journey Optimizer のアクティビティ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 反応イベントの設定
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
-「最適化」アクティビティの使用（条件）
+最適化アクティビティ（条件）の使用
 
 時間、データソース、割合の分割などの条件に基づいて、ジャーニーで複数のパスを定義します。
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 待機アクティビティの設定
 
@@ -85,7 +85,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 ## その他のリソース
 
 - **[ジャーニーでのオーディエンスの使用](../using/building-journeys/read-audience.md)** - Adobe Experience Platform オーディエンスに属する個人がジャーニーに動的にエントリできるようにします。
-- **[組み込みのチャネルアクション](../using/building-journeys/journey-action.md)** - Journey Optimizerの組み込み機能を使用して、電子メール、SMS、プッシュ通知、アプリ内、web、コードベースのエクスペリエンス、コンテンツカードを通じてメッセージやエクスペリエンスを配信するためにジャーニーを使用します。
+- **[ビルトインのチャネルアクション](../using/building-journeys/journey-action.md)** - Journey Optimizer のビルトイン機能を使用して、メール、SMS、プッシュ通知、アプリ内、web、コードベースのエクスペリエンス、コンテンツカードなどでメッセージやエクスペリエンスを配信するジャーニーを使用します。
 - **[カスタムアクションの使用](../using/building-journeys/using-custom-actions.md)** - 動的パス、ヘッダー、クエリパラメーターを含む REST API を使用して、サードパーティシステムを統合します。
 - **[コンテンツ決定アクティビティ](../using/building-journeys/content-decision.md)** - 決定ポリシーとコンテンツ戦略を使用して、ジャーニーでパーソナライズされたオファーを配信します。
 - **[Adobe Campaign Standard のアクション](../using/building-journeys/using-adobe-campaign-standard.md)** - Adobe Campaign Standard 統合を使用して、トランザクションメール、SMS およびプッシュ通知を送信します。

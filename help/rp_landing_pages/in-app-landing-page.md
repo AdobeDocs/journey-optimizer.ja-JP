@@ -6,22 +6,22 @@ description: アプリ内チャネル
 redpen-status: CREATED_||_2025-08-11_20-36-05
 exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
 # アプリ内チャネル{#section-overview}
 
-Adobe Journey Optimizer のアプリ内チャネルを使用すると、モバイルアプリや web アプリ内に直接表示されるパーソナライズされた通知を通じて、アプリユーザーとリアルタイムでつながることができます。オンボーディング中にユーザーをガイドしたり、新機能を宣伝したり、特別なオファーを共有したりする場合でも、アプリ内メッセージは、最も重要なタイミングで関連コンテンツを正確に配信する魅力的な方法を提供します。この節では、アプリ内メッセージを取得する明確なロードマップについて説明します。必要な設定の指定や視覚的に魅力的なメッセージのデザインから、ターゲットキャンペーンの作成とその影響の分析まで、様々なことについて説明します。各トピックは前のトピックに基づいて作成されています。これにより、自信を持って有意義で使いやすいエクスペリエンスを作成できます。
+Adobe Journey Optimizer のアプリ内チャネルを使用すると、モバイルアプリや web アプリ内に直接表示されるパーソナライズされた通知を通じて、アプリユーザーとリアルタイムでつながることができます。 オンボーディング中にユーザーをガイドしたり、新機能を宣伝したり、特別なオファーを共有したりする場合でも、アプリ内メッセージは、最も重要なタイミングで関連コンテンツを正確に配信する魅力的な方法を提供します。 この節では、アプリ内メッセージを取得する明確なロードマップについて説明します。 必要な設定の指定や視覚的に魅力的なメッセージのデザインから、ターゲットキャンペーンの作成とその影響の分析まで、様々なことについて説明します。 各トピックは前のトピックに基づいて作成されています。これにより、自信を持って有意義で使いやすいエクスペリエンスを作成できます。
 
-## アプリ内チャネル機能
+## アプリ内チャネルの機能
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 アプリ内チャネル設定
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer のアプリ内チャネルを使用すると、モバ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 モバイルアプリ内メッセージの作成
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer のアプリ内チャネルを使用すると、モバ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Web アプリ内メッセージの作成
 
@@ -61,7 +61,7 @@ Web アプリ内メッセージの作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 アプリ内通知の確認および送信
 

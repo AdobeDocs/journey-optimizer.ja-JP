@@ -6,9 +6,9 @@ description: メールの配信品質
 redpen-status: CREATED_||_2025-08-11_20-34-41
 exl-id: 1657152e-4a93-4664-a56f-3ea7f9e69098
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 メールの配信品質は、スパムフォルダーに紛れ込んだり、完全にブロックされたりすることなく、オーディエンスの受信箱に確実に届くようにする指標であり、キャンペーンを成功させるのに極めて重要な要素です。 Adobe Journey Optimizer では、抑制リストを管理して問題のあるアドレスを除外し、スパムフィルターを避けるのにメールコンテンツを適応させ、IP ウォームアップなどの手法を通じて送信者の高い評判を構築することで、配信品質を向上させる方法について説明します。 また、セキュリティとコンプライアンスを強化するのに、DMARC 認証や SMTP リレーなどの高度なツールも探索します。 各トピックは、受信者との信頼関係を強化しながら、メールのパフォーマンスを保護できるようにする実践的な戦略に関連付けられています。
 
-## メール配信品質のリソース
+## メールの配信品質のリソース
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 メールの配信品質の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でメール配信品質を最適化する概念、ベ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 抑制リストについて
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でメール配信品質を最適化する概念、ベ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 新しい DMARC 要件への準拠
 

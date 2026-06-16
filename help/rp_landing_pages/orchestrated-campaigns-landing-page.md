@@ -6,15 +6,15 @@ description: オーケストレーションキャンペーン
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '290'
+ht-degree: 100%
 
 ---
 
 # オーケストレーションキャンペーン{#section-overview}
 
-Adobe Journey Optimizer の調整されたキャンペーンを使用すると、適切なメッセージを適切なオーディエンスに大規模に配信する、高度なマルチステップマーケティングキャンペーンをデザインおよび実行できます。リアルタイムジャーニーとは異なり、これらのバッチキャンペーンはオーディエンスセグメントとプロファイルを一緒に処理するため、スケジュールに沿ったデータドリブン型マーケティングイニシアチブに最適です。オーディエンスのセグメント化、トランジション、ワークテーブルなどのアクティビティを連携させて、シームレスなワークフローを作成する方法について説明します。この過程で、オーケストレーションキャンペーンとジャーニーの違い、パーソナライゼーションのデータの設定、キャンペーンの作成と開始、パフォーマンスの最適化について、直感的なビジュアルキャンバスを使って説明します。マーケティングオートメーションを次のレベルに引き上げる準備をしましょう。
+Adobe Journey Optimizer の調整されたキャンペーンを使用すると、適切なメッセージを適切なオーディエンスに大規模に配信する、高度なマルチステップマーケティングキャンペーンをデザインおよび実行できます。 リアルタイムジャーニーとは異なり、これらのバッチキャンペーンはオーディエンスセグメントとプロファイルを一緒に処理するため、スケジュールに沿ったデータドリブン型マーケティングイニシアチブに最適です。 オーディエンスのセグメント化、トランジション、ワークテーブルなどのアクティビティを連携させて、シームレスなワークフローを作成する方法について説明します。 この過程で、オーケストレーションキャンペーンとジャーニーの違い、パーソナライゼーションのデータの設定、キャンペーンの作成と開始、パフォーマンスの最適化について、直感的なビジュアルキャンバスを使って説明します。 マーケティングオートメーションを次のレベルに引き上げる準備をしましょう。
 
 ## オーケストレーションキャンペーンの概要
 
@@ -40,9 +40,9 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-オーケストレーションされたキャンペーンのデータ設定
+オーケストレーションキャンペーンのデータ設定
 
 リレーショナルスキーマ、データセット、チャネルを設定して、調整されたキャンペーンのデータを準備します。
 
@@ -50,9 +50,9 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-オーケストレーションされたキャンペーンのローンチと管理
+オーケストレーションキャンペーンの起動と管理
 
 最初の調整されたキャンペーンの作成、調整、モニタリングおよび分析をステップバイステップで解説するガイド。
 
@@ -60,9 +60,9 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-オーケストレーションされたキャンペーンのデータベースのクエリ
+オーケストレーションキャンペーンのデータベースのクエリ
 
 調整されたキャンペーンでオーディエンスを効果的にターゲティング、セグメント化およびリターゲティングするためのマスターデータベースのクエリ。
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 キャンペーンアクティビティの包括的なガイド
 

@@ -6,9 +6,9 @@ description: ライブレポート
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Adobe Journey Optimizer のライブレポート機能を使用すると、動的でカスタマイズ可能なダッシュボード内で、キャンペーン、ジャーニー、メッセージのリアルタイムのパフォーマンスを追跡および分析できます。 メールエンゲージメント、SMS 配信率、ランディングページのコンバージョンなどを監視する場合でも、ライブレポートは結果を最適化するのに役立つ明確なインサイトを提供します。 ダッシュボードをニーズに合わせてカスタマイズする方法、より深い分析のためにデータを書き出す方法、様々な通信チャネルをまたいで詳細な指標を探索する方法について説明します。 ジャーニーやキャンペーンレポートなどの子トピックについて説明します。これにより、実用的なトレンドを明らかにし、問題を特定し、自信を持ってデータ駆動型の意思決定を行うことができます。
 
-## ライブレポート機能
+## ライブレポートの機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ライブレポートの基本を学ぶ
 

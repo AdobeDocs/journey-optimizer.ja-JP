@@ -6,9 +6,9 @@ description: トラブルシューティング
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 
 サポートチケットのガイドライン
 
-Adobe サポートに連絡する際に含めるべき内容（環境の詳細、影響レベル、レプリケーション手順、ログまたはスクリーンショット、関連ID）を確認して、解決を迅速化します。
+問題解決を迅速に行うために、アドビサポートに連絡する際に含めるべき内容（環境の詳細、影響レベル、レプリケーション手順、ログまたはスクリーンショット、関連 ID）について説明します。
 
 [サポートチケットガイドライン](../using/start/user-interface.md#support-ticket-guidelines)
 :::

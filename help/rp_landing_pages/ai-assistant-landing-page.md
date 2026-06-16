@@ -6,9 +6,9 @@ description: コンテンツ生成用 AI アシスタント
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Adobe Journey Optimizer の AI アシスタントは、生成 AI を活用して、メール、SMS、プッシュ通知、web ページなど向けにパーソナライズされたテキストとビジュアルを作成することで、コンテンツ作成に革命をもたらします。 完全なキャンペーンを作成する場合でも、特定のアセットを絞り込む場合でも、この機能を使用すると、時間を節約しながら、コンテンツをブランドガイドラインにシームレスに整合できます。 AI アシスタントにアクセスする方法、そのガードレールを理解する方法、様々なチャネルでその機能を活用する方法について説明します。 各サブトピックでは、魅力的なメールの作成からコンテンツのバリエーションを使用した実験まで、実用的なガイダンスを提供し、オーディエンスの共感を得られる、影響力のあるブランドに即したキャンペーンをユーザーが自信を持って作成できるようにします。
 
-## コンテンツ生成用AI アシスタント
+## コンテンツ生成用 AI アシスタント
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI アシスタントの基本を学ぶ
 

@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="レガシー" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 Adobe Journey Optimizer の Offer Delivery API を使用すると、パーソナライズされたマーケティングオファーを適切なタイミングで適切なオーディエンスに配信し、複数のチャネルをまたいでエンゲージメントを強化できます。 Edge Decisioning API を使用してリアルタイムエクスペリエンスをデザインする場合や、Decisioning API を使用して特定のオファーをカスタマイズする場合、Batch Decisioning API を通じてアウトリーチを拡大・縮小する場合のいずれであっても、これらのツールは様々なユースケースに対応する汎用性の高いソリューションを提供します。 各 API の仕組み（コンテキストデータの処理からフリークエンシーキャップの実装に至るまで）と、ビジネスニーズに合わせてカスタマイズされたワークフローについて説明します。 よりスマートな意思決定とシームレスな統合を実現し始め、自信を持って影響力のあるカスタマーエクスペリエンスを提供します。
 
-## apiを使用したオファーの配信
+## API を使用したオファーの配信
 
 :::: landing-cards-container
 :::
@@ -35,7 +35,7 @@ Decisioning API、Edge Decisioning API、Batch Decisioning API など、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Decisioning API を使用したオファーの配信
 

@@ -6,21 +6,21 @@ description: 決定機能
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '173'
+ht-degree: 100%
 
 ---
 
 # 意思決定機能{#section-overview}
 
-Journey Optimizer の意思決定機能を使用すると、すべてのタッチポイントにおいて、顧客に対して正確かつ適切なタイミングで最適なオファーとパーソナライズされたエクスペリエンスを提供できます。これらの機能により、マーケティングオファーの一元化されたカタログと、ルールとランキング条件を使用して各個人に最も関連性の高いコンテンツを提供する高度な決定エンジンを通じて、パーソナライゼーションが簡素化されます。
+Journey Optimizer の意思決定機能を使用すると、すべてのタッチポイントにおいて、顧客に対して正確かつ適切なタイミングで最適なオファーとパーソナライズされたエクスペリエンスを提供できます。 これらの機能により、マーケティングオファーの一元化されたカタログと、ルールとランキング条件を使用して各個人に最も関連性の高いコンテンツを提供する高度な決定エンジンを通じて、パーソナライゼーションが簡素化されます。
 
 ## 意思決定機能の概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 意思決定機能の概要
 

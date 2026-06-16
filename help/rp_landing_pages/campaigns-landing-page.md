@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # キャンペーン{#section-overview}
 
-Adobe Journey Optimizer のキャンペーンを使用すると、様々なチャネルをまたいでパーソナライズされたインパクトのあるメッセージをタイムリーに配信して、オーディエンスのエンゲージメントを効果的に向上させることができます。 1 回限りのプロモーションメールの計画や、リアルタイムのトランザクションメッセージの自動化、複雑な複数の手順から成るジャーニーの調整など、様々なニーズに合わせてカスタマイズされたキャンペーンタイプが用意されています。 このセクションでは、アクションキャンペーン、API トリガーキャンペーン、オーケストレーションキャンペーンの3つの主要なキャンペーンタイプについて紹介し、独自の強みとユースケースを紹介します。 また、権限、オーディエンス設定、チャネル設定などの基本的な構成要素についても説明し、顧客の共感を得ることができるキャンペーンの作成および管理を行う基盤を整備します。
+Adobe Journey Optimizer のキャンペーンを使用すると、様々なチャネルをまたいでパーソナライズされたインパクトのあるメッセージをタイムリーに配信して、オーディエンスのエンゲージメントを効果的に向上させることができます。 1 回限りのプロモーションメールの計画や、リアルタイムのトランザクションメッセージの自動化、複雑な複数の手順から成るジャーニーの調整など、様々なニーズに合わせてカスタマイズされたキャンペーンタイプが用意されています。 この節では、主な 3 つのキャンペーンタイプ（アクションキャンペーン、API トリガーキャンペーン、オーケストレーションキャンペーン）を紹介し、それぞれの独自の強みとユースケースに焦点を当てて説明します。また、権限、オーディエンス設定、チャネル設定などの基本的な構成要素についても説明し、顧客の共感を得ることができるキャンペーンの作成および管理を行う基盤を整備します。
 
 ## キャンペーンの概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 キャンペーンを使い始める
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer のキャンペーンを使用すると、様々なチ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 キャンペーンへのアクセスと管理
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer のキャンペーンを使用すると、様々なチ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 アクションキャンペーン
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer のキャンペーンを使用すると、様々なチ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API トリガーキャンペーン
 

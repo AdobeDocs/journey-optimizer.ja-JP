@@ -6,9 +6,9 @@ description: ユースケース
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ユースケースを通じて学ぶ
 
@@ -30,17 +30,17 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 エクスペリエンスイベント参照
 
-エクスペリエンスイベントの代替機能を使用して、オプトアウトを管理し、コンテンツをパーソナライズして、ジャーニーオーケストレーションの一般的な課題に対処します。
+エクスペリエンスイベントの代替手段を使用して、オプトアウトの管理、コンテンツのパーソナライズ、ジャーニーオーケストレーションの一般的な課題の解決を行います。
 
 [詳細情報](../using/building-journeys/exp-event-lookup.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 マルチチャネルメッセージの送信
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Campaign v7／v8 を使用したメッセージの送信
 
@@ -60,7 +60,7 @@ Adobe Campaign と Journey Optimizer を統合して、トランザクション�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 サブスクライバーへのメッセージの送信
 
@@ -70,7 +70,7 @@ Adobe Campaign と Journey Optimizer を統合して、トランザクション�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 カスタムアクションを使用したコレクションの動的な受け渡し
 

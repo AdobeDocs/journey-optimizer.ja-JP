@@ -6,23 +6,23 @@ description: メールサブドメインのデリゲート
 redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
 source-git-commit: bb50d06e86f9399dfd295b8091aa637abcaea4a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
 # メールサブドメインのデリゲート{#section-overview}
 
-メールサブドメインのデリゲートは、[&#x200B; チャネル設定](../using/configuration/get-started-configuration.md)の中核的な手順です。Journey Optimizerからメールを送信する前に必要です。 サブドメインを使用すると、トラフィックタイプ（マーケティングとトランザクションなど）を分離し、メインドメインのレピュテーションを保護し、[IP ウォームアップ &#x200B;](../using/configuration/ip-warmup-gs.md)を高速化できます。 [&#x200B; メールチャネル設定](../using/email/get-started-email-config.md)および[配信品質モニタリング &#x200B;](../using/reports/deliverability.md)と連携して、メッセージが受信トレイに確実に届くようにします。
+メールサブドメインのデリゲートは、[チャネル設定](../using/configuration/get-started-configuration.md)のコア手順で、Journey Optimizer からメールを送信する前に必須です。サブドメインを使用すると、トラフィックタイプ（例：マーケティングとトランザクション）を分離し、メインドメインの評判を保護し、[IP ウォームアップ](../using/configuration/ip-warmup-gs.md)を高速化できます。これらは、[メールチャネル設定](../using/email/get-started-email-config.md)や[配信品質の監視](../using/reports/deliverability.md)と連携して、メッセージがインボックスに確実に届くようにします。
 
-複数のセットアップ方法から選択できます：**完全委任** （AdobeはDNSを管理）、**CNAME setup**、または&#x200B;**カスタム委任** （自分が証明書とDNSを所有）。 CNAMEから始める場合は、後で[&#x200B; カスタム委任](../using/configuration/custom-subdomain-migration.md)に移行してセキュリティを強化できます。 この節では、DMARCとPTR レコード、GmailのGoogle TXT レコード、およびIP プールについても説明します。 より広範な配信品質ガイダンスについては、[配信品質の基本を学ぶ](../using/reports/deliverability.md)および[電子メールアドレスを監視](monitor-reputation-landing-page.md)を参照してください。
+**完全なデリゲーション**（アドビが管理する DNS）、**CNAME 設定**&#x200B;または&#x200B;**カスタムデリゲーション**（証明書とDNSを所有）の複数の設定方法から選択できます。CNAME から開始した場合、より厳格なセキュリティのために[カスタムデリゲーション](../using/configuration/custom-subdomain-migration.md)に後で移行できます。また、この節では、DMARC と PTR レコード、Gmail の Google TXT レコード、IP プールについても説明します。 より広範な配信品質ガイダンスについて詳しくは、[配信品質の基本を学ぶ](../using/reports/deliverability.md)および[メールアドレスの監視](monitor-reputation-landing-page.md)を参照してください。
 
 ## メールサブドメインのデリゲート
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 サブドメインデリゲーションの基本を学ぶ
 
@@ -42,11 +42,11 @@ Adobe Journey Optimizer でサブドメインをデリゲートするメリッ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 カスタムサブドメインの設定
 
-カスタムデリゲーションを使用してサブドメインの完全な所有権を取得し、独自のSSL証明書をアップロードして、ドメイン設定の完全な制御を維持します。
+カスタムデリゲーションを使用すると、サブドメインの完全な所有権を取得できます。独自の SSL 証明書をアップロードし、ドメイン設定を完全に制御できます。
 
 [カスタムサブドメインの設定](../using/configuration/delegate-custom-subdomain.md)
 :::
@@ -54,9 +54,9 @@ Adobe Journey Optimizer でサブドメインをデリゲートするメリッ�
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
-CNAMEからカスタム委任への移行
+CNAME からカスタムデリゲーションへの移行
 
-既存のCNAME設定済みサブドメインをカスタム委任に移行して、セキュリティポリシーに対応し、証明書を完全に制御します。
+既存の CNAME 設定済みサブドメインをカスタムデリゲーションに移行すると、セキュリティポリシーを満たし、証明書を完全に制御できます。
 
 [サブドメインの移行](../using/configuration/custom-subdomain-migration.md)
 :::
@@ -92,7 +92,7 @@ PTR レコードへのアクセスと編集
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 IP プールの作成
 
@@ -105,6 +105,6 @@ IP アドレスをグループ化して、メールの配信品質を向上さ�
 
 ## その他のリソース
 
-- **[ランディングページサブドメインの設定](../using/landing-pages/lp-subdomains.md)** - ランディングページとサブスクリプションフォームのサブドメインを設定します。
+- **[ランディングページのサブドメインの設定](../using/landing-pages/lp-subdomains.md)** - ランディングページと登録フォームのサブドメインを設定します。
 - **[Web サブドメインの設定](../using/web/web-delegated-subdomains.md)** - Web エクスペリエンスとトラッキング用のサブドメインをデリゲートします。
-- **[チャネル設定の概要](../using/configuration/get-started-configuration.md)** - サブドメインのデリゲーションを含むすべてのチャネル設定手順の概要。
+- **[チャネル設定の基本を学ぶ](../using/configuration/get-started-configuration.md)** - サブドメインのデリゲーションを含む、すべてのチャネル設定手順の概要。

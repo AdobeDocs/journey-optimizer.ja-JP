@@ -6,17 +6,17 @@ description: 式の作成
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
 # 式の作成{#section-overview}
 
-Adobe Journey Optimizer には、ジャーニー内に複雑なロジックを作成できる&#x200B;**高度な式エディター**&#x200B;が含まれており、正確なパーソナライゼーションとオーケストレーションが実現します。条件を定義し、アクションパラメーターをマッピングして、イベントや外部データをアクション可能なロジックに変換できます。この節では、演算子、データタイプ、条件付きワークフローなどの式構文と、データ集計、日付処理、文字列操作などのタスクの機能について説明します。これらのツールは、高度なユースケースをサポートし、技術ユーザーに特定のビジネスニーズに合わせてジャーニーをカスタマイズする柔軟性を提供します。
+Adobe Journey Optimizer には、ジャーニー内に複雑なロジックを作成できる&#x200B;**高度な式エディター**&#x200B;が含まれており、正確なパーソナライゼーションとオーケストレーションが実現します。 条件を定義し、アクションパラメーターをマッピングして、イベントや外部データをアクション可能なロジックに変換できます。 この節では、演算子、データタイプ、条件付きワークフローなどの式構文と、データ集計、日付処理、文字列操作などのタスクの機能について説明します。 これらのツールは、高度なユースケースをサポートし、技術ユーザーに特定のビジネスニーズに合わせてジャーニーをカスタマイズする柔軟性を提供します。
 
-## Adobe Journey Optimizerの式の作成について詳しく見る
+## Adobe Journey Optimizer での式の作成の探索
 
 :::: landing-cards-container
 :::
@@ -30,7 +30,7 @@ Adobe Journey Optimizer には、ジャーニー内に複雑なロジックを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 式の高度な構文
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で高度な式を作成するのに必要な構文ル�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer の関数
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer の関数
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Journey Optimizer データセットに関するクエリのサンプルと関連するユースケース
 

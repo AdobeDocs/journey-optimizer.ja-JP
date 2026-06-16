@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: アドビソリューションを使用した送信
-description: カスタムアクションを使用して、Adobe Campaign Standard、Campaign v7/v8、Marketo Engageを通じてJourney Optimizer ジャーニーからメッセージを送信する方法を説明します。
+description: カスタムアクションを使用して、Journey Optimizer ジャーニーから Adobe Campaign Standard、Campaign v7／v8、Marketo Engage 経由でメッセージを送信する方法について説明します。
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
 source-git-commit: a0ea5aef7616520bbc2792ba33e85ff72724a28e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Journey Optimizer と Adobe Campaign Standard の統合
 
 Adobe Journey Optimizer を Adobe Campaign Standard と統合して、メール、プッシュ、SMS などのトランザクションメッセージ機能を有効にする方法について説明します。
 
-[Campaign Standardとの統合](../using/action/acs-action.md)
+[Campaign Standard との統合](../using/action/acs-action.md)
 :::
 
 :::
@@ -36,7 +36,7 @@ Adobe Journey Optimizer と Adobe Campaign v7／v8 の統合
 
 Adobe Journey Optimizer を Adobe Campaign v7／v8 に接続して、メール、SMS、プッシュ通知を通じてトランザクションメッセージを送信する方法について説明します。
 
-[Campaign v7/v8との統合](../using/action/acc-action.md)
+[Campaign v7／v8 との統合](../using/action/acc-action.md)
 :::
 
 :::

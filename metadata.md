@@ -13,7 +13,7 @@ landing-page-name: journey-optimizer
 landing-page-breadcrumb-title: Journey Optimizer
 solution-title: Journey Optimizer Documentation
 source-git-commit: 33751376024706553ab43e96db118404ab92bf5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 148
 ht-degree: 100%
 

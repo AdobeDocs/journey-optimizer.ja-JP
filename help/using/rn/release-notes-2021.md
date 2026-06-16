@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2058
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -297,7 +297,7 @@ ht-degree: 99%
 
 **コンテンツデザイン**
 
-* **背景** – 背景画像は、ライブプレビューでサポートされるようになりました。[詳細情報](../content-management/preview-test.md)
+* **背景** - 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](../content-management/preview-test.md)
   <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **パーソナライゼーション**

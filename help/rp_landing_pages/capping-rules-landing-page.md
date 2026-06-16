@@ -6,17 +6,17 @@ description: メッセージとジャーニーのキャッピングルールの�
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
 # メッセージとジャーニーのキャッピングルールの設定{#section-overview}
 
-キャッピングルールは、[競合管理と優先順位付け](../using/conflict-prioritization/gs-conflict-prioritization.md)の一部です。これにより、顧客は負担を感じることなく、適切な量のコミュニケーションを受け取ることができます。 ルールを適用する前に、[競合検出ツール &#x200B;](../using/conflict-prioritization/conflicts.md)を使用して、重複するジャーニーとキャンペーンを特定します。 複数のコミュニケーションが同じプロファイルに適格である場合、[優先スコア &#x200B;](../using/conflict-prioritization/priority-scores.md)は、どのメッセージが最初に配信されるかを判断します。
+キャッピングルールは、[競合管理と優先順位付け](../using/conflict-prioritization/gs-conflict-prioritization.md)の一部です。これにより、顧客が過度の負担を感じることなく、適切な量のコミュニケーションを受け取ることができます。ルールを適用する前に、[競合検出ツール](../using/conflict-prioritization/conflicts.md)を使用して、重複するジャーニーとキャンペーンを特定します。複数のコミュニケーションが同じプロファイルで選定される場合、[優先度スコア](../using/conflict-prioritization/priority-scores.md)により、最初に配信されるメッセージが決定されます。
 
-メッセージの送信頻度（頻度の上限）、プロファイルが入力できるジャーニー数（ジャーニーの上限）、メッセージがブロックされる時間（サイレントアワー）に制限を設定できます。 ルールは&#x200B;**ルールセット**&#x200B;にグループ化され、キャンペーンまたはジャーニーに適用されます。 外部システムからのプログラム制御については、[Capping API](../using/configuration/capping.md)を参照してください。
+メッセージの送信頻度（フリークエンシーキャップ）、プロファイルがエントリできるジャーニーの数（ジャーニーのキャッピング）、メッセージがブロックされるタイミング（クワイエットアワー）に制限を設定できます。ルールは、**ルールセット**&#x200B;にグループ化され、キャンペーンやジャーニーに適用されます。外部システムからのプログラム制御について詳しくは、[Capping API](../using/configuration/capping.md) を参照してください。
 
 ## メッセージとジャーニーのキャッピングルールの設定
 
@@ -52,11 +52,11 @@ Adobe Journey Optimizer で、メッセージの頻度とジャーニーエン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
-サイレントアワーを設定
+クワイエットアワーの設定
 
-メール、SMS、プッシュ、WhatsAppに対して時間ベースの除外を定義し、顧客の好みやコンプライアンスを尊重しながら、特定の期間内にメッセージが送信されないようにします。
+顧客の環境設定やコンプライアンスを適用し、特定の期間中はメッセージが送信されないように、メール、SMS、プッシュ通知、WhatsApp について時間ベースの除外を定義します。
 
 [クワイエットアワーの設定](../using/conflict-prioritization/quiet-hours.md)
 :::
@@ -65,6 +65,6 @@ Adobe Journey Optimizer で、メッセージの頻度とジャーニーエン�
 
 ## その他のリソース
 
-- **[競合の管理と優先順位付けを開始する](../using/conflict-prioritization/gs-conflict-prioritization.md)** – 競合の検出、優先度スコア、およびルールセットの概要。
-- **[競合の可能性を特定](../using/conflict-prioritization/conflicts.md)** - キャッピングルールを適用する前に、重複するジャーニーとキャンペーンを検出します。
-- **[優先度スコアの割り当て](../using/conflict-prioritization/priority-scores.md)** - プロファイルが複数のコミュニケーションに適格である場合に、どのジャーニーまたはキャンペーンを優先するかを制御します。
+- **[競合管理と優先順位付けの基本を学ぶ](../using/conflict-prioritization/gs-conflict-prioritization.md)** - 競合の検出、優先度スコアおよびルールセットの概要。
+- **[潜在的な競合の特定](../using/conflict-prioritization/conflicts.md)** - キャッピングルールを適用する前に、重複するジャーニーとキャンペーンを検出します。
+- **[優先度スコアの割り当て](../using/conflict-prioritization/priority-scores.md)** - プロファイルが複数のコミュニケーションで選定される場合、優先するジャーニーまたはキャンペーンを制御します。
