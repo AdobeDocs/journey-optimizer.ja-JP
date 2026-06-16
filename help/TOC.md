@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
+source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3356'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 99%
    + {hide-from-toc}[ジャーニーキャンバスの向上](using/rn/new-canvas.md)
 + 基本を学ぶ {#get-started}
    + [基本を学ぶ](/help/rp_landing_pages/get-started-landing-page.md)
-   + {hide-from-toc}[&#x200B; オンボーディングハブ &#x200B;](using/start/onboarding-hub.md)
+   + {hide-from-toc}[ オンボーディングハブ ](using/start/onboarding-hub.md)
    + 基本事項 {#essentials}
       + [Journey Optimizer とは](using/start/get-started.md)
       + [仕組みについて](using/start/understanding-ajo.md)
@@ -40,7 +40,8 @@ ht-degree: 99%
       + [主な用語](using/start/terminology.md)
       + {hide-from-toc}[このジョブに対してどの機能を使用しますか？](using/start/ajo-use-case-guide.md)
       + [ガードレールと制限](using/start/guardrails.md)
-      + {hide-from-toc}[&#x200B; パッケージと機能](using/start/ajo-packages.md)
+      + {hide-from-toc}[ パッケージと機能](using/start/ajo-packages.md)
+      + {hide-from-toc}[機能の可用性](using/start/ajo-features-availability.md)
    + はじめに（役割別） {#by-role}
       + [役割と責務](using/start/quick-start.md)
       + [管理者向けの基本を学ぶ](using/start/path/administrator.md)
@@ -66,7 +67,7 @@ ht-degree: 99%
       + [ジャーニー指標の設定とトラッキング](using/building-journeys/success-metrics.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + シミュレーション {#simulate-journey}
-         + [&#x200B; ジャーニーシミュレーションの基本を学ぶ](using/building-journeys/simulate-journey-gs.md)
+         + [ ジャーニーシミュレーションの基本を学ぶ](using/building-journeys/simulate-journey-gs.md)
          + [ジャーニーのシミュレート](using/building-journeys/simulate-journey.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーのドライラン](using/building-journeys/journey-dry-run.md)
@@ -145,7 +146,7 @@ ht-degree: 99%
    + {hide-from-toc}[ロイヤルティの課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[ロイヤルティの課題のパフォーマンスの監視](using/loyalty-challenges/loyalty-reporting.md)
    + {hide-from-toc}[ロイヤルティの課題の設定](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[ロイヤルティデータとデータセット](using/loyalty-challenges/loyalty-data-and-datasets.md)
@@ -724,7 +725,7 @@ ht-degree: 99%
          + [決定ポリシーを作成](using/experience-decisioning/create-decision-policy.md)
          + [メッセージでの決定ポリシーの使用](using/experience-decisioning/use-decision-policy.md)
          + [決定ポリシーでのフラグメントの活用](using/experience-decisioning/fragments-decision-policies.md)
-         + [&#x200B; ダイレクトメールでのバッチ決定](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + [ ダイレクトメールでのバッチ決定](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
       + [決定のユースケース](using/experience-decisioning/experience-decisioning-uc.md)
       + イベントデータの収集 {#experience-decisioning-collect-event-data}
