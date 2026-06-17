@@ -1,35 +1,49 @@
 ---
-title: ブランド一致
-description: ブランドスコアを使用して、ブランドに即したコンテンツを作成、検証および管理する方法について説明します。
-topic: Content Management, Artificial Intelligence
-role: User
-level: Beginner, Intermediate
-exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: a281a4d244279a6a1fce6968e4636b86414c4400
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 41%
+source-wordcount: '1029'
+ht-degree: 24%
 
 ---
+このリポジトリにはファイルが存在せず、書き込みアクセスが承認されていないため、要求された完全な更新されたマークダウンファイルを次に示します。
 
+---
+タイトル：Brand alignment
+説明：ブランドスコアを使用して、ブランドに即したコンテンツを作成、検証、管理する方法を説明します。
+トピック：コンテンツ管理，AI （人工知能）
+役割：ユーザー
+レベル：初級、中級
+exl-id: 01e74670-7431-4791-b98c-12278e6d332
+TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
+product_v2:
+- id: cb954087-f4fc-4456-afb9-e939cabcdc79
+internal-label: Journey Optimizer
+feature_v2:
+- id: dc22c819-3f29-4e91-8b7d-5c6719831141
+internal-label: コンテンツ管理
+- id: fe338112-e2ce-4876-8989-fc4d497613f1
+internal-label: Email
+subfeature_v2:
+- id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+internal-label：多言語コンテンツ
+- id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+internal-label: メールデザイン
+- id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+internal-label: Publish
+role_v2:
+- id: b69b2659-1057-424e-8fc5-ed9e016dc554
+internal-label: User
+level_v2:
+- id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+internal-label: Intermediate
+- id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+internal-label: Beginner
+topic_v2:
+- id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+社内ラベル：人工知能
+- id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+internal-label: Insights
+---
 # ブランド一致 {#brands-score}
 
 >[!BEGINSHADEBOX]
@@ -57,6 +71,11 @@ ht-degree: 41%
 >id="ajo_brand_logos"
 >title="ロゴのスコア"
 >abstract="ロゴのスコア"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_suggestions"
+>title="AIが生成した提案"
+>abstract="ブランドの調整や品質評価の際にコンテンツにフラグが付けられた場合、AI アシスタントは修正された代替案を自動的に生成し、インラインでレビューして適用できます。"
 
 >[!AVAILABILITY]
 >
@@ -88,7 +107,7 @@ ht-degree: 41%
 
    ![](assets/brand-score-5.png)
 
-1. フラグ付けされたガイドラインを選択して、特定のフィードバックと提案を表示します。 ブランドの整合性では、次のカテゴリが評価されます。
+1. フラグが設定されているガイドラインを選択して、特定のフィードバックとAIが生成した提案を表示します。 ブランドの整合性では、次のカテゴリが評価されます。
 
    * **[!UICONTROL 書き方]**:
       * **[!UICONTROL ブランドコミュニケーションスタイル]**：すべてのチャネルで一貫したブランドボイスを確保するために、個性と感情のトーンを定義します。
@@ -105,7 +124,7 @@ ht-degree: 41%
 
    ![](assets/brand-score-4.png)
 
-1. レコメンデーションに基づいてコンテンツを編集し、ブランド一致を向上させます。
+1. 書き込みスタイルにフラグが設定されている場合は、各違反の下にAIが生成した提案を確認し、**[!UICONTROL 適用]**&#x200B;をクリックしてフラグ付きコンテンツをインラインで置き換えるか、元のテキストを維持するために無視します。 [AI生成の提案の適用について詳しく見る](#apply-suggestions)。
 
 1. 変更した後にコンテンツを手動で再評価し、一致スコアを更新します。
 
@@ -137,7 +156,7 @@ ht-degree: 41%
 
    ![](assets/brand-score-7.png)
 
-1. フラグが設定されている項目を選択して、特定のフィードバックと改善に向けた実用的な提案を表示します。 スコアは、次のカテゴリに基づいています。
+1. フラグが設定されている項目を選択して、特定のフィードバックとAIが生成した改善提案を表示できます。 スコアは、次のカテゴリに基づいています。
 
    * **[!UICONTROL CTAの効果]**:call-to-actionが読者に望ましい行動を起こすための動機付けをどの程度行っているかを評価します。
    * **[!UICONTROL 件名]**：明確さ、関連性、注目すべき品質を評価して、メールの開封を促進します。
@@ -148,9 +167,29 @@ ht-degree: 41%
 
    ![](assets/brand-score-8.png)
 
-1. レコメンデーションにもとづいてコンテンツを編集することで、読みやすさ、コンテンツの統一性、全体的な品質を向上させます。
+1. フラグ付きテキストアイテムの場合は、各問題の下に表示されるAI生成の提案を確認し、**[!UICONTROL 適用]**&#x200B;をクリックしてコンテンツをインラインで置き換えるか、元のテキストを維持するために無視します。 [AI生成の提案の適用について詳しく見る](#apply-suggestions)。
 
 1. 変更を加えた後、**[!UICONTROL スコアを再評価]**&#x200B;して、品質スコアを更新します。
+
+## AIが生成した提案の適用 {#apply-suggestions}
+
+ブランドの調整や品質評価の際にコンテンツにフラグが付けられた場合、AI アシスタントは、フィードバックパネルで直接、修正または改善された代替案を自動的に生成します。 この従量課金制のワークフローは、エディターを離れることなく違反を解決でき、手作業による編集作業を減らし、コンテンツ制作を高速化します。
+
+AIで生成された提案は、電子メール、SMS、プッシュ通知、webなど、サポートされているすべてのコンテンツタイプでテキストベースの違反に対して使用できます。
+
+Aiが生成した提案を適用するには：
+
+1. ブランドの整合性または品質評価を実行し、フラグ付きのガイドラインまたは品質項目を選択してフィードバックパネルを展開します。
+
+1. フラグが設定されたコンテンツの下に表示される、AIが生成した提案を確認します。
+
+1. 「**[!UICONTROL 適用]**」をクリックして、フラグ付きコンテンツを提案された代替案に置き換えます。
+
+   元のテキストを保持するには、**[!UICONTROL 閉じる]**&#x200B;をクリックします。
+
+1. 残りのフラグ付き項目についても、この手順を繰り返します。
+
+1. スコアを再評価し、すべての改善点が適用されたことを確認します。
 
 ## チュートリアルビデオ {#video}
 
@@ -158,6 +197,6 @@ ht-degree: 41%
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
