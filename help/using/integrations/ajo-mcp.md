@@ -11,10 +11,10 @@ level: Beginner, Intermediate
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 7ced44f92f816d83d9a9ad667b4322dcb5930741
 workflow-type: tm+mt
-source-wordcount: 1478
-ht-degree: 4%
+source-wordcount: 1369
+ht-degree: 5%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** Adobe Journey Optimizer MCP サーバーを使用して、サポートされているMCP クライアントから平易な言語でキャンペーンやオファーをクエリし、その機能、ツール、前提条件、制限事項を確認する方法について説明します。
+**このページ：**&#x200B;では、[!DNL Adobe Journey Optimizer] MCP サーバーの概要をステップバイステップで説明します。モデルコンテキストプロトコルの基本とサポートされているクライアント、利用可能なツール、サンプルプロンプト、設定の前提条件、接続手順、よくある質問への回答を確認します。
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Journey Optimizer] MCP統合により、API呼び出しを記述したり、製品画面を移動したりすることなく、平易な言語のプロンプトを使用してキャンペーンやオファーをクエリできます。 このページでは、統合がどのように機能するのか、何ができるのか、どのように始めればよいのかについて説明します。
+[!DNL Adobe Journey Optimizer]のMCP統合により、API呼び出しを記述したり、製品画面を移動したりすることなく、平易な言語のプロンプトを使用してキャンペーン、ジャーニー、オファーをクエリできます。 このページでは、統合がどのように機能するのか、何ができるのか、どのように始めればよいのかについて説明します。
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Journey Optimizer] MCP サーバーは現在、**Claude Web**&#x200B;および&#x200B;**Claude Desktop**&#x200B;でのみ利用できます。 MCP互換アプリケーションのサポートは、今後のリリースで追加される予定です。
+>[!DNL Adobe Journey Optimizer] MCP サーバーは現在、**Claude Web**、**Claude Desktop**、**Cursor**&#x200B;で利用できます。 MCP互換アプリケーションのサポートは、今後のリリースで追加される予定です。
 
 ## Beta、セキュリティ、法務に関する通知 {#mcp-notices}
 
@@ -54,9 +54,9 @@ Adobe Journey Optimizer MCP Server （Beta）（「Beta」）を使用するこ�
 
 ## 主な機能 {#mcp-capabilities}
 
-[!DNL Adobe Journey Optimizer] MCP サーバーでは、AI アシスタントから直接キャンペーンとオファーを検査、要約、トラブルシューティングできます。 すべての操作は&#x200B;**読み取り専用**&#x200B;です。MCP サーバーサーフェスは、APIを平易な言語の回答として取得するため、次のことが可能です。
+[!DNL Adobe Journey Optimizer] MCP サーバーでは、キャンペーン、ジャーニー、オファーをAI アシスタントから直接検査、要約、トラブルシューティングできます。 すべての操作は&#x200B;**読み取り専用**&#x200B;です。MCP サーバーサーフェスは、APIを平易な言語の回答として取得するため、次のことが可能です。
 
-<!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
+* **ジャーニーロジックを理解** – あらゆるジャーニーの分岐、条件、アクションについて、人間が理解できる要約を取得します。
 * **キャンペーンの状況やチャネル設定を簡単な言語で確認し、メニューを操作したり手作業でレポートを取得したりすることなく、即座に回答を得ることができます**。
 * **問題を早期に発見** – 要求した瞬間に、停止したキャンペーン、孤立したドラフト、チャネル設定の問題を表示することで、チームが迅速に行動できるようになります。
 * **ライブデータを中心としたコラボレーション** — マーケター、キャンペーンマネージャー、ステークホルダーは、AI アシスタントを通じて同じ[!DNL Adobe Journey Optimizer] ライブデータをクエリできるため、調整、決定、連携が容易になります。
@@ -66,11 +66,21 @@ Adobe Journey Optimizer MCP Server （Beta）（「Beta」）を使用するこ�
 
 次のツールは、[!DNL Adobe Journey Optimizer] MCP サーバーによって公開されています。
 
+**キャンペーンツール**
+
 | ツール | 説明 |
 |---|---|
 | **キャンペーンのリスト** | [!DNL Adobe Journey Optimizer] マーケティングキャンペーンを参照します。 ステータス（ドラフト、ライブ、停止、完了）によるフィルタリングをサポートします。 |
 | **キャンペーンを取得** | オーディエンスのターゲティング、スケジュール、チャネル、コンテンツ設定など、ID別の特定のキャンペーンの詳細と設定を取得します。 |
 | **チャネル設定のリスト** | 電子メール、SMS、プッシュ通知、WhatsApp チャネルのサーフェスプリセットとブランド設定を表示します。 |
+
+**ジャーニーツール**
+
+| ツール | 説明 |
+|---|---|
+| **すべてのジャーニーを取得** | [!DNL Adobe Journey Optimizer] サンドボックス内のすべてのジャーニーを参照します。 |
+| **ジャーニーを取得** | 分岐、条件、アクションなど、特定のジャーニーのIDごとの詳細を取得します。 |
+| **ジャーニーを視覚化** | インタラクティブなツールでジャーニーをレンダリングし、その構造を探索して視覚的にフローを確認できます。 |
 
 >[!NOTE]
 >
@@ -82,10 +92,10 @@ Adobe Journey Optimizer MCP Server （Beta）（「Beta」）を使用するこ�
 
 | 目標 | プロンプト例 |
 |---|---|
-| **キャンペーンの概要** | Journey Optimizerのキャンペーンをすべて表示する/ Journey Optimizerで設定されているキャンペーンの数を教えてください。 |
-| **ステータス監査** | 現在ライブ中のキャンペーン？ /一時停止または停止したキャンペーンを一覧表示します。 |
-| **キャンペーンの詳細** | キャンペーン [ID]の詳細を確認する/ キャンペーン [ID]で設定されているすべてについて説明します。 |
-| **オーディエンスとターゲティング** | キャンペーン [ID]の対象オーディエンスは何ですか？ / キャンペーン [ID]にはどのような実施要件ルールが設定されていますか？ |
+| **キャンペーンとジャーニーの概要** | すべてのJourney Optimizer キャンペーン/ジャーニーを表示/ Journey Optimizerで設定されているキャンペーン/ジャーニーの数を確認する |
+| **ステータス監査** | 現在公開されているキャンペーン/ジャーニーはどれですか？ /一時停止または停止したキャンペーン/ジャーニーを一覧表示します。 |
+| **キャンペーンとジャーニーの詳細** | キャンペーン [ID]の詳細を確認する/ キャンペーン [ID]で設定されているすべてについて説明します。 / ジャーニー[ID]の詳細を確認/ ジャーニー[ID]で設定されているすべての項目を確認します。 |
+| **オーディエンスとターゲティング** | キャンペーン/ジャーニー[ID]の対象オーディエンスは何ですか？ / キャンペーン/ジャーニー[ID]にはどのような実施要件ルールが設定されていますか？ |
 | **スケジュールとタイミング** | キャンペーン [ID]の実行スケジュールはいつですか？ / キャンペーン [ID]は1回限りの送信または定期的な送信ですか？ |
 | **トラブルシューティング** | キャンペーン [ID]が送信されないのはなぜですか？ / キャンペーン [ID]の設定を確認して、問題がないか確認します。 |
 | **チャネル設定** | サンドボックスにはどのようなチャネルプリセットがありますか？ /すべてのメールチャネル設定を表示する。 |
@@ -96,49 +106,37 @@ Adobe Journey Optimizer MCP Server （Beta）（「Beta」）を使用するこ�
 [!DNL Adobe Journey Optimizer] MCP サーバーをMCP クライアントに接続する前に、次の点を確認してください。
 
 * アクティブな[!DNL Adobe Journey Optimizer] ライセンスがあります。
-* サポートされているMCP互換アプリケーション（現在Claude WebまたはClaude Desktop）にアクセスできます。
-* キャンペーンとオファーを表示するために必要な権限が[!DNL Adobe Journey Optimizer]にあります。
+* サポートされているMCP互換アプリケーション（現在はClaude Web、Claude Desktop、またはCursor）にアクセスできます。
+* キャンペーン、ジャーニー、オファーを表示するために必要な権限が[!DNL Adobe Journey Optimizer]にあります。
 
 ## [!DNL Adobe Journey Optimizer] MCP サーバーを接続します {#mcp-connect}
 
 >[!NOTE]
 >
->この統合はBetaにあります。 詳細な設定手順は、一般公開に達したときに公開されます。 Adobeの担当者に連絡して、早期アクセスをリクエストし、設定手順を受け取る。
+>この統合はBetaにあります。
 
-Betaフェーズでは、Adobeの担当者が次の内容を提供します。
+**Claude Web**、**Claude Desktop**、**Cursor**&#x200B;など、任意のMCP クライアントを介して[!DNL Adobe Journey Optimizer]MCP サーバーを接続できます。
 
-* 組織に固有のMCP サーバーエンドポイント URL。
-* AI アシスタントを[!DNL Adobe Journey Optimizer]に接続するための認証情報。
-* Claude DesktopまたはClaude WebでのMCP サーバーの設定に関するガイダンス。
+**MCP クライアントを介した接続**
 
-<!--
-Step-by-step connection instructions to be added here, including:
-- How to obtain MCP server credentials from [!DNL Adobe Journey Optimizer]
-- How to configure the MCP server in Claude Desktop / Claude Web
-- How to authenticate
--->
+MCP クライアントでMCP サーバーを設定する場合は、次のサーバーエンドポイント URLを使用します。
 
-## 既知の制限事項 {#mcp-limitations}
+`https://ajo-mcp.adobe.io/mcp`
 
-次の制限は、[!DNL Adobe Journey Optimizer] MCP サーバーの現在のBeta リリースに適用されます。
+**Claude WebまたはClaude Desktop経由で接続**
 
-| 制限事項 | 説明 | 回避策 |
-|---|---|---|
-| **エンゲージメントまたはパフォーマンス指標がありません** | MCP サーバーはレポートデータを公開しません。 ツールは、インプレッション数、クリックスルー率、コンバージョン率、配信統計を返しません。 | Journey Optimizer レポート UI、CJA MCP、またはAdobe Analytics MCPを指標に使用します。 AEP クエリサービスは、キャンペーン実行IDを使用して生のイベントデータをクエリできます。 |
-| **キャンペーンリストのページネーションが制限されています** | `List Campaigns`は常に結果の最初のページを返します（最大50 キャンペーン、アルファベット順に並べ替え）。 オフセット値と制限値は適用されないため、大きなサンドボックスでは完全な列挙は実用的ではありません。 | キャンペーン IDまたは名前がわかっている場合は、`Get Campaign`を直接使用します。 Journey Optimizer UIを使用して、リスト全体を参照およびフィルタリングします。 |
-| **日付、チャネル、またはスケジュール別にサーバーサイドのフィルタリングがありません** | `List Campaigns`は、ステータスによるフィルタリングのみをサポートしています。 公開日、スケジュール日、チャネル、またはキャンペーンタイプによるフィルタリングは、サーバーサイドでは使用できません。 | ネイティブの日付およびチャネルフィルタリングをサポートするJourney Optimizer UI キャンペーンリストを使用します。 |
-| **メッセージコンテンツの取得が利用できません** | メッセージコンテンツツールは、すべてのチャネルタイプ（メール、コードベースなど）に対してHTTP 502を返します。 Message HTML、件名、パーソナライゼーショントークン、オファーコンテンツは、MCP経由で取得できません。 | メッセージのコンテンツとパーソナライゼーショントークンを、**キャンペーン/[ キャンペーン ]/コンテンツ**&#x200B;の下のJourney Optimizer UIで直接表示します。 |
+Claude WebまたはClaude DesktopでMCP サーバーを設定するには、**Connectors**&#x200B;に移動し、**Adobe Journey Optimizer**&#x200B;を選択します。
 
 ## よくある質問 {#mcp-faq}
 
 +++どのMCP クライアントがサポートされていますか？
 
-[!DNL Adobe Journey Optimizer] MCP サーバーは現在、**Claude Web**&#x200B;および&#x200B;**Claude Desktop**&#x200B;で利用できます。 今後のリリースで、MCP互換アプリケーションのサポートが追加される可能性があります。
+[!DNL Adobe Journey Optimizer] MCP サーバーは現在、**Claude Web**、**Claude Desktop**、**Cursor**&#x200B;で利用できます。 今後のリリースで、MCP互換アプリケーションのサポートが追加される可能性があります。
 +++
 
 +++MCP経由でアクセスできる[!DNL Adobe Journey Optimizer] オブジェクトは何ですか？
 
-キャンペーン、オファー、サンドボックス情報にアクセスできます。 操作は読み取り専用（取得API）です。書き込み操作は現在のリリースではサポートされていません。
+キャンペーン、ジャーニー、オファー、サンドボックス情報にアクセスできます。 操作は読み取り専用（取得API）です。書き込み操作は現在のリリースではサポートされていません。
 +++
 
 +++[!DNL Adobe Journey Optimizer] MCP サーバーを使用するには、開発者アクセス権が必要ですか？
@@ -153,7 +151,7 @@ Step-by-step connection instructions to be added here, including:
 
 +++[!DNL Adobe Journey Optimizer]でどのような権限が必要ですか？
 
-キャンペーンまたはオファーなど、クエリするオブジェクトに対する最小&#x200B;**表示**&#x200B;権限が必要です。 MCP サーバーは読み取り操作のみを実行するため、書き込み権限は必要ありません。 現在のアクセス レベルが不明な場合は、[!DNL Adobe Journey Optimizer]管理者にお問い合わせください。
+クエリするオブジェクト（キャンペーン、ジャーニー、オファー）に対して、最低&#x200B;**表示**&#x200B;権限が必要です。 MCP サーバーは読み取り操作のみを実行するため、書き込み権限は必要ありません。 現在のアクセス レベルが不明な場合は、[!DNL Adobe Journey Optimizer]管理者にお問い合わせください。
 +++
 
 +++サンドボックス環境でMCP サーバーを使用できますか？

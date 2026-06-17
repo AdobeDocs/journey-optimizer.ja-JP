@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 31%
+source-wordcount: '320'
+ht-degree: 29%
 
 ---
 
-# 受信トレイの作成 {#inbox-create}
+# インボックスの作成 {#inbox-create}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;受信トレイのアクションを使用して、オーディエンスをターゲティングし、スケジュールまたはトリガー化するキャンペーンを作成します。これにより、ユーザーが受信トレイで再訪問できる永続的なメッセージを配信できます。
+
+>[!ENDSHADEBOX]
 
 受信トレイを作成する前に、[受信トレイ設定](inbox-configuration.md)の手順を完了してください。 チャネル設定では、ターゲットアプリケーションやweb サイト、ページやルール、受信トレイがレンダリングされる場所を特定します。
 
