@@ -59,7 +59,7 @@ ht-degree: 0%
 
    ![](assets/inbox-design-3.png)
 
-1. ![ レールアイコン ](assets/do-not-localize/Smock_Rail_18_N.svg)をクリックしてプレビューパネルを開き、空の受信トレイの表示方法を確認します。
+1. ![&#x200B; レールアイコン &#x200B;](assets/do-not-localize/Smock_Rail_18_N.svg)をクリックしてプレビューパネルを開き、空の受信トレイの表示方法を確認します。
 
    ![](assets/inbox-design-3.png)
 
@@ -69,5 +69,5 @@ ht-degree: 0%
 
    ![](assets/inbox-design-4.png)
 
-準備ができたら、設定を確認し、受信トレイを有効にします。 アクティブ化後は、[ コンテンツカード ](../content-card/create-content-card.md)で使用できます。
+準備ができたら、設定を確認し、受信トレイを有効にします。 アクティブ化後は、[&#x200B; コンテンツカード &#x200B;](../content-card/create-content-card.md)で使用できます。
 
