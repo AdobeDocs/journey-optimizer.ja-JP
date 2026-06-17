@@ -8,12 +8,18 @@ topic: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: 56ff1000-7799-40ff-8f03-2f5868d05e7b
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: f03a3a13-9e99-4c7c-a1ae-0f4d07ced35c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b6b77c26-2a48-4a62-9ceb-5ae67f4dfde5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: f03a3a13-9e99-4c7c-a1ae-0f4d07ced35c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b6b77c26-2a48-4a62-9ceb-5ae67f4dfde5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
 workflow-type: tm+mt
 source-wordcount: 1181
