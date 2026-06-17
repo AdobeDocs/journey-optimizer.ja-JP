@@ -233,7 +233,7 @@ Before working with campaigns, make sure you have the following in place:
 
     1. Type in your user's name or email address or select the user from the list and click **[!UICONTROL Save]**.
 
-    If the user was not previously created, refer to the [Add users documentation](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users){target="_blank"}.
+    If the user was not previously created, refer to the [Add users documentation](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
     Your user should then receive an email redirecting to your instance.
 
@@ -340,7 +340,7 @@ As you get more comfortable with campaigns, explore these powerful capabilities:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
 
 **Scheduling & timing**
 
@@ -362,7 +362,7 @@ Enable the **Send Time Optimization** toggle when configuring your campaign or j
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **Rate control**
 
@@ -372,7 +372,7 @@ Limit message throughput to prevent overload on downstream systems like landing 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 **Audience targeting**
 
@@ -382,7 +382,7 @@ Target specific Adobe Experience Platform audiences with precision, and manage a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 **Approval workflows**
 
@@ -392,7 +392,7 @@ Implement review and approval processes before campaigns go live, ensuring quali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 **Quiet hours**
 
@@ -402,7 +402,7 @@ Respect customer preferences by avoiding message delivery during specified time 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **Optimization**
 
