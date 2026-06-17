@@ -6,20 +6,14 @@ description: Adobe Journey Optimizer を使用して調整されたキャンペ�
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/Bu0hEY7jDkL3FkdX09SyUVk80ZFYBUW2fGs9qeSEC5w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 337
-ht-degree: 90%
+source-wordcount: 367
+ht-degree: 80%
 
 ---
 
@@ -58,13 +52,19 @@ ht-degree: 90%
 
 ➡️ [詳しくは、アクティビティの調整方法を参照してください。](../orchestrated/orchestrate-activities.md)
 
-## 手順 3：キャンペーンの開始と監視 {#start}
+## 手順3：パーソナライゼーションの追加 {#personalize}
+
+チャネルアクティビティで、ワークテーブル（エンリッチメント収集配列を含む）のプロファイル属性とターゲット属性を使用してメッセージをパーソナライズします。
+
+➡️ [ オーケストレーションされたキャンペーンにパーソナライゼーションを追加する方法を学ぶ](../orchestrated/add-personalization.md)
+
+## ステップ 4：キャンペーンの開始と監視 {#start}
 
 もうすぐ完了です。 最初にテストモードでキャンペーンを実行し、問題がないか確認します。 次に、キャンペーンを公開し、ライブ実行をリアルタイムで監視します。進行状況を追跡し、エラーを確認し、各手順でプロファイルのフローの確認を行います。
 
 ➡️ [詳しくは、キャンペーンの開始と監視方法を参照してください。](../orchestrated/start-monitor-campaigns.md)
 
-## 手順 4：結果の分析とレポート {#report}
+## ステップ 5：結果の分析とレポート {#report}
 
 ローンチ後は、ビルトインレポートを使用して、何がうまくいったか、何を改善できるかを把握します。 リアルタイムのダッシュボードと詳細な分析により、今後のキャンペーンを最適化し、戦略を改善できます。
 

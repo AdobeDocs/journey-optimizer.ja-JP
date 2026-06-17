@@ -6,17 +6,13 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 46a540ec28ee184b3cb475f64c26d68f6c06d898
+hide: true
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 1822
+source-wordcount: 1951
 ht-degree: 9%
 
 ---
@@ -48,23 +44,21 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 このリリースのオーケストレーション済みキャンペーンには、次の機能と機能強化が導入されています。
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>File-based targeting in Orchestrated campaigns</strong><br/></th>
+<th><strong>オーケストレーションされたキャンペーンでのファイルベースのターゲティング</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Orchestrated campaigns now support loading a <strong>CSV or TXT file</strong> directly into the campaign canvas as the targeting audience, without first ingesting the file into Adobe Experience Platform. The file data is consumed at execution time and is not persisted as an Adobe Experience Platform dataset. During file setup, you can define column mappings, data types, NULL handling, and per-column error policies. Rows that fail validation are rejected and logged before the campaign runs, keeping the audience clean without manual pre-processing. This is particularly suited for ad-hoc sends or partner list campaigns where building a full ingestion pipeline is not practical.</p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>オーケストレーションされたキャンペーンでは、最初にAdobe Experience Platformにファイルを取り込むことなく、<strong>CSVまたはTXT ファイル </strong>をターゲットオーディエンスとしてキャンペーンキャンバスに直接読み込むことがサポートされるようになりました。 ファイルデータは実行時に消費され、Adobe Experience Platform データセットとして保持されません。 ファイルの設定時に、列のマッピング、データタイプ、NULL処理、列ごとのエラーポリシーを定義できます。 検証に失敗した行は、キャンペーンが実行される前に却下され、ログに記録されます。これにより、手作業による事前処理なしでオーディエンスをクリーンに保つことができます。 これは、完全な取り込みパイプラインの構築が実用的ではないアドホック送信やパートナーリストキャンペーンに特に適しています。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 * オーケストレーションされたキャンペーンのリレーショナルデータに対する&#x200B;**ループベースのパーソナライゼーション** - パーソナライゼーションエディターで、注文、アカウント、予約などのリレーショナルコレクションを繰り返し処理し、レコードごとに1つのコンテンツブロックを1つの電子メールまたはSMS内にレンダリングする&#x200B;**ループブロック**&#x200B;がサポートされるようになりました。 コレクションは、パーソナライゼーショントークンを使用してデータピッカーを通じて設定され、式の書き込みは必要ありません。 空のコレクションの処理など、キャンペーンが公開される前に、ループ化されたブロックがサンプルデータに対してどのようにレンダリングされるかをプレビューできます。
 
