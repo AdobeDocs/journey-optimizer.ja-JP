@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: fe8836987038c1d5c26f17f415071a1740f203df
 workflow-type: tm+mt
-source-wordcount: 1951
-ht-degree: 9%
+source-wordcount: 43
+ht-degree: 67%
 
 ---
 
@@ -27,264 +27,24 @@ ht-degree: 9%
 
 Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修正を継続的に提供します。 [リリースノート](release-notes.md)では、各月の終わりにすべての変更がまとめられます。
 
-## 26年6月のプレリリースノート {#june-26-rn}
-
-**以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。 変更が本番環境で公開されると、リンク、画面、更新済みのドキュメントが公開されます。 ほとんどの変更はリリース日に配信されますが、一部は後でロールアウトされる場合があります。詳しくは、各エントリに一覧表示されている公開日を参照してください。
-
-詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
-
-**リリース日**: 2026年6月16日～17日
-
-### ジャーニー {#june-26-journeys}
-
-このリリースでは、次の機能と機能強化がジャーニーに提供されます。
-
-* **ライブジャーニーの制限と新しいガードレールの増加** – 最大&#x200B;**200個のアクティブなジャーニー**&#x200B;を追加でき、以前の制限の100から増やすことができるようになりました。
-
-* **ジャーニーヘッダーの開始日と終了日** - ライブジャーニーで開始日と終了日を設定すると、ライブステータスバッジの横にある&#x200B;**ジャーニーヘッダー**&#x200B;に表示されるようになりました。 表示されるラベルは、各日付が予定されているか、すでに経過しているかに基づいて適応します。
-
-* **一時停止したジャーニーを直接停止または閉じる** - **一時停止**&#x200B;状態から直接&#x200B;**ジャーニーを停止するか、新しいエントリ**&#x200B;に閉じることができるようになりました。 以前は、一時停止したジャーニーを停止または閉じる前に、「ライブ」に再開する必要がありました。
-
-### オーケストレーションキャンペーン {#june-26-oc}
-
-このリリースのオーケストレーション済みキャンペーンには、次の機能と機能強化が導入されています。
-
-<table>
-<thead>
-<tr>
-<th><strong>オーケストレーションされたキャンペーンでのファイルベースのターゲティング</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>オーケストレーションされたキャンペーンでは、最初にAdobe Experience Platformにファイルを取り込むことなく、<strong>CSVまたはTXT ファイル </strong>をターゲットオーディエンスとしてキャンペーンキャンバスに直接読み込むことがサポートされるようになりました。 ファイルデータは実行時に消費され、Adobe Experience Platform データセットとして保持されません。 ファイルの設定時に、列のマッピング、データタイプ、NULL処理、列ごとのエラーポリシーを定義できます。 検証に失敗した行は、キャンペーンが実行される前に却下され、ログに記録されます。これにより、手作業による事前処理なしでオーディエンスをクリーンに保つことができます。 これは、完全な取り込みパイプラインの構築が実用的ではないアドホック送信やパートナーリストキャンペーンに特に適しています。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* オーケストレーションされたキャンペーンのリレーショナルデータに対する&#x200B;**ループベースのパーソナライゼーション** - パーソナライゼーションエディターで、注文、アカウント、予約などのリレーショナルコレクションを繰り返し処理し、レコードごとに1つのコンテンツブロックを1つの電子メールまたはSMS内にレンダリングする&#x200B;**ループブロック**&#x200B;がサポートされるようになりました。 コレクションは、パーソナライゼーショントークンを使用してデータピッカーを通じて設定され、式の書き込みは必要ありません。 空のコレクションの処理など、キャンペーンが公開される前に、ループ化されたブロックがサンプルデータに対してどのようにレンダリングされるかをプレビューできます。
-
-* **受信者とキャンペーンごとにメール送信者の詳細をパーソナライズ** – 統合されたキャンペーンでは、プロファイル属性またはリレーショナルデータを使用して、送信者名、送信者アドレス、返信先を含む&#x200B;**メールヘッダーフィールド**&#x200B;のパーソナライゼーションがサポートされるようになりました。 これにより、送信者の詳細では、単一の企業アドレスを介してすべての送信をルーティングするのではなく、各受信者に関連するアドバイザー、場所、またはブランチを反映できます。 ヘッダー値はチャネルレベルで設定でき、コンテキストデータを使用してキャンペーンごとに上書きすることで、より正確な制御が可能になります。
-
 <!--
-* **Target dimension simplification in Orchestrated campaigns** - The active **targeting dimension** is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
+## June '26 pre-release notes {#june-26-rn}
+
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
+
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Release date**: June 16-17, 2026
+
+### Journeys {#june-26-journeys}
+
+The following capabilities and improvements are coming to journeys in this release.
+
+
+
+
+### Orchestrated campaigns {#june-26-oc}
+
+The following capabilities and improvements are coming to orchestrated campaigns in this release.
+
 -->
-
-### 決定 {#june-26-decisioning}
-
-このリリースでは、次の機能がDecisioningに導入されます。
-
-<table>
-<thead>
-<tr>
-<th><strong>DecisioningでのAdobe Experience Manager コンテンツフラグメントの活用</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Decisioningで<strong>Adobe Experience Manager コンテンツフラグメント </strong>を<strong>決定項目</strong>にマッピングし、決定ポリシー内でそれらを活用して、適切なフラグメントを適切な顧客にタイミングよく配信できるようになりました。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **動的なアイテム属性** – 決定項目のカスタム属性を、プロファイル、コンテキスト、オーディエンスのデータを使用して、配信時にパーソナライズできるようになりました。 これにより、コンテンツのバリエーションを作成するために、重複するオファーを管理する必要がなくなり、マーケターはより少ない項目で柔軟に意思決定をおこなえるようになります。
-
-### メール {#june-26-email}
-
-このリリースでは、次の機能と機能強化がメールチャネルに導入されます。
-
-<table>
-<thead>
-<tr>
-<th><strong>E メールDesignerでのコンテンツ品質チェック</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizerでは、電子メールのDesignerで自動的に技術的な検証を直接実行できるようになりました。これにより、送信前にHTMLとCSSの問題を把握できます。</p>
-<p><code>&lt;script&gt;</code>および<code>&lt;base&gt;</code> タグ、Microsoft Outlookのレイアウトを解除できる空のdiv、HTML metaの更新タグ、Gmailでトリガーレンダリングが失敗するCSSまたはHTML サイズのしきい値など、サポートされていない要素をチェックします。</p>
-<p>結果は、オーサリングパネルで直接エラー、警告、または情報通知として表示され、コンテキストの詳細とワンクリック修正が可能な場合は表示されるので、エディターを離れることなく問題を解決できます。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>電子メールサイズの縮小を有効にする</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizerでは、電子メールのレンダリング方法に影響を与えることなく、不要な空白、コメント、冗長なコードを削除して、電子メールのHTMLのサイズを縮小するオプションが追加されました。</p>
-<p>これにより、一部のメールプロバイダーがメッセージのフラグを立てたり却下したりするためのしきい値を回避することで、配信品質を向上させることができます。また、受信者の読み込み時間を短縮することもできます。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>フラグメントの編集可能フィールドのリッチテキスト</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>メールコンテンツで使用される、カスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。</p>
-<p>例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **画像からHTMLへのコンバーター** – 画像からHTMLへのコンバーター機能の新しいバージョンが利用可能になり、HTML生成の精度が向上しました。 このアップデートでは、より高度なLLM モデルを活用して、画像入力からより正確で信頼性の高いHTML出力を提供します。
-
-+++ 近日公開予定 – **以下の情報は変更される可能性があります**
-
-<table>
-<thead>
-<tr>
-<th><strong>E メールDesignerのモジュール</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>メールDesignerには、ヘッダー、商品カード、情報ブロック、フッターなど、すぐに使用できるレイアウトモジュールのライブラリが含まれています。これらのモジュールをメールキャンバスに直接ドラッグ&amp;ドロップできます。</p>
-<p>各モジュールには編集可能なプロパティ（画像、タイトル、テキスト、ボタン、リンク）が事前に設定されており、WYSIWYGインターフェイスで完全にカスタマイズできるため、構造をゼロから構築することなく、メール作成を高速化できます。</p>
-<p>ご利用いただけます：2026年6月22日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
-### モバイルメッセージ（SMS、MMS、RCS、LINE） {#june-26-mobile}
-
-このリリースでは、モバイルメッセージに次の改善が加えられています。
-
-* **SMS レポートのユニーククリック数** - SMS レポートに新しい&#x200B;**ユニーククリック数** モジュールが導入され、現在メールレポートで使用できるSMSと同じレベルの詳細なパフォーマンストラッキングが実現されました。
-
-* **LINE チャネル – オーサリングの変更** - LINE チャネル UIが高度なメッセージ オーサリング機能でアップグレードされました。 このリリースでは、テキスト、画像、Imagemap、カルーセル、Flex（JSON エディター）など、**複数のメッセージ形式**&#x200B;のサポートが導入され、リアルタイムのデバイスプレビューと共に提供されます。 ユーザーは、最大5つの順序付きメッセージ（追加、削除、並べ替えコントロールを使用）のグループ化されたメッセージを管理し、統合されたパーソナライゼーションエディターを使用して、検証済みの動的メッセージを作成できるようになりました。
-
-* **SMS – 使用状況の指標を表示** - Adobe Journey Optimizerを通じて直接SMSを購入するお客様に対して、新しい&#x200B;**SMS使用状況ダッシュボード**&#x200B;が導入されました。 Mobile Originated （MO）およびMobile Terminated （MT）メッセージで分類された、過去90日間のメッセージ送信指標を表示および追跡できるようになりました。 このデータはCSVでダウンロードすることもでき、SMS費用の可視性と制御を強化します。
-
-### コンテンツと統合 {#june-26-content}
-
-このリリースでは、コンテンツ管理と統合に次の機能と機能強化が導入されています。
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey OptimizerでのAdobe Experience Manager コンテンツフラグメントの機能強化</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>このリリースでは、Journey Optimizer オーサリングワークフロー内で<strong>Adobe Experience Manager コンテンツフラグメント </strong>をより使いやすく、より制御しやすく、より実稼動対応にするための機能強化がいくつか追加されました。</p>
-<ul>
-<li>Journey Optimizerでは、オーサー、パブリッシュ、認証済みパブリッシュ層など、複数のAdobe Experience Manager設定からコンテンツフラグメントを取得できるようになりました。</li>
-<li>フラグメントを選択すると、そのコンテキストはメッセージ全体を通じて保持されるので、作成者は再選択することなく、コンテンツブロック間でフラグメントフィールドを再利用できます。</li>
-<li>新しい専用のコンテンツフラグメントリストページがJourney Optimizerに導入され、ライフサイクル管理が向上しました。同期されていないフラグメントを特定し、手動で同期をトリガーして最新の状態を維持できます。</li>
-<li>ロケールとバリエーションのサポートにより、マーケターは同じコンテンツフラグメントの代替バージョンをより慎重に操作できるようになりました。</li>
-<li>Adobe Journey OptimizerからAdobe Experience Manager コンテンツへのアクセス方法を柔軟に設定できるようになりました。 このリリースでは、ジャーニーとキャンペーンで使用するコンテンツフラグメントのソースリポジトリ </strong>を<strong>切り替える機能が導入されました。</li>
-<li><b>Managed Services</b>との互換性を持つようになり、Adobe Experience Manager コンテンツフラグメントをJourney Optimizerで直接表示、アクセス、使用してパーソナライズできるようになりました。 Adobe Experience Manager Managed Servicesのリポジトリ URLを、1回限りの設定として設定に追加するだけです。</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>ADOBE EXPERIENCE MANAGER Asset EssentialsのAI アシスタントとの統合</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI アシスタントが、メール、Web ページ、プッシュ通知を生成する際に、Adobe Experience Manager Assetsから<b> ブランド承認済み画像</b>を直接自動的に取得するようになりました。 これにより、Assetsを手動で検索したり、汎用的なAI フォールバックを利用したりする必要がなくなり、あらゆるビジュアルが完全に正確で、ブランドに準拠したものになります。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>コンテンツ生成向けAI アシスタントの機能強化</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>このリリースでは、より強力な画像編集、より信頼性の高いブランド抽出、画像フローでのコンテンツ信憑性のサポートにより、<strong>AI アシスタント </strong>のコンテンツ生成エクスペリエンスが向上しました。</p>
-<ul>
-<li>Firefly サードパーティモデルのサポートを含む、画像の生成フローで<strong>AI画像編集</strong>を使用できるようになりました。これにより、アシスタントを終了することなくソース画像を絞り込むことができます。</li>
-<li><strong> ブランドシグナル抽出</strong>は、より高品質な結果を提供します。 選択したページに十分なシグナルがない場合、改善されたフォールバックによって、色、タイポグラフィ、ガイドラインなどのブランド属性が設定されるようになりました。</li>
-<li><strong>Web ベースのブランド抽出</strong>は信頼性が高くなります。 タイムアウト処理の改善により、ページ、ポップアップ、Cookie バナーが抽出をブロックするのを防ぐことができます。</li>
-<li><strong> コンテンツの信頼性（CAI） </strong>が画像フローでサポートされるようになりました。 このリリースでは、参照画像のアップロードの問題も修正され、既存のC2PA マニフェストを持たない画像の処理も改善されています。</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--
-### Campaigns {#june-26-campaigns}
-
-The following improvement is coming to campaigns in this release.
-
-* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default **execution field** set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
--->
-
-### レポート {#june-26-reporting}
-
-このリリースでは、レポートに次の改善が加えられています。
-
-* **電子メールとSMS レポートの推定クリック数** – 電子メールとSMSのジャーニー、キャンペーン、チャネルレポートで、新しい&#x200B;**推定クリック数**&#x200B;指標が利用できるようになりました。 この指標では、特定されたボットと人間ではないインタラクション（NHI）のトラフィックは除外されており、真の顧客エンゲージメントをより明確に把握できます。 既存のクリック数の指標は引き続き使用でき、合計クリック数は引き続き報告されます。
-
-+++ 近日公開予定 – **以下の情報は変更される可能性があります**
-
-* **電子メールとSMS レポートの新しいクリック数値見積もり指標** – 実際の顧客エンゲージメントをより正確に把握するために、ジャーニー、キャンペーン、チャネル レポートで新しい見積もり指標を使用できるようになりました。 次の指標は、レポート情報から人間ではないインタラクション（NHI）やボットクリックを除外するのに役立ちます。
-
-   * 推定CTR：合計配信数に対するクリック数の推定値。
-   * メールの推定CTORのみ：推定開封数に対する推定クリック数。
-
-  利用可能日：2026年6月下旬
-
-+++
-
-### 設定 {#june-26-configuration}
-
-このリリースでは、設定と管理に次の機能強化が加えられています。
-
-* **データセットがストリーミングモードからバッチモードに移行しています** - AJO Message Feedback Event データセットは、ストリーミングモードから&#x200B;**バッチ取り込みモード**&#x200B;に移行しています。 この変更により、データ取り込みがストリーミング取り込み制限を超えないことが確保されます。 このデータセットを Customer Journey Analytics レポートで使用する場合や、このレポートに対してクエリを実行する場合、データ待ち時間が最大 2 時間増加すると予想されます。
-
-+++ 近日公開予定 – **以下の情報は変更される可能性があります**
-
-* **Web Application Firewall （WAF） IP ホワイトリストへの登録** - Adobe Journey Optimizerでは、ランディングページのWeb Application Firewall （WAF） IP ホワイトリストへの登録がサポートされるようになりました。これにより、組織は、すべての着信リクエストが設定されたWAF インフラストラクチャを通じてのみルーティングされるようにすることができます。 この機能強化により、お客様はJourney Optimizerを設定して、WAF レイヤーをバイパスするダイレクトリクエストを拒否し、Impervaなどのツールで定義されたセキュリティポリシーが一貫して適用されるようにすることができます。 この機能により、厳格なネットワークアクセス要件を持つ企業のセキュリティ体制が強化され、AJOでホストされているランディングページへのトラフィックフローを完全に制御できるようになります。
-
-  利用可能日：2026年6月下旬
-
-+++
-
-### 使いやすさの向上 {#june-26-usability}
-
-このリリースでは、次の操作性の改善が行われています。
-
-* **ジャーニーとキャンペーン用のフォルダー** - ジャーニーとキャンペーンを&#x200B;**フォルダー**&#x200B;に整理して、インターフェイスのナビゲーションと管理を改善できるようになりました。
