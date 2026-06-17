@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 877
-ht-degree: 62%
+source-wordcount: 923
+ht-degree: 59%
 
 ---
 
@@ -170,6 +170,11 @@ ht-degree: 62%
 
 1. 「**[!UICONTROL 確認]**」をクリックします。
 
+### メッセージのパーソナライゼーションでの収集データの使用 {#collection-personalization}
+
+**[!UICONTROL Collect data]**&#x200B;でコレクションリンクを設定し、**[!UICONTROL 取得する行（作成する列）]** （例：`3`）を設定すると、エンリッチメント属性は、**[!UICONTROL ターゲット属性] > [!UICONTROL &#x200B; エンリッチメント]**&#x200B;の下のメッセージエディターで使用できます。
+
+➡️ [&#x200B; パーソナライゼーションでエンリッチメント収集データを使用する方法を学ぶ](../add-personalization.md#enrichment-collections)
 
 <!--
 #### Define the sorting{#collection-sorting}

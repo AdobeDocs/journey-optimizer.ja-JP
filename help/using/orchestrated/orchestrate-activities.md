@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 957
-ht-degree: 92%
+source-wordcount: 971
+ht-degree: 89%
 
 ---
 
@@ -121,4 +121,6 @@ ht-degree: 92%
 
 ## 次の手順 {#next}
 
-オーケストレーションキャンペーンキャンバスの設計が完了したら、オーケストレーションキャンペーンを実行し、様々なタスクの進行状況を追跡できます。 [詳しくは、オーケストレーションキャンペーンを開始してその実行を監視する方法を参照してください。](start-monitor-campaigns.md)
+キャンバスにチャネルアクティビティを追加した後、[電子メール、SMS、その他のメッセージでパーソナライゼーション &#x200B;](add-personalization.md)を追加する方法について説明します。
+
+キャンバスの準備ができたら、オーケストレーションされたキャンペーンを実行し、タスクの進捗状況を追跡します。 [詳しくは、オーケストレーションキャンペーンを開始してその実行を監視する方法を参照してください。](start-monitor-campaigns.md)

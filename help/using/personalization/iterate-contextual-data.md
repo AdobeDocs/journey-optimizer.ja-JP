@@ -24,10 +24,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 3109
-ht-degree: 97%
+source-wordcount: 3126
+ht-degree: 96%
 
 ---
 
@@ -52,6 +52,7 @@ Journey Optimizer では、[メッセージのパーソナライゼーション]
 * **[データセット参照](#dataset-lookup)**：Adobe Experience Platform データセットから取得した強化されたデータ
 * **[技術プロパティ](#technical-properties)**：ジャーニー ID や補足識別子などのジャーニーメタデータ
 * **[ジャーニーコンテキスト](#other-contexts)**：実行中にアクセス可能なその他のジャーニー関連データ
+* **オーケストレーションされたキャンペーンエンリッチメントコレクション** （オーケストレーションされたキャンペーンのみ）: [&#x200B; オーケストレーションされたキャンペーンにパーソナライゼーションを追加](../orchestrated/add-personalization.md#enrichment-collections)を参照してください。
 
 このガイドでは、メッセージ内の各ソースからの配列を反復処理する方法と、ジャーニーアクティビティを設定する際に配列を操作する方法について説明します。 メッセージのパーソナライゼーションの基本を理解するには、[Handlebars 反復構文](#syntax)から始めるか、[ジャーニー式での配列の操作](#arrays-in-journeys)を参照して、配列データをカスタムアクションやデータセット参照に渡す方法を学んでください。
 
@@ -526,7 +527,7 @@ context.journey.technicalProperties.supplementalId
 * **[プロファイル属性](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}**（`profile.*`）：Adobe Experience Platform の個々のプロファイルフィールド
 * **[オーディエンス](../audience/about-audiences.md)**（`inAudience()`）：オーディエンスメンバーシップの確認
 * **[オファーの決定](../offers/get-started/starting-offer-decisioning.md)**：意思決定管理オファー
-* **[ターゲット属性](../orchestrated/activities/channels.md#add-personalization)**（オーケストレートキャンペーンのみ）：キャンペーンキャンバスで計算される属性
+* **[ターゲット属性](../orchestrated/add-personalization.md#attributes)** （オーケストレーションされたキャンペーンのみ）：エンリッチメントコレクション配列を含む、キャンペーンキャンバスで計算された属性
 * **トークン**（`context.token`）：セッションまたは認証トークン
 
 これらのソースを使用した完全なパーソナライゼーション構文と例について詳しくは、以下を参照してください。
