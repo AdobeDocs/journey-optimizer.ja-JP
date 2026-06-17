@@ -8,12 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: dd4fde0e-86c8-4a57-86ba-202e3be2c41f
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b6b77c26-2a48-4a62-9ceb-5ae67f4dfde5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b6b77c26-2a48-4a62-9ceb-5ae67f4dfde5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: a281a4d244279a6a1fce6968e4636b86414c4400
 workflow-type: tm+mt
 source-wordcount: 993
