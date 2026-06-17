@@ -7,7 +7,7 @@ ht-degree: 43%
 ---
 Wiki ツールの権限が付与されていません。 チケット自体の詳細情報を使用して進めます。この情報には、主要な仕様が含まれています（デフォルトは500 TPS、パフォーマンスアドオン経由の1000/1500 TPS階層、プッシュ専用、バースト/期間限定の増加をサポート）。
 
----
+&#x200B;---
 
 ソリューション：Journey Optimizer
 製品：journey optimizer
@@ -40,7 +40,7 @@ internal-label: Personalization
 
 更新されたMarkdown ファイルの詳細は次のとおりです。
 
----
+&#x200B;---
 
 ```
 solution: Journey Optimizer
@@ -140,7 +140,7 @@ Interactive Message Execution REST API を使用して、キャンペーンを�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
 
----
+&#x200B;---
 
 キーの追加は、「バージョン情報」と「キーステップ」の間に配置された新しい&#x200B;**プッシュ通知スループット** セクション （`## Push notification throughput {#push-throughput}`）です。これは次のドキュメントです。
 - すべての顧客に対するデフォルトの500 TPSが含まれています
