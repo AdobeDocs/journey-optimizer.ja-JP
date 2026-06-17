@@ -6,20 +6,26 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: 8ef401e6c92d94631f02762e4dc9ffab60657cb4
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # 受信トレイのデザイン {#inbox-design}
 
+>[!BEGINSHADEBOX]
+
+**このページでは：**&#x200B;受信トレイ チャネルのレイアウト、キャパシティ、未読インジケーター、空の状態を設定して、メッセージがブランドに即して読みやすいようにレンダリングし、ターゲット プロファイルに明るいモードと暗いモードで一貫性のある明確なエクスペリエンスを提供します。
+
+>[!ENDSHADEBOX]
+
 インボックスデザインは、インボックスサーフェス内のターゲットプロファイルに各メッセージがどのようにレンダリングされるかを制御します。 この設定には、受信トレイのテンプレート、リストと拡張されたプレゼンテーション、新しいメッセージと既に表示されたメッセージを区別する読み取り状態インジケーターが含まれます。
 
 受信トレイ キャンペーンを作成する手順について詳しくは、[受信トレイを作成](inbox-create.md)を参照してください。
 
-1. 作成した&#x200B;**[!UICONTROL 受信トレイ キャンペーンの]** コンテンツ [&#x200B; タブを開きます](inbox-create.md)。
+1. 作成した[受信トレイ キャンペーンの&#x200B;**[!UICONTROL コンテンツ]** タブを開きます](inbox-create.md)。
 
 1. **[!UICONTROL コンテナタイトル]**&#x200B;を設定します。
 
@@ -53,7 +59,7 @@ ht-degree: 0%
 
    ![](assets/inbox-design-3.png)
 
-1. ![&#x200B; レールアイコン &#x200B;](assets/do-not-localize/Smock_Rail_18_N.svg)をクリックしてプレビューパネルを開き、空の受信トレイの表示方法を確認します。
+1. ![ レールアイコン ](assets/do-not-localize/Smock_Rail_18_N.svg)をクリックしてプレビューパネルを開き、空の受信トレイの表示方法を確認します。
 
    ![](assets/inbox-design-3.png)
 
@@ -63,5 +69,5 @@ ht-degree: 0%
 
    ![](assets/inbox-design-4.png)
 
-準備ができたら、設定を確認し、受信トレイを有効にします。 アクティブ化後は、[&#x200B; コンテンツカード &#x200B;](../content-card/create-content-card.md)で使用できます。
+準備ができたら、設定を確認し、受信トレイを有効にします。 アクティブ化後は、[ コンテンツカード ](../content-card/create-content-card.md)で使用できます。
 
