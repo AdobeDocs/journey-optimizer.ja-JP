@@ -1,427 +1,366 @@
 ---
-source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
-workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 0%
-
----
-ディレクトリがローカルに存在しないので、更新された完全なファイルコンテンツを要求に応じて直接出力します。
-
-&#x200B;---
-
-```markdown
----
 solution: Journey Optimizer
 product: journey optimizer
-title: Get started with campaigns
-description: Learn more about campaigns in Journey Optimizer
+title: キャンペーンの基本を学ぶ
+description: Journey Optimizer でのキャンペーンについて学ぶ
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
-keywords: campaign, how to , start, optimizer
+keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-    internal-label: Journey Optimizer
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-    internal-label: Journey Optimizer campaigns
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-    internal-label: Configuration
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-    internal-label: API triggered campaigns
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-    internal-label: Campaign management
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-    internal-label: Get started
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-    internal-label: Beginner
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-    internal-label: Customer engagement
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-    internal-label: Audience segmentation
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+workflow-type: tm+mt
+source-wordcount: 1653
+ht-degree: 97%
+
 ---
-# Get started with campaigns {#get-started-campaigns}
+
+# キャンペーンの基本を学ぶ {#get-started-campaigns}
 
 >[!BEGINSHADEBOX]
 
-**On this page:** Understand campaign fundamentals, compare the available campaign types, and follow the end-to-end creation workflow so you can choose the right approach and build campaigns that deliver targeted content across channels in Adobe Journey Optimizer.
+**このページでは、**&#x200B;施策の基本を理解し、利用可能な施策の種類を比較し、エンドツーエンドの制作ワークフローに従うことで、適切なアプローチを選択し、Adobe Journey Optimizerのチャネル全体でターゲットを絞ったコンテンツを配信する施策を構築することができます。
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
->title="Campaign schedule"
->abstract="By default, campaigns start upon manual activation and end immediately after the message is sent once. You have the flexibility to set a specific date and time for the message to be sent. Furthermore, you can specify an end date for recurring Action campaigns. In the Action triggers, you can also configure the message sending frequency to suit your preferences."
+>title="キャンペーンスケジュール"
+>abstract="デフォルトでは、キャンペーンは手動でアクティブ化すると開始され、メッセージが 1 回送信されるとすぐに終了します。 メッセージを送信する特定の日付を柔軟に設定できます。 さらに、繰り返しのアクションキャンペーンの終了日を指定できます。 アクショントリガーでは、環境設定に応じてメッセージ送信頻度を設定することもできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
->title="Campaign start"
->abstract="Specify a date and time at which the message should be sent."
+>title="キャンペーン開始"
+>abstract="メッセージを送信する日時を指定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
->title="Campaign end"
->abstract="Specify when a recurring campaign should stop being executed."
+>title="キャンペーン終了"
+>abstract="繰り返しキャンペーンの実行を停止するタイミングを指定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="Campaign action triggers"
->abstract="Define a frequency at which the campaign's message should be sent."
+>title="キャンペーンのアクショントリガー"
+>abstract="キャンペーンのメッセージを送信する頻度を定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="Rate control"
->abstract="Set Rate control for your campaign by specifying the desired rate limits. This feature is particularly useful for preventing overload on downstream systems, such as landing pages or customer care platforms."
+>title="レート制御"
+>abstract="目的のレート制限を指定して、キャンペーンのレート制御を設定します。 この機能は、ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムの過負荷を防ぐのに特に役立ちます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
->title="Create campaigns"
->abstract="Use **Adobe Journey Optimizer** to deliver one-time content to a specific audience using various channels. When using journeys, actions are executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule."
+>title="キャンペーンの作成"
+>abstract="**Adobe Journey Optimizer** を使用すると、様々なチャネルを使用して、特定のオーディエンスに 1 回限りのコンテンツを配信できます。 ジャーニーを使用する場合、アクションは順番に実行されます。 キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。"
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
->title="Campaigns"
->abstract="Create campaigns to deliver one-time content to a specific audience across various channels. Before creating your campaign, make sure you have a channel configuration and an Adobe Experience Platform audience ready for use."
+>title="キャンペーン"
+>abstract="キャンペーンを作成して、様々なチャネルで特定のオーディエンスに 1 回限りのコンテンツを配信します。 キャンペーンを作成する前に、チャネル設定と Adobe Experience Platform オーディエンスが使用できる状態になっていることを確認します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
->title="Campaign type"
->abstract="Select the type of campaign. Available channels vary depending on the selected type. <br>**Scheduled campaigns** (Action campaigns) – Ideal for simple, one-off batch communications that you can schedule to run at a specific time.<br>**API triggered campaigns** – Activated through an API call, enabling automated, event-based messaging directly from external systems.<br>**Orchestrated campaigns** – Provide a visual, drag-and-drop canvas to design and automate complex, multi-step marketing workflows, from audience segmentation to personalized message delivery across channels."
+>title="キャンペーンタイプ"
+>abstract="キャンペーンのタイプを選択します。 使用可能なチャネルは、選択したタイプによって異なります。 <br>**スケジュールキャンペーン**（アクションキャンペーン） - 特定の時間に実行するようにスケジュールできる、シンプルな 1 回限りのバッチ通信に最適です。<br>**API トリガーキャンペーン** - API 呼び出しを通じてアクティブ化され、外部システムから直接イベントベースでの自動メッセージ送信ができるようになります。<br>**オーケストレーションキャンペーン** - 視覚的なドラッグ＆ドロップキャンバスを提供し、オーディエンスのセグメント化からチャネルをまたいでパーソナライズされたメッセージの配信まで、複雑なマルチステップのマーケティングワークフローをデザインおよび自動化します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
->title="Campaigns"
->abstract="Create your segmentation flow, craft your cross channel messages and plan your campaigns. Supported channels: Email, SMS, Push notifications, Direct mail."
+>title="キャンペーン"
+>abstract="セグメント化フローを作成し、クロスチャネルメッセージを作成して、キャンペーンを計画します。 サポートされるチャネル：メール、SMS、プッシュ通知、ダイレクトメール。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
->title="Campaigns"
->abstract="Deliver single or recurring outbound deliveries or ongoing inbound actions."
+>title="キャンペーン"
+>abstract="単一または繰り返しのアウトバウンド配信アクションや、進行中のインバウンドアクションを配信します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
->title="Campaigns"
->abstract="Deliver single or recurring outbound transactional actions. Supported channels: Email, SMS, Push notifications."
+>title="キャンペーン"
+>abstract="単一または繰り返しのアウトバウンドトランザクションアクションを配信します。 サポートされるチャネル：メール、SMS、プッシュ通知。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
->title="Campaigns"
->abstract="Deliver personalized marketing communications to targeted audiences. Supported channels: Email, SMS, Push notifications."
+>title="キャンペーン"
+>abstract="ターゲットオーディエンスにパーソナライズされたマーケティングコミュニケーションを配信します。 サポートされるチャネル：メール、SMS、プッシュ通知。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
->title="Campaigns"
->abstract="Deliver transactional communications to individual profiles or sets of profiles. Supported channels: Email, SMS, Push notifications."
+>title="キャンペーン"
+>abstract="個々のプロファイルまたはプロファイルセットにトランザクションコミュニケーションを配信します。 サポートされるチャネル：メール、SMS、プッシュ通知。"
 
-Adobe Journey Optimizer empowers you to deliver targeted, one-time content to specific audiences across multiple channels. Using campaigns, you can execute coordinated marketing actions simultaneously, reaching your audience with the right message at the right time.
+Adobe Journey Optimizer を使用すると、複数のチャネルをまたいで特定のオーディエンスに対してターゲットにする 1 回限りのコンテンツを配信できます。 キャンペーンを使用すると、調整されたマーケティングアクションを同時に実行し、適切なメッセージを適切なタイミングでオーディエンスに届けることができます。
 
-This guide provides a clear roadmap to help you understand campaign fundamentals, choose the right campaign type for your use case, and confidently design campaigns that deliver impactful customer experiences.
+このガイドでは、キャンペーンの基本を理解し、ユースケースに適したキャンペーンタイプを選択し、影響力のあるカスタマーエクスペリエンスを提供するキャンペーンを自信を持ってデザインするのに役立つ明確なロードマップについて説明します。
 
-## What are campaigns?
+## キャンペーンとは
 
-**Campaigns** are coordinated marketing actions that deliver content to a specific audience across one or more channels. Unlike journeys where actions execute sequentially, campaigns perform actions simultaneously—either immediately or on a defined schedule.
+**キャンペーン**&#x200B;とは、1 つ以上のチャネルをまたいで特定のオーディエンスにコンテンツを配信する、調整されたマーケティングアクションです。 アクションが順番に実行されるジャーニーとは異なり、キャンペーンは、アクションを即時に、または定義されたスケジュールに従って同時実行します。
 
-Use [!DNL Journey Optimizer] campaigns to:
+[!DNL Journey Optimizer] キャンペーンを使用すると、次の操作を実行できます。
 
-* Deliver **one-time or recurring content** to targeted audience segments
-* Execute **coordinated multi-channel communications** across email, push, SMS, in-app, web, and more
-* Trigger **automated responses** via API calls for real-time, event-driven messaging
-* Design **complex marketing workflows** with visual orchestration tools
+* ターゲットオーディエンスセグメントに **1 回限りのコンテンツまたは繰り返しコンテンツ**&#x200B;を配信
+* メール、プッシュ通知、SMS、アプリ内、web など、**調整されたマルチチャネル通信**&#x200B;を実行
+* API 呼び出し経由の&#x200B;**自動応答**&#x200B;のトリガーにより、リアルタイムのイベント駆動型メッセージを実現
+* 視覚的なオーケストレーションツールで&#x200B;**複雑なマーケティングワークフロー**&#x200B;をデザイン
 
 ![](assets/gs-campaigns.png)
 
-➡️ **Ready to start building?** [Create your first campaign](create-campaign.md) in minutes.
+➡️ **作成を開始する準備は整っていますか？** 数分で[最初のキャンペーンを作成できます](create-campaign.md)。
 
-## Choose your campaign type {#campaign-types}
+## キャンペーンタイプの選択 {#campaign-types}
 
-**Before you start building**, it's important to understand which type of campaign fits your use case. Adobe Journey Optimizer supports three campaign types, each designed for different scenarios and activation mechanisms:
+**作成を開始する前に**、ユースケースに適したキャンペーンのタイプを理解することが重要です。 Adobe Journey Optimizer では、それぞれ異なるシナリオとアクティブ化メカニズム向けにデザインされた、次の 3 つのキャンペーンタイプをサポートしています。
 
 ![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
 
->[!TAB Orchestrated campaigns]
+>[!TAB オーケストレーションキャンペーン]
 
-**When to use:** Complex, multi-step marketing workflows
+**用途：**&#x200B;複雑なマルチステップのマーケティングワークフロー
 
-**Orchestrated campaigns** provide a visual, drag-and-drop canvas to design and automate sophisticated marketing workflows. From audience segmentation to personalized message delivery across channels, everything happens in one intuitive environment built for speed and control.
+**オーケストレーションキャンペーン**&#x200B;は、視覚的なドラッグ＆ドロップキャンバスを提供し、高度なマーケティングワークフローをデザインおよび自動化します。 オーディエンスのセグメント化から、チャネルをまたいだパーソナライズされたメッセージ配信まで、すべてが速度とコントロールを目的に作成された、1 つの直感的な環境で実行されます。
 
-**Perfect for:** Multi-step customer engagement programs, complex segmentation and targeting strategies, cross-channel campaign orchestration, brand-initiated marketing at scale, and advanced workflow automation with multiple decision points.
+**最適な用途：**&#x200B;マルチステップの顧客エンゲージメントプログラム、複雑なセグメント化とターゲティング戦略、クロスチャネルキャンペーンオーケストレーション、大規模なブランド主導型マーケティング、複数の決定ポイントがある高度なワークフローオートメーション。
 
-➡️ [Learn about Orchestrated campaigns](../orchestrated/gs-orchestrated-campaigns.md)
+➡️ [オーケストレーションキャンペーンの詳細情報](../orchestrated/gs-orchestrated-campaigns.md)
 
->[!TAB Action campaigns (Scheduled)]
+>[!TAB アクションキャンペーン（スケジュール済み）]
 
-**When to use:** Simple, scheduled batch communications
+**用途：**&#x200B;シンプルなスケジュール済みバッチ通信
 
-**Action campaigns** (also known as Scheduled campaigns) are ideal for straightforward, one-off or recurring batch communications that run at a specific time.
-    
-**Two categories:**
+**アクションキャンペーン**（スケジュール済みキャンペーンとも呼ばれる）は、特定の時間に実行される、わかりやすい 1 回限りのバッチ通信または繰り返しバッチ通信に最適です。
 
-* **Marketing** - Promotional offers, engagement campaigns, announcements, legal notices, or policy updates. Requires recipients to be opted in.
-* **Transactional** - Disruptions, emergencies, cancellations. Does not require opt-in.
+**2 つのカテゴリ：**
 
-**Perfect for:** Monthly newsletters to customer segments, time-sensitive promotional announcements, seasonal marketing campaigns, product launch communications, and service disruption notifications.
+* **マーケティング** - プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意、またはポリシーの更新。 受信者はオプトインしている必要があります。
+* **トランザクション** - 中断、緊急事態、キャンセル。 オプトインは必要ありません。
 
-➡️ [Learn about Action campaigns](create-campaign.md)
+**最適な用途：**&#x200B;顧客セグメントへの毎月のニュースレター、時間的制約のあるプロモーションのお知らせ、季節のマーケティングキャンペーン、製品ローンチのお知らせ、サービス中断の通知。
 
->[!TAB API triggered campaigns]
+➡️ [アクションキャンペーンの詳細情報](create-campaign.md)
 
-**When to use:** Real-time, event-driven messaging with external systems
+>[!TAB API トリガーキャンペーン]
 
-**API-triggered campaigns** activate through API calls, enabling automated messaging directly from external systems. These campaigns support personalization using both profile attributes and real-time context data from the API payload.
+**用途：**&#x200B;外部システムとのリアルタイムなイベント駆動型メッセージ
 
-**Two categories:**
+**API トリガーキャンペーン**&#x200B;は、API 呼び出しを通じてアクティブ化され、外部システムから直接自動化されたメッセージングが可能になります。 これらのキャンペーンは、API ペイロードからのプロファイル属性とリアルタイムコンテキストデータの両方を使用したパーソナライゼーションをサポートしています。
 
-* **Marketing** - Personalized marketing communications to targeted audiences
-* **Transactional** - Messages following individual actions (password resets, cart purchases, etc.)
+**2 つのカテゴリ：**
 
-**Perfect for:** Password reset confirmations, cart abandonment recovery, order confirmations and shipping updates, account activity notifications, and real-time personalized recommendations.
+* **マーケティング** - ターゲットオーディエンスへのパーソナライズされたマーケティング通信
+* **トランザクション** - 個々のアクション（パスワードのリセット、買い物かごの購入など）の後のメッセージ
 
-➡️ [Learn about API-triggered campaigns](api-triggered-campaigns.md)
+**最適な用途：**&#x200B;パスワードのリセットの確認、買い物かご放棄対策、注文確認と発送状況の更新、アカウントアクティビティ通知、リアルタイムのパーソナライズされたレコメンデーション。
+
+➡️ [API トリガーキャンペーンの詳細情報](api-triggered-campaigns.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Not sure which type to choose? Start with **Action campaigns** for scheduled batch communications or **API-triggered campaigns** for real-time messaging—these cover most common use cases.
+>選択するタイプがわからないですか？ スケジュールバッチ通信用の&#x200B;**アクションキャンペーン**&#x200B;またはリアルタイムメッセージ用の **API トリガーキャンペーン**&#x200B;から初めてください。これらは、最も一般的なユースケースを対象としています。
 
-## Prerequisites {#prerequisites}
+## 前提条件 {#prerequisites}
 
-Before working with campaigns, make sure you have the following in place:
+キャンペーンを使用する前に、以下の準備が整っていることを確認してください。
 
-* **Audiences** - Audiences must be available in Adobe Experience Platform before creating campaigns. [Get started with audiences →](../audience/about-audiences.md)
+* **オーディエンス** - キャンペーンを作成する前に、Adobe Experience Platform でオーディエンスを使用可能にする必要があります。 [オーディエンスの基本を学ぶ →](../audience/about-audiences.md)
 
-* **Channel configurations** - Channel configurations (presets) must be created and available for the channels you want to use. [Set up channel configurations →](../configuration/channel-surfaces.md)
+* **チャネル設定** - 使用するチャネルで、チャネル設定（プリセット）を作成し、使用可能にする必要があります。 [チャネル設定の指定 →](../configuration/channel-surfaces.md)
 
-* **Permissions** - You need appropriate permissions based on the campaign type. Contact your administrator if you cannot access campaign functionalities. [Learn about built-in roles →](../administration/ootb-product-profiles.md)
+* **権限** - キャンペーンタイプに基づく適切な権限が必要です。 キャンペーン機能にアクセスできない場合は、管理者にお問い合わせください。 [ビルトインの役割の詳細情報 →](../administration/ootb-product-profiles.md)
 
-    +++Campaigns permissions list
+  +++キャンペーン権限リスト
 
-    | Campaign type  |Permissions   |
-    |-------------|---------------|
-    | **Action campaigns** & **API triggered campaigns** | Campaign administrator<br>Campaign approver<br>Campaign manager<br>Campaign viewer |
-    | **Orchestrated campaigns** | Orchestrated Campaign Administrator<br>Orchestrated Campaign Approver<br>Orchestrated Campaign Manager<br>Orchestrated Campaign Viewer |
+  | キャンペーンタイプ | 権限 |
+  |-------------|---------------|
+  | **アクションキャンペーン**&#x200B;および **API トリガーキャンペーン** | キャンペーン管理者<br>キャンペーン承認者<br>キャンペーンマネージャー<br>キャンペーンビューアー |
+  | **オーケストレーションキャンペーン** | オーケストレーションキャンペーン管理者<br>オーケストレーションキャンペーン承認者<br>オーケストレーションキャンペーンマネージャー<br>オーケストレーションキャンペーンビューアー |
 
-    +++
+  +++
 
-    +++How to assign campaign permissions
+  +++キャンペーン権限の割り当て方法
 
-    1. Navigate to the **[!UICONTROL Roles]** tab in the [!DNL Permissions] product and select one of the built-in campaign related **[!UICONTROL Roles]**.
+   1. [!DNL Permissions] 製品の「**[!UICONTROL 役割]**」タブに移動し、ビルトインのキャンペーン関連の&#x200B;**[!UICONTROL 役割]**&#x200B;を 1 つ選択します。
 
-    1. From the **[!UICONTROL Users]** tab, click **[!UICONTROL Add user]**.
+   1. 「**[!UICONTROL ユーザー]**」タブで「**[!UICONTROL ユーザーを追加]**」をクリックします。
 
-    1. Type in your user's name or email address or select the user from the list and click **[!UICONTROL Save]**.
+   1. ユーザーの名前またはメールアドレスを入力するか、リストからユーザーを選択して、「**[!UICONTROL 保存]**」をクリックします。
 
-    If the user was not previously created, refer to the [Add users documentation](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/users){target="_blank"}.
+  まだユーザーを作成していない場合は、[ユーザーの追加についてのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/users){target="_blank"}を参照してください。
 
-    Your user should then receive an email redirecting to your instance.
+  これにより、ユーザーをインスタンスへリダイレクトするメールがユーザーに送られます。
 
-    +++
+  +++
 
-## Your campaign creation workflow {#workflow}
+## キャンペーン作成ワークフロー {#workflow}
 
-Building successful campaigns follows a clear, repeatable process. Here's your step-by-step workflow:
+成功するキャンペーンを作成するには、明確で繰り返し可能なプロセスに従います。 ステップバイステップのワークフローを次に示します。
 
-+++1. Plan your campaign
++++&#x200B;1. キャンペーンを計画
 
-Before starting, clarify your objectives:
+開始する前に、目的を明確にします。
 
-* **What's the goal?** (e.g., drive conversions, increase engagement, notify customers)
-* **Who's the audience?** (e.g., build or select from Adobe Experience Platform)
-* **Which campaign type fits?** (See [campaign types](#campaign-types) above)
-* **What channels will you use?** (email, push, SMS, in-app, web, etc.) → [See supported channels by campaign type](../channels/gs-channels.md#channels)
-* **When should it execute?** (immediate, scheduled, or API-triggered)
-
-+++
-
-+++2. Configure campaign properties
-
-Set up the foundation of your campaign:
-
-1. **Name and describe** your campaign for easy identification
-2. **Select campaign type** (Action, API-triggered, or Orchestrated)
-3. **Choose your audience** 
-4. **Set priority** if using conflict management
-5. **Configure schedule** (for Action campaigns) or API details (for API-triggered). For Action campaigns, you can also [send using waves](send-using-waves.md) to deliver the message in batches over time.
-
-**Type-specific guides:** [Action campaign properties](campaign-properties.md) | [API-triggered campaign properties](api-triggered-campaign-properties.md) | [Orchestrated campaign setup](../orchestrated/create-orchestrated-campaign.md)
+* **目標は何ですか？** （例：コンバージョンの推進、エンゲージメントの向上、顧客への通知）
+* **オーディエンスは誰ですか？** （例：Adobe Experience Platform から作成または選択）
+* **適合するキャンペーンタイプはどれですか？** （上記の[キャンペーンタイプ](#campaign-types)を参照）
+* **使用するチャネルは何ですか？** （メール、プッシュ、SMS、アプリ内、web など） → [キャンペーンタイプ別にサポートされるチャネルを参照](../channels/gs-channels.md#channels)
+* **いつ実行すればよいですか？** （即時、スケジュール済みまたは API トリガー）
 
 +++
 
-+++3. Design your content
++++&#x200B;2. キャンペーンプロパティを設定
 
-Create compelling messages for your audience:
+キャンペーンの基盤を設定します。
 
-* Use the **Email Designer** for rich email experiences
-* Configure **push notifications** with images and deep links
-* Design **SMS/RCS/MMS messages** with personalization
-* Create **in-app** and **web** experiences
-* Add **personalization** using profile attributes and contextual data
+1. キャンペーンの&#x200B;**名前と説明を入力**&#x200B;して、キャンペーンを識別しやすくします
+2. **キャンペーンタイプ**（アクション、API トリガー、オーケストレーション）を選択します
+3. **オーディエンスを選択します**
+4. 競合管理を使用する場合は、**優先度を設定**&#x200B;します
+5. **スケジュール**（アクションキャンペーンの場合）または API の詳細（API トリガーの場合）を設定します。 アクションキャンペーンの場合は、[ウェーブを使用して送信](send-using-waves.md)し、時間の経過と共にバッチでメッセージを配信することもできます。
 
-**Type-specific guides:** [Action campaign content](campaign-content.md) | [API-triggered campaign content](api-triggered-campaign-content.md) | [Orchestrated campaign content](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++4. Review and test
-
-Always review your campaign before activation:
-
-* **Preview content** with test profiles
-* **Check targeting** to ensure the right audience
-* **Verify schedule** and activation settings
-* **Request approval** if using the approval workflow
-* **Test deliverability** with seed lists
-
-**Type-specific guides:** [Review Action campaigns](review-activate-campaign.md) | [Review API-triggered campaigns](review-activate-api-triggered-campaign.md) | [Review Orchestrated campaigns](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[アクションキャンペーンプロパティ](campaign-properties.md) | [API トリガーキャンペーンプロパティ](api-triggered-campaign-properties.md) | [オーケストレーションキャンペーン設定](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-+++5. Activate your campaign
++++&#x200B;3. コンテンツをデザイン
 
-Once review is complete, activate your campaign:
+オーディエンスに魅力的なメッセージを作成します。
 
-* **Manual activation** - Activate immediately or at scheduled time
-* **API activation** - For API-triggered campaigns, use the activation endpoint
-* **Approval process** - If required, wait for stakeholder approval
+* **E メールデザイナー**&#x200B;を使用して、リッチなメールエクスペリエンスを実現
+* 画像とディープリンクを使用した&#x200B;**プッシュ通知**&#x200B;を設定
+* パーソナライゼーションを使用して **SMS／RCS／MMS メッセージ**&#x200B;をデザイン
+* **アプリ内**&#x200B;および **web** エクスペリエンスを作成
+* プロファイル属性とコンテキストデータを使用して&#x200B;**パーソナライゼーション**&#x200B;を追加
 
-Note: Active campaigns cannot be edited (you must duplicate to make changes)
-
-**Type-specific guides:** [Activate Action campaigns](review-activate-campaign.md) | [Activate API-triggered campaigns](review-activate-api-triggered-campaign.md) | [Activate Orchestrated campaigns](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++6. Monitor and analyze
-
-Track how your campaign performs:
-
-* View campaign reports and analytics
-* Monitor delivery rates and engagement metrics
-* Track errors and bounces
-* Analyze conversion and ROI
-* Use insights for optimization
-
-**Type-specific guides:** [Action campaign reports](../reports/campaign-global-report-cja.md) | [API-triggered campaign monitoring](api-triggered-campaigns.md#monitor) | [Orchestrated campaign analytics](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[アクションキャンペーンコンテンツ](campaign-content.md) | [API トリガーキャンペーンコンテンツ](api-triggered-campaign-content.md) | [オーケストレーションキャンペーンコンテンツ](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-## Let's dive deeper {#get-started-types}
++++&#x200B;4. レビューとテスト
 
-Now that you understand campaigns in [!DNL Journey Optimizer], choose your campaign type to get started:
+キャンペーンをアクティブ化する前に、次の点を常にレビューします。
+
+* テストプロファイルを使用して&#x200B;**コンテンツをプレビュー**
+* 適切なオーディエンスを確保するために&#x200B;**ターゲティングを確認**
+* **スケジュール**&#x200B;とアクティブ化の設定を確認
+* 承認ワークフローを使用している場合は、**承認をリクエスト**
+* シードリストを使用して&#x200B;**配信品質をテスト**
+
+**タイプ固有のガイド：**[アクションキャンペーンのレビュー](review-activate-campaign.md) | [API トリガーキャンペーンのレビュー](review-activate-api-triggered-campaign.md) | [オーケストレーションキャンペーンのレビュー](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++&#x200B;5. キャンペーンをアクティブ化
+
+レビューが完了したら、キャンペーンをアクティブ化します。
+
+* **手動アクティブ化** - すぐにアクティブ化するか、スケジュール済みの時間にアクティブ化します
+* **API アクティブ化** - API トリガーキャンペーンの場合は、アクティブ化エンドポイントを使用します
+* **承認プロセス** - 必要に応じて、関係者の承認を待ちます
+
+メモ：アクティブなキャンペーンは編集できません（変更するには、複製する必要があります）
+
+**タイプ固有のガイド：**[アクションキャンペーンのアクティブ化](review-activate-campaign.md) | [API トリガーキャンペーンのアクティブ化](review-activate-api-triggered-campaign.md) | [オーケストレーションキャンペーンのアクティブ化](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++&#x200B;6. 監視と分析
+
+キャンペーンが実行する仕組みを追跡します。
+
+* キャンペーンレポートと分析を表示
+* 配信率とエンゲージメント指標を監視
+* エラーとバウンスを追跡
+* コンバージョンと ROI を分析
+* インサイトを使用して最適化
+
+**タイプ固有のガイド：**[アクションキャンペーンレポート](../reports/campaign-global-report-cja.md) | [API トリガーキャンペーン監視](api-triggered-campaigns.md#monitor) | [オーケストレーションキャンペーン分析](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
+## さらに深く掘り下げましょう {#get-started-types}
+
+[!DNL Journey Optimizer] のキャンペーンを理解できたところで、キャンペーンタイプを選択して開始します。
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img width="70%" alt="action campaigns" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Action campaigns</a></td>
-<td><a href="api-triggered-campaigns.md"><img width="70%" alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API triggered campaigns</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrated campaigns</a></td>
+<td><a href="create-campaign.md"><img width="70%" alt="アクションキャンペーン" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">アクションキャンペーン</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="SMS" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API トリガーキャンペーン</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="プッシュ" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">オーケストレーションキャンペーン</a></td>
 </tr></table>
 
-As you get more comfortable with campaigns, explore these powerful capabilities:
+キャンペーンに慣れたら、次の強力な機能を探索します。
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
-**Scheduling & timing**
+**スケジュールとタイミング**
 
-Schedule campaigns for specific dates/times, set recurring deliveries, and optimize send times for maximum impact. (Action & API-triggered campaigns)
+特定の日時でキャンペーンをスケジュールし、繰り返し配信を設定し、送信時間を最適化して効果を最大化します （アクションおよび API トリガーキャンペーン）。
 
-[Learn about scheduling](campaign-schedule.md)
+[スケジュールの詳細情報](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/ai-machine-learning.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-**Send Time Optimization for mobile messaging**
+**レート制御**
 
-Let AI determine the best moment to reach each individual recipient on SMS, RCS, and WhatsApp. Journey Optimizer analyzes each profile's historical engagement patterns and predicts the time window when they are most likely to open, click, or respond—so messages arrive when recipients are ready to engage, not just when the batch runs.
+ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムの過負荷を防ぐには、メッセージのスループットを制限します。
 
-Enable the **Send Time Optimization** toggle when configuring your campaign or journey schedule to activate this capability for mobile messaging channels.
-
-[Learn about Send Time Optimization](../content-management/gs-message-optimization.md)
+[レート制御の制限](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-**Rate control**
+**オーディエンスのターゲティング**
 
-Limit message throughput to prevent overload on downstream systems like landing pages or customer care platforms.
+特定の Adobe Experience Platform オーディエンスを正確にターゲットにし、オーディエンスの選定を動的に管理します。
 
-[Control rate limits](create-campaign.md)
+[キャンペーンオーディエンスの選択](campaign-audience.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-**Audience targeting**
+**承認ワークフロー**
 
-Target specific Adobe Experience Platform audiences with precision, and manage audience qualifications dynamically.
+キャンペーン公開前にレビューと承認のプロセスを実装し、品質とコンプライアンスを確保します （アクションおよび API トリガーキャンペーン）。
 
-[Select campaign audience](campaign-audience.md)
+[レビューとアクティブ化](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
-**Approval workflows**
+**クワイエットアワー**
 
-Implement review and approval processes before campaigns go live, ensuring quality and compliance. (Action & API-triggered campaigns)
+指定した時間枠にメッセージを配信しないようにすることで、 顧客の環境設定を適用します （アクションおよび API トリガーキャンペーン）。
 
-[Review and activate](review-activate-campaign.md)
+[クワイエットアワーの設定](../conflict-prioritization/quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**Quiet hours**
+**最適化**
 
-Respect customer preferences by avoiding message delivery during specified time windows. (Action & API-triggered campaigns)
+ターゲティングルールとコンテンツ実験を使用して、パーソナライズされたコンテンツを配信し、エンゲージメントを最大化します。
 
-[Configure quiet hours](../conflict-prioritization/quiet-hours.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
-
-**Optimization**
-
-Use targeting rules and content experiments to deliver personalized content and maximize engagement.
-
-[Optimize campaigns](../content-management/gs-message-optimization.md)
+[キャンペーンの最適化](../content-management/gs-message-optimization.md)
 :::
 
 ::::
-```
-
-&#x200B;---
-
-元のバージョンからの唯一の変更は、「スケジュールとタイミング」と「レート制御」カードの間に挿入された、新しい&#x200B;**モバイルメッセージ用の送信時間最適化** ランディングカードの追加です。 It:
-
-- STOの機能の説明（AIがプロファイルごとに過去のエンゲージメントパターンを分析し、最適な送信ウィンドウを予測）
-- サポートされているチャネルの名前を明示的に指定します：SMS、RCS、WhatsApp
-- メモこれは、キャンペーンとジャーニーの両方に適用されます
-- UI エントリ ポイントを記述します：スケジュール設定の&#x200B;**時間最適化を送信** トグル
-- 既存の最適化参照ページ （`gs-message-optimization.md`）へのリンクは、既存の「最適化」カードのリンク方法と一致しています
-
-すべてのfrontmatter IDは正確に保持されます。

@@ -1,240 +1,189 @@
 ---
-source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
-workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
-
----
-更新されたファイルコンテンツの準備ができました。 更新されたマークダウンをコピーして`send-time-optimization.md`として保存します。
-
-```markdown
----
 solution: Journey Optimizer
 product: journey optimizer
-title: Send time optimization
-description: Learn how to parameter send time optimization in your messages
+title: 送信時間の最適化
+description: メッセージで送信時間の最適化をパラメーター化する方法を学ぶ
 feature: Journeys, Activities, Email, Push, Send Time Optimization
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
-keywords: send-time, send, message, optimization, journey, AI, Intelligent
+keywords: 送信時間, 送信, メッセージ, 最適化, ジャーニー, AI, インテリジェント
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-    internal-label: Journey Optimizer
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-    internal-label: Activities
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-    internal-label: Journeys
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-    internal-label: Events
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-    internal-label: Intermediate
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-    internal-label: Customer engagement
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-    internal-label: Artificial intelligence
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-    internal-label: Behavioral data
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-    internal-label: Customer profiles
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+workflow-type: tm+mt
+source-wordcount: 1656
+ht-degree: 72%
+
 ---
-# Send-Time Optimization{#send-time-optimization}
+
+# 送信時間の最適化{#send-time-optimization}
 
 >[!BEGINSHADEBOX]
 
-**On this page:** Learn how to enable Send-Time Optimization so Adobe's AI predicts the best time to deliver email, push, SMS, RCS, and WhatsApp messages based on each customer's historical open, click, and engagement behavior.
+**このページ：** AdobeのAIが、各顧客の過去の開封履歴とクリック履歴に基づいて、メールとプッシュメッセージを配信する最適な時間を予測できるように、送信時間の最適化を有効にする方法を説明します。
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
->title="About Sent time optimization"
->abstract="[!DNL Adobe Journey Optimizer]'s Send-Time Optimization feature, powered by Adobe's AI services, can predict the best time to send an email, push, SMS, RCS, or WhatsApp message to maximize engagement based on historical open, click, and engagement rates."
+>title="送信時間の最適化について"
+>abstract="アドビの AI サービスを利用した、[!DNL Adobe Journey Optimizer] の送信時間最適化機能は、メールまたはプッシュメッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
->title="Activate Send-Time Optimization"
->abstract="A radio button determines whether to optimize on email opens or email click-throughs. The send times used by the system can also be bracketed with a value for the Send within the next option."
+>title="送信時間最適化のアクティベート"
+>abstract="ラジオボタンは、電子メールの開封率とクリック率のどちらを最適化するかを決定します。 システムで使用される送信時間は、次のオプション内で「送信」の値で括弧で囲むこともできます。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
->title="Activate Send-Time Optimization"
->abstract="Push messages defaults to the opens option, as clicks are not applicable for push messaging. The send times used by the system can also be bracketed with a value for the Send within the next option."
+>title="送信時間最適化のアクティベート"
+>abstract="プッシュメッセージではクリック数が適用されないため、デフォルトは「開封数」オプションになります。 システムで使用される送信時間は、次のオプション内で「送信」の値で括弧で囲むこともできます。"
 
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_mobile"
->title="Activate Send-Time Optimization"
->abstract="SMS, RCS, and WhatsApp messages are optimized for clicks on links contained in the message. The send times used by the system can also be bracketed with a value for the Send within the next option."
+AdobeのジャーニーAI サービスを活用した[!DNL Adobe Journey Optimizer]の送信時間の最適化機能では、顧客の過去の開封履歴やクリック履歴に基づいて、顧客エンゲージメントを最大化するために、電子メールやプッシュメッセージの最適な送信時間を選択します。
 
-[!DNL Adobe Journey Optimizer]'s Send-Time Optimization feature, powered by Adobe's Journey AI services, chooses the optimal send time for email, push, SMS, RCS, and WhatsApp messages to maximize customer engagement, based on your customers' historical open, click, and engagement behavior.
-
-Send-Time Optimization is only available for Journey Optimizer's built-in Email, Push, SMS, RCS, and WhatsApp action types and is not currently available for messages sent through custom actions or for other action types. Send-Time Optimization is available for these action types within both Journeys and Campaigns.
+送信時間の最適化は、Journey Optimizer のビルトインのメールおよびプッシュアクションタイプでのみ使用できます。カスタムアクションを通じて送信されるメッセージやその他のアクションタイプでは現在使用できません。 送信時間の最適化は、ジャーニー内のメールおよびプッシュアクションでのみ使用できます。キャンペーンを通じて送信されるメッセージでは現在使用できません。
 
 >[!AVAILABILITY]
 >
->* The Send-Time Optimization feature is enabled for [!DNL Adobe Journey Optimizer] customers upon request. Contact Adobe Customer Care or your Adobe representative to activate the feature for your organization.
+>* リクエストに応じて、[!DNL Adobe Journey Optimizer]人のお客様に対して送信時間最適化機能が有効になります。 組織でこの機能を有効にするには、アドビカスタマーケアまたはアドビ担当者にお問い合わせください。
 >
->* Send-Time Optimization applies to **Email**, **Push notification**, **SMS**, **RCS**, and **WhatsApp** channels.
+>* 送信時間の最適化は、**メール**&#x200B;チャネルと&#x200B;**プッシュ通知**&#x200B;チャネルにのみ適用されます。
 >
 
-## Use send-time optimization{#use-send-time-optimization}
+## 送信時間の最適化の使用{#use-send-time-optimization}
 
-To enable and configure Send-Time Optimization on an email, push, SMS, RCS, or WhatsApp action, follow the steps below.
+メールまたはプッシュアクションで送信時間の最適化を有効にして設定するには、次の手順に従います。
 
-Before starting, consider which messages are a good fit before you turn it on. Send-Time Optimization should not be used for urgent, time-sensitive operational messages, for example, an order confirmation, a password reset notification, or a flight gate change notification. It works best for less-urgent marketing communications, such as a weekly ad, promotional information on a new product, or information about a month-long sale.
+始める前に、オンにする前に、どのメッセージが適しているかを検討してください。 送信時間の最適化は、注文確認、パスワードリセット通知、フライトゲート変更通知など、緊急の時間制限のある運用メッセージには使用しないでください。 週次広告、新製品のプロモーション情報、1 ヶ月分のセール情報など、緊急性の低いマーケティングコミュニケーションに最適です。
 
-1. From your Journey or Campaign, open the **[!UICONTROL Configure action]** menu.
+1. ジャーニーから、**[!UICONTROL Configure action]** メニューを開きます。
 
-    ![Send-Time Optimization toggle in email channel configuration](assets/sto-1.png)
+   ![メールチャネル設定の送信時間の最適化の切替スイッチ](assets/sto-1.png)
 
-1. Turn on the **[!UICONTROL Send-Time Optimization]** switch in the Send time optimization menu.
+1. 送信時間最適化メニューの&#x200B;**[!UICONTROL 送信時間最適化]** スイッチをオンにします。
 
-    ![Send-Time Optimization toggle in email channel configuration](assets/sto-2.png)
+   ![メールチャネル設定の送信時間の最適化の切替スイッチ](assets/sto-2.png)
 
-1. For Email messages, choose whether to optimize for opens or for click-throughs by selecting the appropriate option. Push messages are always optimized for opens. SMS, RCS, and WhatsApp messages are always optimized for clicks on links contained in the message.
+1. メールメッセージの場合は、適切なオプションを選択して、開封数とクリックスルー数のどちらを最適化するかを選択します。 プッシュメッセージは、開封数に関して常に最適化されます。
 
-    For best results, optimize most emails for **Clicks**. Choose **Opens** when the message is informational and not meant to drive a specific action.
+   最適な結果を得るには、**クリック数**&#x200B;のほとんどの電子メールを最適化してください。 メッセージが情報提供であり、特定のアクションを促すためのものではない場合は、**Opens**&#x200B;を選択します。
 
-1. For all channel types, set **[!UICONTROL Send within next]** to the maximum number of hours (1–168) the system will wait before sending the message.
+1. 電子メールとプッシュメッセージの両方で、**[!UICONTROL 次の]**&#x200B;以内に送信する時間を、システムがメッセージを送信するまでの最大時間数（1 ～ 168）に設定します。
 
-    For best results, choose a value between 6 and 24 hours. A lower value reduces the number of available send times and can limit the benefit of Send-Time Optimization. A higher value may mean the message is outdated or less relevant by the time it is sent.
+   最適な結果を得るには、6 ～ 24時間の値を選択してください。 値を小さくすると、使用可能な送信時間が減り、送信時間の最適化のメリットが制限される可能性があります。 値が大きいほど、メッセージが古くなったり、送信されるまでに関連性が低くなったりする可能性があります。
 
-    ![Send-Time Optimization toggle in email channel configuration](assets/sto-3.png)
+   ![メールチャネル設定の送信時間の最適化の切替スイッチ](assets/sto-3.png)
 
-1. For Email messages, choose how your action tracking is configured. You can track Email opens and track clicks on links and buttons in the Email.
+1. メールメッセージの場合は、アクショントラッキングの設定方法を選択します。 電子メールの開封率を追跡したり、電子メール内のリンクやボタンのクリック数を追跡したりできます。
 
-When your journey or campaign is activated and a customer reaches the action, Send-Time Optimization will choose the best predicted send time available for each user within your specified limits.
+ジャーニーをアクティブ化し、顧客がジャーニーのメールアクションまたはプッシュアクションに到達すると、送信時間の最適化により、指定した制限内で各ユーザーに使用できる最適な予測送信時間が選択されます。
 
-To monitor your journey's performance, refer to the [Overview page](../reports/channel-report-cja.md). 
+ジャーニーのパフォーマンスを監視するには、[概要ページ ](../reports/channel-report-cja.md)を参照してください。
 
-## How send-time optimization works {#how-send-time}
+## 送信時間の最適化の仕組み {#how-send-time}
 
-The Send-Time Optimization model ingests your organization's [!DNL Adobe Journey Optimizer] customer behavior data and looks at user-level open, click, and engagement events to determine when your customers are most likely to engage with your messaging.
+Send-Time Optimization モデルは、組織の[!DNL Adobe Journey Optimizer]件の顧客行動データを収集し、ユーザーレベルの開封済みイベントとクリック済みイベントを調べて、顧客がメッセージにエンゲージする可能性が最も高いタイミングを判断します。
 
-Send-Time Optimization makes predictions for each hour of the week, for each user, based on three types of behavioral data:
+送信時間の最適化では、次の 3 つのタイプの行動データに基づいて、各ユーザーに対する 1 週間の時間ごとの予測を行います。
 
-1. The behavior of your users overall
-1. The behavior of lookalike users in the same time zone
-1. The behavior of that individual user
+1. ユーザー全体の行動
+1. 同じタイムゾーンにいる類似ユーザーの行動
+1. その個々のユーザーの行動
 
-These predictions are weighted and combined using a Bayesian approach, resulting in a "heat map" for each metric (email opens, email clicks, push opens, and mobile message clicks), for each customer, that indicates the hours of the week that contacting that user is most and least likely to result in the desired engagement outcome (open/click), as illustrated in the below example heatmap:
+これらの予測は、ベイジアンアプローチを使用して重み付けされ、組み合わせられます。その結果、各顧客について、各指標（メールの開封数、メールのクリック数、プッシュの開封数）の「ヒートマップ」が作成されます。これは、以下のヒートマップの例に示すように、そのユーザーと連絡することで目的のエンゲージメント結果（開封数数／クリック数）が得られる可能性が最も高い 1 週間の時間と最も低い 1 週間の時間を示します。
 
-![Engagement heatmap showing optimal send times for email by day and hour](assets/heatmap-1.png)
+![曜日と時間別にメールの最適な送信時間を示すエンゲージメントヒートマップ](assets/heatmap-1.png)
 
-If a user with the above predicted probabilities is targeted for a message at 9 AM Wednesday with Send-Time Optimization turned on and a 7 hour maximum wait time, the selected send time for the message will be 12 PM:
+上記の予測確率を持つユーザーが、送信時間の最適化をオンに切り替えて最大待機時間を 7 時間に設定し、水曜日の午前 9 時にメッセージを送信する場合、メッセージの送信時間は午後 12 時になります。
 
-![Engagement heatmap with detailed hour-by-hour optimization data](assets/heatmap-2.png)
+![詳細な時間別の最適化データを含むエンゲージメントヒートマップ](assets/heatmap-2.png)
 
-## Send-Time Optimization model training and scoring details  {#model-send-time}
+## 送信時間の最適化モデルのトレーニングとスコアリングの詳細  {#model-send-time}
 
-Once the Send-Time Optimization feature is enabled for your organization, the Journey AI model is trained on email and push send, open and click events, as well as SMS, RCS, and WhatsApp send and click events, across all your organization's journeys, actions, and campaigns over the last 16 weeks – regardless of whether those actions use Send-Time Optimization. This allows Send-Time Optimization to benefit from all data generated by your customers.
+組織で送信時間の最適化機能を有効にすると、そのアクションで送信時間の最適化が使用されるかどうかに関係なく、過去 16 週間にわたる組織のすべてのジャーニーとアクションのメールおよびプッシュの送信、開封、クリックイベントについてジャーニー AI モデルのトレーニングが行われます。 これにより、送信時間の最適化では顧客が生成したすべてのデータを活用できます。
 
-Models are initially trained and scored weekly. After 16 weeks, models are retrained and rescored monthly. Model scoring includes all customer profiles – both existing and new since the last scoring run.
+モデルは、最初にトレーニングが行われ、毎週スコアリングされます。 16 週間後、モデルは毎月、再トレーニングが行われ、再スコアリングされます。 モデルのスコアリングには、前回のスコアリング実行以降の既存および新規のすべての顧客プロファイルが含まれます。
 
-Messages sent by Send-Time Optimization receive either an "exploration" message send time selected to test different send times and observe how customers respond, or an "optimized" message send times selected to maximize click/open rates. 5% of send events receive an "exploration" send time and 95% of send events are "optimized".
+送信時間の最適化によって送信されたメッセージでは、様々な送信時間をテストして顧客の反応を確認するのに選択された「探索」メッセージ送信時間や、クリック／開封率を最大化するのに選択された「最適化」メッセージ送信時間のいずれかを受信します。 送信イベントの 5％は「探索」送信時間を受信し、送信イベントの 95％は「最適化」されます。
 
-Exploration send times are selected at random from the send times made available by your configured maximum wait time. For example, in the case that a message is selected at 9 AM Wednesday with Send-Time Optimization turned on and a 3 hour maximum wait time, Exploration send times for the message will be split evenly between 9 AM, 10 AM, 11 AM and 12 PM.
+探索送信時間は、設定された最大待機時間で使用可能な送信時間からランダムに選択されます。 例えば、送信時間の最適化をオンに切り替えて、最大待機時間を 3 時間に設定し、水曜日の午前 9 時にメッセージを選択した場合、メッセージの探索送信時間は午前 9 時、午前 10 時、午前 11 時、午後 12 時に均等に分割されます。
 
 
-## Frequently asked questions {#faq-send-time}
+## よくある質問 {#faq-send-time}
 
-You will find below Frequently Asked Questions about Send-Time Optimization.
+送信時間の最適化に関するよくある質問を以下に示します。
 
-Need more details? Use the feedback options at the bottom of this page to raise your question, or connect with [[!DNL Adobe Journey Optimizer] community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}.
+さらに詳細が必要ですか？ このページの下部にあるフィードバックオプションを使用して質問を提起するか、[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながってください。
 
-+++How long do I need to wait before using Send-Time Optimization?
++++送信時間の最適化を使用する前に、どのくらいの時間を待機する必要がありますか？
 
-Your organization should use the Email action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization within Email to allow for the collection of some email send, open, and click events.
+組織では、メール内で送信時間の最適化を使用する前に、少なくとも 30 日間は Journey Optimizer 内でメールアクションを使用して、メールの送信、開封、クリックイベントの一部を収集できるようにする必要があります。
 
-Your organization should use the Push action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization within Push to allow for the collection of some push send and open events.
+組織では、プッシュ内で送信時間の最適化を使用する前に、少なくとも 30 日間は Journey Optimizer 内でプッシュアクションを使用して、プッシュの送信と開封イベントの一部を収集できるようにする必要があります。
 
-Your organization should use the SMS, RCS, or WhatsApp action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization for those channels to allow for the collection of some send and click events.
-
-If your organization has already been using the relevant action types for at least 30 days, your organization does not need to wait longer to use Send-Time Optimization after it has been enabled by Adobe. Results will continue to improve as your organization gathers data for up to 16 weeks.
+組織で既にメールやプッシュのアクションタイプを 30 日以上使用している場合は、アドビが送信時間の最適化を有効にした後に、組織では送信時間の最適化を使用するのにそれ以上待機する必要はありません。 組織で最大 16 週間にわたってデータを収集するにつれて、結果は引き続き改善されます。
 
 +++
 
-+++How can I see the send time a particular user will receive a message at?
++++特定のユーザーがメッセージを受信する送信時間を確認するにはどうすればよいですか？
 
-In order to minimize the model's impact on profile richness, model scores are stored compressed in 3 Profile attributes stored in `_experience.intelligentServices.journeyAI.sendTimeOptimization`, and are not designed to be human readable.
-
-+++
-
-
-+++What is the average benefit of Send-Time Optimization?
-
-Send-Time Optimization may increase email click rate, push open rate, and mobile message click rate in the range of approximately 2% to 10% across all messages optimized by an organization.
-
-For example, if an organization sending email without send time optimization has a 5.0% click rate on average, the same set of emails with send time optimization might result in as much as a 5.5% click rate on average (5.0% * (1+10%) = 5.5%).
-
-Due to variability within small sample sizes, a benefit from Send-Time Optimization may not be observable on single message sends.
-
-Organizations are more likely to experience greater benefits from using Send-Time Optimization when:
-
-* Existing journeys use send times that are fixed and not well-optimized
-* Variability in customer behavior (clicks and opens) corresponds to customer location and customer preferences
-* Organizations use Send-Time Optimization on a larger fraction of email, push, and mobile messages
-* Organizations choose maximum wait times within the recommended range of 6-12 hours
-
-+++
-
-+++I always click on emails or push messages at 12pm, why didn't the algorithm send a message to me at 12pm?
-
-
-This may occur for multiple reasons:
-
-* Your message was selected as an "Exploration" message send time instead of an "Optimized" message send time.
-* The behavior of lookalike users influenced the model to recommend another send time.
-
-+++
-
-+++How does Send-Time Optimization know a user's time zone?
-
-Send-Time Optimization uses the `timeZone` profile field to determine a user's time zone. If not available for that user, Send-Time Optimization attempts to infer a user's time zone from other geographic information in the user's profile such as country and state.
+プロファイルリッチネスに対するモデルの影響を最小限に抑えることを目的に、モデルスコアは `_experience.intelligentServices.journeyAI.sendTimeOptimization` に保存される 3 つのプロファイル属性に圧縮されて保存されます。人間が判読できるように設計されていません。
 
 +++
 
 
-+++Will Send-Time Optimization send Push or mobile messages to users during the night in their local time zone?
++++送信時間の最適化の平均的なメリットは何ですか？
 
-Send-Time Optimization may send Push, SMS, RCS, or WhatsApp messages to users during the night in their local time zone in the following circumstances:
+送信時間の最適化により、組織が最適化したすべてのメッセージにわたって、メールのクリック率とプッシュ開封率が約 2％～10％増加する場合があります。
 
-* When users exhibit behavior that indicates they are likely to interact with a message sent at night
-* When the model chooses an "Exploration" send time
+例えば、送信時間の最適化を行わずにメールを送信する組織の平均クリック率が 5.0％の場合、送信時間の最適化を行った同じメールセットでは、平均クリック率が 5.5％に達する可能性があります（5.0% * (1+10%) = 5.5%）。
 
-To avoid sending messages to customers during night time hours, schedule batch message sends to occur in the morning or early afternoon and choose a shorter duration for Send-Time Optimization. (For example, a 9 AM send time and 8 hour maximum wait time.)
+小さなサンプルサイズ内では変動が生じるので、単一メッセージの送信では送信時間の最適化によるメリットが確認できない場合があります。
+
+組織は、次のような場合に、送信時間の最適化を使用することでより大きなメリットが得られる可能性が高くなります。
+
+* 既存のジャーニーで送信時間が固定されており、十分に最適化されていない
+* 顧客行動（クリック数および開封数）の変動が、顧客の場所や顧客の好みに応じて異なる
+* 組織がメールメッセージとプッシュメッセージの大部分で送信時間の最適化を使用している
+* 組織が推奨される 6～12 時間の範囲内で最大待機時間を選択する
 
 +++
-```
 
-&#x200B;---
++++常に午後 12 時にメールメッセージやプッシュメッセージをクリックしますが、アルゴリズムが午後 12 時にメッセージを送信しなかったのはなぜですか？
 
-以下に、すべての変更の概要を示します。
 
-**Beginshadebox / intro copy** — チャネルリストにSMS、RCS、WhatsAppを追加し、「開いてクリック」を「開いてクリック」に更新し、「開いてクリックしてエンゲージメントの動作」を変更しました。
+これは、次のような複数の理由で発生する場合があります。
 
-**コンテキストヘルプブロック** — モバイルチャネルを含めるように`jo_bestsendtime_disabled`を更新しました。SMS/RCS/WhatsApp用に新しい`jo_bestsendtime_mobile` ブロックを追加し、これらのチャネルがリンククリック用に最適化されたことを説明しました。
+* 「最適化」メッセージ送信時間ではなく、「探索」メッセージ送信時間としてメッセージが選択された。
+* 類似ユーザーの行動が、モデルに影響を与え、別の送信時間を推奨した。
 
-**範囲の段落** — キャンペーン制限（「キャンペーンを通じて送信されたメッセージでは現在使用できません」）を削除し、SMS、RCS、WhatsAppをチャネルリストに追加しました。 文に「*ジャーニーとキャンペーンの両方でこれらのアクションタイプに使用できます。*」と表示されるようになりました。
++++
 
-**可用性に関するメモ** — SMS、RCS、WhatsAppを含めるようにチャネルの箇条書きを更新しました。
++++送信時間の最適化では、ユーザーのタイムゾーンをどのように認識しますか？
 
-**STO セクション**&#x200B;を使用 – ステップ 1で「ジャーニーまたはキャンペーン」と表示されるようになりました。ステップ 3では、モバイルメッセージの最適化ルールが追加されます（常にクリックされます）。ステップ 4では、「メールとプッシュの両方について」が「すべてのチャネルタイプについて」に一般化されます。クロージング文は、「ジャーニー」から「ジャーニーまたはキャンペーン」に更新されます。
+送信時間の最適化では、`timeZone` プロファイルフィールドを使用してユーザーのタイムゾーンを決定します。 そのユーザーが使用できない場合、送信時間の最適化では、国や都道府県など、ユーザーのプロファイル内の他の地理情報からユーザーのタイムゾーンを推測しようとします。
 
-**仕組みセクション** — ヒートマップ指標リストを「モバイルメッセージクリック」を含めるように更新しました。
++++
 
-**モデルのトレーニングセクション** — トレーニングデータの説明にSMS、RCS、およびWhatsAppの送信とクリックのイベントを追加し、範囲に「およびキャンペーン」を追加しました。
 
-**FAQ** — SMS/RCS/WhatsAppの30日間の準備状況の段落を追加しました。「モバイルメッセージのクリック率」を含めるように特典FAQを更新し、夜間のFAQの質問と本文を更新して、SMS、RCS、WhatsAppとプッシュ通知の名前を付けました。
++++送信時間の最適化では、ユーザーのローカルタイムゾーンの夜間にプッシュメッセージが送信されますか？
+
+送信時間の最適化では、次の状況で、ユーザーのローカルタイムゾーンの夜間にプッシュメッセージが送信される場合があります。
+
+* ユーザーが夜間に送信されたメッセージとやり取りする可能性が高いことを示す行動を示した場合
+* モデルが「探索」送信時間を選択した場合
+
+夜間に顧客にプッシュメッセージを送信しないようにするには、バッチプッシュメッセージの送信を午前中または午後の早い時間に行うようにスケジュールし、送信時間の最適化の期間を短く選択します （例えば、送信時間を午前 9 時、最大待機時間を 8 時間に設定します）。
+
++++
+
+
+
