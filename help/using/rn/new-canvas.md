@@ -18,9 +18,9 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 558
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ Journey Optimizerでは、ユーザーエクスペリエンスと社内プロセ
 
 ## ジャーニーキャンバスのデザインの改善
 
-新しいジャーニーモデルでは、Adobe Experience Cloud ソリューションとアプリのエコシステムにシームレスに適合し、直感的で効率的なユーザーエクスペリエンスを実現する、改善された新しい&#x200B;**ジャーニーキャンバス UI**&#x200B;を導入します。 新しいモデルのジャーニーは、その新しいデザインになります。
+新しいジャーニーモデルでは、新たに改善された&#x200B;**ジャーニーキャンバス UI**&#x200B;を導入します。これは、[!DNL Adobe CX Enterprise]のソリューションとアプリのエコシステムにシームレスに適合し、直感的で効率的なユーザーエクスペリエンスを実現します。 新しいモデルのジャーニーは、その新しいデザインになります。
 
 ![](assets/new-canvas3.gif)
 

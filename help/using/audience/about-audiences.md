@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 654
-ht-degree: 92%
+source-wordcount: 651
+ht-degree: 88%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 92%
 
 オーディエンスとは、類似した行動や特性を共有するユーザーのコレクションです。 Adobe Experience Platform セグメント化サービスを使用すると、Adobe Experience Platform 上で一元的に設定および管理され、Journey Optimizer 内で簡単にアクセスして、ジャーニーやキャンペーンでアクティブ化できます。
 
-Adobe Journey Optimizer には、マーケティング活動を強化する目的で、オーディエンスの作成、管理、強化を行う堅牢なツールが用意されています。 Journey Optimizer を Adobe Real-Time Customer Data Platform と組み合わせると、オーディエンスをレイヤー化してより複雑なセグメント化を実現し、他の Adobe Experience Cloud ソリューションとオーディエンスを双方向に共有できます。
+Adobe Journey Optimizer には、マーケティング活動を強化する目的で、オーディエンスの作成、管理、強化を行う堅牢なツールが用意されています。 Journey OptimizerとAdobe Real-Time Customer Data Platformを組み合わせることで、より複雑なセグメンテーションのためにオーディエンスをレイヤー化し、他の[!DNL Adobe CX Enterprise] ソリューションと双方向でオーディエンスを共有することができます。
 
 リアルタイムのデータストリームやバッチアップロードが発生すると、データセットが更新され、Journey Optimizer はリアルタイムで個人をオーディエンスとジャーニーに動的に移動させます。
 

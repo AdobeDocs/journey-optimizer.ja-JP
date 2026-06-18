@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
 workflow-type: tm+mt
-source-wordcount: 8429
-ht-degree: 96%
+source-wordcount: 8472
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年6月 {#june-2026}
+
+* **Adobe Experience Cloud**&#x200B;への参照は、[!DNL Journey Optimizer]のドキュメント全体で&#x200B;**[!DNL Adobe CX Enterprise]**&#x200B;のブランドと一致しています。
 
 * **配信品質の基本を学ぶ** ページが更新され、受信者ごとのFBL **サブセクションのない新しい** プロバイダーが追加されました。 この記事では、受信者ごとにスパムの苦情を返さない主要なメールボックスプロバイダー（Gmail/Google Workspace、Apple iCloud、Corporate Microsoft 365/Exchange Online）のリストを紹介し、これらのサービスを利用する受信者に抑制リストエントリが存在しない理由を説明します。 [詳細情報](../reports/deliverability.md#providers-no-fbl)
 
@@ -40,6 +42,8 @@ ht-degree: 96%
 * **送信者ヘッダー** ドキュメントでは、**[!UICONTROL 送信者名]**&#x200B;と&#x200B;**[!UICONTROL 送信者メール]**&#x200B;の両方を設定するか、両方を空にしておく必要があります。そうしないと、ジャーニーとキャンペーンを公開できません。 [詳細情報](../email/header-parameters.md#sender-header)
 
 ## 2026年5月 {#may-2026}
+
+* ビジュアルフラグメントで動的コンテンツを使用する際の制限事項とベストプラクティスは、読みやすさを向上させるために、単一の&#x200B;**フラグメント内の条件付きコンテンツの管理** セクションに統合されました。 [詳細情報](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * 2 つの新しい高レベル権限が追加されました。**キーレジストリを管理**&#x200B;では、ユーザーがキーレジストリのキーの表示、作成、ローテーション、取り消しを実行できます。**キーレジストリを表示**&#x200B;では、ユーザーがキーレジストリのリストとキーの詳細を表示できます。 [詳細情報](../administration/high-low-permissions.md#administration-permissions)
 
@@ -300,7 +304,7 @@ ht-degree: 96%
 
 * Campaign v7／v8 統合ドキュメントに、リアルタイム（RT）エンドポイントが変更された際に既存のカスタムアクションを更新する方法について説明する、新しい節が追加されました。 この節では、エンドポイント URL の更新、接続のテスト、保存前の変更の検証に関する手順を説明します。 [詳細情報](../action/acc-action.md#update-action)
 
-* ビジュアルフラグメントのドキュメントに、新しい制限事項とベストプラクティスの節が追加されました。これは、動的コンテンツを含むフラグメントを、動的コンテンツを含む他のロック解除されたフラグメント内にネストすることがサポートされていないことについてユーザーに警告するものです。 このガイダンスには、互換性モードの問題に関するトラブルシューティング手順と、適切なメール構造のデザインに関するレコメンデーションが含まれます。 [詳細情報](../email/use-visual-fragments.md#fragment-dynamic-content)
+* ビジュアルフラグメントのドキュメントに新しい制限とベストプラクティスの節が追加され、条件付きコンテンツを含む他のロック解除されたフラグメント内の条件付きコンテンツを含むフラグメントのネストがサポートされていないことに関するユーザーへの警告が追加されました。 このガイダンスには、互換性モードの問題に関するトラブルシューティング手順と、適切なメール構造のデザインに関するレコメンデーションが含まれます。 [詳細情報](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * ジャーニーのライブレポートのドキュメントに、レポートデータの欠落の問題をユーザーが解決するのに役立つトラブルシューティングの節が追加されました。 この節では、レポートデータセットとのジャーニー名の同期、データの更新タイミング、アクセス権限の検証、ジャーニーのステータス要件について説明します。 [詳細情報](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
@@ -885,7 +889,7 @@ ht-degree: 96%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

@@ -16,10 +16,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 625
-ht-degree: 93%
+source-wordcount: 623
+ht-degree: 90%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 93%
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-このオーディエンスは Experience Cloud に保存され、後で特定のターゲットキャンペーンに使用できます。
+このオーディエンスは[!DNL Adobe Experience Platform]に保存され、後で特定のターゲットキャンペーンに使用できます。
 
 ## 低／中リスクセグメント {#low-medium-risk}
 

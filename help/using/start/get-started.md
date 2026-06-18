@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 1323
+source-wordcount: 1316
 ht-degree: 97%
 
 ---
@@ -160,7 +160,7 @@ You can also create audience-based campaigns to send messages.
 
 このドキュメントは、Journey Optimizer の最新リリースを対象とし、特に明記されていない限り、B2C Edition と B2B Edition の両方のユーザーに適用されます。 環境で使用できるコンポーネントと機能は、[権限](../administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。 ご不明な点について詳しくは、アドビカスタマーサクセスマネージャーまたはアドビ担当者までお問い合わせください。
 
-Adobe Experience Cloud の一般的なプライバシーに関するガイドラインと手順は [!DNL Journey Optimizer] に適用されます。 [Adobe Experience Cloud のプライバシーの詳細情報](https://www.adobe.com/jp/privacy/experience-cloud.html){target="_blank"}。
+[!DNL Journey Optimizer]には、[!DNL Adobe CX Enterprise]の一般的なプライバシーガイドラインと手順が適用されます。 [&#x200B; プライバシー](https://www.adobe.com/jp/privacy/experience-cloud.html){target="_blank"}の詳細を確認します。 [!DNL Adobe CX Enterprise] 
 
 
 ## アーキテクチャ {#architecture}

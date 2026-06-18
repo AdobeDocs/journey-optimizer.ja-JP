@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 2652
+source-wordcount: 2650
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 98%
 
 ## Journey Optimizer での Adobe Experience Platform データの使用方法 {#aep-data}
 
-[!DNL Adobe Journey Optimizer] は [!DNL Adobe Experience Platform] に作成されます。 分離され、独立したデータストアを維持しません。 代わりに、他の Experience Cloud アプリケーションと同じデータ基盤を使用します。
+[!DNL Adobe Journey Optimizer] は [!DNL Adobe Experience Platform] に作成されます。 分離され、独立したデータストアを維持しません。 代わりに、他の[!DNL CX Enterprise] アプリケーションと同じデータ基盤を使用します。
 
 スキーマとデータセットは、Adobe Experience Platform に保存されます。 ID および[リアルタイム顧客プロファイル](../audience/get-started-profiles.md)は、ID サービスとプロファイルサービスにより管理されます。 Journey Optimizer は、Adobe Experience Platform からプロファイルとイベントデータを読み取り、ジャーニーの条件を評価し、メッセージをパーソナライズして、オファーを選択します。 これにより、送信、開封、クリック、バウンスの各イベント、ジャーニーステップイベントなどのインタラクションデータが、Experience Platform データセットに書き込まれます。 また、そのデータをプロファイルにコピーすることなく、実行時に追加のデータセットを検索することもできます。
 

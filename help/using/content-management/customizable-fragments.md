@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
-source-wordcount: 1771
-ht-degree: 90%
+source-wordcount: 1658
+ht-degree: 76%
 
 ---
 
@@ -85,6 +85,45 @@ ht-degree: 90%
 >[!CAUTION]
 >
 >ボタンコンポーネントの&#x200B;**ラベル**&#x200B;と&#x200B;**URL**&#x200B;の両方をフラグメントで編集可能にした場合、トラッキングレポートにはボタンラベルの代わりにURLが表示されます。 [詳しくは、トラッキングを参照してください](../email/message-tracking.md)
+
+## カスタマイズ可能なビジュアルフラグメントでリッチテキスト編集を有効にする {#rich-text-visual}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="レガシーフラグメント"
+>abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 つまり、このフラグメントをメールで編集する際には、プレーンテキストのみを入力できます。太字、斜体、ハイパーリンク、改行などの完全な書式設定オプションはサポートされていません。 「<b>有効にする</b>」をクリックして、電子メールでフラグメントを使用する際に、編集可能なフィールドでリッチテキストを許可します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_field_compatibility"
+>title="レガシーフラグメント"
+>abstract="この編集可能なフィールドは、テキストのみのモードです。 完全な書式設定オプション（太字、斜体、ハイパーリンク、改行など） フラグメントをリッチテキストモードにアップグレードするまで使用できません。 フラグメント本文の設定に移動し、<b>有効</b>をクリックして、編集可能なフィールドでリッチテキストのロックを解除します。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能なフィールドをカスタマイズ"
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="レガシーフラグメント"
+>abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 完全な書式設定オプション（太字、斜体、ハイパーリンク、改行など） フラグメントをリッチテキストモードにアップグレードするまで使用できません。 このモードをロック解除するには、フラグメントエディターを開き、<b>有効</b>をクリックします。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能なフィールドをカスタマイズ"
+
+リッチテキスト <!--— including bold, italic, line breaks, and hyperlinks —-->は、カスタマイズ可能なビジュアルフラグメントでネイティブにサポートされるようになりました。
+
+カスタマイズ可能なビジュアルフラグメントをメールで使用すると、フラグメントの&#x200B;**[!UICONTROL テキスト]**、**[!UICONTROL ボタン]**、および&#x200B;**[!UICONTROL Html]** コンポーネントの編集可能なフィールド内で、太字、斜体、改行、箇条書きリスト、ハイパーリンクなどの完全な書式設定オプションを直接使用できます。 [編集可能なフィールドのカスタマイズ方法について説明します](../email/use-visual-fragments.md#customize-fields)
+
+ただし、リッチテキスト機能が導入される前にフラグメントを作成し、編集可能フィールドを定義した場合、編集可能フィールドはデフォルトでテキスト専用モードに設定されます。
+
+* フラグメントエディターに互換性に関する警告が表示されます。
+
+  ![](assets/fragment-custom-compatibility.png)
+
+  電子メールでフラグメントを使用する際に、これらの編集可能なフィールドのリッチテキストモードを解除するには、「**有効にする**」ボタンをクリックしてフラグメントを保存します。
+
+* フラグメントを電子メールに追加すると、電子メールDesignerでフラグメントを選択すると、互換性に関する警告も表示されます。
+
+  ![](assets/email-fragment-custom-compatibility.png)
+
+  フラグメントをリッチテキストモードにアップグレードするには、**フラグメントを開く** ボタンを使用してフラグメントエディターにアクセスし、**有効** ボタンをクリックしてフラグメントを保存します。
+
+リッチテキストモードが解除されるまで、従来のカスタマイズ可能なビジュアルフラグメントは、プレーンテキストのみをサポートし続けます。 ユーザーは、これらのフラグメントの編集可能なフィールドにリッチテキストを入力することはできません。
 
 ## HTML コンポーネントと式フラグメントへの編集可能なフィールドの追加 {#expression}
 
@@ -167,75 +206,59 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 
    ![](assets/fragment-expression-use.png)
 
-## カスタマイズ可能なフラグメントへのリッチテキストの追加 {#rich-text}
-
->[!CONTEXTUALHELP]
->id="ajo_editable_fragment_compatibility"
->title="レガシーフラグメント"
->abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 つまり、このフラグメントをメールで編集する際に、プレーンテキストのみを入力できます。太字、斜体、ハイパーリンク、改行などのリッチテキストはサポートされていません。 メールでフラグメントを使用する際に、「<b>HTML モードに切り替え</b>」をクリックして、編集可能なフィールドでリッチテキストを有効にします。"
-
->[!CONTEXTUALHELP]
->id="ajo_editable_field_compatibility"
->title="レガシーフラグメント"
->abstract="この編集可能なフィールドは、テキストのみのモードです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） は、フラグメントが HTML 互換モードにアップグレードされるまで使用できません。 フラグメント本文の設定に移動し、「<b>HTML モードに切り替え</b>」をクリックして、リッチテキスト編集を有効にします。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能なフィールドをカスタマイズ"
-
->[!CONTEXTUALHELP]
->id="ac_editable_fragment_compatibility"
->title="レガシーフラグメント"
->abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） は、フラグメントが HTML 互換モードにアップグレードされるまで使用できません。 これを行うには、フラグメントエディターを開き、「<b>HTML モードに切り替え</b>」をクリックします。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能なフィールドをカスタマイズ"
-
-HTML コンポーネントを使用すると、改行、太字、斜体などのリッチテキストを、カスタマイズ可能なフラグメントに追加できます。 これを行うには、以下の手順に従います。
 <!--
+## Add rich text to a customizable fragment {#rich-text}
+
+Rich text such as line breaks, bold, italics etc., can be added to a customizable fragment by using HTML components. To do so, follow the steps below.
+
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
--->
 
-### リッチテキストを含むフラグメントの作成 {#add-rich-text}
+### Create a fragment including rich text {#add-rich-text}
 
-1. ビジュアル[フラグメント](create-fragments.md)を作成し、コンポーネントの追加を開始します。
+The approach below (using HTML components with inline variables) remains fully supported for advanced HTML-based scenarios??
 
-1. [HTML コンポーネント](../email/content-components.md#HTML)を追加し、HTML エディターを開きます。
+1. Create a visual [fragment](create-fragments.md) and start adding components.
 
-1. 左ナビゲーションパネルの&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;メニューに移動し、**インライン**&#x200B;ヘルパー関数を追加します。
+1. Add an [HTML component](../email/content-components.md#HTML) and open the HTML editor.
 
-1. `"name"` を、編集可能なコンテンツに使用する ID に置き換えます（例：「EditableContent」）。
+1. Navigate to the **[!UICONTROL Helper functions]** menu in the left navigation pane and add the **inline** helper function.
 
-1. `render_content` を、必要なデフォルトのリッチコンテンツに対応する HTML コードに置き換えます。 太字、斜体、改行、箇条書きなどを追加できます。
+1. Replace `"name"` with the ID you want to use for your editable content, for example "EditableContent".
 
-   ![](assets/fragment-rich-editable-content.png)
+1. Replace `render_content` with the HTML code corresponding to the default rich content you want. You can add bold, italic, line breaks, bulleted lists, etc.
 
-1. 同じ HTML コンポーネント内に、スタイル要素用に別の&#x200B;**インライン**&#x200B;ヘルパー関数を追加します。
+    ![](assets/fragment-rich-editable-content.png)
 
-1. `"name"` と `render_content` を、必要なデフォルトのスタイルに対応する ID と HTML コードに置き換えます。
+1. Within the same HTML component, add another **inline** helper function for your styling elements.
 
-   ![](assets/fragment-rich-editable-styling.png)
+1. Replace `"name"` and `render_content` with the ID and HTML code corresponding to the default styling you want.
 
-1. コンテンツを保存します。 選択した編集可能なフィールドが右側に表示されます。
+    ![](assets/fragment-rich-editable-styling.png)
 
-   ![](assets/fragment-rich-editable-fields.png)
+1. Save your content. The selected editable fields are displayed on the right-hand side.
 
-1. フラグメントを保存して[公開](create-fragments.md#publish)します。
+    ![](assets/fragment-rich-editable-fields.png)
 
-### カスタマイズ可能なフラグメントでのリッチテキストの使用 {#use-rich-text}
+1. Save and [publish](create-fragments.md#publish) the fragment.
 
-メールにフラグメントを追加する際に、作成したリッチテキストコンテンツとスタイルを編集できるようになりました。 マーケターは、次の手順に従います。
+### Use rich text in customizable fragments {#use-rich-text}
 
-1. キャンペーンまたはジャーニーで[メールを作成](../email/create-email.md)してから、[作成](#add-rich-text)したリッチテキストを含むフラグメントを追加します。
+When adding the fragment to your email, you can now edit the rich text content and styling that you created. As a marketer, follow the steps below.
 
-   右側に、作成した 2 つの編集可能なフィールドが表示されます。
+1. [Create an email](../email/create-email.md) in a campaign or a journey, then add the fragment with rich text that was [created](#add-rich-text).
 
-   ![](assets/fragment-use-rich-editable-fields.png)
+    You can see the two editable fields that were created on the right-hand side.
 
-1. シミュレーション方法を使用して、編集可能なコンテンツとスタイル設定のレンダリング方法を確認します。「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。 [コンテンツのプレビューの詳細情報](preview-test.md)
+    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. 編集可能なフィールドの横にある&#x200B;**[!UICONTROL パーソナライゼーションを追加]**&#x200B;アイコンを選択します。
+1. Use either simulation method to see how the editable content and styling render: click **[!UICONTROL Simulate content]** to test content variations with sample input data or AI auto-generation, or click **[!UICONTROL Simulate content]**, then select **[!UICONTROL Simulate content (AEP profiles)]** from the dropdown to preview with test profiles. [Learn more on previewing content](preview-test.md)
 
-1. 開いたパーソナライゼーションエディターで、編集可能なフィールドの要素を追加または削除して、必要に応じて<!--CSS-->スタイルやコンテンツを更新します。
+1. Select the **[!UICONTROL Add personalization]** icon next to one of the editable fields.
 
-   ![](assets/fragment-rich-editable-fields-update-styling.png)
+1. In the personalization editor that opens, update the styling and/or content as wanted by adding or removing elements of the editable field.
 
-<!--
+    ![](assets/fragment-rich-editable-fields-update-styling.png)
+
 ## How-to video {#video}
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.

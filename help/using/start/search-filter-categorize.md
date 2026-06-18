@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 96%
+source-wordcount: 826
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer プロジェクトが拡大するにつれて、効率�
 
 ## 検索 {#unified-search}
 
-Adobe Journey Optimizer インターフェイスから、上部バーの中央にある Adobe Experience Cloud 統合検索機能を使用して、サンドボックスをまたいでアセット、ジャーニー、データセットなどを検索できます。
+Adobe Journey Optimizerのインターフェイスの上部バーの中央にある統合[!DNL Adobe CX Enterprise]検索機能を使用して、サンドボックス全体でアセット、ジャーニー、データセットなどを検索できます。
 
 コンテンツの入力を開始すると、上位の結果が表示されます。 入力したキーワードに関するヘルプ記事も結果に表示されます。
 

@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 899
-ht-degree: 80%
+source-wordcount: 896
+ht-degree: 77%
 
 ---
 
@@ -123,7 +123,7 @@ Web ページやモバイルアプリのコードベースのエクスペリエ�
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance** は、モバイルアプリでデータを収集したりエクスペリエンスを提供したりする方法を検査、配達確認、シミュレーション、検証できる Adobe Experience Cloud の製品です。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance**&#x200B;は、[!DNL Adobe CX Enterprise]の製品で、モバイルアプリでデータを収集したり、エクスペリエンスを提供したりする方法を調査、検証、シミュレーション、検証するのに役立ちます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home){target="_blank"}
 
 1. コードベースの設定で[他のプラットフォーム](code-based-configuration.md#other)を使用している場合は、ドロップダウンリストからプレビューする[サーフェス URI](code-based-surface.md#surface-uri) を選択します。
 

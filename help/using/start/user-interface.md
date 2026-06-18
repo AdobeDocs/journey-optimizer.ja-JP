@@ -31,9 +31,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: ff473a54dde6806b28c93d6f2f8040a67023ef8c
+source-git-commit: 525e32daf2f123dd06c18bb84ce610d1007bd8c5
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1786
 ht-degree: 88%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 88%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer にアクセスするには、Adobe ID を使用して [Adobe Experience Cloud](https://experience.adobe.com) にログインし、「[!DNL Journey Optimizer]」を選択します。
+Adobe Journey Optimizerにアクセスするには、Adobe IDで[[!DNL Adobe CX Enterprise]](https://experience.adobe.com)にログインし、[!DNL Journey Optimizer]を選択します。
 
 >[!NOTE]
 >

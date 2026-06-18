@@ -31,10 +31,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 2058
-ht-degree: 100%
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 2056
+ht-degree: 99%
 
 ---
 
@@ -292,7 +292,7 @@ ht-degree: 100%
 
 **ユーザーインターフェイス**
 
-* **検索** - すべてのページで、Experience Cloud 統合検索フィールドからビジネスオブジェクトやヘルプ記事を直接検索できるようになりました。 [詳細情報](../start/user-interface.md#unified-search)
+* **検索** – すべてのページで、統合[!DNL CX Enterprise]検索フィールドからビジネスオブジェクトとヘルプ記事を直接検索できるようになりました。 [詳細情報](../start/user-interface.md#unified-search)
 * **最近使用したもの** - Adobe Journey Optimizer ホームページの最近の情報要素の表示が拡張され、追加のビジネスオブジェクトが含まれるようになりました。 この更新で、最近アクセスしたものへのショートカットに、メッセージ、ジャーニー、オーディエンス、スキーマ、データセット、データソース、イベント、アクション、ソースおよび宛先が含まれるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#passing-collection)
 
 **コンテンツデザイン**
