@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 6916
-ht-degree: 100%
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 6909
+ht-degree: 99%
 
 ---
 
@@ -764,7 +760,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境の運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。 Adobe Journey Optimizer を含む Adobe Experience Cloud 全体の複数の製品で使用できます。</p>
+<p>AI アシスタントは、Adobeの概念を操作および理解し、特定の環境の運用に関するインサイトを得るためのユーザーインターフェイス機能です。 Adobe Journey Optimizerを含む[!DNL Adobe CX Enterprise]の複数の製品で利用できます。</p>
 <p>詳しくは、<a href="../start/ai-features.md#ai-assistant">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -1043,7 +1039,7 @@ table>
 
 **グローバライゼーション**
 
-統一されたユーザーエクスペリエンスを提供するための継続的な取り組みの一環として、Adobe Experience Cloud 製品とアプリで使用される用語を統一します。 これは、ドイツ語の用語「Titel」（オブジェクトの名前に関連する場合は「ラベル」に変更される）に影響します。 変更は、UI とドキュメントで段階的にロールアウトされます。
+統合されたユーザー体験を提供するための継続的な取り組みの一環として、[!DNL Adobe CX Enterprise]製品とアプリで使用される用語を統一します。 これは、ドイツ語の用語「Titel」（オブジェクトの名前に関連する場合は「ラベル」に変更される）に影響します。 変更は、UI とドキュメントで段階的にロールアウトされます。
 
 
 ## 2024年4月リリース {#apr-2024}
