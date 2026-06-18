@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+source-git-commit: 4624b48096db5ff3d89537d3535195a98e6846fb
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 99%
@@ -31,14 +31,14 @@ ht-degree: 99%
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[ジャーニーキャンバスの向上](using/rn/new-canvas.md)
 + 基本を学ぶ {#get-started}
-   + [基本を学ぶ](/help/rp_landing_pages/get-started-landing-page.md)
-   + {hide-from-toc}[&#x200B; オンボーディングハブ &#x200B;](using/start/onboarding-hub.md)
+   + [ここから開始](/help/rp_landing_pages/get-started-landing-page.md)
+   + [オンボーディングハブ](using/start/onboarding-hub.md)
    + 基本事項 {#essentials}
       + [Journey Optimizer とは](using/start/get-started.md)
       + [仕組みについて](using/start/understanding-ajo.md)
       + [AI とインテリジェント機能](using/start/ai-features.md)
       + [主な用語](using/start/terminology.md)
-      + {hide-from-toc}[このジョブに対してどの機能を使用しますか？](using/start/ajo-use-case-guide.md)
+      + [この業務に対してどの機能が必要ですか？](using/start/ajo-use-case-guide.md)
       + [ガードレールと制限](using/start/guardrails.md)
       + {hide-from-toc}[&#x200B; パッケージと機能](using/start/ajo-packages.md)
       + {hide-from-toc}[機能の可用性](using/start/ajo-features-availability.md)
