@@ -11,10 +11,10 @@ keywords: 実験、実験、ジャーニー、パス、最適化、A/B テスト
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
 workflow-type: tm+mt
-source-wordcount: 1186
-ht-degree: 76%
+source-wordcount: 1308
+ht-degree: 68%
 
 ---
 
@@ -72,11 +72,6 @@ ht-degree: 76%
    >
    >切り替えバーをオンにすると、母集団の 10％が自動的に取得されます。 必要に応じて、この割合を調整できます。
 
-   <!--
-    DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
-
 1. 各&#x200B;**[!UICONTROL 処理]**&#x200B;に正確な割合を割り当てるか、**[!UICONTROL 等しく分布]**&#x200B;切り替えバーをオンにすることができます。
 
    ![割合分布を使用した処理配分スライダー](assets/journey-optimize-experiment-treatments.png){width=80%}
@@ -99,27 +94,17 @@ ht-degree: 76%
 
 1. ジャーニーを[公開](publish-journey.md)します。
 
-<!--
-    Select a channel action and use the **[!UICONTROL Edit content]** button to access the design tools.
-
-    ![Edit content button in channel action activity](assets/journey-optimize-experiment-edit-content.png){width=70%}
-
-    From there, using the left pane you can navigate between the different contents for each action in your experiment. Select each content and design it as needed.
-
-    ![Content selection panel showing treatments for experiment](assets/journey-optimize-experiment-content.png){width=100%}
--->
-
 ジャーニーがライブになると、ユーザーには異なるパスを進むようにランダムに割り当てられます。 [!DNL Journey Optimizer] は、最もパフォーマンスが高いパスを追跡し、実用的なインサイトを提供します。
 
 ジャーニーパス実験レポートを使用して、ジャーニーの成功を追跡します。 [詳細情報](../reports/journey-global-report-cja-experimentation.md)
 
-<!--
-REMOVED WITH GA
+## ジャーニーの再エントリ時のパス割り当て {#path-assignment}
 
->[!CAUTION]
->
->Do not edit the metadata of a path experiment once it has been published. Editing the metadata will disrupt the calculation and reporting of experiment results.
--->
+パスの割り当ては、同じジャーニーバージョンの複数のエントリにまたがるプロファイルに対して永続的です。 例えば、プロファイルが1日目にジャーニーを入力し、パス Aに割り当てられ、2日目にジャーニーを再入力した場合、そのプロファイルは再度パス Aに割り当てられます。これにより、利用者に対して一貫性のある体験を提供し、統計的に有効なレポートと分析のために必要です。
+
+ただし、割り当ては、特定のジャーニーバージョン内でのみ永続的です。 新しいジャーニーバージョンを公開すると、ランダム化が変更され、プロファイルが別のパスに割り当てられる可能性があります。
+
+ジャーニーに複数のパス実験アクティビティがある場合、各アクティビティは独立したランダム割り当てを適用します。
 
 ## 実験のユースケース {#uc-experiment}
 

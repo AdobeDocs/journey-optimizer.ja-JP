@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
+source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
 workflow-type: tm+mt
-source-wordcount: 8472
-ht-degree: 95%
+source-wordcount: 8537
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 95%
 
 ## 2026年6月 {#june-2026}
 
+* ジャーニーの再エントリ **サブセクションの新しい** パス割り当てが&#x200B;**パス実験** ドキュメントに追加されました。 パス割り当ては、複数のエントリにわたって同じジャーニーバージョンにアクセスするプロファイルに対して永続的であり、ジャーニーバージョン内でのみ永続的であることが明確になります。 割り当ては、新しいジャーニーバージョンが公開されるとリセットされ、ジャーニー内の各パス実験アクティビティは、独立したランダム割り当てを適用します。 [詳細情報](../building-journeys/path-experimentation.md#path-assignment)
 * **Adobe Experience Cloud**&#x200B;への参照は、[!DNL Journey Optimizer]のドキュメント全体で&#x200B;**[!DNL Adobe CX Enterprise]**&#x200B;のブランドと一致しています。
 
 * **配信品質の基本を学ぶ** ページが更新され、受信者ごとのFBL **サブセクションのない新しい** プロバイダーが追加されました。 この記事では、受信者ごとにスパムの苦情を返さない主要なメールボックスプロバイダー（Gmail/Google Workspace、Apple iCloud、Corporate Microsoft 365/Exchange Online）のリストを紹介し、これらのサービスを利用する受信者に抑制リストエントリが存在しない理由を説明します。 [詳細情報](../reports/deliverability.md#providers-no-fbl)
@@ -889,7 +890,7 @@ ht-degree: 95%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
