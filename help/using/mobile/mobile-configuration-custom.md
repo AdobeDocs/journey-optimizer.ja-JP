@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
 workflow-type: tm+mt
-source-wordcount: 1086
-ht-degree: 75%
+source-wordcount: 1161
+ht-degree: 70%
 
 ---
 
@@ -72,6 +72,16 @@ ht-degree: 75%
 
 ## API 資格情報の作成 {#api-credential}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="チャネルタイプ"
+>abstract="オプション。 このカスタム SMS プロバイダー資格情報を使用して送信されたメッセージ（SMSまたはRCSなど）を分類します。 Journey Optimizerは、XDM エクスペリエンスイベントに値を書き込むため、チャネル別の配信をレポートおよび追跡できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="認証"
+>abstract="有効にすると、Adobe IMSで認証されたリクエストのみが受け入れられます。 このエンドポイントにデータを送信する場合、発信者は有効なOAuth トークンを含める必要があります。"
+
 Adobeでは標準で使用できないカスタムプロバイダー（Sinch、Infobip、Twilioなど）を使用してJourney Optimizerでモバイルメッセージを送信するには、次の手順に従います。
 
 1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;に移動し、**[!UICONTROL SMS 設定]**&#x200B;の下にある **[!UICONTROL API 資格情報]**&#x200B;メニューを選択して、「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
@@ -89,6 +99,8 @@ Adobeでは標準で使用できないカスタムプロバイダー（Sinch、I
    * **[!UICONTROL プロバイダー名]**：SMS プロバイダーの名前を入力します。
 
    * **[!UICONTROL プロバイダーの URL]**：SMS プロバイダーの URL を入力します。
+
+   * **[!UICONTROL チャネルタイプ]**：オプション。 この資格情報がどのモバイルチャネルを表しているかを示します（SMS、RCS、MMSなど）。
 
    * **[!UICONTROL 認証タイプ]**：認証タイプを選択し、選択した認証方法に基づいて[対応するフィールドに入力](#auth-options)します。
 

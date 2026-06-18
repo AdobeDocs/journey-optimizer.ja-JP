@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1139
-ht-degree: 59%
+source-wordcount: 1209
+ht-degree: 55%
 
 ---
 
@@ -92,6 +92,8 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 +++ 詳しくは、ジャーニー指標を参照してください
 
+* **[!UICONTROL ジャーニーエンゲージメント]**: ジャーニーを通じて送信されたメッセージを受信した一意の個人の合計数。ジャーニーの指定されたアクションポイントに到達した個別のプロファイルを表します。
+
 * **[!UICONTROL ジャーニーのエントリ数]**：ジャーニーのエントリイベントに到達した個人の合計数。
 
 * **[!UICONTROL ジャーニーの退出数]**：ジャーニーから退出した個人の合計数。
@@ -122,6 +124,8 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 * **[!UICONTROL クリック数]**：メッセージでコンテンツがクリックされた回数。
 
+* **[!UICONTROL 推定クリック数]**: メッセージ内でコンテンツがクリックされた回数（識別されたボットと人間ではないインタラクション （NHI） トラフィックを除く）。
+
 +++
 
 ## チャネル {#channel}
@@ -143,6 +147,8 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 * **[!UICONTROL 表示数]**：メッセージが開封された回数。
 
 * **[!UICONTROL クリック数]**：メッセージでコンテンツがクリックされた回数。
+
+* **[!UICONTROL 推定クリック数]**: メッセージ内でコンテンツがクリックされた回数（識別されたボットと人間ではないインタラクション （NHI） トラフィックを除く）。
 
 +++
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c50a62ff4a57836833b0ef19012be949d483865d
+source-git-commit: 0563b1a3101cf0511d725b55ad7cbdfb60ef786a
 workflow-type: tm+mt
-source-wordcount: '3360'
-ht-degree: 99%
+source-wordcount: '3364'
+ht-degree: 98%
 
 ---
 
@@ -357,6 +357,7 @@ ht-degree: 99%
       + [モバイルメッセージのオプトアウトの管理](using/mobile/mobile-opt-out.md)
       + [SMS サブドメインの設定](using/mobile/mobile-subdomains.md)
       + [SMS コスト最適化のベストプラクティス](using/mobile/mobile-cost-optimization.md)
+      + [SMS使用状況レポートの生成](using/mobile/sms-usage-report.md)
       + モバイルチャネルの設定 {#configure-mobile}
          + [モバイル設定の基本を学ぶ](using/mobile/mobile-configuration.md)
          + [Sinch プロバイダーの設定](using/mobile/mobile-configuration-sinch.md)

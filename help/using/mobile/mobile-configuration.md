@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
-source-wordcount: 456
-ht-degree: 63%
+source-wordcount: 480
+ht-degree: 61%
 
 ---
 
@@ -73,6 +73,8 @@ SMS、MMS または RCS を送信する前に、Adobe Journey Optimizer 環境�
    * [カスタムプロバイダー](mobile-configuration-custom.md)
 1. [Webhook の作成](mobile-webhook.md)
 1. [モバイル設定の作成](mobile-configuration-surface.md)
+
+Adobe Journey Optimizerを通じてSMSを購入する場合は、[SMS使用状況の指標を表示](sms-usage-report.md)して、MOとMT ボリュームをベンダーの請求と照合することもできます。
 
 これらの手順は、Adobe Journey Optimizer [システム管理者](../start/path/administrator.md)が実行する必要があります。
 
