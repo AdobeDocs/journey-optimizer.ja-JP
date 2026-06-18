@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4624b48096db5ff3d89537d3535195a98e6846fb
+source-git-commit: c50a62ff4a57836833b0ef19012be949d483865d
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 99%
@@ -38,9 +38,9 @@ ht-degree: 99%
       + [仕組みについて](using/start/understanding-ajo.md)
       + [AI とインテリジェント機能](using/start/ai-features.md)
       + [主な用語](using/start/terminology.md)
-      + [この業務に対してどの機能が必要ですか？](using/start/ajo-use-case-guide.md)
+      + [ユースケースの概要](using/start/ajo-use-case-guide.md)
       + [ガードレールと制限](using/start/guardrails.md)
-      + {hide-from-toc}[&#x200B; パッケージと機能](using/start/ajo-packages.md)
+      + {hide-from-toc}[ パッケージと機能](using/start/ajo-packages.md)
       + {hide-from-toc}[機能の可用性](using/start/ajo-features-availability.md)
    + はじめに（役割別） {#by-role}
       + [役割と責務](using/start/quick-start.md)
@@ -67,7 +67,7 @@ ht-degree: 99%
       + [ジャーニー指標の設定とトラッキング](using/building-journeys/success-metrics.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + シミュレーション {#simulate-journey}
-         + [&#x200B; ジャーニーシミュレーションの基本を学ぶ](using/building-journeys/simulate-journey-gs.md)
+         + [ ジャーニーシミュレーションの基本を学ぶ](using/building-journeys/simulate-journey-gs.md)
          + [ジャーニーのシミュレート](using/building-journeys/simulate-journey.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーのドライラン](using/building-journeys/journey-dry-run.md)
@@ -146,7 +146,7 @@ ht-degree: 99%
    + {hide-from-toc}[ロイヤルティの課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[ロイヤルティの課題のパフォーマンスの監視](using/loyalty-challenges/loyalty-reporting.md)
    + {hide-from-toc}[ロイヤルティの課題の設定](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[ロイヤルティデータとデータセット](using/loyalty-challenges/loyalty-data-and-datasets.md)
@@ -515,11 +515,11 @@ ht-degree: 99%
       + [Experience Manager Assets の操作](using/integrations/assets.md)
       + [Adobe Stock との連携](using/integrations/stock.md)
       + [Adobe Express の操作](using/integrations/express.md)
-      + {hide-from-toc}[Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
       + Experience Manager コンテンツフラグメント {#aem}
          + [Experience Manager コンテンツフラグメントの基本を学ぶ](using/integrations/aem-fragments-gs.md)
-         + {hide-from-toc}[コンテンツフラグメント用のリポジトリの設定](using/integrations/aem-admin-settings.md)
+         + [コンテンツフラグメント用のリポジトリの設定](using/integrations/aem-admin-settings.md)
          + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
+         + [Adobe Experience Manager コンテンツフラグメントの管理](using/integrations/aem-fragments-manage.md)
          + [考慮事項とトラブルシューティング](using/integrations/aem-fragments-limitations.md)
       + [Experience Manager コンテンツアドバイザーの操作](using/integrations/aem-content-advisor.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
@@ -727,7 +727,7 @@ ht-degree: 99%
          + [決定ポリシーを作成](using/experience-decisioning/create-decision-policy.md)
          + [メッセージでの決定ポリシーの使用](using/experience-decisioning/use-decision-policy.md)
          + [決定ポリシーでのフラグメントの活用](using/experience-decisioning/fragments-decision-policies.md)
-         + [&#x200B; ダイレクトメールでのバッチ決定](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + [ ダイレクトメールでのバッチ決定](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
       + [決定のユースケース](using/experience-decisioning/experience-decisioning-uc.md)
       + イベントデータの収集 {#experience-decisioning-collect-event-data}
