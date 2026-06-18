@@ -7,15 +7,14 @@ feature: Integrations
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: AEM, コンテンツフラグメント，管理，リポジトリ，認証，著者，公開
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
+source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 512
 ht-degree: 0%
 
 ---
@@ -24,11 +23,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、**&#x200B;管理者がサンドボックスをAdobe Experience Manager リポジトリに接続する方法（作成者のみのアクセス、パブリッシュアクセス、カスタムドメイン、認証の設定）について説明します。これにより、マーケターはジャーニーやキャンペーンでAEM コンテンツフラグメントを使用できます。
+**このページでは、**&#x200B;管理者がサンドボックスをAdobe Experience Manager リポジトリに接続し、オーサーのみのアクセスまたはパブリッシュアクセス、カスタムドメイン、認証を設定して、マーケターがジャーニーやキャンペーンでAEM コンテンツフラグメントを使用できるようにする方法について説明します。
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizerは&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;と統合されているため、**コンテンツフラグメント**&#x200B;をジャーニーとキャンペーンで使用できます。 **コンテンツフラグメント**&#x200B;は、デフォルトでAdobe Experience Manager パブリッシュリポジトリから読み取られます。管理者は、**[!UICONTROL AEM統合]** メニューでオーサー専用に切り替えたり、パブリッシュアクセスを調整したりできます。
+Adobe Journey Optimizerは&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;および&#x200B;**[!DNL Adobe Experience Manager Managed Service]**&#x200B;と統合されているため、ジャーニーとキャンペーンで&#x200B;**コンテンツフラグメント**&#x200B;を使用できます。 **コンテンツフラグメント**&#x200B;は、デフォルトでAdobe Experience Manager パブリッシュリポジトリから読み取られます。管理者は、**[!UICONTROL AEM統合]** メニューでオーサー専用に切り替えたり、パブリッシュアクセスを調整したりできます。
 
 ➡️ リポジトリが設定されたら、[Journey Optimizerでのオーサリングタスクと選択タスクのExperience Manager コンテンツフラグメントの操作](../integrations/aem-fragments.md)を続行します。
 
@@ -44,7 +43,7 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
 1. **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL AEM統合]**&#x200B;にアクセスします。
 
-1. 「**[!UICONTROL 統合を作成]**」をクリックします。
+1. 「**[!UICONTROL 設定を作成]**」をクリックします。
 
    ![](assets/aem-admin-settings-1.png)
 
@@ -52,7 +51,7 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
    ![](assets/aem-admin-settings-6.png)
 
-1. 設定するリポジトリを選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
+1. **[!DNL Adobe Experience as a Cloud Service]**&#x200B;を使用している場合は、設定するリポジトリを選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 
    さらに、**[!UICONTROL 表示]**&#x200B;をクリックして、このリポジトリにアクセスできます。
 
@@ -76,11 +75,15 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
    +++ インスタンス設定の公開
 
+   デフォルトでは、すべての&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]** リポジトリが&#x200B;**publish** インスタンスを使用するように設定されています。 これらの設定を変更せずに、コンテンツフラグメントのテストステップに進むことができます。
+
+   パブリッシュインスタンスが&#x200B;**認証済み**&#x200B;の場合、またはカスタム公開ドメインを使用する必要がある場合は、次の手順に従います。
+
    1. 「**[!UICONTROL パブリッシュインスタンス設定]**」を選択して、パブリッシュインスタンス設定を有効にします。
 
       ![](assets/aem-admin-settings-4.png)
 
-   1. オプションで&#x200B;**[!UICONTROL トークンをパブリッシュインスタンスに送信]**&#x200B;することを有効にして、パブリッシュインスタンスへのリクエストにサービス資格情報を含めます。
+   1. パブリッシュインスタンスへのリクエストにサービス資格情報が含まれるように、**[!UICONTROL トークンをパブリッシュインスタンスに送信]**&#x200B;することを有効にします。
 
    1. 認証用に有効な&#x200B;**[!UICONTROL サービス資格情報JSON]**&#x200B;を貼り付けます。
 

@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 73aa488608dfa96162cc77ac3caa18e6dc13fb01
 workflow-type: tm+mt
-source-wordcount: 1008
-ht-degree: 78%
+source-wordcount: 1029
+ht-degree: 77%
 
 ---
 
@@ -56,6 +56,8 @@ ht-degree: 78%
 フラグメントは、左側のメニューの&#x200B;**[!UICONTROL フラグメント]**&#x200B;からゼロから作成できます。 さらに、コンテンツをデザインする際に、既存のコンテンツの一部をフラグメントとして保存することもできます。 [方法についてはこちらを参照](save-fragments.md#)
 
 保存すると、フラグメントをジャーニー、キャンペーンまたはテンプレートで使用できるようになります。 このフラグメントは、ジャーニーとキャンペーン内でコンテンツを作成する際に使用できます。 [ビジュアルフラグメントの追加](../email/use-visual-fragments.md)および[式フラグメントの活用](../personalization/use-expression-fragments.md)を参照してください。
+
+➡️ [Adobe Experience Manager コンテンツフラグメントを管理](../integrations/aem-fragments-manage.md)して、同期されたフラグメント、参照、タグ、手動同期を&#x200B;**[!UICONTROL AEM フラグメント]** タブで表示します。
 
 フラグメントを作成するには、次の手順に従います。
 

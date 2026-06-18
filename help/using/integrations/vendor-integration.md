@@ -11,7 +11,7 @@ keywords: 統合、ベンダー、サードパーティ
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
 workflow-type: tm+mt
 source-wordcount: 10185
 ht-degree: 6%
@@ -1208,6 +1208,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 Adobe Targetには、使用権限に応じて、サーバーサイドまたは統合されたエクスペリエンス向けのレコメンデーションおよび配信APIが含まれています。
 
 一般的なユースケースには、Journey Optimizerで作成したエクスペリエンスにレコメンデーションを挿入したり、プロファイルやExperience Platformのコンテキストとキーを整合させたりすることが含まれます。
+
+<!--
+➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
+-->
 
 >[!ENDSHADEBOX]
 

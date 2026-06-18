@@ -22,10 +22,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 28395abcdcba6ed8fd02f252a57022aa473f3d3b
 workflow-type: tm+mt
-source-wordcount: 296
-ht-degree: 40%
+source-wordcount: 319
+ht-degree: 22%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 40%
 >
 >ヘルスケアのお客様の場合、統合は Journey Optimizer Healthcare Shield および Adobe Experience Manager Enhanced Security アドオン製品のライセンスを取得した場合にのみ有効になります。
 
-Adobe Experience Manager as a Cloud Service を Adobe Journey Optimizer と統合することで、AEM コンテンツフラグメントを Journey Optimizer のコンテンツにシームレスに組み込めるようになりました。 この合理化された接続により、AEM コンテンツへのアクセスと活用のプロセスが簡略化され、パーソナライズされた動的なキャンペーンやジャーニーの作成が可能になります。
+**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;と&#x200B;**[!DNL Adobe Experience Manager Managed Service]**&#x200B;をAdobe Journey Optimizerと統合することで、ジャーニーとキャンペーンでAEM コンテンツフラグメントを使用できます。 **[!DNL Adobe Experience Manager Managed Service]**&#x200B;の場合、統合は&#x200B;**AEM長期サポート （LTS） SP2**&#x200B;の&#x200B;**作成者**&#x200B;および&#x200B;**公開**&#x200B;層をサポートしています。このリリースでは、Adobe Experience Managerからのリアルタイム更新は利用できません。 インスタンスの設定については、Adobe Managed Services担当者にお問い合わせください。次に、[Adobe Experience Manager リポジトリアクセスを設定](aem-admin-settings.md)して、Managed Services リポジトリを追加します。
 
 AEM コンテンツフラグメントについて詳しくは、Experience Manager ドキュメントの[コンテンツフラグメントの操作](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}を参照してください。
 
@@ -53,6 +53,6 @@ AEM コンテンツフラグメントについて詳しくは、Experience Manag
 
 コンテンツは&#x200B;**オーサー層**&#x200B;で作成および管理されます。フラグメントには、新規、ドラフト、公開済み、変更済み、未公開などのステータスを設定できます。 これらのステータスは、**オーサー層**&#x200B;にのみ適用され、コンテンツの作成とレビューをサポートします。
 
-コンテンツフラグメントが公開されると、コピーが&#x200B;**パブリッシュ層**&#x200B;に作成され、未認証の公開エンドポイントを通じて公開されます。 Journey Optimizerは、この&#x200B;**パブリッシュ層**&#x200B;とのみ統合されます。
+コンテンツフラグメントが公開されると、コピーが&#x200B;**パブリッシュ層**&#x200B;に作成され、未認証の公開エンドポイントを通じて公開されます。 **[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;の場合、Journey Optimizerは&#x200B;**オーサー層**&#x200B;と&#x200B;**パブリッシュ層**&#x200B;の両方との統合をサポートしています。
 
 そのため、Journey Optimizerでは、公開済みまたは変更されたコンテンツフラグメントのみを表示し、常に最新の公開済みバージョンを使用します。 公開後に行われた変更は、コンテンツフラグメントが再公開されるまでJourney Optimizerに反映されません。

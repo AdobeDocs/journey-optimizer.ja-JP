@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4624b48096db5ff3d89537d3535195a98e6846fb
+source-git-commit: c50a62ff4a57836833b0ef19012be949d483865d
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 99%
@@ -38,7 +38,7 @@ ht-degree: 99%
       + [仕組みについて](using/start/understanding-ajo.md)
       + [AI とインテリジェント機能](using/start/ai-features.md)
       + [主な用語](using/start/terminology.md)
-      + [この業務に対してどの機能が必要ですか？](using/start/ajo-use-case-guide.md)
+      + [ユースケースの概要](using/start/ajo-use-case-guide.md)
       + [ガードレールと制限](using/start/guardrails.md)
       + {hide-from-toc}[&#x200B; パッケージと機能](using/start/ajo-packages.md)
       + {hide-from-toc}[機能の可用性](using/start/ajo-features-availability.md)
@@ -515,11 +515,11 @@ ht-degree: 99%
       + [Experience Manager Assets の操作](using/integrations/assets.md)
       + [Adobe Stock との連携](using/integrations/stock.md)
       + [Adobe Express の操作](using/integrations/express.md)
-      + {hide-from-toc}[Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
       + Experience Manager コンテンツフラグメント {#aem}
          + [Experience Manager コンテンツフラグメントの基本を学ぶ](using/integrations/aem-fragments-gs.md)
-         + {hide-from-toc}[コンテンツフラグメント用のリポジトリの設定](using/integrations/aem-admin-settings.md)
+         + [コンテンツフラグメント用のリポジトリの設定](using/integrations/aem-admin-settings.md)
          + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
+         + [Adobe Experience Manager コンテンツフラグメントの管理](using/integrations/aem-fragments-manage.md)
          + [考慮事項とトラブルシューティング](using/integrations/aem-fragments-limitations.md)
       + [Experience Manager コンテンツアドバイザーの操作](using/integrations/aem-content-advisor.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
