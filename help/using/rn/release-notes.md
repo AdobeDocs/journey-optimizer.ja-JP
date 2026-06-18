@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fe8836987038c1d5c26f17f415071a1740f203df
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
 workflow-type: tm+mt
-source-wordcount: 3557
+source-wordcount: 3579
 ht-degree: 25%
 
 ---
@@ -148,9 +136,11 @@ ht-degree: 25%
 
   ご利用いただけます：2026年6月4日（PT）
 
-+++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
+* **ライブジャーニーの制限と新しいガードレールの増加** – 最大&#x200B;**200個のアクティブなジャーニー**&#x200B;を追加でき、以前の制限の100から増やすことができるようになりました。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 
-* **ライブジャーニーの制限と新しいガードレールの増加** – 最大&#x200B;**200個のアクティブなジャーニー**&#x200B;を追加でき、以前の制限の100から増やすことができるようになりました。
+  公開日：2026年6月18日（PT）。 この機能は、今後数日間であらゆる地域に徐々に展開されます。
+
++++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
 
 * **ジャーニーヘッダーの開始日と終了日** - ライブジャーニーで開始日と終了日を設定すると、ライブステータスバッジの横にある&#x200B;**ジャーニーヘッダー**&#x200B;に表示されるようになりました。 表示されるラベルは、各日付が予定されているか、すでに経過しているかに基づいて適応します。
 
