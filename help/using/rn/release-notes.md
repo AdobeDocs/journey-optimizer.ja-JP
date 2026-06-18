@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 691dcd9cdb98ca4bfd6c13dc5b4c92d71805c852
+source-git-commit: 04eeefa3fdcf648eb0a0b6fc3c6c961f898251ac
 workflow-type: tm+mt
-source-wordcount: 3693
+source-wordcount: 3695
 ht-degree: 25%
 
 ---
@@ -534,7 +534,7 @@ ht-degree: 25%
 
 * **SMS レポートのユニーククリック数** - SMS レポートに新しい&#x200B;**ユニーククリック数** モジュールが導入され、現在メールレポートで使用できるSMSと同じレベルの詳細なパフォーマンストラッキングが実現されました。
 
-* **SMS – 使用状況の指標を表示** - Adobe Journey Optimizerを通じて直接SMSを購入するお客様に対して、新しい&#x200B;**SMS使用状況ダッシュボード**&#x200B;が導入されました。 Mobile Originated （MO）およびMobile Terminated （MT）メッセージで分類された、過去90日間のメッセージ送信指標を表示および追跡できるようになりました。 このデータはCSVでダウンロードすることもでき、SMS費用の可視性と制御を強化します。
+* **SMS – 使用状況の指標を表示** - Adobe Journey Optimizerを通じて直接SMSを購入するお客様に対して、新しい&#x200B;**SMS使用状況ダッシュボード**&#x200B;が導入されました。 Mobile Originated （MO）およびMobile Terminated （MT）メッセージで分類された、過去90日間のメッセージ送信指標を表示および追跡できるようになりました。 このデータはCSVでダウンロードすることもでき、SMS費用の可視性と制御を強化します。 [詳細情報](../mobile/sms-usage-report.md)
 
 * **SMSの推定クリック数レポート** – 新しい推定クリック数の指標が、メールおよびSMSのジャーニー、キャンペーン、およびチャネルレポートで利用できるようになりました。 この指標では、特定されたボットと人間ではないインタラクション（NHI）のトラフィックは除外されており、真の顧客エンゲージメントをより明確に把握できます。 既存のクリック数の指標は引き続き使用でき、合計クリック数は引き続き報告されます。
 
