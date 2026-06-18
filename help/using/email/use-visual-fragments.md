@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
+source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 1242
 ht-degree: 52%
 
 ---
@@ -139,11 +139,13 @@ ht-degree: 52%
 
 1. フラグメント内のすべての編集可能なフィールドは、**[!UICONTROL 設定]** タブのフラグメントプロパティの下に表示されます。
 
-   ![](assets/fragment-editable-rich-fields.png)
+   次の例では、画像ソースと代替テキストだけでなく、「タイトル」/「サブタイトル」フィールドと「詳細情報」ボタンのURLも編集できます。
+
+   ![](assets/fragment-editable-fields.png)
 
 1. 中央のキャンバスの編集可能なフィールドにカーソルを合わせます。 フィールドが緑色でハイライト表示され、含まれているテキストをクリックすると鉛筆アイコンが表示されます。
 
-   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
+   ![](assets/fragment-editable-field-selected.png){width="80%" align="center"}
 
 1. 中央の電子メールDesigner キャンバスで、フィールドテキストをインラインで直接編集します。
 
@@ -155,15 +157,11 @@ ht-degree: 52%
 
    メールDesigner ツールバーの![&#x200B; リッチテキスト書式設定オプション &#x200B;](assets/fragment-editable-fields-rich-text.png)
 
-   >[!IMPORTANT]
+   >[!TIP]
    >
    >リッチテキスト編集機能が導入される前に作成されたフラグメントでは、デフォルトで編集可能フィールドがテキストのみのモードに設定されています。 完全な書式設定オプションを有効にするには、**[!UICONTROL フラグメントを開く]** ボタンを使用してフラグメントエディターに移動し、**[!UICONTROL 有効にする]**&#x200B;をクリックしてリッチテキストモードをロック解除し、**[!UICONTROL フラグメントを保存]**&#x200B;します。 [詳細情報](../content-management/customizable-fragments.md#rich-text-visual)
-   >
-   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
 
-1. 次の例では、画像ソースと代替テキストだけでなく、「タイトル」/「サブタイトル」フィールドと「詳細情報」ボタンのURLも編集できます。
-
-   ![](assets/fragment-editable-fields.png)
+   ![電子メール Designerの互換性に関する警告](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、編集可能なコンテンツとスタイルのレンダリング方法を確認できます。 [コンテンツのプレビューの詳細情報](../content-management/preview-test.md)
 
