@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: メール，コンテンツチェック，HTML, CSS，検証，レンダリング，品質
-source-git-commit: 5d21c045ce6b1fd70f2f966c85d364e2fcfb4bb8
+source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
 
 
-# E メールDesignerでのコンテンツチェック {#content-checks}
+# 電子メールDesignerのコンテンツチェック {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
->title="コンテンツチェック"
->abstract="メールを送信する前に、メール内のHTMLとCSSの問題を検出して修正します。 GmailまたはMicrosoft Outlookでトリガーレンダリングのエラーが発生した場合に、サポートされていないタグ、空のdiv、サイズのしきい値を確認します。 問題は、エラー、警告、または情報通知として表示されます。"
+>title="メールコンテンツの検証"
+>abstract="コンテンツチェック機能は、メールを送信する前に、メール内のHTMLとCSSの問題を自動的に検出します。 サポートされていないタグ、空のdiv、サイズ制限にフラグを設定し、GmailまたはMicrosoft Outlookでのレンダリングが壊れる可能性があります。 問題は、エラー、警告、または情報通知として表示され、コンテキストの詳細とワンクリック修正が可能な場合は表示されます。"
 
 [!DNL Journey Optimizer]には、電子メール Designerで直接自動技術検証が含まれており、送信前にHTMLとCSSの問題を検出するのに役立ちます。
 
