@@ -44,13 +44,13 @@ Adobe Experience Manager as a Cloud ServiceまたはManaged ServicesとAdobe Jou
    * **[!UICONTROL バリエーション]**：現在、このフラグメントに対して表示されている公開済みのバリエーション。
    * **[!UICONTROL リポジトリ ID]**: Adobe Experience Managerのフラグメントのリポジトリ ID。
    * **[!UICONTROL AEM フラグメント ID]**:Adobe Experience Managerの一意のコンテンツフラグメント ID。
-   * **[!UICONTROL タグ]**: Adobe Experience Managerで割り当てられたタグ。組織とサンドボックスのセレクターにフラグメントが表示されるかどうかを判断するJourney Optimizerのイネーブルメントタグが含まれます。 [ タグの作成と割り当て方法について説明します](aem-fragments.md#create-tag)
+   * **[!UICONTROL タグ]**: Adobe Experience Managerで割り当てられたタグ。組織とサンドボックスのセレクターにフラグメントが表示されるかどうかを判断するJourney Optimizerのイネーブルメントタグが含まれます。 [&#x200B; タグの作成と割り当て方法について説明します](aem-fragments.md#create-tag)
    * **[!UICONTROL JSON プレビュー]**:Journey Optimizerが使用するフラグメントコンテンツの読み取り専用JSON構造。
 
 1. **[!UICONTROL 参照を検索]**&#x200B;で、タブを使用して、フラグメントを参照するジャーニー、キャンペーン、オーケストレーションされたキャンペーン、テンプレートを表示します。
 
    ![](assets/fragment-list-3.png)
 
-➡️ [ コンテンツフラグメントの詳細](aem-fragments.md)
+➡️ [&#x200B; コンテンツフラグメントの詳細](aem-fragments.md)
 
 

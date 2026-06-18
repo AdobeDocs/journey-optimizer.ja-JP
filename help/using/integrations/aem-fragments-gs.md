@@ -8,12 +8,20 @@ role: User
 level: Beginner
 exl-id: c36a53a4-c324-4082-838e-ed27bd3b2e90
 TQID: https://experienceleague.adobe.com/GRQ3Wz7Y4YJ3545mTtju0R8en9BYiejyo8UoMx558nM
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 28395abcdcba6ed8fd02f252a57022aa473f3d3b
 workflow-type: tm+mt
 source-wordcount: 319
@@ -41,7 +49,7 @@ AEM コンテンツフラグメントについて詳しくは、Experience Manag
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、様々なライフサイクルステージに従います。 [詳しくは、Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)を参照してください。
+コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、様々なライフサイクルステージに従います。 [詳しくは、Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)を参照してください。
 
 コンテンツは&#x200B;**オーサー層**&#x200B;で作成および管理されます。フラグメントには、新規、ドラフト、公開済み、変更済み、未公開などのステータスを設定できます。 これらのステータスは、**オーサー層**&#x200B;にのみ適用され、コンテンツの作成とレビューをサポートします。
 

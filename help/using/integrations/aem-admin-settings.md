@@ -8,8 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, コンテンツフラグメント，管理，リポジトリ，認証，著者，公開
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
 workflow-type: tm+mt
 source-wordcount: 512
