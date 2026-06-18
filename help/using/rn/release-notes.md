@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f62163759dc065c30057e02a064af56e269fc971
+source-git-commit: 3a9192700114244b0c010c410b19ecfbc203db02
 workflow-type: tm+mt
-source-wordcount: 3646
+source-wordcount: 3659
 ht-degree: 25%
 
 ---
@@ -359,8 +359,6 @@ ht-degree: 25%
 </tbody>
 </table>
 
-+++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
-
 <table>
 <thead>
 <tr>
@@ -373,10 +371,15 @@ ht-degree: 25%
 <p>Journey Optimizerでは、電子メールのDesignerで自動的に技術的な検証を直接実行できるようになりました。これにより、送信前にHTMLとCSSの問題を把握できます。</p>
 <p><code>&lt;script&gt;</code>および<code>&lt;base&gt;</code> タグ、Microsoft Outlookのレイアウトを解除できる空のdiv、HTML metaの更新タグ、Gmailでトリガーレンダリングが失敗するCSSまたはHTML サイズのしきい値など、サポートされていない要素をチェックします。</p>
 <p>結果は、オーサリングパネルで直接エラー、警告、または情報通知として表示され、コンテキストの詳細とワンクリック修正が可能な場合は表示されるので、エディターを離れることなく問題を解決できます。</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>詳しくは、<a href="../email/content-check.md">詳細ドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年6月18日（PT）</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
 
 <table>
 <thead>
