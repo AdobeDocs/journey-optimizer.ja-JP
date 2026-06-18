@@ -242,7 +242,7 @@ Journey Optimizer は、トラッキング、フィードバック、ジャー�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 **スキーマの基本を学ぶ**
 
@@ -252,7 +252,7 @@ Adobe Experience Platform で XDM スキーマを作成する方法、適切な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **データセットの操作**
 
@@ -262,7 +262,7 @@ Adobe Experience Platform で XDM スキーマを作成する方法、適切な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **データソースの設定**
 
@@ -272,7 +272,7 @@ Adobe Experience Platform で XDM スキーマを作成する方法、適切な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **Adobe Experience Platform データ（参照）の使用**
 
@@ -282,7 +282,7 @@ Adobe Experience Platform で XDM スキーマを作成する方法、適切な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **クエリの基本を学ぶ**
 
@@ -292,7 +292,7 @@ Adobe Experience Platform で XDM スキーマを作成する方法、適切な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 **プロファイルの基本を学ぶ**
 
@@ -302,7 +302,7 @@ Journey Optimizer でのリアルタイム顧客プロファイルの仕組み�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 **データの設定の概要チュートリアル**
 
@@ -312,7 +312,7 @@ Journey Optimizer でのリアルタイム顧客プロファイルの仕組み�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 **データセットの作成とデータの取り込みチュートリアル**
 
