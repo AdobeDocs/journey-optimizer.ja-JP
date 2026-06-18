@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
+source-git-commit: a3b4e8a6eafb8af7e6682cc0fff51094a3936cad
 workflow-type: tm+mt
-source-wordcount: 2462
-ht-degree: 64%
+source-wordcount: 2590
+ht-degree: 61%
 
 ---
 
@@ -291,7 +291,9 @@ Adobeは、証明書とその関連する秘密鍵を管理します。 次の�
 | アルゴリズム | RS256 （RSA） |
 | ID プロバイダーに登録する情報 | Adobeのリーフ証明書のみ（中間CAやルート CAではない） |
 | 入手方法 | [mTLS公開証明書API](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}から取得します（以下の&#x200B;**証明書** ガードレールを参照） |
-| 回転 | Adobeはローテーションを管理し、少なくとも30日前に通知します |
+| 回転 | Adobeは、有効期限の60日前に証明書を自動的にローテーションします（証明書の有効期間：13か月）。 以前の証明書は、有効期限の30日前まで有効です。 現在、ローテーションの通知は受け取られていません。定期的に[mTLS公開証明書API](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}を呼び出して`expiryDate`を確認し、古い証明書が失効する前にIDPを再設定してください。 |
+
+Adobeは、有効期限の60日前に証明書を自動的にローテーションします。 以前の証明書は、有効期限の30日前まで有効です。 お客様には現在は通知されていません。プログラムでローテーションを監視する方法については、以下の&#x200B;[**証明書のローテーション** ガードレール &#x200B;](#certificate-credential-guardrails)を参照してください。
 
 #### JWT アサーション構造 {#certificate-credential-jwt}
 
@@ -369,6 +371,8 @@ Oktaの同じ証明書資格情報認証タイプの例を次に示します。
 }
 ```
 
+<a id="certificate-credential-guardrails"></a>
+
 >[!CAUTION]
 >
 >証明書ベースのカスタム認証を設定する際は、次のガードレールを考慮してください。
@@ -377,7 +381,7 @@ Oktaの同じ証明書資格情報認証タイプの例を次に示します。
 >* **`method`**: `POST`でなければなりません。 OAuth トークンエンドポイントは、POST リクエストのみを受け入れます。
 >* **`client_id`**：空白にしないでください。先頭または末尾に空白を含めないでください。 空白の値を指定すると、ID プロバイダーが不透明なエラーで拒否する有効な外観のJWTが生成されます。
 >* **`scope`**: `bodyParams`でスペース区切りの単一の文字列として表されます。 合計1000文字以内。
->* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書**&#x200B;を登録する必要があります。 取得するには、[mTLS公開証明書API](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}を呼び出し、`certCommonName`が`ajo-journeys.aep-mtls.adobe.com`のエントリを探します。 そのエントリから`publicCertificate`値を登録します。中間またはルート CA証明書は使用しないでください。
+>* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書**&#x200B;を登録する必要があります。 取得するには、[mTLS公開証明書API](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}を呼び出し、`certCommonName`が`ajo-journeys.aep-mtls.adobe.com`のエントリを探します。 そのエントリから`publicCertificate`値を登録します。中間またはルート CA証明書は使用しないでください。 現在、証明書のローテーションが通知されていないため、古い証明書が失効する30日前にIDPで登録済み証明書を更新する前に、mTLS公開証明書APIを定期的に呼び出して`expiryDate`を確認し、IDPで登録済み証明書を更新する必要があります。
 
 ヘッダー認証タイプの例を次に示します。
 
