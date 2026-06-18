@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
 workflow-type: tm+mt
-source-wordcount: 1086
-ht-degree: 75%
+source-wordcount: 1161
+ht-degree: 70%
 
 ---
 
@@ -72,6 +62,16 @@ ht-degree: 75%
 
 ## API 資格情報の作成 {#api-credential}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="チャネルタイプ"
+>abstract="オプション。 このカスタム SMS プロバイダー資格情報を使用して送信されたメッセージ（SMSまたはRCSなど）を分類します。 Journey Optimizerは、XDM エクスペリエンスイベントに値を書き込むため、チャネル別の配信をレポートおよび追跡できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="認証"
+>abstract="有効にすると、Adobe IMSで認証されたリクエストのみが受け入れられます。 このエンドポイントにデータを送信する場合、発信者は有効なOAuth トークンを含める必要があります。"
+
 Adobeでは標準で使用できないカスタムプロバイダー（Sinch、Infobip、Twilioなど）を使用してJourney Optimizerでモバイルメッセージを送信するには、次の手順に従います。
 
 1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;に移動し、**[!UICONTROL SMS 設定]**&#x200B;の下にある **[!UICONTROL API 資格情報]**&#x200B;メニューを選択して、「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
@@ -90,6 +90,8 @@ Adobeでは標準で使用できないカスタムプロバイダー（Sinch、I
 
    * **[!UICONTROL プロバイダーの URL]**：SMS プロバイダーの URL を入力します。
 
+   * **[!UICONTROL チャネルタイプ]**：オプション。 この資格情報がどのモバイルチャネルを表しているかを示します（SMS、RCS、MMSなど）。
+
    * **[!UICONTROL 認証タイプ]**：認証タイプを選択し、選択した認証方法に基づいて[対応するフィールドに入力](#auth-options)します。
 
      ![](assets/sms-byop.png)
@@ -102,7 +104,7 @@ Adobeでは標準で使用できないカスタムプロバイダー（Sinch、I
 
    >[!IMPORTANT]
    >
-   >[MTLS公開証明書API](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint)から公開証明書をダウンロードし、サーバーのトラストストアに追加して、SMS送信エンドポイントをAdobe Experience Platform認証局チェーンを信頼するように設定します（想定されるクライアント CN: `ajo-sms.aep-mtls.adobe.com`）。そうしないと、Journey Optimizerでクライアント証明書が省略され、SMS配信が失敗します。
+   >[MTLS公開証明書API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint)から公開証明書をダウンロードし、サーバーのトラストストアに追加して、SMS送信エンドポイントをAdobe Experience Platform認証局チェーンを信頼するように設定します（想定されるクライアント CN: `ajo-sms.aep-mtls.adobe.com`）。そうしないと、Journey Optimizerでクライアント証明書が省略され、SMS配信が失敗します。
 
 1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 新しいパラメーターを追加]**」をクリックし、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを指定します。
 
@@ -118,7 +120,7 @@ Adobeでは標準で使用できないカスタムプロバイダー（Sinch、I
    >
    >基本認証またはベアラー認証を使用してカスタム SMS プロバイダーを設定する際は、JSON ペイロードに `authOption` パラメーターを含める必要があります。 さらに、**プロバイダーペイロード**&#x200B;は、テンプレート変数 `{{fromNumber}}`、`{{toNumber}}`、`{{message}}` を参照する必要があります。
 
-1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [&#x200B; インバウンドキーワードのカスタムデータセットの使用について詳しく見る](custom-dataset-inbound-keywords.md)
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [ インバウンドキーワードのカスタムデータセットの使用について詳しく見る](custom-dataset-inbound-keywords.md)
 
    >[!NOTE]
    >
@@ -212,5 +214,5 @@ API 資格情報を作成したら、JWT 認証に必要なフィールドに入
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3459089?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)
 
