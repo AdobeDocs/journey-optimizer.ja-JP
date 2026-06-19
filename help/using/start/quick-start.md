@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 役割と責務
-description: Adobe Journey Optimizer に関連する様々な役割とその責務について説明します。
+title: ：その定義、役割、責任
+description: Adobe Journey Optimizerの役割、責任、推奨される実装手順について説明します。
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -11,39 +11,16 @@ keywords: 役割, 責務, マーケター, 管理者, データエンジニア, 
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6MbvGvYY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072fid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 2293
-ht-degree: 98%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -55,21 +32,11 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer を使用すると、カスタマージャーニーを通じて、ブランドからコンテキストに沿ったパーソナライズされたエクスペリエンスを提供できます。 Journey Optimizer は、スケール、速度、柔軟性といったエンドツーエンドの焦点で作成され、次の 3 つの主な価値推進要因を統合アプリケーションに組み合わせたものです。
+Adobe Journey Optimizerは、4つの異なる役割が順番に作業することによって実装されます。 このページでは、各役割の責任と、詳細な入門ガイドへのリンクを示しています。
 
-* アドビのリアルタイム顧客プロファイルを活用した&#x200B;**リアルタイムの顧客インサイトとエンゲージメント**
-* リアルタイムジャーニーとバッチキャンペーンの両方に対応する統合キャンバスと最新のメッセージデザイナーによる&#x200B;**最新のオムニチャネルオーケストレーション**
-* 意思決定管理と AI／ML 機能による&#x200B;**インテリジェントな意思決定とパーソナライゼーション**
-
-Journey Optimizer には、顧客にリーチして関与する 2 つの主なアプローチが用意されています。
-
-* **ジャーニー** - 各顧客が行動やイベントにトリガーされて、自分のペースで進める、リアルタイムの 1 対 1 のオーケストレーション。 オンボーディングシーケンス、買い物かご放棄、ライフサイクルエンゲージメントに最適です。
-* **キャンペーン** - ユースケースに応じて 3 つの配信モードを含むオーディエンスベースのメッセージ。
-   * **アクションキャンペーン** - 定義済みのオーディエンスに、スケジュール済みメッセージまたは繰り返しメッセージを一度に配信します。 ニュースレター、プロモーションのお知らせ、製品ローンチに最適です。
-   * **API トリガーキャンペーン** - API を介して外部システムによりトリガーされるオンデマンドメッセージ。 注文確認、発送アラート、アカウント通知などのトランザクションメッセージに最適です。
-   * **オーケストレーションキャンペーン** - マルチエンティティのセグメント化とキャンバスベースの実行を含む複雑なバッチワークフロー。 季節のプロモーション、マルチステップのバッチプログラム、正確な事前送信数を必要とするキャンペーンに最適です。
-
-この統合されたエクスペリエンスにより、オーディエンスの定義やジャーニーのデザインから、パーソナライズされたコンテンツの作成や結果の分析まで、ユースケース全体を 1 か所で実装できます。 このドキュメントでは、Journey Optimizer を効果的に使用する際の重要な役割と責任および使用の開始方法について説明します。
+>[!NOTE]
+>
+>Journey Optimizerを初めて利用する場合 最初に[Journey Optimizer](get-started.md)とは何ですか。
 
 **重要なメモ：** Adobe Journey Optimizer では、特定の責任を持つ個別のロールを定義します。 組織の構造に応じて、1 人のユーザーが複数の役割またはすべての役割を実行することができます。
 
@@ -77,7 +44,7 @@ Journey Optimizer には、顧客にリーチして関与する 2 つの主な�
 >
 >* 環境で使用できるコンポーネントと機能は、[権限](../administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。 ご不明な点について詳しくは、アドビカスタマーサクセスマネージャーまたはアドビ担当者までお問い合わせください。
 >
->* [!DNL Journey Optimizer]には、[!DNL Adobe CX Enterprise]の一般的なプライバシーガイドラインと手順が適用されます。 [&#x200B; プライバシー](https://www.adobe.com/jp/privacy/experience-cloud.html){target="_blank"}の詳細を確認します。 [!DNL Adobe CX Enterprise] 
+>* [!DNL Journey Optimizer]には、[!DNL Adobe CX Enterprise]の一般的なプライバシーガイドラインと手順が適用されます。 [ プライバシー](https://www.adobe.com/jp/privacy/experience-cloud.html){target="_blank"}の詳細を確認します。 [!DNL Adobe CX Enterprise] 
 
 ## 始める前に {#before-you-begin}
 
@@ -180,7 +147,7 @@ Journey Optimizer の実装が成功すると、通常、このシーケンス�
 * **プロファイル管理**：リアルタイム顧客プロファイル用のデータセットを有効にして、パーソナライズされたエクスペリエンスを強化します
 * **データ品質**：データ取り込みを監視し、すべてがスムーズにJourney Optimizer にフローするようにします
 
-**開始：**&#x200B;[データ管理の基本を学ぶ](../data/gs-data.md)の概要を確認して、スキーマ、データセット、ID、完全なデータ設定チェックリストを理解します。 次に、最初の顧客プロファイルスキーマをモデル化し、ソースコネクタを設定してデータ取り込みを開始します。
+**開始：**[データ管理の基本を学ぶ](../data/gs-data.md)の概要を確認して、スキーマ、データセット、ID、完全なデータ設定チェックリストを理解します。 次に、最初の顧客プロファイルスキーマをモデル化し、ソースコネクタを設定してデータ取り込みを開始します。
 
 [データエンジニア向けの基本を学ぶ →](path/data-engineer.md)
 
@@ -267,7 +234,7 @@ Journey Optimizer を正常に実装するには、すべての役割をまた�
 
 Journey Optimizer の主な機能とペルソナについて詳しくは、紹介ビデオをご覧ください。 このビデオでは、ユーザーインターフェイスを順を追って説明し、役割固有のワークフローに基づいて主な機能を重点的に説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430316?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## その他のリソース
 
@@ -291,7 +258,16 @@ Journey Optimizer の主な機能とペルソナについて詳しくは、紹�
 
 >[!TAB コミュニティとサポート]
 
-* [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} - 他のユーザーやエキスパートとつながります
-* [製品フォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} - 質問をしたり、知識を共有したりします
+* [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 他のユーザーやエキスパートとつながります
+* [製品フォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 質問をしたり、知識を共有したりします
 
 >[!ENDTABS]
+
+## 役割ガイド {#role-guides}
+
+| 役割 | ガイド |
+|------|-------|
+| 管理者 | [管理者の基本を学ぶ](path/administrator.md) |
+| データエンジニア | [ データエンジニア向けの基本を学ぶ](path/data-engineer.md) |
+| 開発者 | [開発者向けの基本を学ぶ](path/developer.md) |
+| マーケター | [マーケター向けの基本を学ぶ](path/marketer.md) |

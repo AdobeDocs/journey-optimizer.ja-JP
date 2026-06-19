@@ -8,30 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1099
-ht-degree: 97%
+source-wordcount: 1168
+ht-degree: 93%
 
 ---
 
@@ -48,6 +34,12 @@ ht-degree: 97%
 主な責務には、ユーザーグループと権限の設定、様々なユーザーグループのデータとジャーニーをパーティション化するサンドボックスの作成と管理、Journey Optimizer を通じて配信される様々なメッセージとアセットをまたいで一貫性のあるブランディングを確保するための配信チャネルとメッセージプリセットの設定が含まれます。 セキュリティとガバナンスを維持しながら、適切な人物が適切な機能にアクセスできるようにします。
 
 これらの機能は、権限製品にアクセスできる&#x200B;**[!UICONTROL 製品管理者]**&#x200B;が管理できます。 [詳しくは、権限を参照してください](../../administration/permissions.md){target="_blank"}。
+
+>[!NOTE]
+>
+>**実装手順：**&#x200B;現在地：**管理者** → [ データエンジニア ](data-engineer.md) → [開発者](developer.md) → [ マーケター](marketer.md)
+>
+>管理者が最初に環境を設定します。 データエンジニア、開発者、マーケターは、プロジェクトを開始する前に、これらの作業を完了する必要があります。
 
 ## アクセスと権限の設定
 
@@ -163,3 +155,14 @@ API アクセスとテストに関する[開発者](developer.md)との共同作
 1. **設定を確認**：すべてのチームメンバーが必要な機能にアクセスできることを確認します
 2. **使用状況を監視**：管理ダッシュボードを使用してシステムの使用状況を追跡し、問題を特定します
 3. **権限を維持**：チームの役割の進化に合わせて、定期的に権限を確認および更新します
+
+## その他のロールガイド {#other-role-guides}
+
+| 役割 | ガイド |
+|------|-------|
+| 管理者 | [管理者の基本を学ぶ](administrator.md) |
+| データエンジニア | [ データエンジニア向けの基本を学ぶ](data-engineer.md) |
+| 開発者 | [開発者向けの基本を学ぶ](developer.md) |
+| マーケター | [マーケター向けの基本を学ぶ](marketer.md) |
+
+[役割と責任の概要](../quick-start.md)に戻る・ [に戻る開始](../../../rp_landing_pages/get-started-landing-page.md)
