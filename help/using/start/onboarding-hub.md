@@ -53,7 +53,7 @@ ht-degree: 4%
 * [ ]計算属性の作成
 * [ ] ジャーニーイベントとデータソースの設定
 
-➡️詳細を見る：[ データエンジニア向けの入門](path/data-engineer.md)
+➡️詳細を見る：[&#x200B; データエンジニア向けの入門](path/data-engineer.md)
 
 ## フェーズ 3 – 技術的な統合（開発者） {#phase-3}
 
@@ -77,7 +77,7 @@ ht-degree: 4%
 * [ ] キャンペーンの公開と監視
 * [ ]件のレビューのライブレポート
 
-➡️詳細を見る：[ マーケター向けの基本を学ぶ](path/marketer.md)
+➡️詳細を見る：[&#x200B; マーケター向けの基本を学ぶ](path/marketer.md)
 
 ## オンボーディングチェックリスト（印刷可能） {#checklist}
 
@@ -91,5 +91,5 @@ ht-degree: 4%
 ## 関連リソース {#related-resources}
 
 * [役割と責任](quick-start.md) — 4つの役割の連携の仕組みと推奨される実装順序。
-* [Journey Optimizer チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} – 各役割のステップバイステップのビデオとガイド付きウォークスルー。
-* [ データ管理の基本](../data/gs-data.md) — データの取り込み、統合、アクティベート方法。
+* [Journey Optimizer チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} – 各役割のステップバイステップのビデオとガイド付きウォークスルー。
+* [&#x200B; データ管理の基本](../data/gs-data.md) — データの取り込み、統合、アクティベート方法。
