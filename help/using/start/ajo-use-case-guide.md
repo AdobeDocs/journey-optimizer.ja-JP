@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer, ユースケース，意思決定ガイド，どの機能，使い始める，実務担当者の目標，チュートリアル
-source-git-commit: 054de625361914e217c27782b487db1933c3230f
+source-git-commit: 3c737f88116a28ef217b53f95754504f537b3cd0
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 37%
+source-wordcount: '3310'
+ht-degree: 32%
 
 ---
 
@@ -57,11 +57,38 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 | 私は… | 推奨される機能 | ここから開始 |
 | --- | --- | --- |
 | 新規顧客や購読者を自動的に歓迎する | イベントトリガージャーニー | [&#x200B; ジャーニーの基本を学ぶ](../building-journeys/journey-gs.md) ・ [&#x200B; ジャーニーの構築の概要](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**ビルドする前に、**&#x200B;必ず（1）サインアップトリガーを取得するように設定された[&#x200B; ジャーニーエントリイベント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)と、（2）サンドボックス用に設定された[電子メールまたはプッシュチャネルサーフェス &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/channel-surfaces)と、（3）公開前にジャーニーを検証するために利用可能な少なくとも1つの[&#x200B; テストプロファイル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles)を確認してください。
+
+>[!ENDSHADEBOX]
+
+| 私は… | 推奨される機能 | ここから開始 |
+| --- | --- | --- |
 | 放棄されたカートの回復またはセッションの閲覧 | イベントトリガージャーニー | [&#x200B; ジャーニーの基本を学ぶ](../building-journeys/journey-gs.md) ・ [放棄された参照チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**構築する前に：**&#x200B;必要なのは、（1） webまたはモバイル SDKから買い物かごまたはブラウズアクションをキャプチャする[行動イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)、（2） [待機アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)戦略が決定された（通常は最初のナッジの1～4時間前）、（3）フォローアップメッセージの準備ができているチャネルサーフェスです。 注意：ジャーニーには、購入期間が終了する前に購入を完了するプロファイルを終了する条件を含める必要があります。
+
+>[!ENDSHADEBOX]
+
+| 私は… | 推奨される機能 | ここから開始 |
+| --- | --- | --- |
 | web サイトフォーム送信からのジャーニーのトリガー | イベントトリガージャーニー | [&#x200B; ジャーニーの基本を学ぶ](../building-journeys/journey-gs.md) ・ [&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/trigger-journey-on-form-submission/introduction){target="_blank"} |
 | アプリ内の動作に反応する（アプリを開く、画面表示） | ジャーニー + アプリ内 | [&#x200B; アプリ内で使い始める](../in-app/get-started-in-app.md) |
 | 注文、発送、または予約の確認を送信する | API トリガーキャンペーン | [API トリガーによるキャンペーンの操作](../campaigns/api-triggered-campaigns.md) |
 | 非アクティブな顧客や離脱した顧客のリエンゲージメント | ジャーニー+オーディエンス | [&#x200B; プロファイルとオーディエンスの概要](../audience/get-started-profiles.md) ・ [&#x200B; ルールビルダーを使用したオーディエンスの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/profiles-audiences-subscriptions/create-audiences-using-the-rule-builder){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**構築する前に、**&#x200B;必要です（1）非アクティブなプロファイルを特定する[Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)で定義されたオーディエンス（60日以内に購入またはログインしない場合など）、（2）リエンゲージメントチャネル（電子メール、プッシュ、SMS）に関する決定、（3）最近メッセージされたプロファイルへの連絡を避けるための抑制ルールまたは[頻度キャップ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping)。 このシナリオでは、イベントではなく、**オーディエンスを読み取り** ジャーニーエントリを使用します。
+
+>[!ENDSHADEBOX]
+
+| 私は… | 推奨される機能 | ここから開始 |
+| --- | --- | --- |
 | アクティベートする前に、実際のデータでジャーニーをテストする | ジャーニードライラン | [&#x200B; ドライランでジャーニーをテスト &#x200B;](../building-journeys/journey-dry-run.md) |
 | 実行中のプロファイルを停止せずにライブジャーニーを一時停止して編集 | ジャーニーの一時停止と再開 | [&#x200B; ジャーニーを一時停止して再開](../building-journeys/journey-pause.md) |
 | 自然言語プロンプトからジャーニーを構築または最適化する | Journey Agent **（AI）** | [AI エージェント &#x200B;](ai-features.md#ai-agents) ・ [Journey Agent チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-agent-overview){target="_blank"} |
@@ -73,6 +100,15 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 | 私は… | 推奨される機能 | ここから開始 |
 | --- | --- | --- |
 | ニュースレターやプロモーションをセグメントに送信する | 予定キャンペーン | [キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md) |
+
+>[!BEGINSHADEBOX]
+
+**作成する前に、**&#x200B;必要なのは（1） Adobe Experience Platformで[公開されたオーディエンスセグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)、（2）検証済みの送信ドメインを含む[&#x200B; メールチャネルサーフェス &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/channel-surfaces)、（3）既に公開されている再利用を計画している[&#x200B; コンテンツフラグメントまたはテンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/fragments/fragments)です。 スケジュールされたキャンペーンは、1回限りの送信または分岐ロジックのない定期的な送信の場合、ジャーニーではなく、ここに適した選択肢です。
+
+>[!ENDSHADEBOX]
+
+| 私は… | 推奨される機能 | ここから開始 |
+| --- | --- | --- |
 | A/B テストで製品を発売する | コンテンツ実験&#x200B;**（AI）** | [&#x200B; コンテンツの実験を開始](../content-management/experiment-accelerator-gs.md) ・ [&#x200B; メールキャンペーンのコンテンツの実験を作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 停止またはサービスの更新を顧客に通知 | スケジュール済みキャンペーン + オーディエンス | [&#x200B; オーディエンスについて](../audience/about-audiences.md) |
 | 分岐ロジックを使用したマルチステップのキャンペーンの設計 | オーケストレーションキャンペーン | [&#x200B; オーケストレーションされたキャンペーンの開始](../orchestrated/gs-orchestrated-campaigns.md) |
@@ -88,6 +124,15 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 | 私は… | 推奨される機能 | ここから開始 |
 | --- | --- | --- |
 | それぞれの顧客に最適なオファーを表示 | 決定 | [&#x200B; オファー決定の基本を学ぶ](../offers/get-started/starting-offer-decisioning.md) ・ [Web オファーチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**ビルドする前に、**&#x200B;決定を行うには、特定のセットアップ シーケンスが必要です。 （1）実施要件ルールと属性を持つ[&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items)作成された決定項目（オファー）、（2）設定された[選択戦略](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies)またはランキング式、（3）オファーが表示されるサーフェスに添付された[決定ポリシー](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision)が必要です。 この順序をスキップすることは、初回決定設定で結果が返されない最も一般的な理由です。
+
+>[!ENDSHADEBOX]
+
+| 私は… | 推奨される機能 | ここから開始 |
+| --- | --- | --- |
 | 数式を使用してオファーをランク付け（郵便番号、収入、天気） | Decisioning — ランキング式 | [&#x200B; ランキング式チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} ・ [天気データチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
 | 外部製品やCRM データを使用してオファーをパーソナライズ | 決定：AEPデータセットの検索 | [決定でデータセット検索を使用](../experience-decisioning/context-data.md) |
 | プロファイルデータを使用したメッセージコンテンツのカスタマイズ | パーソナライゼーション | [&#x200B; コンテンツのパーソナライズ &#x200B;](../personalization/personalize.md) |
