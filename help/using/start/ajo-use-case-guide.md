@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer, ユースケース，意思決定ガイド，どの機能，使い始める，実務担当者の目標，チュートリアル
-source-git-commit: 3c737f88116a28ef217b53f95754504f537b3cd0
+source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
 workflow-type: tm+mt
-source-wordcount: '3310'
-ht-degree: 32%
+source-wordcount: '3153'
+ht-degree: 33%
 
 ---
 
@@ -60,7 +60,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 
 >[!BEGINSHADEBOX]
 
-**ビルドする前に、**&#x200B;必ず（1）サインアップトリガーを取得するように設定された[&#x200B; ジャーニーエントリイベント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)と、（2）サンドボックス用に設定された[電子メールまたはプッシュチャネルサーフェス &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/channel-surfaces)と、（3）公開前にジャーニーを検証するために利用可能な少なくとも1つの[&#x200B; テストプロファイル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles)を確認してください。
+**ビルドする前に、**&#x200B;必ず（1）サインアップトリガーを取得するように設定された[&#x200B; ジャーニーエントリイベント &#x200B;](../event/about-events.md)と、（2）サンドボックス用に設定された[電子メールまたはプッシュチャネルサーフェス &#x200B;](../configuration/channel-surfaces.md)と、（3）公開前にジャーニーを検証するために利用可能な少なくとも1つの[&#x200B; テストプロファイル &#x200B;](../audience/creating-test-profiles.md)を確認してください。
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 
 >[!BEGINSHADEBOX]
 
-**構築する前に：**&#x200B;必要なのは、（1） webまたはモバイル SDKから買い物かごまたはブラウズアクションをキャプチャする[行動イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events)、（2） [待機アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)戦略が決定された（通常は最初のナッジの1～4時間前）、（3）フォローアップメッセージの準備ができているチャネルサーフェスです。 注意：ジャーニーには、購入期間が終了する前に購入を完了するプロファイルを終了する条件を含める必要があります。
+**構築する前に：**&#x200B;必要なのは、（1） webまたはモバイル SDKから買い物かごまたはブラウズアクションをキャプチャする[行動イベント &#x200B;](../event/about-events.md)、（2） [待機アクティビティ &#x200B;](../building-journeys/wait-activity.md)戦略が決定された（通常は最初のナッジの1～4時間前）、（3）フォローアップメッセージの準備ができているチャネルサーフェスです。 注意：ジャーニーには、購入期間が終了する前に購入を完了するプロファイルを終了する条件を含める必要があります。
 
 >[!ENDSHADEBOX]
 
@@ -83,7 +83,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 
 >[!BEGINSHADEBOX]
 
-**構築する前に、**&#x200B;必要です（1）非アクティブなプロファイルを特定する[Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)で定義されたオーディエンス（60日以内に購入またはログインしない場合など）、（2）リエンゲージメントチャネル（電子メール、プッシュ、SMS）に関する決定、（3）最近メッセージされたプロファイルへの連絡を避けるための抑制ルールまたは[頻度キャップ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping)。 このシナリオでは、イベントではなく、**オーディエンスを読み取り** ジャーニーエントリを使用します。
+**構築する前に、**&#x200B;必要です（1）非アクティブなプロファイルを特定する[Adobe Experience Platform](../audience/about-audiences.md)で定義されたオーディエンス（60日以内に購入またはログインしない場合など）、（2）リエンゲージメントチャネル（電子メール、プッシュ、SMS）に関する決定、（3）最近メッセージされたプロファイルへの連絡を避けるための抑制ルールまたは[頻度キャップ &#x200B;](../conflict-prioritization/channel-capping.md)。 このシナリオでは、イベントではなく、**オーディエンスを読み取り** ジャーニーエントリを使用します。
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +103,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 
 >[!BEGINSHADEBOX]
 
-**作成する前に、**&#x200B;必要なのは（1） Adobe Experience Platformで[公開されたオーディエンスセグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)、（2）検証済みの送信ドメインを含む[&#x200B; メールチャネルサーフェス &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/channel-surfaces)、（3）既に公開されている再利用を計画している[&#x200B; コンテンツフラグメントまたはテンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/fragments/fragments)です。 スケジュールされたキャンペーンは、1回限りの送信または分岐ロジックのない定期的な送信の場合、ジャーニーではなく、ここに適した選択肢です。
+**作成する前に、**&#x200B;必要なのは（1） Adobe Experience Platformで[公開されたオーディエンスセグメント &#x200B;](../audience/about-audiences.md)、（2）検証済みの送信ドメインを含む[&#x200B; メールチャネルサーフェス &#x200B;](../configuration/channel-surfaces.md)、（3）既に公開されている再利用を計画している[&#x200B; コンテンツフラグメントまたはテンプレート &#x200B;](../content-management/fragments.md)です。 スケジュールされたキャンペーンは、1回限りの送信または分岐ロジックのない定期的な送信の場合、ジャーニーではなく、ここに適した選択肢です。
 
 >[!ENDSHADEBOX]
 
@@ -114,7 +114,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 | 分岐ロジックを使用したマルチステップのキャンペーンの設計 | オーケストレーションキャンペーン | [&#x200B; オーケストレーションされたキャンペーンの開始](../orchestrated/gs-orchestrated-campaigns.md) |
 | 前回のキャンペーン実行以降に変更されたプロファイルのみをターゲット | オーケストレーションされたキャンペーン – 増分クエリ | [&#x200B; オーケストレーションされたキャンペーンでクエリを作成](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
 | ローンチ前に、オーディエンスに一致するプロファイル数を確認する | オーディエンスプレビュー | [&#x200B; オーディエンスについて](../audience/about-audiences.md) <!-- TODO: verify target — no "create-compositions.md#preview" page/anchor exists; about-audiences.md used as placeholder --> |
-| 多くのチャネルをまたいだメッセージを大規模に調整 | オーケストレーション | [オーケストレーションのオムニチャネルエンゲージメントへの拡大](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
+| 多くのチャネルをまたいだメッセージを大規模に調整 | オーケストレーション | [&#x200B; オーケストレーションされたキャンペーンの開始](../orchestrated/gs-orchestrated-campaigns.md) ・ [&#x200B; オーケストレーションをオムニチャネルエンゲージメントに拡張](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
 | 顧客一人ひとりに最適なタイミングでメッセージを配信 | 送信時間の最適化&#x200B;**（AI）** | [送信時間の最適化](../building-journeys/send-time-optimization.md) |
 
 ## 顧客一人ひとりに合わせてコンテンツをパーソナライズ {#personalize}
@@ -127,13 +127,13 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 
 >[!BEGINSHADEBOX]
 
-**ビルドする前に、**&#x200B;決定を行うには、特定のセットアップ シーケンスが必要です。 （1）実施要件ルールと属性を持つ[&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items)作成された決定項目（オファー）、（2）設定された[選択戦略](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies)またはランキング式、（3）オファーが表示されるサーフェスに添付された[決定ポリシー](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision)が必要です。 この順序をスキップすることは、初回決定設定で結果が返されない最も一般的な理由です。
+**ビルドする前に、**&#x200B;決定を行うには、特定のセットアップ シーケンスが必要です。 （1）実施要件ルールと属性を持つ[&#128279;](../experience-decisioning/items.md)作成された決定項目（オファー）、（2）設定された[選択戦略](../experience-decisioning/selection-strategies.md)またはランキング式、（3）オファーが表示されるサーフェスに添付された[決定ポリシー](../experience-decisioning/create-decision.md)が必要です。 この順序をスキップすることは、初回決定設定で結果が返されない最も一般的な理由です。
 
 >[!ENDSHADEBOX]
 
 | 私は… | 推奨される機能 | ここから開始 |
 | --- | --- | --- |
-| 数式を使用してオファーをランク付け（郵便番号、収入、天気） | Decisioning — ランキング式 | [&#x200B; ランキング式チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} ・ [天気データチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
+| 数式を使用してオファーをランク付け（郵便番号、収入、天気） | Decisioning — ランキング式 | [&#x200B; ランキング式](../experience-decisioning/ranking/ranking-formulas.md) ・ [&#x200B; ランキング式チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} ・ [天気データチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
 | 外部製品やCRM データを使用してオファーをパーソナライズ | 決定：AEPデータセットの検索 | [決定でデータセット検索を使用](../experience-decisioning/context-data.md) |
 | プロファイルデータを使用したメッセージコンテンツのカスタマイズ | パーソナライゼーション | [&#x200B; コンテンツのパーソナライズ &#x200B;](../personalization/personalize.md) |
 | コピー、画像、メッセージのバリエーションを生成 | AI コンテンツ生成&#x200B;**（AI）** | [AI コンテンツ生成](../content-management/gs-generative.md) ・ [&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} |
