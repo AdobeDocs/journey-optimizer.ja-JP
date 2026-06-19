@@ -18,10 +18,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 1204
-ht-degree: 20%
+source-wordcount: 1744
+ht-degree: 13%
 
 ---
 
@@ -160,7 +160,7 @@ ht-degree: 20%
 
 >[!AVAILABILITY]
 >
->この機能は、Decisioningをサポートするアウトバウンドチャネルの制限付き可用性で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
+>この機能は、Decisioningをサポートするアウトバウンドチャネルで使用できます。
 
 意思決定ポリシーでAEM コンテンツフラグメントを活用する前に、次の点を確認してください。
 
@@ -173,7 +173,7 @@ ht-degree: 20%
 
 この例では、決定ポリシーには、参照名でAEM フラグメントが関連付けられている2つの決定項目が含まれています。
 
-![](assets/aem-fragment-select.png)
+決定ポリシーでフラグメント キー名ごとに使用可能なAEM コンテンツフラグメントを示す![Personalization エディター。](assets/aem-fragment-select.png)
 
 1. 「+」ボタンをクリックして、目的のフラグメントを式に追加します。
 
@@ -181,9 +181,112 @@ ht-degree: 20%
 
 1. フラグメントを選択したら、画像URL、テキストフィールド、その他のコンテンツなどの属性を活用し、Decisioningを使用して、適切なコンテンツを的確な顧客にタイミングよく提供できます。
 
-   ![](assets/aem-fragment-attribute.png)
+   ![選択したAEM コンテンツフラグメント属性は、決定ポリシー式でパーソナライズに使用できます。](assets/aem-fragment-attribute.png)
 
-1. キャンペーンまたはジャーニーをアクティブ化する前に、次のいずれかのシミュレーション方法を使用して、AEM コンテンツフラグメントのフィールド値がどのようにレンダリングされるかをプレビューします。「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAIの自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート]**」を選択して、特定テストプロファイルのテストプロファイルで使用使用します。 [&#x200B; コンテンツのシミュレーションの詳細](../content-management/preview-test.md)
+1. キャンペーンまたはジャーニーをアクティブ化する前に、いずれかのシミュレーション方法を使用して、AEM コンテンツフラグメントのフィールド値がどのようにレンダリングされるかをプレビューします。 [&#x200B; コンテンツのシミュレーションの詳細](../content-management/preview-test.md)
+
+### AEMのコンテンツフラグメントをチャネルをまたいで活用 {#aem-fragments-channels}
+
+意思決定ポリシーからAEM コンテンツフラグメント属性を挿入する方法は、作業中のチャネルによって異なります。
+
+>[!BEGINTABS]
+
+>[!TAB メール]
+
+決定ポリシーを使用して、AEM コンテンツフラグメント属性をメールに挿入するには：
+
+1. 電子メール Designerで電子メールのドラフトを開き、右側のパネルの&#x200B;**[!UICONTROL Decisioning]** アイコンをクリックして、意思決定ポリシーパネルを開きます。
+1. 組み立てた選択戦略を選択し、**プレースメント**&#x200B;を指定して、オファーが入力されるメールの領域を定義します。
+1. **+** アイコンをクリックし、その領域でレンダリングするAEM コンテンツフラグメント（例：hero image URL フィールド）から特定のフィールドを選択します。
+
+   ![&#x200B; プレースメント用にAEM コンテンツフラグメントフィールドが選択されたメール Designer決定ポリシーパネル。](assets/aem-fragment-email.png)
+
+1. 公開前に、**[!UICONTROL コンテンツをシミュレート]**&#x200B;をクリックして結果をプレビューし、最も優先度の高いオファーとそのコンテンツフラグメントがテストプロファイルに対して期待どおりにレンダリングされることを確認します。
+
+>[!TAB  コードベースのエクスペリエンス（JSON） ]
+
+JSON ベースのコードベースのエクスペリエンスを構築する場合は、次の構造を使用して、決定ポリシーからAEM コンテンツフラグメント属性をレンダリングします。
+
+```handlebars
+[
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+{
+  "fieldName": "{{{YOUR_REFERENCE_KEY.fieldName}}}"
+},
+{{/each}}
+]
+```
+
+>[!NOTE]
+>
+>AEM コンテンツフラグメントでは、`aemContentReferencesMap`を使用して、参照キーでフラグメントを検索します。 これは、Journey Optimizer コンテンツフラグメントに使用される`contentReferencesMap`とは異なります。
+
+JSON ペイロードを構築する際は、次の点に注意してください。
+
+* `#each` ループの&#x200B;**外に`[`および`]`**&#x200B;のJSON配列ブラケットを配置します。
+* HTMLが特殊文字をエスケープするのを防ぎ、有効なJSON出力を確保するために、JSON文字列内のフィールド値に&#x200B;**トリプルブレース** `{{{ }}}`を使用します。
+* `result='YOUR_REFERENCE_KEY'` パラメーターは、解決されたフラグメントのコンテンツをその名前でキャプチャするので、フィールドを`YOUR_REFERENCE_KEY.fieldName`で参照できます。
+
+![JSONの決定ポリシーからレンダリングされたAEM コンテンツフラグメント属性を示すコードベースのエクスペリエンスエディター。](assets/aem-fragments-cbe.png)
+
+>[!TAB  コードベースのエクスペリエンス（HTML） ]
+
+HTML ベースのコードベースのエクスペリエンスの場合は、フィールドレンダリングに標準のダブルブレースを使用します。
+
+```handlebars
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+<div>{{YOUR_REFERENCE_KEY.fieldName}}</div>
+{{/each}}
+```
+
+>[!ENDTABS]
+
+### AEM コンテンツフラグメントからのアセットの使用 {#aem-cf-assets}
+
+AEM コンテンツフラグメントには、AEMに保存されているアセットを参照する画像フィールドが含まれている場合があります。 Journey Optimizerは、これらのアセットの&#x200B;**相対パス**&#x200B;のみを受け取るため、完全な公開URLが追加されない限り、画像を読み込むことができません。
+
+>[!NOTE]
+>
+>コンテンツフラグメント内のAEM アセット参照のネイティブ解決はまだサポートされていません。 以下のアプローチは、そのサポートが追加されるまで利用できる回避策です。
+
+>[!BEGINTABS]
+
+>[!TAB AEM パブリッシュドメインを追加]
+
+1. AEM インスタンス URLから、オーサードメイン （例：`author-p12345-e67890.adobeaemcloud.com`）を特定します。
+
+   ![&#x200B; パブリッシュドメインの取得に使用されたオーサードメインを示すAEM インスタンス URL。](assets/aem-fragment-author-domain.png)
+
+1. `author`を`publish`に置き換えて、パブリッシュドメイン `publish-p12345-e67890.adobeaemcloud.com`を取得します。
+
+1. Journey Optimizer パーソナライゼーションエディターで、コンテンツフラグメントからアセット参照フィールドにそのドメインを公開する前に追加します。
+
+   ![&#x200B; コンテンツフラグメント アセット参照フィールドの前にAEM パブリッシュドメインが付いたPersonalization エディター。](assets/aem-fragment-publish-domain.png)
+
+画像は、配信時に完全な公開URLに解決されます。
+
+>[!TAB 公開URLをテキストフィールドに保存]
+
+1. コンテンツフラグメントをAEMで開きます。
+1. JSON プレビューに移動し、**参照** セクションを確認して、公開されたアセット URLを見つけます。
+
+   ![公開されたアセット URLを示すAEM コンテンツフラグメント JSON プレビュー参照セクション。](assets/aem-fragment-published-url.png)
+
+1. 公開URLをコピーし、コンテンツフラグメント内の専用のテキストフィールドに貼り付けます。
+
+   ![参照されたアセットのコピーされた公開URLを含むAEM コンテンツフラグメントのテキストフィールド。](assets/aem-fragment-copy-url.png)
+
+1. Journey Optimizerでは、そのテキストフィールドをパーソナライゼーション式の画像ソースとして直接参照します。
+
+   ![&#x200B; コンテンツフラグメントのテキストフィールドを画像ソースとして参照するJourney Optimizer パーソナライゼーション式。](assets/aem-fragment-use-url.png)
+
+このアプローチにより、URLの手作業による作成が回避され、公開URLはコンテンツフラグメント自体の中に保持されます。
+
+>[!ENDTABS]
 
 ## チュートリアルビデオ {#video}
 

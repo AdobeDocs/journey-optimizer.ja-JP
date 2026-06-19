@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 2374
+source-wordcount: 2364
 ht-degree: 83%
 
 ---
@@ -79,7 +79,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
      >[!AVAILABILITY]
      >
-     >この機能は、Decisioningをサポートするアウトバウンドチャネルの制限付き可用性で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
+     >この機能は、Decisioningをサポートするアウトバウンドチャネルで使用できます。
 
      前提条件とガードレールについては、[Experience DecisioningでのAEM コンテンツフラグメントの使用](../integrations/aem-fragments.md#aem-decisioning)を参照してください。
 
