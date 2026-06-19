@@ -7,11 +7,17 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
 source-wordcount: 1743
@@ -38,7 +44,7 @@ ht-degree: 13%
 
 例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示するとします。 決定ポリシーで使用している決定項目に、それぞれ異なる電話モデルに関連する指定されたフラグメントを追加します。 [決定項目にフラグメントを追加する方法を説明します](items.md#attributes)。
 
-フラグメント参照とプレースメントキーを表示する決定項目の![ フラグメントセクション。](assets/item-fragments.png){width=70%}
+フラグメント参照とプレースメントキーを表示する決定項目の![&#x200B; フラグメントセクション。](assets/item-fragments.png){width=70%}
 
 完了したら、次のいずれかの方法を使用できます。
 
@@ -57,15 +63,15 @@ ht-degree: 13%
 
 1. 「**[!UICONTROL ヘルパー関数]**」に移動し、コードパネルに **Let** 関数 `{% let variable = expression %} {{variable}}` を追加します。ここでフラグメントの変数を宣言できます。
 
-   ![ コードペインに追加されたLet ヘルパー関数を表示する決定ポリシーコードエディター。](assets/decision-let-function.png)
+   ![&#x200B; コードペインに追加されたLet ヘルパー関数を表示する決定ポリシーコードエディター。](assets/decision-let-function.png)
 
 1. **Map**／**Get** 関数 `{%= get(map, string) %}` を使用して、式を作成します。 マップは、決定項目で参照されるフラグメントです。 文字列は、決定項目に&#x200B;**[!UICONTROL フラグメント参照キー]**&#x200B;として入力したデバイスモデルにすることができます。
 
-   ![ フラグメントマップとフラグメント参照キーの参照に使用されるMap関数とGet関数。](assets/decision-map-function.png)
+   ![&#x200B; フラグメントマップとフラグメント参照キーの参照に使用されるMap関数とGet関数。](assets/decision-map-function.png)
 
 1. また、このデバイスモデル ID を含むコンテキスト属性を使用することもできます。
 
-   デバイス モデル IDに![ コンテキスト属性が選択されました。](assets/decision-contextual-attribute.png)
+   デバイス モデル IDに![&#x200B; コンテキスト属性が選択されました。](assets/decision-contextual-attribute.png)
 
 1. フラグメントに選択した変数をフラグメント ID として追加します。
 
@@ -158,12 +164,12 @@ ht-degree: 13%
 
 意思決定ポリシーでAEM コンテンツフラグメントを活用する前に、次の点を確認してください。
 
-* コンテンツフラグメントをAdobe Experience Managerで作成し、Journey Optimizerで見つけられるように`ajo-enabled:{OrgId}/{SandboxName}`でタグ付けしました。 [ タグの作成と割り当て方法について説明します](../integrations/aem-fragments.md#create-tag)
+* コンテンツフラグメントをAdobe Experience Managerで作成し、Journey Optimizerで見つけられるように`ajo-enabled:{OrgId}/{SandboxName}`でタグ付けしました。 [&#x200B; タグの作成と割り当て方法について説明します](../integrations/aem-fragments.md#create-tag)
 * 一意の参照名を割り当てることで、フラグメントをオファー項目の&#x200B;**[!UICONTROL AEM フラグメント]** セクションに関連付けました。 [AEM コンテンツフラグメントを決定項目に関連付ける方法について説明します](items.md#attributes)
 
 パーソナライゼーションエディターでは、ポリシーによって選択された決定項目に関連付けられたすべてのAEM コンテンツフラグメントが使用できます。 フラグメントキー名ごとに1つのフォルダーが表示されます。
 
-➡️ [Journey Optimizer DecisioningでAEM コンテンツフラグメントを使用する方法をビデオ ](#video)で説明します
+➡️ [Journey Optimizer DecisioningでAEM コンテンツフラグメントを使用する方法をビデオ &#x200B;](#video)で説明します
 
 この例では、決定ポリシーには、参照名でAEM フラグメントが関連付けられている2つの決定項目が含まれています。
 
@@ -177,7 +183,7 @@ ht-degree: 13%
 
    ![選択したAEM コンテンツフラグメント属性は、決定ポリシー式でパーソナライズに使用できます。](assets/aem-fragment-attribute.png)
 
-1. キャンペーンまたはジャーニーをアクティブ化する前に、いずれかのシミュレーション方法を使用して、AEM コンテンツフラグメントのフィールド値がどのようにレンダリングされるかをプレビューします。 [ コンテンツのシミュレーションの詳細](../content-management/preview-test.md)
+1. キャンペーンまたはジャーニーをアクティブ化する前に、いずれかのシミュレーション方法を使用して、AEM コンテンツフラグメントのフィールド値がどのようにレンダリングされるかをプレビューします。 [&#x200B; コンテンツのシミュレーションの詳細](../content-management/preview-test.md)
 
 ### AEMのコンテンツフラグメントをチャネルをまたいで活用 {#aem-fragments-channels}
 
@@ -193,7 +199,7 @@ ht-degree: 13%
 1. 組み立てた選択戦略を選択し、**プレースメント**&#x200B;を指定して、オファーが入力されるメールの領域を定義します。
 1. **+** アイコンをクリックし、その領域でレンダリングするAEM コンテンツフラグメント（例：hero image URL フィールド）から特定のフィールドを選択します。
 
-   ![ プレースメント用にAEM コンテンツフラグメントフィールドが選択されたメール Designer決定ポリシーパネル。](assets/aem-fragment-email.png)
+   ![&#x200B; プレースメント用にAEM コンテンツフラグメントフィールドが選択されたメール Designer決定ポリシーパネル。](assets/aem-fragment-email.png)
 
 1. 公開前に、**[!UICONTROL コンテンツをシミュレート]**&#x200B;をクリックして結果をプレビューし、最も優先度の高いオファーとそのコンテンツフラグメントがテストプロファイルに対して期待どおりにレンダリングされることを確認します。
 
@@ -253,13 +259,13 @@ AEM コンテンツフラグメントには、AEMに保存されているアセ�
 
 1. AEM インスタンス URLから、オーサードメイン （例：`author-p12345-e67890.adobeaemcloud.com`）を特定します。
 
-   ![ パブリッシュドメインの取得に使用されたオーサードメインを示すAEM インスタンス URL。](assets/aem-fragment-author-domain.png)
+   ![&#x200B; パブリッシュドメインの取得に使用されたオーサードメインを示すAEM インスタンス URL。](assets/aem-fragment-author-domain.png)
 
 1. `author`を`publish`に置き換えて、パブリッシュドメイン `publish-p12345-e67890.adobeaemcloud.com`を取得します。
 
 1. Journey Optimizer パーソナライゼーションエディターで、コンテンツフラグメントからアセット参照フィールドにそのドメインを公開する前に追加します。
 
-   ![ コンテンツフラグメント アセット参照フィールドの前にAEM パブリッシュドメインが付いたPersonalization エディター。](assets/aem-fragment-publish-domain.png)
+   ![&#x200B; コンテンツフラグメント アセット参照フィールドの前にAEM パブリッシュドメインが付いたPersonalization エディター。](assets/aem-fragment-publish-domain.png)
 
 画像は、配信時に完全な公開URLに解決されます。
 
@@ -276,7 +282,7 @@ AEM コンテンツフラグメントには、AEMに保存されているアセ�
 
 1. Journey Optimizerでは、そのテキストフィールドをパーソナライゼーション式の画像ソースとして直接参照します。
 
-   ![ コンテンツフラグメントのテキストフィールドを画像ソースとして参照するJourney Optimizer パーソナライゼーション式。](assets/aem-fragment-use-url.png)
+   ![&#x200B; コンテンツフラグメントのテキストフィールドを画像ソースとして参照するJourney Optimizer パーソナライゼーション式。](assets/aem-fragment-use-url.png)
 
 このアプローチにより、URLの手作業による作成が回避され、公開URLはコンテンツフラグメント自体の中に保持されます。
 
