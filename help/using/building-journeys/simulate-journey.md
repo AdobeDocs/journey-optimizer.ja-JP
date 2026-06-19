@@ -11,9 +11,9 @@ keywords: テスト, ジャーニー, チェック, エラー, トラブルシ�
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
+source-git-commit: 921e3df97574ccb9f4c3cc9d462f502161e86552
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 2176
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
 
 **[!UICONTROL シミュレーション]**&#x200B;の任意のジャーニーで、**[!UICONTROL クイックシミュレーション]**&#x200B;は、生成されたユーザー、イベント値、事前入力された設定を使用してジャーニーを実行します。
 
+
 1. **[!UICONTROL クイックシミュレーション]**&#x200B;を選択します。
 
 1. 実行用に収集したフィールドを確認します。Adobe Journey Optimizer 「**[!UICONTROL 値を更新]**」をクリックして、テスト設定と実行アドレスを変更するか、変更せずに続行します。
@@ -61,6 +62,10 @@ ht-degree: 1%
    ![値を更新して次の手順に進む情報の収集手順に関するクイックシミュレーションダイアログ &#x200B;](assets/quick-simulation-2.png)
 
 1. **[!UICONTROL 値を更新]**&#x200B;を開いた場合、メッセージの校正に使用するアドレスなどの設定を編集し、シミュレーションを開始することを確認します。
+
+   >[!NOTE]
+   >
+   >事前入力された実行メールと電話番号のフィールドは、Adobe IMSユーザープロファイルのメールアドレスと電話番号から取得されます。
 
    ![&#x200B; クイックシミュレーション値の更新ステップ （待機時間の上書き、プルーフの電子メールおよび電話フィールドを含む） &#x200B;](assets/quick-simulation-3.png)
 
@@ -91,6 +96,10 @@ ht-degree: 1%
    Adobe Journey Optimizerは、ジャーニー定義からシミュレートされた一連のユーザーを生成します。
 
    電子メール、プッシュ、またはSMS ノードを使用するジャーニーの場合、AIは、使用する電子メールアドレスまたは電話番号の確認を求めるプロンプトを表示します。 シミュレートされたユーザーは、定義された値を使用して生成されます。 完了したら、**[!UICONTROL 生成]**&#x200B;をクリックします。
+
+   >[!NOTE]
+   >
+   >電子メールと電話のフィールドは、Adobe IMSのユーザープロファイルから事前入力されます。
 
    ![実行メールと電話フィールドを含むシミュレートされたユーザーの生成ダイアログと「生成」ボタン &#x200B;](assets/simulate-generate.png)
 
@@ -130,9 +139,35 @@ ht-degree: 1%
 
    +++ JSONから作成
 
-   シミュレートされたユーザーデータを使用して対応するフィールドを更新することで、新しいシミュレートされたユーザーを定義します。
+   **[!UICONTROL シミュレートされたユーザーの作成]**&#x200B;で、JSON テンプレートを編集してユーザーを定義し、**[!UICONTROL JSONの書式設定]**&#x200B;および&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックします。
 
    ![&#x200B; ユーザーテンプレートと形式JSON コントロールを使用したシミュレートされたユーザーJSON エディターの作成](assets/simulate-json.png)
+
+   プロファイルまたは[&#x200B; テストプロファイル &#x200B;](../audience/creating-test-profiles.md)の属性値を[!DNL Adobe Experience Platform]で再利用するには：
+
+   1. 参照として使用するプロファイルを参照します。 プロファイルの詳細ページで、**[!UICONTROL JSONを表示]**&#x200B;をクリックします。 [詳細情報](../audience/get-started-profiles.md)
+
+      ![Adobe Experience Platformのプロファイル JSON ビュー](assets/simulate-json-1.png)
+
+   1. ビューアからJSONをコピーします。
+
+   1. ジャーニーで、**[!UICONTROL シミュレーション設定]**&#x200B;を開き、**[!UICONTROL シミュレートされたユーザーの作成]**&#x200B;を開始し、**JSONから作成**&#x200B;を選択します。
+
+   1. JSONを、シミュレートされたユーザーテンプレートの一致する部分（1人のユーザーの属性ブロックなど）に貼り付けます。 「**[!UICONTROL JSONを書式設定]**」をクリックして、構造を検証します。
+
+      ![&#x200B; ペーストされたプロファイル属性を持つシミュレートされたユーザーのJSON エディターの作成](assets/simulate-json-2.png)
+
+   1. mergePolicyIdやlastModifiedAtなど、ソースプロファイルにのみ関連付けられた[!DNL Adobe Experience Platform] プロファイルに存在するプロパティを削除します。
+
+   1. シミュレートされたユーザーテンプレートで必要なフィールドを設定します。**[!UICONTROL 表示名]**、**[!UICONTROL ID名前空間]**、ID値、およびチャネル実行アドレス。
+
+   1. 「**[!UICONTROL 保存]**」をクリックします。 **[!UICONTROL シミュレーション]**&#x200B;を実行する前に、保存されたシミュレーションユーザーで![編集アイコン &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg)を使用してデータを確認してください。
+
+      ![&#x200B; ユーザーテンプレートと形式JSON コントロールを使用したシミュレートされたユーザーJSON エディターの作成](assets/simulate-json-3.png)
+
+      >[!WARNING]
+      >
+      >プロファイル JSONを貼り付ける場合は、すべての実稼動識別子と連絡先（電子メール、電話、ECID、プッシュトークンなど）を削除または置換します。 シミュレーションは、提供されたデータを使用してメッセージを送信します。
 
    +++
 
