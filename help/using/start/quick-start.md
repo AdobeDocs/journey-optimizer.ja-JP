@@ -281,8 +281,8 @@ Journey Optimizer の主な機能とペルソナについて詳しくは、紹�
 
 >[!TAB コミュニティとサポート]
 
-* [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 他のユーザーやエキスパートとつながります
-* [製品フォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 質問をしたり、知識を共有したりします
+* [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} - 他のユーザーやエキスパートとつながります
+* [製品フォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} - 質問をしたり、知識を共有したりします
 
 >[!ENDTABS]
 
