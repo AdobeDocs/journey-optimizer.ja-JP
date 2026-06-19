@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 1770
+source-wordcount: 1769
 ht-degree: 21%
 
 ---
@@ -204,7 +204,7 @@ Adobe Experience Manager を使用すると、コンテンツフラグメント�
 
 >[!AVAILABILITY]
 >
->この機能は、Decisioningをサポートするアウトバウンドチャネルで使用できます。
+>この機能は、Decisioningをサポートするチャネルで使用できます。
 
 AEM コンテンツフラグメントは、**Experience Decisioning**&#x200B;のオファー項目属性としても使用できます。 コンテンツフラグメントフィールドを決定項目属性にマッピングすることで、Journey Optimizerの決定モデル、式、ランキング基準を使用して、各プロファイルに提供するフラグメントを最適化できます。
 
