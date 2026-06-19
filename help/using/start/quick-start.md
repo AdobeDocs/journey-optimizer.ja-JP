@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 役割と責務
-description: Adobe Journey Optimizer に関連する様々な役割とその責務について説明します。
+title: ：その定義、役割、責任
+description: Adobe Journey Optimizerの役割、責任、推奨される実装手順について説明します。
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 2293
-ht-degree: 98%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -55,21 +55,11 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer を使用すると、カスタマージャーニーを通じて、ブランドからコンテキストに沿ったパーソナライズされたエクスペリエンスを提供できます。 Journey Optimizer は、スケール、速度、柔軟性といったエンドツーエンドの焦点で作成され、次の 3 つの主な価値推進要因を統合アプリケーションに組み合わせたものです。
+Adobe Journey Optimizerは、4つの異なる役割が順番に作業することによって実装されます。 このページでは、各役割の責任と、詳細な入門ガイドへのリンクを示しています。
 
-* アドビのリアルタイム顧客プロファイルを活用した&#x200B;**リアルタイムの顧客インサイトとエンゲージメント**
-* リアルタイムジャーニーとバッチキャンペーンの両方に対応する統合キャンバスと最新のメッセージデザイナーによる&#x200B;**最新のオムニチャネルオーケストレーション**
-* 意思決定管理と AI／ML 機能による&#x200B;**インテリジェントな意思決定とパーソナライゼーション**
-
-Journey Optimizer には、顧客にリーチして関与する 2 つの主なアプローチが用意されています。
-
-* **ジャーニー** - 各顧客が行動やイベントにトリガーされて、自分のペースで進める、リアルタイムの 1 対 1 のオーケストレーション。 オンボーディングシーケンス、買い物かご放棄、ライフサイクルエンゲージメントに最適です。
-* **キャンペーン** - ユースケースに応じて 3 つの配信モードを含むオーディエンスベースのメッセージ。
-   * **アクションキャンペーン** - 定義済みのオーディエンスに、スケジュール済みメッセージまたは繰り返しメッセージを一度に配信します。 ニュースレター、プロモーションのお知らせ、製品ローンチに最適です。
-   * **API トリガーキャンペーン** - API を介して外部システムによりトリガーされるオンデマンドメッセージ。 注文確認、発送アラート、アカウント通知などのトランザクションメッセージに最適です。
-   * **オーケストレーションキャンペーン** - マルチエンティティのセグメント化とキャンバスベースの実行を含む複雑なバッチワークフロー。 季節のプロモーション、マルチステップのバッチプログラム、正確な事前送信数を必要とするキャンペーンに最適です。
-
-この統合されたエクスペリエンスにより、オーディエンスの定義やジャーニーのデザインから、パーソナライズされたコンテンツの作成や結果の分析まで、ユースケース全体を 1 か所で実装できます。 このドキュメントでは、Journey Optimizer を効果的に使用する際の重要な役割と責任および使用の開始方法について説明します。
+>[!NOTE]
+>
+>Journey Optimizerを初めて利用する場合 最初に[Journey Optimizer](get-started.md)とは何ですか。
 
 **重要なメモ：** Adobe Journey Optimizer では、特定の責任を持つ個別のロールを定義します。 組織の構造に応じて、1 人のユーザーが複数の役割またはすべての役割を実行することができます。
 
@@ -295,3 +285,12 @@ Journey Optimizer の主な機能とペルソナについて詳しくは、紹�
 * [製品フォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} - 質問をしたり、知識を共有したりします
 
 >[!ENDTABS]
+
+## 役割ガイド {#role-guides}
+
+| 役割 | ガイド |
+|------|-------|
+| 管理者 | [管理者の基本を学ぶ](path/administrator.md) |
+| データエンジニア | [&#x200B; データエンジニア向けの基本を学ぶ](path/data-engineer.md) |
+| 開発者 | [開発者向けの基本を学ぶ](path/developer.md) |
+| マーケター | [マーケター向けの基本を学ぶ](path/marketer.md) |

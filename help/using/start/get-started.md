@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer
-description: Adobe Journey Optimizer の主な機能とユースケースの確認
+description: Adobe Journey Optimizerとは何か、主な機能、Adobe Experience Platformに組み込む方法について説明します。
 feature: Get Started
 topic: Content Management
 role: User
@@ -33,10 +33,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 1316
-ht-degree: 97%
+source-wordcount: 804
+ht-degree: 82%
 
 ---
 
@@ -87,73 +87,11 @@ You can also create audience-based campaigns to send messages.
 ブランドは、一元的な決定を適用し、人工知能と機械学習を組み込んで、顧客体験全体で予測インサイトを設定できます。これにより、意思決定の自動化や、規模に合わせたエクスペリエンスの最適化が容易になります。 決定では、[!DNL Adobe Journey Optimizer] を通じ、複数のチャネルをまたぐ大規模な一元的なオファーを支援します。 [オファー決定支援の探索](../offers/get-started/starting-offer-decisioning.md) | [AI 機能の確認](ai-features.md)
 
 
-## ユースケース {#use-cases}
+## よくあるユースケース {#use-cases}
 
-これらの例は、Journey Optimizer の機能が様々な役割、業界、チャネルをまたいで連携する仕組みを示しています。
+Journey Optimizerは、リアルタイムのトリガージャーニーやカート放棄による復旧から、スケジュール型のキャンペーン、意思決定、業務上の通知に至るまで、幅広いシナリオをサポートします。
 
-### 遅延した出荷の復元 {#uc-delayed-shipment}
-
-**役割：**&#x200B;マーケター | **コア機能：**&#x200B;[統合プロファイル + オーディエンスの除外](../audience/get-started-profiles.md)
-
-衣料品店では通常、先週製品を購入したすべての顧客に、購入後の調査を送信できます。 悪天候のため商品の出荷が遅れている場合は、 衣料品店は、商品をまだ受け取っていない顧客を調べ、スケジュールされた顧客満足度の送信からそれらの顧客を除外することができます。その代わりに、顧客の購入履歴に基づいて、遅延を謝罪し、割引コードと商品レコメンデーション情報を提供する、パーソナライズされたメールを送信できます。
-
-[キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)
-
-### リアルタイムの店舗内エンゲージメント {#uc-instore}
-
-**役割：**&#x200B;マーケター | **コア機能：**&#x200B;[ジオフェンストリガー + プッシュ](../push/get-started-push.md)
-
-同じ小売業者は、顧客のサイズの在庫が復活した、セーターに関するプッシュ通知を送信することで、店舗の駐車場に到着した常連客をリアルタイムで惹きつけることができます。
-
-[プッシュ通知の基本を学ぶ](../push/get-started-push.md)
-
-### 買い物かご放棄の回復 {#uc-cart}
-
-**役割：**&#x200B;マーケター | **コア機能：**&#x200B;[イベントトリガーのマルチステップジャーニー](../building-journeys/journey-gs.md)
-
-顧客がオンライン買い物かごに商品を追加したものの購入を完了せずに離脱した場合、Journey Optimizer はそのイベントをリアルタイムで検出し、自動的にリカバリージャーニーを開始します。 顧客には、残された商品についてリマインドするパーソナライズされたメールが送信されます。 24 時間以内にクリックスルーしない場合、閲覧履歴とロイヤルティステータスに基づいてパーソナライズされたフォローアップのプッシュ通知が送信されます。
-
-[最初のジャーニーの作成](../building-journeys/journey-gs.md)
-
-### ストリーミングサービスウェルカムシリーズ {#uc-welcome}
-
-**役割：**&#x200B;マーケター | **コア機能：**&#x200B;[イベントトリガーのウェルカムジャーニー](../building-journeys/journey-gs.md)
-
-顧客がストリーミングサービスに登録すると、Journey Optimizer は登録イベントを検出し、すぐにマルチステップのウェルカムジャーニーを開始します。 顧客には、アプリを初めて開くように促すウェルカムメールが送信されます。 48 時間以内にログインアクティビティが検出されない場合、新規登録時に表明された興味に基づいてパーソナライズされたコンテンツレコメンデーションを含むフォローアップのプッシュ通知が送信されます。これにより、受動的な登録者を初日からアクティブでエンゲージメントの高いユーザーに変えることができます。
-
-[最初のジャーニーの作成](../building-journeys/journey-gs.md)
-
-### 道順を含む予約リマインダー {#uc-reservation}
-
-**役割：**&#x200B;マーケター | **コア機能：**&#x200B;[スケジュール済み + 場所に応じたメッセージ](../campaigns/get-started-with-campaigns.md)
-
-あるホスピタリティブランドは、予約時間の 1 時間前に各ゲストにタイムリーなリマインダーを送信します。 この通知には、ゲストの名前、予約時間、位置に基づいた会場までの道順が含まれます。これらの情報は、マーケティングチームの手作業なしに、顧客プロファイルと予約データから自動的に組み立てられます。
-
-[キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)
-
-### サービス停止時のプロアクティブな通知 {#uc-outage}
-
-**役割：**&#x200B;運用 | **コア機能：**&#x200B;[大規模な自動オーディエンス選択](../audience/about-audiences.md)
-
-サービスの中断が発生すると、Journey Optimizer はアカウントデータと使用状況パターンに基づいて影響を受ける顧客を自動的に特定します。 このような顧客には、問題が発生したことを伝え、次のステップを説明するプロアクティブな通知が送信されます。これにより、潜在的に否定的なエクスペリエンスが、透明性と信頼に満ちた瞬間へと変わり、大規模に提供されます。
-
-[最初のジャーニーの作成](../building-journeys/journey-gs.md)
-
-### AI を活用したプロモーションキャンペーン {#uc-ai-campaign}
-
-**役割：**&#x200B;マーケター | **コア機能：**&#x200B;[AI コンテンツ生成 + 実験](ai-features.md)
-
-新製品ローンチを計画中の小売ブランドは、Journey Optimizer の AI アシスタントを使用し、自然言語によるプロンプトとアップロード済みのブランドガイドラインに従って、数分で複数の件名と本文のバリエーションを生成します。 組み込みのコンテンツ実験機能により、初期オーディエンスサンプルの中から最もパフォーマンスの高いバリアントが自動的に特定されます。 勝利メッセージは残りの受信者にデプロイされ、追加のコピーライティング作業なしでエンゲージメントが最大化されます。
-
-[AI とインテリジェント機能の探索](ai-features.md) | [コンテンツ実験の詳細情報](../content-management/experiment-accelerator-gs.md)
-
-### モバイルアプリ経由のメンテナンスアラート {#uc-maintenance}
-
-**役割：**&#x200B;運用 | **コア機能：**&#x200B;[マーケティング以外のジャーニーオーケストレーション](../building-journeys/journey-gs.md)
-
-運用チームやカスタマーサポートなどのマーケター以外は、[!DNL Adobe Journey Optimizer] を使用して、運用に関する通知を管理したり、オンボーディングプロセスを監視したりできます。 例えば、訪問者がエクスペリエンスの一部としてモバイルアプリをダウンロードするアミューズメントパークでは、メンテナンススタッフが Journey Optimizer を使用して、メンテナンスにより現在閉鎖されている乗り物を訪問者に通知できます。
-
-[最初のジャーニーの作成](../building-journeys/journey-gs.md)
+目標に合った機能を見つけるには、[Journey Optimizerのユースケースの概要](ajo-use-case-guide.md)を参照してください。 エンドツーエンドの作業済み例については、[&#x200B; ジャーニーのユースケースライブラリ &#x200B;](../building-journeys/jo-use-cases.md)を参照してください。
 
 
 ## 可用性とライセンス {#availability}
@@ -177,3 +115,12 @@ Journey Optimizer は、Adobe Experience Platform 上にネイティブに作成
 * [Journey Optimizer の概要チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - Journey Optimizer のコア概念のガイド付きビデオチュートリアル。
 * [Journey Optimizer セキュリティの概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)（PDF）- セキュリティアーキテクチャ、データ保護、コンプライアンスの詳細。
 * [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} - 公式ライセンス用語と各エディションの機能の分類。
+
+## 次の行き先 {#where-next}
+
+| 私は… | 次に移動… |
+|------------|--------|
+| Journey OptimizerとAdobe Experience Platformの連携について説明します | [Journey Optimizerについて](understanding-ajo.md) |
+| 特定の役割に関する基本を学ぶ | [役割と責任](quick-start.md) |
+| ユースケースの探索 | [Journey Optimizer ユースケースの概要](ajo-use-case-guide.md) |
+| 関連用語 | [用語](terminology.md) |

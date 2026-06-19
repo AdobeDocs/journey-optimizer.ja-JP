@@ -29,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1017
-ht-degree: 97%
+source-wordcount: 1072
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,12 @@ ht-degree: 97%
 >[!ENDSHADEBOX]
 
 **データアーキテクト**&#x200B;または&#x200B;**データエンジニア**&#x200B;は、[!DNL Journey Optimizer] により調整されるエクスペリエンスを向上する顧客プロファイルデータや他のデータソースを設定および管理します。 これには、web、CRM、オフラインソースなど、すべての顧客データとビジネスデータを顧客の統合された 360 度表示を統合することが含まれます。 顧客プロファイルデータとビジネスデータをスキーマにモデル化し、データを取り込むソースコネクタを設定し、データがスムーズにフローするようにして、リアルタイムの顧客インサイトとエンゲージメントを実現します。 [システム管理者](administrator.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
+
+>[!NOTE]
+>
+>**実装指示：** [管理者](administrator.md) →現在地：**データエンジニア** → [開発者](developer.md) → [&#x200B; マーケター](marketer.md)
+>
+>データ基盤の作業を開始する前に、[管理者の設定](administrator.md)を完了してください。
 
 >[!NOTE]
 >
@@ -135,3 +141,14 @@ Journey Optimizer のデータ基盤を設定するには、次の手順に従�
 * 高度なユースケース用にマルチエンティティのセグメント化をサポート
 
 >[!ENDTABS]
+
+## その他のロールガイド {#other-role-guides}
+
+| 役割 | ガイド |
+|------|-------|
+| 管理者 | [管理者の基本を学ぶ](administrator.md) |
+| データエンジニア | [&#x200B; データエンジニア向けの基本を学ぶ](data-engineer.md) |
+| 開発者 | [開発者向けの基本を学ぶ](developer.md) |
+| マーケター | [マーケター向けの基本を学ぶ](marketer.md) |
+
+[役割と責任の概要](../quick-start.md)に戻る・ [に戻る開始](../../../rp_landing_pages/get-started-landing-page.md)

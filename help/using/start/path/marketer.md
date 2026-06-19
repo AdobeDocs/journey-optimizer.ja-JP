@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1751
-ht-degree: 98%
+source-wordcount: 1727
+ht-degree: 94%
 
 ---
 
@@ -44,14 +44,17 @@ ht-degree: 98%
 
 **マーケター**&#x200B;または&#x200B;**ビジネス実務担当者**&#x200B;は、顧客に対して個人的なコンテキストに沿ったエクスペリエンスを提供するカスタマージャーニーをデザインします。 メールやプッシュメッセージ、オファー、メッセージコンテンツをインテリジェントにパーソナライズする決定コンポーネントなど、これらのパーソナライズされたジャーニーの様々なコンポーネントをすべて作成および管理します。 Journey Optimizer は、エンドツーエンドのユースケース全体を 1 か所で実装できる、統合されたユーザーエクスペリエンスを提供します。 [システム管理者](administrator.md)と[データエンジニア](data-engineer.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
 
+>[!NOTE]
+>
+>**実装指示：** [管理者](administrator.md) → [&#x200B; データエンジニア &#x200B;](data-engineer.md) → [開発者](developer.md) →現在地：**マーケター**
+>
+>ジャーニーを構築する前に、[環境設定](administrator.md)および[&#x200B; データ設定](data-engineer.md)が完了していることを確認してください。
+
 ## 基本事項を学ぶ
 
-Journey Optimizer は、リアルタイムの顧客インサイト、最新のオムニチャネルオーケストレーション、インテリジェントな意思決定を 1 つのアプリケーションに統合します。 メール、SMS、プッシュ、web プッシュ、アプリ内、web、ダイレクトメール、コンテンツカードなどをまたいでパーソナライズされた、接続されたカスタマーエクスペリエンスを作成します。
-
-Journey Optimizer には、次の 2 つの強力なオーケストレーションアプローチが用意されています。
-
-* **ジャーニー**：各顧客が行動やイベントにトリガーされて、自分のペースで進める、リアルタイムの 1 対 1 のエンゲージメント。
-* **オーケストレーションキャンペーン**：オーディエンスがワークフローを一緒に進める、大規模で複雑なマルチステップのバッチキャンペーンに最適です。季節のプロモーション、製品ローンチ、アカウントベースのコミュニケーションなど、ブランドのキャンペーンに最適です。
+>[!NOTE]
+>
+>Journey Optimizerを初めて利用する場合 このガイドを始める前に、[Journey Optimizerとは何か](../get-started.md)をお読みください。
 
 [管理者](administrator.md)と連携してアクセス権を取得し、[データエンジニア](data-engineer.md)と連携して、高度なセグメント化用のオーディエンス、データ、リレーショナルスキーマを設定します。 ジャーニーとキャンペーンを構築する前に必要なデータ設定について詳しくは、[データ管理の基本を学ぶ](../../data/gs-data.md)の概要を参照してください。
 
@@ -235,3 +238,14 @@ Journey Optimizer の機能を示す次の実用的な例から学びます。
 2. **AI を活用**：AI アシスタントを使用して質問し、コンテンツ作成を高速化します
 3. **コミュニティに参加**：[Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}で他の Journey Optimizer ユーザーとつながります。
 4. **チュートリアルを探索**：[Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"} のステップバイステップのビデオをご覧ください
+
+## その他のロールガイド {#other-role-guides}
+
+| 役割 | ガイド |
+|------|-------|
+| 管理者 | [管理者の基本を学ぶ](administrator.md) |
+| データエンジニア | [&#x200B; データエンジニア向けの基本を学ぶ](data-engineer.md) |
+| 開発者 | [開発者向けの基本を学ぶ](developer.md) |
+| マーケター | [マーケター向けの基本を学ぶ](marketer.md) |
+
+[役割と責任の概要](../quick-start.md)に戻る・ [に戻る開始](../../../rp_landing_pages/get-started-landing-page.md)
