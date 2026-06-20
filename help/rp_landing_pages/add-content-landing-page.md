@@ -20,7 +20,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 コンテンツコンポーネントの使用
 

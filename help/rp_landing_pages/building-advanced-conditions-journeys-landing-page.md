@@ -30,7 +30,7 @@ Adobe Journey Optimizer には、ジャーニー内に複雑なロジックを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 式の高度な構文
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で高度な式を作成するのに必要な構文ル�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizer の関数
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer の関数
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Journey Optimizer データセットに関するクエリのサンプルと関連するユースケース
 

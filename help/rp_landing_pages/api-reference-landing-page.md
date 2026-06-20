@@ -25,7 +25,7 @@ Adobe Journey Optimizer の API リファレンスの節では、顧客に合わ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Offer Library API の基本を学ぶ
 

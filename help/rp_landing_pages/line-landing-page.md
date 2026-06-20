@@ -50,7 +50,7 @@ LINE メッセージをジャーニーやキャンペーンに追加し、コン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 LINE メッセージの確認および送信
 

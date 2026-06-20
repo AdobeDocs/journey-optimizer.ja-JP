@@ -30,7 +30,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 多言語コンテンツのロケールの作成方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 言語プロバイダーの追加と設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 手動翻訳を使用した多言語コンテンツの作成
 

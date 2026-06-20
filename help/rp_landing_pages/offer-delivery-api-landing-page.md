@@ -35,7 +35,7 @@ Decisioning API、Edge Decisioning API、Batch Decisioning API など、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Decisioning API を使用したオファーの配信
 

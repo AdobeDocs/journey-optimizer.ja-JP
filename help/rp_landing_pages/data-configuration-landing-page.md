@@ -30,7 +30,7 @@ Adobe Journey Optimizer のデータ設定とは、データを整理して接�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 ターゲティングディメンションの設定方法
 

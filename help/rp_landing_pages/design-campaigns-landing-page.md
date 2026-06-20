@@ -20,7 +20,7 @@ Adobe Journey Optimizer のオーケストレーションキャンペーンの�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 オーケストレーションキャンペーンアクティビティの操作
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のオーケストレーションキャンペーンの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 AND 結合アクティビティの使用
 
@@ -60,7 +60,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 チャネルアクティビティ
 
@@ -70,7 +70,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 結合アクティビティ
 

@@ -40,7 +40,7 @@ Adobe Journey Optimizer の E メールデザイナーで、メール構造の�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 垂直方向の整列とパディングの調整
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の E メールデザイナーで、メール構造の�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 インラインスタイル属性の追加
 
