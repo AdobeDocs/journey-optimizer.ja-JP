@@ -286,26 +286,26 @@ Interactive Message Execution REST APIを使用して、外部システムから
 * 呼び出しのタイムアウトは&#x200B;**60秒**&#x200B;です。内部再試行は予期しないタイムアウトを処理します。
 * キャンペーンの開始日/終了日が設定されている場合、それらの日付以外のAPI呼び出しは失敗します。
 * ペイロードを作成するには、Journey Optimizer UIのライブキャンペーンの&#x200B;**cURL リクエスト** セクションから、生成されたサンプル cURL リクエストを取得します。このリクエストには、そのキャンペーンのすべてのパーソナライゼーション変数が含まれます。
-* 標準キャンペーンと[&#x200B; ハイスループットキャンペーン &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)では、異なるエンドポイントを使用しています。
+* 標準キャンペーンと[&#x200B; ハイスループットキャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)では、異なるエンドポイントを使用しています。
 
-[API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} ・ [&#x200B; コードサンプル &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} ・ [API トリガーキャンペーンの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+[API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} ・ [&#x200B; コードサンプル &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} ・ [API トリガーキャンペーンの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
 
 ### 外部エンドポイントのキャッピングとスロットル {#capping-throttling}
 
 ジャーニーがカスタムアクションまたはデータソースを介して外部システムを呼び出す場合、Capping APIとThrottling APIは、これらのシステムを過負荷から保護します。 キャッピングは、設定された制限を超える呼び出しを拒否します。スロットルキューは最大6時間待機します（実稼動サンドボックス、カスタムアクションのみ）。
 
-[Capping API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} ・ [Capping APIの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/external-systems/capping) ・ [&#x200B; スロットル APIの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
+[Capping API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} ・ [Capping APIの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/connect-systems/external-systems/capping) ・ [&#x200B; スロットル APIの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
 
 ### その他のREST API {#more-rest-apis}
 
 | 連携の強化 | API リファレンス |
 | ------------------- | ------------- |
-| 電子メールアドレスまたはドメインをプログラムで送信から除外 | [抑制API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} ・ [抑制リストを管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
+| 電子メールアドレスまたはドメインをプログラムで送信から除外 | [抑制API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} ・ [抑制リストを管理](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
 | 監査または外部同期用にジャーニーのメタデータを取得 | [ジャーニー API](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
-| 外部パイプラインからのコンテンツテンプレートとフラグメントの作成と管理 | [&#x200B; コンテンツ API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [&#x200B; テンプレート &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates) ・ [&#x200B; フラグメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/fragments) |
+| 外部パイプラインからのコンテンツテンプレートとフラグメントの作成と管理 | [&#x200B; コンテンツ API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [&#x200B; テンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-templates/content-templates) ・ [&#x200B; フラグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/fragments/fragments) |
 | アクションキャンペーンの取得とフィルタリング | [&#x200B; キャンペーン API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | 施策をプレビューし、プログラムにより校正を送信する | [&#x200B; シミュレーション API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| データセットとトリガーを検証し、キャンペーンを実行 | [&#x200B; データセットの検証](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [トリガー](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [&#x200B; データセットの有効化](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
+| データセットとトリガーを検証し、キャンペーンを実行 | [&#x200B; データセットの検証](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [トリガー](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [&#x200B; データセットの有効化](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
 
 ## その他のリソース {#additional-resources}
 
