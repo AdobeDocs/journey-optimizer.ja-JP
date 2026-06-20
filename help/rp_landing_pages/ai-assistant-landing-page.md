@@ -20,7 +20,7 @@ Adobe Journey Optimizer の AI アシスタントは、生成 AI を活用して
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 AI アシスタントの基本を学ぶ
 

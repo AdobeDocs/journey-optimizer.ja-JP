@@ -40,7 +40,7 @@ Adobe Experience Platform のスキーマを理解および管理して、Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 Journey Optimizer データセット
 
@@ -50,7 +50,7 @@ TTL ルール、書き出し、SQL クエリなど、Adobe Journey Optimizerで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Adobe Experience Platform データの使用
 

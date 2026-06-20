@@ -20,7 +20,7 @@ Journey Optimizer の意思決定機能を使用すると、すべてのタッ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 意思決定機能の概要
 

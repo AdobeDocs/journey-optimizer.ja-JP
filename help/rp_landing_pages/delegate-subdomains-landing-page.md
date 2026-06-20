@@ -22,7 +22,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 サブドメインデリゲーションの基本を学ぶ
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer でサブドメインをデリゲートするメリッ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 カスタムサブドメインの設定
 
@@ -92,7 +92,7 @@ PTR レコードへのアクセスと編集
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 IP プールの作成
 

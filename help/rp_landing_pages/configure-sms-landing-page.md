@@ -70,7 +70,7 @@ API 資格情報を作成し、Webhook を管理し、安全な通信チャネ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 SMS／MMS／RCS チャネル設定の作成
 

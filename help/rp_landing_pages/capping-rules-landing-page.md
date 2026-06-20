@@ -52,7 +52,7 @@ Adobe Journey Optimizer で、メッセージの頻度とジャーニーエン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 クワイエットアワーの設定
 

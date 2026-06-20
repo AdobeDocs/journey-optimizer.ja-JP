@@ -30,7 +30,7 @@ Adobe Journey Optimizer で inAudience 関数を使用してオーディエン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Adobe Experience Platform データをパーソナライゼーションに使用
 

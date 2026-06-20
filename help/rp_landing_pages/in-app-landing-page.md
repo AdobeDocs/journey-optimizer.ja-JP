@@ -21,7 +21,7 @@ Adobe Journey Optimizer のアプリ内チャネルを使用すると、モバ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 アプリ内チャネル設定
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer のアプリ内チャネルを使用すると、モバ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 モバイルアプリ内メッセージの作成
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer のアプリ内チャネルを使用すると、モバ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Web アプリ内メッセージの作成
 
@@ -61,7 +61,7 @@ Web アプリ内メッセージの作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=ja)
 
 アプリ内通知の確認および送信
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ランディングページの作成
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 動的コンテンツの作成
 
