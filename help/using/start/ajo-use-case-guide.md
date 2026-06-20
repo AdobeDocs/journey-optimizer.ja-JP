@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizerのユースケースの概要| Adobe Journey Optimizer
+title: 目標から始める| Adobe Journey Optimizer
 description: Adobe Journey Optimizerの主なユースケースを紹介し、各シナリオに最適なAJO機能についてガイダンスを提供します。
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer, ユースケース，意思決定ガイド，どの機能，使い始める，実務担当者の目標，チュートリアル
-source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
+source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 33%
+source-wordcount: '3141'
+ht-degree: 31%
 
 ---
 
-# 最適なJourney Optimizer機能の選定 {#ajo-use-case-guide}
+# 目標から始める {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -50,7 +50,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 | 役割、権限、アクセス制御の設定 | アクセス制御 | [&#x200B; アクセス制御の基本を学ぶ](../administration/permissions-overview.md) |
 | 複数の環境や地域をまたいで作業 | サンドボックス | [サンドボックスの操作](../administration/sandboxes.md) |
 
-## リアルタイムで顧客とエンゲージ {#engage-real-time}
+## イベントの発生時に顧客をエンゲージ {#engage-real-time}
 
 顧客のアクションやイベントに反応するシナリオの場合。
 
@@ -199,7 +199,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 
 ### 放棄されたカートの回復 {#flow-cart}
 
-**次の項目を作成します：** リアルタイムの復元フローで、残された項目を顧客に思い出してもらいます。
+**次の機能を構築します：**&#x200B;残されたアイテムを顧客に思い出させる自動リカバリーフロー。
 **マーケターに最適：** ・ **機能：** イベントトリガージャーニー
 
 1. 買い物かごの放棄イベントがJourney Optimizerに届いていることを確認します（必要に応じて[&#x200B; データチーム &#x200B;](../data/gs-data.md)と協力してください）。
@@ -258,7 +258,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 
 **役割：**&#x200B;マーケター | **コア機能：**&#x200B;[ジオフェンストリガー + プッシュ](../push/get-started-push.md)
 
-同じ小売業者は、顧客のサイズの在庫が復活した、セーターに関するプッシュ通知を送信することで、店舗の駐車場に到着した常連客をリアルタイムで惹きつけることができます。
+例えば、Adobe retailerなら、店舗の駐車場に来店したロイヤル顧客に対して、その顧客のサイズに合わせて再入荷しているセーターに関するプッシュ通知を送信することで、エンゲージメントを促進できます。
 
 [プッシュ通知の基本を学ぶ](../push/get-started-push.md)
 
@@ -266,7 +266,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 
 **役割：**&#x200B;マーケター | **コア機能：**&#x200B;[イベントトリガーのマルチステップジャーニー](../building-journeys/journey-gs.md)
 
-顧客がオンライン買い物かごに商品を追加したものの購入を完了せずに離脱した場合、Journey Optimizer はそのイベントをリアルタイムで検出し、自動的にリカバリージャーニーを開始します。 顧客には、残された商品についてリマインドするパーソナライズされたメールが送信されます。 24 時間以内にクリックスルーしない場合、閲覧履歴とロイヤルティステータスに基づいてパーソナライズされたフォローアップのプッシュ通知が送信されます。
+顧客がオンラインカートに商品を追加したものの、購入を完了することなくカートを離れた場合、Journey Optimizerはそのイベントを検出し、自動的にリカバリージャーニーを開始します。 顧客には、残された商品についてリマインドするパーソナライズされたメールが送信されます。 24 時間以内にクリックスルーしない場合、閲覧履歴とロイヤルティステータスに基づいてパーソナライズされたフォローアップのプッシュ通知が送信されます。
 
 [最初のジャーニーの作成](../building-journeys/journey-gs.md)
 
@@ -333,7 +333,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 
 >[!TAB  レポートと最適化]
 
-* [&#x200B; ライブレポートでジャーニーを監視および分析](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — パフォーマンスをリアルタイムで追跡します。
+* [&#x200B; ライブレポートでジャーニーを監視および分析](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — ジャーニーの実行中にパフォーマンスを追跡します。
 * [&#x200B; メールキャンペーンのコンテンツ実験を作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — コンテンツをテストおよび最適化します。
 
 >[!ENDTABS]
@@ -341,7 +341,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 ## ジャーニー、キャンペーン、オーケストレーションされたキャンペーンの選択 {#choosing}
 
 | シナリオ | 用途 |
-|----------|-----|
+| -------- | --- |
 | 顧客行動にもとづくマルチステップで、それぞれの顧客が自分のペースで移動します | ジャーニー |
 | オーディエンスへのシンプルなスケジュール済みまたはAPI トリガーのメッセージ | Campaign |
 | 複数のエンティティをセグメンテーションする複雑なバッチワークフロー | オーケストレーションキャンペーン |
