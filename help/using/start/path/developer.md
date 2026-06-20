@@ -6,34 +6,15 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7c48101c29e512f8d7163cc8c18ead56e800fd42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e5fb53814beb3c9288904b20615a60af3c42a723
 workflow-type: tm+mt
-source-wordcount: 2666
-ht-degree: 80%
+source-wordcount: 2560
+ht-degree: 83%
 
 ---
 
@@ -49,9 +30,9 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->**実装指示：** [管理者](administrator.md) → [&#x200B; データエンジニア &#x200B;](data-engineer.md) →現在地：**開発者** → [&#x200B; マーケター](marketer.md)
+>**実装指示：** [管理者](administrator.md) → [ データエンジニア ](data-engineer.md) →現在地：**開発者** → [ マーケター](marketer.md)
 >
->モバイルとwebの統合を実装する前に、[&#x200B; データスキーマとイベント &#x200B;](data-engineer.md)が設定されていることを確認してください。
+>モバイルとwebの統合を実装する前に、[ データスキーマとイベント ](data-engineer.md)が設定されていることを確認してください。
 
 ## Journey Optimizer エコシステムでの役割
 
@@ -272,7 +253,7 @@ Journey Optimizer は、プログラムによるアクセス用の包括的な R
 
 ## Journey Optimizer REST APIの呼び出し {#rest-apis}
 
-SDKやイベントストリーミングを実装するだけでなく、独自のシステムからプログラムでJourney Optimizerを実行することもできます。 完全なAPI リファレンス、OpenAPI仕様、およびコードサンプルは、[Journey Optimizer デベロッパーポータル &#x200B;](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}にあります。
+SDKやイベントストリーミングを実装するだけでなく、独自のシステムからプログラムでJourney Optimizerを実行することもできます。 完全なAPI リファレンス、OpenAPI仕様、およびコードサンプルは、[Journey Optimizer デベロッパーポータル ](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}にあります。
 
 >[!NOTE]
 >
@@ -286,26 +267,26 @@ Interactive Message Execution REST APIを使用して、外部システムから
 * 呼び出しのタイムアウトは&#x200B;**60秒**&#x200B;です。内部再試行は予期しないタイムアウトを処理します。
 * キャンペーンの開始日/終了日が設定されている場合、それらの日付以外のAPI呼び出しは失敗します。
 * ペイロードを作成するには、Journey Optimizer UIのライブキャンペーンの&#x200B;**cURL リクエスト** セクションから、生成されたサンプル cURL リクエストを取得します。このリクエストには、そのキャンペーンのすべてのパーソナライゼーション変数が含まれます。
-* 標準キャンペーンと[&#x200B; ハイスループットキャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)では、異なるエンドポイントを使用しています。
+* 標準キャンペーンと[ ハイスループットキャンペーン ](../../campaigns/api-triggered-high-throughput.md)では、異なるエンドポイントを使用しています。
 
-[API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} ・ [&#x200B; コードサンプル &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} ・ [API トリガーキャンペーンの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+[API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} ・ [ コードサンプル ](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} ・ [API トリガーキャンペーンの操作](../../campaigns/api-triggered-campaigns.md)
 
 ### 外部エンドポイントのキャッピングとスロットル {#capping-throttling}
 
 ジャーニーがカスタムアクションまたはデータソースを介して外部システムを呼び出す場合、Capping APIとThrottling APIは、これらのシステムを過負荷から保護します。 キャッピングは、設定された制限を超える呼び出しを拒否します。スロットルキューは最大6時間待機します（実稼動サンドボックス、カスタムアクションのみ）。
 
-[Capping API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} ・ [Capping APIの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/connect-systems/external-systems/capping) ・ [&#x200B; スロットル APIの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
+[Capping API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} ・ [Capping APIの操作](../../configuration/capping.md) ・ [ スロットル APIの操作](../../configuration/throttling.md)
 
 ### その他のREST API {#more-rest-apis}
 
 | 連携の強化 | API リファレンス |
 | ------------------- | ------------- |
-| 電子メールアドレスまたはドメインをプログラムで送信から除外 | [抑制API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} ・ [抑制リストを管理](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
+| 電子メールアドレスまたはドメインをプログラムで送信から除外 | [抑制API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} ・ [抑制リストを管理](../../configuration/manage-suppression-list.md) |
 | 監査または外部同期用にジャーニーのメタデータを取得 | [ジャーニー API](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
-| 外部パイプラインからのコンテンツテンプレートとフラグメントの作成と管理 | [&#x200B; コンテンツ API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [&#x200B; テンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-templates/content-templates) ・ [&#x200B; フラグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/fragments/fragments) |
-| アクションキャンペーンの取得とフィルタリング | [&#x200B; キャンペーン API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
-| 施策をプレビューし、プログラムにより校正を送信する | [&#x200B; シミュレーション API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| データセットとトリガーを検証し、キャンペーンを実行 | [&#x200B; データセットの検証](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [トリガー](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [&#x200B; データセットの有効化](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
+| 外部パイプラインからのコンテンツテンプレートとフラグメントの作成と管理 | [ コンテンツ API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [ テンプレート ](../../content-management/content-templates.md) ・ [ フラグメント ](../../content-management/fragments.md) |
+| アクションキャンペーンの取得とフィルタリング | [ キャンペーン API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
+| 施策をプレビューし、プログラムにより校正を送信する | [ シミュレーション API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+| データセットとトリガーを検証し、キャンペーンを実行 | [ データセットの検証](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [トリガー](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [ データセットの有効化](../../orchestrated/manual-schema.md) |
 
 ## その他のリソース {#additional-resources}
 
@@ -365,7 +346,7 @@ Interactive Message Execution REST APIを使用して、外部システムから
 | 役割 | ガイド |
 |------|-------|
 | 管理者 | [管理者の基本を学ぶ](administrator.md) |
-| データエンジニア | [&#x200B; データエンジニア向けの基本を学ぶ](data-engineer.md) |
+| データエンジニア | [ データエンジニア向けの基本を学ぶ](data-engineer.md) |
 | 開発者 | [開発者向けの基本を学ぶ](developer.md) |
 | マーケター | [マーケター向けの基本を学ぶ](marketer.md) |
 
