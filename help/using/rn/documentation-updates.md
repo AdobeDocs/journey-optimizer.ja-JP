@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
+source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
 workflow-type: tm+mt
-source-wordcount: 8537
-ht-degree: 94%
+source-wordcount: 8654
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 94%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年6月 {#june-2026}
+
+* 新しい&#x200B;**Adobe Journey Optimizerの使用を開始する** オンボーディングハブが利用可能になりました。 新規顧客は、役割ごとにパスを選択したり、基礎を調べたり、オンボーディング済みの場合は、最初に確認すべき点を知らなくても日々の業務に取り組むことができます。 [詳細情報](../../rp_landing_pages/get-started-landing-page.md)
+
+* 新しい&#x200B;**目標から開始** ページを使用すると、機能名ではなく、達成したい目標から開始できます。 設定、ジャーニー、キャンペーン、パーソナライゼーション、意思決定、レポートにおいて、ビジネス目標を推奨されるJourney Optimizer機能にマッピングします。 [詳細情報](../start/ajo-use-case-guide.md)
+
+* **開発者向け入門**&#x200B;の役割ガイドが更新され、各セクションの概要がより明確になり、ジャーニーを参照し、主要な実装ページにリンクする&#x200B;**役割** タブ間のコラボレーションが改善されました。 [詳細情報](../start/path/developer.md)
 
 * ジャーニーの再エントリ **サブセクションの新しい** パス割り当てが&#x200B;**パス実験** ドキュメントに追加されました。 パス割り当ては、複数のエントリにわたって同じジャーニーバージョンにアクセスするプロファイルに対して永続的であり、ジャーニーバージョン内でのみ永続的であることが明確になります。 割り当ては、新しいジャーニーバージョンが公開されるとリセットされ、ジャーニー内の各パス実験アクティビティは、独立したランダム割り当てを適用します。 [詳細情報](../building-journeys/path-experimentation.md#path-assignment)
 * **Adobe Experience Cloud**&#x200B;への参照は、[!DNL Journey Optimizer]のドキュメント全体で&#x200B;**[!DNL Adobe CX Enterprise]**&#x200B;のブランドと一致しています。
@@ -687,7 +693,7 @@ ht-degree: 94%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ja){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
