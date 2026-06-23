@@ -6,8 +6,11 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 1785
@@ -32,7 +35,7 @@ ht-degree: 80%
 
 コンテンツカードとは、モバイルアプリの専用サーフェス内で、プロモーション、お知らせ、レコメンデーションなどのパーソナライズされたコンテンツを直接表示する、インバウンドのアプリ内エクスペリエンスのことです。 割り込みメッセージとは異なり、ユーザーがメッセージを却下するか、配信ルールで非表示にするまで、アプリで使用できます。
 
-このページでは、[ ジャーニー](../building-journeys/journey-gs.md)または[ キャンペーン ](../campaigns/create-campaign.md)の一部としてコンテンツカードを作成し、そのコンテンツを定義する方法について説明します。 追加したら、カードをデザインし、表示、却下、または永続的に非表示にするタイミングを制御する追加の配信ルールを設定し、コンテンツ実験を実行してパフォーマンスを最適化できます。
+このページでは、[&#x200B; ジャーニー](../building-journeys/journey-gs.md)または[&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md)の一部としてコンテンツカードを作成し、そのコンテンツを定義する方法について説明します。 追加したら、カードをデザインし、表示、却下、または永続的に非表示にするタイミングを制御する追加の配信ルールを設定し、コンテンツ実験を実行してパフォーマンスを最適化できます。
 
 >[!IMPORTANT]
 >
@@ -44,7 +47,7 @@ ht-degree: 80%
 
 コンテンツカードをジャーニーに追加するには、次の手順に従います。
 
-1. [ ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. [&#x200B; ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -121,7 +124,7 @@ ht-degree: 80%
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。 [詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB キャンペーンへのコンテンツカードの追加]
 
