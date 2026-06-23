@@ -278,7 +278,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`のデフォルトは`false`です。 オーディエンス作成時に設定する必要があり、作成後に変更することはできません。 すべてのFederated Audience Composition オーディエンスでは、デフォルトでExpress Activationが有効になっており、このフラグは必要ありません。
 
-完全なリファレンスについては、[外部オーディエンス APIの作成](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}を参照してください。
+完全なリファレンスについては、[外部オーディエンス APIの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}を参照してください。
 
 +++
 
