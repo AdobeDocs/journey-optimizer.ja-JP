@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 671
-ht-degree: 98%
+source-wordcount: 1124
+ht-degree: 59%
 
 ---
 
@@ -130,7 +130,7 @@ false
 true
 ```
 
-## 日付のみ {#date-only}
+## 日付のみ {#date-only}
 
 **説明**
 
@@ -158,7 +158,7 @@ date("<dateOnly in ISO-8601 format>")
 date("2021-02-19")
 ```
 
-## 日時のみ {#date-time-only}
+## 日時のみ {#date-time-only}
 
 **説明**
 
@@ -174,7 +174,7 @@ toDateTimeOnly 関数でカプセル化できます。
 
 シリアル化形式：ISO-8601 拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}
+値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。 [学習を増やす](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}。
 
 **リテラル表現**
 
@@ -203,7 +203,7 @@ toDateTime 関数でカプセル化できます。
 
 シリアル化形式：ISO-8601 拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_OFFSET_DATE_TIME を使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}
+値の逆シリアル化とシリアル化に DateTimeFormatter ISO_OFFSET_DATE_TIME を使用します。 [学習を増やす](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}。
 
 エポック値を表す整数を渡すこともできます。 [詳細情報](https://www.epochconverter.com){_blank}。
 
@@ -267,7 +267,7 @@ toDuration 関数でカプセル化する必要があります。
 
 シリアル化形式：タイムゾーン ID を逆シリアル化するには、java 関数の java.time を使用します。
 
-Duration.parse：許可される形式は、ISO-8601 期間形式 PnDTnHnMn.nS に基づいており、日は正確に 24 時間と見なされます。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}
+Duration.parse：許可される形式は、ISO-8601 期間形式 PnDTnHnMn.nS に基づいており、日は正確に 24 時間と見なされます。 [学習を増やす](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}。
 
 **リテラル表現**
 
@@ -348,3 +348,50 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```json
 [toDuration(500),toDuration(800)]
 ```
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、ジャーニーの高度な式エディターでサポートされているすべてのデータ型（文字列、整数、小数、ブール値、dateTimeOnly、dateTimeOnly、dateTime、duration、list）について、JSON形式、シリアル化ルール、リテラル表現の構文を使用して説明します。
+
+**インテント：**
+
+* ジャーニー式を記述する際に、各データタイプの正しいリテラル構文を特定する
+* `dateOnly`、`dateTimeOnly`、`dateTime`の種類の違いと、それぞれの種類を使用するタイミングについて説明します
+* ISO-8601形式を使用してデュレーション値を表すか、`toDuration()`関数でミリ秒単位で表します
+* コレクション操作で使用する角括弧の構文を使用してリスト式を作成
+* 変換関数（`toDateTime`、`toDateTimeOnly`、`toDuration`、`toDateOnly`）を使用して、型付き定数を作成します
+
+**用語集：**
+
+* **dateOnly**：時間またはタイムゾーンのない日付。YYYY-MM-DD形式。誕生日またはカレンダーの日付に適しています&#x200B;*（製品固有）*
+* **dateTimeOnly**: タイムゾーン情報のない日時。オフセット *（製品固有）*&#x200B;がなければ、特定の瞬間を表すことはできません
+* **dateTime**：特定のインスタントを表すUTC オフセットを含む日時定数。エポック整数&#x200B;*（製品固有）*&#x200B;から作成することもできます
+* **期間**：時間ベースの金額（ミリ秒単位）です。ISO-8601 `PnDTnHnMn.nS`形式を使用します。年と月はサポートされていません&#x200B;*（製品固有）*
+* **list**：同じタイプの式のコンマ区切りコレクション。角括弧&#x200B;*（product-specific）*&#x200B;で区切られます
+
+**ガードレール：**
+
+* 期間は、ミリ秒、秒、分、時間、日のみをサポートします。年と月は固定時間ではないため、サポートされません
+* `duration`値は`toDuration()`でラップする必要があります。裸のリテラルとして表現することはできません
+* `list`のすべての式は同じ型である必要があります。多型はサポートされていません
+* `dateTimeOnly`は、追加のオフセットまたはタイムゾーンを持たずに、リアルタイムを表すことができません
+
+**用語：**
+
+* 正規名：データ型 – Acronym: none – 変数式：データ型、ジャーニーデータ型
+* 同義語：&quot;dateTime&quot; = &quot;date-time with timezone&quot;; &quot;dateTimeOnly&quot; = &quot;local date-time&quot;
+* 混同しないでください：`dateOnly` （時間なし） ≠ `dateTimeOnly` （日付+時間、タイムゾーンなし） ≠ `dateTime` （日付+時間+ タイムゾーン/オフセット）
+
+**FAQ:**
+
+* **Q: `dateTimeOnly`と`dateTime`の違いは何ですか？** — `dateTimeOnly`にはタイムゾーンまたはオフセットがなく、正確なインスタントを表すことができません。`dateTime`にはUTC オフセットが含まれており、特定の時点を表しています。
+* **Q: 2日と3時間の期間を表現するにはどうすればよいですか？** — `toDuration("P2DT3H")`を使用します。
+* **Q: リスト式に整数と文字列を混在させることはできますか？**  – いいえ。リスト内のすべての式は同じタイプである必要があります。
+* **Q: エポックタイムスタンプから`dateTime`をミリ秒単位で作成する方法を教えてください。** — `toDateTime(<epoch in milliseconds>)`を使用（例：`toDateTime(1560762190189)`）。
+* **Q: `true`または`True`は正しいブール リテラルですか？**  – 小文字`true`または`false`を使用してください。大文字のバリエーションは無効です。
+
++++

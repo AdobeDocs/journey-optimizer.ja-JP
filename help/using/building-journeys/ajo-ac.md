@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 501
-ht-degree: 80%
+source-wordcount: 1025
+ht-degree: 39%
 
 ---
 
@@ -128,3 +128,44 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
    ![イベントトリガーと Campaign アクションの実行を使用してジャーニーフローを完了する](assets/accintegration-uc-11.png)
 
 1. これで、ジャーニーを公開できます。
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、Adobe Campaign v7/v8との統合を使用してAdobe Journey Optimizerからトランザクションメールを送信する場合の手順を説明します。Campaign テンプレートの作成、イベントとアクションの設定、ジャーニーデザインについて説明します。
+
+**インテント：**
+* Journey Optimizerで使用するAdobe Campaign v7/v8のトランザクションメールテンプレートの設定
+* 発注番号などのカスタムフィールドを含むイベントをJourney Optimizerで作成します
+* JSON ペイロードを使用して、Journey OptimizerでCampaign Classic アクションを作成および設定する
+* ジャーニーイベントフィールドをアクション設定のCampaign パーソナライゼーション変数にマッピングします
+* Campaign トランザクションメールをトリガーするジャーニーを作成して公開します
+
+**用語集：**
+* **トランザクションメッセージ**: イベントに基づいてリアルタイムのトリガーメールを送信するキャンペーン機能。この統合を使用する前に設定する必要があります&#x200B;*（製品固有）*
+* **イベントタイプ（eventType）**: トランザクションイベントのタイプを識別するCampaignで定義された列挙値。内部名はJSON ペイロード *（製品固有）*&#x200B;で参照されます
+* **Campaign Classic action**: トランザクションメッセージを送信するためにAdobe Campaign v7/v8に接続するJourney Optimizer アクションタイプ *（製品固有）*
+* **ペイロードフィールド**: Campaign *（製品固有）*&#x200B;に送信されたデータフィールドを定義するJourney Optimizer アクションにペーストされたJSON構造
+
+**ガードレール：**
+* この統合には、Campaign v7/v8 ビルド 9125以降が必要です
+* トランザクションメッセージ機能は、使用する前にCampaign インスタンスで設定する必要があります
+* Campaignで新しいイベントタイプを作成したら、そのイベントタイプを有効にするには、そのインスタンスを切断して再接続する必要があります
+* 実行時に動的母集団を許可するには、アクションで「定数」として設定されたPersonalization フィールド値を「変数」に変更する必要があります
+
+**用語：**
+* 正式名称：Adobe Campaign v7/v8 – 略語：ACC – 変種：Campaign Classic、Campaign v7、Campaign v8
+* 同義語：&quot;eventType&quot; = &quot;event type internal name&quot;
+* 混同しないでください。「Campaign Classic action」≠「custom action」（Campaign Classic actionは、ACC統合用の特定のビルトインアクションタイプです）
+
+**FAQ:**
+* **Q：この統合にはどのCampaign バージョンが必要ですか？** — Campaign v7/v8 ビルド 9125以降が必要です。
+* **Q：開始する前にCampaignで何を設定する必要がありますか？** — トランザクションメッセージ機能を設定し、イベントタイプに基づいてトランザクションメールテンプレートを作成する必要があります。
+* **Q: Journey Optimizer アクションでパーソナライゼーションフィールドを動的にするにはどうすればよいですか？** — アクションペイロード設定で、実行時に入力されるフィールドのフィールド設定を「定数」から「変数」に変更します。
+* **Q：このユースケースでは、名のパーソナライゼーションデータはどこから来ていますか？** — ファーストネームはAdobe Experience Platform データソースから取得し、注文番号はJourney Optimizer イベントペイロードから取得します。
+* **Q: Journey Optimizer アクションをCampaign テンプレートに接続するにはどうすればよいですか？** — アクションタイプとして「Adobe Campaign Classic」を選択し、トランザクションメッセージテンプレート構造に一致するJSON ペイロードを貼り付けます。
+
++++

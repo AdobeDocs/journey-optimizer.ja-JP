@@ -11,10 +11,10 @@ keywords: クエリ, コレクション, 関数, ペイロード, ジャーニ�
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 740
-ht-degree: 94%
+source-wordcount: 1222
+ht-degree: 55%
 
 ---
 
@@ -233,8 +233,8 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **関数「at(`<index>`)」**
 
-**[!UICONTROL at]** 関数を使用すると、インデックスに従ってコレクション内の特定の要素を参照できます。
-インデックス 0 はコレクションの最初のインデックスです。
+**[!UICONTROL at]**&#x200B;関数を使用すると、インデックスに従ってコレクション内の特定の要素を参照できます。
+インデックス 0は、コレクションの最初のインデックスです。
 
 _`<listExpression>`.at(`<index>`)_
 
@@ -263,3 +263,52 @@ _aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.S
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、ジャーニー式の言語で使用できるコレクション管理関数`all()`、`first()`、`last()`、`at()`について説明します。プッシュ通知トークンのペイロードとエクスペリエンスイベント データを使用した例を示します。
+
+**インテント：**
+
+* `all(<condition>)`のブール条件を使用してコレクションをフィルタリングし、一致する要素を取得します
+* `all()`と組み合わせた`count()`関数を使用して、コレクション内の要素をカウントします
+* `first()`または`last()`を使用して、フィルタリングされたコレクションの最初または最後の要素を取得します
+* `at(<index>)`を使用してインデックスでコレクション内の特定の要素にアクセスする
+* ネストされたコレクションクエリを組み合わせて、SKU別またはイベントタイプと価格しきい値で商品名を検索できます
+
+**用語集：**
+
+* **all （condition）**: リストをフィルタリングし、指定されたブール式&#x200B;*（product-specific）*&#x200B;に一致する項目を返すコレクション関数
+* **first （condition）**：条件&#x200B;*（product-specific）*&#x200B;に一致する最初の（最新の、エクスペリエンスイベント用）要素を返すコレクション関数
+* **last （condition）**：条件&#x200B;*（product-specific）*&#x200B;に一致する最後の（最も古い、エクスペリエンスイベントの）要素を返すコレクション関数
+* **at （index）**：特定のゼロベース インデックス *（product-specific）*&#x200B;の要素を返すコレクション関数
+* **currentEventField**: `all()`、`first()`または`last()` *（製品固有）*&#x200B;内のイベントコレクションを繰り返し処理する際に使用できるループ変数
+* **currentDataPackField**: データソースコレクション *（製品固有）*&#x200B;を繰り返し実行する際に使用できるループ変数
+* **currentActionField**: カスタムアクション応答コレクション *（製品固有）*&#x200B;を繰り返し処理する際に使用できるループ変数
+
+**ガードレール：**
+
+* ジャーニー式/条件でのエクスペリエンスイベントの使用はサポートされていますが、推奨されていません。計算属性またはオーディエンスセグメントを代替手段として検討してください
+* `currentEventField`はイベントコレクションでのみ使用できます。データソースコレクションの`currentDataPackField`、カスタムアクション応答コレクションの`currentActionField`
+* コレクションの要素をカウントするために`all`関数は必要ありません – `count()`はコレクションフィールドに直接適用できます
+* エクスペリエンスイベントは逆時系列で取得されます。`first()`は最新のイベントを返し、`last()`は最も古いイベントを返します
+
+**用語：**
+
+* 正規名：コレクション管理関数 – Acronym: none — バリアント：コレクション関数、クエリコレクション関数
+* 同義語：&quot;all （）&quot; = &quot;filter function&quot;; &quot;first （）&quot; = &quot;most recent element function&quot; （エクスペリエンスイベント用）
+* 次を混同しないでください：`first()` （最新のエクスペリエンスイベント）≠挿入順序による最初の要素
+
+**FAQ:**
+
+* **Q：条件が空の場合、`all()`は何を返しますか？** — リスト内のすべての要素を返します。これは、フィルタリングなしと同じです。
+* **Q: コレクション内のプッシュ通知トークンの数をカウントするにはどうすればよいですか？** — `all()`を必要とせずに、トークンフィールドパスで直接`count()`を使用します（例：`count(@event{...pushNotificationTokens.token})`）。
+* **Q: コレクションの2番目の要素を取得するにはどうすればよいですか？** — インデックス 0が最初の要素であるため、`at(1)`を使用します。
+* **Q: `first()`が最新のエクスペリエンスイベントを返すのはなぜですか？** — エクスペリエンスイベントはAdobe Experience Platformから時系列で逆順に取得されるため、`first()`は上位（最新）の項目を選択します。
+* **Q: ユーザーが過去24時間以内に通信を受信していないかどうかを確認するにはどうすればよいですか？** — タイムスタンプの下限として`nowWithDelta(-1, "days")`を使用してエクスペリエンスイベント コレクションをフィルタリングし、`count(...) == 0`を使用します。
+
++++

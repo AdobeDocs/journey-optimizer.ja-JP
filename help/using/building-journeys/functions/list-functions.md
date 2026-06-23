@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 100%
+source-wordcount: 1642
+ht-degree: 70%
 
 ---
 
@@ -316,7 +316,7 @@ filter(
 
 `getListItem([10, 2, 3], 1)`
 
-「2」を返します
+「2」を返します。
 
 `getListItem(["A", "B", "C"], 2)`
 
@@ -670,7 +670,7 @@ intersect(
 
 `serializeList(["Hello", "World"], ",", true)`
 
-「&amp;quot;Hello&amp;quot;,&amp;quot;World&amp;quot;」を返します。
+「&quot;Hello&quot;,&quot;World&quot;」を返します。
 
 +++
 
@@ -743,5 +743,52 @@ intersect(
 `sort(@event{my_event.productListItems}, "SKU", true)`
 
 SKU 属性で並べ替えられた listObject を返します（昇順）
+
++++
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、AJO ジャーニー式で使用できるすべてのリスト関数について説明します。リストと配列の共通点をフィルタリング、並べ替え、重複排除、メンバーシップのチェック、制限、シリアル化、検索する方法について説明します。
+
+**インテント：**
+* `distinct` （nullを無視）または`distinctWithNull` （nullを保持）を使用して、リストから重複する値を削除します
+* `filter`を使用して特定のキー値に一致するオブジェクトのみを返すようにlistObjectをフィルタリングします
+* `getListItem`を使用して、リストから特定のインデックスの要素を取得します
+* `in`を使用して、リストに値が存在するかどうかを確認します
+* `intersect`を使用して2つのリスト間の共通の要素を検索
+* `limit`を使用して、リストの最初または最後のN要素を返します
+* `listSize`を使用してリスト内の要素の合計数をカウントします
+* `serializeList`を使用してリストを区切り文字列に変換する
+* `sort`を使用してリストを昇順または降順で並べ替える
+
+**用語集：**
+* **listObject**: フィールド参照である必要がある複雑なオブジェクトのリスト。null オブジェクトを含めることはできません&#x200B;*（製品固有）*
+* **keyAttributeName**: `distinct`、`filter`、`sort`で使用されるオプションの文字列パラメーターで、重複排除、フィルタリング、並べ替えに使用するオブジェクト属性&#x200B;*（製品固有）*&#x200B;を識別します
+* **intersect**：両方の入力リストに存在する要素のみを返す設定操作
+
+**ガードレール：**
+* `distinctWithNull`は`<listObject>` パラメーター型をサポートしていません
+* `filter`では、listObject パラメーターをインライン リテラルではなくフィールド参照にする必要があります
+* listObjectの`listSize`では、リストをフィールド参照にする必要があります。listObjectにnull オブジェクトを含めることはできません
+* `serializeList`は`listObject` タイプをサポートしていません
+
+**用語：**
+* 正規名：リスト関数 – Acronym: none — バリアント：コレクション関数、配列関数
+* 同義語：&quot;listSize&quot; = &quot;count list elements&quot;; &quot;serializeList&quot; = &quot;join list to string&quot;
+* 混同しないでください：&quot;distinct&quot; （nullを無視） ≠ &quot;distinctWithNull&quot; （nullを一意の値として保持）
+* 次を混同しないでください：「limit」と3番目のパラメーター`true` （最初のN個の項目を返します）≠「limit」と`false` （最後のN個の項目を返します）
+* 混同しないでください。「intersect」（2つのリスト間の共通エレメント）≠「filter」（特定のキー値に一致するエレメント）
+
+**FAQ:**
+* **Q: リストの最初の3つの項目を取得するにはどうすればよいですか？** — `limit(myList, 3)`または`limit(myList, 3, true)`を使用します。デフォルトでは、最初の項目を返します。
+* **Q: リストの最後の3つの項目を取得するにはどうすればよいですか？** — `limit(myList, 3, false)`を使用します。
+* **Q: `distinct`と`distinctWithNull`の違いは何ですか？** — `distinct`はnull値を無視して結果から除外します。`distinctWithNull`はnullを明確な値として扱い、nullが存在する場合は1つのnull エントリを含みます。
+* **Q: `filter`で文字列のリストをフィルタリングできますか？**  – いいえ、`filter`は`listObject`でのみ機能します。スカラー一覧の場合は、重複排除に`in`または`distinct`を使用します。
+* **Q：値がリストにあるかどうかを確認するにはどうすればよいですか？** — リスト内に値が見つかった場合にtrueを返す`in(value, myList)`を使用します。
+* **Q: listObjectを特定の属性で並べ替えることはできますか？**  – はい、2番目のパラメーターが属性名、3番目のパラメーターが並べ替え方向（true = ascending）の場合は`sort(@event{...}, "attributeName", true)`を使用します。
 
 +++

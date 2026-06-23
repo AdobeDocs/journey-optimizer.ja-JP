@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 956
-ht-degree: 54%
+source-wordcount: 1012
+ht-degree: 51%
 
 ---
 
@@ -96,7 +96,11 @@ Adobe Experience Platform データソースへのフィールドグループの
 
 ![](assets/computed-attributes-ajo.png)
 
-+++AI アシスタント – ページコンテキスト
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
 
 - **TL;DR:** Adobe Experience Platformで計算属性を作成し、セグメンテーション、パーソナライゼーション、ジャーニーロジックのためにJourney Optimizerで活用する方法を説明します。
 
