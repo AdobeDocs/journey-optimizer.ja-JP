@@ -28,9 +28,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: 287a228854060d5d34dbcfdf4da7bc4add8821bd
 workflow-type: tm+mt
-source-wordcount: 1229
+source-wordcount: 1228
 ht-degree: 82%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 82%
 
 +++
 
-## メール - トラッキング統計 {#email-tracking}
+## トラッキング統計 {#email-tracking}
 
 ![](assets/cja-journey-email-track-stat.png)
 
