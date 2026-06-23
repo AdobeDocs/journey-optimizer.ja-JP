@@ -6,15 +6,11 @@ description: プロファイルトークンの問題、キャンペーン設定�
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
-source-wordcount: 4641
+source-wordcount: 5964
 ht-degree: 1%
 
 ---
@@ -36,22 +32,81 @@ Adobe Journey Optimizerのライブアクティビティにより、iOSのロッ
 
 ライブアクティビティに関する頻繁な課題は、ライブアクティビティをトリガーまたは更新するAPI呼び出しが&#x200B;**成功したレスポンス（200 OK）**&#x200B;を返すが、ライブアクティビティがユーザーのデバイスに表示または更新されない場合です。 API確認と実際のデバイス動作の間のこの断絶は、配信パイプラインの複数のポイントで発生する可能性があります。 このガイドでは、API リクエストの検証からデバイスのレンダリングに至るまで、各ステージを調べて、配信が失敗している場所を特定するための体系的なトラブルシューティングのアプローチを提供します。
 
+## 主要な課題
+
+| 症状 | ユースケース | に移動 |
+|---------|----------|-------|
+| APIが200 OKを返しますが、ライブアクティビティはデバイスに表示されません | 両方 | [ シナリオ 1: プロファイルまたはプッシュトークンの問題](#scenario-1-profile-or-push-token-issues) |
+| ライブアクティビティが表示されますが、更新または終了しません | 単一（1:1） | [ シナリオ 4：更新トークンが同期されていません](#scenario-4-live-activity-update-token-not-synced) |
+| キャンペーンとトークンは正しく表示されますが、配信は失敗します | 両方 | [ シナリオ 3：配信エラーとエラー分析](#scenario-3-delivery-failures-and-error-analysis) |
+| ペイロード設定またはAPI構造が不明確 | 両方 | [ シナリオ 2: キャンペーン設定とペイロードの問題](#scenario-2-campaign-configuration-and-payload-issues) |
+| ブロードキャストを受信しない特定のオーディエンスメンバー | 放送 | [ シナリオ 7: プロファイルがオーディエンスにないか、古いスナップショットです](#scenario-7-profile-not-in-audience-or-stale-audience-snapshot) |
+| 実行ステータスをプログラムで確認する必要がある | 単一（1:1） | [ シナリオ 5: API](#scenario-5-checking-execution-status-via-the-api)を介した実行ステータスの確認 |
+| Assuranceへのアクセス権なし。実稼動レベルのデバッグが必要 | 両方 | [詳細：データセット クエリを使用したデバッグ ](#advanced-debugging-via-dataset-queries) |
+
+## 2つのユースケースについて
+
+デバッグの前に、キャンペーンに適用されるユースケースを確認します。 根本原因とデバッグパスは大きく異なります。
+
+| | 単一（1:1） | 放送 |
+|---|---|---|
+| **AJO キャンペーンの種類** | API トリガーのトランザクション | API トリガーマーケティング |
+| **ターゲティング** | `recipients[].userId`経由の個人プロファイル | `audience.id`経由のオーディエンスセグメント |
+| **開始するトークン** | プッシュから開始までのトークン（プロファイルごと） | `input-push-channel` （ブロードキャストインスタンスごと） |
+| 更新/終了する&#x200B;**トークン** | トークンを更新（ライブアクティビティインスタンスごとに） | 開始と同じ`input-push-channel` |
+| **オーディエンスの鮮度リスク** | 該当なし | 最大24時間古い（バッチ評価） |
+
+## 用語集
+
+| 用語 | 定義 |
+|------|------------|
+| **プッシュから開始トークン** | IOS 17以降で生成されたAPNs トークンで、アプリを開かずにAJOがデバイス上でライブアクティビティをリモートで開始できるようにします。 モバイル SDKで登録され、AEP プロファイルに保存されます。 |
+| **トークンを更新** | ライブアクティビティがデバイスで開始されたときに生成されるインスタンスごとのAPNs トークン。 単一の`update`および`end` イベントに必要です。 各ライブアクティビティインスタンスには、それぞれ固有の更新トークンがあります。 |
+| **input-push-channel** | ブロードキャストライブアクティビティ用にApple Developer Portalで作成された一意のチャネル ID。 ブロードキャスト更新トークンとして機能し、このチャネルに登録されているすべてのデバイスは、同じライブアクティビティイベントを受け取ります。 |
+| **liveActivityData** | Adobe SDKの`LiveActivityAttributes` プロトコルに必要なプロパティです。 単一の場合は、ブロードキャストの場合は`liveActivityID`；が含まれ、`channelID`が含まれます。 開始イベントペイロードの`attributes` フィールドに含める必要があります。 |
+| **ブロードキャストチャネル ID** | 値`input-push-channel`。 ブロードキャストペイロードの`liveActivityData.channelID`と完全に一致する必要があります。 |
+| **attributeType / attributes-type** | Swift `ActivityAttributes`構造体の名前。 AEP プロファイル属性に`attributeType` （camelCase）として保存され、APS JSON ペイロードに`attributes-type` （ハイフネーション）として送信されます。 これらは、異なる表示域で同じ値です。 |
+| **liveActivityPushNotificationDetails** | デバイスのプッシュ対スタートトークン、`appId`、`platform`、および`attributeType`を格納するAEP プロファイル属性。 リモートスタートが機能するには、存在し、有効である必要があります。 |
+| **APS ペイロード** | `context.requestPayload.aps`の下のAPI リクエスト内で送信されたJSON構造。 ライブアクティビティイベント、`content-state`、`attributes`、およびコントロールフィールドが含まれます。 |
+| **Assurance** | Adobe Experience Platform Assurance：接続されたテストデバイス向けのリアルタイムデバッグツール 実稼動エンドユーザーデバイスでは使用できません。 |
+
 ## 前提条件
 
 トラブルシューティングを行う前に、次の項目を確認してください。
 
-+++ Assurance セッションの設定
++++ ライブアクティビティ用Assurance プラグイン
 
-**Assurance セッション**&#x200B;を設定して、SDK イベントをキャプチャし、配信パイプラインを調べます。 Assuranceでは、次の項目を可視化できます。
+Adobe Experience Platform Assuranceのライブアクティビティビューでは、アプリの設定を検証し、アクティビティイベントを調べ、テストセッションからリモートでアクティビティを開始、更新、終了できます。
 
-* Edge Networkのリクエストと応答
-* プロファイル選定イベント
-* プッシュトークン登録
-* ライブアクティビティライフサイクルイベント
+>[!IMPORTANT]
+>
+> Assurance セッションは、テストおよびQA デバイス専用です。 エンドユーザーの実稼動デバイスは、Assuranceに接続されていません。 実稼動診断の場合は、このガイドの最後にある「[詳細：データセットクエリを使用したデバッグ ](#advanced-debugging-via-dataset-queries)」セクションを使用してください。
 
-Assuranceの設定方法については、[Adobe Experience Platform Assurance ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance)を参照してください。
+### 要件
 
-**メモ**: iOS Live アクティビティの場合、アプリが物理的なiOS デバイス（iOS 16.1以降）またはXcode Simulator （iOS 16.1以降）で動作していることを確認します。
+| 要件 | 詳細 |
+|---|---|
+| iOS デバイス | IOS 16.1以降を実行している物理デバイス |
+| Xcode Simulator | iOS 16.1以降&#x200B;**ローカル開始のみ**、APN経由のリモート プッシュはSimulatorではサポートされていません |
+| Assuranceからのリモートスタート | iOS 17.1以降、有効なプッシュから開始までのトークン、有効なチャネル設定 |
+| Mobile SDK | Adobe Experience Platform Mobile SDK 5.11.0以降 |
+| Session | アクティブなAssuranceセッション |
+
+### 3つのタブ
+
+| タブ | What it shows |
+|-----|---------------|
+| **クライアント情報** | デバイス、プロファイル、App Storeの資格情報。 緑のチェック =正しく設定されている；インラインアラート =提案された修正を伴う問題。 以下の各シナリオのプリチェックに直接マッピングします。 |
+| **アクティビティ** | 選択したクライアントのライブアクティビティ：タイプ（単一/ブロードキャスト）、ID、ステータス、イベント数。 サブタブ：概要（基本情報+ アップデートを送信ボタン）、アクティビティフロー（検査可能なペイロードを含むライフサイクルタイムライン）、イベントの詳細（イベントごとの完全なペイロード検査）。 |
+| **イベント** | ライブアクティビティの開始、更新、終了イベントを含む、クライアントのすべてのAssurance イベント。 |
+
+### Assuranceから開始、更新、終了
+
+**ライブアクティビティを開始**。 登録されたアクティビティタイプを選択するダイアログを開き、「単一」または「ブロードキャスト」を選択し、ブロードキャストチャネル ID （ブロードキャストのみ）を入力し、事前入力されたAPS JSON ペイロードを編集します。 プッシュから開始トークン、iOS バージョン、またはチャネル設定の要件が満たされない場合、ボタンが無効になるか、エラーが返されます。
+
+**更新を送信**。 既存のアクティビティの「概要」タブから、「更新」（新しいコンテンツをプッシュ）または「終了」イベントを送信します。 単一の場合、プラグインはアクティビティの更新トークンを自動的に使用します。 ブロードキャストの場合、同じブロードキャストチャネル IDに登録されているすべてのデバイスをターゲットにします。 ペイロードは有効なJSONで、アクティビティの属性スキーマに一致する必要があります。そうでない場合、リクエストは拒否されます。
+
+セットアップとセッション接続の手順については、[Adobe Experience Platform Assurance ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home.html)を参照してください。
 
 +++
 
@@ -59,10 +114,11 @@ Assuranceの設定方法については、[Adobe Experience Platform Assurance �
 
 Journey OptimizerでAPI Triggered Campaignに移動し、次を取得します。
 
-* キャンペーン名
-* URLまたはキャンペーンプロパティで見つかったキャンペーン ID
+* キャンペーン名とID
 * キャンペーンバージョン（該当する場合）
-* サーフェス設定、ライブアクティビティに使用されるiOS アプリサーフェス
+* キャンペーンの種類：**トランザクション** （単一）または&#x200B;**マーケティング** （ブロードキャスト）
+* サーフェス設定：ライブアクティビティに使用されるiOS アプリサーフェス
+* アクティビティタイプ：キャンペーンで設定された`AttributeType`構造体名
 
 +++
 
@@ -84,7 +140,7 @@ API リクエストから、次を取得します。
 * プロファイル名前空間（例：ECID、電子メール、顧客ID）
 * API呼び出しで使用されるプロファイル ID
 
-Adobe Experience Platformでこのプロファイルを検索できることを確認します。 プロファイルを[検索する方法については、Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)を参照してください。
+Adobe Experience Platformでこのプロファイルを検索できることを確認します。 プロファイルを[検索する方法については、Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)を参照してください。
 
 +++
 
@@ -102,7 +158,7 @@ Adobe Experience Platformでこのプロファイルを検索できることを�
 
 ## 一般的なシナリオ
 
-### プロファイルまたはプッシュトークンの問題 {#profile-issue}
+### シナリオ 1: プロファイルまたはプッシュトークンの問題 {#scenario-1-profile-or-push-token-issues}
 
 [!BADGE 単一とブロードキャストの両方のユースケースに適用]{type=Positive}
 
@@ -191,7 +247,7 @@ Adobe Experience Platformのプロフィールもご覧いただけます。
 
 +++
 
-### キャンペーン設定とペイロードの問題 {#payload-issues}
+### シナリオ 2: キャンペーン設定とペイロードの問題 {#scenario-2-campaign-configuration-and-payload-issues}
 
 [!BADGE 単一とブロードキャストの両方のユースケースに適用]{type=Positive}
 
@@ -202,12 +258,12 @@ Adobe Experience Platformのプロフィールもご覧いただけます。
 * `content-state`と`attributes`はiOS `ActivityAttributes`の実装と一致しません。
 * 古い`timestamp` （更新/終了に重要）。
 
-**ブロードキャストのユースケースに関する注意**: キャンペーンは&#x200B;**API トリガーのマーケティング** （トランザクションではない）である必要があります。 ペイロードは、個別の`profile`ではなく`audience`を使用します。 ブロードキャスト固有のペイロード構造については[このセクション &#x200B;](#broadcast-config)を参照し、完全なAPI仕様については[Adobe Developer ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution)を参照してください。
+**ブロードキャストのユースケースに関する注意**: キャンペーンは&#x200B;**API トリガーのマーケティング** （トランザクションではない）である必要があります。 ペイロードは、個別の`profile`ではなく`audience`を使用します。 ブロードキャスト固有のペイロード構造については[このセクション ](#broadcast-config)を参照し、完全なAPI仕様については[Adobe Developer ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution)を参照してください。
 
 #### 事前確認
 
 * Campaignは&#x200B;**API トリガーのトランザクション** （単一）または&#x200B;**API トリガーのマーケティング** （ブロードキャスト）であり、**高スループット** オプションは&#x200B;**not**&#x200B;有効にする必要があります。ライブアクティビティと互換性がありません。
-* プロファイルが存在し、上記の[&#x200B; シナリオ &#x200B;](#profile-issue)を使用してトークンが正しく同期されていることを確認します。
+* プロファイルが存在し、上記の[ シナリオ ](#scenario-1-profile-or-push-token-issues)を使用してトークンが正しく同期されていることを確認します。
 
 #### デバッグ手順
 
@@ -351,7 +407,7 @@ API ペイロードがiOS アプリの`ActivityAttributes`実装と一致して�
 | 更新/終了に`attributes`を含む | 不要だが、通常は無視される | 開始イベントに`attributes`のみを含める |
 | 更新/終了時の古いタイムスタンプ | デバイスで更新/終了が無視されました | 常に新しいタイムスタンプを生成 |
 
-詳細な例については、[&#x200B; ライブアクティビティページの作成](create-mobile-live.md)を参照してください。
+詳細な例については、[ ライブアクティビティページの作成](create-mobile-live.md)を参照してください。
 
 +++
 
@@ -372,15 +428,15 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
 +++
 
-### 配信エラーとエラー分析
+### シナリオ 3：配信エラーとエラー分析 {#scenario-3-delivery-failures-and-error-analysis}
 
 [!BADGE 単一とブロードキャストの両方のユースケースに適用]{type=Positive}
 
 このシナリオでは、以前のすべてのチェックに合格しました。
 
-* プロファイルは[有効なライブアクティビティプッシュトークン &#x200B;](#profile-issue)で存在します
-* Campaignは適切なペイロードで正しく[設定されています](#payload-issues)
-* [更新トークンが同期されます](#token-not-synced) （更新/終了イベントの場合、単一ユースケースのみ）
+* プロファイルは[有効なライブアクティビティプッシュトークン ](#scenario-1-profile-or-push-token-issues)で存在します
+* Campaignは適切なペイロードで正しく[設定されています](#scenario-2-campaign-configuration-and-payload-issues)
+* [更新トークンが同期されます](#scenario-4-live-activity-update-token-not-synced) （更新/終了イベントの場合、単一ユースケースのみ）
 
 ただし、ライブアクティビティは、期待どおりに表示、更新、終了されません。 この問題は、Adobe配信システムレベルまたはプッシュ通知サービスプロバイダー（APN）で発生する可能性があります。
 
@@ -435,7 +491,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
       | トークンをブロックリストに加える | 無効としてマークされたトークン | トークンの再登録またはブロックリストステータスの確認 |
       | プロファイルは対象外です | プロファイルがキャンペーン条件を満たしていません | キャンペーンオーディエンスのルールの確認 |
 
-詳しくは、[&#x200B; ライブアクティビティキャンペーンレポートページ &#x200B;](../reports/campaign-global-report-cja-activity.md)を参照してください。
+詳しくは、[ ライブアクティビティキャンペーンレポートページ ](../reports/campaign-global-report-cja-activity.md)を参照してください。
 
 +++
 
@@ -533,7 +589,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
 ## 単一に固有のシナリオ
 
-### ライブアクティビティ更新トークンが同期されていません{#token-not-synced}
+### シナリオ 4: ライブアクティビティ更新トークンが同期されない {#scenario-4-live-activity-update-token-not-synced}
 
 ライブアクティビティはデバイスで正常に開始されますが、後続の`update`または`end` API呼び出し（HTTP 200を返します）はライブアクティビティの更新または却下に失敗します。 これは、**ライブアクティビティ更新トークン**&#x200B;がAdobeのシステムに正しく同期されていない場合に発生します。
 
@@ -559,7 +615,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 **プリチェック：**
 
 * **ユーザー権限**: デバイスでライブアクティビティが初めて開始されると、iOSにシステムプロンプト「[ アプリ名]でライブアクティビティの更新を提供しますか？」が表示されます。 更新トークンを生成して同期するには、ユーザー&#x200B;**が「許可」をタップする必要があります**。 ユーザーが「許可しない」をタップした場合、更新トークンは作成されず、更新/終了リクエストは失敗します。 これはアプリごとに1回限りの権限です。
-* **プロファイルとキャンペーンの検証**: プロファイル、トークン、キャンペーン設定が正しいことを確認するために、[&#x200B; シナリオ 1](#profile-issue)と[&#x200B; シナリオ 2](#payload-issues)のチェックを完了します。
+* **プロファイルとキャンペーンの検証**: プロファイル、トークン、キャンペーン設定が正しいことを確認するために、[ シナリオ 1](#scenario-1-profile-or-push-token-issues)と[ シナリオ 2](#scenario-2-campaign-configuration-and-payload-issues)のチェックを完了します。
 
 #### デバッグ手順
 
@@ -621,9 +677,54 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
 +++
 
+### シナリオ 5: APIを介した実行ステータスの確認 {#scenario-5-checking-execution-status-via-the-api}
+
+[!BADGE 単一（1:1）のユースケースにのみ適用]{type=Informative}
+
+単一のLive アクティビティをトリガーした後、**GET Message Execution API**&#x200B;は、実行の現在の状態を返します。 このインターフェイスを使用すると、フィードバックイベントがデータセットに表示されるのを待たずに、実行がキューに入っているか、進行中、完了しているか、失敗しているかを確認できます。
+
+`executionId`は、トリガー応答で返されたメッセージ IDです。 単一の実行の場合は、先頭に`HUOC-`が付きます。
+
+#### エンドポイントとリクエスト例
+
+**エンドポイント**: `GET https://cjm.adobe.io/imp/message/executions/{executionId}`
+
+```bash
+curl --location 'https://cjm.adobe.io/imp/message/executions/HUOC-123456' \
+  --header 'x-gw-ims-org-id: <IMS_ORG_ID>' \
+  --header 'Authorization: Bearer <ACCESS_TOKEN>' \
+  --header 'x-sandbox-name: <SANDBOX_NAME>' \
+  --header 'x-sandbox-id: <SANDBOX_UUID>' \
+  --header 'x-api-key: <API_KEY>'
+```
+
+#### HTTP応答コード
+
+| コード | 意味 |
+|------|---------|
+| 200 OK | 実行が見つかり、正常に返されました |
+| 401未認証 | ベアラートークンが見つからないか無効です |
+| 403禁止 | 有効なトークンだが権限が不十分 |
+| 404が見つかりません | 実行IDが存在しません |
+
+#### 実行ステータス値
+
+200件の応答の`status` フィールドは、実行の進行状況を示します。
+
+| ステータス | 説明 |
+|--------|-------------|
+| `PENDING` | 実行はキューに入れられていますが、まだ開始されていません |
+| `INPROGRESS` | 実行は処理中です |
+| `COMPLETED` | 実行が正常に完了しました |
+| `FAILED` | 実行でエラーが発生しました |
+
+200件の応答では、`executionType` （`unitary`または`batch`）、`executionRunMode` （`default`または`test`）、メタデータ （`campaignId`、`journeyId`、`batchInstanceId`、アセット情報）を含む`source` ブロックも返されます。このブロックは、実行をトリガーキャンペーンまたはジャーニーに関連付けます。
+
 ## 放送固有のシナリオ
 
-### ブロードキャストキャンペーンの設定とペイロードの問題{#broadcast-config}
+### シナリオ 6：ブロードキャストキャンペーンの設定とペイロードの問題{#broadcast-config}
+
+[!BADGE  ブロードキャストのユースケースにのみ適用]{type=Informative}
 
 この節では、ブロードキャストライブアクティビティに固有のトラブルシューティングのシナリオについて説明します。これらのシナリオでは、単一キャンペーンとは異なるデバッグアプローチが必要です。
 
@@ -641,7 +742,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 * **キャンペーンタイプ**:
    * キャンペーンがAPI トリガーマーケティングとして作成されていることを確認します（ブロードキャスト/オーディエンスベースのキャンペーンに必要）。
    * キャンペーン設定でオーディエンスが定義されていることを確認します。
-* **プロファイルとトークンの検証**：オーディエンスから複数のプロファイルをサンプルして、有効な`liveActivityPushNotificationDetails`を持っていることを確認します。 詳細な検証手順については、[&#x200B; シナリオ 1](#profile-issue)に従ってください。
+* **プロファイルとトークンの検証**：オーディエンスから複数のプロファイルをサンプルして、有効な`liveActivityPushNotificationDetails`を持っていることを確認します。 詳細な検証手順については、[ シナリオ 1](#scenario-1-profile-or-push-token-issues)に従ってください。
 
 #### デバッグ手順
 
@@ -726,7 +827,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 * `dismissal-date`：自動却下のUnixのエポックタイム（`end` イベントにのみ関連）
 * `alert`：通知用に`title`と`body`を含むオブジェクト
 
-完全なAPI仕様については、[Adobe Journey Optimizer Messaging API ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging)を参照してください。
+完全なAPI仕様については、[Adobe Journey Optimizer Messaging API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/messaging)を参照してください。
 
 +++
 
@@ -828,7 +929,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
 +++
 
-### プロファイルがオーディエンスまたは古いオーディエンスのスナップショットにありません
+### シナリオ 7: プロファイルがオーディエンス内にないか、古いオーディエンススナップショットです {#scenario-7-profile-not-in-audience-or-stale-audience-snapshot}
 
 このシナリオでは、キャンペーンとペイロードは正しく設定されますが、特定のプロファイルはライブアクティビティを受信しません。 これは通常、次の場合に発生します。
 
@@ -850,7 +951,7 @@ Adobe Experience Platformでは、プロファイルの更新がオーディエ�
 **プリチェック：**
 
 * **キャンペーンとペイロードの検証**:
-   * [このシナリオ &#x200B;](#broadcast-config)のチェックを完了して、キャンペーンとペイロードが正しいことを確認します。
+   * [このシナリオ ](#broadcast-config)のチェックを完了して、キャンペーンとペイロードが正しいことを確認します。
    * API ペイロードの`audience.id`がキャンペーン設定と一致することを確認します。
 * **プロファイルが存在します**：有効な`liveActivityPushNotificationDetails`のプロファイルがAEPに存在することを確認します。
 
@@ -930,3 +1031,101 @@ Adobe Experience Platformでは、プロファイルの更新がオーディエ�
       * 代替案：既存のプロファイルにバッチオーディエンスまたはエッジオーディエンスを使用します。
 
 +++
+
+## 詳細設定：データセットのクエリによるデバッグ {#advanced-debugging-via-dataset-queries}
+
+>[!BEGINSHADEBOX]
+
+**Audience**：開発者およびデータエンジニア。 Adobe Experience Platform Query Service経由でJourney Optimizer データセットにSQL アクセスする必要があります。
+
+**使用するタイミング**: Assuranceは、アクティブなセッション中に接続されたテストデバイスに限定されます。 データセットクエリを使用して、本番環境のエンドユーザーが報告した問題を調査したり、ファクトの後に配信履歴を監査したりできます。 このデータセットは、Assurance プラグインと同じライフサイクルおよび障害情報を公開します。
+
+>[!ENDSHADEBOX]
+
+### データセットの検索
+
+1. Journey Optimizerで、**Data Management** `>` **Datasets**&#x200B;に移動します。
+
+1. 「**システムデータセットを表示**」トグルを有効にし、**AJO メッセージフィードバックイベントデータセット**&#x200B;を開きます。
+
+詳細ページに表示されているテーブル名を正確に記録します。 以下のクエリでは、`ajo_message_feedback_event_dataset`を使用しています。異なる場合は、実際のテーブル名に置き換えてください。
+
+### ライブアクティビティ IDによるクエリ
+
+これは、ライブアクティビティ ID （注文UUIDや出荷追跡IDなど）がわかっていて、すべてのフィードバックイベントをライフサイクル全体で関連付ける場合に使用します。
+
+```sql
+SELECT
+  timestamp,
+  identitymap,
+  _experience.customerJourneyManagement
+    .messageDeliveryfeedback.feedbackStatus AS status,
+  _experience.customerJourneyManagement
+    .messageDeliveryfeedback.messageFailure.reason AS failure_reason,
+  _experience.customerJourneyManagement
+    .pushChannelContext.liveActivity.event AS la_event,
+  _experience.customerJourneyManagement
+    .messageExecution.campaignID AS campaign_id,
+  _experience.customerJourneyManagement
+    .messageExecution.batchInstanceID AS batch_id,
+  _id
+FROM ajo_message_feedback_event_dataset
+WHERE
+  _experience.customerJourneyManagement
+    .pushChannelContext.liveActivity.liveActivityID
+    = '<YOUR_LIVE_ACTIVITY_ID>'
+  AND eventtype = 'message.feedback'
+ORDER BY timestamp ASC
+```
+
+### ECIDによるクエリ
+
+影響を受けるプロファイルのECIDがわかっている場合に使用します。 `<YOUR_ECID>`をプロファイルから取得したECID値に置き換えます。
+
+```sql
+SELECT
+  timestamp,
+  _experience.customerJourneyManagement
+    .messageDeliveryfeedback.feedbackStatus AS status,
+  _experience.customerJourneyManagement
+    .messageDeliveryfeedback.messageFailure.reason AS failure_reason,
+  _experience.customerJourneyManagement
+    .pushChannelContext.liveActivity.event AS la_event,
+  _experience.customerJourneyManagement
+    .pushChannelContext.liveActivity.liveActivityID AS la_id,
+  _experience.customerJourneyManagement
+    .messageExecution.campaignID AS campaign_id,
+  _id
+FROM ajo_message_feedback_event_dataset
+WHERE
+  identityMap['ECID'][0].id = '<YOUR_ECID>'
+  AND eventtype = 'message.feedback'
+ORDER BY timestamp ASC
+```
+
+>[!NOTE]
+>
+> `identityMap`は構造化MAP タイプであり、文字列ではありません。 上記の配列と構造体アクセサーの構文を使用します。 `LIKE`などの文字列関数は、`DATATYPE_MISMATCH` エラーを返します。
+>
+></br>
+&gt; メッセージフィードバックイベントデータセットは、「identityMap」にECIDのみを格納します。 影響を受けるプロファイルがECIDではなくカスタム名前空間で識別される場合は、最初にECIDを解決します。AEPで**Profiles**に移動し、カスタム名前空間とID値を使用してプロファイルを検索し、プロファイルのIDの詳細からECIDを取得します。 上記のクエリでそのECID値を使用します。
+
+### feedbackStatus値
+
+| 値 | 意味 |
+|-------|---------|
+| `sent` | APNに引き渡し – デバイスレンダリングを確認しません（以下のメモを参照）。 |
+| `error` | 配信エラー – `failure_reason`で詳細を確認してください |
+| `exclude` | 送信前にプロファイルを除外（トークンが欠落している、同意の問題またはタイポロジルール） |
+| `delay` | 配信の遅延。再試行されます |
+
+>[!NOTE]
+>
+> `la_event` フィールドの場合、最初の配信イベントのデータセット レコードは`start`ではなく`remotestart`です。 イベントタイプでクエリを実行する際に、それに応じてフィルタリングします。
+
+### 送信済みステータスの解釈
+
+`sent`件中`feedbackStatus`件は、Journey OptimizerがAPNに通知を正常に渡したことを確認します。 ライブ アクティビティがデバイス上でレンダリングされたことを&#x200B;**not**&#x200B;が確認します。
+
+iOSでは、通知がAPNを離れた後もコールバックは提供されません。 デバイス側のエラー（OS制限、APNとデバイス間のネットワークドロップ、8時間のライブアクティビティ期間制限に達しているなど）は、データセットから観察できません。 `feedbackStatus`が`sent`であるが、デバイスにライブアクティビティが表示されない場合、問題はJourney Optimizer パイプラインの外にあります。 Assurance プラグインまたはアプリレベルのログを使用して、デバイスサイドの動作を診断します。
+
