@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - 行の`+++`のみがアコーディオンを閉じます
 - 開始`+++`の前と終了`+++`の後の空白行
 
----
+&#x200B;---
 
 ## ワークフロー
 
@@ -58,7 +58,7 @@ Content here — any standard markdown is valid.
 - 変更されたファイル：✓
 - スキップされたファイル +理由（既にアコーディオン/空/インデックスページがあります）
 
----
+&#x200B;---
 
 ## コンテンツ生成ルール
 
@@ -163,7 +163,7 @@ For complete understanding, this information should be combined with the documen
 +++
 ```
 
----
+&#x200B;---
 
 ## メモ
 

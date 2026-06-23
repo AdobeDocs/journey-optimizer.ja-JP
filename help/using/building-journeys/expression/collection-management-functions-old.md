@@ -233,7 +233,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **関数「at(`<index>`)」**
 
-**[!UICONTROL at]**関数を使用すると、インデックスに従ってコレクション内の特定の要素を参照できます。
+**[!UICONTROL at]**&#x200B;関数を使用すると、インデックスに従ってコレクション内の特定の要素を参照できます。
 インデックス 0は、コレクションの最初のインデックスです。
 
 _`<listExpression>`.at(`<index>`)_

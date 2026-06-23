@@ -11,12 +11,28 @@ keywords: ジャーニー, アクティビティ, 開始, イベント, アク�
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8M5qgoXuziyVXMHPOwiM3xztCSNmglc2fBu-BaXn9mc
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 1263
@@ -38,7 +54,7 @@ ht-degree: 41%
 
 パーソナライズされたジャーニーは、オンライン購入などのイベントから始まります。 プロファイルがジャーニーにエントリすると、プロファイル自体がジャーニー内を移動します。 各プロファイルは、異なるパスとペースを取ることができます。 イベントで開始すると、イベントが発生したときにジャーニーがトリガーします。 各プロファイルは、ジャーニーで定義されたステップに従います。
 
-テクニカルユーザーが設定したイベント（[このページ ](../event/about-events.md)を参照）は、パレットの最初のカテゴリに表示されます。 このカテゴリは、画面の左側にあります。 次のイベントアクティビティを使用できます。
+テクニカルユーザーが設定したイベント（[このページ &#x200B;](../event/about-events.md)を参照）は、パレットの最初のカテゴリに表示されます。 このカテゴリは、画面の左側にあります。 次のイベントアクティビティを使用できます。
 
 * [一般イベント](../building-journeys/general-events.md)
 * [反応](../building-journeys/reaction-events.md)
@@ -71,7 +87,7 @@ ht-degree: 41%
 
 画面の左側にある&#x200B;**[!UICONTROL イベント]**&#x200B;および&#x200B;**[!UICONTROL オーケストレーション]**&#x200B;の下のパレットから、**[!UICONTROL アクション]** カテゴリを見つけることができます。 次のアクションアクティビティを使用できます。
 
-* [組み込みのチャネルアクション ](../building-journeys/journey-action.md)が&#x200B;**アクション** アクティビティから利用可能です
+* [組み込みのチャネルアクション &#x200B;](../building-journeys/journey-action.md)が&#x200B;**アクション** アクティビティから利用可能です
 * [カスタムアクション](../building-journeys/using-custom-actions.md)
 * [ジャンプ](../building-journeys/jump.md)
 
@@ -125,7 +141,7 @@ ht-degree: 41%
 
 ### 代替パスの追加
 
-アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。 続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。 [このセクション ](../building-journeys/using-the-journey-designer.md#paths)を参照
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。 続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。 [このセクション &#x200B;](../building-journeys/using-the-journey-designer.md#paths)を参照
 
 ![条件アクティビティプロパティの「代替パスを追加」オプション](assets/journey42.png)
 
@@ -135,7 +151,7 @@ ht-degree: 41%
 
 アクティビティとジャーニーでのエラーのトラブルシューティング方法について詳しくは、[このページ](troubleshooting.md)を参照してください。
 
-[監視とトラブルシューティング ](../../rp_landing_pages/troubleshoot-journey-landing-page.md)も参照してください
+[監視とトラブルシューティング &#x200B;](../../rp_landing_pages/troubleshoot-journey-landing-page.md)も参照してください
 
 +++ AI ナレッジリファレンス
 

@@ -10,9 +10,12 @@ keywords: 式, 構文, 演算子, エディター, ジャーニー
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sK2GNHkkiJ4M5V99Uucc-b68iESNW7kCNBjHVNT-dMs
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
@@ -500,7 +503,7 @@ _duration_ PT2H を返します
 
 理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
 
-* **TL;DR:**&#x200B;このページは、ジャーニーの高度な式エディターで使用できる演算子の完全なリファレンスです。論理（`and`, `or`, `not`）、比較（`==`, `!=`, `>`, `>=`, `<`, `<=`, `is null`, `is not null`, `has null`）、算術（`+`, `-`, `*`）、数式のチェック （`is numeric`, `is integer`） `is decimal`）、文字列連結、日付算術演算子。`/``%`
+* **TL;DR:**&#x200B;このページは、ジャーニーの高度な式エディターで使用できる演算子の完全なリファレンスです。論理（`and`, `or`, `not`）、比較（`==`, `!=`, `>`, `>=`, `<`, `<=`, `is null`, `is not null`, `has null`）、算術（`+`, `-`, `*`）、数式のチェック （`is numeric`, `is integer`） `is decimal`）、文字列連結、日付算術演算子。`/`&#x200B;`%`
 
 **インテント：**
 
