@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - 行の`+++`のみがアコーディオンを閉じます
 - 開始`+++`の前と終了`+++`の後の空白行
 
----
+&#x200B;---
 
 ## ワークフロー
 
@@ -66,7 +66,7 @@ Content here — any standard markdown is valid.
 - スキップされたファイル +理由（既にアコーディオン/空/インデックスページがあります）
 - 手順2中に発生した検証警告
 
----
+&#x200B;---
 
 ## コンテンツ生成ルール
 
@@ -176,7 +176,7 @@ For complete understanding, this information should be combined with the documen
 - ページでサポートされていないコンテンツを&#x200B;**not**&#x200B;で作成してください
 - **not**&#x200B;は、ページ本文で多語的に表示されない限り、次の不正確な用語を使用しないでください。「合成」、「偽データ」、「実在データなし」、「元に戻す」、「ロールバック」（製品状態の遷移を記述する場合）
 
----
+&#x200B;---
 
 ## 生成後の検証チェックリスト
 
@@ -198,7 +198,7 @@ For complete understanding, this information should be combined with the documen
 
 チェックが失敗した場合は、アコーディオンを修正してから追加します。 手順4のレポートに修正を記録します。
 
----
+&#x200B;---
 
 ## 同期の責任
 
@@ -210,7 +210,7 @@ For complete understanding, this information should be combined with the documen
 
 アコーディオン （`<!-- ai-accordion-version -->`）の後に追加された同期コメントはシグナルです。そのハッシュが書き込まれてからアコーディオンの前のファイルコンテンツが変更された場合、アコーディオンはレビューの候補となります。
 
----
+&#x200B;---
 
 ## 完全テンプレート
 
@@ -244,7 +244,7 @@ For complete understanding, this information should be combined with the documen
 <!-- ai-accordion-version: 1 | source-hash: [hash] -->
 ```
 
----
+&#x200B;---
 
 ## メモ
 
