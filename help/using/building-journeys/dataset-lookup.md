@@ -11,25 +11,16 @@ version: Journey Orchestration
 badge: label="限定提供" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 TQID: https://experienceleague.adobe.com/4sQ3A15j47fQ6hI1G9oS6T6ne9nbxIaeqc-95zSUIq4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7de972734810ec5ec69ec395af4355d0304bc3f3
 workflow-type: tm+mt
-source-wordcount: 1500
-ht-degree: 48%
+source-wordcount: 1514
+ht-degree: 47%
 
 ---
 
@@ -64,7 +55,7 @@ ht-degree: 48%
 
 ### データセットのイネーブルメント
 
-[!DNL Adobe Experience Platform]で検索するには、データセットを有効にする必要があります。 詳細については、この節「[使用 [!DNL Adobe Experience Platform]  データ &#x200B;](../data/lookup-aep-data.md)」を参照してください。
+[!DNL Adobe Experience Platform]で検索するには、データセットを有効にする必要があります。 詳細については、この節「[使用 [!DNL Adobe Experience Platform]  データ ](../data/lookup-aep-data.md)」を参照してください。
 
 ### 制限および制約事項
 
@@ -88,7 +79,7 @@ ht-degree: 48%
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリを展開し、**[!UICONTROL データセット参照]**&#x200B;アクティビティをキャンバスにドロップします。
 
-   ジャーニー![&#128279;](assets/aep-data-activity.png)の[!DNL Adobe Experience Platform] データセット検索アクティビティ
+   ジャーニー](assets/aep-data-activity.png)の![[!DNL Adobe Experience Platform] データセット検索アクティビティ
 
 1. ラベルと説明を追加します。
 
@@ -264,7 +255,7 @@ ht-degree: 48%
 * 文字列または文字列のリストのみがルックアップキーとしてサポートされます。
 * ルックアップキーは詳細モードで定義する必要があります。シンプルなモードを使用すると、アクティビティ出力はコンテキスト属性としてダウンストリームで使用できなくなります。
 * 強化されたデータは一時的なもので、ジャーニーランタイムおよびアウトバウンドアクティビティのパーソナライゼーションでのみ使用できます。
-* パフォーマンスを向上させるには、ジャーニーごとに最大5つのルックアップアクティビティを使用し、ルックアップごとに最大20個の属性を使用することをお勧めします。
+* 最高のパフォーマンスを得るには、ジャーニーごとに5つのルックアップアクティビティに制限してください（推奨）。システムによって適用されるハード制限は、ジャーニーごとに10のアクティビティです。 ルックアップごとに最大20個の属性を使用することも推奨されます。
 
 **用語：**
 
