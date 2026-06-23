@@ -34,7 +34,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
 workflow-type: tm+mt
 source-wordcount: 2207
 ht-degree: 72%
@@ -100,7 +100,7 @@ ht-degree: 72%
 
 <!--
  waiting for DOCAC-13912 
-➡️ **[Journey types and selection guide](journey-types-selection.md)** - Detailed comparison, decision tree, and feature compatibility matrix 
+➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
 -->
 
 ## ジャーニーデザイナーを使用した作成 {#journey-designer}
