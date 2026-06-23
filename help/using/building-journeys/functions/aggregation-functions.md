@@ -10,10 +10,10 @@ version: Journey Orchestration
 exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 100%
+source-wordcount: 1105
+ht-degree: 65%
 
 ---
 
@@ -508,5 +508,45 @@ null 値を含め、異なる値の数をカウントします。
 `sum([10.5,null,8.1])`
 
 18.6 を返します。
+
++++
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、AJO ジャーニー式で使用できるすべての集計関数について説明します。リストと配列の平均値、合計、最小値/最大値、カウント、および異なるカウントを計算する方法について説明します。
+
+**インテント：**
+* `avg`を使用して数値のリストの平均を計算します
+* リスト内または`sum`を使用したイベントフィールドからの数値の合計
+* `min`または`max`を使用して、リスト内の最小値または最大値を検索します
+* `count`、`countOnlyNull`または`countWithNull`を使用して、null以外、nullのみ、またはリスト内のすべての要素をカウントします
+* `distinctCount`または`distinctCountWithNull`を使用して、ヌルの有無にかかわらず、リスト内の個別の値をカウントします
+* キーパラメーターで`distinctCount`を使用して、listObject内の一意のオブジェクトを特定のキー属性でフィルタリングします
+
+**用語集：**
+* **listObject**：複雑なオブジェクト （フィールド参照）のリスト。null オブジェクト *（製品固有）*&#x200B;を含めることはできません
+* **listAny**：サポートされているスカラー型（文字列、ブール値、整数、10進数、デュレーション、dateTime、dateTimeOnly、dateOnly） *（製品固有）*
+* **Null値**: リスト内の要素が存在しないか、定義されていない要素。ほとんどの集計関数は、関数が明示的に処理しない限り、Nullを無視します（例：`countOnlyNull`、`countWithNull`、`distinctCountWithNull`）。
+
+**ガードレール：**
+* `countOnlyNull`、`countWithNull`および`distinctCountWithNull`は、`<listObject>` パラメーター型をサポートしていません
+* `listObject`の`distinctCount`では、リストをインラインリテラルではなくフィールド参照にする必要があります
+* `listObject`の`count`では、リストをフィールド参照にする必要があります。listObjectにnull オブジェクトを含めることはできません
+
+**用語：**
+* 正規名：集計関数 – Acronym: none — バリアント：集計関数、コレクション関数
+* 同義語：&quot;count&quot; = &quot;count non-null要素をカウント&quot;; &quot;countWithNull&quot; = &quot;count all elements including nulls&quot;
+* 混同しないでください：&quot;distinctCount&quot; （nullを無視） ≠ &quot;distinctCountWithNull&quot; （nullを一意の値として含む）
+
+**FAQ:**
+* **Q: `avg`の計算にnull値が含まれていますか？**  – いいえ、`avg`はnull値を自動的に無視します。
+* **Q: `count`と`countWithNull`の違いは何ですか？** — `count`は合計からnull値を除外し、`countWithNull`はnullを含むすべての要素をカウントします。
+* **Q: listObjectで`countOnlyNull`を使用できますか？**  – いいえ、`<listObject>`は`countOnlyNull`、`countWithNull`、または`distinctCountWithNull`ではサポートされていません。
+* **Q：特定の属性に基づいて配列内の個別のオブジェクトをカウントするにはどうすればよいですか？** — キー属性名を2番目のパラメーターとして指定する`distinctCount(@event{...}, "attributeName")`を使用します。
+* **Q: リストにnullが含まれている場合、`max`は何を返しますか？** — `max`はnull値を無視し、null以外の要素の最大値を返します。
 
 +++

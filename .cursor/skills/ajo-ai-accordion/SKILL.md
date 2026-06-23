@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: 各マークダウンファイルの最後にAI アシスタントのアコーディオンセクションを追加して、Adobe Journey Optimizer ドキュメントページを強化します。 各ページを読み取り、ページのトピックにもとづいてAI アシスタントの関連コンテンツを自動生成し、折りたたみ可能なアコーディオンとして挿入します。 AJO ドキュメントにAI情報を追加する場合、AI コンテンツを使用してAJOのマークダウンページを充実させる場合、またはAI アコーディオンセクションを使用してマークダウンファイルのファイルまたはフォルダーを処理する場合に使用します。
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Content here — any standard markdown is valid.
 - 行の`+++`のみがアコーディオンを閉じます
 - 開始`+++`の前と終了`+++`の後の空白行
 
-&#x200B;---
+---
 
 ## ワークフロー
 
@@ -79,19 +79,19 @@ Content here — any standard markdown is valid.
 - 変更されたファイルを一覧表示✓
 - スキップされたファイルと理由のリスト（既にアコーディオン、空のファイル、関連性がないなど）
 
-&#x200B;---
+---
 
 ## コンテンツ生成ルール
 
 マークダウンページを分析して、アコーディオンコンテンツを生成します。 次のセクション **を順番**&#x200B;に作成し、マークダウン箇条書きとして書式設定します。 ページから意味のあるコンテンツを抽出できないセクションはスキップします。
 
-&#x200B;---
+---
 
 ### アコーディオンタイトル
 
 使用：`+++AI Assistant — Page context`
 
-&#x200B;---
+---
 
 ### 生成するセクション （順序）
 
@@ -103,7 +103,7 @@ Content here — any standard markdown is valid.
 - **TL;DR:** [one sentence summary]
 ```
 
-&#x200B;---
+---
 
 **2. インテント**
 
@@ -115,7 +115,7 @@ Content here — any standard markdown is valid.
 - [action the user can perform]
 ```
 
-&#x200B;---
+---
 
 **3. 用語集**
 
@@ -129,7 +129,7 @@ Content here — any standard markdown is valid.
 
 このページのトピックに関連する用語のみを含めます。 一般的なマーケティング用語は使用しないでください。
 
-&#x200B;---
+---
 
 **4. ガードレール**
 
@@ -141,7 +141,7 @@ Content here — any standard markdown is valid.
 - [guardrail or prerequisite]
 ```
 
-&#x200B;---
+---
 
 **5. 用語**
 
@@ -157,7 +157,7 @@ Content here — any standard markdown is valid.
 
 ページに存在するか暗黙的なエントリのみを含めます。
 
-&#x200B;---
+---
 
 **6. FAQ**
 
@@ -169,7 +169,7 @@ Content here — any standard markdown is valid.
 - **Q: [question]** — [short answer]
 ```
 
-&#x200B;---
+---
 
 ### 含めないもの
 
@@ -177,12 +177,16 @@ Content here — any standard markdown is valid.
 - **not**&#x200B;には、手順ごとの指示を含めます（これらはページ内にあります）。
 - ページでサポートされていないコンテンツを&#x200B;**not**&#x200B;で作成してください。
 
-&#x200B;---
+---
 
 ### フルアコーディオンテンプレート
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 
@@ -205,7 +209,7 @@ Content here — any standard markdown is valid.
 +++
 ```
 
-&#x200B;---
+---
 
 ## メモ
 

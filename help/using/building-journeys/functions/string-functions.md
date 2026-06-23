@@ -9,19 +9,15 @@ keywords: 文字列, 関数, 式, ジャーニー, テキスト, 操作
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
 TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1140
-ht-degree: 100%
+source-wordcount: 1668
+ht-degree: 68%
 
 ---
 
@@ -670,7 +666,7 @@ true を返します。
 
 `split("A_B_C", "_")`
 
-`["A","B","C"]` を返します
+`["A","B","C"]` を返します。
 
 イベントフィールド「event.appVersion」の値が「20.45.2.3434」の場合の例
 
@@ -885,5 +881,54 @@ true を返します。
 `uuid()`
 
 「79e70b7f-8a85-400b-97a1-9f9826121553」を返します。
+
++++
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、AJO ジャーニー式で使用できるすべての文字列関数について説明します。テキスト検索、比較、変換、抽出、検証、置換、分割、一意のID生成を対象としています。
+
+**インテント：**
+* `concat`を使用して2つ以上の文字列を連結する
+* `contain`または`containIgnoreCase`を使用して、文字列内の部分文字列（大文字と小文字を区別または区別しない）を検索します
+* `equalIgnoreCase`または`notEqualIgnoreCase`を使用して大文字と小文字を無視しながら、2つの文字列を比較します
+* `startWith`、`endWith`およびそれらの大文字と小文字を区別しないバリアントを使用して、文字列が特定の接頭辞または接尾辞で始まるか終了するかを確認します
+* `substr`を使用してインデックス位置で部分文字列を抽出する
+* `replace`または`replaceAll`を使用して、文字列内のパターンの最初またはすべての出現を置換します
+* `split`を使用して、文字列を区切り記号でトークンのリストに分割します
+* `uuid`を使用して、一意のIDが必要な場合にランダム UUIDを生成します
+* `isEmpty`または`isNotEmpty`を使用して、文字列が空か空でないかを確認します
+
+**用語集：**
+* **RegExp**: `replace`、`replaceAll`、`matchRegExp`でターゲットパラメーターとして使用される正規表現パターン – 特殊文字は`\\`でエスケープする必要があります
+* **UUID**: Universal Unique IDentifier — ランダムに生成された文字列識別子が`uuid()`によって返されました
+* **substr**：開始インデックスとオプションの終了インデックス （ゼロ ベース）を指定して、文字列の一部を抽出します
+
+**ガードレール：**
+* `replace`および`replaceAll`の`target` パラメーターはRegExpとして扱われます。特殊文字（`|`、`.`など）は`\\`でエスケープする必要があります
+* `replace`は最初の一致する出現のみを置き換えます。`replaceAll`を使用してすべての出現を置き換えます
+* `isEmpty`はnull値に対してfalseを返します（trueではありません）。nullは空の文字列とは見なされません
+* 一致が見つからなかった場合、`indexOf`と`lastIndexOf`は–1を返します
+* 文字列インデックスの位置は0から始まります（最初の文字は0の位置です）
+
+**用語：**
+* 正規名：文字列関数 – Acronym: none – 変種：テキスト関数、文字列操作関数
+* 同義語：&quot;contain&quot; = &quot;substring check&quot;; &quot;split&quot; = &quot;tokenize string&quot;; &quot;trim&quot; = &quot;strip whitespace&quot;
+* 混乱しないでください：&quot;replace&quot; （最初の出現のみ） ≠ &quot;replaceAll&quot; （すべての出現）
+* 「indexOf」（最初の出現位置）≠「lastIndexOf」（最後の出現位置）は混同しないでください
+* 混同しないでください：&quot;isEmpty&quot; （0長の文字列の場合はtrue） ≠ null チェック （nullの場合はisEmptyがfalseを返します）
+* 混同しないでください：&quot;equalIgnoreCase&quot; （等しい無視ケースの場合はtrueを返します） ≠ &quot;notEqualIgnoreCase&quot; （異なる無視ケースの場合はtrueを返します）
+
+**FAQ:**
+* **Q：大文字と小文字を区別せずに、文字列に部分文字列が含まれているかどうかを確認するにはどうすればよいですか？** — `containIgnoreCase("myString", "searchTerm")`を使用します。検索語が見つかった場合はtrueを返します。
+* **Q: `replace`と`replaceAll`の違いは何ですか？** — `replace`は最初の一致するオカレンスのみを置換し、`replaceAll`は文字列内のすべてのオカレンスを置換します。
+* **Q: `replace`で`|`文字をエスケープする必要があるのはなぜですか？** — ターゲットパラメーターは正規表現として扱われます。`|`は特殊なRegExp文字であり、リテラルパイプとして扱うには`\\|`としてエスケープする必要があります。
+* **Q: `isEmpty`はnullに対してtrueを返しますか？**  – いいえ、`isEmpty`はnullに対してfalseを返します。0長の文字列`""`に対してのみtrueを返します。
+* **Q: 「20.45.2.3434」のようなバージョン文字列からメジャーバージョン番号を抽出するにはどうすればよいですか？** — `getListItem(split(@event{event.appVersion}, "\\."), 0)`を使用してドットで分割し、最初の要素を取得します。
+* **Q: ジャーニー式で一意のIDを生成するにはどうすればよいですか？** — `uuid()`を使用します。これは、パラメーターが不要なランダムに生成されたUUID文字列を返します。
 
 +++

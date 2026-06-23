@@ -9,17 +9,14 @@ keywords: コンバージョン, 関数, 式, ジャーニー, タイプ, キャ
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
 TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1271
-ht-degree: 84%
+source-wordcount: 1723
+ht-degree: 62%
 
 ---
 
@@ -461,5 +458,49 @@ Unix タイムスタンプをミリ秒単位で dateTime 値に変換します�
 `toString(toDuration(1520))`
 
 「PT1.52S」を返します。
+
++++
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、AJO ジャーニー式のすべてのコンバージョン関数について説明します。文字列、整数、小数、ブール値、日付、日時、期間などの型間で値を変換する方法を説明します。
+
+**インテント：**
+* `toDateTime`を使用して、文字列またはエポック整数をタイムゾーンに応じた日時に変換します
+* `toDateTimeOnly`を使用して、文字列または日時をタイムゾーンのない日時に変換します
+* `toDateOnly`を使用して、文字列または日時から日付のみの値（year-month-day）を抽出します
+* `toInteger`、`toDecimal`、または`toBool`を使用して、整数、小数、またはブール値に値をキャストします
+* `toString`を使用して、任意の値を文字列表現にシリアライズします
+* `toDuration`を使用して、文字列またはミリ秒単位の整数をデュレーションに変換します
+
+**用語集：**
+* **dateTime**: タイムゾーンオフセット情報&#x200B;*（製品固有）*&#x200B;を含む日時の値
+* **dateTimeOnly**: タイムゾーン情報のない日時の値&#x200B;*（製品固有）*
+* **dateOnly**：時間コンポーネント *（製品固有）*&#x200B;のない年 – 月 – 日を表す日付値
+* **duration**: ISO-8601形式で表現された期間（例：PT10H） *（製品固有）*
+* **エポックミリ秒**: 1970-01-01T00:00:00Zからのミリ秒単位で表されるUnix タイムスタンプ
+
+**ガードレール：**
+* `toDateTime`のタイムゾーン引数は文字列定数である必要があります。フィールド参照と動的式は使用できません
+* `toDateTime`および`toDateTimeOnly`への文字列入力はISO-8601形式に従う必要があります。形式が正しくない文字列はエラーなしでnullを返します
+* エポック整数を持つ`toDateTime`にはミリ秒が必要です。秒ベースのタイムスタンプに1000を掛けて渡します
+* `toBool`は正確な文字列`"true"`に対してのみ`true`を返します。`"1"`、`"yes"`、`"TRUE"`などの文字列は`false`を返します
+
+**用語：**
+* 正規名：変換関数 – Acronym: none – 変種：型鋳造関数、型変換関数
+* 同義語：&quot;toDateTime&quot; = &quot;convert to datetime with timezone&quot;; &quot;toDateTimeOnly&quot; = &quot;convert to datetime without timezone&quot;
+* 混乱しないでください：&quot;toDateTime&quot; （timezone対応） ≠ &quot;toDateTimeOnly&quot; （タイムゾーンなし）
+* 「toDateOnly」（日付のみ、時刻なし）≠「toDateTime」（日付と時刻とタイムゾーン）は混同しないでください。
+
+**FAQ:**
+* **Q: `toDateTime`と`toDateTimeOnly`の比較はいつから使用すべきですか？** — タイムゾーン情報が重要な場合（スケジューリングや地域の比較など）は`toDateTime`を使用します。ローカルの日時のみが関連し、タイムゾーンを無視できる場合は`toDateTimeOnly`を使用します。
+* **Q: `toBool("TRUE")`がfalseを返すのはなぜですか？** — `toBool`は小文字の文字列`"true"`のみを認識します。`"TRUE"`または`"yes"`を含むその他すべての文字列値はfalseを返します。
+* **Q: Unix タイムスタンプを秒単位でdateTimeに変換する方法を教えてください。** — ミリ秒を取得するには、秒数に1000を掛け、`toDateTime` （例：`toDateTime(myField * 1000)`）に渡します。
+* **Q: `toDateTime`のタイムゾーンをプロファイル属性から読み取ることはできますか？**  – いいえ、タイムゾーン IDは文字列定数である必要があります。フィールド参照と式はサポートされていません。
+* **Q: `toDuration`が文字列として受け入れる形式は何ですか？** — ISO-8601期間の形式（例：`"PT10H"` 10時間、または`"P1DT2H"` 1日と2時間）。
 
 +++

@@ -10,30 +10,16 @@ hide: true
 keywords: ジャーニー, オーケストレーション, はじめに, オンボーディング, 機能
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
 TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1009
-ht-degree: 80%
+source-wordcount: 1602
+ht-degree: 50%
 
 ---
 
@@ -57,7 +43,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ![パレット、キャンバス、プロパティパネルを含むジャーニーデザイナーインターフェイス](assets/journey38.png)
 
-**構築を開始する準備ができましたか？** [このページ &#x200B;](journey-gs.md)で最初のジャーニーを作成およびデザインする方法について説明します。
+**構築を開始する準備ができましたか？** [このページ ](journey-gs.md)で最初のジャーニーを作成およびデザインする方法について説明します。
 
 
 ## 主な機能 {#capabilities}
@@ -65,7 +51,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **リアルタイムおよびバッチ配信**
 
@@ -75,7 +61,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **コンテキストデータ**
 
@@ -85,7 +71,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **ビルトインアクション**
 
@@ -95,7 +81,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **カスタムアクション**
 
@@ -105,7 +91,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **視覚的なジャーニーデザイナー**
 
@@ -115,7 +101,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **再利用可能なジャーニーフラグメント**
 
@@ -125,7 +111,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **テストと最適化**
 
@@ -140,13 +126,13 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ジャーニーデザイナー内から、マーケターはイベントが発生した際に、任意のチャネルを通じてリアルタイムでトリガーされる 1:1 メッセージを送信できます。 例えば、お客様がサービスを購読する際に、[ウェルカムメールがトリガー](message-to-subscribers-uc.md)され、初めてアプリにログインして環境設定を行うように促すことができます。 購入の完了、メールの開封、アプリへのログインなどのアクションを使用して、新規顧客をジャーニーに進めることができます。
 
-[&#x200B; ジャーニーデザイナー](using-the-journey-designer.md)は、電子メール、プッシュ通知、SMS/RCS/MMSなどのアウトバウンドメッセージと、Journey Optimizer内で直接構築されたモバイルアプリ、web サイト、コードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション &#x200B;](journey-action.md)を提供します。 また、サードパーティシステムを使用してメッセージを送信することもできます。Journey Optimizer には、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できるようにする[カスタムアクション](using-custom-actions.md)が含まれています。
+[ ジャーニーデザイナー](using-the-journey-designer.md)は、電子メール、プッシュ通知、SMS/RCS/MMSなどのアウトバウンドメッセージと、Journey Optimizer内で直接構築されたモバイルアプリ、web サイト、コードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション ](journey-action.md)を提供します。 また、サードパーティシステムを使用してメッセージを送信することもできます。Journey Optimizer には、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できるようにする[カスタムアクション](using-custom-actions.md)が含まれています。
 
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **ユースケースを通じて学ぶ**
 
@@ -156,7 +142,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **新規サブスクライバーの歓迎**
 
@@ -166,7 +152,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **メール送信時間の最適化**
 
@@ -176,7 +162,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **配信を増やす**
 
@@ -186,7 +172,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **平日のターゲット**
 
@@ -196,7 +182,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **ジャーニーに関する FAQ**
 
@@ -214,7 +200,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **ジャーニーの作成と管理**
 
@@ -224,7 +210,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **ジャーニーアクティビティ**
 
@@ -234,7 +220,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **式と条件**
 
@@ -244,7 +230,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **トラブルシューティングと監視**
 
@@ -254,7 +240,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **ジャーニーデザイナーの概要**
 
@@ -264,7 +250,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **テストと公開**
 
@@ -279,7 +265,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 
 ジャーニーのコンポーネントを把握し、キャンバスでのジャーニー構築の基本を理解します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### その他のリソース
 
@@ -288,3 +274,45 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 * **[トラブルシューティング](troubleshooting.md)** - ジャーニーに関する一般的な問題と解決策
 * **[ジャーニーのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - 実践的なビデオチュートリアルを通じて、ジャーニーの作成について説明します
 * **[ジャーニーのガードレールと制限](../start/guardrails.md)** - [!DNL Adobe Journey Optimizer] を使用する際にガードレールと制限を確認します
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;これは、Adobe Journey Optimizerのジャーニーオーケストレーションの包括的な基本ガイドです。主な機能（リアルタイム配信とバッチ配信、コンテキストデータ、組み込みのカスタムアクション、ビジュアルデザイナー、ジャーニーフラグメント、テスト）、一般的なユースケース、すべての主要な学習リソースへのリンクを取り上げます。
+
+**インテント：**
+* 最初のジャーニーを構築する前に、Journey Optimizer ジャーニーデザイナーで使用できる主な機能を理解します
+* ジャーニーの作成、管理、テスト、またはトラブルシューティングに適したリソースに移動します
+* ジャーニーデザイナーを使用して、任意のチャネルで1:1件のリアルタイムメッセージをトリガーする方法について説明します
+* ジャーニーフラグメントによって、ジャーニー全体で共通のノードロジックを再利用する方法を説明します
+* ウェルカムシリーズ、カート放棄、送信時間の最適化など、ジャーニーの一般的なユースケースに関するビデオチュートリアルとステップバイステップガイドにアクセスできます
+
+**用語集：**
+* **ジャーニーデザイナー**: Adobe Journey Optimizerのドラッグ&amp;ドロップ操作によるビジュアルキャンバスを使用して、マルチステップのカスタマージャーニー&#x200B;*（製品固有）*&#x200B;を構築および編成しました
+* **ジャーニーフラグメント**：一度作成された再利用可能なジャーニーノードのセット（例：適格性チェック、チャネルルーティングロジック）で、複数のジャーニー&#x200B;*（製品固有）*&#x200B;に挿入されます
+* **単一配信**：特定のイベントが発生したときに、単一のプロファイルに対してトリガーされるリアルタイム メッセージ *（製品固有）*
+* **バッチ配信**: Adobe Experience Platform オーディエンスのすべてのプロファイルに一度またはスケジュール *（製品固有）*&#x200B;に送信されたメッセージ
+* **送信時間最適化（STO）**: エンゲージメントを最大化するために、各プロファイルにメッセージを送信する最適な時間を予測するAIを活用した機能&#x200B;*（製品固有）*
+* **カスタムアクション**: メッセージの送信またはデータの取得のためにAPI経由でサードパーティシステムに接続するジャーニーアクティビティ *（製品固有）*
+
+**ガードレール：**
+* ジャーニーのガードレールと制限事項については、ガードレール ページで個別に説明します。大規模な設計を行う前に、必ず確認してください
+* カスタムアクションをジャーニーで使用するには、テクニカルユーザーが事前に設定する必要があります
+* ジャーニーフラグメントは、ジャーニーに挿入する前にアクティブにする必要があります
+
+**用語：**
+* 正規名：ジャーニー – 頭字語：なし – バリエーション：カスタマージャーニー、オーケストレーションフロー、マルチステップジャーニー
+* 同義語：「ジャーニーデザイナー」 = 「ジャーニーキャンバス」 = 「ジャーニービルダー」
+* 混同しないでください：「組み込みのチャネルアクション」≠「カスタムアクション」 – 組み込みのアクションはネイティブのAJO チャネルを使用します。カスタムアクションは外部サードパーティ APIを呼び出します
+
+**FAQ:**
+* **Q: ジャーニーでのリアルタイム（単一）配信とバッチ配信の違いは何ですか？** — イベントが発生したときに、リアルタイムで1つのプロファイルに対してメッセージをトリガーします。 バッチ配信では、オーディエンスを読み取りアクティビティを使用して、オーディエンス内のすべてのプロファイルを一度に処理するか、スケジュールに従って処理します。
+* **Q：複数のジャーニーで共通のロジック（適格性チェックなど）を再利用できますか？**  – はい。ノードをジャーニーフラグメントとして保存し、サンドボックス全体の任意のジャーニーにアクティブフラグメントを挿入します。
+* **Q：最初のジャーニーを作成するには、どこへ行けばよいですか？** — 「最初のジャーニーを作成」ページのステップバイステップガイドに従います。このページでは、エントリポイントの選択、キャンバスのデザイン、テスト、およびパブリケーションについて説明します。
+* **Q: ジャーニーからサードパーティシステムを介してメッセージを送信するにはどうすればよいですか？** — カスタムアクションを設定して外部APIを呼び出し、それをジャーニーキャンバスのアクションアクティビティとして追加します。
+* **Q：一般的なジャーニーに関する質問に対する回答はどこで見つけることができますか？** — コンセプト、構築、テスト、実行、モニタリング、ベストプラクティスに関するFAQ ページにアクセスして、ジャーニーのFAQを確認してください。
+
++++

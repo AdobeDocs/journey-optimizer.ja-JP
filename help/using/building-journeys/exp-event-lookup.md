@@ -6,22 +6,14 @@ description: ジャーニーのエクスペリエンスイベント参照の使�
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/kVO36LmCfr9cYVq3EHRy8OpqPCZDq20mXTEA49TIRTI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1124
-ht-degree: 77%
+source-wordcount: 1717
+ht-degree: 50%
 
 ---
 
@@ -73,9 +65,9 @@ ht-degree: 77%
 
 詳細情報：
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/conditions.md#using-a-segment)
 
@@ -92,9 +84,9 @@ ht-degree: 77%
 
 オーディエンスの使用の詳細情報：
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/conditions.md#using-a-segment)
 
@@ -114,9 +106,9 @@ ht-degree: 77%
 
 詳細情報：
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/conditions.md#using-a-segment)
 
@@ -126,8 +118,8 @@ ht-degree: 77%
 
 最新の買い物かごに基づいて通信をパーソナライズしたり、複数の買い物かごタイプや製品ビューをまたいでイベントを参照するには：
 
-* [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview){target="_blank"}へのアクセス権がある場合は、イベントから必要なデータを抽出するように自動クエリを設定し、ユースケースに合わせて操作し、[&#x200B; プロファイル対応データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}に書き戻してアクティベーションします。
-* スカラー属性を使用してプロファイルで放棄データをモデル化できる場合は、計算属性を使用して最新情報を取得し、ジャーニーでこれらの属性を参照して通信を構築することを考慮します。 [詳細については、 [!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}を参照してください
+* [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview){target="_blank"}へのアクセス権がある場合は、イベントから必要なデータを抽出するように自動クエリを設定し、ユースケースに合わせて操作し、[ プロファイル対応データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}に書き戻してアクティベーションします。
+* スカラー属性を使用してプロファイルで放棄データをモデル化できる場合は、計算属性を使用して最新情報を取得し、ジャーニーでこれらの属性を参照して通信を構築することを考慮します。 [詳細については、 [!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}を参照してください
 
 
 ## 行動ベースのジャーニー終了
@@ -152,7 +144,7 @@ ht-degree: 77%
 
 このFAQでは、ジャーニー式でのエクスペリエンスイベントの使用率を廃止するためのタイムラインと、影響を受けるユーザーに焦点を当てています。 代替アプローチのガイダンスについては、上記のユースケースとベストプラクティスを参照してください。
 
-さらに詳細が必要ですか？ このページの下部にあるフィードバック オプションを使用して質問を提起するか、[[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながってください。
+さらに詳細が必要ですか？ このページの下部にあるフィードバック オプションを使用して質問を提起するか、[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながってください。
 
 +++影響を受ける特定の機能は何ですか？ 
 
@@ -189,5 +181,52 @@ ht-degree: 77%
 +++ 別のアプローチが私のユースケースに適していない場合はどうすればよいですか？
 
 上記の別のアプローチのいずれかを使用してユースケースを解決できない場合は、アドビ担当者にお問い合わせください。
+
++++
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、ジャーニー式エディターでのダイレクトエクスペリエンスイベント検索の非推奨化に関連して、Adobe Journey Optimizer ジャーニーでエクスペリエンスイベント データを使用するための代替パターンとベストプラクティスについて説明します。
+
+**インテント：**
+
+* エクスペリエンスイベントの式ではなく組み込みの同意管理を使用して、オプトアウトしたプロファイルを抑制する
+* AJOの自動抑制リストを使用して、バウンス済みメールアドレスを除外する
+* イベントベースの基準を持つバッチオーディエンスを使用して、一般的な抑制ロジックを構築します
+* 頻度の上限ルールや時間ベースのオーディエンス条件を適用することで、コミュニケーション過剰を防止します
+* AEP Data Distillerや計算属性を活用して、放棄されたカートをパーソナライズしたり、コミュニケーションを閲覧したりできます
+
+**用語集：**
+
+* **Experience event**: Adobe Experience Platform *（product-specific）*&#x200B;に保存されている、カスタマーアクションまたはビヘイビアーのタイムスタンプ付きの不変レコード
+* **計算属性**: エクスペリエンスイベントデータを時間をかけて集計または要約することから派生したプロファイルレベルの属性。ジャーニー式&#x200B;*（製品固有）*&#x200B;で使用できます
+* **抑制リスト**: AJOの組み込みメールアドレスのリストは、ハードバウンスまたは迷惑メールの苦情により、今後の送信から自動的に除外されます&#x200B;*（製品固有）*
+* **頻度の上限**: プロファイルが定義された時間枠&#x200B;*（製品固有）*&#x200B;内に受信できるメッセージの数を制限するビジネスルール
+* **Data Distiller**: SQL ベースのバッチクエリを有効にして、イベントデータを抽出し、プロファイル対応データセット *（製品固有）*&#x200B;に変換するAEP機能
+
+**ガードレール：**
+
+* 2025年7月8日以降、新規顧客組織はジャーニー式エディターでエクスペリエンスイベント属性を使用して式を作成できません。
+* 2026年4月1日以降、過去90日間にジャーニー式でエクスペリエンスイベント属性を使用していない組織は、この機能にアクセスできなくなります。
+* ジャーニー条件でのダイレクトエクスペリエンスイベントの検索は廃止されつつあります。代わりに、バッチオーディエンス、計算属性、AEP Data Distillerなどが使用されます。
+* 退職の影響を受けない機能には、イベントを使用したジャーニーのトリガー、ジャーニー内のイベントのリッスン、トリガーイベントからのジャーニーコンテキストデータの使用、イベントの設定、反応イベントの検出などがあります。
+
+**用語：**
+
+* 正規名：エクスペリエンスイベント検索 – Acronym: EE ルックアップ – バリアント：エクスペリエンスイベント式、イベント属性検索
+* 同義語：抑制/包含メカニズムとしての「イベントベースのロジックを使用したバッチオーディエンス」 =「イベントベースのセグメント」
+* 混同しないでください：「式エディターでのエクスペリエンスイベント検索」≠「イベントを使用したジャーニーのトリガー」 – イベントを使用したジャーニーのトリガーは廃止されません
+
+**FAQ:**
+
+* **Q: エクスペリエンスイベントを使用してジャーニーをトリガーできますか？**  – はい、単一またはビジネスイベントを使用したジャーニーのトリガーは、この変更の影響を受けません。
+* **Q: ジャーニー条件でのエクスペリエンスイベント検索の推奨される代替手段は何ですか？** — AEP Segment Builderのイベントベースのロジック、計算属性、AEP Data Distillerで構築したバッチオーディエンスを使用して、複雑な変換を実行できます。
+* **Q：現在自分の既存の組織が影響を受けていますか？**  – 新しい組織は2025年7月8日から影響を受けます。 既存の組織は、過去90日間に機能を使用していない場合にのみ、2026年4月1日から影響を受けます。
+* **Q：直接イベント検索なしでカート放棄のパーソナライゼーションを処理するにはどうすればよいですか？** — AEP Data Distillerを使用して、イベントデータを抽出してプロファイル対応データセットに書き込むか、計算属性を使用してプロファイルの最新の放棄状況を取得します。
+* **Q：この非推奨化によって影響を受けない機能は何ですか？** - イベントを使用したジャーニーのトリガー、ジャーニー内のイベントのリッスン、エクスプレッションでのトリガーイベントコンテキストデータの使用、イベントの設定、反応イベント（メール開封など）の検出はすべて影響を受けません。
 
 +++

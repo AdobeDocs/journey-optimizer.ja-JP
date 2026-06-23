@@ -11,24 +11,16 @@ keywords: インバウンドアクション, トラブルシューティング, 
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/weaEAXaVmLAXbha8orPxj69zzbVUNLFiC-dhTrvdMpQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1840
-ht-degree: 93%
+source-wordcount: 2642
+ht-degree: 65%
 
 ---
 
@@ -55,7 +47,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 トラブルシューティングを開始する前に、以下を確認します。
 
-1. **Assurance** セッションを設定します。 詳しくは、[[!DNL Adobe Experience Platform] Assurance ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}を参照してください。
+1. **Assurance** セッションを設定します。 詳しくは、[[!DNL Adobe Experience Platform] Assurance ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}を参照してください。
 
 1. インバウンドアクションを含むジャーニーに移動して、ジャーニー名とバージョン ID を取得します。
 
@@ -150,7 +142,7 @@ Edge Network の動作をデバッグするには、次の手順に従います�
 
    「プロファイル」セクションの **segmentsMap** 要素を開き、**joai** セグメント ID の存在を探すことで、Edge Network 配信サーバーのプロファイルのビューに **joai** セグメントが存在するかどうかを再確認できます。
 
-1. Edge Network 配信サーバーがプロファイルを関連する **joai** セグメント内にあると表示しない場合は、次の手順に進みます。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Edge Network 配信サーバーがプロファイルを関連する **joai** セグメント内にあると表示しない場合は、次の手順に進みます。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### 手順3:「joai」オーディエンスメンバーシップがedge networkに反映されているかどうかを確認する {#step-3}
 
@@ -237,7 +229,55 @@ Edge プロファイルの `segmentMembership` 属性に **joai** セグメン�
 <!--
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、Adobe Journey Optimizer ジャーニーの2つのインバウンドアクションのシナリオ（インバウンドステップを入力したがコンテンツを受信しないプロファイル、ジャーニーを終了した後もコンテンツを受信し続けるプロファイル）について、ステップバイステップのセルフサービスデバッグガイドを提供します。
+
+**インテント：**
+* インバウンドアクションの問題をデバッグする前に、Assurance セッションを前提条件として設定します
+* Assuranceを使用して、デバイスまたはクライアントがEdge Networkからインバウンドコンテンツを受信しているかどうかを確認します
+* Edge Networkの適格アクティビティと非適格アクティビティを確認して、プロファイルがインバウンドジャーニーアクションの対象であるかどうかを判断します
+* Joai オーディエンスセグメントメンバーシップがHub プロファイルからEdge プロファイルに反映されていることを確認します
+* プロファイルがインバウンドアクションに入った後、Hub プロファイルでのジョインセグメント取り込みの遅延を診断します
+* セルフサービスの手順で問題が解決しない場合は、正しい診断情報をAdobe カスタマーサポートにエスカレーションします
+
+**用語集：**
+* **インバウンドアクション**：アプリ内、web、コードベースのエクスペリエンスチャネル *（製品固有）*&#x200B;など、ユーザーのデバイスやブラウザーにパーソナライズされたコンテンツを配信するジャーニーアクティビティ
+* **joai名前空間**：インバウンドジャーニーアクションのプロファイルをアクティブ化するためにプロファイル `segmentMembership`で使用される特別なID名前空間ステップ *（製品固有）*
+* **joai セグメント**：特定のインバウンドジャーニーアクションに対応する、joai名前空間で自動的に作成されたオーディエンスセグメント。コンテンツ *（製品固有）*&#x200B;を受け取るには、プロファイルがこのセグメント内で実現状態である必要があります
+* **ジャーニーインバウンドデータセット**: プロファイルがインバウンドジャーニーアクション *（製品固有）*&#x200B;に入ったときに行われたプロファイル更新を保存するために使用されるAEP データセット
+* **Hub profile**: プロファイル属性とセグメントメンバーシップの信頼できる唯一の情報源として使用される、Adobe Experience Platformの中央プロファイルストア
+* **Edge プロファイル**: Edge Network配信サーバーがコンテンツの適格性をリアルタイムで評価するために使用するHub プロファイルの予測コピー
+* **Assurance**: クライアントサイドのSDK ビヘイビアーとEdge Network レスポンスをリアルタイムでデバッグするためのAdobe Experience Platform ツール
+
+**ガードレール：**
+* インバウンドアクションが正しく機能するには、ジャーニーインバウンドデータセットを現在のサンドボックスでプロファイル取り込みのために有効にする必要があります
+* Joai名前空間は、サンドボックスのPlatform IDで定義する必要があります
+* HubからEdgeへのJoai セグメントメンバーシップの伝達には、最大で15～30分かかります
+* プロファイルがインバウンドアクションに入ってからJoai セグメントメンバーシップをHub プロファイルに取り込むには、最大で15～30分かかる場合があります
+* 30～60分経過してもコンテンツが見つからない場合は、ジャーニーバージョン ID、アクション ID、Assurance トレース、EdgeおよびHub プロファイル JSON ビューを使用して、Adobe カスタマーケアにエスカレーションします
+
+**用語：**
+* 正規名：joai名前空間 – Acronym: joai — バリアント：joai ID, joai セグメント名前空間
+* 正規名：インバウンドアクション – 略語：なし – バリエーション：インバウンドチャネル、インバウンドコンテンツ
+* 同義語：「Hub profile」 = 「central profile」（AEP）、「Edge profile」 = 「projected profile」（Edge Networkで使用）
+* 混同しない：Edge Delivery ビューの「適格アクティビティ」≠「非適格アクティビティ」は、プロファイルが受け取ったコンテンツを意味します。非適格とは、除外の理由が表示された場合に受け取らなかったコンテンツを意味します
+
+**FAQ:**
+* **Q：このガイドで取り上げる2つの主なインバウンドアクションの失敗シナリオは何ですか？** — シナリオ 1: インバウンドステップに入ったプロファイルが、ユーザーにコンテンツが表示されない。 シナリオ 2: プロファイルがジャーニーを終了しましたが、ユーザーはインバウンドコンテンツを引き続き受信します。
+* **Q: インバウンドアクション配信のデバッグに使用するツールを教えてください。** — Adobe Experience Platform Assurance。 まずAssurance セッションを設定し、次にアプリ内メッセージングとEdge Delivery ビューを使用して、コンテンツ配信とEdge Network応答を調べます。
+* **Q：共同作業セグメントとは何ですか。なぜそれが重要なのですか？** — プロファイルがインバウンドアクションに入ると、その特定のアクションを対象とした共同作業オーディエンスセグメントに自動的に適格されます。 Edge Networkは、プロファイルがそのジョインセグメントで実現された状態にある場合にのみ、インバウンドコンテンツを配信します。
+* **Q: Edge プロファイルに共同作業セグメント メンバーシップが表示されるまでにどのくらいの時間がかかりますか？** — Hub プロファイルが更新された後、HubからEdgeへの伝搬に最大15 ～ 30分かかります。
+* **Q: Edge プロファイルでジョイセグメント IDが離脱している場合はどうすればよいですか？** — プロファイルがジャーニーセグメントから離脱しました。つまり、インバウンドジャーニーアクションから離脱しました。 予期しない場合は、Hub プロファイルの取り込みからトレースして、プロファイルがインバウンドアクションステップに正しく入力されたかどうかを確認します。
+* **Q: Adobe カスタマーケアにエスカレーションする際に提供すべき情報は何ですか？** — ジャーニーバージョン ID、ジャーニーアクション ID、予期しない動作が発生したステップ、完全なAssurance トレース、Edge プロファイルとHub プロファイルの両方のJSON ビュー。
+
++++

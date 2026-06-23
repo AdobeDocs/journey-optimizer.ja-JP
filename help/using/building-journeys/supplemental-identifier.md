@@ -4,21 +4,14 @@ description: ジャーニーの補助識別子の使用方法について説明�
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2041
-ht-degree: 47%
+source-wordcount: 2742
+ht-degree: 35%
 
 ---
 
@@ -135,11 +128,11 @@ ht-degree: 47%
 
    1. **[!UICONTROL 補足識別子]** フィールドで、式エディターを使用して補足識別子の属性を選択します。
 
-   CSV ファイル [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}から読み込まれたオーディエンス について、CSV オーディエンスにプロファイル IDごとに複数の行が含まれている場合は、最初にExpress Activationが有効になっていることを確認してください。外部オーディエンスを含む[補足識別子](#external-audiences)を参照してください。
+   CSV ファイル ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}から読み込まれたオーディエンス [について、CSV オーディエンスにプロファイル IDごとに複数の行が含まれている場合は、最初にExpress Activationが有効になっていることを確認してください。外部オーディエンスを含む[補足識別子](#external-audiences)を参照してください。
 
        >[!NOTE]
-       >
-       >**[!UICONTROL 詳細モード &#x200B;]の式エディターを使用して属性を選択していることを確認してください**&#x200B;7&rbrace;。   
+     >
+     >**[!UICONTROL 詳細モード ]の式エディターを使用して属性を選択していることを確認してください**7}。   
 
 >[!ENDTABS]
 
@@ -206,7 +199,7 @@ ht-degree: 47%
 
 ## 外部オーディエンスを使用した補足識別子 {#external-audiences}
 
-追加IDは、CSV ファイルから読み込まれたオーディエンス [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)や[連合オーディエンス構成](../audience/get-started-audience-orchestration.md){target="_blank"}で作成されたオーディエンスなど、外部オーディエンスに対してサポートされています。 &#x200B;CSVまたはFederated Audience Composition オーディエンスから読み取るジャーニーを設定する場合、そのオーディエンスのID以外の属性を補足IDとして指定できます。 次に、Journey Optimizerは、一意のプロファイルと追加のIDの組み合わせごとに個別のジャーニーインスタンスを作成します。
+追加IDは、CSV ファイルから読み込まれたオーディエンス [や[連合オーディエンス構成](../audience/get-started-audience-orchestration.md)で作成されたオーディエンスなど、外部オーディエンスに対してサポートされています。 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}CSVまたはFederated Audience Composition オーディエンスから読み取るジャーニーを設定する場合、そのオーディエンスのID以外の属性を補足IDとして指定できます。 次に、Journey Optimizerは、一意のプロファイルと追加のIDの組み合わせごとに個別のジャーニーインスタンスを作成します。
 
 * ユースケース 1：一意のプロファイルごとに1行+追加のID ペア
 
@@ -278,7 +271,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`のデフォルトは`false`です。 オーディエンス作成時に設定する必要があり、作成後に変更することはできません。 すべてのFederated Audience Composition オーディエンスでは、デフォルトでExpress Activationが有効になっており、このフラグは必要ありません。
 
-完全なリファレンスについては、[外部オーディエンス APIの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}を参照してください。
+完全なリファレンスについては、[外部オーディエンス APIの作成](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}を参照してください。
 
 +++
 
@@ -331,4 +324,54 @@ x-sandbox-name: {SANDBOX_NAME}
 
 [!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、Adobe Journey Optimizer ジャーニーで補足識別子を使用して、1つのプロファイルが複数の同時ジャーニーインスタンスを持つようにし、各プロファイルを予約、サブスクリプション、ポリシーIDなどの個別のセカンダリ IDにスコープ設定する方法について説明します。
+
+**インテント：**
+* プロファイル IDのみに依存するのではなく、補完的な識別子を使用するタイミングと理由を把握します
+* イベントスキーマで属性をIDとしてマークすることで、イベントトリガージャーニーで補足識別子を設定します
+* オーディエンスの読み取りアクティビティのオプションを有効にして、オーディエンスジャーニーの補足識別子を設定します
+* 式エディターを使用して、メッセージのパーソナライゼーションと条件付きロジックの補足識別子の属性を参照します
+* 正しい式の構文を適用して、補足IDでキーを設定したオブジェクト配列を繰り返します
+* ジャーニーに補足的なIDを実装する前に、ガードレールと制限事項を特定する
+
+**用語集：**
+* **補足識別子**: プロファイル IDと一緒に使用されるセカンダリ ID （注文ID、予約ID、サブスクリプション IDなど）。ジャーニーインスタンスを特定のレコードにスコープ設定し、プロファイル *（製品固有）*&#x200B;ごとに複数の同時インスタンスを有効にします。
+* **プロファイル ID**: ジャーニーの実行にデフォルトで使用されるプライマリ ID。ジャーニーでアクティブなプロファイルは、追加IDがなければ別のジャーニーに再入力できません
+* **人以外のID名前空間**：個人を表さないID名前空間（補足IDに必要）。プライマリ ID名前空間とは異なる必要があります
+* **joai名前空間**：このページには適用されません（インバウンドアクションのトラブルシューティングを参照）
+* **DULE**: Data Use Labeling and Enforcement — Adobe Experience Platformのデータガバナンスポリシー検証フレームワーク。追加IDはDULE チェックの対象ではありません
+
+**ガードレール：**
+* 補足識別子は、イベントトリガーおよびオーディエンスジャーニーの読み取りでのみサポートされます。オーディエンスの選定ジャーニーではサポートされていません
+* プロファイルに同時ジャーニーインスタンスを10個以上含めることはできません
+* 各ジャーニーインスタンスは、追加識別子を介して作成された場合でも、頻度の上限にカウントされます
+* 補足識別子は`string`型である必要があります。文字列配列とマップはサポートされていません
+* 補足ID属性は、スキーマでプライマリ IDとしてマークしてはなりません
+* 補足IDに使用される名前空間は、個人でないID名前空間である必要があります
+* 非ユーザーID名前空間をスキーマに適用した後、新しいイベントまたはフィールドグループを作成する必要があります。既存のエンティティは更新できません
+* 追加IDを持つオーディエンスジャーニーの読み取り：読み取り率は、ジャーニーインスタンスごとに1秒あたり500 プロファイルに制限されます。統合プロファイルサービスオーディエンスのみがサポートされます。追加IDは、プロファイルフィールド（イベント/コンテキストフィールドではなく）である必要があります
+* 同じジャーニー内のダウンストリームイベントでは、同じ補足IDと名前空間を使用する必要があります
+* ビジネスイベントを使用するオーディエンスジャーニーの読み取りに対する補足IDは無効になっています
+
+**用語：**
+* 正規名：補足識別子 – 頭字語：なし – バリアント：補足ID、二次識別子
+* 同義語：「補足識別子」 = 「補足ID」（UIとドキュメントで同義語として使用）
+* 「補足ID」≠「プライマリ ID」は混同しないでください。補足IDは、スキーマ内でプライマリ IDとしてマークしてはなりません
+
+**FAQ:**
+* **Q：補足識別子は何に使用されますか？** — 1つのプロファイルでジャーニーを複数回同時に入力および実行し、各インスタンスを予約、サブスクリプション、ポリシーIDなどの異なるセカンダリレコードにスコープ付けすることができます。
+* **Q：どのジャーニータイプが補足識別子をサポートしていますか？** — イベントをトリガーにしたジャーニーとオーディエンスジャーニーの読み取り。 オーディエンスの選定ジャーニーは、補足識別子をサポートしていません。
+* **Q: プロファイルに追加のIDを持つ同時ジャーニーインスタンスの数を指定できますか？** — プロファイルごとに最大10個の同時ジャーニーインスタンス。
+* **Q: メッセージのパーソナライゼーションに追加のID属性を使用できますか？**  – はい。 式エディターまたはパーソナライゼーションエディターのコンテキスト属性メニューを使用して参照します。
+* **Q：補足IDは、スキーマでプライマリ IDとしてマークする必要がありますか？**  – いいえ。 IDとしてマークする必要がありますが、プライマリ IDとして設定することはできません。
+* **Q: DULE ガバナンスポリシーは追加識別子に適用されますか？**  – いいえ。 DULE検証チェックは、補足IDに対して実行されません。
+
++++

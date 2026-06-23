@@ -9,20 +9,15 @@ keywords: 日付, 関数, 式, ジャーニー, 時間
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 834
-ht-degree: 100%
+source-wordcount: 1275
+ht-degree: 65%
 
 ---
 
@@ -568,5 +563,48 @@ true を返します。
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
 「timestamp」フィールドの値が `2021-11-16T16:55:12.939318+01:00` の場合、この関数は `2021-11-17T02:55:12.942115+11:00` を返します。
+
++++
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、AJO ジャーニー式で使用できるすべての日付関数と時刻関数について説明します。現在の時刻を取得する方法、日付が相対時間枠内にあるかどうかを確認する方法、日付/時刻コンポーネントを変更する方法について説明します。
+
+**インテント：**
+* `now`または`nowWithDelta`を使用して、現在の日時（オプションのタイムゾーン付き）を取得します
+* `currentTimeInMillis`を使用して、現在の時間をエポック整数として取得します
+* `inLastDays`、`inLastHours`、`inLastMonths`、`inLastYears`を使用して、過去N日間、時間、月、または年内に日時が含まれているかどうかを確認します
+* `inNextDays`、`inNextHours`、`inNextMonths`、`inNextYears`を使用して、日付が次のN日、時間、月、または年内に含まれるかどうかを確認します
+* `setHours`または`setDays`を使用して、特定の時間または日を日付値に強制的に設定します
+* `updateTimeZone`を使用して同じインスタントを保持しながら、日時を別のタイムゾーンに変換します
+
+**用語集：**
+* **dateTime**: タイムゾーンオフセット情報&#x200B;*（製品固有）*&#x200B;を含む日時の値
+* **dateTimeOnly**: タイムゾーン情報のない日時の値&#x200B;*（製品固有）*
+* **エポックミリ秒**: 1970-01-01T00:00:00Zから経過したミリ秒数を表す整数
+* **delta**：現在の時間を年、月、日、時間、分、秒の数だけシフトするために`nowWithDelta`で使用される整数オフセット（正または負）
+
+**ガードレール：**
+* `now()`はジャーニー式でのみ使用できます。メールのパーソナライゼーションには、代わりに`getCurrentZonedDateTime()`を使用してください
+* `nowWithDelta`のタイムゾーン IDは文字列定数である必要があります。フィールド参照と動的式はサポートされていません
+* `updateTimeZone`のタイムゾーン IDは文字列定数である必要があります
+
+**用語：**
+* 正規名：日付関数 – 頭字語：なし – バリアント：日時関数、時間関数
+* 同義語：&quot;now （）&quot; = &quot;current datetime&quot;; &quot;currentTimeInMillis （）&quot; = &quot;current epoch milliseconds&quot;
+* 混同しないでください：&quot;inLastDays&quot; （時間を振り返る） ≠ &quot;inNextDays&quot; （時間を進める）
+* 混同しないでください。「setHours」（時間コンポーネントに代わる）≠「nowWithDelta」（現在の時間をオフセットする）
+* 「updateTimeZone」（同じインスタント、異なるタイムゾーン表現）≠「setHours」（時間値自体を変更）は混同しないでください
+
+**FAQ:**
+* **Q: メールのパーソナライゼーションコンテンツで`now()`を使用できますか？** — `now()`はジャーニー式でのみ使用できます。 電子メールのパーソナライゼーションに`getCurrentZonedDateTime()`を使用します。
+* **Q：過去24時間にイベントが発生したかどうかを確認するにはどうすればよいですか？** — `inLastHours(@event{MyEvent.timestamp}, 24)`を使用します。
+* **Q：過去に2時間オフセットした現在の時間を取得するにはどうすればよいですか？** — `nowWithDelta(-2, "hours")`を使用します。
+* **Q: `updateTimeZone`と`setHours`の違いは何ですか？** — `updateTimeZone`は同じ時刻を保持しますが、別のタイムゾーンで表現します。一方、`setHours`は実際に日時の値の時間コンポーネントを変更します。
+* **Q: `nowWithDelta`のタイムゾーンパラメーターをプロファイルフィールドにすることはできますか？**  – いいえ、タイムゾーン IDは文字列定数である必要があります。フィールド参照はサポートされていません。
 
 +++

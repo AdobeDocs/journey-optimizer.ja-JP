@@ -11,10 +11,10 @@ keywords: エラー, コード, トラブルシューティング, ジャーニ�
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2358
-ht-degree: 84%
+source-wordcount: 2902
+ht-degree: 68%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 84%
 
 6. **必要に応じて再試行**：500 シリーズのエラーの場合、数分後にシンプルに再試行すると、一時的な問題が解決することがよくあります。
 
-7. **必要に応じてエスカレーションする**：解決手順に従ってエラーが解決しない場合は、[Adobe サポート &#x200B;](../start/user-interface.md#support-ticket-guidelines)に連絡して、エラーコード、リクエスト ID （使用可能な場合）、再現する手順、および関連する設定の詳細を確認します。
+7. **必要に応じてエスカレーションする**：解決手順に従ってエラーが解決しない場合は、[Adobe サポート ](../start/user-interface.md#support-ticket-guidelines)に連絡して、エラーコード、リクエスト ID （使用可能な場合）、再現する手順、および関連する設定の詳細を確認します。
 
 ## 一般的なエラーを回避するためのベストプラクティス {#best-practices}
 
@@ -191,14 +191,63 @@ ht-degree: 84%
 1. **情報を収集**：エラーコード、リクエスト ID、タイムスタンプ、再現手順を収集します
 2. **システムステータスを確認**：既知のサービスの問題について詳しくは、[アドビのステータス](https://status.adobe.com/ja){target="_blank"}を参照してください
 3. **ドキュメントを検索**：解決策について詳しくは、[Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja){target="_blank"} を参照してください。
-4. **Engage コミュニティ**: [[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}に質問を投稿します
-5. **Adobe サポート**&#x200B;にお問い合わせください：[関連するすべての詳細を記載したサポートチケット &#x200B;](../start/user-interface.md#support-ticket-guidelines)を送信します
+4. **Engage コミュニティ**: [[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}に質問を投稿します
+5. **Adobe サポート**&#x200B;にお問い合わせください：[関連するすべての詳細を記載したサポートチケット ](../start/user-interface.md#support-ticket-guidelines)を送信します
 
 >[!NOTE]
 >
->このエラー コードの参照は、新しいコードを特定および文書化する際に継続的に更新されます。 最新の情報については、[[!DNL Adobe Journey Optimizer]  コミュニティブログ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ja){target="_blank"}を定期的に確認してください。
+>このエラー コードの参照は、新しいコードを特定および文書化する際に継続的に更新されます。 最新の情報については、[[!DNL Adobe Journey Optimizer]  コミュニティブログ ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}を定期的に確認してください。
 
 **関連トピック**
 
-* [&#x200B; [!DNL Adobe Journey Optimizer]  エラーコードの明確化：第1部](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja){target="_blank"}
-* [&#x200B; [!DNL Adobe Journey Optimizer]  エラーコードの明確化：第2部](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ja){target="_blank"}
+* [ [!DNL Adobe Journey Optimizer]  エラーコードの明確化：第1部](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [ [!DNL Adobe Journey Optimizer]  エラーコードの明確化：第2部](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、各エラーの根本原因を説明し、ステップバイステップの解決ガイダンスを提供する、サービスのプレフィックスで整理された標準化されたAdobe Journey Optimizer エラーコードのリファレンスガイドです。
+
+**インテント：**
+
+* エラーコードのサービスプレフィックスを使用して、どのAJO サービスがエラーを生成したかを特定します
+* メッセージ配信に影響を与えるプッシュ/トランスポートエラー（CJMPTS）を診断して解決します
+* ジャーニーの実行またはイベント処理中のジャーニーランタイムおよびAPI エラー（CJMRT）のトラブルシューティング
+* メッセージの作成、保存または公開時のメッセージオーサリングエラー（CJMMAS）を修正する
+* キャンペーンのアクティブ化または承認中にキャンペーンエラー（CJMCMP）を解決する
+* 永続エラーをAdobe サポートに正しい情報でエスカレーションする
+
+**用語集：**
+
+* **サービスプレフィックス**：エラーを生成したサービスを特定するAJO エラーコードの先頭の英数字コード （例：CJMRT = ジャーニーランタイム） *（product-specific）*
+* **HTTP ステータスコード**:AJO エラーコードに埋め込まれた標準ステータスコード （例：400 = Bad Request、403 = Forbidden、422 = Unprocessable Entity、500 = Internal Server Error）
+* **リクエスト ID**:Adobe サポート *（製品固有）*&#x200B;にエスカレーションする際に必要なエラーを伴う一意のID
+* **CJMRT**: ジャーニーランタイムサービスのプレフィックス – ジャーニーの実行中およびAPI操作&#x200B;*（製品固有）*&#x200B;中にエラーが発生しました
+* **CJMMAS**: Message Authoring Service prefix — メッセージの作成および公開中にエラーが発生しました&#x200B;*（製品固有）*
+* **CJMPTS**: プッシュ/トランスポートサービスのプレフィックス – プッシュ通知およびメッセージ送信中にエラーが発生しました&#x200B;*（製品固有）*
+
+**ガードレール：**
+
+* メールのバリエーションには、オプトアウト/登録解除リンクを含める必要があります。トリガーCJMMAS-2001-200を省略します。
+* ジャーニーを停止するには、ジャーニーの管理権限（権限を含むCJMRT エラーに関連）が必要です。
+* サブドメインのデリゲーションのDNS伝搬には、最大で72時間かかる場合があります（CJMRT-080608-400に関連）。
+* データセット検索アクティビティのルックアップキーは、シンプルモードではなくアドバンスモードで定義する必要があります。
+
+**用語：**
+
+* 正規名：エラーコード – 頭字語：なし – バリアント：エラーメッセージ、エラー識別子
+* 同義語：「サービスプレフィックス」 =「エラープレフィックス」 =「コンポーネント識別子」
+* 混同しないでください：「400 Bad Request」≠「422 Unprocessable Entity」 — 400は不正な入力を示します。422は有効な形式を示しますが、スキーマルールごとに無効なコンテンツを示します
+
+**FAQ:**
+
+* **Q：どのAJO サービスがエラーを引き起こしたかを知るにはどうすればよいですか？** — エラーコードの開始時にサービス プレフィックスを読み取ります。CJMPTS （プッシュ/トランスポート）、CJMRT （ジャーニーランタイム）、CJMMAS （メッセージオーサリング）、CJMCMP （キャンペーン）、CJMTL （トランスポート層）、CJMRPS （レポート/プロビジョニング）。
+* **Q: 500 シリーズのエラーが発生した場合はどうすればよいですか？**  – 数分後に再試行し、Adobe Statusで停止を確認してから、完全なエラーコードでAdobe サポートにエスカレーションし、問題が解決しない場合はIDをリクエストします。
+* **Q: ステータスが「成功」であるにもかかわらず、CJMMAS-2001-200でエラーバナーが表示されるのはなぜですか？** — メールのバリエーションに必要なオプトアウト/登録解除リンクが見つかりません。すべてのバリエーションと言語バージョンに追加してください。
+* **Q: Adobe サポートに連絡する前に収集すべき情報は何ですか？**  – 完全なエラーコード、リクエスト ID、タイムスタンプ、再現する手順、および関連する設定の詳細を収集します。
+* **Q: CJMRT-030012-422の原因は何ですか？**  – 存在しないオーディエンス、イベント、または属性を参照するなどの無効な入力データ。参照されているすべてのオブジェクトが存在し、アクティブであることを確認します。
+
++++

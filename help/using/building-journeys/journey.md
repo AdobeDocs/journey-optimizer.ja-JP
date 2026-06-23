@@ -10,34 +10,16 @@ keywords: ジャーニー, 検出, 開始, 単一, オーディエンスを読�
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 97%
+source-wordcount: 2207
+ht-degree: 72%
 
 ---
 
@@ -114,7 +96,7 @@ ht-degree: 97%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **エントリポイントの定義**
 
@@ -124,7 +106,7 @@ ht-degree: 97%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **メッセージの送信**
 
@@ -134,7 +116,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／RC
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **ロジックと条件の追加**
 
@@ -144,7 +126,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／RC
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **データの活用**
 
@@ -154,7 +136,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／RC
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **外部システムの接続**
 
@@ -164,7 +146,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／RC
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **オーケストレーションアクティビティの追加**
 
@@ -175,7 +157,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／RC
 
 ::::
 
-➡️ **実践的な学習：**&#x200B;[ジャーニーデザイナーのビデオを視聴](#video)するか、[エンドツーエンドのユースケースを探索](jo-use-cases.md)します
+➡️ **実践的な学習：**[ジャーニーデザイナーのビデオを視聴](#video)するか、[エンドツーエンドのユースケースを探索](jo-use-cases.md)します
 
 ## ジャーニー作成ワークフロー {#workflow}
 
@@ -255,7 +237,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／RC
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **新規サブスクライバーの歓迎**
 
@@ -265,7 +247,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／RC
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **送信時間の最適化**
 
@@ -275,7 +257,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **配信を増やす**
 
@@ -285,7 +267,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **平日のターゲット**
 
@@ -295,7 +277,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **マルチチャネルキャンペーン**
 
@@ -305,7 +287,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **すべてのユースケース**
 
@@ -323,7 +305,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **高度な式**
 
@@ -333,7 +315,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **タイムゾーン管理**
 
@@ -343,7 +325,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **テストモードとドライラン**
 
@@ -353,7 +335,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **サンドボックスへのコピー**
 
@@ -363,7 +345,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **タグと組織**
 
@@ -373,7 +355,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **スループット制御**
 
@@ -390,7 +372,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 
 ジャーニーコンポーネントを視覚的に紹介し、キャンバスでジャーニーを作成するための基本について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **さらにビデオを視聴しますか？** [ジャーニーのビデオチュートリアルをご覧ください](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -454,3 +436,50 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[インバウンドアクティビティのトラブルシューティング](troubleshooting-inbound.md)** - エントリと選定に関する問題の修正
 
 **最初のジャーニーを作成する準備は整っていますか？** [今すぐ始めましょう →](journey-gs.md)
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページは、Adobe Journey Optimizer ジャーニーの基本を学ぶハブです。4つのジャーニーの種類、6段階の制作ワークフロー、実際のユースケース、高度な機能へのリンクについて説明します。
+
+**インテント：**
+
+* ジャーニーとは何か、キャンペーンやオーケストレーションされたキャンペーンとの違いを理解します
+* ユースケースに適したジャーニータイプ（単一、オーディエンスの読み取り、オーディエンスの選定、ビジネスイベント）を選択します
+* 計画、設計、テスト、公開、監視、最適化の6つのステップで構成されるジャーニー作成ワークフローに従ってください
+* テストモードまたはドライランを使用して、本番稼働前にジャーニーを検証します
+* レポートとアラートを通じてジャーニーを公開し、パフォーマンスを監視する
+* 式、タイムゾーン管理、サンドボックスへのコピー、スループット制御などの高度な機能について説明します
+
+**用語集：**
+
+* **ジャーニー**：顧客の行動、ビジネスイベント、スケジュールされたキャンペーンに応じて、チャネルをまたいでパーソナライズされたインタラクションを調整する、自動化されたマルチステップの顧客体験。 *（製品固有）*
+* **ジャーニーデザイナー**: AJOの視覚的なドラッグ&amp;ドロップ操作のキャンバスは、コードを記述することなくジャーニーフローを構築および設定するために使用されます。 *（製品固有）*
+* **テストモード**: テストプロファイルを使用して実行をシミュレートし、本番稼働前に問題を検出するジャーニー検証モード。 *（製品固有）*
+* **ドライラン**：実際のプロファイルデータに影響を与えたり、メッセージを送信したりすることなく、実行をシミュレートするジャーニープレビューモードです。 *（製品固有）*
+* **オーケストレーションされたキャンペーン**：リレーショナルデータ（プロファイル +商品/店舗/予約）を使用し、すべてのプロファイルを正確な事前送信数と一緒に処理する、AJOのマルチステップバッチワークフロー。 *（製品固有）*
+
+**ガードレール：**
+
+* ライブジャーニーは構造的に編集できません。変更には新しいバージョンの作成が必要です
+* 問題を検出するには、公開前にテストモードとドライランを使用する必要があります
+
+**用語：**
+
+* 正式名称：ジャーニー（Acronym）：なし（None）：バリエーション：カスタマージャーニー、AJOジャーニー
+* 同義語：「ジャーニーデザイナー」 = 「キャンバス」 = 「ジャーニーキャンバス」
+* 「ジャーニー」≠「キャンペーン」は、ジャーニーがリアルタイムのマルチステップの行動主導型エクスペリエンスのために個々の顧客の状態を維持します。キャンペーンは、スケジュールに従って、またはAPIトリガーを介してメッセージを一括でオーディエンスに配信します
+* 混同しないでください：「ドライラン」≠「テストモード」 – 実際のデータに触れずに実行をプレビューするドライラン。テストモードは、実際のテストプロファイルでジャーニーをシミュレートします
+
+**FAQ:**
+
+* **Q: Journey Optimizerのジャーニーとキャンペーンの違いは何ですか？** — ジャーニーは、各プロファイルが条件付きロジックを通じて独自のペースで進む1:1 リアルタイムのオーケストレーションを提供します。キャンペーンは、スケジュール上またはAPIトリガー経由で同時にメッセージをオーディエンスに配信します。オーケストレーションされたキャンペーンは、複雑なマルチエンティティセグメンテーションのためのバッチキャンバスワークフローです。
+* **Q: ライブジャーニーを編集できますか？**  – 名前やメッセージコンテンツなどの限られた要素を編集できます。構造的な変更には、ジャーニーの新しいバージョンを作成する必要があります。
+* **Q: ジャーニーを構築する手順を教えてください。** - 6つのステップのワークフローは、計画、キャンバスでのデザイン、テスト（テストモードまたはドライラン）、公開、パフォーマンスの監視、最適化/反復です。
+* **Q：実際のメッセージを送信せずにジャーニーを検証するにはどうすればよいですか？**  – 実際のデータに影響を与えたり、メッセージを送信したりすることなく、ジャーニー実行をプレビューするドライランモードを使用します。
+* **Q: サブスクリプションによってトリガーされるウェルカムメールには、どのジャーニータイプを使用すればよいですか？** — サブスクリプション登録などの特定の個人イベントによってトリガーされる単一ジャーニーを使用します。
+
++++

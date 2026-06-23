@@ -11,26 +11,16 @@ keywords: 選定, イベント, オーディエンス, ジャーニー, プラ�
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1854
-ht-degree: 62%
+source-wordcount: 2501
+ht-degree: 46%
 
 ---
 
@@ -118,8 +108,8 @@ ht-degree: 62%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;と&#x200B;**[!UICONTROL Exit]**&#x200B;は、[!DNL Adobe Experience Platform]からの&#x200B;**Realized**&#x200B;と&#x200B;**Exited**&#x200B;のオーディエンス参加ステータスに対応しています。
-   >[&#x200B; セグメント化サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
+   >**[!UICONTROL Enter]**&#x200B;と&#x200B;**[!UICONTROL Exit]**&#x200B;は、[!DNL Adobe Experience Platform]からの&#x200B;**Realized**&#x200B;と&#x200B;**Exited**のオーディエンス参加ステータスに対応しています。
+   >[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
 
 1. 名前空間を選択します。 これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。 デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。
 
@@ -164,7 +154,7 @@ ht-degree: 62%
 
 ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。 代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。 頻度または抑制ロジックの場合は、送信イベントの代わりにビジネスルールを使用します。 [詳細情報](../audience/about-audiences.md)
 
-[[!DNL Adobe Experience Platform]  ストリーミングセグメント化に関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
+[[!DNL Adobe Experience Platform]  ストリーミングセグメント化に関するドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -188,7 +178,7 @@ ht-degree: 62%
 
 * ジャーニーを公開した後、プロファイルの選定をトリガーするイベントやデータを送信する前に、10 分以上待機します。 これにより、ジャーニーが完全にアクティブ化され、エントリを処理する準備が整います。
 
-* すべての適格なプロファイルが入力されることを確認する必要がある重要なユースケースについては、代わりに[&#x200B; オーディエンスを読み取り](read-audience.md) アクティビティを使用することを検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
+* すべての適格なプロファイルが入力されることを確認する必要がある重要なユースケースについては、代わりに[ オーディエンスを読み取り](read-audience.md) アクティビティを使用することを検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
 
 * ジャーニーの[エントリ率とスループット](entry-management.md#profile-entrance-rate)を監視し、プロファイルのフローパターンを把握します。
 
@@ -200,7 +190,7 @@ ht-degree: 62%
 
 * **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティで作成直後にバッチオーディエンスを使用しないでください。 これにより、最初の計算のピークを回避できます。 まだ計算されていないオーディエンスを使用しようとすると、ジャーニーキャンバスに黄色の警告が表示されます。
 
-  [!DNL Adobe Experience Platform]![&#128279;](assets/segment-error.png)にオーディエンスが見つからなかった場合の エラーメッセージ
+  [!DNL Adobe Experience Platform]](assets/segment-error.png)にオーディエンスが見つからなかった場合の![ エラーメッセージ
 
 * ジャーニーで使用するデータソースとアクションのキャップルールを設定して、データソースの過負荷を避けます。 詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}を参照してください。 キャップルールには再試行がないことに注意してください。 再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用します。
 
@@ -246,4 +236,50 @@ ht-degree: 62%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。 オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このページでは、Journey OptimizerのAudience Qualification イベントアクティビティを設定および使用して、Adobe Experience Platform オーディエンスを出入りする際にジャーニー内のプロファイルをトリガーまたは進める方法について説明します。
+
+**インテント：**
+* オーディエンスメンバーシップの変更に対するトリガージャーニーのエントリへのAudience Qualification イベントアクティビティの設定
+* オーディエンス選定アクティビティの正しい動作（エントリ、終了、またはその両方）を選択します
+* バッチまたはストリーミングオーディエンスを使用する際のシステムの過負荷を回避するためのベストプラクティスを適用します
+* 一部の適格なプロファイルがジャーニーにエントリしない理由と、これを軽減する方法を理解します
+* ダウンストリームの条件とアクションでAudienceQualification ノードペイロードを使用する
+
+**用語集：**
+* **Audience Qualification event**: プロファイルのエントランスをリッスンするジャーニーイベントアクティビティ。Adobe Experience Platform オーディエンスおよびトリガージャーニーの進行状況&#x200B;*（製品固有）*
+* **ビヘイビアー（Enter/Exit）**: ジャーニーが、オーディエンス *（製品固有）のプロファイル結合（「Realized」）、離脱（「Exited」）、または両方のステートに反応するかどうかを制御する設定*
+* **ストリーミングオーディエンス**：高頻度オーディエンス オプションを使用して、リアルタイムで継続的に評価されるオーディエンス。オーディエンスの選定アクティビティ *（製品固有）*&#x200B;に推奨
+* **バッチオーディエンス**:1日に1回再計算されるオーディエンス。プロファイルエントリの日次ピークを導入し、セグメント化ジョブ完了後2時間の準備期間が必要です&#x200B;*（製品固有）*
+* **AudienceQualification ノード**: Audience Qualification アクティビティの後に式エディターで使用できるコンテキストノードです。前回の資格時間とステータス *（製品固有）*&#x200B;が表示されます
+* **Edgeからハブへの伝搬**: ジャーニーが操作できるようになる前に、Edgeで評価されたストリーミングセグメントメンバーシップがHubに同期されるプロセス。通常は15 ～ 30分かかります&#x200B;*（製品固有）*
+
+**ガードレール：**
+* 新しいオーディエンス選定ジャーニーは、公開後にアクティブになるまでに最大10分かかります
+* バッチ取り込まれた属性を使用したバッチまたはストリーミングオーディエンスは、セグメント化ジョブが完了してから約2時間後に準備が整います
+* セグメント定義を使用して作成されたオーディエンスのみを使用できます。コンポジションワークフローまたはカスタムアップロードオーディエンスはサポートされていません
+* エクスペリエンスイベントフィールドグループは、オーディエンス選定で始まるジャーニーでは使用できません
+* 名前空間フィールドには、ピープルベースのID名前空間のみが使用できます。ルックアップテーブル名前空間はサポートされていません
+* ジャーニーの公開前に既にオーディエンス内にあるプロファイルは、ジャーニーに遡及的にエントリしません
+* ストリーミングセグメントのEdgeからハブへの伝搬には、通常15～30分かかります
+
+**用語：**
+* 正規名：Audience Qualification event — Acronym: none — バリエーション：セグメント選定、オーディエンス選定アクティビティ
+* 同義語：&quot;Enter&quot; = &quot;Realized&quot; ; &quot;Exit&quot; = &quot;Exited&quot;
+* 混同しないでください：「オーディエンスの選定」≠「オーディエンスの読み取り」（オーディエンスの選定は、リアルタイムのメンバーシップの変更に反応します。オーディエンスの読み取りは、スケジュールされた時間にすべてのメンバーを処理します）
+
+**FAQ:**
+* **Q：新しく公開されたAudience Qualification ジャーニーで、エントリの処理が開始されるのはいつですか？** — アクティビティがアクティブになり、プロファイルのエントリと離脱をリッスンするには、公開後に最大10分かかります。
+* **Q: プロファイルがオーディエンス選定ジャーニーに参加しないのはなぜですか？**  – 一般的な原因には、公開前にプロファイルが既にオーディエンスに存在していた、10分間のアクティベーションウィンドウが経過していない、ストリーミングセグメントのEdgeからHubへの伝播（15～30分）がまだ完了していない、などがあります。
+* **Q: オーディエンス選定アクティビティでバッチオーディエンスを使用できますか？**  – はい、お勧めしません。 バッチオーディエンスは、毎日のエントリピークを生成するので、リアルタイムのユースケースには適していません。バッチシナリオの代わりに、「オーディエンスを読み取り」アクティビティを使用します。
+* **Q: AudienceQualification ペイロードで使用可能なデータは何ですか？** — ペイロードには、ビヘイビアー（入口または出口）、選定のタイムスタンプ、およびオーディエンス IDが含まれます。
+* **Q：コンポジションワークフローから作成されたオーディエンスをAudience Qualification アクティビティで使用できますか？** — セグメント定義を使用して作成されたオーディエンスのみが、このアクティビティでサポートされます。
+
++++

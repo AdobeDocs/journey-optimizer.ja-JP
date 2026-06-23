@@ -10,31 +10,16 @@ keywords: エントリ, 終了, 条件, ジャーニー, プロファイル, 再
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
 TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 91%
+source-wordcount: 2251
+ht-degree: 68%
 
 ---
 
@@ -128,7 +113,7 @@ ht-degree: 91%
 
 **次に、エントリー条件について知っておく必要のあるすべての事項について説明します。**
 
-* **[イベントベースのトリガー](../event/about-events.md)**：「プロファイルの作成」、「トランザクションの完了」などのイベントやカスタムイベントを使用して、ジャーニーを開始します。 [管理&#x200B;]&#x200B;**/**&#x200B;[!UICONTROL &#x200B; イベント &#x200B;]&#x200B;**でイベント (../event/about-creating.md)を設定し、[&#x200B; イベントスキーマとフィールド &#x200B;](../event/experience-event-schema.md)を定義します。**&#x200B;次に、[&#x200B; ジャーニーデザイナー](using-the-journey-designer.md)の&#x200B;**[!UICONTROL イベント]** パレットからイベントを追加します。
+* **[イベントベースのトリガー](../event/about-events.md)**：「プロファイルの作成」、「トランザクションの完了」などのイベントやカスタムイベントを使用して、ジャーニーを開始します。 [管理&#x200B;]**/**[!UICONTROL  イベント ]**でイベント ](../event/about-creating.md)を設定し、[ イベントスキーマとフィールド ](../event/experience-event-schema.md)を定義します。**[!UICONTROL &#x200B;次に、[ ジャーニーデザイナー](using-the-journey-designer.md)の&#x200B;**[!UICONTROL イベント]** パレットからイベントを追加します。
 
 * **[オーディエンスベースのエントリ](read-audience.md)**：特定のオーディエンスに属するプロファイルへのジャーニーを、1 回限りのバッチとして、または繰り返しスケジュールでターゲットにします。 **[!UICONTROL オーディエンス]**&#x200B;メニューで[オーディエンスを作成](../audience/creating-a-segment-definition.md)し、**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティを追加して、[スケジュールを設定](journey-properties.md#schedule)します。 入力後、条件を使用して[分岐をセグメント化、除外、または結合](read-audience.md#audience-targeting-in-journeys)します。
 
@@ -174,7 +159,7 @@ ht-degree: 91%
 
 >[!TIP]
 >
->その他のパターンと実装については、[ジャーニーユースケースライブラリ &#x200B;](jo-use-cases.md)で使用可能なすべてのユースケースを参照してください。 例としては、[配信の強化](ramp-up-deliveries-uc.md)、[&#x200B; エクスペリエンスイベントパターン &#x200B;](exp-event-lookup.md)、[&#x200B; ライブジャーニーからのプロファイルの削除](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)などが挙げられます。
+>その他のパターンと実装については、[ジャーニーユースケースライブラリ ](jo-use-cases.md)で使用可能なすべてのユースケースを参照してください。 例としては、[配信の強化](ramp-up-deliveries-uc.md)、[ エクスペリエンスイベントパターン ](exp-event-lookup.md)、[ ライブジャーニーからのプロファイルの削除](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)などが挙げられます。
 
 ## エントリと終了を管理するためのベストプラクティス {#best-practices}
 
@@ -236,8 +221,56 @@ ht-degree: 91%
 
 **チュートリアルと例**
 
-[ジャーニーのユースケース](jo-use-cases.md) | [カスタマーオンボーディングビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放棄された買い物かごビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [コミュニティブログ：エントリ条件と終了条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ja)
+[ジャーニーのユースケース](jo-use-cases.md) | [カスタマーオンボーディングビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放棄された買い物かごビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [コミュニティブログ：エントリ条件と終了条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **関連機能**
 
-[&#x200B; オーディエンスの選定イベント &#x200B;](audience-qualification-events.md) | [成功指標と目標](success-metrics.md) | [競合管理](../conflict-prioritization/conflicts.md) | [頻度の上限設定](../conflict-prioritization/rule-sets.md) | [&#x200B; ジャーニー](testing-the-journey.md) | [&#x200B; アクティビティの最適化](optimize.md) | [反応イベント &#x200B;](reaction-events.md) | [&#x200B; アクティビティの待機](wait-activity.md)
+[ オーディエンスの選定イベント ](audience-qualification-events.md) | [成功指標と目標](success-metrics.md) | [競合管理](../conflict-prioritization/conflicts.md) | [頻度の上限設定](../conflict-prioritization/rule-sets.md) | [ ジャーニー](testing-the-journey.md) | [ アクティビティの最適化](optimize.md) | [反応イベント ](reaction-events.md) | [ アクティビティの待機](wait-activity.md)
+
++++ AI ナレッジリファレンス
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+* **TL;DR:**&#x200B;このガイドでは、Adobe Journey Optimizerでジャーニーの入口と出口の基準を定義、設定、最適化する方法について説明します。実際の例とベストプラクティスを用いて、適切なプロファイルを適切なタイミングで確実に提供します。
+
+**インテント：**
+
+* ジャーニーのイベントベース、オーディエンスベース、または属性ベースの入力条件を設定します
+* ジャーニーの完了、成功指標、非アクティビティタイムアウト、オーディエンスの失格などにもとづいて、出口基準を設定します
+* プロファイルがジャーニーを複数回入力できるかどうかを制御するために、再入力ルールを適用します
+* 競合管理と優先スコアを使用して重複するジャーニーを避ける
+* ジャーニーレポートを使用して、開封率と離脱率を監視および最適化したい
+
+**用語集：**
+
+* **エントリ条件**：顧客プロファイルがジャーニー&#x200B;*（製品固有）*&#x200B;にエントリする条件
+* **離脱条件**: プロファイルがいつ、どのように離脱するか、ジャーニーから削除されるかを定義する条件&#x200B;*（製品固有）*
+* **オーディエンスの選定**: プロファイルがリアルタイム *（製品固有）*&#x200B;でストリーミングオーディエンスに出入りしたときにトリガーするジャーニー入力メカニズム
+* **再エントリ**: プロファイルが同じジャーニーを複数回入力する機能。待機期間&#x200B;*（製品固有）*&#x200B;で設定可能
+* **頻度の上限**：指定された時間枠&#x200B;*（製品固有）*&#x200B;内にプロファイルが受信できるメッセージの数を制限するルール
+
+**ガードレール：**
+
+* プロファイルは、同じジャーニーに同時に複数回存在することはできません。
+* 再エントリは明示的に有効にする必要があります。デフォルトの再エントリ待機期間は5分で、最大91日です。
+* 高度なマルチジャーニー頻度管理では、個々の出口基準ではなく、ジャーニーの上限設定と調停を使用します。
+* ジャーニーの重複をプロアクティブに管理し、競合管理と優先スコアを使用して競合するジャーニーを解決する必要があります。
+
+**用語：**
+
+* 正規名：入力条件 – Acronym: n/a — バリエーション：入力条件、ジャーニートリガー
+* 正規名：離脱条件 – 頭字語：n/a – 変種：離脱条件、プロファイル削除ルール
+* 同義語：「audience disqualification」 = 「audience exit」（オーディエンスの失格）（離脱トリガー）
+* 混同しないでください：「新しいエントリに近い」≠「出口基準」 – 前者は新しいエントリをブロックします。出口基準は進行中のプロファイルを削除します
+
+**FAQ:**
+
+* **Q: プロファイルは同時に2回同じジャーニーに存在できますか？**  – いいえ、プロファイルは同時に同じジャーニーに存在できません。 プロファイル IDは、これを強制するためのキーとして使用されます。
+* **Q: プロファイルがジャーニーに再入力されるのを防ぐ方法を教えてください。** — ジャーニーのプロパティパネルで再エントリを無効にするか、条件を追加して、プロファイルが既に入力されているかどうかを確認します。
+* **Q：離脱条件とジャーニーのクローズの違いは何ですか？**  – 出口基準は、条件に基づいてライブジャーニーから個々のプロファイルを削除します。ジャーニーをクローズすると、現在のプロファイルを終了させながら、すべての新しいエントリが停止します。
+* **Q：複数のジャーニーで顧客との過剰コミュニケーションを停止するにはどうすればよいですか？**  – 頻度の上限ルールとジャーニーの上限と調停を使用して、クロスジャーニーのメッセージ制限を適用します。
+* **Q：離脱トリガーとしてのオーディエンス失格とは何ですか？** — プロファイルがターゲットオーディエンスセグメントの基準を満たさなくなった場合、コミュニケーションの関連性を維持するために、プロファイルはジャーニーから自動的に削除されます。
+
++++
