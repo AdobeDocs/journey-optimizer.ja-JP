@@ -27,10 +27,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
 workflow-type: tm+mt
-source-wordcount: 1154
-ht-degree: 84%
+source-wordcount: 1228
+ht-degree: 79%
 
 ---
 
@@ -135,3 +135,9 @@ Journey Optimizer では、データセットの内容をエクスポートす�
 | ジャーニーステップイベント | Journey Optimizer から生成され、レポートなどのサービスで使用されるすべてのジャーニーステップエクスペリエンスイベントをキャプチャします。 |
 | ジャーニー | ジャーニーの各ステップの情報を格納するメタデータのデータセット |
 | ODE DecisionEvents - 製品決定 | リクエストに基づいて決定を下すたびに、それを決定イベントとしてカウントします |
+
+## レポートデータセットとペイロードのメタデータマッピング {#reporting-payload-metadata-mapping}
+
+コードベースのエクスペリエンスと決定応答に関するカスタムレポートを作成するには、**`scopeDetails.correlationID`**&#x200B;を使用して、インタラクションデータまたはフィードバックデータを&#x200B;**AJO エンティティデータセット**&#x200B;に結合し、キャンペーン、ジャーニー、メッセージのメタデータを取得します。 **`exdRequestID`**&#x200B;を使用して、1つの決定リクエストを分析イベントに関連付けます。
+
+`correlationID`が見つからない場合（オーディエンスを保持する場合など）、文書化されていないペイロードフィールドをデコードする代わりに、書き出されたデータセットと文書化された結合キーを使用します。 [&#x200B; エンティティデータセットクエリの例](datasets-query-examples.md#entity-dataset)は、`correlationID`での結合方法を示しています。
