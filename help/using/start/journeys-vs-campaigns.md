@@ -11,26 +11,16 @@ keywords: ジャーニー, キャンペーン, 調整, 比較, 選択, 決定, �
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
 workflow-type: tm+mt
-source-wordcount: 1832
-ht-degree: 58%
+source-wordcount: 1904
+ht-degree: 55%
 
 ---
 
@@ -57,7 +47,7 @@ ht-degree: 58%
 
 >[!TIP]
 >
->**経験則：** リアルタイム ロジックを使用して、各顧客が自分のペースで移動する必要がありますか？ **ジャーニー**&#x200B;を使用します。 スケジュールに従ってメッセージをオーディエンスに送信する？ **アクションキャンペーン**&#x200B;を使用します。 API経由で外部システムからトリガーする場合、 **API トリガーのキャンペーン**&#x200B;を使用します。 複数のエンティティのデータ、正確な数、またはバッチキャンバスが必要ですか？ **オーケストレーションされたキャンペーン**&#x200B;を使用します。
+>**経験則：** リアルタイム ロジックを使用して、各顧客が自分のペースで移動する必要がありますか？ **ジャーニー**&#x200B;を使用します。 スケジュールに従ってメッセージをオーディエンスに送信する？ **アクションキャンペーン**&#x200B;を使用します。 API経由で外部システムから単一のメッセージをトリガーする場合は、 API送信イベントの後にマルチステップのオーケストレーションが必要な場合は、**API トリガーキャンペーン**&#x200B;または&#x200B;**単一イベントジャーニー**&#x200B;を使用します。 複数のエンティティのデータ、正確な数、またはバッチキャンバスが必要ですか？ **オーケストレーションされたキャンペーン**&#x200B;を使用します。
 
 ## 詳細な比較 {#detailed-comparison}
 
@@ -99,10 +89,10 @@ ht-degree: 58%
 * 複雑なマルチステップのロジックは必要ありません
 
 **外部システムによって即座にトリガーされるメッセージですか？**
-→ **API トリガーによるキャンペーンの使用**
-* API呼び出しを介してオンデマンドでトリガー
+→ **API トリガーのキャンペーン** （単一メッセージ）を使用&#x200B;**または単一イベントジャーニー** （マルチステップオーケストレーション）を使用
+* API呼び出しを介してオンデマンドでトリガー – キャンペーンは1つのメッセージを配信します。単一ジャーニーは、[Experience Platform取り込み](../event/additional-steps-to-send-events-to-journey.md)を介してイベントを取り込み、ジャーニーフロー全体を実行します
 * ペイロード主導のパーソナライゼーション
-* 複雑なマルチステップのロジックは必要ありません
+* マルチステップロジックが必要ない場合にキャンペーンを選択したり
 
 **高度なセグメント化を使用した複雑なバッチワークフロー？**
 → **オーケストレーションされたキャンペーンの使用**
@@ -121,7 +111,8 @@ ht-degree: 58%
 | 行動に基づいて非アクティブユーザーに再び関与 | ジャーニー | オーディエンスの選定によりトリガー、パーソナライズされたパス |
 | ビジネスイベントによりトリガーされる Flash セール | ジャーニー（ビジネスイベント） | 複数の顧客に影響を与えるリアルタイムトリガー |
 | 製品カタログの統合を含む季節のプロモーション | オーケストレーションキャンペーン | マルチエンティティデータ、複雑なセグメント化、正確なカウント |
-| API トリガートランザクションメッセージ | API トリガーキャンペーン | 外部システムのトリガー、即時配信 |
+| API トリガーによるトランザクションメッセージ（単回送信） | API トリガーキャンペーン | 外部システムトリガー、即時のワンショット配信 |
+| API トリガーのマルチステップフロー | ジャーニー（単一イベント） | 外部システムがAPIを介して単一イベントを送信し、ジャーニーオーケストレーションがフォローアップステップを実行する |
 | 予約ごとのマルチレベル送信 | オーケストレーションキャンペーン | マルチエンティティの関係、予約ごとに 1 つのメッセージ |
 
 ## 主な違いの説明 {#key-distinctions}
@@ -135,9 +126,9 @@ ht-degree: 58%
 * 待機アクティビティにより、パーソナライズされたタイミングが作成されます
 * 条件分岐により、プロファイルごとに一意のパスが作成されます
 * 組み込みのアクティブリスニング：定義された期間にわたり何も実行しないことで、明示的なイベントだけでなく、次のステップをトリガーにすることもできます。 [待機アクティビティについて説明](../building-journeys/wait-activity.md)
-* 頻度の上限設定：顧客がジャーニーにエントリしたり、ジャーニーからメッセージを受信したりできる頻度を制御します。 [&#x200B; ジャーニーの上限について説明します](../conflict-prioritization/journey-capping.md)
-* オーディエンスの割合による分割 – プロファイルをランダムな割合ベースのグループに分割し、ジャーニーパス全体でA/B実験を実施できます。 [&#x200B; パーセンテージ分割について説明](../building-journeys/condition-activity.md)
-* テストモード：ライブ公開前に、テストプロファイルを使用してジャーニーロジックとメッセージ配信を検証します。 [&#x200B; テストモードについて学ぶ](../building-journeys/testing-the-journey.md)
+* 頻度の上限設定：顧客がジャーニーにエントリしたり、ジャーニーからメッセージを受信したりできる頻度を制御します。 [ ジャーニーの上限について説明します](../conflict-prioritization/journey-capping.md)
+* オーディエンスの割合による分割 – プロファイルをランダムな割合ベースのグループに分割し、ジャーニーパス全体でA/B実験を実施できます。 [ パーセンテージ分割について説明](../building-journeys/condition-activity.md)
+* テストモード：ライブ公開前に、テストプロファイルを使用してジャーニーロジックとメッセージ配信を検証します。 [ テストモードについて学ぶ](../building-journeys/testing-the-journey.md)
 
 **フローの例：**
 
@@ -251,7 +242,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 | 待機アクティビティ | ✅ | ❌ | ❌ | ✅ |
 | 条件分岐 | ✅ | ❌ | ❌ | ✅ |
 | スケジュール済み実行 | ✅ | ✅ | ✅ | ✅ |
-| API トリガー | ❌ | ❌ | ✅ | ❌ |
+| API トリガー | ✅ （単一イベントのみ – API経由で送信されたイベント） | ❌ | ✅ | ❌ |
 | マルチエンティティデータ | ❌ | ❌ | ❌ | ✅ |
 | 正確な事前送信数 | ❌ | ❌ | ❌ | ✅ |
 | オンデマンドのセグメント化 | ❌ | ❌ | ❌ | ✅ |
@@ -313,6 +304,6 @@ Enrich with product data → Build segments → Send personalized offers → All
 >[!MORELIKETHIS]
 >
 >* [ジャーニータイプの比較](../building-journeys/journey.md#journey-types-comparison)
->* [&#x200B; キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [ キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
->* [&#x200B; オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [ オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
