@@ -11,12 +11,22 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 2289
@@ -50,7 +60,7 @@ ht-degree: 19%
 
 **購入後の注文の確認、誰かが購読した際のウェルカムメール、パスワードリセット通知、ログイン後のパーソナライゼーションに最適：**&#x200B;です。
 
-➡️ [ イベントについて学ぶ](../event/about-events.md) | [購読者へのメッセージのユースケース ](message-to-subscribers-uc.md) | [最初のジャーニーを作成](journey-gs.md)
+➡️ [&#x200B; イベントについて学ぶ](../event/about-events.md) | [購読者へのメッセージのユースケース &#x200B;](message-to-subscribers-uc.md) | [最初のジャーニーを作成](journey-gs.md)
 
 >[!TAB オーディエンスを読み取りジャーニー]
 
@@ -60,7 +70,7 @@ ht-degree: 19%
 
 **毎月のニュースレター、ターゲットセグメントに対するプロモーションキャンペーン、製品のお知らせ、定期的なリエンゲージメントシリーズ、季節ごとのマーケティングキャンペーンに最適です。**
 
-➡️ [ オーディエンスの読み取りに関する学習](read-audience.md) | [ オーディエンスの基本を学ぶ](../audience/about-audiences.md) | [最初のジャーニーを作成する](journey-gs.md)
+➡️ [&#x200B; オーディエンスの読み取りに関する学習](read-audience.md) | [&#x200B; オーディエンスの基本を学ぶ](../audience/about-audiences.md) | [最初のジャーニーを作成する](journey-gs.md)
 
 >[!TAB オーディエンスの選定ジャーニー]
 
@@ -70,7 +80,7 @@ ht-degree: 19%
 
 **最適な用途：** VIP層アップグレード通知、最初の購入のお祝いメッセージ、解約リスクアラート、ロイヤルティライフサイクルステージの移行。
 
-➡️ [ オーディエンス選定について学ぶ](audience-qualification-events.md) | [ オーディエンスの作成](../audience/creating-a-segment-definition.md) | [最初のジャーニーを作成](journey-gs.md)
+➡️ [&#x200B; オーディエンス選定について学ぶ](audience-qualification-events.md) | [&#x200B; オーディエンスの作成](../audience/creating-a-segment-definition.md) | [最初のジャーニーを作成](journey-gs.md)
 
 >[!TAB ビジネスイベントジャーニー]
 
@@ -80,7 +90,7 @@ ht-degree: 19%
 
 **最適な用途：**&#x200B;興味を示した顧客への低在庫アラート、フラッシュセールのお知らせ、値下げ通知、商品の再入荷アラート。
 
-➡️ [ ビジネスイベントについて学ぶ](../event/about-creating-business.md) | [ エントリ管理](entry-management.md) | [最初のジャーニーを作成](journey-gs.md)
+➡️ [&#x200B; ビジネスイベントについて学ぶ](../event/about-creating-business.md) | [&#x200B; エントリ管理](entry-management.md) | [最初のジャーニーを作成](journey-gs.md)
 
 >[!ENDTABS]
 
@@ -133,7 +143,7 @@ ht-degree: 19%
 | オーディエンスの選定アクティビティ（ジャーニー内） | ✅ | ✅ | ✅ | ✅ |
 | ジャンプアクティビティ | ✅ | ❌ | ❌ | ✅ |
 | **プロファイル管理** | | | | |
-| プロファイルの再エントリ | ✅ 設定可能 | ❌ デフォルトで実行ごとに1回（[ スケジュールされた実行時に繰り返し](read-audience.md#schedule)に強制的に再エントリ） | ✅設定可能（ジャーニー内のプロファイルは同じバージョンを再入力できません） | ✅ イベントごと |
+| プロファイルの再エントリ | ✅ 設定可能 | ❌ デフォルトで実行ごとに1回（[&#x200B; スケジュールされた実行時に繰り返し](read-audience.md#schedule)に強制的に再エントリ） | ✅設定可能（ジャーニー内のプロファイルは同じバージョンを再入力できません） | ✅ イベントごと |
 | 名前空間設定 | ✅ 必須 | ✅ オプション | ✅ 必須 | ✅ 必須 |
 | プロファイルキャップ | ✅ | ✅ | ✅ | ✅ |
 | **テストと最適化** | | | | |
