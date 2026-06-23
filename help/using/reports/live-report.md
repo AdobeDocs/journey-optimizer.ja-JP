@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: b36ce7a039c976d80f49292e73be23c9b011b568
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 93%
+source-wordcount: 603
+ht-degree: 85%
 
 ---
 
@@ -50,6 +50,10 @@ ht-degree: 93%
   ![](assets/report_campaign.png)
 
 Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](#list-of-components-live)を参照してください。
+
+>[!NOTE]
+>
+>ライブレポートとオールタイムレポートの間には、短期的な不一致が予想されます。 ライブレポートは、ほぼリアルタイムのデータフィードを使用します。一方、オールタイムレポートは、集約されたデータに依存しています。 矛盾が発生した場合は、2つのレポートを調整する前に最低2時間は考慮してください。通常、データはその時間枠内に集約ビューに反映されます。
 
 ## ダッシュボードのカスタマイズ {#modify-dashboard}
 

@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
+source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
-source-wordcount: 1161
-ht-degree: 70%
+source-wordcount: 1198
+ht-degree: 68%
 
 ---
 
@@ -162,6 +162,10 @@ Adobeでは標準で使用できないカスタムプロバイダー（Sinch、I
    ![](assets/verify-connection.png)
 
 API 資格情報を作成して設定した後、SMS メッセージの [Webhook のインバウンド設定](#webhook)を指定する必要があります。
+
+>[!TIP]
+>
+>サンドボックスごとに個別のエージェント設定（実稼動、開発など）を常に作成して管理します。 環境横断的なWebhook応答の問題を防ぐことができます。 サンドボックス間で同じAPI資格情報、Webhook、プロバイダーコールバック URL （RCS エージェントを含む）を再利用しないでください。
 
 ### カスタム SMS プロバイダーの認証オプション {#auth-options}
 
