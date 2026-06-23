@@ -11,27 +11,16 @@ keywords: テスト, ジャーニー, チェック, エラー, トラブルシ�
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 3075
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -46,8 +35,8 @@ ht-degree: 53%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
->title="ジャーニーのテスト"
->abstract="テストプロファイルにより、ジャーニーを公開する前にテストできます。 これにより、公開前に、個人がジャーニー内をどのように移動するかを分析し、トラブルシューティングを行うことができます。"
+>title="ジャーニーをテスト"
+>abstract="テストプロファイルを使用すると、公開前にジャーニーをテストできます。 これにより、公開前に、個人がジャーニー内をどのように移動するかを分析し、トラブルシューティングを行うことができます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="ジャーニーのドライラン"
 
 ジャーニーを作成したら、公開する前にテストできます。 [!DNL Adobe Journey Optimizer]は、テストプロファイルをジャーニーに沿って移動する際に、アクティブ化する前に潜在的なエラーを検出する方法として、「テストモード」を提供しています。 クイックテストを実行すると、ジャーニーが正しく動作することを確認できるので、自信を持って公開できます。
@@ -154,7 +143,7 @@ Adobe Experience Platformで既に作成した既存のテストプロファイ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="テストモードを設定"
->abstract="ジャーニーに複数のイベントが含まれている場合、ドロップダウンリストを使用してイベントを選択します。 イベントごとに、渡されるフィールドとイベント送信の実行が設定されます。"
+>abstract="ジャーニーに複数のイベントが含まれる場合は、ドロップダウンリストを使用してイベントを選択します。 各イベントに対して、渡されるフィールドと送信するイベントの実行が設定されます。"
 
 「**[!UICONTROL イベントをトリガー]**」ボタンを使用して、ユーザーがジャーニーにエントリできるようにするイベントを設定します。
 
