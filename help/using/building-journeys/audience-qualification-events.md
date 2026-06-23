@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2501
-ht-degree: 46%
+ht-degree: 51%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="オーディエンスの選定"
->abstract="プロファイルが[!DNL Adobe Experience Platform] オーディエンスに適格または離脱した場合のトリガージャーニーの開始または継続。 ストリーミングオーディエンスに推奨されます。バッチシナリオには、オーディエンスを読み取りアクティビティが使用されます。"
+>abstract="プロファイルが [!DNL Adobe Experience Platform] オーディエンスに適合または離脱した際に、ジャーニーの開始または継続をトリガーします。 ストリーミングのオーディエンス向けに推奨されます。バッチシナリオの場合は、オーディエンスを読み取りアクティビティが使用されます。"
 
 ## オーディエンスの選定イベントについて{#about-segment-qualification}
 
@@ -70,22 +70,22 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="ラベル"
->abstract="レポートモードとテストモードのログでこのアクティビティを識別するためのオプションのラベル。"
+>abstract="レポートモードとテストモードのログでアクティビティを識別するオプションのラベル。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="オーディエンス"
->abstract="ジャーニーが監視する[!DNL Adobe Experience Platform] オーディエンス。 プロファイルは、オーディエンスの適格性を判断する際に、オーディエンスを入力したり、先に進んだりします。 ストリーミングオーディエンスは推奨されるため、選定はリアルタイムで評価されます。"
+>abstract="ジャーニーが監視する [!DNL Adobe Experience Platform] オーディエンス。 プロファイルが、このオーディエンスに適合または離脱した際に、エントリまたは先に移動します。 リアルタイムで選定が評価されるので、ストリーミングオーディエンスをお勧めします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="動作"
->abstract="ジャーニーが反応するオーディエンスメンバーシップの変更を定義します。プロファイルがオーディエンスの対象となる（入力）場合、オーディエンスを離脱する（終了）場合、またはその両方が発生する。 この両者の意見に耳を傾けることで、メンバーシップのライフサイクル全体をカバーすることができます。一方、ひとつの選択肢では、ひとつの方向に焦点を当てることができます。"
+>abstract="プロファイルがオーディエンスに適合した際（エントリ）、離脱した際（離脱）またはその両方にジャーニーが反応するオーディエンスメンバーシップの変更を定義します。 両方をリッスンすると、完全なメンバーシップのライフサイクルを対象にできます。一方、単一のオプションをリッスンすると、ジャーニーは一方向に制限されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="ID タイプ"
->abstract="オーディエンスの適格性を判断する際に、個人を認識するために使用されるID名前空間。 個人ベースのID名前空間のみが使用でき、このIDを持たないプロファイルはジャーニーにエントリできません。"
+>abstract="オーディエンスに適合する際に、個人を認識するために使用される ID 名前空間。 人物ベースの ID 名前空間のみを使用でき、この ID がないプロファイルはジャーニーにエントリできません。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"

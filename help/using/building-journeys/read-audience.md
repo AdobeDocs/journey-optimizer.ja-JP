@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 4780
-ht-degree: 46%
+ht-degree: 50%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="「オーディエンスを読み取り」アクティビティ"
->abstract="選択した[!DNL Adobe Experience Platform] オーディエンスのすべての適格プロファイルをこのジャーニーに追加します。 1回または1回のスケジュールで実行します。"
+>abstract="選択した [!DNL Adobe Experience Platform] オーディエンスのすべての認定プロファイルをこのジャーニーに追加します。 1 回またはスケジュールに従って実行します。"
 
 「**オーディエンスを読み取り**」アクティビティは、選択した[!DNL Adobe Experience Platform] オーディエンスのすべてのプロファイルをジャーニーに追加するジャーニーエントリポイントアクティビティです。 エントリは1回または定期的に実行できます。 APIおよび技術参照では、このアクティビティはセグメントトリガーまたはオーディエンスベースのジャーニーエントリとも呼ばれます。
 
@@ -100,12 +100,12 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="オーディエンス"
->abstract="プロファイルがこのジャーニーにエントリする[!DNL Adobe Experience Platform] オーディエンス。 すべての適格プロファイルが読み込まれます。 バッチオーディエンスは、信頼性が高く、一貫したカウントを使用することをお勧めします。アクティビティごとに読むことができるオーディエンスは1人のみです。"
+>abstract="プロファイルがこのジャーニーにエントリする [!DNL Adobe Experience Platform] オーディエンス。 すべての認定プロファイルが読み取られます。 信頼性が高く、一貫性のあるカウントには、バッチオーディエンスをお勧めします。アクティビティごとに読み取れるオーディエンスは 1 つのみです。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="名前空間"
->abstract="ジャーニーにエントリする個人を識別するために使用されるID （電子メール、ECIDなど）。 ピープルベースの名前空間のみが使用でき、このIDを持たないプロファイルは入力できません。 デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。"
+>abstract="ジャーニーにエントリする個人の識別に使用する ID（例：メール、ECID）。 人物ベースの ID 名前空間のみを使用でき、この ID がないプロファイルはエントリできません。 デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。"
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリを展開し、**[!UICONTROL オーディエンスをを読み取り]**&#x200B;アクティビティをキャンバスにドロップします。
 
@@ -183,17 +183,17 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="開始日時"
->abstract="ジャーニーがオーディエンスの読み取りを開始し、プロファイルが入力を開始する日時。 以下の繰り返しオプションと組み合わせて、繰り返し実行をスケジュールします。"
+>abstract="ジャーニーがオーディエンスの読み取りを開始し、プロファイルがエントリを開始する日時。 以下の繰り返しオプションと組み合わせて、繰り返し実行をスケジュールします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="繰り返しの期限"
->abstract="繰り返し実行が停止する日付。 この日付を過ぎると、ジャーニーはオーディエンスを読み取ったり、新しいプロファイルを送信したりしなくなります。"
+>abstract="繰り返し実行が停止する日付。 この日付を過ぎると、ジャーニーはオーディエンスを読み取ったり、新しいプロファイルを承認しなくなります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="繰り返し間隔"
->abstract="ジャーニーがオーディエンスを再読み取りし、再実行される頻度（毎日または毎週など）。 「繰り返し終了日」に達するまで、実行の繰り返し間隔を指定します。"
+>abstract="ジャーニーがオーディエンスを再読み取りし、再実行する頻度（例：毎日または毎週）。 「繰り返しの期限」の日付に達するまで、実行の繰り返し間隔を決定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -203,12 +203,12 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="再エントリを適用"
->abstract="新しいオーディエンスが読み込まれる前に、ジャーニーのすべての参加者がクリアされるため、実行が新たに開始されるたびにプロファイルが再入力されます。"
+>abstract="新しい各オーディエンスが読み取られる前に、ジャーニーのすべての参加者がクリアされるので、すべての実行が新規に開始され、プロファイルが各発生時に再エントリできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="バッチオーディエンス評価後のトリガー"
->abstract="バッチオーディエンスが新しく評価されるまで各実行を遅らせるため、ジャーニーは古いデータではなく最新のオーディエンススナップショットを読み取ります。 最新のセグメンテーション結果に依存する定期的なジャーニーに適しています。"
+>abstract="バッチオーディエンスが新たに評価されるまで各実行を遅延させるので、ジャーニーは古いデータの代わりに、最新のオーディエンススナップショットを読み取ります。 最新のセグメント化結果に依存する繰り返しジャーニーにお勧めです。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"

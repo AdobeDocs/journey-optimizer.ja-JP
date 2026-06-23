@@ -14,7 +14,7 @@ subfeature_v2:
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 1785
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_content_card"
 >title="コンテンツカードアクション"
->abstract="コンテンツカードのインバウンドアクションでは、プロファイルがジャーニーのこのステップに到達すると、そのプロファイルにコンテンツカードが表示されます。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するコンテンツカード設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。 このアクティビティの後、**Wait** ノードが自動的に挿入され（デフォルトでは3日間）、プロファイルにコンテンツカードを表示する時間が与えられます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>abstract="コンテンツカードインバウンドアクションでは、プロファイルがジャーニーのこの手順に到達した際に、コンテンツカードをプロファイルに表示します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するコンテンツカード設定を参照します。 「**最適化**」セクションでは、コンテンツ実験やターゲティングルールを含めることができます。 **待機**&#x200B;ノードは、このアクティビティの後に自動的に挿入されます（デフォルトでは 3 日間）。これにより、プロファイルにコンテンツカードを表示する時間が付与されます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの基本を学ぶ"
 
 
 コンテンツカードとは、モバイルアプリの専用サーフェス内で、プロモーション、お知らせ、レコメンデーションなどのパーソナライズされたコンテンツを直接表示する、インバウンドのアプリ内エクスペリエンスのことです。 割り込みメッセージとは異なり、ユーザーがメッセージを却下するか、配信ルールで非表示にするまで、アプリで使用できます。

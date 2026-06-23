@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 2277
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="ジャーニーの作成"
->abstract="ドラッグ&amp;ドロップ操作のキャンバスは、複数のチャネルをまたいでメッセージやアクションを編成し、コンテキストデータとオーディエンスのターゲティングを活用して、効果を最大化します。"
+>abstract="ドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="最初のジャーニーを作成"
 
 

@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 1776
-ht-degree: 79%
+ht-degree: 84%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"
 >title="Web アクション"
->abstract="web エクスペリエンスのインバウンドアクションでは、プロファイルがこのジャーニーのステップに到達すると、そのプロファイルにweb エクスペリエンスが表示されます。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するweb設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。 このアクティビティの後、**Wait** ノードが自動的に挿入され（デフォルトでは3日間）、プロファイルにweb エクスペリエンスを表示する時間が与えられます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>abstract="Web エクスペリエンスインバウンドアクションでは、プロファイルがジャーニーのこの手順に到達した際に、web エクスペリエンスをプロファイルに表示します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義する web 設定を参照します。 「**最適化**」セクションでは、コンテンツ実験やターゲティングルールを含めることができます。 **待機**&#x200B;ノードは、このアクティビティの後に自動的に挿入されます（デフォルトでは 3 日間）。これにより、プロファイルに web エクスペリエンスを表示する時間が付与されます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの基本を学ぶ"
 
 [!DNL Journey Optimizer] では、インバウンドのジャーニーまたはキャンペーンを通じて、顧客に提供する web エクスペリエンスをパーソナライズできます。
 

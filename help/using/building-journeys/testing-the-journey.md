@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 3075
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -46,8 +46,8 @@ ht-degree: 53%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
->title="ジャーニーのテスト"
->abstract="テストプロファイルにより、ジャーニーを公開する前にテストできます。 これにより、公開前に、個人がジャーニー内をどのように移動するかを分析し、トラブルシューティングを行うことができます。"
+>title="ジャーニーをテスト"
+>abstract="テストプロファイルを使用すると、公開前にジャーニーをテストできます。 これにより、公開前に、個人がジャーニー内をどのように移動するかを分析し、トラブルシューティングを行うことができます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="ジャーニーのドライラン"
 
 ジャーニーを作成したら、公開する前にテストできます。 [!DNL Adobe Journey Optimizer]は、テストプロファイルをジャーニーに沿って移動する際に、アクティブ化する前に潜在的なエラーを検出する方法として、「テストモード」を提供しています。 クイックテストを実行すると、ジャーニーが正しく動作することを確認できるので、自信を持って公開できます。
@@ -154,7 +154,7 @@ Adobe Experience Platformで既に作成した既存のテストプロファイ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="テストモードを設定"
->abstract="ジャーニーに複数のイベントが含まれている場合、ドロップダウンリストを使用してイベントを選択します。 イベントごとに、渡されるフィールドとイベント送信の実行が設定されます。"
+>abstract="ジャーニーに複数のイベントが含まれる場合は、ドロップダウンリストを使用してイベントを選択します。 各イベントに対して、渡されるフィールドと送信するイベントの実行が設定されます。"
 
 「**[!UICONTROL イベントをトリガー]**」ボタンを使用して、ユーザーがジャーニーにエントリできるようにするイベントを設定します。
 

@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 2428
-ht-degree: 52%
+ht-degree: 59%
 
 ---
 
@@ -82,21 +82,21 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="自動待機ノード"
->abstract="インバウンドチャネルアクション（アプリ内メッセージ、Web、コンテンツカード、コードベースのエクスペリエンス）の場合、アクションの後に&#x200B;**Wait** ノードが自動的に挿入されます（デフォルトでは3日間）。 これにより、プロファイルは、ジャーニーが次のステップに進む前に、インバウンドエクスペリエンスを確認する時間を確保できます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>abstract="インバウンドチャネルアクション（アプリ内メッセージ、web、コンテンツカード、コードベースのエクスペリエンス）の場合、アクションの後に&#x200B;**待機**&#x200B;ノードが自動的に挿入されます（デフォルトでは 3 日間）。 これにより、プロファイルは、ジャーニーが次の手順に進む前に、インバウンドエクスペリエンスを確認する時間を確保できます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの基本を学ぶ"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="最適化"
->abstract="「**最適化**」セクションでは、コンテンツ実験、ターゲティングルール、またはその両方をチャネルアクションに追加します。 バリエーションをテストし、各オーディエンスメンバーに最も効果的なコンテンツを配信することができます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="「最適化」アクティビティの使用"
+>abstract="「**最適化**」セクションでは、コンテンツ実験、ターゲティングルールまたはその両方をチャネルアクションに追加します。 これにより、様々なバリアントをテストし、各オーディエンスメンバーに対して最も効果的なコンテンツを配信できます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="最適化アクティビティの使用"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="多言語"
->abstract="「**多言語**」セクションでは、1つのジャーニー内で複数の言語のチャネルアクションコンテンツを配信します。 言語設定では、このアクションでサポートされるロケールとデフォルトの言語を定義します。"
+>abstract="「**多言語**」セクションでは、1 つのジャーニー内で、チャネルアクションコンテンツを複数の言語で配信します。 言語設定では、このアクションでサポートされるロケールとデフォルト言語を定義します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="多言語コンテンツの基本を学ぶ"
 
 
@@ -285,8 +285,8 @@ ht-degree: 52%
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
->title="複数のインバウンドアクションを追加"
->abstract="1つのジャーニーに、複数のインバウンドアクションを含めることができます。 この機能により、複数のコードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード、web アクションを、各アクションに特定のコンテンツを含めて、同時に異なる場所に配信できます。"
+>title="複数の受信アクションの追加"
+>abstract="1 つのジャーニーに、複数のインバウンドアクションを含めることができます。 この機能により、複数のコードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード、web アクションを、各アクションに特定のコンテンツを含めて、同時に異なる場所に配信できます。"
 
 ジャーニーオーケストレーションの簡素化に、1 つのジャーニーアクション内に複数のインバウンドアクションを定義できます。
 

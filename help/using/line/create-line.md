@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
 source-wordcount: 782
-ht-degree: 81%
+ht-degree: 94%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_line"
 >title="LINE アクション"
->abstract="LINE チャネルアクションは、プロファイルがジャーニーのこのステップに到達したときにLINE メッセージを送信します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは配信されるコンテンツを定義するLINE設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。また、**多言語** セクションには多言語のコンテンツを配信できます。アクションが失敗した場合、**タイムアウトまたはエラー** セクションには代替パスを定義できます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>abstract="LINE チャネルアクションでは、プロファイルがジャーニーのこの手順に到達した際に、LINE メッセージをプロファイルに送信します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは提供されるコンテンツを定義する LINE 設定を参照します。 「**最適化**」セクションでは、コンテンツ実験やターゲティングルールを含めることができ、「**多言語**」セクションでは、コンテンツを複数の言語で配信でき、「**タイムアウトまたはエラー**」セクションでは、アクションが失敗した場合に代替パスを定義できます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの基本を学ぶ"
 
 キャンペーンまたはジャーニーに LINE メッセージを追加する方法については、以下のタブを参照してください。
 

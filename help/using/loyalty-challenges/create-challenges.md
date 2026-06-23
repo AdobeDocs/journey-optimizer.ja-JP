@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: '2203'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
 >title="課題の詳細"
->abstract="チャレンジの名前と説明を設定します。 チャレンジ IDは、チャレンジの作成時に自動的に割り当てられ、APIまたは統合使用のためにコピーできます。"
+>abstract="課題の名前と説明を設定します。 課題 ID は、課題の作成時に自動的に割り当てられ、API または統合使用のためにコピーできます。"
 
 1. 「**[!UICONTROL チャレンジの詳細]**」セクションで、次の項目を定義します。
 
@@ -109,7 +109,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="オーディエンス"
->abstract="チャレンジに参加できる人を選びます。 Adobe Experience Platform オーディエンスを追加するか、オーディエンスを空のままにして、すべてのロイヤルティメンバーが対象になります。 必要に応じて、他の課題の完了を前提条件として要求します。"
+>abstract="課題に参加できるユーザーを選択します。 Adobe Experience Platform オーディエンスを追加するか、オーディエンスを空のままにすると、すべてのロイヤルティメンバーが実施要件を満たします。 オプションで、前提条件として他の課題の完了が必要です。"
 
 ロイヤルティへの取り組みに参加できる登録者を定義。
 
@@ -124,7 +124,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="課題スケジュール"
->abstract="開始と終了の日時とタイムゾーンを使用して、チャレンジがライブになるタイミングを設定します。 タスク完了ウィンドウで、チャレンジ期間中に顧客がタスクを完了できるタイミングを選択します。"
+>abstract="開始日時、終了日時、タイムゾーンを使用して、課題がライブになるタイミングを設定します。 タスク完了ウィンドウで、課題期間中に顧客がタスクを完了できるタイミングを選択します。"
 
 チャレンジの実行時に設定します。
 

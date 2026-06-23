@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
 source-wordcount: 1178
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="実施要件を満たす品目と除外品目"
->abstract="**購入**&#x200B;と&#x200B;**支出**&#x200B;の両方のアクティビティに対して、**[!UICONTROL 実施要件のあるアイテムと除外]**&#x200B;属性を使用して、タスクの完了にカウントするアイテムとグループ、および除外されるアイテムを選択します。 管理者が設定した製品インベントリからアイテムまたはグループを検索し、必要に応じてそれらを含めるか除外します。"
+>abstract="**購入**&#x200B;と&#x200B;**支出**&#x200B;の両方のアクティビティで、**[!UICONTROL 実施要件を満たす品目と除外品目]**&#x200B;属性を使用すると、タスク完了にカウントされる品目とグループ、および除外する品目とグループを選択できます。 管理者が設定した製品在庫から品目またはグループを検索し、必要に応じて含めるか除外します。"
 
 <!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 

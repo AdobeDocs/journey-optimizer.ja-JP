@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
 source-wordcount: 1094
-ht-degree: 64%
+ht-degree: 73%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_push"
 >title="プッシュ通知アクション"
->abstract="プッシュ通知チャネルアクションは、このジャーニーのステップに達すると、プロファイルにプッシュ通知を送信します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは配信されるコンテンツを定義するプッシュ設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。また、**多言語** セクションには多言語のコンテンツを配信できます。アクションが失敗した場合、**タイムアウトまたはエラー** セクションには代替パスを定義できます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>abstract="プッシュ通知チャネルアクションでは、プロファイルがジャーニーのこの手順に到達した際に、プッシュ通知をプロファイルに送信します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは提供されるコンテンツを定義するプッシュ設定を参照します。 「**最適化**」セクションでは、コンテンツ実験やターゲティングルールを含めることができ、「**多言語**」セクションでは、コンテンツを複数の言語で配信でき、「**タイムアウトまたはエラー**」セクションでは、アクションが失敗した場合に代替パスを定義できます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの基本を学ぶ"
 
 
 >[!CONTEXTUALHELP]

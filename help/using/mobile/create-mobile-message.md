@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 889
-ht-degree: 34%
+ht-degree: 47%
 
 ---
 
@@ -55,9 +55,9 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_sms"
->title="モバイルメッセージアクション"
->abstract="モバイルメッセージチャネルアクションは、ジャーニーのこのステップに達すると、テキスト（SMS）、マルチメディア（MMS）、またはリッチコミュニケーション（RCS）メッセージをプロファイルに送信します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは配信されるコンテンツを定義するモバイルメッセージ設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。また、**多言語** セクションには多言語のコンテンツを配信できます。アクションが失敗した場合、**タイムアウトまたはエラー** セクションには代替パスを定義できます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>title="モバイルメッセージアクション。"
+>abstract="モバイルメッセージチャネルアクションでは、プロファイルがジャーニーのこの手順に到達した際に、テキスト（SMS）、マルチメディア（MMS）またはリッチコミュニケーション（RCS）メッセージをプロファイルに送信します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは提供されるコンテンツを定義するモバイルメッセージ設定を参照します。 「**最適化**」セクションでは、コンテンツ実験やターゲティングルールを含めることができ、「**多言語**」セクションでは、コンテンツを複数の言語で配信でき、「**タイムアウトまたはエラー**」セクションでは、アクションが失敗した場合に代替パスを定義できます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの基本を学ぶ"
 
 キャンペーンまたはジャーニーにモバイルメッセージを追加する方法については、以下のタブを参照してください。
 

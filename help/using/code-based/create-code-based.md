@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 1029
-ht-degree: 72%
+ht-degree: 82%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_code_based"
 >title="コードベースのエクスペリエンスアクション"
->abstract="コードベースのエクスペリエンス インバウンドアクションは、プロファイルがジャーニーのこのステップに到達すると、コードベースのエクスペリエンスを提供します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するコードベースの設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。 このアクティビティの後、**Wait** ノードが自動的に挿入され（デフォルトでは3日間）、プロファイルにエクスペリエンスを表示する時間が与えられます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>abstract="コードベースのエクスペリエンスインバウンドアクションでは、プロファイルがジャーニーのこの手順に到達した際に、コードベースのエクスペリエンスをプロファイルに提供します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するコードベースの設定を参照します。 「**最適化**」セクションでは、コンテンツ実験やターゲティングルールを含めることができます。 **待機**&#x200B;ノードは、このアクティビティの後に自動的に挿入されます（デフォルトでは 3 日間）。これにより、プロファイルにエクスペリエンスを表示する時間が付与されます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの基本を学ぶ"
 
 [!DNL Journey Optimizer] では、ジャーニーまたはキャンペーンでコードベースのエクスペリエンスを作成できます。
 
