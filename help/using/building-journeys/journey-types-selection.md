@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
+source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
 workflow-type: tm+mt
-source-wordcount: 2055
-ht-degree: 25%
+source-wordcount: 2080
+ht-degree: 23%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 25%
 
 **購入後の注文の確認、誰かが購読した際のウェルカムメール、パスワードリセット通知、ログイン後のパーソナライゼーションに最適：**&#x200B;です。
 
-➡️ [イベントの詳細情報](../event/about-events.md) | [サブスクライバーへのメッセージのユースケース](message-to-subscribers-uc.md)
+➡️ [&#x200B; イベントについて学習](../event/about-events.md) | [購読者へのメッセージのユースケース &#x200B;](message-to-subscribers-uc.md) | [単一イベントジャーニーを構築](#build-unitary-event)
 
 >[!TAB オーディエンスを読み取りジャーニー]
 
@@ -70,7 +70,7 @@ ht-degree: 25%
 
 **毎月のニュースレター、ターゲットセグメントに対するプロモーションキャンペーン、製品のお知らせ、定期的なリエンゲージメントシリーズ、季節ごとのマーケティングキャンペーンに最適です。**
 
-➡️ [オーディエンスを読み取りの詳細情報](read-audience.md) | [オーディエンスの基本を学ぶ](../audience/about-audiences.md)
+➡️ [&#x200B; オーディエンスの読み取りに関する学習](read-audience.md) | [&#x200B; オーディエンスの基本を学ぶ](../audience/about-audiences.md) | [&#x200B; オーディエンスの読み取りジャーニーを構築](#build-read-audience)
 
 >[!TAB オーディエンスの選定ジャーニー]
 
@@ -80,7 +80,7 @@ ht-degree: 25%
 
 **最適な用途：** VIP層アップグレード通知、最初の購入のお祝いメッセージ、解約リスクアラート、ロイヤルティライフサイクルステージの移行。
 
-➡️ [オーディエンスの選定の詳細情報](audience-qualification-events.md) | [オーディエンスの作成](../audience/creating-a-segment-definition.md)
+➡️ [&#x200B; オーディエンス選定について学ぶ](audience-qualification-events.md) | [&#x200B; オーディエンスの作成](../audience/creating-a-segment-definition.md) | [&#x200B; オーディエンス選定ジャーニーの構築](#build-audience-qualification)
 
 >[!TAB ビジネスイベントジャーニー]
 
@@ -90,7 +90,7 @@ ht-degree: 25%
 
 **最適な用途：**&#x200B;興味を示した顧客への低在庫アラート、フラッシュセールのお知らせ、値下げ通知、商品の再入荷アラート。
 
-➡️ [ビジネスイベントの詳細情報](../event/about-creating-business.md) | [エントリ管理](entry-management.md)
+➡️ [&#x200B; ビジネスイベントについて学ぶ](../event/about-creating-business.md) | [&#x200B; エントリ管理](entry-management.md) | [&#x200B; ビジネスイベント ジャーニーを構築](#build-business-event)
 
 >[!ENDTABS]
 
@@ -174,7 +174,9 @@ ht-degree: 25%
 
 ## 次の手順 {#next-steps}
 
-ジャーニータイプを理解したので、次の準備が整いました。
+各テーブルには、そのジャーニータイプの設定から管理までの手順が一覧表示されます。
+
+### 単一イベントジャーニー {#build-unitary-event}
 
 * **[最初のジャーニーの作成](journey-gs.md)** - ステップバイステップガイド
 * **[ジャーニーデザイナーについて学ぶ](using-the-journey-designer.md)** - ジャーニーキャンバスのデザイン
