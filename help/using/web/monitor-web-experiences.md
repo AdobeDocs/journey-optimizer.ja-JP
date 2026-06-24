@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
-source-wordcount: 317
-ht-degree: 90%
+source-wordcount: 366
+ht-degree: 79%
 
 ---
 
@@ -46,6 +46,11 @@ Web エクスペリエンスがライブになったら、[ジャーニーリポ
 Web エクスペリエンスの監視をさらに強化するには、web サイトの特定の要素に対するクリック数を追跡することもできます。 これにより、web レポートにその要素のクリック数を表示できます。 [方法についてはこちらを参照](#use-click-tracing)
 
 ## クリックの追跡を使用 {#use-click-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_click_tracking"
+>title="クリックの追跡を使用"
+>abstract="web ページのあらゆる要素のクリックを追跡して、ユーザーのインタラクションを監視できます。 要素を選択し、コンテキストメニューから「**要素を追跡**」を選択して、意味のあるラベルを追加します。 追跡されたデータはweb レポートに表示され、ユーザーがコンテンツにどのようにエンゲージしているのかを把握するのに役立ちます。"
 
 Web designer を使用すると、web サイトの任意の要素を選択し、その要素に対するクリック数をトラックできます。
 
