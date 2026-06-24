@@ -11,9 +11,9 @@ keywords: テスト, ジャーニー, チェック, エラー, トラブルシ�
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -206,6 +206,10 @@ ht-degree: 0%
 **[!UICONTROL シミュレーション]**&#x200B;でジャーニーを検証したら、**[!UICONTROL 結果]** ログを確認します。 エラーが表示された場合は、**[!UICONTROL シミュレーション]**&#x200B;を終了し、必要な変更をジャーニーに適用し、実行が正しく表示されるまで&#x200B;**[!UICONTROL シミュレーション]**&#x200B;を再度実行します。 そして、ジャーニーを公開することができます。 「[&#x200B; ジャーニーを公開する](../building-journeys/publish-journey.md)」を参照してください。
 
 ## イベントのトリガー {#firing-events}
+
+>[!NOTE]
+>
+>Simulationでトリガーされたイベントは、次のラベルが付いたAdobe Experience Platformの専用データセットに保存されます：``JOtestmode - <schema of your event>``。
 
 ジャーニーに1つ以上の単一イベントが含まれている場合は、シミュレーションがアクティブな間にトリガーできます。 イベントから開始せず、イベントを含むジャーニーの場合、シミュレートされたユーザーがジャーニーに入るまで、このセクションは表示されません。
 
