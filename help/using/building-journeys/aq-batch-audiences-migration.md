@@ -10,8 +10,12 @@ level: Intermediate
 hide: true
 keywords: オーディエンスの選定，バッチオーディエンス，非推奨，移行，読み取りオーディエンス，ストリーミングオーディエンス
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
 source-git-commit: 6560a168d3ea7c6c27b47829ac4158b6a69b5d88
 workflow-type: tm+mt
 source-wordcount: 874
@@ -59,15 +63,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->2024年11月以降、ストリーミングセグメンテーションでは、Journey Optimizer トラッキングデータセットからのイベントの送信と開封がサポートされなくなりました。 これらのイベントに基づくオーディエンスは、バッチモードで評価されるようになりました。 [ オーディエンス評価方法について詳しく見る](../audience/creating-a-segment-definition.md#evaluation-method-in-journey-optimizer)
+>2024年11月以降、ストリーミングセグメンテーションでは、Journey Optimizer トラッキングデータセットからのイベントの送信と開封がサポートされなくなりました。 これらのイベントに基づくオーディエンスは、バッチモードで評価されるようになりました。 [&#x200B; オーディエンス評価方法について詳しく見る](../audience/creating-a-segment-definition.md#evaluation-method-in-journey-optimizer)
 
 **推奨される代替案：**
 
 * **同じジャーニー**&#x200B;内の開封数またはクリック数に反応する – **[反応イベント](reaction-events.md)** ノードを使用します。 これは、同じジャーニー内で送信されたメッセージの開封数やクリック数に対応するために構築されており、別個のオーディエンスを必要としません。 [反応イベントを使用したエンドツーエンドの例を参照](journeys-uc.md#send-multi-channel-messages)
 
-* **クロスジャーニーのクリックターゲティング** — クリックイベントから[ ストリーミングオーディエンス ](../audience/creating-a-segment-definition.md#evaluation-method-in-journey-optimizer)を構築し、代わりにそのストリーミングオーディエンスでオーディエンス選定ノードを使用します。
+* **クロスジャーニーのクリックターゲティング** — クリックイベントから[&#x200B; ストリーミングオーディエンス &#x200B;](../audience/creating-a-segment-definition.md#evaluation-method-in-journey-optimizer)を構築し、代わりにそのストリーミングオーディエンスでオーディエンス選定ノードを使用します。
 
-* **バウンス ベースの抑制** — バウンスの動作をオーディエンス条件としてモデル化するのではなく、Journey Optimizerのネイティブ [抑制リスト ](../configuration/manage-suppression-list.md)を使用します。
+* **バウンス ベースの抑制** — バウンスの動作をオーディエンス条件としてモデル化するのではなく、Journey Optimizerのネイティブ [抑制リスト &#x200B;](../configuration/manage-suppression-list.md)を使用します。
 
 * **残りの送信/開封ロジック** – スケジュールされた実行時に&#x200B;**[オーディエンスの読み取り](read-audience.md)** ジャーニーに切り替えて、バッチオーディエンスを安全に処理します。
 
@@ -78,7 +82,7 @@ ht-degree: 0%
 
 **推奨される代替案：**
 
-バッチオーディエンスの評価&#x200B;]**オプションを有効にした後、**[!UICONTROL &#x200B;トリガーで&#x200B;**[オーディエンス](read-audience.md)** ジャーニーを使用します。 この組み込み機能は、セグメンテーションジョブが完了するまでジャーニーを実行し、その後、オーディエンス選定ノードを必要とせずに新しいデータが利用可能なときにすぐに開始します。 [このオプションの設定方法について説明します](read-audience.md#schedule)
+バッチオーディエンスの評価&#x200B;**オプションを有効にした後、**&#x200B;トリガーで&#x200B;**[オーディエンス](read-audience.md)** ジャーニーを使用します。 この組み込み機能は、セグメンテーションジョブが完了するまでジャーニーを実行し、その後、オーディエンス選定ノードを必要とせずに新しいデータが利用可能なときにすぐに開始します。 [このオプションの設定方法について説明します](read-audience.md#schedule)
 
 
 ### ユースケース 3 – 大規模な定期的バッチオーディエンスのアクティベーション {#use-case-3}
@@ -87,7 +91,7 @@ ht-degree: 0%
 
 **推奨される代替案：**
 
-**[オーディエンスの読み取り](read-audience.md)** ジャーニーを使用します。 これは、大規模なオーディエンスを一括処理し、プロファイルを管理されたバッチで処理し、より予測可能で信頼性の高いジャーニーを大規模に実行するために構築されています。 [ エンドツーエンドの例を参照](message-to-subscribers-uc.md)
+**[オーディエンスの読み取り](read-audience.md)** ジャーニーを使用します。 これは、大規模なオーディエンスを一括処理し、プロファイルを管理されたバッチで処理し、より予測可能で信頼性の高いジャーニーを大規模に実行するために構築されています。 [&#x200B; エンドツーエンドの例を参照](message-to-subscribers-uc.md)
 
 ## いずれかの選択肢が自社のユースケースに適していない場合は？ {#exceptions}
 
@@ -95,13 +99,13 @@ ht-degree: 0%
 
 ## 関連リソース {#related}
 
-* [ オーディエンス選定イベント ](audience-qualification-events.md) – 完全な設定ガイドとガードレール
-* [ オーディエンスアクティビティの読み取り](read-audience.md) – スケジュールされたバッチオーディエンスエントリの設定方法
-* [ リアクションイベント ](reaction-events.md) – 同じジャーニー内の開封数とクリック数に対応する方法
-* [ オーディエンス評価方法](../audience/creating-a-segment-definition.md#evaluation-method-in-journey-optimizer) — バッチ、ストリーミング、およびエッジセグメント化の説明
-* [ オーディエンスについて](../audience/about-audiences.md) — オーディエンスの種類とJourney Optimizerでの構築方法
+* [&#x200B; オーディエンス選定イベント &#x200B;](audience-qualification-events.md) – 完全な設定ガイドとガードレール
+* [&#x200B; オーディエンスアクティビティの読み取り](read-audience.md) – スケジュールされたバッチオーディエンスエントリの設定方法
+* [&#x200B; リアクションイベント &#x200B;](reaction-events.md) – 同じジャーニー内の開封数とクリック数に対応する方法
+* [&#x200B; オーディエンス評価方法](../audience/creating-a-segment-definition.md#evaluation-method-in-journey-optimizer) — バッチ、ストリーミング、およびエッジセグメント化の説明
+* [&#x200B; オーディエンスについて](../audience/about-audiences.md) — オーディエンスの種類とJourney Optimizerでの構築方法
 * [抑制リストの管理](../configuration/manage-suppression-list.md) — バウンス抑制にアクセスして設定する方法
 * [ジャーニーのガードレールと制限事項](limitations.md)
 * [ジャーニーの入口と出口の基準](entry-exit-criteria-guide.md) – 実際の例を使用して、リアルタイムとバッチの入口パターンを理解します
-* [ マルチチャネル メッセージを送信](journeys-uc.md#send-multi-channel-messages) – 読み取りオーディエンス、反応イベント、電子メール、プッシュを組み合わせたエンドツーエンドのユースケース
+* [&#x200B; マルチチャネル メッセージを送信](journeys-uc.md#send-multi-channel-messages) – 読み取りオーディエンス、反応イベント、電子メール、プッシュを組み合わせたエンドツーエンドのユースケース
 * [購読者にメッセージを送信](message-to-subscribers-uc.md) — オーディエンスを読み取り機能を使用したオーディエンスの一括アクティベーションのエンドツーエンドのユースケース
