@@ -9,29 +9,15 @@ level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 95%
+source-wordcount: 1326
+ht-degree: 78%
 
 ---
 
@@ -47,9 +33,11 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 ## ガードレールと制限
 
-* 2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。 フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。 詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ja){target="_blank"}を参照してください。
+* 2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。 フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。 詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}を参照してください。
 
 * 2025年2月以降、Journey Optimizer システム生成データセットに対して、有効期間（TTL）ガードレールがロールアウトされます。 [詳細情報](datasets-ttl.md)
+
+* プロファイルのデータセットを有効にすると、スキーマレベルで永続的な影響を受けます。 有効にする前に、スキーマとID設計を慎重に計画してください。 [詳細情報](#profile-datasets)
 
 ## データセットへのアクセス {#access}
 
@@ -116,7 +104,22 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 このビデオでは、データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法について説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416782?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
+
+## プロファイルのデータセットを有効にする {#profile-datasets}
+
+データセットを作成する場合、データセットを有効にして[ リアルタイム顧客プロファイル ](../audience/get-started-profiles.md)に貢献できます。 これにより、含まれるデータを[!DNL Journey Optimizer]のセグメント化、パーソナライゼーション、ジャーニー条件に使用できます。
+
+有効にする前に、次の点に注意してください。
+
+* **スキーマの有効化は永続的です。** データセットの基礎となるスキーマをプロファイルに対して有効にすると、これを元に戻すことはできません。スキーマを無効にしたり削除したりすることはできません。 個別に無効化または削除できるのは、データセット自体のみです。
+* **データセットを無効にすると、結果が発生します。** プロファイルのデータセットは、スキーマとは独立して無効または削除できますが、関連するプロファイルレコードが削除され、セグメント化とアクティベーションのワークフローが中断される可能性があります。
+* **有効にする前に設定を計画します。** プロファイルを有効にすると、ID フィールドとフィールドグループの選択を変更しにくくなります。 最初にスキーマデザインを確定します。
+
+詳しいガイダンスについては、Adobe Experience Platformのドキュメントを参照してください。
+
+* [ プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} —ID設定、フィールドグループの選択、データセットの目的の検証をカバーする事前イネーブルメントのチェックリスト。
+* [ プロファイル対応スキーマの管理](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} – 名前変更を含む、プロファイル対応スキーマの非推奨化に関するガイダンス。
 
 ## データガバナンス
 
@@ -140,3 +143,4 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 >* [データセットのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}
 >* [データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}
 >* [データ管理ライセンス使用権限のベストプラクティス](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [ プロファイル対応スキーマの管理](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
