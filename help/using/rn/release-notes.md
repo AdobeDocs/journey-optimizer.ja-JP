@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9f5c041e7bd0febf3ba08e68d5ae213bedfb8360
+source-git-commit: 61c97e285ca44c37cf517c608943dece9e2531c0
 workflow-type: tm+mt
-source-wordcount: 3520
+source-wordcount: 3525
 ht-degree: 26%
 
 ---
@@ -359,7 +359,7 @@ ht-degree: 26%
 <p>例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
 <p>詳しくは、<a href="../content-management/customizable-fragments.md#rich-text-visual">詳細ドキュメント</a>を参照してください。</p>
-<p>利用可能日：2026年6月下旬</p>
+<p>ご利用いただけます：2026年6月19日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -387,7 +387,7 @@ ht-degree: 26%
 
 * **画像からHTMLへのコンバーター** – 画像からHTMLへのコンバーター機能の新しいバージョンが利用可能になり、HTML生成の精度が向上しました。 このアップデートでは、より高度なLLM モデルを活用して、画像入力からより正確で信頼性の高いHTML出力を提供します。
 
-  ご利用いただけます：2026年6月18日（PT）
+  利用可能日：2026年6月下旬
 
 +++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
 
@@ -402,6 +402,7 @@ ht-degree: 26%
 <td>
 <p>Journey Optimizerでは、電子メールのレンダリング方法に影響を与えることなく、不要な空白、コメント、冗長なコードを削除して、電子メールのHTMLのサイズを縮小するオプションが追加されました。</p>
 <p>これにより、一部のメールプロバイダーがメッセージのフラグを立てたり却下したりするためのしきい値を回避することで、配信品質を向上させることができます。また、受信者の読み込み時間を短縮することもできます。</p>
+<p>利用可能日：2026年6月下旬</p>
 </td>
 </tr>
 </tbody>
