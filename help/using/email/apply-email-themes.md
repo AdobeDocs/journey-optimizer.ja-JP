@@ -11,27 +11,16 @@ level: Beginner, Intermediate
 keywords: メールテーマ, モジュール, 再利用性, ブランドの一貫性, メールデザイン, カスタム CSS, モバイルの最適化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 TQID: https://experienceleague.adobe.com/2zlrBZi84Uq475zZd5jzGki6NZuqTLJABh-G36VwNVA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 1776
-ht-degree: 89%
+source-wordcount: 1798
+ht-degree: 95%
 
 ---
 
@@ -78,11 +67,11 @@ ht-degree: 89%
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
-* テーマでカスタム web フォント（Google フォントを含む）を使用する場合は、多くのメールクライアントがサポートしていないことに注意してください。 あらゆるメールクライアントで読みやすさを確保するために、テーマで適切なフォールバックフォントを常に定義します。
+* テーマでカスタム web フォント（Google フォントを含む）を使用する場合は、多くのメールクライアントが対応していないことに注意してください。 あらゆるメールクライアントで読みやすさを確保するために、テーマには必ず適切なフォールバックフォントを定義してください。
 
-   * GmailとYahoo! HTML/CSSで指定したフォントファミリーに関係なく、外部のweb フォントを読み込まず、システムフォントにフォールバックします。
-   * GmailでサポートされているGoogle フォントは、RobotoとGoogle Sansのみです。
-   * *do*&#x200B;がWeb フォントをサポートしている電子メールクライアントには、Apple Mail、iOS Mail、Android Mail、Thunderbird、Outlook for macOSなどがあります。
+   * Gmail と Yahoo! HTML/CSS で指定したフォントファミリーに関係なく、外部の web フォントを読み込まず、システムフォントにフォールバックします。
+   * Gmail でサポートされている Google フォントは、Roboto と Google Sans のみです。
+   * Web フォントを&#x200B;*サポート*&#x200B;しているメールクライアントには、Apple Mail、iOS Mail、Android Mail、Thunderbird、Outlook for macOS などがあります。
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -132,7 +121,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >カスタム web フォントを選択する場合は、GmailやYahoo！などの多くのメールクライアントに注意してください。 外部web フォントはサポートしておらず、システムフォントにフォールバックします。 あらゆるメールクライアントでコンテンツが正しく表示されるように、フォールバックフォントを含めることを検討してください。 [詳細情報](#themes-guardrails)
+   >カスタム web フォントを選択する場合、Gmail や Yahoo! などの多くのメールクライアントでは、 外部 web フォントはサポートしておらず、システムフォントにフォールバックします。 あらゆるメールクライアントでコンテンツが正しく表示されるように、フォールバックフォントを含めることを検討してください。 [詳細情報](#themes-guardrails)
 
 1. 「**[!UICONTROL 間隔]**」タブで、リストから個々の要素を選択し、様々なコンポーネント間の間隔を適切に調整します。
 
@@ -246,11 +235,15 @@ ht-degree: 89%
 
 1. 「**[!UICONTROL Adobe テーマ]**」タブと「**[!UICONTROL マイテーマ]**」タブ間を移動して、フラグメントに互換性のあるテーマを（両方のタブから）最大 5 つ選択できます。
 
+   >[!NOTE]
+   >
+   >この制限は、互換性とパフォーマンス上の理由から適用されます。 **[!UICONTROL Adobeの既定のテーマ]**&#x200B;は削除できないため、追加で4つのカスタムテーマを選択できます。
+
    ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >メールコンテンツでフラグメントを使用する際は、このフラグメントに定義した[テーマを適用](#apply-themes-email)してください。 テーマを適用しないと、特に Outlook 2021 以前のバージョンで、表示の問題が発生する場合があります。
+   >メールコンテンツでこのフラグメントを使用する場合、メールテーマは、フラグメントに関連付けられたテーマのいずれかである必要があります。 テーマが一致しない場合、フラグメントの挿入はブロックされます。
 
 1. 「**[!UICONTROL 閉じる]**」をクリックします。
 
@@ -280,7 +273,7 @@ ht-degree: 89%
 
 1. テーマの名前を入力します。
 
-1. カラーバリエーションの追加やフォントの編集など、ゼロからテーマを作成する場合と同じように、必要に応じて独自の調整を行います。[方法を学ぶ](#create-and-edit-themes)
+1. カラーバリアントの追加やフォントの編集など、ゼロからテーマを作成する場合と同じように、必要に応じて独自の調整を行います。[詳細情報](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 
