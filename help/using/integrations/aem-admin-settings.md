@@ -119,4 +119,4 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
 マーケターがジャーニーやキャンペーンでコンテンツフラグメントを使用できるように、管理者がJourney OptimizerでAdobe Experience Manager Managed Services リポジトリの設定を行う方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492530?captions=jpn&quality=12)
