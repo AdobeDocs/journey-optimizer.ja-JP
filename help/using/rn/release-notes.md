@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d5e17c13efad1b99ee788fc5930f27e15ffdb337
+source-git-commit: 2f40bb1c966b677900e4b0eb643d8665e77c3423
 workflow-type: tm+mt
 source-wordcount: 3525
 ht-degree: 26%
@@ -389,7 +389,7 @@ ht-degree: 26%
 
 * **画像からHTMLへのコンバーター** – 画像からHTMLへのコンバーター機能の新しいバージョンが利用可能になり、HTML生成の精度が向上しました。 このアップデートでは、より高度なLLM モデルを活用して、画像入力からより正確で信頼性の高いHTML出力を提供します。
 
-  利用可能日：2026年6月下旬
+  ご利用いただけます：2026年6月18日（PT）
 
 +++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
 
