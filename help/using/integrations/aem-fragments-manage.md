@@ -6,14 +6,20 @@ description: AEM コンテンツフラグメントの管理方法について説
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d1a9bae1f9f981ed23261ad1fe38c9a61519543c
+source-git-commit: ce34eb885d85c6c0f81b477e155cb81547d53e03
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager コンテンツフラグメントの管理 {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Content Management Fragments リストからAEM コンテンツフラグメントを管理して、ステータスとメタデータをモニターし、ジャーニーとキャンペーンでフラグメントが使用されている場所を確認し、Experience Managerから公開された更新を同期し、Journey Optimizerを離れることなく編集するためにフラグメントを開きます。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Manager as a Cloud ServiceまたはManaged ServicesとAdobe Journey Optimizerを統合することで、AEM コンテンツフラグメントをコンテンツで使用し、Journey Optimizerから離れることなくフラグメントのステータスを確認できます。
 
@@ -44,13 +50,13 @@ Adobe Experience Manager as a Cloud ServiceまたはManaged ServicesとAdobe Jou
    * **[!UICONTROL バリエーション]**：現在、このフラグメントに対して表示されている公開済みのバリエーション。
    * **[!UICONTROL リポジトリ ID]**: Adobe Experience Managerのフラグメントのリポジトリ ID。
    * **[!UICONTROL AEM フラグメント ID]**:Adobe Experience Managerの一意のコンテンツフラグメント ID。
-   * **[!UICONTROL タグ]**: Adobe Experience Managerで割り当てられたタグ。組織とサンドボックスのセレクターにフラグメントが表示されるかどうかを判断するJourney Optimizerのイネーブルメントタグが含まれます。 [&#x200B; タグの作成と割り当て方法について説明します](aem-fragments.md#create-tag)
+   * **[!UICONTROL タグ]**: Adobe Experience Managerで割り当てられたタグ。組織とサンドボックスのセレクターにフラグメントが表示されるかどうかを判断するJourney Optimizerのイネーブルメントタグが含まれます。 [ タグの作成と割り当て方法について説明します](aem-fragments.md#create-tag)
    * **[!UICONTROL JSON プレビュー]**:Journey Optimizerが使用するフラグメントコンテンツの読み取り専用JSON構造。
 
 1. **[!UICONTROL 参照を検索]**&#x200B;で、タブを使用して、フラグメントを参照するジャーニー、キャンペーン、オーケストレーションされたキャンペーン、テンプレートを表示します。
 
    ![](assets/fragment-list-3.png)
 
-➡️ [&#x200B; コンテンツフラグメントの詳細](aem-fragments.md)
+➡️ [ コンテンツフラグメントの詳細](aem-fragments.md)
 
 

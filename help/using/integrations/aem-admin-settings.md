@@ -8,13 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, コンテンツフラグメント，管理，リポジトリ，認証，著者，公開
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -38,6 +36,8 @@ Adobe Journey Optimizerは&#x200B;**[!DNL Adobe Experience Manager as a Cloud Se
 > **[!UICONTROL AEM Integration]**&#x200B;は、リポジトリ設定&#x200B;**をサンドボックス**&#x200B;ごとに保存します。 各サンドボックスは独自の統合機能を保持し、サンドボックス間では適用されません。
 
 Journey Optimizerには、組織、サンドボックス、Adobe Experience Manager リポジトリごとに1つの統合機能が保存されます。 同じ組み合わせで新しい統合機能を保存すると、以前の設定が置き換えられ、最新の設定のみが保持されます。
+
+➡️ [ ビデオ ](#video)でAdobe Experience Manager Managed Serviceのこの機能を確認する
 
 リポジトリを設定するには：
 
@@ -109,3 +109,8 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
 この設定を保存すると、Journey Optimizerはその設定を現在のサンドボックスに保存します。 その後、**Content Advisor** セレクターでコンテンツを参照して選択する際に、そのリポジトリとその設定を使用できます。
 
+## チュートリアルビデオ {#video}
+
+マーケターがジャーニーやキャンペーンでコンテンツフラグメントを使用できるように、管理者がJourney OptimizerでAdobe Experience Manager Managed Services リポジトリの設定を行う方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
