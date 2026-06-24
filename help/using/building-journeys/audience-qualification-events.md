@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
 workflow-type: tm+mt
-source-wordcount: 2501
-ht-degree: 51%
+source-wordcount: 2552
+ht-degree: 50%
 
 ---
 
@@ -149,6 +149,10 @@ ht-degree: 51%
 この情報は瞬時に処理されます。 測定は、1秒あたり10,000件のイベントを受信したことを示しています。 エントリスパイクの計画を立て、可能な限り回避し、ジャーニーを準備して対処します。 ジャーニーの処理率とスループット制限について詳しくは、[この節](entry-management.md#journey-processing-rate)を参照してください。
 
 ### バッチオーディエンス {#batch-speed-segment-qualification}
+
+>[!CAUTION]
+>
+>**非推奨のお知らせ – 2026年8月**: **2026年8月**&#x200B;以降、Journey Optimizerは、**Audience Qualification** ノードでバッチオーディエンスを使用するすべてのジャーニーの公開をブロックします。 既存のライブジャーニーは影響を受けません。 この設定を持つ新しいジャーニー、ドラフトおよび重複したジャーニーは、2026年8月より前に更新する必要があります。 [&#x200B; ジャーニーを移行する方法について説明します](aq-batch-audiences-migration.md)
 
 バッチオーディエンスに対して「オーディエンスの選定」を使用する場合、エントリのピークは毎日の計算時に発生することに注意してください。 ピークの大きさは、1日に何人の個人がオーディエンスに出入りするかによって異なります。
 
