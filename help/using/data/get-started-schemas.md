@@ -26,10 +26,10 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 477
-ht-degree: 92%
+source-wordcount: 609
+ht-degree: 72%
 
 ---
 
@@ -76,6 +76,10 @@ Adobe Experience Platform には、2 つのタイプのスキーマがありま�
   ➡️ [リレーショナルスキーマとデータセットの管理方法を学ぶ](../orchestrated/gs-schemas.md)
 ➡️ [オーケストレーションキャンペーンの基本を学ぶ](../orchestrated/gs-schemas.md)
 
+>[!IMPORTANT]
+>
+>リアルタイム顧客プロファイルのスキーマを有効にすることは、永続的な決定です。有効にすると、スキーマを無効にしたり削除したりすることはできません。 そのスキーマ上に構築されたデータセットは、個別に無効化または削除できますが、そうすることで、関連するプロファイルレコードが削除され、セグメント化とアクティベーションのワークフローに影響を与える可能性があります。 有効にする前に、ID設定とフィールドグループの選択を確定します。 詳しいガイダンスについては、Adobe Experience Platform ドキュメントの「[&#x200B; プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}」および「[&#x200B; プロファイル対応スキーマの管理](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}」を参照してください。
+
 ## チュートリアルビデオ{#video-schema}
 
 標準スキーマの作成、フィールドグループの追加、カスタムフィールドグループの作成および設定の方法について説明します。
@@ -88,5 +92,7 @@ Adobe Experience Platform には、2 つのタイプのスキーマがありま�
 >* [スキーマとデータセットの作成およびデータの取り込みによる Journey Optimizer へのテストプロファイルの追加](../audience/creating-test-profiles.md)
 >* [XDM システムの概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}
 >* [データモデリングのベストプラクティス](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=ja){target="_blank"}
+>* [&#x200B; プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+>* [&#x200B; プロファイル対応スキーマの管理](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [Schema Registry API を使用したスキーマの作成](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=ja){target="_blank"}
 >* [スキーマエディターを使用した 2 つのスキーマ間の関係の定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=ja){target="_blank"}

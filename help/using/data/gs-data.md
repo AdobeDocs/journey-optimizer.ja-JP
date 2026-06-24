@@ -28,10 +28,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 2650
-ht-degree: 98%
+source-wordcount: 2696
+ht-degree: 96%
 
 ---
 
@@ -154,7 +154,8 @@ ID は、cookie ID、デバイス ID、メールアドレス、CRM ID など、�
 
 名前や連絡先情報、好みや関心、ライフサイクルステージや同意状態などの顧客属性をキャプチャするには、**XDM 個人プロファイルスキーマ**&#x200B;を作成します。 Web やアプリのイベント、購入、オフラインでのインタラクションなどの行動データとトランザクションデータをキャプチャするには、**XDM ExperienceEvent** スキーマを作成します。 該当する場合は、正しいフィールドを ID およびプロファイル属性としてマークします。
 
-➡️ [スキーマの詳細情報](get-started-schemas.md)
+➡️ [スキーマの詳細情報](get-started-schemas.md)\
+➡️ [&#x200B; プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -162,7 +163,9 @@ ID は、cookie ID、デバイス ID、メールアドレス、CRM ID など、�
 
 Adobe Experience Platform で、XDM スキーマに基づいてデータセットを作成し、リアルタイム顧客プロファイルに貢献する必要があるデータセットでプロファイルを有効にします。 Journey Optimizer で作成したシステム生成データセットがデータセットワークスペースに表示されていることを確認します。
 
-➡️[データセットの詳細情報](get-started-datasets.md)
+➡️[データセットの詳細情報](get-started-datasets.md)\
+➡️ [&#x200B; プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [&#x200B; プロファイル対応スキーマの管理](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
