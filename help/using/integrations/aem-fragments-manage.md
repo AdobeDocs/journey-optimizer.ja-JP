@@ -6,14 +6,20 @@ description: AEM コンテンツフラグメントの管理方法について説
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d1a9bae1f9f981ed23261ad1fe38c9a61519543c
+source-git-commit: ce34eb885d85c6c0f81b477e155cb81547d53e03
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager コンテンツフラグメントの管理 {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Content Management Fragments リストからAEM コンテンツフラグメントを管理して、ステータスとメタデータをモニターし、ジャーニーとキャンペーンでフラグメントが使用されている場所を確認し、Experience Managerから公開された更新を同期し、Journey Optimizerを離れることなく編集するためにフラグメントを開きます。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Manager as a Cloud ServiceまたはManaged ServicesとAdobe Journey Optimizerを統合することで、AEM コンテンツフラグメントをコンテンツで使用し、Journey Optimizerから離れることなくフラグメントのステータスを確認できます。
 
