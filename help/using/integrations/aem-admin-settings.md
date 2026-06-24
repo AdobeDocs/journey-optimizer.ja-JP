@@ -8,13 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, コンテンツフラグメント，管理，リポジトリ，認証，著者，公開
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -39,7 +37,7 @@ Adobe Journey Optimizerは&#x200B;**[!DNL Adobe Experience Manager as a Cloud Se
 
 Journey Optimizerには、組織、サンドボックス、Adobe Experience Manager リポジトリごとに1つの統合機能が保存されます。 同じ組み合わせで新しい統合機能を保存すると、以前の設定が置き換えられ、最新の設定のみが保持されます。
 
-➡️ [&#x200B; ビデオ &#x200B;](#video)でAdobe Experience Manager Managed Serviceのこの機能を確認する
+➡️ [ ビデオ ](#video)でAdobe Experience Manager Managed Serviceのこの機能を確認する
 
 リポジトリを設定するには：
 
@@ -49,23 +47,25 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
    ![](assets/aem-admin-settings-1.png)
 
-1. **[!DNL Adobe Experience Manager Managed Services]**&#x200B;を使用する場合は、**[!UICONTROL カスタム AMS リポジトリ ID]** フィールドに`adobecqms.net`で終わるリポジトリホスト名を入力します。
+1. 設定方法を選択します。
 
-   ![](assets/aem-admin-settings-6.png)
+   * **[!DNL Adobe Experience Manager Managed Services]** リポジトリの場合、**[!UICONTROL AMS リポジトリホスト名]** フィールドに`adobecqms.net`で終わるリポジトリホスト名を入力します。
 
-1. **[!DNL Adobe Experience as a Cloud Service]**&#x200B;を使用している場合は、設定するリポジトリを選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
+     ![](assets/aem-admin-settings-6.png)
 
-   さらに、**[!UICONTROL 表示]**&#x200B;をクリックして、このリポジトリにアクセスできます。
+   * **[!DNL Adobe Experience as a Cloud Service]**&#x200B;を使用している場合は、設定するリポジトリを選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 
-   >[!IMPORTANT]
-   >
-   >同じ組織、サンドボックス、およびリポジトリの新しい設定を保存すると、デフォルトの設定（**publish** リポジトリ）が&#x200B;**置換**&#x200B;されます。
+     さらに、**[!UICONTROL 表示]**&#x200B;をクリックして、このリポジトリにアクセスできます。
 
-   ![](assets/aem-admin-settings-2.png)
+     >[!IMPORTANT]
+     >
+     >同じ組織、サンドボックス、およびリポジトリの新しい設定を保存すると、デフォルトの設定（**publish** リポジトリ）が&#x200B;**置換**&#x200B;されます。
+
+     ![](assets/aem-admin-settings-2.png)
 
 1. **[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 
-1. 設定の選択：
+1. 以下のドロップダウンで設定を選択します。
 
    +++ 作成者専用の設定
 
@@ -74,6 +74,8 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
    ![](assets/aem-admin-settings-3.png)
 
    +++
+
+   </br>
 
    +++ インスタンス設定の公開
 
@@ -115,4 +117,4 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
 マーケターがジャーニーやキャンペーンでコンテンツフラグメントを使用できるように、管理者がJourney OptimizerでAdobe Experience Manager Managed Services リポジトリの設定を行う方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492530?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
