@@ -155,7 +155,7 @@ ID は、cookie ID、デバイス ID、メールアドレス、CRM ID など、�
 名前や連絡先情報、好みや関心、ライフサイクルステージや同意状態などの顧客属性をキャプチャするには、**XDM 個人プロファイルスキーマ**&#x200B;を作成します。 Web やアプリのイベント、購入、オフラインでのインタラクションなどの行動データとトランザクションデータをキャプチャするには、**XDM ExperienceEvent** スキーマを作成します。 該当する場合は、正しいフィールドを ID およびプロファイル属性としてマークします。
 
 ➡️ [スキーマの詳細情報](get-started-schemas.md)\
-➡️ [&#x200B; プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️ [&#x200B; プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +164,8 @@ ID は、cookie ID、デバイス ID、メールアドレス、CRM ID など、�
 Adobe Experience Platform で、XDM スキーマに基づいてデータセットを作成し、リアルタイム顧客プロファイルに貢献する必要があるデータセットでプロファイルを有効にします。 Journey Optimizer で作成したシステム生成データセットがデータセットワークスペースに表示されていることを確認します。
 
 ➡️[データセットの詳細情報](get-started-datasets.md)\
-➡️ [&#x200B; プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [&#x200B; プロファイル対応スキーマの管理](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [&#x200B; プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [&#x200B; プロファイル対応スキーマの管理](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
@@ -245,7 +245,7 @@ Journey Optimizer は、トラッキング、フィードバック、ジャー�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 **スキーマの基本を学ぶ**
 
@@ -255,7 +255,7 @@ Adobe Experience Platform で XDM スキーマを作成する方法、適切な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **データセットの操作**
 
@@ -265,7 +265,7 @@ Adobe Experience Platform で XDM スキーマを作成する方法、適切な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **データソースの設定**
 
@@ -275,7 +275,7 @@ Adobe Experience Platform で XDM スキーマを作成する方法、適切な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **Adobe Experience Platform データ（参照）の使用**
 
@@ -285,7 +285,7 @@ Adobe Experience Platform で XDM スキーマを作成する方法、適切な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **クエリの基本を学ぶ**
 
@@ -295,7 +295,7 @@ Adobe Experience Platform で XDM スキーマを作成する方法、適切な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 **プロファイルの基本を学ぶ**
 
@@ -305,7 +305,7 @@ Journey Optimizer でのリアルタイム顧客プロファイルの仕組み�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 **データの設定の概要チュートリアル**
 
@@ -315,7 +315,7 @@ Journey Optimizer でのリアルタイム顧客プロファイルの仕組み�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 **データセットの作成とデータの取り込みチュートリアル**
 
