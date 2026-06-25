@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 72%
+source-wordcount: 811
+ht-degree: 69%
 
 ---
 
@@ -111,6 +111,10 @@ ht-degree: 72%
 
    ➡️ [決定ポリシーの操作方法を説明します](create-decision.md)
 ➡️ コードベースのエクスペリエンスチャネルを介してオファーを正常に配信するには、[このセクション &#x200B;](../code-based/code-based-implementation-samples.md)の実装手順に従います。
+
+>[!NOTE]
+>
+>ジャーニーまたはキャンペーンを通じて決定を受け取ったプロファイルは、組織の&#x200B;**エンゲージ可能なプロファイル**&#x200B;のライセンス指標、およびその他のJourney Optimizer機能を通じてエンゲージされたプロファイルにカウントされます。 [&#x200B; エンゲージ可能なプロファイル数を監視](../audience/license-usage.md)
 
 ## 意思決定プロセス {#process}
 

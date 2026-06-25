@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 8836
+source-wordcount: 8876
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年6月 {#june-2026}
+
+* このコンセプトの信頼できる唯一の情報源として、新しい&#x200B;**エンゲージ可能なプロファイルとライセンス使用状況** セクションが&#x200B;**プロファイルの基本を学ぶ** ページに追加され、ターゲットを絞った参照がオーディエンス、キャンペーン、決定セクションに追加されました。 [詳細情報](../audience/get-started-profiles.md#engageable-profiles)
 
 * **分割** アクティビティのドキュメントが更新され、各サブセット設定で使用可能な&#x200B;**[!UICONTROL セグメントコード]** フィールドが文書化されました。これにより、トラッキングとレポートの目的で、各オーディエンスセグメントに一意のIDを割り当てることができます。 [詳細情報](../orchestrated/activities/split.md)
 

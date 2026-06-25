@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 97%
+source-wordcount: 1697
+ht-degree: 95%
 
 ---
 
@@ -190,6 +190,10 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 キャンペーンを使用する前に、以下の準備が整っていることを確認してください。
 
 * **オーディエンス** - キャンペーンを作成する前に、Adobe Experience Platform でオーディエンスを使用可能にする必要があります。 [オーディエンスの基本を学ぶ →](../audience/about-audiences.md)
+
+  >[!NOTE]
+  >
+  >キャンペーンによってエンゲージされたすべてのプロファイルは、組織の&#x200B;**エンゲージ可能プロファイル** ライセンス指標にカウントされます（12か月のウィンドウを繰り返し、サンドボックスごとに1回カウントされます）。 多くのオーディエンスまたは新しいオーディエンスに対してキャンペーンをアクティブ化すると、この数が大幅に増加する可能性があります。 [&#x200B; エンゲージ可能なプロファイル数を監視](../audience/license-usage.md)
 
 * **チャネル設定** - 使用するチャネルで、チャネル設定（プリセット）を作成し、使用可能にする必要があります。 [チャネル設定の指定 →](../configuration/channel-surfaces.md)
 

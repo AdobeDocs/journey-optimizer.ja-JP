@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 88%
+source-wordcount: 691
+ht-degree: 83%
 
 ---
 
@@ -99,6 +99,10 @@ Adobe Journey Optimizer には、マーケティング活動を強化する目�
 ## ジャーニーとキャンペーンのターゲットオーディエンス {#target-audiences}
 
 オーディエンスの準備が整ったら、ジャーニーの作成やキャンペーンの作成時にオーディエンスを選択し、関連するメッセージを適切なタイミングで適切な人物にリーチできます。 [詳しくは、Journey Optimizer の Audience Activation を参照してください](target-audiences.md)。
+
+>[!NOTE]
+>
+>ジャーニー、キャンペーン、意思決定アクティビティなど、オーディエンスのアクティベーションを通じてエンゲージされたプロファイルは、組織の&#x200B;**エンゲージ可能なプロファイル** ライセンス指標にカウントされます。 各プロファイルは、12か月間のローリング期間にわたって、サンドボックスごとに1回カウントされます。 [&#x200B; エンゲージ可能なプロファイル数を監視](license-usage.md)
 
 ## チュートリアルビデオ {#video}
 
