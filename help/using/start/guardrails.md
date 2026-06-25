@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 4590
-ht-degree: 95%
+source-wordcount: 4606
+ht-degree: 94%
 
 ---
 
@@ -167,7 +158,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 次のガードレールがジャーニーの[イベント](../event/about-events.md)に適用されます。
 
-* Journey Optimizer では、すべてのサンドボックスをまたいで、**1 秒あたり 5,000 件のインバウンドジャーニーイベント**&#x200B;のピーク量をサポートします。 この制限について詳しくは、[このページ](../event/about-events.md#event-thoughput)を参照してください。
+* Journey Optimizerでは、すべてのサンドボックスで、単一イベントの場合は&#x200B;**5,000個/秒**&#x200B;のインバウンドジャーニーイベント、読み取りオーディエンスベースのジャーニーイベントの場合は&#x200B;**5,000個/秒**&#x200B;のインバウンドジャーニーイベントをサポートしています。 この制限について詳しくは、[このページ](../event/about-events.md#event-thoughput)を参照してください。
 * イベントトリガージャーニーでは、ジャーニーの最初のアクションを処理するのに最大 **5 分**&#x200B;かかる場合があります。
 * システム生成イベントの場合、まず Journey Optimizer 内でカスタマージャーニーの開始に使用するストリーミングデータを設定して、一意のオーケストレーション ID を取得する必要があります。 このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングのペイロードに追加する必要があります。 この制限は、ルールベースのイベントには適用されません。
 * ビジネスイベントは、単一イベントやオーディエンスの選定アクティビティと組み合わせて使用することはできません。
