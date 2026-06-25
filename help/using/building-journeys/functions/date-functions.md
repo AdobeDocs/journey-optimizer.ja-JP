@@ -9,20 +9,15 @@ keywords: 日付, 関数, 式, ジャーニー, 時間
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
 workflow-type: tm+mt
-source-wordcount: 1275
-ht-degree: 65%
+source-wordcount: 1384
+ht-degree: 60%
 
 ---
 
@@ -446,6 +441,12 @@ true を返します。
 
 正確に 2 時間前の日時を返します。
 
+`nowWithDelta(1, "months", "Asia/Tokyo")`
+
+2026-01-31で評価すると、2026-02-28T...を返し、2026-05-31で評価すると、2026-06-30T...
+
+`nowWithDelta()`は暦月の算術を使用します。 目標月の日数が現在の曜日より少ない場合、その月の最後の有効な日に正規化されます。 関数は翌月にロールオーバーされません。
+
 +++
 
 ## setHours {#setHours}
@@ -611,5 +612,6 @@ true を返します。
 * **Q：過去に2時間オフセットした現在の時間を取得するにはどうすればよいですか？** — `nowWithDelta(-2, "hours")`を使用します。
 * **Q: `updateTimeZone`と`setHours`の違いは何ですか？** — `updateTimeZone`は同じ時刻を保持しますが、別のタイムゾーンで表現します。一方、`setHours`は実際に日時の値の時間コンポーネントを変更します。
 * **Q: `nowWithDelta`のタイムゾーンパラメーターをプロファイルフィールドにすることはできますか？**  – いいえ、タイムゾーン IDは文字列定数である必要があります。フィールド参照はサポートされていません。
+* **Q: `nowWithDelta()`が月と共に使用され、現在の日付が月末日である場合はどうなりますか？**  – 関数はカレンダー月算術を使用し、結果を目標月の最後の有効な日に正規化します。 例えば、1月31日に1か月を追加すると、3月3日ではなく2月28日が返されます。
 
 +++
