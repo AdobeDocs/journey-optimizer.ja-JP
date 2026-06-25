@@ -6,16 +6,13 @@ description: 調整されたキャンペーンでの分割アクティビティ�
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/kvuWf-Rg2zE7JVQ15LdG-CHG0JWWEn0B4OjHU4RbFSg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 96%
+source-wordcount: 876
+ht-degree: 91%
 
 ---
 
@@ -99,6 +96,8 @@ ht-degree: 96%
    1. 「**[!UICONTROL フィルターを作成]**」をクリックし、ルールビルダーを使用してフィルタリングルールを定義します（例えば、有効なメールアドレスを持つプロファイルを選択します）。
 
       ![](../assets/orchestrated-split-1.png)
+
+   1. 「**[!UICONTROL セグメントコード]**」フィールドに、ログのサブセットを識別するコードを入力します。 このコードはプロファイルデータとともに保存され、各セグメントのパフォーマンスを追跡および測定するために使用できます。 空のままにすると、サブセットラベルが自動的に使用されます。
 
    1. 選択したプロファイルの数を制限するには、**[!UICONTROL 制限を有効にする]**&#x200B;を有効にして、数値または割合を指定します。
 
