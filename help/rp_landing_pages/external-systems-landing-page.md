@@ -6,21 +6,21 @@ description: ジャーニーと外部システムの統合
 redpen-status: CREATED_||_2025-08-11_21-16-41
 exl-id: f61a2c42-f082-4eef-b890-8224357f215f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '214'
+workflow-type: ht
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
 
 # ジャーニーと外部システムの統合{#section-overview}
 
-Adobe Journey Optimizer でジャーニーを外部システムと統合すると、API やデータソースにシームレスに接続でき、スムーズなコミュニケーションと最適化されたパフォーマンスが確保されます。 キャッピングやスロットルを使用して API 呼び出しの割合を制限する場合、信頼性を確保するためにタイムアウトや再試行を管理する場合、カスタムアクションの処理能力を設定する場合でも、これらのツールはシステムの整合性を保護しながら効率を最大化するのに役立ちます。各概念は、互いに基づいて作成され、データフローを制御し、外部とのインタラクションを効果的に処理するための実用的な戦略を提供します。ニーズに合わせて堅牢でスケーラブルな統合を作成できるようにする主な手法とベストプラクティスについて詳しく説明します。
+Adobe Journey Optimizer でジャーニーを外部システムと統合すると、API やデータソースにシームレスに接続でき、スムーズなコミュニケーションと最適化されたパフォーマンスが確保されます。 キャッピングやスロットルを使用して API 呼び出しの割合を制限する場合、信頼性を確保するためにタイムアウトや再試行を管理する場合、カスタムアクションの処理能力を設定する場合でも、これらのツールはシステムの整合性を保護しながら効率を最大化するのに役立ちます。 各概念は、互いに基づいて作成され、データフローを制御し、外部とのインタラクションを効果的に処理するための実用的な戦略を提供します。 ニーズに合わせて堅牢でスケーラブルな統合を作成できるようにする主な手法とベストプラクティスについて詳しく説明します。
 
 ## ジャーニーと外部システムの統合
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 外部システム統合のベストプラクティス
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でジャーニーを外部システムと統合する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Capping API の概要および実装ガイド
 
@@ -40,7 +40,7 @@ Capping API を使用した外部システム統合のキャッピング設定�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Throttling API：設定および管理ガイド
 

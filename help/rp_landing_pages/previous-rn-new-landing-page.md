@@ -7,21 +7,21 @@ hide: true
 redpen-status: CREATED_||_2025-08-11_20-02-38
 exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '166'
+workflow-type: ht
+source-wordcount: '177'
 ht-degree: 100%
 
 ---
 
 # 以前のリリースノート{#section-overview}
 
-Adobe Journey Optimizer のリリースノートでは、カスタマージャーニーを高めるよう設計された最新機能、更新、機能強化のスナップショットを毎月提供しています。決定ツールによるエクスペリエンスのパーソナライズ、多言語オプションによるメッセージ作成の効率化、ジャーニードライランによるキャンペーンのテストなどを行う際に、これらの更新によって、顧客とのエンゲージメントがより効果的に行われるようにカスタマイズされます。各節では、RCS メッセージ、コンテンツ管理、AI 駆動型ツールなどの特定の進化に焦点が当てられているので、目標に最も関連する項目を簡単に特定できます。マーケティング戦略を最適化し革新するための新しい方法を深く掘り下げ、確認します。
+Adobe Journey Optimizer のリリースノートでは、カスタマージャーニーを高めるよう設計された最新機能、更新、機能強化のスナップショットを毎月提供しています。 決定ツールによるエクスペリエンスのパーソナライズ、多言語オプションによるメッセージ作成の効率化、ジャーニードライランによるキャンペーンのテストなどを行う際に、これらの更新によって、顧客とのエンゲージメントがより効果的に行われるようにカスタマイズされます。 各節では、RCS メッセージ、コンテンツ管理、AI 駆動型ツールなどの特定の進化に焦点が当てられているので、目標に最も関連する項目を簡単に特定できます。 マーケティング戦略を最適化し革新するための新しい方法を深く掘り下げ、確認します。
 
 ## 以前のリリースノート
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer リリースノート 2025
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer リリースノート 2025
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 2024年リリースノート
 

@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '405'
+workflow-type: ht
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
 
 # 日付{#section-overview}
 
-Adobe Journey Optimizer の日付関数を使用すると、時間関連データをシームレスに操作でき、現在の時刻、過去の間隔または今後の予測に基づいて動的な式を作成できます。特定の時間、日、年内にイベントが発生したかどうかを評価する必要がある場合や、タイムゾーンを調整してカスタムの日付コンポーネントを設定する必要がある場合でも、これらのツールを使用すると、時間データを正確に制御できます。「currentTimeInMillis」、「inLastDays」、「updateTimeZone」などの各関数は独自の目的を果たし、パーソナライズされたジャーニーを作成し、自信を持って決定を自動化できます。サブトピックでは、それぞれの異なる役割を確認し、ワークフローを効率化するためにこれらを組み合わせる方法を探ります。
+Adobe Journey Optimizer の日付関数を使用すると、時間関連データをシームレスに操作でき、現在の時刻、過去の間隔または今後の予測に基づいて動的な式を作成できます。 特定の時間、日、年内にイベントが発生したかどうかを評価する必要がある場合や、タイムゾーンを調整してカスタムの日付コンポーネントを設定する必要がある場合でも、これらのツールを使用すると、時間データを正確に制御できます。 「currentTimeInMillis」、「inLastDays」、「updateTimeZone」などの各関数は独自の目的を果たし、パーソナライズされたジャーニーを作成し、自信を持って決定を自動化できます。 サブトピックでは、それぞれの異なる役割を確認し、ワークフローを効率化するためにこれらを組み合わせる方法を探ります。
 
 ## Adobe Journey Optimizer の日付関数
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 currentTimeInMillis 関数リファレンス
 
@@ -31,7 +31,7 @@ currentTimeInMillis 関数リファレンス
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastDays 関数
 
@@ -41,7 +41,7 @@ inLastDays 関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastHours 関数の使用
 
@@ -51,7 +51,7 @@ inLastHours 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastMonths 関数の使用
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer で「inLastMonths」を使用して、ある日付が�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastYears 関数の使用
 
@@ -71,7 +71,7 @@ inLastYears 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inNextDays 関数
 

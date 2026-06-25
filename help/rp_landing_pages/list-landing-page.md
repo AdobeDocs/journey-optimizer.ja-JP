@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '361'
+workflow-type: ht
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
 
 # リスト{#section-overview}
 
-Adobe Journey Optimizer の「リスト」関数を使用すると、ワークフロー内でデータを操作および調整できるので、リストの整理、フィルタリング、分析が容易になり、特定の目標を達成できます。エントリの重複排除、特定の項目の取得、データの並べ替えや書式設定などが必要な場合でも、これらのツールはジャーニー作成プロセスを効率化するようにデザインされた様々な機能を提供します。「distinct」、「filter」、「sort」などの各関数は、明確な目的を果たし、これらを組み合わせることで、構造化データを操作する包括的なツールキットを提供します。実用的な例を探り、これらの機能でジャーニーの複雑な操作を簡素化する方法を見つけます。
+Adobe Journey Optimizer の「リスト」関数を使用すると、ワークフロー内でデータを操作および調整できるので、リストの整理、フィルタリング、分析が容易になり、特定の目標を達成できます。 エントリの重複排除、特定の項目の取得、データの並べ替えや書式設定などが必要な場合でも、これらのツールはジャーニー作成プロセスを効率化するようにデザインされた様々な機能を提供します。 「distinct」、「filter」、「sort」などの各関数は、明確な目的を果たし、これらを組み合わせることで、構造化データを操作する包括的なツールキットを提供します。 実用的な例を探り、これらの機能でジャーニーの複雑な操作を簡素化する方法を見つけます。
 
 ## Adobe Journey Optimizer のリスト関数
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「distinct」関数の使用
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer での「distinct」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctWithNull 関数 - Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ null エントリを含めながら、リストから個別の値またはオブ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「filter」関数の使用
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer での「filter」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での getListItem 関数の使用
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer での getListItem 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「in」関数の使用
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer での「in」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer の intersect 関数
 

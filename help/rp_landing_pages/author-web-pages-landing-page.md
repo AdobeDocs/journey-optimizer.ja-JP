@@ -6,21 +6,21 @@ description: Web ページの作成
 redpen-status: CREATED_||_2025-08-11_20-40-34
 exl-id: 6f1ce53e-ab5a-4c77-bbd6-fc049e3dc4f5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '272'
+workflow-type: ht
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
 
 # Web ページの作成{#section-overview}
 
-Adobe Journey Optimizer の強力なツールを使用して、web エクスペリエンスを作成、パーソナライズ、最適化する方法について説明します。Web designer を使用して視覚的に魅力的なページをデザインする場合でも、非ビジュアルエディターを使用して正確な変更を適用する場合でも、キャンペーンを管理および監視する場合でも、この節ですべてについて説明します。クリックの追跡を使用してユーザーエンゲージメントを強化し、コンテンツの更新を効率的に管理し、動的ビューを使用して単一ページアプリケーション（SPA）をカスタマイズする方法について説明します。各トピックは、目標に一致するシームレスでレスポンシブな、コンバージョンに焦点を当てた web エクスペリエンスを作成できるようにデザインされています。これらのツールが連携して web キャンペーンを強化する仕組みを探索してみましょう。
+Adobe Journey Optimizer の強力なツールを使用して、web エクスペリエンスを作成、パーソナライズ、最適化する方法について説明します。 Web designer を使用して視覚的に魅力的なページをデザインする場合でも、非ビジュアルエディターを使用して正確な変更を適用する場合でも、キャンペーンを管理およびモニタリングする場合でも、この節ですべてについて説明します。 クリックの追跡を使用してユーザーエンゲージメントを強化し、コンテンツの更新を効率的に管理し、動的ビューを使用して単一ページアプリケーション（SPA）をカスタマイズする方法について説明します。 各トピックは、目標に一致するシームレスでレスポンシブな、コンバージョンに焦点を当てた web エクスペリエンスを作成できるようにデザインされています。 これらのツールが連携して web キャンペーンを強化する仕組みを探索してみましょう。
 
 ## Web ページの作成
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Web designer を使用したコンテンツの編集
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の視覚的な web designer を使用して、web ペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 非ビジュアルエディターを使用した web コンテンツの編集
 
@@ -40,7 +40,7 @@ CSS セレクターの追加、ヘッドコンテンツの変更、クリック�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer での web 変更の管理
 
@@ -50,17 +50,17 @@ CSS セレクター、カスタムコード、コード管理のベストプラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Web エクスペリエンスの監視
 
 レポートとクリックの追跡を使用して web エンゲージメントを監視し、パフォーマンスとユーザーインタラクションを最適化する方法について説明します。
 
-[Web エクスペリエンスの監視の開始](../using/web/monitor-web-experiences.md)
+[Web エクスペリエンスのモニタリングの開始](../using/web/monitor-web-experiences.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer で単一ページアプリケーションを作成する方法
 

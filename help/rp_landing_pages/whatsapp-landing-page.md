@@ -6,21 +6,21 @@ description: WhatsApp
 redpen-status: CREATED_||_2025-08-11_20-44-12
 exl-id: 43d23d66-7c15-42e2-94ff-3dc80927d07a
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '189'
+workflow-type: ht
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
 
 # WhatsApp{#section-overview}
 
-Adobe Journey Optimizer を使用すると、リアルタイムのパーソナライズされたコミュニケーションに最適なチャネルである WhatsApp でオーディエンスとつながることができます。この機能を使用すると、更新情報、プロモーション、重要な情報などを送信する場合でも、Meta の Cloud API を使用して WhatsApp をキャンペーンやジャーニーにシームレスに統合できます。Meta のポリシーに準拠しながら、チャネルの設定方法、魅力的なメッセージの作成方法、コンテンツのプレビューと検証方法、スムーズな配信方法について説明します。前のトピックに基づいて作成されています。これにより、影響力のある顧客エンゲージメントを実現する WhatsApp メッセージを習得する明確な手順のパスが提供されます。
+Adobe Journey Optimizer を使用すると、リアルタイムのパーソナライズされたコミュニケーションに最適なチャネルである WhatsApp でオーディエンスとつながることができます。 この機能を使用すると、更新情報、プロモーション、重要な情報などを送信する場合でも、Meta の Cloud API を使用して WhatsApp をキャンペーンやジャーニーにシームレスに統合できます。 Meta のポリシーに準拠しながら、チャネルの設定方法、魅力的なメッセージの作成方法、コンテンツのプレビューと検証方法、スムーズな配信方法について説明します。 前のトピックに基づいて作成されています。これにより、影響力のある顧客エンゲージメントを実現する WhatsApp メッセージを習得する明確な手順のパスが提供されます。
 
 ## WhatsApp ドキュメント
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 WhatsApp メッセージの基本を学ぶ
 
@@ -30,7 +30,7 @@ WhatsApp メッセージの基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 WhatsApp チャネルの設定
 
@@ -40,7 +40,7 @@ WhatsApp チャネルの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 WhatsApp メッセージの作成
 
@@ -50,7 +50,7 @@ WhatsApp メッセージの作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
 
 WhatsApp メッセージのプレビュー、検証、送信
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
 source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**このページでは：**&#x200B;受信トレイ チャネルが、アプリまたはweb サイト内の1つの永続的な場所にマーケティングメッセージを保存し、ユーザーが自分の都合に合わせて読み取りに戻って行動できるようにする方法を説明します。
+**このページ：**&#x200B;インボックスチャネルでマーケティングメッセージをアプリや web サイト内の永続的な場所に保持する仕組みについて説明します。これにより、ユーザーが自分の都合に合わせて、これらのメッセージに戻り、アクションを実行できます。
 
 >[!ENDSHADEBOX]
 

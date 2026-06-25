@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: システムと環境を接続する
-description: システムと環境を接続する
+title: システムと環境の接続
+description: システムと環境の接続
 redpen-status: CREATED_||_2025-08-11_21-18-12
 exl-id: fe784f79-f8a2-4091-a5f0-3e44a1838c1c
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '278'
+workflow-type: ht
+source-wordcount: '304'
 ht-degree: 100%
 
 ---
 
 # システムと環境の接続{#section-overview}
 
-Adobe Journey Optimizer を使用すると、システムと環境をシームレスに接続し、すべてのステップで適切なデータとツールを用いてカスタマージャーニーを拡充できます。他のアドビソリューションやサードパーティプラットフォームと統合する場合や、API を活用する場合のいずれであっても、ワークフローを統合し、エクスペリエンスをパーソナライズし、プロセスを効率化する方法を確認できます。サンドボックスを使用した環境の管理、データエンリッチメント用の外部システムのリンク、スマートなマーケティング用の AI 駆動型インサイトのアクティブ化などのトピックについて掘り下げます。各項は、新しい可能性を解き放ち、接続されたエコシステムをまたいで一貫性のある影響力のあるカスタマーエクスペリエンスをより簡単に作成できるようにデザインされています。
+Adobe Journey Optimizer を使用すると、システムと環境をシームレスに接続し、すべてのステップで適切なデータとツールを用いてカスタマージャーニーを拡充できます。 他のアドビソリューションやサードパーティプラットフォームと統合する場合や、API を活用する場合のいずれであっても、ワークフローを統合し、エクスペリエンスをパーソナライズし、プロセスを効率化する方法を確認できます。 サンドボックスを使用した環境の管理、データエンリッチメント用の外部システムのリンク、スマートなマーケティング用の AI 駆動型インサイトのアクティブ化などのトピックについて掘り下げます。 各項は、新しい可能性を解き放ち、接続されたエコシステムをまたいで一貫性のある影響力のあるカスタマーエクスペリエンスをより簡単に作成できるようにデザインされています。
 
-## システムと環境を接続する
+## システムと環境の接続
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer と他のソリューションの統合
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer が他のアドビおよびサードパーティのソ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer API の操作
 
@@ -40,7 +40,7 @@ Adobe Experience Platform と統合し、API を使用してチャネルをま�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ジャーニーと外部システムの統合
 
@@ -50,7 +50,7 @@ capping API や throttling API など、Adobe Journey Optimizer を外部シス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 アドビソリューションを使用した送信
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer を設定して、Adobe Campaign、Marketo Engage、他�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer のサンドボックス管理
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のサンドボックスを使用して、仮想環境�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ソースコネクタの基本を学ぶ
 

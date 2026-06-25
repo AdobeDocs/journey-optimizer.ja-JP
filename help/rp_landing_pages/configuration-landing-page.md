@@ -6,7 +6,7 @@ description: チャネル設定
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Adobe Journey Optimizer のチャネル設定により、メール、SMS、プ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 チャネル設定の基本を学ぶ
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizer のチャネル設定により、メール、SMS、プ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 チャネル設定の指定と管理
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizer のチャネル設定により、メール、SMS、プ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ガイド付きチャネル設定
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer のチャネル設定により、メール、SMS、プ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 メールサブドメインのデリゲートと管理
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer のチャネル設定により、メール、SMS、プ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 IP ウォームアッププランの実装
 
@@ -76,7 +76,7 @@ IP ウォームアッププランを作成および実行し、送信者の評�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 メールの配信品質と評判の監視
 

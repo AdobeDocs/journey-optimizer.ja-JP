@@ -6,7 +6,7 @@ description: コンテンツテンプレート
 redpen-status: CREATED_||_2025-08-12_00-38-47
 exl-id: a745742a-61c4-420e-bbd8-b3d72d782fb3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コンテンツテンプレートの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 テンプレートへのアクセスと管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 コンテンツテンプレートの作成
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 メールテンプレートのコンテンツのロック
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 コンテンツテンプレートのテスト
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 コンテンツテンプレートの使用
 

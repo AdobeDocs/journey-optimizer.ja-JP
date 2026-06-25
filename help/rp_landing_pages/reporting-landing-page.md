@@ -6,21 +6,21 @@ description: レポート
 redpen-status: CREATED_||_2025-08-11_20-54-26
 exl-id: 37e906eb-8ae0-4988-93bf-00eb135199b2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '194'
+workflow-type: ht
+source-wordcount: '217'
 ht-degree: 100%
 
 ---
 
 # レポート{#section-overview}
 
-Adobe Journey Optimizer のレポート機能を使用すると、生データを実用的なインサイトに変換し、カスタマージャーニーやマーケティング戦略を調整できます。ライブレポートによるリアルタイムの更新や、全期間レポートを通じた長期的なトレンドなどが必要な場合に、この機能を使用すると、チャネルとエクスペリエンス全体のパフォーマンスを分析できます。ライブレポートと全期間レポートがどのように補完し合い、Customer Journey Analytics を活用した瞬時のフィードバックと詳細な分析を提供するのかについて説明します。アウトバウンドキャンペーン、インバウンドエクスペリエンス、カスタムジャーニーデータなどを深く掘り下げます。これらはすべて、データ駆動型の意思決定を自信を持って行うためのツールです。
+Adobe Journey Optimizer のレポート機能を使用すると、生データを実用的なインサイトに変換し、カスタマージャーニーやマーケティング戦略を調整できます。 ライブレポートによるリアルタイムの更新や、全期間レポートを通じた長期的なトレンドなどが必要な場合に、この機能を使用すると、チャネルとエクスペリエンス全体のパフォーマンスを分析できます。 ライブレポートと全期間レポートがどのように補完し合い、Customer Journey Analytics を活用した瞬時のフィードバックと詳細な分析を提供するのかについて説明します。 アウトバウンドキャンペーン、インバウンドエクスペリエンス、カスタムジャーニーデータなどを深く掘り下げます。これらはすべて、データ駆動型の意思決定を自信を持って行うためのツールです。
 
 ## レポート機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 レポートの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のレポート機能を使用すると、生データ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 ライブレポート
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のレポート機能を使用すると、生データ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 全期間のレポート
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のレポート機能を使用すると、生データ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 カスタムジャーニーレポート
 

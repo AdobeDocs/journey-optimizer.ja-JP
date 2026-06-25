@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-02-07
 badge: label="レガシー" type="Informative"
 exl-id: fa55faae-1258-49c7-884f-83d1c33db969
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer でイベントデータを収集すると、決定数�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 意思決定管理データ収集の基本を学ぶ
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer でイベントデータを収集すると、決定数�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 エクスペリエンスイベントを収集するデータセットの作成方法
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer でエクスペリエンスイベントを収集する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 意思決定管理のイベントデータキャプチャの設定
 

@@ -10,22 +10,15 @@ level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +26,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** ダイレクトメールチャネルの仕組みを理解して、サードパーティプロバイダーが顧客に物理的なメールを送信するために使用する抽出ファイルを生成できます。
+**このページ：**&#x200B;ダイレクトメールチャネルの仕組みについて説明します。これにより、サードパーティプロバイダーが顧客に郵便物を送付する際に使用する抽出ファイルを生成できるようになります。
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +56,7 @@ ht-degree: 89%
 
 * **[ダイレクトメールの作成](create-direct-mail.md)** - ダイレクトメール配信を作成し、オフラインチャネル用の抽出ファイルを設定する方法について説明します。
 * **[ダイレクトメールチャネルの設定](direct-mail-configuration.md)** - ダイレクトメールサーフェスとファイルルーティング設定を指定します。
-* **[ダイレクトメールでのバッチ決定](../experience-decisioning/batch-decisioning-direct-mail.md)** - ダイレクトメール用に抽出ファイルをパーソナライズしたり、下流システム用に決定データを書き出したりするために決定を使用します。
+* **[ダイレクトメールでのバッチ決定](../experience-decisioning/batch-decisioning-direct-mail.md)** - 決定を使用して、ダイレクトメール用の抽出ファイルをパーソナライズしたり、決定データをダウンストリームシステムにエクスポートしたりできます。
 * **[ダイレクトメールのテストと送信](test-send-direct-mail.md)** - ダイレクトメール配信をテスト、検証、公開する方法について説明します。
 * **[ダイレクトメールのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - ダイレクトメールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 
@@ -73,7 +66,7 @@ Adobe Journey Optimizer のダイレクトメールチャネルを活用して�
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3479163?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
 
 +++
 

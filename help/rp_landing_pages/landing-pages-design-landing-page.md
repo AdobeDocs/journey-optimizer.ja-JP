@@ -6,21 +6,21 @@ description: コンテンツのデザイン
 redpen-status: CREATED_||_2025-08-12_00-36-39
 exl-id: 19ce7788-af7e-4949-a51f-eddc4ece2898
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '210'
+workflow-type: ht
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
 
 # コンテンツのデザイン{#section-overview}
 
-Adobe Journey Optimizer でコンテンツをデザインすると、キャンペーンの目標に合わせてカスタマイズされた、影響力のあるランディングページを作成できます。ゼロから始める場合でも、HTML を読み込む場合でも、テンプレートを活用する場合でも、提供されるツールを使用すると、魅力的なエクスペリエンスを簡単に作成できます。フォームをカスタマイズしたり、パーソナライゼーションを行うためにコンテキストデータを統合したり、カスタム JavaScript を使用して機能を強化したりできます。コンテンツデザイナーの使用からテンプレートの保存、高度なコードの追加に至るまで、各サブトピックでは、ランディングページの作成を習得するための明確なパスを作成します。柔軟性と正確性を備え、オーディエンスと有意義な方法でつながるために必要なすべてが揃っています。
+Adobe Journey Optimizer でコンテンツをデザインすると、キャンペーンの目標に合わせてカスタマイズされた、影響力のあるランディングページを作成できます。 ゼロから始める場合でも、HTML を読み込む場合でも、テンプレートを活用する場合でも、提供されるツールを使用すると、魅力的なエクスペリエンスを簡単に作成できます。 フォームをカスタマイズしたり、パーソナライゼーションを行うためにコンテキストデータを統合したり、カスタム JavaScript を使用して機能を強化したりできます。 コンテンツデザイナーの使用からテンプレートの保存、高度なコードの追加に至るまで、各サブトピックでは、ランディングページの作成を習得するための明確なパスを作成します。 柔軟性と正確性を備え、オーディエンスと有意義な方法でつながるために必要なすべてが揃っています。
 
 ## コンテンツのデザイン
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer のランディングページのデザイン
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のランディングページのデザイン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ランディングページコンテンツの作成とカスタマイズ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のランディングページのデザイン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ランディングページテンプレートの操作
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のランディングページのデザイン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ランディングページでのカスタム JavaScript の使用
 

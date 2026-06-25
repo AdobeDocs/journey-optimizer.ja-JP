@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-54-39
 hide: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '143'
+workflow-type: ht
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
 # API リファレンス{#section-overview}
 
-Adobe Journey Optimizer のコードベースのエクスペリエンスチャネルを使用すると、柔軟性と精度により、デジタルタッチポイントをまたいでパーソナライズされたオファーを配信できます。AEP Web SDK や Mobile SDK などのクライアントサイドツール、AEP Edge Network API 経由のサーバーサイド統合、ハイブリッドアプローチのいずれを使用している場合でも、この機能はニーズに合わせて調整されます。各実装方法は、リアルタイムのインタラクションからスケーラブルなバックエンド処理まで、独自のメリットを提供します。以降の節では、エクスペリエンス決定の基本、ユースケースに適した方法の選択および実装方法、ジャーニーを効率化するリソースへのアクセス方法について説明します。カスタマイズされたカスタマーエクスペリエンスの新しい可能性を解き放ちましょう。
+Adobe Journey Optimizer のコードベースのエクスペリエンスチャネルを使用すると、柔軟性と精度により、デジタルタッチポイントをまたいでパーソナライズされたオファーを配信できます。 AEP Web SDK や Mobile SDK などのクライアントサイドツール、AEP Edge Network API 経由のサーバーサイド統合、ハイブリッドアプローチのいずれを使用している場合でも、この機能はニーズに合わせて調整されます。 各実装方法は、リアルタイムのインタラクションからスケーラブルなバックエンド処理まで、独自のメリットを提供します。 以降の節では、エクスペリエンス決定の基本、ユースケースに適した方法の選択および実装方法、ジャーニーを効率化するリソースへのアクセス方法について説明します。 カスタマイズされたカスタマーエクスペリエンスの新しい可能性を解き放ちましょう。
 
 ## API リファレンス
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 コードベースのエクスペリエンスチャネルを使用したオファーの配信
 

@@ -6,21 +6,21 @@ description: カスタムジャーニーレポート
 redpen-status: CREATED_||_2025-08-11_20-54-10
 exl-id: 1e685fcd-5bb1-4792-b851-e76b7273ddc7
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '253'
+workflow-type: ht
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
 
 # カスタムジャーニーレポート{#section-overview}
 
-Adobe Journey Optimizer のカスタムジャーニーレポートを使用すると、ジャーニーステップイベントとスキーマからのリッチなデータインサイトを使用して、カスタマージャーニーのパフォーマンスを正確に追跡および分析できます。ユーザーがジャーニーをどのように進めるかを理解したい場合や、特定の手順をトラブルシューティングしたい場合、ジャーニーデータを Adobe Experience Platform と統合して詳細な分析を行いたい場合のいずれであっても、この機能は必要なツールを提供します。ステップイベントフィールドの構造の把握から、高度な分析を行うための SQL クエリ例の探索に至るまで、各サブトピックでは、複雑なデータを実用的な戦略に変換するのに役立つ、焦点を絞ったガイドを提供します。カスタマージャーニーのすべての手順を最適化する方法について詳しく説明します。
+Adobe Journey Optimizer のカスタムジャーニーレポートを使用すると、ジャーニーステップイベントとスキーマからのリッチなデータインサイトを使用して、カスタマージャーニーのパフォーマンスを正確に追跡および分析できます。 ユーザーがジャーニーをどのように進めるかを理解したい場合や、特定の手順をトラブルシューティングしたい場合、ジャーニーデータを Adobe Experience Platform と統合して詳細な分析を行いたい場合のいずれであっても、この機能は必要なツールを提供します。 ステップイベントフィールドの構造の把握から、高度な分析を行うための SQL クエリ例の探索に至るまで、各サブトピックでは、複雑なデータを実用的な戦略に変換するのに役立つ、焦点を絞ったガイドを提供します。 カスタマージャーニーのすべての手順を最適化する方法について詳しく説明します。
 
 ## カスタムジャーニーレポート
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 ジャーニーレポートの作成と分析
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のカスタムジャーニーレポートを使用す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ステップイベントフィールドのリスト
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのレポートおよびデータ管理タスクを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 従来のステップイベントフィールド
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのレポートおよびデータ管理タスクを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 データ分析用の SQL クエリの例
 

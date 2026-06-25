@@ -6,21 +6,21 @@ description: 決定項目の管理
 redpen-status: CREATED_||_2025-08-11_20-55-07
 exl-id: b6490231-e2c8-40c0-9127-128bab76493f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '195'
+workflow-type: ht
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
 
 # 決定項目の管理{#section-overview}
 
-Adobe Journey Optimizer での決定項目の管理とは、適切なマーケティングオファーが適切なタイミングで適切なオーディエンスにリーチすることです。この節では、項目を整理するカタログ、オファーをカスタマイズする詳細な属性、項目をインテリジェントにグループ化するコレクションなどの主なツールについて説明します。また、実施要件のルール、オファーの表示頻度を制限する制約、項目の編集と維持に関する実用的なヒントについても説明します。パーソナライズされたキャンペーンを設定する場合でも、決定戦略を微調整する場合でも、これらの機能が連携して、影響力のあるターゲットエクスペリエンスを自信を持って提供するのに役立ちます。
+Adobe Journey Optimizer での決定項目の管理とは、適切なマーケティングオファーが適切なタイミングで適切なオーディエンスにリーチすることです。 この節では、項目を整理するカタログ、オファーをカスタマイズする詳細な属性、項目をインテリジェントにグループ化するコレクションなどの主なツールについて説明します。 また、実施要件のルール、オファーの表示頻度を制限する制約、項目の編集と維持に関する実用的なヒントについても説明します。 パーソナライズされたキャンペーンを設定する場合でも、決定戦略を微調整する場合でも、これらの機能が連携して、影響力のあるターゲットエクスペリエンスを自信を持って提供するのに役立ちます。
 
 ## 決定項目の管理
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 項目カタログの設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer での決定項目の管理とは、適切なマーケ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 決定項目の作成と管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer での決定項目の管理とは、適切なマーケ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 項目コレクションの管理
 

@@ -6,7 +6,7 @@ description: ランディングページ
 redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ランディングページの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ランディングページの作成と公開
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ランディングページの管理
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ランディングページのコンテンツのデザイン
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 購読リストの作成と管理
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ランディングページのユースケース
 

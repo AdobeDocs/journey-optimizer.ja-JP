@@ -6,21 +6,21 @@ description: プライバシー
 redpen-status: CREATED_||_2025-08-11_21-20-29
 exl-id: d6c8e958-de3b-4aec-8b3b-8b0b3daa0098
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '295'
+workflow-type: ht
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
 
 # プライバシー{#section-overview}
 
-Adobe Journey Optimizer のプライバシーツールを使用すると、機密性の高いお客様データを責任を持って管理し、GDPR などの規制に準拠できます。アクセスまたは削除のリクエストの処理、ユーザーアクションのトラッキング、同意環境設定の適用、ガバナンスポリシーを通じたデータの保護など、どのような必要がある場合でも、これらの機能が連携して動作し、コンプライアンスとセキュリティを確保しながらデータ管理を簡素化します。プライバシーリクエストの処理方法、ユーザーアクションの監査方法、同意の管理方法、ガバナンスルールの適用方法、顧客管理キーなどの高度なセキュリティオプションの活用方法について説明します。これらのツールは、信頼を作成し、情報を保護し、プライバシーをワークフローにシームレスに統合するようにデザインされています。
+Adobe Journey Optimizer のプライバシーツールを使用すると、機密性の高いお客様データを責任を持って管理し、GDPR などの規制に準拠できます。 アクセスまたは削除のリクエストの処理、ユーザーアクションのトラッキング、同意環境設定の適用、ガバナンスポリシーを通じたデータの保護など、どのような必要がある場合でも、これらの機能が連携して動作し、コンプライアンスとセキュリティを確保しながらデータ管理を簡素化します。 プライバシーリクエストの処理方法、ユーザーアクションの監査方法、同意の管理方法、ガバナンスルールの適用方法、顧客管理キーなどの高度なセキュリティオプションの活用方法について説明します。 これらのツールは、信頼を作成し、情報を保護し、プライバシーをワークフローにシームレスに統合するようにデザインされています。
 
 ## Adobe Journey Optimizer のプライバシー機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 プライバシー管理の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のプライバシーツールを使用すると、機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 プライバシーリクエストの管理
 
@@ -40,7 +40,7 @@ Privacy Serviceの UI と API を使用してプライバシーリクエスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ユーザーアクションの監査ログ
 
@@ -50,7 +50,7 @@ Privacy Serviceの UI と API を使用してプライバシーリクエスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 データライフサイクル操作の実行
 
@@ -60,7 +60,7 @@ Privacy Serviceの UI と API を使用してプライバシーリクエスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 同意管理
 
@@ -70,7 +70,7 @@ Privacy Serviceの UI と API を使用してプライバシーリクエスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 データガバナンスポリシー
 

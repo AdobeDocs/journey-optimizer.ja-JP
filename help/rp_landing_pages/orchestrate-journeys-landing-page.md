@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '312'
+workflow-type: ht
+source-wordcount: '358'
 ht-degree: 100%
 
 ---
 
 # ジャーニー{#section-overview}
 
-Adobe Journey Optimizer でジャーニーを使用すると、オーディエンスの行動やニーズにリアルタイムで適応する、パーソナライズされた複数手順のカスタマージャーニーを作成できます。直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。リアルタイムのトリガーを探索する場合や、ジャーニープロパティを管理する場合、カスタムアクションや式などの高度なツールを使用する場合のいずれであっても、この節では、明確なロードマップを提供します。有意義でタイムリーなカスタマーエクスペリエンスを提供するジャーニーを自信を持ってデザインおよび調整するためのハウツーガイド、ユースケース、トラブルシューティングのヒントについて詳しく説明します。
+Adobe Journey Optimizer でジャーニーを使用すると、オーディエンスの行動やニーズにリアルタイムで適応する、パーソナライズされた複数手順のカスタマージャーニーを作成できます。 直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。 リアルタイムのトリガーを探索する場合や、ジャーニープロパティを管理する場合、カスタムアクションや式などの高度なツールを使用する場合のいずれであっても、この節では、明確なロードマップを提供します。 有意義でタイムリーなカスタマーエクスペリエンスを提供するジャーニーを自信を持ってデザインおよび調整するためのハウツーガイド、ユースケース、トラブルシューティングのヒントについて詳しく説明します。
 
 ## ジャーニーの概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer ジャーニーの基本を学ぶ
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer の直感的なドラッグ＆ドロップツールと�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーの作成と管理に関する包括的ガイド
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer の直感的なドラッグ＆ドロップツールと�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ジャーニーの管理に関する包括的ガイド
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer の直感的なドラッグ＆ドロップツールと�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer のアクティビティ
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer のアクティビティ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での式の作成
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer での式の作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer の実用的なユースケース
 

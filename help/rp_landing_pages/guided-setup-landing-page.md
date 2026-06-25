@@ -7,21 +7,21 @@ hide: true
 redpen-status: CREATED_||_2025-08-11_21-07-03
 exl-id: fb2185b8-6c92-4c50-8a79-2eb776cf0ac5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '174'
+workflow-type: ht
+source-wordcount: '184'
 ht-degree: 100%
 
 ---
 
 # ガイド付きチャネル設定{#section-overview}
 
-Adobe Journey Optimizer のガイド付きチャネル設定により、モバイルおよび web マーケティングチャネルの設定プロセスが簡素化され、キャンペーンをすばやく効果的に開始できるようになります。iOS、Android、web プラットフォームのいずれを設定する場合でも、このツールはモバイルタグプロパティやデータストリームなどの主なリソースを自動的に作成するので、影響力のあるカスタマーエクスペリエンスの提供に焦点を当てることができます。準備が整っていることを確認する前提条件、生成されるリソース、各チャネル設定の仕組みについて説明します。最終的には、マーケティング目標を適切なチャネルに自信を持って結び付ける明確で実用的なロードマップが作成されます。
+Adobe Journey Optimizer のガイド付きチャネル設定により、モバイルおよび web マーケティングチャネルの設定プロセスが簡素化され、キャンペーンをすばやく効果的に開始できるようになります。 iOS、Android、web プラットフォームのいずれを設定する場合でも、このツールはモバイルタグプロパティやデータストリームなどの主なリソースを自動的に作成するので、影響力のあるカスタマーエクスペリエンスの提供に焦点を当てることができます。 準備が整っていることを確認する前提条件、生成されるリソース、各チャネル設定の仕組みについて説明します。 最終的には、マーケティング目標を適切なチャネルに自信を持って結び付ける明確で実用的なロードマップが作成されます。
 
 ## ガイド付きチャネル設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 モバイルと web チャネルの設定
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer のガイド付きチャネル設定により、モバ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 チャネル設定の作成と変更
 

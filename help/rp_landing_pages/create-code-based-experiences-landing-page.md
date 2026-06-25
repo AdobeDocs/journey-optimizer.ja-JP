@@ -6,21 +6,21 @@ description: コードベースのエクスペリエンスの作成
 redpen-status: CREATED_||_2025-08-11_20-42-15
 exl-id: 571761d2-976c-4fe0-9631-23b62ba3b97c
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '219'
+workflow-type: ht
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
 
 # コードベースのエクスペリエンスの作成{#section-overview}
 
-Adobe Journey Optimizer のコードベースのエクスペリエンスにより、ジャーニーやキャンペーン向けに高度にカスタマイズされた動的コンテンツをコードを使用して作成できます。HTML または JSON テンプレートをカスタマイズする場合でも、技術者以外のマーケター向けに編集可能なフィールドを追加する場合でも、決定ロジックを適用してパーソナライズされたオファーを配信する場合でも、この機能により、オーディエンスの共感を得られる独自のエクスペリエンスを柔軟に作成できます。コードベースのコンテンツを作成および編集し、プラットフォーム間でテストおよびプレビューし、公開とアクティブ化を通じて管理する方法について学びます。各手順は明確なガイダンスで説明されているので、自信を持ってビジョンを実現するためのツールを確保できます。
+Adobe Journey Optimizer のコードベースのエクスペリエンスにより、ジャーニーやキャンペーン向けに高度にカスタマイズされた動的コンテンツをコードを使用して作成できます。 HTML または JSON テンプレートをカスタマイズする場合でも、技術者以外のマーケター向けに編集可能なフィールドを追加する場合でも、決定ロジックを適用してパーソナライズされたオファーを配信する場合でも、この機能により、オーディエンスの共感を得られる独自のエクスペリエンスを柔軟に作成できます。 コードベースのコンテンツを作成および編集し、プラットフォーム間でテストおよびプレビューし、公開とアクティブ化を通じて管理する方法について学びます。 各手順は明確なガイダンスで説明されているので、自信を持ってビジョンを実現するためのツールを確保できます。
 
 ## コードベースのエクスペリエンスの作成
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 コードベースのエクスペリエンスの作成と構成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコードベースのエクスペリエンスによ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コードベースのエクスペリエンスでの編集可能なフィールドの使用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコードベースのエクスペリエンスによ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 コードベースのエクスペリエンスのテスト
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコードベースのエクスペリエンスによ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コードベースのエクスペリエンスの公開と管理
 

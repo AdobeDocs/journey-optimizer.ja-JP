@@ -10,23 +10,15 @@ topic: Administration
 keywords: メール, 設定, サーフェス, サブドメイン
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 TQID: https://experienceleague.adobe.com/mVdk2WGb0rL06j1cmNEh4fj0JC-hwuro8ku-0Yv02N8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 563
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +26,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** サブドメインのデリゲート、IP プールの作成、チャネル設定、実行フィールド、再試行の設定など、Adobe Journey Optimizerでメールチャネルを設定するための基本的な手順について説明します。
+**このページ：**&#x200B;サブドメインのデリゲートや IP プールの作成から、チャネル設定、実行フィールド、再試行の設定までを対象とした、Adobe Journey Optimizer でのメールチャネルの設定に重要な手順について説明します。
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +72,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メール設定の基本を学ぶ
 
@@ -90,7 +82,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メール設定の定義
 
@@ -100,7 +92,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 リストの登録解除の有効化と設定
 
@@ -110,7 +102,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メールヘッダーパラメーターの設定
 
@@ -120,7 +112,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 メールチャネル用の URL トラッキングの設定
 
@@ -130,7 +122,7 @@ URL トラッキングパラメーターを設定して、メールキャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 パーソナライズされたメール設定
 

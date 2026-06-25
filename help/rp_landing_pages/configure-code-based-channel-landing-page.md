@@ -6,21 +6,21 @@ description: コードベースのチャネルの設定
 redpen-status: CREATED_||_2025-08-11_20-41-39
 exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '209'
+workflow-type: ht
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
 
 # コードベースのチャネルの設定{#section-overview}
 
-Adobe Journey Optimizer のコードベースのチャネルの設定の節では、web、モバイル、その他のプラットフォーム全体でカスタマイズされたエクスペリエンスのコード駆動型の配信を有効にすることで、強力なパーソナライゼーション機能を活用できます。コンテンツがレンダリングされるサーフェス固有のアプリの場所を設定する方法と、ニーズに合わせてクライアントサイド、サーバーサイド、ハイブリッド実装などの方法を探索する方法について説明します。決定ロジックの重複排除やプラットフォーム固有の設定などのトピックについて説明します。これにより、ユーザーの行動に適応する柔軟なデータ駆動型のインタラクションを作成するための知識を習得できます。管理者と開発者のいずれであっても、このガイドでは、正確に、制御された状態でエンゲージメントを最適化できるよう方法を身に付けます。
+Adobe Journey Optimizer のコードベースのチャネルの設定の節では、web、モバイル、その他のプラットフォーム全体でカスタマイズされたエクスペリエンスのコード駆動型の配信を有効にすることで、強力なパーソナライゼーション機能を活用できます。 コンテンツがレンダリングされるサーフェス固有のアプリの場所を設定する方法と、ニーズに合わせてクライアントサイド、サーバーサイド、ハイブリッド実装などの方法を探索する方法について説明します。 決定ロジックの重複排除やプラットフォーム固有の設定などのトピックについて説明します。これにより、ユーザーの行動に適応する柔軟なデータ駆動型のインタラクションを作成するための知識を習得できます。 管理者と開発者のいずれであっても、このガイドでは、正確に、制御された状態でエンゲージメントを最適化できるよう方法を身に付けます。
 
 ## コードベースのチャネルの設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コードベースのエクスペリエンスの前提条件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 コードベースのエクスペリエンスサーフェス
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 実装メソッドのサンプル
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 コードベースのエクスペリエンス実装での決定
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 コードベースのエクスペリエンス設定の作成
 
