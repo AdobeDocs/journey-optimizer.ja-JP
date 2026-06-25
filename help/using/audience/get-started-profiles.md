@@ -25,7 +25,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
+source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
 source-wordcount: 778
 ht-degree: 53%
@@ -80,12 +80,6 @@ ht-degree: 53%
 
 組織のエンゲージ可能なプロファイル数は、**[!UICONTROL 管理]** > **[!UICONTROL ライセンス使用状況]**&#x200B;からいつでも監視できます。 カウントの急激な増加が確認された場合は、詳細なガイダンスについては、[&#x200B; トラブルシューティングの節](license-usage.md#troubleshooting-engageable-profiles)を参照してください。 [&#x200B; ライセンス使用状況ダッシュボードの詳細](license-usage.md)
 
->[!MORELIKETHIS]
->
->* [Journey Optimizer におけるデータ管理の基本を学ぶ](../data/gs-data.md)
->* [リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
->* [リアルタイム顧客プロファイルデータおよびセグメント化用のデフォルトガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}
->* [データ取り込みのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## プロファイルダッシュボード
 
@@ -104,3 +98,12 @@ ht-degree: 53%
 Adobe Experience Platform がリアルタイム顧客プロファイルをアセンブルおよび更新する方法、これらのプロファイルにアクセスして使用する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/31660?captions=jpn&quality=12)
+
+
+
+>[!MORELIKETHIS]
+>
+>* [Journey Optimizer におけるデータ管理の基本を学ぶ](../data/gs-data.md)
+>* [リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
+>* [リアルタイム顧客プロファイルデータおよびセグメント化用のデフォルトガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}
+>* [データ取り込みのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home){target="_blank"}
