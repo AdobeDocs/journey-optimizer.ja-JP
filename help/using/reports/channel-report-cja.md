@@ -9,12 +9,22 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
 source-wordcount: 1243
@@ -166,7 +176,7 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 ルールセット別&#x200B;**[!UICONTROL ジャーニーエントリ]**&#x200B;列には、ジャーニーにエントリしたプロファイルの数が表示されます。 エントランスには3つのタイプがあります。
 
-* ****[!UICONTROL 競合なし]****: プロファイルは、ルールセットの競合なしでジャーニーにエントリしました。 アクティブなルールセットはこのエントリを妨げておらず、ジャーニーのエントリは調停ルールに関係なく発生しました。
+* **&#x200B;**&#x200B;[!UICONTROL 競合なし]&#x200B;**&#x200B;**: プロファイルは、ルールセットの競合なしでジャーニーにエントリしました。 アクティブなルールセットはこのエントリを妨げておらず、ジャーニーのエントリは調停ルールに関係なく発生しました。
 
 * **優先度が高い**: プロファイルは、他の競合ジャーニーよりも優先度が高いため、ジャーニーにエントリしました。 競合（複数のジャーニーに適格なプロファイル）があったにもかかわらず、このジャーニーは、優先度スコアが高いため選択されました。
 
@@ -180,9 +190,9 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 +++
 
-Adobe Experience Platform クエリサービスを使用してデータレイクレベルでこれらの除外を調査するには、[ ビジネスルールクエリ ](query-examples.md#business-rules-queries)を参照してください。
+Adobe Experience Platform クエリサービスを使用してデータレイクレベルでこれらの除外を調査するには、[&#x200B; ビジネスルールクエリ &#x200B;](query-examples.md#business-rules-queries)を参照してください。
 
-➡️ [ ジャーニーの上限設定と調停について詳しく見る](../conflict-prioritization/journey-capping.md)
+➡️ [&#x200B; ジャーニーの上限設定と調停について詳しく見る](../conflict-prioritization/journey-capping.md)
 
 ## 最適化モデル {#optimization-models}
 
