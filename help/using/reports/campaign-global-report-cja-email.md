@@ -30,10 +30,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 2332
-ht-degree: 88%
+source-wordcount: 2349
+ht-degree: 87%
 
 ---
 
@@ -233,6 +233,8 @@ ht-degree: 88%
 * **[!UICONTROL クリック数]**：メールでコンテンツがクリックされた回数。
 
 * **[!UICONTROL 推定クリック数]**: メッセージ内でコンテンツがクリックされた回数（識別されたボットと人間ではないインタラクション （NHI） トラフィックを除く）。
+
+* **[!UICONTROL 推定CTR]** （クリック率）：配信されたメッセージの合計数に対する推定クリック数として計算されます。
 
 * **[!UICONTROL スパムの苦情数]**：メッセージがスパムまたはジャンクとして宣言された回数。
 

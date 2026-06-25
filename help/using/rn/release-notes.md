@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 26%
+source-wordcount: 3687
+ht-degree: 25%
 
 ---
 
@@ -499,6 +499,18 @@ ht-degree: 26%
 </table>
 
 +++
+
+### レポート {#june-26-reporting}
+
+このリリースでは、レポートに次の機能強化が追加されました。
+
+* **電子メールレポートの新しい推定クリック指標** – 実際の顧客エンゲージメントをより正確に把握するために、ジャーニー、キャンペーン、チャネルのレポートで新しい推定指標を使用できるようになりました。
+
+   * **推定CTR** （クリック率）：配信されたメッセージの合計数に対する推定クリック数として計算されます。
+
+   * **推定CTOR** （クリック率）：推定開封数に対する推定クリック数として計算されます。
+
+  ご利用いただけます：2026年6月25日（PT）
 
 ### 管理 {#june-26-administration}
 

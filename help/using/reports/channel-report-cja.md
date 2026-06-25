@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1209
-ht-degree: 55%
+source-wordcount: 1243
+ht-degree: 54%
 
 ---
 
@@ -126,6 +126,8 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 * **[!UICONTROL 推定クリック数]**: メッセージ内でコンテンツがクリックされた回数（識別されたボットと人間ではないインタラクション （NHI） トラフィックを除く）。
 
+* **[!UICONTROL 推定CTR]** （クリック率）：配信されたメッセージの合計数に対する推定クリック数として計算されます。
+
 +++
 
 ## チャネル {#channel}
@@ -149,6 +151,8 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 * **[!UICONTROL クリック数]**：メッセージでコンテンツがクリックされた回数。
 
 * **[!UICONTROL 推定クリック数]**: メッセージ内でコンテンツがクリックされた回数（識別されたボットと人間ではないインタラクション （NHI） トラフィックを除く）。
+
+* **[!UICONTROL 推定CTR]** （クリック率）：配信されたメッセージの合計数に対する推定クリック数として計算されます。
 
 +++
 
