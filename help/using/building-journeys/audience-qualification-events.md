@@ -11,25 +11,15 @@ keywords: 選定, イベント, オーディエンス, ジャーニー, プラ�
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
 workflow-type: tm+mt
-source-wordcount: 2552
+source-wordcount: 2584
 ht-degree: 50%
 
 ---
@@ -114,12 +104,16 @@ ht-degree: 50%
 
    ![オーディエンス名と ID を JSON 形式でコピーする「コピー」ボタン](assets/segment-copy.png)
 
+   >[!TIP]
+   >
+   >オーディエンスの評価方法を使用する前に、オーディエンスの評価方法を特定するには、**[!UICONTROL オーディエンス]** メニューを開き、オーディエンスを選択して、**[!UICONTROL 評価方法]** フィールド **ストリーミング**、**バッチ**、または&#x200B;**Edge**&#x200B;を確認します。 **[!UICONTROL 評価方法]**&#x200B;列をこのアクティビティのオーディエンスリストに追加することもできます。 評価方法は、エントリタイミングと適用されるベストプラクティスに影響します。[ バッチオーディエンス ](#batch-speed-segment-qualification)および[ ストリーミングオーディエンス ](#streamed-speed-segment-qualification)を参照してください。
+
 1. 「**[!UICONTROL 動作]**」フィールドで、オーディエンスへのエントリ、離脱またはその両方をリッスンするかどうかを選択します。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;と&#x200B;**[!UICONTROL Exit]**&#x200B;は、[!DNL Adobe Experience Platform]からの&#x200B;**Realized**&#x200B;と&#x200B;**Exited**&#x200B;のオーディエンス参加ステータスに対応しています。
-   >[&#x200B; セグメント化サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
+   >**[!UICONTROL Enter]**&#x200B;と&#x200B;**[!UICONTROL Exit]**&#x200B;は、[!DNL Adobe Experience Platform]からの&#x200B;**Realized**&#x200B;と&#x200B;**Exited**のオーディエンス参加ステータスに対応しています。
+   >[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
 
 1. 名前空間を選択します。 これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。 デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。
 
@@ -152,7 +146,7 @@ ht-degree: 50%
 
 >[!CAUTION]
 >
->**非推奨のお知らせ – 2026年8月**: **2026年8月**&#x200B;以降、Journey Optimizerは、**Audience Qualification** ノードでバッチオーディエンスを使用するすべてのジャーニーの公開をブロックします。 既存のライブジャーニーは影響を受けません。 この設定を持つ新しいジャーニー、ドラフトおよび重複したジャーニーは、2026年8月より前に更新する必要があります。 [&#x200B; ジャーニーを移行する方法について説明します](aq-batch-audiences-migration.md)
+>**非推奨のお知らせ – 2026年8月**: **2026年8月**&#x200B;以降、Journey Optimizerは、**Audience Qualification** ノードでバッチオーディエンスを使用するすべてのジャーニーの公開をブロックします。 既存のライブジャーニーは影響を受けません。 この設定を持つ新しいジャーニー、ドラフトおよび重複したジャーニーは、2026年8月より前に更新する必要があります。 [ ジャーニーを移行する方法について説明します](aq-batch-audiences-migration.md)
 
 バッチオーディエンスに対して「オーディエンスの選定」を使用する場合、エントリのピークは毎日の計算時に発生することに注意してください。 ピークの大きさは、1日に何人の個人がオーディエンスに出入りするかによって異なります。
 
@@ -168,13 +162,11 @@ ht-degree: 50%
 
 ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。 代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。 頻度または抑制ロジックの場合は、送信イベントの代わりにビジネスルールを使用します。 [詳細情報](../audience/about-audiences.md)
 
-[[!DNL Adobe Experience Platform]  ストリーミングセグメント化に関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
+[[!DNL Adobe Experience Platform]  ストリーミングセグメント化に関するドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
->ストリーミングセグメントメンバーシップの伝播タイミングは、メンバーシップがどのように評価され、ジャーニーのどこで使用されるかによって異なります。
->
->* **Audience Qualification node + streaming segment:** プロファイルがEdgeでストリーミングセグメントに適格になると、ジャーニーがアクションを実行する前に、そのメンバーシップがEdgeからHubに予測されます。 このEdgeからハブへの伝搬には、通常&#x200B;**15 ～ 30分かかります**。 プロファイルが期待通りにオーディエンス選定ジャーニーに入っていない場合は、さらに調査する前に、（必要に応じて待機アクティビティを追加して）この伝播ウィンドウを許可します。 真のリアルタイム入力を必要とするユースケースについては、代わりに単一イベントトリガーを検討してください。
+>Edgeでストリーミングセグメントの対象となるプロファイルがプロファイルである場合、そのメンバーシップは、ジャーニーがアクションを実行する前にEdgeからHubに予測されます。 このEdgeからハブへの伝搬には、通常&#x200B;**15 ～ 30分かかります**。 プロファイルが期待通りにオーディエンス選定ジャーニーに入っていない場合は、さらに調査する前に、（必要に応じて待機アクティビティを追加して）この伝播ウィンドウを許可します。 真のリアルタイム入力を必要とするユースケースについては、代わりに単一イベントトリガーを検討してください。
 
 #### 選定されるすべてのプロファイルがジャーニーにエントリできるわけではない理由 {#streaming-entry-caveats}
 
@@ -192,7 +184,7 @@ ht-degree: 50%
 
 * ジャーニーを公開した後、プロファイルの選定をトリガーするイベントやデータを送信する前に、10 分以上待機します。 これにより、ジャーニーが完全にアクティブ化され、エントリを処理する準備が整います。
 
-* すべての適格なプロファイルが入力されることを確認する必要がある重要なユースケースについては、代わりに[&#x200B; オーディエンスを読み取り](read-audience.md) アクティビティを使用することを検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
+* すべての適格なプロファイルが入力されることを確認する必要がある重要なユースケースについては、代わりに[ オーディエンスを読み取り](read-audience.md) アクティビティを使用することを検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
 
 * ジャーニーの[エントリ率とスループット](entry-management.md#profile-entrance-rate)を監視し、プロファイルのフローパターンを把握します。
 
@@ -204,7 +196,7 @@ ht-degree: 50%
 
 * **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティで作成直後にバッチオーディエンスを使用しないでください。 これにより、最初の計算のピークを回避できます。 まだ計算されていないオーディエンスを使用しようとすると、ジャーニーキャンバスに黄色の警告が表示されます。
 
-  [!DNL Adobe Experience Platform]![&#128279;](assets/segment-error.png)にオーディエンスが見つからなかった場合の エラーメッセージ
+  [!DNL Adobe Experience Platform]](assets/segment-error.png)にオーディエンスが見つからなかった場合の![ エラーメッセージ
 
 * ジャーニーで使用するデータソースとアクションのキャップルールを設定して、データソースの過負荷を避けます。 詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}を参照してください。 キャップルールには再試行がないことに注意してください。 再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用します。
 
@@ -250,7 +242,7 @@ ht-degree: 50%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。 オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
 
 +++ AI ナレッジリファレンス
 
