@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
+source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
-source-wordcount: 8915
+source-wordcount: 8952
 ht-degree: 90%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 90%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年6月 {#june-2026}
+
+* **高スループットモード** ページが更新され、拡張された地域の可用性が反映されました。この機能は、高スループットトランザクションメッセージアドオンでライセンスを取得した組織に対して、スイスを除くすべての地域で使用できるようになりました。 [詳細情報](../campaigns/api-triggered-high-throughput.md)
 
 * このコンセプトの信頼できる唯一の情報源として、新しい&#x200B;**エンゲージ可能なプロファイルとライセンス使用状況** セクションが&#x200B;**プロファイルの基本を学ぶ** ページに追加され、ターゲットを絞った参照がオーディエンス、キャンペーン、決定セクションに追加されました。 [詳細情報](../audience/get-started-profiles.md#engageable-profiles)
 
