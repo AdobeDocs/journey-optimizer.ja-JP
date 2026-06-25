@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: バッチ決定，ダイレクトメール，意思決定
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. **決定ポリシーを追加**:
 
    1. 「**[!UICONTROL コンテンツを編集]**」をクリックして、抽出ファイルを設定します。
-   1. 抽出ファイルに列を追加し、![](assets/do-no-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。
+   1. 抽出ファイルに列を追加し、![](assets/do-not-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。
 
       ![](assets/decision-policy-dm-add.png)
 

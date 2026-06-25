@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 72%
@@ -137,7 +137,7 @@ ht-degree: 72%
 
 1. キャンペーンまたはジャーニーの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、抽出ファイルのコンテンツを設定します。
 
-1. ダイレクトメールメッセージに決定ポリシーを追加するには、**[!UICONTROL データフィールド]** セクションの列を選択し、![](../experience-decisioning/assets/do-no-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。 決定ポリシーを作成して挿入するには、**[!UICONTROL 決定ポリシー]** メニューに移動します。 その後、抽出ファイルの列データとして決定項目属性を使用できます。
+1. ダイレクトメールメッセージに決定ポリシーを追加するには、**[!UICONTROL データフィールド]** セクションの列を選択し、![](../experience-decisioning/assets/do-not-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。 決定ポリシーを作成して挿入するには、**[!UICONTROL 決定ポリシー]** メニューに移動します。 その後、抽出ファイルの列データとして決定項目属性を使用できます。
 
    >[!AVAILABILITY]
    >

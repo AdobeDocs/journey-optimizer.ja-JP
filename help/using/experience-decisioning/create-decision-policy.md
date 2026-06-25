@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 2404
-ht-degree: 58%
+ht-degree: 60%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 58%
 
 +++決定メニューから決定ポリシーを追加します
 
-1. プロパティ ペインの![](assets/do-no-localize/decisioning-icon.png) アイコンをクリックして、**[!UICONTROL 決定]** メニューにアクセスします。
+1. プロパティ ペインの![](assets/do-not-localize/decisioning-icon.png) アイコンをクリックして、**[!UICONTROL 決定]** メニューにアクセスします。
 
 1. 「**[!UICONTROL 決定ポリシーを追加]**」ボタンをクリックします。
 
@@ -111,7 +111,7 @@ ht-degree: 58%
 
    +++Personalization エディターから決定ポリシーを追加する
 
-   1. パーソナライゼーションを追加できる件名フィールドまたはメール本文の任意のフィールドで利用できる![](assets/do-no-localize/editor-icon.svg) アイコンを使用して、パーソナライゼーションエディターを開きます。
+   1. パーソナライゼーションを追加できる件名フィールドまたはメール本文の任意のフィールドで利用できる![](assets/do-not-localize/editor-icon.svg) アイコンを使用して、パーソナライゼーションエディターを開きます。
 
    1. **[!UICONTROL 決定ポリシー]** メニューに移動し、「**[!UICONTROL 決定ポリシーを追加]**」ボタンをクリックします。
 
@@ -123,7 +123,7 @@ ht-degree: 58%
 
    1. メールDesignerを開き、メール構造内の任意のコンポーネントを選択します。
 
-   1. プロパティ ペインの![](assets/do-no-localize/decisioning-icon.png) アイコンをクリックして、**[!UICONTROL 決定]** メニューにアクセスします。
+   1. プロパティ ペインの![](assets/do-not-localize/decisioning-icon.png) アイコンをクリックして、**[!UICONTROL 決定]** メニューにアクセスします。
 
    1. 「**[!UICONTROL 新しいポリシーを追加]**」ボタンをクリックします。
 
@@ -155,7 +155,7 @@ SMSの場合、プロパティパネルで利用可能な&#x200B;**パーソナ�
 
 +++パーソナライゼーションエディターからの決定ポリシーの追加
 
-1. ![](assets/do-no-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。
+1. ![](assets/do-not-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。
 1. **[!UICONTROL 決定ポリシー]** メニューに移動し、「**[!UICONTROL 決定ポリシーを追加]**」ボタンをクリックします。
 
    ![](assets/decision-policy-add-sms-editor.png)
@@ -164,7 +164,7 @@ SMSの場合、プロパティパネルで利用可能な&#x200B;**パーソナ�
 
 +++決定メニューから決定ポリシーを追加します
 
-1. プロパティ ペインの![](assets/do-no-localize/decisioning-icon.png) アイコンをクリックして、**[!UICONTROL 決定]** メニューにアクセスします。
+1. プロパティ ペインの![](assets/do-not-localize/decisioning-icon.png) アイコンをクリックして、**[!UICONTROL 決定]** メニューにアクセスします。
 
 1. 「**[!UICONTROL 決定ポリシーを追加]**」ボタンをクリックします。
 
@@ -178,7 +178,7 @@ SMSの場合、プロパティパネルで利用可能な&#x200B;**パーソナ�
 
 +++パーソナライゼーションエディターからの決定ポリシーの追加
 
-1. ![](assets/do-no-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。
+1. ![](assets/do-not-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。
 1. **[!UICONTROL 決定ポリシー]** メニューに移動し、「**[!UICONTROL 決定ポリシーを追加]**」ボタンをクリックします。
 
    ![](assets/decision-policy-add-push.png)
@@ -187,7 +187,7 @@ SMSの場合、プロパティパネルで利用可能な&#x200B;**パーソナ�
 
 +++決定メニューから決定ポリシーを追加します
 
-1. プロパティ ペインの![](assets/do-no-localize/decisioning-icon.png) アイコンをクリックして、**[!UICONTROL 決定]** メニューにアクセスします。
+1. プロパティ ペインの![](assets/do-not-localize/decisioning-icon.png) アイコンをクリックして、**[!UICONTROL 決定]** メニューにアクセスします。
 
 1. 「**[!UICONTROL 決定ポリシーを追加]**」ボタンをクリックします。
 
@@ -195,7 +195,7 @@ SMSの場合、プロパティパネルで利用可能な&#x200B;**パーソナ�
 
 >[!IMPORTANT]
 >
->プッシュ通知を使用したエクスペリエンス決定には、モバイル SDKの特定のバージョンが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
+>プッシュ通知を使用したエクスペリエンス決定には、Mobile SDK の特定のバージョンが必要です。 この機能を実装する前に、[リリースノート](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[この節](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで使用可能なすべての SDK バージョンを表示できます。
 
 +++
 
@@ -205,7 +205,7 @@ SMSの場合、プロパティパネルで利用可能な&#x200B;**パーソナ�
 
 1. **[!UICONTROL データフィールド]** セクションで、列を選択するか、**[!UICONTROL 追加]**&#x200B;をクリックして列を作成します。
 
-1. 書式設定パネルで、![](assets/do-no-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。
+1. 書式設定パネルで、![](assets/do-not-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。
 
    ![](assets/decision-policy-dm-add.png)
 
