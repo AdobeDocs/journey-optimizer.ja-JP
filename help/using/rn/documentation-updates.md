@@ -8,8 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
 workflow-type: tm+mt
 source-wordcount: 8915
@@ -31,7 +35,7 @@ ht-degree: 90%
 
 * フラグメントに関連するテーマが含まれていない場合に、フラグメントの挿入がブロックされることを説明するために、5 テーマの互換性の制限（Adobeのデフォルトのテーマ制約を含む）を明示的に文書化するために、フラグメントのテーマを利用&#x200B;**ドキュメントが明確になりました**。 [詳細情報](../email/apply-email-themes.md#leverage-themes-fragment)
 
-* 主要な考慮事項、データセットと基礎スキーマの無効化の違い、Adobe Experience Platform計画およびベストプラクティスのドキュメントへのリンクなど、リアルタイム顧客プロファイルのデータセットとスキーマの有効化に関するガイダンスを含む、**データセットの基本を学ぶ** ページと&#x200B;**スキーマの基本を学ぶ** ページが更新されました。 [ データセットの詳細](../data/get-started-datasets.md)および[ スキーマの詳細](../data/get-started-schemas.md)
+* 主要な考慮事項、データセットと基礎スキーマの無効化の違い、Adobe Experience Platform計画およびベストプラクティスのドキュメントへのリンクなど、リアルタイム顧客プロファイルのデータセットとスキーマの有効化に関するガイダンスを含む、**データセットの基本を学ぶ** ページと&#x200B;**スキーマの基本を学ぶ** ページが更新されました。 [&#x200B; データセットの詳細](../data/get-started-datasets.md)および[&#x200B; スキーマの詳細](../data/get-started-schemas.md)
 
 * 新しい&#x200B;**Adobe Journey Optimizerの使用を開始する** オンボーディングハブが利用可能になりました。 新規顧客は、役割ごとにパスを選択したり、基礎を調べたり、オンボーディング済みの場合は、最初に確認すべき点を知らなくても日々の業務に取り組むことができます。 [詳細情報](../../rp_landing_pages/get-started-landing-page.md)
 
