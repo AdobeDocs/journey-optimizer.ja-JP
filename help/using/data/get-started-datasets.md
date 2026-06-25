@@ -47,7 +47,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 ## ガードレールと制限
 
-* 2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。 フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。 詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}を参照してください。
+* 2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。 フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。 詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ja){target="_blank"}を参照してください。
 
 * 2025年2月以降、Journey Optimizer システム生成データセットに対して、有効期間（TTL）ガードレールがロールアウトされます。 [詳細情報](datasets-ttl.md)
 
@@ -132,8 +132,8 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 詳しいガイダンスについては、Adobe Experience Platformのドキュメントを参照してください。
 
-* [&#x200B; プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} —ID設定、フィールドグループの選択、データセットの目的の検証をカバーする事前イネーブルメントのチェックリスト。
-* [&#x200B; プロファイル対応スキーマの管理](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} – 名前変更を含む、プロファイル対応スキーマの非推奨化に関するガイダンス。
+* [&#x200B; プロファイルのイネーブルメント計画](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} —ID設定、フィールドグループの選択、データセットの目的の検証をカバーする事前イネーブルメントのチェックリスト。
+* [&#x200B; プロファイル対応スキーマの管理](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} – 名前変更を含む、プロファイル対応スキーマの非推奨化に関するガイダンス。
 
 ## データガバナンス
 
@@ -157,4 +157,4 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 >* [データセットのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}
 >* [データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}
 >* [データ管理ライセンス使用権限のベストプラクティス](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [&#x200B; プロファイル対応スキーマの管理](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [&#x200B; プロファイル対応スキーマの管理](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
