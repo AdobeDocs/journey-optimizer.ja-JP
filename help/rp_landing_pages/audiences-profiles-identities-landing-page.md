@@ -20,7 +20,7 @@ Adobe Journey Optimizer のオーディエンス、プロファイルおよび I
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Audience Management とパーソナライゼーション
 
@@ -40,7 +40,7 @@ Audience Management とパーソナライゼーション
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=ja)
 
 ID の基本を学ぶ
 
@@ -50,7 +50,7 @@ ID グラフとクロスチャネルのインタラクションをマッピン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 ライセンス使用状況ダッシュボード
 

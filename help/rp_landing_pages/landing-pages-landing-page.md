@@ -20,7 +20,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 ランディングページの概要
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ランディングページの管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 購読リストの作成と管理
 

@@ -35,7 +35,7 @@ Decisioning API リクエストと Edge Decisioning API リクエストの違い
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Edge Decisioning リクエストでのコンテキストデータの使用
 

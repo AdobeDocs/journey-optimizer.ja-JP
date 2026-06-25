@@ -20,7 +20,7 @@ Adobe Journey Optimizer のカスタムジャーニーレポートを使用す�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 ジャーニーレポートの作成と分析
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のカスタムジャーニーレポートを使用す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ステップイベントフィールドのリスト
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのレポートおよびデータ管理タスクを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 従来のステップイベントフィールド
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのレポートおよびデータ管理タスクを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 データ分析用の SQL クエリの例
 

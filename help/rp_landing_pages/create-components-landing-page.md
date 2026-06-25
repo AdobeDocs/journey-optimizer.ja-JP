@@ -35,7 +35,7 @@ Adobe Journey Optimizer 内の適切な場所に適切なオファーコンテ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Adobe Journey Optimizer で決定ルールを作成する方法
 

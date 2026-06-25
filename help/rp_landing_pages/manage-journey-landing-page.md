@@ -30,7 +30,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ジャーニーのプロファイルエントリ
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 タイムゾーンの管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 送信時間の最適化
 
@@ -70,7 +70,7 @@ AI 駆動モデルを使用して最適な送信時間を予測することで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ジャーニーの終了
 

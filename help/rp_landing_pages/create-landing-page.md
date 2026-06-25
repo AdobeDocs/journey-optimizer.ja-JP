@@ -20,7 +20,7 @@ Adobe Journey Optimizer でオーディエンスを作成すると、パーソ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Adobe Journey Optimizer でのセグメント定義の作成
 

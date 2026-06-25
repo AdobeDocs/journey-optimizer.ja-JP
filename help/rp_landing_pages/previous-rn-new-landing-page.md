@@ -21,7 +21,7 @@ Adobe Journey Optimizer のリリースノートでは、カスタマージャ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Adobe Journey Optimizer リリースノート 2025
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer リリースノート 2025
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Adobe Journey Optimizer 2024年リリースノート
 

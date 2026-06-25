@@ -20,7 +20,7 @@ Adobe Journey Optimizer を使用すると、リアルタイムのパーソナ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 WhatsApp メッセージの基本を学ぶ
 
@@ -30,7 +30,7 @@ WhatsApp メッセージの基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 WhatsApp チャネルの設定
 
@@ -40,7 +40,7 @@ WhatsApp チャネルの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 WhatsApp メッセージの作成
 
@@ -50,7 +50,7 @@ WhatsApp メッセージの作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=ja)
 
 WhatsApp メッセージのプレビュー、検証、送信
 

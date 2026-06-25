@@ -40,7 +40,7 @@ Adobe Journey Optimizer での決定項目の管理とは、適切なマーケ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 項目コレクションの管理
 

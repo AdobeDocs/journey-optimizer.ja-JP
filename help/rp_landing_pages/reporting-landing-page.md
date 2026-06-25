@@ -20,7 +20,7 @@ Adobe Journey Optimizer のレポート機能を使用すると、生データ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 レポートの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のレポート機能を使用すると、生データ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 ライブレポート
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のレポート機能を使用すると、生データ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 全期間のレポート
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のレポート機能を使用すると、生データ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 カスタムジャーニーレポート
 

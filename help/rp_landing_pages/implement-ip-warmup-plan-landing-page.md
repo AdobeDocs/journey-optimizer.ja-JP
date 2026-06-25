@@ -20,7 +20,7 @@ Adobe Journey Optimizer で IP ウォームアッププランを実装すると�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ja)
 
 IP ウォームアップ配信品質ガイド
 

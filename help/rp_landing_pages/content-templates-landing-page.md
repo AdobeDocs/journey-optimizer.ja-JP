@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 メールテンプレートのコンテンツのロック
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 コンテンツテンプレートの使用
 

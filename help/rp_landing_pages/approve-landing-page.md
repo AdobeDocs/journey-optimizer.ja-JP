@@ -20,7 +20,7 @@ Adobe Journey Optimizer でジャーニーとキャンペーンを承認する�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 ジャーニーとキャンペーンの承認の設定と管理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でジャーニーとキャンペーンを承認する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 承認ポリシーを作成および管理する方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でジャーニーとキャンペーンを承認する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ジャーニーとキャンペーンの承認をリクエストする方法
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でジャーニーとキャンペーンを承認する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 ジャーニーとキャンペーンのリクエストのレビューと承認
 

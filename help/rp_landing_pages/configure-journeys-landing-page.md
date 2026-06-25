@@ -20,7 +20,7 @@ Adobe Journey Optimizer のジャーニー設定を使用すると、データ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ジャーニー設定の基本を学ぶ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のイベント設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizer でのデータソースの設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのデータソースの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 カスタムアクションの設定と使用
 

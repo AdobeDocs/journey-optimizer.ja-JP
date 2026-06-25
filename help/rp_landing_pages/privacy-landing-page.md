@@ -20,7 +20,7 @@ Adobe Journey Optimizer のプライバシーツールを使用すると、機�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 プライバシー管理の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のプライバシーツールを使用すると、機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 プライバシーリクエストの管理
 
@@ -40,7 +40,7 @@ Privacy Serviceの UI と API を使用してプライバシーリクエスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ユーザーアクションの監査ログ
 
@@ -50,7 +50,7 @@ Privacy Serviceの UI と API を使用してプライバシーリクエスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 データライフサイクル操作の実行
 
@@ -60,7 +60,7 @@ Privacy Serviceの UI と API を使用してプライバシーリクエスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 同意管理
 
@@ -70,7 +70,7 @@ Privacy Serviceの UI と API を使用してプライバシーリクエスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 データガバナンスポリシー
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 メール設定の基本を学ぶ
 

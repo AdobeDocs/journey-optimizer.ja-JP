@@ -30,7 +30,7 @@ Adobe Journey Optimizer キャンペーンでのコンテンツ作成を効率�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 再利用可能なフラグメントの作成方法
 

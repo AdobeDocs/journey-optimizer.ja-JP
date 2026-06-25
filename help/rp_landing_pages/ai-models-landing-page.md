@@ -25,7 +25,7 @@ Adobe Journey Optimizer の AI モデルは、ビジネス目標に合わせて�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 AI モデルの基本を学ぶ
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer の AI モデルとそのタイプ、機能、さらに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 自動最適化モデルについて
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer の AI モデルとそのタイプ、機能、さらに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 AI モデルの作成方法
 

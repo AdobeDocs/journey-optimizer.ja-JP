@@ -30,7 +30,7 @@ Adobe Journey Optimizer のデータソースを使用すると、アドビの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 データソースの設定方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でデータソースを設定し、ジャーニーの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Experience Platform データソース
 

@@ -46,7 +46,7 @@ Adobe Journey Optimizer のチャネル設定により、メール、SMS、プ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ガイド付きチャネル設定
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer のチャネル設定により、メール、SMS、プ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 IP ウォームアッププランの実装
 
@@ -76,7 +76,7 @@ IP ウォームアッププランを作成および実行し、送信者の評�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 メールの配信品質と評判の監視
 
