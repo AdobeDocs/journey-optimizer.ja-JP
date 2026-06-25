@@ -10,33 +10,16 @@ level: Beginner
 keywords: Journey Optimizer, AJO とは, Adobe Journey Optimizer, 基本を学ぶ, オムニチャネル, パーソナライゼーション, カスタマージャーニー
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 TQID: https://experienceleague.adobe.com/HYykJIqT1bcoN1oXrG6uvfNuhDNOGLfPtOAf-Y3hzsQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
 source-wordcount: 804
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -44,7 +27,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** Adobe Journey Optimizerの概要、主な機能、具体的な使用例を理解して、顧客エンゲージメント目標にどのように適合するかを決定できます。
+**このページ：** Adobe Journey Optimizer の概要、そのコア機能、具体的なユースケースについて説明します。これにより、顧客エンゲージメントの目標にどのように適合するかを判断できます。
 
 >[!ENDSHADEBOX]
 
@@ -91,14 +74,14 @@ You can also create audience-based campaigns to send messages.
 
 Journey Optimizerは、リアルタイムのトリガージャーニーやカート放棄による復旧から、スケジュール型のキャンペーン、意思決定、業務上の通知に至るまで、幅広いシナリオをサポートします。
 
-目標に合った機能を見つけるには、[Journey Optimizerのユースケースの概要](ajo-use-case-guide.md)を参照してください。 エンドツーエンドの作業済み例については、[&#x200B; ジャーニーのユースケースライブラリ &#x200B;](../building-journeys/jo-use-cases.md)を参照してください。
+目標に合った機能を見つけるには、[Journey Optimizerのユースケースの概要](ajo-use-case-guide.md)を参照してください。 エンドツーエンドの作業済み例については、[ ジャーニーのユースケースライブラリ ](../building-journeys/jo-use-cases.md)を参照してください。
 
 
 ## 可用性とライセンス {#availability}
 
 このドキュメントは、Journey Optimizer の最新リリースを対象とし、特に明記されていない限り、B2C Edition と B2B Edition の両方のユーザーに適用されます。 環境で使用できるコンポーネントと機能は、[権限](../administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。 ご不明な点について詳しくは、アドビカスタマーサクセスマネージャーまたはアドビ担当者までお問い合わせください。
 
-[!DNL Journey Optimizer]には、[!DNL Adobe CX Enterprise]の一般的なプライバシーガイドラインと手順が適用されます。 [&#x200B; プライバシー](https://www.adobe.com/jp/privacy/experience-cloud.html){target="_blank"}の詳細を確認します。 [!DNL Adobe CX Enterprise] 
+[!DNL Journey Optimizer]には、[!DNL Adobe CX Enterprise]の一般的なプライバシーガイドラインと手順が適用されます。 [ プライバシー](https://www.adobe.com/jp/privacy/experience-cloud.html){target="_blank"}の詳細を確認します。 [!DNL Adobe CX Enterprise] 
 
 
 ## アーキテクチャ {#architecture}
@@ -112,7 +95,7 @@ Journey Optimizer は、Adobe Experience Platform 上にネイティブに作成
 * [データ管理の基本を学ぶ](../data/gs-data.md) - Journey Optimizer でデータを取り込み、統合し、アクティブ化する方法について説明します。
 * [ジャーニーのデザインとメッセージの送信](../building-journeys/journey-gs.md) - 最初のカスタマージャーニーを作成し、チャネルアクションを設定します。
 * [ライブレポート](../reports/live-report.md) - キャンペーンとジャーニーのパフォーマンスをリアルタイムで監視します。
-* [Journey Optimizer の概要チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - Journey Optimizer のコア概念のガイド付きビデオチュートリアル。
+* [Journey Optimizer の概要チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - Journey Optimizer のコア概念のガイド付きビデオチュートリアル。
 * [Journey Optimizer セキュリティの概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)（PDF）- セキュリティアーキテクチャ、データ保護、コンプライアンスの詳細。
 * [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} - 公式ライセンス用語と各エディションの機能の分類。
 

@@ -8,29 +8,15 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 TQID: https://experienceleague.adobe.com/IShBBUqM44JIe07teFasScDIa-a1D2j-gCRVBHGfAv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1727
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +24,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** マーケター向けの基本を学ぶためのパスに従って、Journey Optimizerでパーソナライズされた顧客体験を提供するオーディエンスを構築し、コンテンツをデザインし、ジャーニーやキャンペーンを調整することができます。
+**このページ：**&#x200B;マーケター向けの基本を学ぶパスに従って、Journey Optimizer でオーディエンスを作成し、コンテンツをデザインし、パーソナライズされたカスタマーエクスペリエンスを提供するジャーニーとキャンペーンを調整できます。
 
 >[!ENDSHADEBOX]
 
@@ -46,9 +32,9 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->**実装指示：** [管理者](administrator.md) → [&#x200B; データエンジニア &#x200B;](data-engineer.md) → [開発者](developer.md) →現在地：**マーケター**
+>**実装指示：** [管理者](administrator.md) → [ データエンジニア ](data-engineer.md) → [開発者](developer.md) →現在地：**マーケター**
 >
->ジャーニーを構築する前に、[環境設定](administrator.md)および[&#x200B; データ設定](data-engineer.md)が完了していることを確認してください。
+>ジャーニーを構築する前に、[環境設定](administrator.md)および[ データ設定](data-engineer.md)が完了していることを確認してください。
 
 ## 基本事項を学ぶ
 
@@ -236,7 +222,7 @@ Journey Optimizer の機能を示す次の実用的な例から学びます。
 
 1. **小規模から開始**：シンプルなウェルカムジャーニーや単一メッセージキャンペーンを作成して、プラットフォームを学びます
 2. **AI を活用**：AI アシスタントを使用して質問し、コンテンツ作成を高速化します
-3. **コミュニティに参加**：[Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}で他の Journey Optimizer ユーザーとつながります。
+3. **コミュニティに参加**：[Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}で他の Journey Optimizer ユーザーとつながります。
 4. **チュートリアルを探索**：[Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"} のステップバイステップのビデオをご覧ください
 
 ## その他のロールガイド {#other-role-guides}
@@ -244,7 +230,7 @@ Journey Optimizer の機能を示す次の実用的な例から学びます。
 | 役割 | ガイド |
 |------|-------|
 | 管理者 | [管理者の基本を学ぶ](administrator.md) |
-| データエンジニア | [&#x200B; データエンジニア向けの基本を学ぶ](data-engineer.md) |
+| データエンジニア | [ データエンジニア向けの基本を学ぶ](data-engineer.md) |
 | 開発者 | [開発者向けの基本を学ぶ](developer.md) |
 | マーケター | [マーケター向けの基本を学ぶ](marketer.md) |
 

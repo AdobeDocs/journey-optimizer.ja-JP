@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
 source-wordcount: 821
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +27,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、**&#x200B;電子メール Designerで電子メールコンテンツをデザインする方法、ゼロから作成する主な手順、コードを作成する方法、HTMLをインポートする方法、および電子メールをクライアント間で適切にレンダリングするベストプラクティスについて説明します。
+**このページ：** E メールデザイナーでメールコンテンツをデザインする方法、ゼロから作成する場合や、コードを使用する場合や、インポートした HTML を使用する場合の主な手順、様々なクライアントで適切にメールをレンダリングするベストプラクティスについて説明します。
 
 >[!ENDSHADEBOX]
 
@@ -87,7 +73,7 @@ E メールデザイナーにアクセスしてメールコンテンツのデザ
 
 1. メールコンテンツを定義してパーソナライズしたら、**自動コンテンツチェック**&#x200B;を使用してメールコンテンツを検証し、サポートされていないタグ、空のdiv、サイズ制限の違反など、HTMLやCSSの問題を送信前にオーサリングパネルで直接検出できます。 [詳細情報](content-check.md)
 
-   ![問題のある電子メール Designerのコンテンツチェックペイン &#x200B;](assets/content-check.png)
+   ![問題のある電子メール Designerのコンテンツチェックペイン ](assets/content-check.png)
 
 1. また、コンテンツ品質を検証して、読みやすさ、コンテンツのまとまり、有効性に関する潜在的な問題を特定することもできます。 [コンテンツ品質の検証の詳細情報](../content-management/brands-score.md#validate-quality)
 
@@ -119,8 +105,8 @@ E メールデザイナーにアクセスしてメールコンテンツのデザ
 
 メッセージエディターでメールコンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416418?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B テストを行うようにコンテンツ実験を設定し、ビジネス目標を最大限に推進するメールコンテンツを探索する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447332?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
