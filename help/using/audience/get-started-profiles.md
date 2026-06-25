@@ -8,24 +8,13 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
 source-wordcount: 778
 ht-degree: 53%
@@ -76,16 +65,10 @@ ht-degree: 53%
 
 >[!TIP]
 >
->web、アプリ、コードベースのエクスペリエンスなどのインバウンドチャネルで仮名プロファイル（未認証の訪問者）をターゲティングする場合は、プロファイルを自動的に削除するTime-To-Live （TTL）を設定して、エンゲージ可能なプロファイル数と関連コストを管理することを検討してください。 [&#x200B; インバウンドチャネルのガードレールについて詳しく見る](../start/guardrails.md#profile-management-inbound)
+>web、アプリ、コードベースのエクスペリエンスなどのインバウンドチャネルで仮名プロファイル（未認証の訪問者）をターゲティングする場合は、プロファイルを自動的に削除するTime-To-Live （TTL）を設定して、エンゲージ可能なプロファイル数と関連コストを管理することを検討してください。 [ インバウンドチャネルのガードレールについて詳しく見る](../start/guardrails.md#profile-management-inbound)
 
-組織のエンゲージ可能なプロファイル数は、**[!UICONTROL 管理]** > **[!UICONTROL ライセンス使用状況]**&#x200B;からいつでも監視できます。 カウントの急激な増加が確認された場合は、詳細なガイダンスについては、[&#x200B; トラブルシューティングの節](license-usage.md#troubleshooting-engageable-profiles)を参照してください。 [&#x200B; ライセンス使用状況ダッシュボードの詳細](license-usage.md)
+組織のエンゲージ可能なプロファイル数は、**[!UICONTROL 管理]** > **[!UICONTROL ライセンス使用状況]**&#x200B;からいつでも監視できます。 カウントの急激な増加が確認された場合は、詳細なガイダンスについては、[ トラブルシューティングの節](license-usage.md#troubleshooting-engageable-profiles)を参照してください。 [ ライセンス使用状況ダッシュボードの詳細](license-usage.md)
 
->[!MORELIKETHIS]
->
->* [Journey Optimizer におけるデータ管理の基本を学ぶ](../data/gs-data.md)
->* [リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
->* [リアルタイム顧客プロファイルデータおよびセグメント化用のデフォルトガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}
->* [データ取り込みのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## プロファイルダッシュボード
 
@@ -103,4 +86,13 @@ ht-degree: 53%
 
 Adobe Experience Platform がリアルタイム顧客プロファイルをアセンブルおよび更新する方法、これらのプロファイルにアクセスして使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/31660?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
+
+
+
+>[!MORELIKETHIS]
+>
+>* [Journey Optimizer におけるデータ管理の基本を学ぶ](../data/gs-data.md)
+>* [リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
+>* [リアルタイム顧客プロファイルデータおよびセグメント化用のデフォルトガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}
+>* [データ取り込みのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home){target="_blank"}
