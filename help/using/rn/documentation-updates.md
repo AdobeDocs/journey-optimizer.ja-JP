@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 8760
-ht-degree: 92%
+source-wordcount: 8799
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年6月 {#june-2026}
+
+* 「**ターゲティングディメンションの設定**」ページが更新され、オーケストレーションされたキャンペーンで使用できる2つのターゲティングディメンションのタイプ（ビルトイン **プロファイルターゲティングディメンション** （設定は不要）と、リレーショナルスキーマに基づく&#x200B;**カスタムターゲティングディメンション**）が文書化されました。 [詳細情報](../orchestrated/target-dimension.md)
 
 * フラグメントに関連するテーマが含まれていない場合に、フラグメントの挿入がブロックされることを説明するために、5 テーマの互換性の制限（Adobeのデフォルトのテーマ制約を含む）を明示的に文書化するために、フラグメントのテーマを利用&#x200B;**ドキュメントが明確になりました**。 [詳細情報](../email/apply-email-themes.md#leverage-themes-fragment)
 
