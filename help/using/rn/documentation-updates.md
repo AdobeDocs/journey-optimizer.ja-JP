@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
 workflow-type: tm+mt
-source-wordcount: 8876
-ht-degree: 91%
+source-wordcount: 8915
+ht-degree: 90%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 91%
 
 * ジャーニーの再エントリ **サブセクションの新しい** パス割り当てが&#x200B;**パス実験** ドキュメントに追加されました。 パス割り当ては、複数のエントリにわたって同じジャーニーバージョンにアクセスするプロファイルに対して永続的であり、ジャーニーバージョン内でのみ永続的であることが明確になります。 割り当ては、新しいジャーニーバージョンが公開されるとリセットされ、ジャーニー内の各パス実験アクティビティは、独立したランダム割り当てを適用します。 [詳細情報](../building-journeys/path-experimentation.md#path-assignment)
 * **Adobe Experience Cloud**&#x200B;への参照は、[!DNL Journey Optimizer]のドキュメント全体で&#x200B;**[!DNL Adobe CX Enterprise]**&#x200B;のブランドと一致しています。
+
+* **`nowWithDelta()`日付関数**&#x200B;のドキュメントが更新され、月末の動作が明確になりました。ターゲット月の日数が現在の曜日よりも少ない場合、その月の最後の有効な日に正規化されます。 [詳細情報](../building-journeys/functions/date-functions.md#nowWithDelta)
 
 * **配信品質の基本を学ぶ** ページが更新され、受信者ごとのFBL **サブセクションのない新しい** プロバイダーが追加されました。 この記事では、受信者ごとにスパムの苦情を返さない主要なメールボックスプロバイダー（Gmail/Google Workspace、Apple iCloud、Corporate Microsoft 365/Exchange Online）のリストを紹介し、これらのサービスを利用する受信者に抑制リストエントリが存在しない理由を説明します。 [詳細情報](../reports/deliverability.md#providers-no-fbl)
 
