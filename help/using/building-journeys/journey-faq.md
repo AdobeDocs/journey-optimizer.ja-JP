@@ -11,36 +11,16 @@ keywords: ジャーニー, 質問, 回答, トラブルシューティング, �
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
 TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 6208
-ht-degree: 77%
+source-wordcount: 6214
+ht-degree: 76%
 
 ---
 
@@ -54,7 +34,7 @@ ht-degree: 77%
 
 [!DNL Adobe Journey Optimizer]でのJourney Orchestrationに関するよくある質問への回答を検索します。
 
-さらに詳細が必要ですか？ このページの下部にあるフィードバックオプションを使って質問を高めてください。 [[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながることもできます。
+さらに詳細が必要ですか？ このページの下部にあるフィードバックオプションを使って質問を高めてください。 [[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながることもできます。
 
 ## 一般概念
 
@@ -89,7 +69,7 @@ ht-degree: 77%
 * **[API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)**：API 呼び出し経由でトリガーされるキャンペーン。外部システムとの統合が可能になり、リアルタイムイベントやビジネスロジックに基づいてメッセージを送信できます。
 * **[オーケストレーションキャンペーン](../orchestrated/gs-orchestrated-campaigns.md)**：条件、待ち時間、複数のアクションを含めることができるキャンバス上に作成された、複数手順のオーディエンスベースのキャンペーンで、スケジュール済みの調整されたエクスペリエンスを作成できます。
 
-**ベストプラクティス**：高度なオーケストレーションによる複雑なイベントトリガーのエンゲージメントには、[&#x200B; ジャーニー](journey.md)を使用します。 スケジュールされたオーディエンスベースのコミュニケーションには、[&#x200B; アクションキャンペーン &#x200B;](../campaigns/create-campaign.md)を使用します。 外部システムからのプログラムによるトリガーには、[API トリガーによるキャンペーン &#x200B;](../campaigns/api-triggered-campaigns.md)を使用します。 キャンペーン固有の要件を含むマルチステップのコミュニケーションには、[&#x200B; オーケストレーションされたキャンペーン &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)を使用します。
+**ベストプラクティス**：高度なオーケストレーションによる複雑なイベントトリガーのエンゲージメントには、[ ジャーニー](journey.md)を使用します。 スケジュールされたオーディエンスベースのコミュニケーションには、[ アクションキャンペーン ](../campaigns/create-campaign.md)を使用します。 外部システムからのプログラムによるトリガーには、[API トリガーによるキャンペーン ](../campaigns/api-triggered-campaigns.md)を使用します。 キャンペーン固有の要件を含むマルチステップのコミュニケーションには、[ オーケストレーションされたキャンペーン ](../orchestrated/gs-orchestrated-campaigns.md)を使用します。
 
 +++
 
@@ -185,7 +165,7 @@ CJA オーディエンスはジャーニーで直接サポートされていま�
 
 次の場合に&#x200B;**単一ジャーニー**&#x200B;を使用します。
 
-* 個々の顧客のアクションにリアルタイムで対応する必要がある（例：購入確認、買い物かごの放棄）
+* 個々の顧客の行動（カート放棄、新規会員のオンボーディングなど）にリアルタイムで対応する必要があります
 * 各顧客が自分のペースで進めていく必要がある
 * 特定のイベントに基づいてトリガーする必要がある
 
@@ -286,17 +266,17 @@ CJA オーディエンスはジャーニーで直接サポートされていま�
 
 +++
 
-+++ 購入後すぐにメールを送信するにはどうすればよいですか？
++++ カートが放棄された直後にメールを送信するにはどうすればよいですか？
 
 **単一イベントトリガージャーニー**&#x200B;を作成します。
 
-1. 注文の詳細を含む「購入」イベントを設定します
+1. 関連するカートの詳細を含む「カート放棄」イベントを設定します
 2. イベントをジャーニーエントリポイントとして追加します
 3. すぐにメールアクションに従います
-4. パーソナライズされた注文の詳細を含む注文確認メールをデザインします
-5. ジャーニーを公開します
+4. パーソナライズされた商品詳細でカート回復メールをデザインする
+5. ジャーニーの公開
 
-購入イベントを受信するたびにジャーニーが自動的にトリガーされ、確認メールがリアルタイムで送信されます。
+買い物かごの放棄イベントを受け取ると、ジャーニーは自動的にトリガーし、回復用のメールをリアルタイムで送信します。
 
 詳しくは、[イベント設定](../event/about-events.md)と[メールアクション](journey-action.md)を参照してください。
 
@@ -369,7 +349,7 @@ Journey Optimizer には、タイムゾーン管理のオプションがいく�
 
 **待ち時間のベストプラクティス**：
 
-* **トランザクションメッセージ**（注文確認）：すぐに送信します
+* **トリガーされたマーケティングメッセージ** （買い物かご放棄の回復）：すぐに送信
 * **ウェルカムシリーズ**：メール間隔は 1～3 日
 * **教育コンテンツ**：メッセージ間隔は 3～7 日
 * **プロモーションキャンペーン**：オファー間隔は 7 日以上
@@ -403,11 +383,11 @@ Journey Optimizer には、タイムゾーン管理のオプションがいく�
 * フラグメントを挿入すると、ノードの&#x200B;**静的コピー**&#x200B;が作成されます。元のフラグメントの更新は、既に使用しているジャーニーに&#x200B;**not**&#x200B;反映されます
 * ジャーニーに挿入できるのは&#x200B;**アクティブ** フラグメントのみです
 * フラグメントはサンドボックススコープで、1つのサンドボックスにつき最大20 ノードと200個のアクティブフラグメントをサポートします
-* [&#x200B; ジャンプ &#x200B;](jump.md) アクティビティは、フラグメント内では許可されていません
+* [ ジャンプ ](jump.md) アクティビティは、フラグメント内では許可されていません
 
-**ジャンプアクティビティとの違い**: [&#x200B; ジャンプアクティビティ &#x200B;](jump.md)は、実行時にプロファイルを別のライブジャーニーにリダイレクトします。 ジャーニーフラグメントは、設計時に現在のジャーニーにノードをコピーします。これは、ランタイムのルーティングメカニズムではなく、ビルド時の再利用メカニズムです。
+**ジャンプアクティビティとの違い**: [ ジャンプアクティビティ ](jump.md)は、実行時にプロファイルを別のライブジャーニーにリダイレクトします。 ジャーニーフラグメントは、設計時に現在のジャーニーにノードをコピーします。これは、ランタイムのルーティングメカニズムではなく、ビルド時の再利用メカニズムです。
 
-[ジャーニーフラグメント &#x200B;](journey-fragments.md)の詳細をご覧ください。
+[ジャーニーフラグメント ](journey-fragments.md)の詳細をご覧ください。
 
 +++
 
@@ -648,7 +628,7 @@ Learn more about [action responses](../action/action-response.md).
 
 はい。 **[アクティビティの最適化](conditions.md)**&#x200B;を使用して、好みのチャネルに基づいてプロファイルをルーティングします。
 
-1. ジャーニーに[Optimize アクティビティ &#x200B;](optimize.md)を追加
+1. ジャーニーに[Optimize アクティビティ ](optimize.md)を追加
 2. 優先チャネルプロファイル属性（例：`profile.preferredChannel`）を確認して、各チャネルのパスを作成します
 3. チャネル固有のパスを設定します。
    * **メールパス**：メールに最適化されたコンテンツを含む[メールアクション](../email/create-email.md)を追加します
@@ -680,7 +660,7 @@ Learn more about [action responses](../action/action-response.md).
 
 **ジャーニー内**：
 
-* 不要なプロファイルを終了するには、ジャーニーの初期段階で[最適化アクティビティ &#x200B;](conditions.md)を追加します
+* 不要なプロファイルを終了するには、ジャーニーの初期段階で[最適化アクティビティ ](conditions.md)を追加します
 * 除外属性（例：VIP ステータス、テストアカウント）を確認します
 * プロファイルを特定するには、[オーディエンスの選定](audience-qualification-events.md)を使用します。
 
@@ -960,8 +940,8 @@ Journey Optimizerは、[!DNL Adobe Campaign]とネイティブに統合して、
 
 **ベストプラクティス**：ジャーニーに焦点を当てて、管理しやすい状態に保持します。 ジャーニーが複雑になりつつある場合は、次を考慮します。
 
-* [&#x200B; ジャンプ アクティビティ &#x200B;](jump.md)を使用して複数のジャーニーに分割する
-* [ジャーニーフラグメント &#x200B;](journey-fragments.md)に繰り返しロジックを抽出して、ゼロから再構築することなくジャーニーをまたいで再利用する
+* [ ジャンプ アクティビティ ](jump.md)を使用して複数のジャーニーに分割する
+* [ジャーニーフラグメント ](journey-fragments.md)に繰り返しロジックを抽出して、ゼロから再構築することなくジャーニーをまたいで再利用する
 * より効率的な条件でロジックを簡素化します
 * すべてのアクティビティが必要かどうかを確認します
 
@@ -989,7 +969,7 @@ Journey Optimizerは、[!DNL Adobe Campaign]とネイティブに統合して、
 
 * 公開前に[テストモード](testing-the-journey.md)と[ドライラン](journey-dry-run.md)を使用してパフォーマンスを検証します
 * [カスタムアクション](using-custom-actions.md)を通じて外部 API 呼び出しを最小限に抑え、待ち時間とサードパーティシステムへの依存関係を回避します
-* 可能であれば、外部呼び出しではなく[&#x200B; データセット検索](dataset-lookup.md)を使用して、[!DNL Adobe Experience Platform]に頻繁に使用されるデータを保存します
+* 可能であれば、外部呼び出しではなく[ データセット検索](dataset-lookup.md)を使用して、[!DNL Adobe Experience Platform]に頻繁に使用されるデータを保存します
 * [メッセージ配信](journey-action.md)のパフォーマンスを確認して最適化します
 
 詳しくは、[ガードレールと制限](../start/guardrails.md)を参照してください。
