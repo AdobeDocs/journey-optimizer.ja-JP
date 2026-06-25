@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 26%
+source-wordcount: 3687
+ht-degree: 25%
 
 ---
 
@@ -133,7 +121,7 @@ ht-degree: 26%
 </table>
 
 
-* [!BADGE 非推奨]{type=Negative} **オーディエンス選定ノードでバッチオーディエンスが非推奨になりました** - **2026年8月**&#x200B;以降、Journey Optimizerは&#x200B;**オーディエンス選定** ノードでバッチオーディエンスを使用しているジャーニーの公開をブロックします。 ジャーニーキャンバスに検証警告が既に表示されています。 既存のライブジャーニーは影響を受けません。 この設定を含む新しいジャーニー、ドラフトおよび重複したジャーニーは、2026年8月より前に更新する必要があります。 オーディエンス選定ノードでストリーミングオーディエンスを使用するか、**オーディエンスの読み取り** アクティビティに切り替えます。 [&#x200B; ジャーニーを移行する方法について説明します](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE 非推奨]{type=Negative} **オーディエンス選定ノードでバッチオーディエンスが非推奨になりました** - **2026年8月**&#x200B;以降、Journey Optimizerは&#x200B;**オーディエンス選定** ノードでバッチオーディエンスを使用しているジャーニーの公開をブロックします。 ジャーニーキャンバスに検証警告が既に表示されています。 既存のライブジャーニーは影響を受けません。 この設定を含む新しいジャーニー、ドラフトおよび重複したジャーニーは、2026年8月より前に更新する必要があります。 オーディエンス選定ノードでストリーミングオーディエンスを使用するか、**オーディエンスの読み取り** アクティビティに切り替えます。 [ ジャーニーを移行する方法について説明します](../building-journeys/aq-batch-audiences-migration.md)
 
 * **一時停止したジャーニーを直接停止する** - **一時停止した**&#x200B;状態から直接ジャーニーを停止できるようになりました。 以前は、一時停止したジャーニーを停止する前に、**Live**&#x200B;に再開する必要がありました。 [詳細情報](../building-journeys/journey-pause.md#stop-close-paused)
 
@@ -499,6 +487,18 @@ ht-degree: 26%
 </table>
 
 +++
+
+### レポート {#june-26-reporting}
+
+このリリースでは、レポートに次の機能強化が追加されました。
+
+* **電子メールレポートの新しい推定クリック指標** – 実際の顧客エンゲージメントをより正確に把握するために、ジャーニー、キャンペーン、チャネルのレポートで新しい推定指標を使用できるようになりました。
+
+   * **推定CTR** （クリック率）：配信されたメッセージの合計数に対する推定クリック数として計算されます。
+
+   * **推定CTOR** （クリック率）：推定開封数に対する推定クリック数として計算されます。
+
+  ご利用いただけます：2026年6月25日（PT）
 
 ### 管理 {#june-26-administration}
 
