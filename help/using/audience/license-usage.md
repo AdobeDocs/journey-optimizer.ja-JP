@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 22%
+source-wordcount: 742
+ht-degree: 27%
 
 ---
 
@@ -38,7 +26,7 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** Adobe Journey Optimizer ライセンス使用状況ダッシュボードを使用して、エンゲージ可能なプロファイルを監視し、プロファイル数の予期しない増加をトラブルシューティングする方法を説明します。
+**このページ：** Adobe Journey Optimizer ライセンス使用状況ダッシュボードを操作する方法と、エンゲージ可能プロファイル数の予期しない増加をトラブルシューティングする方法について説明します。
 
 >[!ENDSHADEBOX]
 
@@ -54,29 +42,11 @@ ht-degree: 22%
 >
 >* 開発サンドボックスの場合、割り当て量列に `N/A` と示されるので、特定の指標（例：計算時間、メールなど）は表示されません。 ダッシュボードには、null 以外の値のみが表示されます。指標がゼロまたはゼロに近い場合、これらの値は入力されません。
 
-
-[!DNL Adobe Journey Optimizer]の場合、ダッシュボードでは&#x200B;**エンゲージ可能なプロファイル**&#x200B;の数を確認できます。
-
-## 魅力的なプロファイルとは？ {#what-is-engageable-profile}
-
-**エンゲージ可能なプロファイル**&#x200B;は、プロファイルサービスに保存され、ジャーニーまたはキャンペーンによってエンゲージされた個人を表す情報の記録です。
-
-エンゲージメント可能なプロファイルの主な特徴：
-
-* **12か月間のローリングウィンドウ**：過去12か月間のエンゲージメントに基づいて、エンゲージ可能なプロファイルがカウントされます。 この指標は、Journey Optimizerのオーサリング、決定、配信、実験、オーケストレーション機能を使用してエンゲージしようとした一意のプロファイルの数を示します。
-
-* **サンドボックスごとのユニーク数**: プロファイルがサンドボックス内で複数のジャーニーまたはキャンペーンにエントリした場合、そのサンドボックスの単一のエンゲージ可能なプロファイルとして1回のみカウントされます。
-
-* **アドレス可能なオーディエンスに基づく**：エンゲージ可能なプロファイルは、アドレス可能なオーディエンスから計算されます。 カウントは、Journey Optimizerの機能を使用して過去12か月間にエンゲージしたオーディエンスを表し、アドレス可能なオーディエンスの合計です。
-
-* **指標の動作**: エンゲージ可能なプロファイル数：
-   * ジャーニーや施策を通じて新しいプロファイルがエンゲージする割合が増加する可能性がある
-   * 12 カ月以上特定のプロファイルにエンゲージメントがない限り、顧客数は減少しません
-   * 仮名プロファイルを既知のプロファイルに合成すると減少する可能性があります
+[!DNL Adobe Journey Optimizer]の場合、ダッシュボードを使用すると、**エンゲージ可能なプロファイル**&#x200B;の数を確認できます。このプロファイルは、12か月間のローリング期間を通じて、ジャーニー、キャンペーン、または意思決定を通じてエンゲージされた一意のプロファイルです。 エンゲージメント可能なプロファイルの定義と計算方法について詳しくは、[ エンゲージメント可能なプロファイルとライセンスの使用状況](get-started-profiles.md#engageable-profiles)を参照してください。
 
 >[!NOTE]
 >
->エンゲージメント可能なプロファイル数が急激に増加した場合は、問題の理解と解決に関する詳細なガイダンスについては、以下の[&#x200B; トラブルシューティングの節](#troubleshooting-engageable-profiles)を参照してください。
+>エンゲージメント可能なプロファイル数が急激に増加した場合は、問題の理解と解決に関する詳細なガイダンスについては、以下の[ トラブルシューティングの節](#troubleshooting-engageable-profiles)を参照してください。
 
 ## トラブルシューティング：エンゲージメント可能なプロファイル数が大幅に増加 {#troubleshooting-engageable-profiles}
 
@@ -104,7 +74,7 @@ ht-degree: 22%
 
 2. **大規模なオーディエンスを対象としたジャーニー、キャンペーン、決定の調査：**
 
-   * [&#x200B; エンゲージ可能なプロファイルクエリ &#x200B;](../reports/query-examples.md#engageable-profiles-queries)または[&#x200B; クエリサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}を使用して、多数のプロファイルをターゲットにした最近のジャーニーとキャンペーンを確認します。
+   * [ エンゲージ可能なプロファイルクエリ ](../reports/query-examples.md#engageable-profiles-queries)または[ クエリサービス ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}を使用して、多数のプロファイルをターゲットにした最近のジャーニーとキャンペーンを確認します。
    * プロファイル数の急増に貢献した特定のジャーニーバージョンを特定できます。
    * 新しいプロファイルを含むジャーニー、キャンペーン、意思決定は、ジャーニーデータセットのイベント数の増加につながり、エンゲージ可能なプロファイル数の増加につながります。
 
@@ -130,7 +100,7 @@ ht-degree: 22%
 
 **関連トピック：**
 
-* [&#x200B; エンゲージメント可能なプロファイル クエリの例](../reports/query-examples.md#engageable-profiles-queries) - エンゲージメント可能なプロファイルを監視および分析するためのクエリのサンプル
+* [ エンゲージメント可能なプロファイル クエリの例](../reports/query-examples.md#engageable-profiles-queries) - エンゲージメント可能なプロファイルを監視および分析するためのクエリのサンプル
 * [Adobe Experience Platform Query Serviceの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}
 
 ## 関連ドキュメント {#related-documentation}

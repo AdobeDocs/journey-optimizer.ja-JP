@@ -9,26 +9,16 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 TQID: https://experienceleague.adobe.com/OL0VFfxegvbTbSLKeqFaUNTeZllmFtjMW6bmh1XDF00
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 88%
+source-wordcount: 691
+ht-degree: 83%
 
 ---
 
@@ -85,7 +75,7 @@ Adobe Journey Optimizer には、マーケティング活動を強化する目�
 * **セグメントの定義**：Adobe Experience Platform セグメント化サービスを使用して、新しいオーディエンス定義を作成します。 オーディエンスは、セグメント定義から生成され、評価タイプに応じて様々なタイミングで更新されます。
 
    * ストリーミングセグメント化：新しいデータが流入すると、オーディエンスはリアルタイムで更新されるので、ユーザーアクティビティに基づいて継続的な関連性が確保されます。
-   * バッチセグメント化：オーディエンスは 24 時間ごとに更新され、一定の間隔でプロファイルのスナップショットが取得されます。 ジャーニーで使用する場合、新しく選定されたセグメントメンバーは、次のスナップショットまで表示されない場合があります。 [&#x200B; タイミングの詳細](../building-journeys/audience-qualification-events.md#timing-segment-membership)。
+   * バッチセグメント化：オーディエンスは 24 時間ごとに更新され、一定の間隔でプロファイルのスナップショットが取得されます。 ジャーニーで使用する場合、新しく選定されたセグメントメンバーは、次のスナップショットまで表示されない場合があります。 [ タイミングの詳細](../building-journeys/audience-qualification-events.md#timing-segment-membership)。
    * エッジセグメント化：オーディエンスはエッジ上で即座に評価されるので、リアルタイムのパーソナライゼーションが可能になります。
 
   [詳しくは、セグメント定義の作成方法を参照してください。](creating-a-segment-definition.md)
@@ -99,6 +89,10 @@ Adobe Journey Optimizer には、マーケティング活動を強化する目�
 ## ジャーニーとキャンペーンのターゲットオーディエンス {#target-audiences}
 
 オーディエンスの準備が整ったら、ジャーニーの作成やキャンペーンの作成時にオーディエンスを選択し、関連するメッセージを適切なタイミングで適切な人物にリーチできます。 [詳しくは、Journey Optimizer の Audience Activation を参照してください](target-audiences.md)。
+
+>[!NOTE]
+>
+>ジャーニー、キャンペーン、意思決定アクティビティなど、オーディエンスのアクティベーションを通じてエンゲージされたプロファイルは、組織の&#x200B;**エンゲージ可能なプロファイル** ライセンス指標にカウントされます。 各プロファイルは、12か月間のローリング期間にわたって、サンドボックスごとに1回カウントされます。 [ エンゲージ可能なプロファイル数を監視](license-usage.md)
 
 ## チュートリアルビデオ {#video}
 
