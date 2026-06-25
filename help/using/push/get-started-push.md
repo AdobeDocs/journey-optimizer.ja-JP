@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 389
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** Adobe Journey Optimizerでのプッシュ通知の使用を開始して、ジャーニーやキャンペーンを通じてモバイルアプリのユーザーやweb訪問者にリーチします。
+**このページ：** Adobe Journey Optimizer のプッシュ通知の基本を学びます。これにより、ジャーニーやキャンペーンを通じてモバイルアプリユーザーや web 訪問者にリーチできます。
 
 >[!ENDSHADEBOX]
 

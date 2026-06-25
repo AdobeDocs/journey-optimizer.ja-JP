@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 609
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** Adobe Experience Platformの標準スキーマとリレーショナルスキーマがデータ構造をどのように定義しているかを理解します。これにより、Adobe Journey Optimizerでパーソナライズおよびオーケストレーションされたキャンペーンのために、プロファイル、行動イベント、リレーショナルエンティティをモデル化できます。
+**このページ：** Adobe Experience Platform の標準スキーマとリレーショナルスキーマがデータの構造を定義する仕組みについて説明します。これにより、Adobe Journey Optimizer でパーソナライゼーションやオーケストレーションキャンペーンのプロファイル、行動イベント、リレーショナルエンティティをモデル化できます。
 
 >[!ENDSHADEBOX]
 

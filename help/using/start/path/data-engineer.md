@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1072
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** Adobe Journey Optimizerを強化するスキーマ、データセット、ID、およびデータ ソースを構築して、リアルタイムでパーソナライズされた顧客体験を提供できるようにします。
+**このページ：** Adobe Journey Optimizer を活用するスキーマ、データセット、ID、データソースを作成します。これにより、チームはリアルタイムでパーソナライズされたカスタマーエクスペリエンスを提供できます。
 
 >[!ENDSHADEBOX]
 

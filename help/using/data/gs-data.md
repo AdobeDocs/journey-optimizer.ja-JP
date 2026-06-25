@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 2696
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** Adobe Journey Optimizerとの間でデータがどのように流れ込むのか、スキーマ、データセット、ID、プロファイル、およびデータソースについて実用的な概要を説明します。これにより、ジャーニーやキャンペーンを構築する前に、データ準備ステップを完了できます。
+**このページ：**&#x200B;スキーマ、データセット、ID、プロファイル、データソースを含め、データが Adobe Journey Optimizer にどのように取り込まれ、どのように出力されるかについて、実用的な概要を説明します。これにより、チームはジャーニーやキャンペーンを作成する前にデータ準備手順を完了できます。
 
 >[!ENDSHADEBOX]
 

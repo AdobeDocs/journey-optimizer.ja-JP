@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1727
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** マーケター向けの基本を学ぶためのパスに従って、Journey Optimizerでパーソナライズされた顧客体験を提供するオーディエンスを構築し、コンテンツをデザインし、ジャーニーやキャンペーンを調整することができます。
+**このページ：**&#x200B;マーケター向けの基本を学ぶパスに従って、Journey Optimizer でオーディエンスを作成し、コンテンツをデザインし、パーソナライズされたカスタマーエクスペリエンスを提供するジャーニーとキャンペーンを調整できます。
 
 >[!ENDSHADEBOX]
 

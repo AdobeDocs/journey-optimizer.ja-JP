@@ -41,7 +41,7 @@ ht-degree: 98%
       + [主な用語](using/start/terminology.md)
       + [目標から始める](using/start/ajo-use-case-guide.md)
       + [ガードレールと制限](using/start/guardrails.md)
-      + {hide-from-toc}[&#x200B; パッケージと機能](using/start/ajo-packages.md)
+      + {hide-from-toc}[パッケージと機能](using/start/ajo-packages.md)
       + {hide-from-toc}[機能の可用性](using/start/ajo-features-availability.md)
    + はじめに（役割別） {#by-role}
       + [役割と責務](using/start/quick-start.md)
@@ -68,7 +68,7 @@ ht-degree: 98%
       + [ジャーニー指標の設定とトラッキング](using/building-journeys/success-metrics.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + シミュレーション {#simulate-journey}
-         + [&#x200B; ジャーニーシミュレーションの基本を学ぶ](using/building-journeys/simulate-journey-gs.md)
+         + [ジャーニーシミュレーションの基本を学ぶ](using/building-journeys/simulate-journey-gs.md)
          + [ジャーニーのシミュレート](using/building-journeys/simulate-journey.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーのドライラン](using/building-journeys/journey-dry-run.md)
@@ -729,7 +729,7 @@ ht-degree: 98%
          + [決定ポリシーを作成](using/experience-decisioning/create-decision-policy.md)
          + [メッセージでの決定ポリシーの使用](using/experience-decisioning/use-decision-policy.md)
          + [決定ポリシーでのフラグメントの活用](using/experience-decisioning/fragments-decision-policies.md)
-         + [&#x200B; ダイレクトメールでのバッチ決定](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + [ダイレクトメールでのバッチ決定](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
       + [決定のユースケース](using/experience-decisioning/experience-decisioning-uc.md)
       + イベントデータの収集 {#experience-decisioning-collect-event-data}

@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
 workflow-type: tm+mt
 source-wordcount: 1614
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** トップバー、ホームページ、左側のナビゲーションなど、Adobe Journey Optimizerのインターフェイスを利用して、必要な機能にすばやくアクセスできます。
+**このページ：** Adobe Journey Optimizer インターフェイス（上部のバー、ホームページ、左側のナビゲーション）の使用方法について説明します。これにより、必要な機能にすばやくアクセスできます。
 
 >[!ENDSHADEBOX]
 

@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 826
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** ユニバーサル検索、リストフィルター、タグを使用して、ジャーニー、キャンペーン、アセットをすばやく検索して整理し、Journey Optimizer プロジェクトの成長に合わせて生産性を維持できます。
+**このページ：**&#x200B;ユニバーサル検索、リストフィルター、タグを使用して、ジャーニー、キャンペーン、アセットをすばやく見つけて整理します。これにより、Journey Optimizer プロジェクトの規模に合わせて生産性を維持できます。
 
 >[!ENDSHADEBOX]
 

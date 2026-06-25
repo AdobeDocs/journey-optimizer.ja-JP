@@ -43,7 +43,7 @@ topic_v2:
 source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
 source-wordcount: 2102
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** Adobe Journey Optimizerの導入における主要な役割とその責任を理解することで、チームにとって適切な出発点とクイックスタートタスクを見つけることができます。
+**このページ：** Adobe Journey Optimizer の実装での主な役割とその責務について説明します。これにより、チームにとって適切な開始点とクイックスタートタスクを見つけることができます。
 
 >[!ENDSHADEBOX]
 

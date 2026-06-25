@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1168
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** Adobe Journey Optimizerで安全かつ効率的に作業できるように、ユーザー、権限、サンドボックスおよびチャネル設定を設定します。
+**このページ：**&#x200B;ユーザー、権限、サンドボックス、チャネルを設定します。これにより、チームは Adobe Journey Optimizer で安全および効率的に作業できます。
 
 >[!ENDSHADEBOX]
 

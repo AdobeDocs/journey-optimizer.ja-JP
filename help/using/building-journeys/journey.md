@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2278
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** ジャーニーの種類、デザインワークフロー、主な機能、パーソナライズされた顧客体験を構築するためのベストプラクティスなど、Adobe Journey Optimizerでのジャーニーの基本について説明します。
+**このページ：**&#x200B;パーソナライズされたカスタマーエクスペリエンスを作成するジャーニーのタイプ、デザインワークフロー、主な機能、ベストプラクティスなど、Adobe Journey Optimizer のジャーニーの基本について説明します。
 
 >[!ENDSHADEBOX]
 

@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
 source-wordcount: 804
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** Adobe Journey Optimizerの概要、主な機能、具体的な使用例を理解して、顧客エンゲージメント目標にどのように適合するかを決定できます。
+**このページ：** Adobe Journey Optimizer の概要、そのコア機能、具体的なユースケースについて説明します。これにより、顧客エンゲージメントの目標にどのように適合するかを判断できます。
 
 >[!ENDSHADEBOX]
 
