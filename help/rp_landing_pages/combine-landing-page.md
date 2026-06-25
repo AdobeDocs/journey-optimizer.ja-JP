@@ -6,7 +6,7 @@ description: クロスソリューションのユースケース
 redpen-status: CREATED_||_2025-08-12_00-41-19
 exl-id: df3c6e57-9f76-4ce4-ad0d-c1e3c16daa8f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で Adobe Experience Manager Assets からアセット�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
 
 Adobe Stock 画像の操作
 
@@ -60,7 +60,7 @@ Adobe Express を Adobe Journey Optimizer に統合して、アセットから�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 AEM コンテンツフラグメントの操作
 

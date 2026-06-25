@@ -6,7 +6,7 @@ description: ジャーニーの管理
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
 source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーの参照とフィルタリング
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ジャーニーでの補助識別子の使用
 

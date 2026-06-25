@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 493
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** GoogleおよびYahoo送信者の要件に準拠するために、Adobe Journey OptimizerでAdobeにデリゲートしたサブドメインに対して、DMARC レコードを設定する必要がある理由とタイミングについて説明します。
+**このページ：** Google および Yahoo の送信者要件に準拠することを目的に、Adobe Journey Optimizer でアドビにデリゲートしたサブドメインに対して DMARC レコードを設定する必要がある理由とタイミングについて説明します。
 
 >[!ENDSHADEBOX]
 
@@ -58,13 +58,13 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
 * 送信サブドメインをアドビに[完全にデリゲート](delegate-subdomain.md#set-up-subdomain)している場合は、以下のオプションのいずれかに従います。
 
-   * **ホスティングソリューション**&#x200B;のデリゲートされたサブドメインの親ドメインに DMARC を設定します。
+   * **ホスティングソリューション**のデリゲートされたサブドメインの親ドメインに DMARC を設定します。
 または
    * **[!DNL Journey Optimizer]** 設定ユーザーインターフェイスで、デリゲートされたサブドメインに DMARC を設定します。ホスティングソリューションで追加の作業を行う必要はありません。 [方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 
 * [CNAME](delegate-subdomain.md#cname-subdomain-setup) を使用して送信サブドメインを設定している場合は、以下のいずれかのオプションに従います。
 
-   * **ホスティングソリューション**&#x200B;のサブドメインまたはサブドメインの親ドメインに DMARC を設定します。
+   * **ホスティングソリューション**のサブドメインまたはサブドメインの親ドメインに DMARC を設定します。
 または
    * **[!DNL Journey Optimizer]** 設定ユーザーインターフェイスで、デリゲートされたサブドメインに DMARC を設定します。 [方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 

@@ -27,9 +27,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1916
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-**このページ：**&#x200B;受信者がメールトアドレスまたはワンクリックの配信停止URLを使用して受信トレイから直接オプトアウトできるように、リスト購読解除ヘッダーを有効および設定する方法を説明します。
+**このページ：**&#x200B;リスト登録解除ヘッダーを有効化および設定する方法について説明します。これにより、受信者は宛先アドレスまたはワンクリック登録解除 URL を使用してインボックスから直接オプトアウトできます。
 
 >[!ENDSHADEBOX]
 
@@ -288,7 +288,7 @@ GET 呼び出しは次のとおりです。
 
    * 解析値：*v1.xyz*
 
-API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

@@ -26,9 +26,9 @@ subfeature_v2:
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 278
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** データ要求、監査ログ、同意、およびガバナンス ポリシーを管理するためのAdobe Journey OptimizerおよびAdobe Experience Platform ツールを確認して、個人データを責任を持って取り扱い、GDPRなどの規制に準拠することができます。
+**このページ：**&#x200B;データリクエスト、監査ログ、同意、ガバナンスポリシーを管理する Adobe Journey Optimizer および Adobe Experience Platform ツールについて説明します。これにより、個人データを責任を持って処理し、GDPR などの規制に準拠できます。
 
 >[!ENDSHADEBOX]
 

@@ -6,21 +6,21 @@ description: Web チャネルの設定
 redpen-status: CREATED_||_2025-08-11_20-39-49
 exl-id: 07c6d86f-7077-4ba1-8da4-fc6752a4484d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '189'
+workflow-type: ht
+source-wordcount: '201'
 ht-degree: 100%
 
 ---
 
 # Web チャネルの設定{#section-overview}
 
-Adobe Journey Optimizer で web チャネルを設定すると、パーソナライズされた動的なコンテンツを web サイト訪問者に直接配信できます。必要な前提条件の設定、サブドメインの管理、ターゲットにする web プロパティの定義方法について説明します。これにより、シームレスでカスタマイズされた web エクスペリエンスを作成するツールを取得できます。実装の準備が整っていることを確認する、サブドメインをデリゲートする、正確な URL 一致ルールを作成するなど、各手順は、オーディエンスがオンラインでブランドとやりとりする方法を最適化する上で独自の役割を果たします。この節では、影響力のある web キャンペーンを自信を持って簡単にデザイン、配信、絞り込みできるようにするプロセスについて説明します。
+Adobe Journey Optimizer で web チャネルを設定すると、パーソナライズされた動的なコンテンツを web サイト訪問者に直接配信できます。 必要な前提条件の設定、サブドメインの管理、ターゲットにする web プロパティの定義方法について説明します。これにより、シームレスでカスタマイズされた web エクスペリエンスを作成するツールを取得できます。 実装の準備が整っていることを確認する、サブドメインをデリゲートする、正確な URL 一致ルールを作成するなど、各手順は、オーディエンスがオンラインでブランドとやりとりする方法を最適化する上で独自の役割を果たします。 この節では、影響力のある web キャンペーンを自信を持って簡単にデザイン、配信、絞り込みできるようにするプロセスについて説明します。
 
 ## Web チャネルの設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Web チャネルの前提条件
 
@@ -30,7 +30,7 @@ Web チャネルの前提条件
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Web サブドメインの設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でコンテンツを公開する web サブドメイン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Web チャネルの作成と設定
 

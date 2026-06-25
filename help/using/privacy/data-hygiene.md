@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 262
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** データライフサイクル操作を設定およびスケジュールして、レコードを正確に保ち、意図したとおりに使用し、組織ポリシーに沿って削除できるようにします。
+**このページ：**&#x200B;データライフサイクル操作を設定およびスケジュールします。これにより、レコードを正確に保持し、意図したとおりに使用し、組織ポリシーに沿って削除できます。
 
 >[!ENDSHADEBOX]
 

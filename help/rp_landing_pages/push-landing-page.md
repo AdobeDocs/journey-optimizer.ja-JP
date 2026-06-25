@@ -6,7 +6,7 @@ description: プッシュ通知チャネル
 redpen-status: CREATED_||_2025-08-11_20-37-12
 exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Adobe Journey Optimizer のプッシュ通知は、モバイルアプリのユ�
 
 >[!IMPORTANT]
 >
->プッシュ通知を初めて作成する場合は、プッシュチャネルが設定されていることを確認してください。 [学習を増やす](../using/push/push-configuration.md)。
+>プッシュ通知を初めて作成する場合は、プッシュチャネルが設定されていることを確認してください。 [詳細情報](../using/push/push-configuration.md)
 
 
 プッシュ通知は次の場所で作成できます。

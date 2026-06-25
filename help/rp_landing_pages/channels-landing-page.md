@@ -5,7 +5,7 @@ title: 通信チャネル
 description: 通信チャネル
 redpen-status: CREATED_||_2025-08-11_20-45-04
 source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 アプリ内メッセージ
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS／MMS／RCS メッセージ
 
@@ -70,7 +70,7 @@ SMS／MMS／RCS メッセージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 ダイレクトメールキャンペーン
 

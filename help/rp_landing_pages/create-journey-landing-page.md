@@ -8,14 +8,14 @@ version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: ht
-source-wordcount: '293'
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
 
 # ジャーニーの作成{#section-overview}
 
-Adobe Journey Optimizer でジャーニーを作成すると、個人の行動や好みに合わせてパーソナライズされた自動カスタマーエクスペリエンスを作成できます。マーケティングキャンペーンをデザインしたり、カスタマーサポートのワークフローを調整したりする際に、直感的なドラッグ＆ドロップインターフェイスを使用して、トリガー、オーディエンスおよびアクションなどの主な要素を設定する方法について説明します。プロパティの設定やシナリオのテストから、ライブパフォーマンスの追跡や更新の管理に至るまで、各手順が次の手順と相互に連携して、効果的かつエラーのないジャーニーを実現します。これらのツールを習得することで、チャネル間のシームレスでデータドリブン型のエクスペリエンスを提供するために必要なすべての要素を揃えることができます。
+Adobe Journey Optimizer でジャーニーを作成すると、個人の行動や好みに合わせてパーソナライズされた自動カスタマーエクスペリエンスを作成できます。 マーケティングキャンペーンをデザインしたり、カスタマーサポートのワークフローを調整したりする際に、直感的なドラッグ＆ドロップインターフェイスを使用して、トリガー、オーディエンスおよびアクションなどの主な要素を設定する方法について説明します。 プロパティの設定やシナリオのテストから、ライブパフォーマンスの追跡や更新の管理に至るまで、各手順が次の手順と相互に連携して、効果的かつエラーのないジャーニーを実現します。 これらのツールを習得することで、チャネル間のシームレスでデータドリブン型のエクスペリエンスを提供するために必要なすべての要素を揃えることができます。
 
 ## ジャーニーの作成
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer でジャーニーを作成すると、個人の行動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ジャーニーのデザイン方法
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer でジャーニーを作成すると、個人の行動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーのテスト方法
 
@@ -61,11 +61,11 @@ Adobe Journey Optimizer でジャーニーを作成すると、個人の行動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 ドライランモードでのジャーニーのテスト
 
-顧客に連絡したり、プロファイルを更新したりすることなく、実際の実稼動データを使用してジャーニーを検証します。
+顧客に連絡したり、プロファイルを更新したりすることなく、実際の本番稼働データを使用してジャーニーを検証します。
 
 [ドライランについて学ぶ](../using/building-journeys/journey-dry-run.md)
 :::

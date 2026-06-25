@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 986
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**このページ：**&#x200B;では、コードベースのチャネルを使用して、アプリやweb ページの詳細な場所にパーソナライズされたコンテンツを配信する方法と、他のチャネルではなくコンテンツを使用するタイミングについて説明します。
+**このページ：**&#x200B;コードベースのチャネルを使用して、アプリや web ページをまたいだ詳細な場所にパーソナライズされたコンテンツを配信する方法と、他のチャネルの代わりにコードベースのチャネルを使用するタイミングについて説明します。
 
 >[!ENDSHADEBOX]
 

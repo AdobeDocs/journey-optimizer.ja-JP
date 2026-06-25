@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 344
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** Adobe Journey Optimizerの電子メールチャネルの概要と、電子メールDesignerを使用して、ジャーニーやキャンペーンで電子メールメッセージを作成、デザイン、パーソナライズ、プレビューする方法について説明します。
+**このページ：** Adobe Journey Optimizer のメールチャネルの基本、さらに E メールデザイナーを使用してジャーニーやキャンペーンでメールメッセージの作成、デザイン、パーソナライズ、プレビューを行う方法について説明します。
 
 >[!ENDSHADEBOX]
 

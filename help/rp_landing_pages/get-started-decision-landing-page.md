@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-58-31
 badge: label="レガシー" type="Informative"
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 意思決定管理の概要
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 意思決定管理ガードレールと制限
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 オファーライブラリのユーザーインターフェイスガイド
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オファーを作成および管理する主要ステップ
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer でオファーと決定を作成、管理、設定す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 決定にカスタムアップロードオーディエンスを使用
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer でオファーと決定を作成、管理、設定す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メールでのパーソナライズされたオファーの使用
 

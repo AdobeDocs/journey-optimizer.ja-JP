@@ -25,9 +25,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 889
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** ガイド付きチャネル設定ワークフローが、Adobe Journey Optimizerでモバイルチャネルとweb チャネルを設定するために必要なタグプロパティ、データストリーム、チャネル設定を自動的に作成する方法について説明します。
+**このページ：**&#x200B;ガイド付きチャネル設定ワークフローを通じて、Adobe Journey Optimizer でモバイルチャネルと web チャネルを設定するのに必要なタグプロパティ、データストリーム、チャネル設定を自動的に作成する方法について説明します。
 
 >[!ENDSHADEBOX]
 

@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 188
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** Journey OptimizerでのLINE メッセージの仕組みを理解して、ユーザーのLINE アプリでユーザーにジャーニーやキャンペーンを通じてリーチできるようにします。
+**このページ：** Journey Optimizer での LINE メッセージの仕組みについて説明します。これにより、ジャーニーやキャンペーンを通じて顧客の LINE アプリ上で顧客にリーチできます。
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ LINE メッセージは、ジャーニーまたはキャンペーンで作成し
 
 * **キャンペーン**&#x200B;の場合： キャンペーンを作成し、アクションとして LINE を選択し、基本設定を定義してから、メッセージコンテンツを編集して送信する LINE メッセージを定義します。 詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)の作成方法を参照してください。
 
-LINE メッセージを作成する前に、Journey Optimizer を使用して LINE チャネルを設定します。 [学習を増やす](line-configuration.md)。
+LINE メッセージを作成する前に、Journey Optimizer を使用して LINE チャネルを設定します。 [詳細情報](line-configuration.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

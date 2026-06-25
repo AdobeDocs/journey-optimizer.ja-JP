@@ -26,9 +26,9 @@ topic_v2:
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 724
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** ソース コネクタとは何か、またCRM、クラウドストレージ、データベースからAdobe Journey Optimizerにデータを取り込む方法について説明します。これにより、パーソナライズされたデータ主導のカスタマージャーニーを実現できます。
+**このページ：**&#x200B;ソースコネクタの概要と、CRM、クラウドストレージ、データベースから Adobe Journey Optimizer にデータを取り込む方法について説明します。これにより、パーソナライズされたデータドリブンなカスタマージャーニーを強化できます。
 
 >[!ENDSHADEBOX]
 

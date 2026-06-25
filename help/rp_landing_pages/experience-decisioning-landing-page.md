@@ -6,7 +6,7 @@ description: 決定
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の決定機能を使用すると、一元化された�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 決定の概要
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で決定を効果的に使用する制約とベスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 よくある質問
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer で決定を効果的に使用する制約とベスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API リファレンス：オファーの配信
 
@@ -80,7 +80,7 @@ API リファレンス：オファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 AI モデルを使用したランキングの作成
 

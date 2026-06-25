@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 940
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** Adobe Journey Optimizerのオーケストレーションされたキャンペーンを使用して、リレーショナルデータセットを照会し、正確な数のオーディエンスを作成し、複数のチャネルにマーケティングメッセージやトランザクションメッセージを配信する方法について説明します。
+**このページ：** Adobe Journey Optimizer のオーケストレーションキャンペーンにより、リレーショナルデータセットのクエリの実行、正確なカウントを含むオーディエンスの作成、複数のチャネルをまたいだマーケティングメッセージやトランザクションメッセージの配信が可能になる仕組みについて説明します。
 
 >[!ENDSHADEBOX]
 

@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 440
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** WhatsApp チャネルがJourney Optimizerでどのように機能するのか、その前提条件と制限事項について説明します。これにより、ジャーニーやキャンペーンにWhatsAppを追加する方法を決定できます。
+**このページ：** Journey Optimizer での WhatsApp チャネルの仕組み、前提条件、制限事項について説明します。これにより、ジャーニーやキャンペーンに WhatsApp を追加する方法を決定できます。
 
 >[!ENDSHADEBOX]
 

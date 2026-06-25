@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 342
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、**&#x200B;電子メールDesignerのスタイルペインで電子メールコンテンツのスタイルを調整する方法について説明します。本文、構造、コンテンツコンポーネントに色、フォント、境界線、余白、パディングなどの設定を適用します。
+**このページ：**&#x200B;カラー、フォント、境界線、余白、パディングなどの設定を、本文、構造またはコンテンツコンポーネントに適用して、E メールデザイナーのスタイルパネルからメールコンテンツのスタイルを調整する方法について説明します。
 
 >[!ENDSHADEBOX]
 

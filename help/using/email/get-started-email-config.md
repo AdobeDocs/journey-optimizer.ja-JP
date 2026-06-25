@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 563
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**このページでは、** サブドメインのデリゲート、IP プールの作成、チャネル設定、実行フィールド、再試行の設定など、Adobe Journey Optimizerでメールチャネルを設定するための基本的な手順について説明します。
+**このページ：**&#x200B;サブドメインのデリゲートや IP プールの作成から、チャネル設定、実行フィールド、再試行の設定までを対象とした、Adobe Journey Optimizer でのメールチャネルの設定に重要な手順について説明します。
 
 >[!ENDSHADEBOX]
 

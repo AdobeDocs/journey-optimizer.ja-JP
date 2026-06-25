@@ -6,9 +6,9 @@ description: ローンチ前にメッセージの精度を検証します。 テ
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コンテンツのプレビューとテストの方法
 
@@ -58,7 +58,7 @@ ht-degree: 92%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 テストプロファイルデータを使用した本配信前確認の送信
 
@@ -78,11 +78,11 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 コンテンツバリエーションのシミュレートとテストの方法
 
-サンプル入力データやAIが生成したバリエーションを使用して、コンテンツのバリエーションをシミュレートし、パーソナライズされたコンテンツをテストして、正確性を確保できます。
+サンプル入力データまたは AI 生成バリアントを使用してコンテンツのバリエーションをシミュレートし、パーソナライズされたコンテンツをテストして正確性を確保します。
 
 [コンテンツバリエーションのシミュレート](../using/test-approve/simulate-sample-input.md)
 :::
@@ -123,7 +123,7 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 **コンテキスト：**&#x200B;一般的なユースケースでテストツールを適用する方法を示す実際の例。
 
 **シナリオ 1：マルチセグメントキャンペーン用にパーソナライズされたメールのテスト**
-→ [&#x200B; サンプル入力データ &#x200B;](../using/test-approve/simulate-sample-input.md)を使用して、個々のテストプロファイルを作成することなく、最大30のバリエーションをテストできます。 顧客属性を変更したCSVをアップロードすることも、値を手動で追加することも、AIを活用してバリエーションを自動生成し、一度にプレビューすることもできます。
+→ [サンプル入力データ](../using/test-approve/simulate-sample-input.md)を使用して、最大 30 のバリエーションをテストします。個々のテストプロファイルを作成する必要はありません。様々な顧客属性を含む CSV ファイルをアップロードし、値を手動で追加するか、AI でバリアントを自動生成して、すべてを一度にプレビューします。
 
 **シナリオ 2：主要な送信の前のメールのレンダリングの検証**
 → [Litmus テスト](../using/content-management/rendering.md)を実行して上位のメールクライアントをまたいだ表示を確認し、[スパムレポート](../using/content-management/spam-report.md)でインボックスに到達したことを確認します。
@@ -142,4 +142,4 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 
 - **[メールスパムレポートを使用する方法](../using/content-management/spam-report.md)** - スパムレポート機能を使用して、メールコンテンツのスパムスコアを評価し、配信品質を向上させます。
 
-**関連トピック：**&#x200B;[ランディングページのテストと承認](test-landing-page.md) | [承認ワークフロー](approve-landing-page.md) | [テストプロファイルの作成](../using/audience/creating-test-profiles.md)
+**関連トピック：**[ランディングページのテストと承認](test-landing-page.md) | [承認ワークフロー](approve-landing-page.md) | [テストプロファイルの作成](../using/audience/creating-test-profiles.md)

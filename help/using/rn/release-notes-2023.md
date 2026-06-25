@@ -16,7 +16,7 @@ subfeature_v2:
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 4372
 ht-degree: 100%
 
@@ -197,7 +197,7 @@ ht-degree: 100%
 
 **アラート**
 
-* 新しいタイプのシステムアラートが導入されました。 「**オーディエンスの読み取り**」アクティビティが失敗した場合に通知を受信できるようになりました。 [学習を増やす](../reports/alerts.md)。
+* 新しいタイプのシステムアラートが導入されました。 「**オーディエンスの読み取り**」アクティビティが失敗した場合に通知を受信できるようになりました。 [詳細情報](../reports/alerts.md)
 
 **Web チャネル**
 
@@ -323,7 +323,7 @@ A new option is available in the email surface settings to include email address
 
 **ジャーニー**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。 この機能は現在、ベータ版として使用可能です。 [学習を増やす](../action/action-response.md)。
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。 この機能は現在、ベータ版として使用可能です。 [詳細情報](../action/action-response.md)
 * 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した際に通知を受信できるようになりました。[詳細情報](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
@@ -449,7 +449,7 @@ A new option is available in the email surface settings to include email address
 
 **API**
 
-Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方法を使用して作成する必要があります。 また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。 [学習を増やす](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}。
+Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方法を使用して作成する必要があります。 また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
 
 
 **その他の変更**

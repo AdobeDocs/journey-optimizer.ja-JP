@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 261
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** Adobe Journey Optimizerのアプリ内メッセージチャネルを使い始めて、機能、オファー、オンボーディングを宣伝する通知をアプリ ユーザーに送信します。
+**このページ：** Adobe Journey Optimizer のアプリ内メッセージチャネルの基本を学びます。これにより、機能、オファー、オンボーディングをプロモートする通知で、アプリユーザーのエンゲージメントを向上させることができます。
 
 >[!ENDSHADEBOX]
 
@@ -85,4 +85,4 @@ Journey Optimizer を使用すると、アプリ内通知を作成し、メッ�
 * **[アプリ内チャネルの設定](inapp-configuration.md)** - 適切なモバイルアプリ設定を使用して、アプリ内メッセージチャネルを設定します。
 * **[アプリ内コンテンツのデザイン](design-in-app.md)** - アプリ内メッセージのレイアウト、スタイル、ボタン、インタラクティブ要素をカスタマイズします。
 * **[Web 用のアプリ内](create-in-app-web.md)** - web アプリケーション用のアプリ内メッセージを作成および配信する方法について説明します。
-* **[アプリ内チャネルのチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}**- アプリ内メッセージ機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
+* **[アプリ内チャネルのチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}**- アプリ内メッセージ機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。

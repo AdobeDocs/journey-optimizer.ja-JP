@@ -6,21 +6,21 @@ description: イベント設定
 redpen-status: CREATED_||_2025-08-11_21-10-50
 exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '221'
+workflow-type: ht
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
 
 # イベント設定{#section-overview}
 
-Adobe Journey Optimizer のイベント設定とは、パーソナライズされたカスタマージャーニーをローンチするトリガーを設定することです。個々のユーザーアクションに反応する場合（単一イベント）でも、より広範なオーディエンスに更新情報をブロードキャストする場合（ビジネスイベント）でも、これらの設定により、データが実用的なタイミングに変換されます。プロファイル固有のトリガー、オーディエンスベースのイベント、Adobe Analytics の統合など、様々なイベントタイプが大規模なジャーニーフレームワークに適合する仕組みについて説明します。この節では、データスキーマやペイロード定義から API ベースのリアルタイムストリーミングに至るまで、動的で正確かつ影響力のあるジャーニーを作成する方法について説明します。
+Adobe Journey Optimizer のイベント設定とは、パーソナライズされたカスタマージャーニーをローンチするトリガーを設定することです。 個々のユーザーアクションに反応する場合（単一イベント）でも、より広範なオーディエンスに更新情報をブロードキャストする場合（ビジネスイベント）でも、これらの設定により、データが実用的なタイミングに変換されます。 プロファイル固有のトリガー、オーディエンスベースのイベント、Adobe Analytics の統合など、様々なイベントタイプが大規模なジャーニーフレームワークに適合する仕組みについて説明します。 この節では、データスキーマやペイロード定義から API ベースのリアルタイムストリーミングに至るまで、動的で正確かつ影響力のあるジャーニーを作成する方法について説明します。
 
 ## イベント設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ジャーニーイベントの操作
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のイベント設定とは、パーソナライズさ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 単一イベントの設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のイベント設定とは、パーソナライズさ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ExperienceEvent スキーマ
 
@@ -50,7 +50,7 @@ ExperienceEvent スキーマ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adobe Analytics との統合
 
@@ -60,7 +60,7 @@ Adobe Analytics データを統合してジャーニーを自動化し、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ビジネスイベントの設定
 
@@ -70,7 +70,7 @@ Adobe Analytics データを統合してジャーニーを自動化し、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Streaming API を使用したイベントの送信
 
