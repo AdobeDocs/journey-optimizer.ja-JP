@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 8799
+source-wordcount: 8836
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年6月 {#june-2026}
+
+* **分割** アクティビティのドキュメントが更新され、各サブセット設定で使用可能な&#x200B;**[!UICONTROL セグメントコード]** フィールドが文書化されました。これにより、トラッキングとレポートの目的で、各オーディエンスセグメントに一意のIDを割り当てることができます。 [詳細情報](../orchestrated/activities/split.md)
 
 * 「**ターゲティングディメンションの設定**」ページが更新され、オーケストレーションされたキャンペーンで使用できる2つのターゲティングディメンションのタイプ（ビルトイン **プロファイルターゲティングディメンション** （設定は不要）と、リレーショナルスキーマに基づく&#x200B;**カスタムターゲティングディメンション**）が文書化されました。 [詳細情報](../orchestrated/target-dimension.md)
 
