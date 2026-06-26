@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
 workflow-type: tm+mt
-source-wordcount: '3372'
+source-wordcount: '3383'
 ht-degree: 98%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 98%
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[ジャーニーキャンバスの向上](using/rn/new-canvas.md)
-   + {hide-from-toc}[&#x200B; オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[ オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
 + 基本を学ぶ {#get-started}
    + [ここから開始](/help/rp_landing_pages/get-started-landing-page.md)
    + [オンボーディングハブ](using/start/onboarding-hub.md)
@@ -55,10 +55,12 @@ ht-degree: 98%
       + [トラブルシューティングに関する FAQ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [アクセシビリティ](using/start/accessibility.md)
       + [ジャーニーとキャンペーン](using/start/journeys-vs-campaigns.md)
+      + {hide-from-toc}[ジャーニーとキャンペーンの比較 – 2](using/start/journeys-vs-campaigns-v2.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
    + {hide-from-toc}[ジャーニーの基本を学ぶガイド](using/building-journeys/journey-get-started.md)
    + [ジャーニーの種類：適切なものを選ぶ](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[ジャーニーの種類：適切なものを選ぶ](using/building-journeys/journey-types-selection-v2.md)
    + [Journey Orchestration に関する FAQ](using/building-journeys/journey-faq.md)
    + ジャーニーの作成 {#create-journey}
       + [ジャーニーの作成](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -147,7 +149,7 @@ ht-degree: 98%
    + {hide-from-toc}[ロイヤルティの課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[ロイヤルティの課題のパフォーマンスの監視](using/loyalty-challenges/loyalty-reporting.md)
    + {hide-from-toc}[ロイヤルティの課題の設定](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[ロイヤルティデータとデータセット](using/loyalty-challenges/loyalty-data-and-datasets.md)
