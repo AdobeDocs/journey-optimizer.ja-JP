@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: メール，コンテンツチェック，HTML, CSS，検証，レンダリング，品質
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+badge: label="限定提供" type="Informative"
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 2%
+source-wordcount: '1066'
+ht-degree: 3%
 
 ---
 
@@ -23,6 +24,10 @@ ht-degree: 2%
 >title="メールコンテンツの検証"
 >abstract="コンテンツチェック機能は、メールを送信する前に、メール内のHTMLとCSSの問題を自動的に検出します。 サポートされていないタグ、空のdiv、サイズ制限にフラグを設定し、GmailまたはMicrosoft Outlookでのレンダリングが壊れる可能性があります。 問題は、エラー、警告、または情報通知として表示され、コンテキストの詳細とワンクリック修正が可能な場合は表示されます。"
 
+>[!AVAILABILITY]
+>
+>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
 [!DNL Journey Optimizer]には、電子メール Designerで直接自動技術検証が含まれており、送信前にHTMLとCSSの問題を検出するのに役立ちます。
 
 結果は、オーサリングパネルでエラー、警告、または情報に関する通知として表示され、コンテキストの詳細とワンクリック修正が可能な場合は表示されるので、電子メールDesignerを離れることなく問題を解決できます。
@@ -31,7 +36,7 @@ ht-degree: 2%
 
 コンテンツチェックは、常に電子メールDesignerで使用できます。 これらを表示するには、右側のパネルの「イシュー」アイコンをクリックして&#x200B;**[!UICONTROL コンテンツチェック]** ペインを開きます。検出されたすべてのイシューがここに表示されます。
 
-![問題のある電子メール Designerのコンテンツチェックペイン &#x200B;](assets/content-check.png)
+![問題のある電子メール Designerのコンテンツチェックペイン ](assets/content-check.png)
 
 >[!NOTE]
 >
@@ -47,14 +52,12 @@ ht-degree: 2%
 
 問題が検出されない場合、ペインに&#x200B;**問題が検出されず**&#x200B;が表示され、対応するアイコンが緑色になります。
 
-![問題のない電子メール Designerのコンテンツチェックペイン &#x200B;](assets/content-check-no-issues.png)
+![問題のない電子メール Designerのコンテンツチェックペイン ](assets/content-check-no-issues.png)
 
 問題に応じて、より多くのコンテキストを表示したり、ワンクリック修正を適用したり、メールを保存してチェック結果を更新したりできます。
 
-* 検出された問題については、**[!UICONTROL 詳細を表示]** ボタンをクリックして詳細なコンテキストを表示できます。「**[!UICONTROL 詳細を非表示]**」をクリックして折りたたみます。
-  ![詳細が記載された電子メール Designerのコンテンツチェックペイン &#x200B;](assets/content-check-details.png){width="80%"}
-* 同様に、「**[!UICONTROL 修正を表示]**」ボタンをクリックし、利用可能な場合はワンクリック修正を適用できます。修正を自動的に適用できない場合は、メッセージが表示され、手動で問題を解決する必要があります。
-  ![修正を適用ボタンを含む電子メール Designerのコンテンツチェックペイン &#x200B;](assets/content-check-fix.png){width="80%"}
+* 検出された問題については、**[!UICONTROL 詳細を表示]** ボタンをクリックして詳細なコンテキストを表示できます。 「**[!UICONTROL 詳細を非表示]**」をクリックして折りたたみます。  ![詳細が記載された電子メール Designerのコンテンツチェックペイン ](assets/content-check-details.png){width="80%"}
+* 同様に、「**[!UICONTROL 修正を表示]**」ボタンをクリックし、利用可能な場合はワンクリック修正を適用できます。 修正を自動的に適用できない場合は、メッセージが表示され、手動で問題を解決する必要があります。  ![修正を適用ボタンを含む電子メール Designerのコンテンツチェックペイン ](assets/content-check-fix.png){width="80%"}
 
 ### チェックの再計算 {#recalculation}
 
@@ -62,7 +65,7 @@ ht-degree: 2%
 
 CSS サイズなどの他のチェックは、シリアル化されたコンテンツ（メールの読み込みまたは保存時のバージョン）から計算されます。メールDesignerのライブエディターのステータスからは計算されません。 この場合、保存されたコンテンツは、編集中に表示されるものとは少し異なる場合があります。 保存せずに編集を行うと、**[!UICONTROL 古いチェック]** ラベルが表示され、結果が正確でなくなる可能性があることを示します。 計算を更新するには、電子メールを保存します。
 
-![古いチェックラベルが付いた電子メールDesignerのコンテンツチェックペイン &#x200B;](assets/content-check-stale.png){width="100%"}
+![古いチェックラベルが付いた電子メールDesignerのコンテンツチェックペイン ](assets/content-check-stale.png){width="100%"}
 
 ## 検出された問題の修正 {#fix-issues}
 
