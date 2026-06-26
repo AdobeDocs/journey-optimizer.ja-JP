@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2950ee004163eec87f1d3b2e55a6bccd3ce64ad5
+source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
 workflow-type: tm+mt
 source-wordcount: '3372'
 ht-degree: 98%
@@ -54,11 +54,11 @@ ht-degree: 98%
       + [検索、フィルター、整理](using/start/search-filter-categorize.md)
       + [トラブルシューティングに関する FAQ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [アクセシビリティ](using/start/accessibility.md)
-      + {hide-from-toc}[ジャーニーとキャンペーン](using/start/journeys-vs-campaigns.md)
+      + [ジャーニーとキャンペーン](using/start/journeys-vs-campaigns.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
    + {hide-from-toc}[ジャーニーの基本を学ぶガイド](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[ジャーニーの種類：適切なものを選ぶ](using/building-journeys/journey-types-selection.md)
+   + [ジャーニーの種類：適切なものを選ぶ](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration に関する FAQ](using/building-journeys/journey-faq.md)
    + ジャーニーの作成 {#create-journey}
       + [ジャーニーの作成](/help/rp_landing_pages/create-journey-landing-page.md)
