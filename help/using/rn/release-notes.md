@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: 3695
+source-wordcount: 3714
 ht-degree: 84%
 
 ---
@@ -400,8 +400,9 @@ ht-degree: 84%
 <p>Journey Optimizer に、E メールデザイナーでの自動技術検証が直接含まれるようになりました。これにより、送信前に HTML や CSS の問題を把握できます。</p>
 <p>チェック対象には、<code>&lt;script&gt;</code> タグおよび <code>&lt;base&gt;</code> タグ、Microsoft Outlook でレイアウトを崩す場合がある空の div、HTML メタ更新タグ、Gmail でレンダリングエラーをトリガーする CSS または HTML のサイズしきい値など、サポートされていない要素が含まれます。</p>
 <p>結果は、エラー、警告または情報通知としてオーサリングパネルに直接表示され、コンテキストの詳細とワンクリック修正が可能な場合は表示されるので、エディターを離れることなく問題を解決できます。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>詳しくは、<a href="../email/content-check.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../email/content-check.md">詳細なドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年6月18日（PT）</p>
 </td>
 </tr>
