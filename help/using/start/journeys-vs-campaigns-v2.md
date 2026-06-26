@@ -21,7 +21,7 @@ ht-degree: 12%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** アクションとAPI トリガーのキャンペーンを使用してジャーニーを比較し、Adobe Journey Optimizerのマーケティングユースケースごとに適切なアプローチを選択できるようにします。 オーケストレーションされたキャンペーンについては、[ オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
+**このページ：** アクションとAPI トリガーのキャンペーンを使用してジャーニーを比較し、Adobe Journey Optimizerのマーケティングユースケースごとに適切なアプローチを選択できるようにします。 オーケストレーションされたキャンペーンについては、[&#x200B; オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -29,7 +29,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->**オーケストレーションされたキャンペーン**&#x200B;には、専用のガイダンスを必要とする明確なアーキテクチャ特性（ハブサイドのバッチ実行、マルチエンティティのリレーショナルデータ）があります。 過度に単純化を避けるために、以下の比較には含まれていません。 [ オーケストレーションされたキャンペーンについて詳しく見る](../orchestrated/gs-orchestrated-campaigns.md)
+>**オーケストレーションされたキャンペーン**&#x200B;には、専用のガイダンスを必要とする明確なアーキテクチャ特性（ハブサイドのバッチ実行、マルチエンティティのリレーショナルデータ）があります。 過度に単純化を避けるために、以下の比較には含まれていません。 [&#x200B; オーケストレーションされたキャンペーンについて詳しく見る](../orchestrated/gs-orchestrated-campaigns.md)
 
 ## どのようなアプローチが必要ですか？ {#decision-guide}
 
@@ -41,7 +41,7 @@ ht-degree: 12%
 
 **外部システムが直ちにメッセージをトリガーする必要がある場合** （e コマースプラットフォームからの注文確認、ロジスティクスシステムからの配送アラート、アプリからのパスワードリセット）は、1つのオンデマンドメッセージに&#x200B;**API トリガーのキャンペーン**&#x200B;を使用するか、トリガーがマルチステップフローを開始する必要がある場合は&#x200B;**単一イベントジャーニー**&#x200B;を使用します。
 
-高度なセグメンテーション、マルチエンティティデータ、または正確な事前送信数&#x200B;**を含む**&#x200B;複雑なバッチワークフローが必要な場合は、[ オーケストレーションされたキャンペーンの開始](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
+高度なセグメンテーション、マルチエンティティデータ、または正確な事前送信数&#x200B;**を含む**&#x200B;複雑なバッチワークフローが必要な場合は、[&#x200B; オーケストレーションされたキャンペーンの開始](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
 
 >[!TIP]
 >
@@ -98,7 +98,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 | すべての顧客に対するプロモーションのお知らせ | アクションキャンペーン | 1 回限りのメッセージ、即時配信 |
 | 注文確認または配送アラート | API トリガーキャンペーン | 外部システムトリガー、即時のワンショット配信 |
 | API トリガーのマルチステップフロー | ジャーニー（単一イベント） | 外部システムがAPI経由でイベントを送信し、ジャーニーがフォローアップステップを調整 |
-| マルチエンティティデータを使用した複雑なバッチワークフロー | オーケストレーションキャンペーン | [ オーケストレーションされたキャンペーンの概要](../orchestrated/gs-orchestrated-campaigns.md)を参照してください |
+| マルチエンティティデータを使用した複雑なバッチワークフロー | オーケストレーションキャンペーン | [&#x200B; オーケストレーションされたキャンペーンの概要](../orchestrated/gs-orchestrated-campaigns.md)を参照してください |
 
 ## 機能の可用性 {#feature-availability}
 
@@ -116,7 +116,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 >[!NOTE]
 >
->オーケストレーションされたキャンペーンのチャネルの可用性については、「ジャーニーとキャンペーンの[ チャネル ](../channels/gs-channels.md#channels)」を参照してください。
+>オーケストレーションされたキャンペーンのチャネルの可用性については、「ジャーニーとキャンペーンの[&#x200B; チャネル &#x200B;](../channels/gs-channels.md#channels)」を参照してください。
 
 ### 高度な機能
 
@@ -136,7 +136,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 >[!NOTE]
 >
->オーケストレーションされたキャンペーン機能の詳細（コンテンツ実験、バッチ API トリガー、複数エンティティのセグメント化など）については、[ オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
+>オーケストレーションされたキャンペーン機能の詳細（コンテンツ実験、バッチ API トリガー、複数エンティティのセグメント化など）については、[&#x200B; オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
 
 ## よくある質問 {#common-questions}
 
@@ -147,7 +147,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 * 行動によるリアルタイムのエンゲージメントに関する&#x200B;**ジャーニー**
 * スケジュールされたコミュニケーションまたはインバウンドアクティベーションの&#x200B;**アクションキャンペーン**
 * トランザクションメッセージ用の&#x200B;**API トリガーキャンペーン**
-* 複雑でデータ集約的なバッチキャンペーンの&#x200B;**オーケストレーションされたキャンペーン** — [ オーケストレーションされたキャンペーンの概要](../orchestrated/gs-orchestrated-campaigns.md)を参照
+* 複雑でデータ集約的なバッチキャンペーンの&#x200B;**オーケストレーションされたキャンペーン** — [&#x200B; オーケストレーションされたキャンペーンの概要](../orchestrated/gs-orchestrated-campaigns.md)を参照
 
 すべてを無理なく進めるのではなく、各ユースケースに適したツールを使用する。
 
@@ -172,7 +172,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 * **オーディエンスの読み取りジャーニー**&#x200B;と&#x200B;**アクションキャンペーン**&#x200B;は、大規模なバッチオーディエンスに最適化されています。
 * **単一（イベントベース）ジャーニー**&#x200B;は、イベントが発生するとプロファイルを個別に処理するので、スケールはイベントのボリュームとスループットに依存します。
 
-大規模なデータセットとマルチエンティティデータを使用した複雑なセグメンテーションについては、[ オーケストレーションされたキャンペーン ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
+大規模なデータセットとマルチエンティティデータを使用した複雑なセグメンテーションについては、[&#x200B; オーケストレーションされたキャンペーン &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
 
 +++
 
@@ -193,9 +193,9 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 >[!MORELIKETHIS]
 >
 >* [ジャーニータイプの比較](../building-journeys/journey.md#journey-types-comparison)
->* [ キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [&#x200B; キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
->* [ オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [&#x200B; オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
 
 +++ AI ナレッジリファレンス
 
