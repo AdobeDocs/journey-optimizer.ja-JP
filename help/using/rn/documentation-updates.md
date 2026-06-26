@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
 workflow-type: tm+mt
-source-wordcount: 8952
-ht-degree: 94%
+source-wordcount: 9055
+ht-degree: 93%
 
 ---
 
@@ -26,6 +22,10 @@ ht-degree: 94%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年6月 {#june-2026}
+
+* 新しい&#x200B;**ジャーニーの種類：適切なページを選択** ページが利用可能になりました。 オーディエンス、オーディエンスの選定、単一イベント、ビジネスイベントなど、あらゆるジャーニーエントリポイントを、意思決定ガイドや機能互換性マトリックスと比較することで、ユースケースに適したタイプを選択するのに役立ちます。 [詳細情報](../building-journeys/journey-types-selection.md)
+
+* 新しい&#x200B;**ジャーニー対キャンペーン** ページが利用可能になりました。 低遅延のエッジパーソナライゼーションのためのインバウンドチャネルのアクティベーション、マルチサーフェスのインバウンドデリバリー、オーケストレーションされたキャンペーンの使用状況に関するガイダンス（高度なオーディエンス構成、連合データ）など、実施スタイル、データモデル、ユースケースをまたいで、ジャーニー、アクションキャンペーン、API トリガーによるキャンペーンを比較します。 [詳細情報](../start/journeys-vs-campaigns.md)
 
 * **高スループットモード** ページが更新され、拡張された地域の可用性が反映されました。この機能は、高スループットトランザクションメッセージアドオンでライセンスを取得した組織に対して、スイスを除くすべての地域で使用できるようになりました。 [詳細情報](../campaigns/api-triggered-high-throughput.md)
 
@@ -37,7 +37,7 @@ ht-degree: 94%
 
 * フラグメントに関連するテーマが含まれていない場合に、フラグメントの挿入がブロックされることを説明するために、5 テーマの互換性の制限（Adobeのデフォルトのテーマ制約を含む）を明示的に文書化するために、フラグメントのテーマを利用&#x200B;**ドキュメントが明確になりました**。 [詳細情報](../email/apply-email-themes.md#leverage-themes-fragment)
 
-* 主要な考慮事項、データセットと基礎スキーマの無効化の違い、Adobe Experience Platform計画およびベストプラクティスのドキュメントへのリンクなど、リアルタイム顧客プロファイルのデータセットとスキーマの有効化に関するガイダンスを含む、**データセットの基本を学ぶ** ページと&#x200B;**スキーマの基本を学ぶ** ページが更新されました。 [&#x200B; データセットの詳細](../data/get-started-datasets.md)および[&#x200B; スキーマの詳細](../data/get-started-schemas.md)
+* 主要な考慮事項、データセットと基礎スキーマの無効化の違い、Adobe Experience Platform計画およびベストプラクティスのドキュメントへのリンクなど、リアルタイム顧客プロファイルのデータセットとスキーマの有効化に関するガイダンスを含む、**データセットの基本を学ぶ** ページと&#x200B;**スキーマの基本を学ぶ** ページが更新されました。 [ データセットの詳細](../data/get-started-datasets.md)および[ スキーマの詳細](../data/get-started-schemas.md)
 
 * 新しい&#x200B;**Adobe Journey Optimizerの使用を開始する** オンボーディングハブが利用可能になりました。 新規顧客は、役割ごとにパスを選択したり、基礎を調べたり、オンボーディング済みの場合は、最初に確認すべき点を知らなくても日々の業務に取り組むことができます。 [詳細情報](../../rp_landing_pages/get-started-landing-page.md)
 
@@ -677,7 +677,7 @@ ht-degree: 94%
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -707,7 +707,7 @@ ht-degree: 94%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ja){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -782,7 +782,7 @@ ht-degree: 94%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -910,7 +910,7 @@ ht-degree: 94%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
