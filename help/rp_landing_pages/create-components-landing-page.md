@@ -25,7 +25,7 @@ Adobe Journey Optimizer では、プレースメント、決定ルール、コ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 オファーのプレースメントの作成に関するガイド
 
@@ -45,7 +45,7 @@ Adobe Experience Platform データを使用して特定のオーディエンス
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=ja)
 
 Adobe Journey Optimizer でコレクション修飾子を作成および管理する方法
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ランディングページの作成と公開
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 ランディングページのコンテンツのデザイン
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 ランディングページのユースケース
 

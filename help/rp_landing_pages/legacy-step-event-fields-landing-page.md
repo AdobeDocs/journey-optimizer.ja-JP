@@ -30,7 +30,7 @@ Adobe Journey Optimizer の従来のステップイベントフィールドは�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 Journey Optimizer の概要
 
@@ -40,7 +40,7 @@ Journey Optimizer の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ジャーニーステップイベントの共通フィールド
 
@@ -50,7 +50,7 @@ Journey Optimizer の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 アクション実行フィールド
 
@@ -70,7 +70,7 @@ Journey Optimizer の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 JourneyStep ID フィールド
 

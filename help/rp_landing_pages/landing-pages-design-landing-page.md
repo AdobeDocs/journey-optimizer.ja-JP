@@ -30,7 +30,7 @@ Adobe Journey Optimizer のランディングページのデザイン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 ランディングページコンテンツの作成とカスタマイズ
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のランディングページのデザイン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 ランディングページでのカスタム JavaScript の使用
 

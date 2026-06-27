@@ -20,7 +20,7 @@ Adobe Journey Optimizer での決定項目の管理とは、適切なマーケ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 項目カタログの設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer での決定項目の管理とは、適切なマーケ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 決定項目の作成と管理
 

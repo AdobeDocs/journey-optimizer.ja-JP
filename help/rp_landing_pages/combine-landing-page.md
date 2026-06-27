@@ -40,7 +40,7 @@ Adobe Journey Optimizer で Adobe Experience Manager Assets からアセット�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=ja)
 
 Adobe Stock 画像の操作
 
@@ -60,7 +60,7 @@ Adobe Express を Adobe Journey Optimizer に統合して、アセットから�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 AEM コンテンツフラグメントの操作
 

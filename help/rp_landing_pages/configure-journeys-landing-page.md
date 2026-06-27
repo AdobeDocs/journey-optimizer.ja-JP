@@ -30,7 +30,7 @@ Adobe Journey Optimizer のジャーニー設定を使用すると、データ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Adobe Journey Optimizer のイベント設定
 
