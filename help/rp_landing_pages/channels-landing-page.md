@@ -40,7 +40,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
 
 アプリ内メッセージ
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ja)
 
 SMS／MMS／RCS メッセージ
 
@@ -70,7 +70,7 @@ SMS／MMS／RCS メッセージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ja)
 
 ダイレクトメールキャンペーン
 

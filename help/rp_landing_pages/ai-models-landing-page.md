@@ -45,7 +45,7 @@ Adobe Journey Optimizer の AI モデルとそのタイプ、機能、さらに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 パーソナライズされた最適化モデルについて
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer の決定機能を使用すると、一元化された�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 決定の概要
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で決定を効果的に使用する制約とベスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ja)
 
 よくある質問
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer で決定を効果的に使用する制約とベスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 API リファレンス：オファーの配信
 
@@ -80,7 +80,7 @@ API リファレンス：オファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 AI モデルを使用したランキングの作成
 

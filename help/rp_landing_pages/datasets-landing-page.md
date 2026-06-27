@@ -30,7 +30,7 @@ Adobe Journey Optimizer でデータセットにアクセス、作成、管理�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 データセットの有効期間（TTL）ガードレール
 

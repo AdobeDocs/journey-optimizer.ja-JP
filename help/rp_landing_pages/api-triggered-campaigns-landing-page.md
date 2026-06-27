@@ -70,7 +70,7 @@ API トリガーキャンペーンオーディエンスの定義
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 API トリガーキャンペーンのスケジュール
 

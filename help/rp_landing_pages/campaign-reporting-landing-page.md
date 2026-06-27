@@ -70,7 +70,7 @@ Adobe Journey Optimizer のキャンペーンレポートを使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=ja)
 
 実験キャンペーンレポート
 

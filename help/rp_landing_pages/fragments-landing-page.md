@@ -20,7 +20,7 @@ Adobe Journey Optimizer の再利用可能なコンテンツフラグメント�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 フラグメントの使用の概要
 
@@ -40,7 +40,7 @@ Journey Optimizer で、メール、キャンペーン、ジャーニーの再�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 既存のコンテンツをフラグメントとして保存
 
@@ -50,7 +50,7 @@ E メールデザイナーやパーソナライゼーションエディターか
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 カスタマイズ可能なフラグメントの使用
 
@@ -60,7 +60,7 @@ E メールデザイナーやパーソナライゼーションエディターか
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 コンテンツフラグメントの管理
 
