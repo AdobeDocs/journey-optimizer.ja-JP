@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2278
-ht-degree: 71%
+source-wordcount: 2325
+ht-degree: 70%
 
 ---
 
@@ -98,10 +98,8 @@ ht-degree: 71%
 * **オーディエンスの選定ジャーニー**：オーディエンスメンバーシップの変更に対するリアルタイム応答（VIP アップグレード、再エンゲージメント）
 * **ビジネスイベントジャーニー**：複数の顧客に影響を与えるビジネス条件（在庫アラート、Flash セール）
 
-<!--
- waiting for DOCAC-13912 
-➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
--->
+➡️ **[ジャーニーの種類：適切なものを選ぶ](journey-types-selection.md)** – 詳細な比較、決定ガイド、機能互換性マトリックス
+
 
 ## ジャーニーデザイナーを使用した作成 {#journey-designer}
 
@@ -413,14 +411,12 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 
 +++
 
-<!--
- Waiting for DOCAC-13912
-+++ Which journey type should I use?
++++ どのジャーニータイプを使用すればよいですか？
 
-Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+[決定ガイド &#x200B;](journey-types-selection.md#decision-guide)または[比較表](journey-types-selection.md#journey-types-comparison)を使用して、トリガーの仕組みとユースケースに基づいて、単一、読み取りオーディエンス、オーディエンスの選定、およびビジネスイベントのジャーニーを選択します。
 
 +++
--->
+
 
 +++ ライブジャーニーを編集できますか？
 

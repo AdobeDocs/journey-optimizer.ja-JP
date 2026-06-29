@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
 source-wordcount: '3383'
 ht-degree: 98%
@@ -59,7 +59,6 @@ ht-degree: 98%
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
    + {hide-from-toc}[ジャーニーの基本を学ぶガイド](using/building-journeys/journey-get-started.md)
-   + [ジャーニーの種類：適切なものを選ぶ](using/building-journeys/journey-types-selection.md)
    + {hide-from-toc}[ジャーニーの種類：適切なものを選ぶ](using/building-journeys/journey-types-selection-v2.md)
    + [Journey Orchestration に関する FAQ](using/building-journeys/journey-faq.md)
    + ジャーニーの作成 {#create-journey}
@@ -90,6 +89,7 @@ ht-degree: 98%
    + アクティビティ {#about-journey-building}
       + [アクティビティ](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [ジャーニーのアクティビティの基本を学ぶ](using/building-journeys/about-journey-activities.md)
+      + [ジャーニーの種類：適切なものを選ぶ](using/building-journeys/journey-types-selection.md)
       + [一般イベント](using/building-journeys/general-events.md)
       + [反応イベント](using/building-journeys/reaction-events.md)
       + [オーディエンスの選定](using/building-journeys/audience-qualification-events.md)
