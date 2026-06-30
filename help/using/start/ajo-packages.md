@@ -75,11 +75,11 @@ ht-degree: 3%
 
 | | Journey Optimizer - Campaigns | Journey Optimizer -ジャーニー | Journey Optimizer - キャンペーンとジャーニー |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| [ オーディエンスベースのバッチオーケストレーション ](../campaigns/get-started-with-campaigns.md) | ✓ | 制限付き<sup>1</sup> | ✓ |
-| [ リアルタイムイベント駆動型オーケストレーション ](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
+| [&#x200B; オーディエンスベースのバッチオーケストレーション &#x200B;](../campaigns/get-started-with-campaigns.md) | ✓ | 制限付き<sup>1</sup> | ✓ |
+| [&#x200B; リアルタイムイベント駆動型オーケストレーション &#x200B;](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | トランザクションメッセージ（電子メール、プッシュ、SMS） | ✓ | ✓ | ✓ |
-| [ チャネルアドオンを利用できます](#channel-addons) | ✓ | ✓ | ✓ |
-| [ アドオンを決定しています](#decisioning-addon) | ✓ | ✓ | ✓ |
+| [&#x200B; チャネルアドオンを利用できます](#channel-addons) | ✓ | ✓ | ✓ |
+| [&#x200B; アドオンを決定しています](#decisioning-addon) | ✓ | ✓ | ✓ |
 
 <sup>1</sup> **Journey Optimizer - ジャーニー**&#x200B;では、オーディエンスベースのオーケストレーションは、スタンドアロンのバッチキャンペーンではなく、ジャーニーのユースケース内でのみサポートされます。
 
@@ -93,7 +93,7 @@ ht-degree: 3%
 
 アウトバウンドメッセージチャネルを通じてオーディエンスにリーチ。
 
-**次を含む：** [電子メール ](../email/get-started-email.md)、[ プッシュ通知](../push/get-started-push.md)、[ ダイレクトメール ](../direct-mail/get-started-direct-mail.md)
+**次を含む：** [電子メール &#x200B;](../email/get-started-email.md)、[&#x200B; プッシュ通知](../push/get-started-push.md)、[&#x200B; ダイレクトメール &#x200B;](../direct-mail/get-started-direct-mail.md)
 
 **一般的な使用例：** プロモーションメール、トランザクションプッシュアラート、物理的なメールキャンペーン
 
@@ -105,7 +105,7 @@ ht-degree: 3%
 
 セッション中および永続的なモバイルエクスペリエンスでアプリユーザーを惹きつけます。
 
-**モバイルサーフェス用の** [ アプリ内メッセージ ](../in-app/get-started-in-app.md)、[ プッシュ通知](../push/get-started-push.md)、[ コンテンツカード ](../content-card/get-started-content-card.md)、[ コードベースのチャネル ](../code-based/get-started-code-based.md)が含まれます
+**モバイルサーフェス用の** [&#x200B; アプリ内メッセージ &#x200B;](../in-app/get-started-in-app.md)、[&#x200B; プッシュ通知](../push/get-started-push.md)、[&#x200B; コンテンツカード &#x200B;](../content-card/get-started-content-card.md)、[&#x200B; コードベースのチャネル &#x200B;](../code-based/get-started-code-based.md)が含まれます
 
 **一般的なユースケース：** オンボーディングフロー、機能のお知らせ、ロイヤルティナッジ、リアルタイムのアプリ内オファー
 
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 コードをデプロイすることなくweb エクスペリエンスをパーソナライズ。
 
-**Web サーフェスの** [web チャネル ](../web/get-started-web.md) （ビジュアルおよび非ビジュアルエディター）、[ コードベースのチャネル ](../code-based/get-started-code-based.md)が含まれます
+**Web サーフェスの** [web チャネル &#x200B;](../web/get-started-web.md) （ビジュアルおよび非ビジュアルエディター）、[&#x200B; コードベースのチャネル &#x200B;](../code-based/get-started-code-based.md)が含まれます
 
 **一般的な使用例：** ホームページ バナー、ランディングページのパーソナライゼーション、A/B テスト、API経由のヘッドレス web パーソナライゼーション
 
@@ -125,7 +125,7 @@ ht-degree: 3%
 
 **すべてのチャネル** アドオンは、1回の購入でアウトバウンド配信+ モバイル + Webをバンドルします。
 
-**3つの個別アドオンの各チャネルを**&#x200B;含みます。[電子メール ](../email/get-started-email.md)、[ プッシュ通知](../push/get-started-push.md)、[ ダイレクトメール ](../direct-mail/get-started-direct-mail.md)、[ アプリ内メッセージ ](../in-app/get-started-in-app.md)、[ コンテンツカード ](../content-card/get-started-content-card.md)、[web チャネル ](../web/get-started-web.md)、および[ コードベースチャネル ](../code-based/get-started-code-based.md)
+**3つの個別アドオンの各チャネルを**&#x200B;含みます。[電子メール &#x200B;](../email/get-started-email.md)、[&#x200B; プッシュ通知](../push/get-started-push.md)、[&#x200B; ダイレクトメール &#x200B;](../direct-mail/get-started-direct-mail.md)、[&#x200B; アプリ内メッセージ &#x200B;](../in-app/get-started-in-app.md)、[&#x200B; コンテンツカード &#x200B;](../content-card/get-started-content-card.md)、[web チャネル &#x200B;](../web/get-started-web.md)、および[&#x200B; コードベースチャネル &#x200B;](../code-based/get-started-code-based.md)
 
 **一般的なユースケース：**&#x200B;は、アウトバウンド、モバイルアプリ、webをまたいで調整されたオムニチャネルプログラムです。例えば、アプリ内メッセージとパーソナライズされたweb バナーを含む電子メールをフォローアップするキャンペーンです
 
@@ -141,7 +141,7 @@ ht-degree: 3%
 
 ひとつのチャンネルがアドオンと関連付けられていない場合もあります。 そうしたツールの利用は、ライセンス取得済みの設定や契約書、パートナーチャネルにはサードパーティのビジネスアカウントを必要とします。
 
-**📲SMS / MMS** — テキストおよびマルチメディアメッセージを携帯電話番号に送信します。 トランザクション SMS （リアルタイム、イベントトリガー）は、すべてのベースオファーでサポートされています。SMS/MMSのマーケティング利用の拡大は、ライセンス済みの設定によって異なります。 [ モバイルメッセージの送信方法を学ぶ](../mobile/get-started-mobile.md)
+**📲SMS / MMS** — テキストおよびマルチメディアメッセージを携帯電話番号に送信します。 トランザクション SMS （リアルタイム、イベントトリガー）は、すべてのベースオファーでサポートされています。SMS/MMSのマーケティング利用の拡大は、ライセンス済みの設定によって異なります。 [&#x200B; モバイルメッセージの送信方法を学ぶ](../mobile/get-started-mobile.md)
 
 **💬WhatsApp** — WhatsApp Businessを通じてメッセージを送信します。 WhatsApp Business アカウントが必要です。使用可能かどうかは、契約書とライセンス設定によって異なります。 [WhatsAppの使用方法を学ぶ](../whatsapp/get-started-whatsapp.md)
 
@@ -172,11 +172,11 @@ ht-degree: 3%
 
 | 機能 | キャンペーン | ジャーニー | キャンペーンとジャーニー |
 |-----------|:---------:|:--------:|:--------------------:|
-| トランザクションメッセージ （[電子メール ](../email/get-started-email.md)、[ プッシュ ](../push/get-started-push.md)、[SMS](../mobile/get-started-mobile.md)） | ✓ | ✓ | ✓ |
-| [ バッチキャンペーン ](../campaigns/get-started-with-campaigns.md) | ✓ | — | ✓ |
-| [ オーケストレーションされたキャンペーン ](../orchestrated/gs-orchestrated-campaigns.md) _（電子メール、SMS、プッシュ、ダイレクトメールのみ）_ | ✓ | — | ✓ |
+| トランザクションメッセージ （[電子メール &#x200B;](../email/get-started-email.md)、[&#x200B; プッシュ &#x200B;](../push/get-started-push.md)、[SMS](../mobile/get-started-mobile.md)） | ✓ | ✓ | ✓ |
+| [&#x200B; バッチキャンペーン &#x200B;](../campaigns/get-started-with-campaigns.md) | ✓ | — | ✓ |
+| [&#x200B; オーケストレーションされたキャンペーン &#x200B;](../orchestrated/gs-orchestrated-campaigns.md) _（電子メール、SMS、プッシュ、ダイレクトメールのみ）_ | ✓ | — | ✓ |
 | [自動ジャーニー](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
-| [ リアルタイムイベントトリガー](../event/about-events.md) | — | ✓ | ✓ |
+| [&#x200B; リアルタイムイベントトリガー](../event/about-events.md) | — | ✓ | ✓ |
 
 ### チャネルと高度な機能 {#channel-capabilities}
 
@@ -188,13 +188,13 @@ ht-degree: 3%
 | [プッシュ通知](../push/get-started-push.md) | すべての基本オファー | アウトバウンド配信 |
 | [ダイレクトメール](../direct-mail/get-started-direct-mail.md) | すべての基本オファー | アウトバウンド配信 |
 | [SMS / MMS](../mobile/get-started-mobile.md) | オプションを追加します | オプションを追加します |
-| [ アプリ内メッセージ ](../in-app/get-started-in-app.md) | すべての基本オファー | モバイル |
+| [&#x200B; アプリ内メッセージ &#x200B;](../in-app/get-started-in-app.md) | すべての基本オファー | モバイル |
 | [コンテンツカード](../content-card/get-started-content-card.md) | すべての基本オファー | モバイル |
 | [Web チャネル](../web/get-started-web.md) | すべての基本オファー | Web |
 | [コードベースのエクスペリエンス](../code-based/get-started-code-based.md) | すべての基本オファー | モバイル / Web |
 | [WhatsApp](../whatsapp/get-started-whatsapp.md) | オプションを追加します | WhatsApp |
 | [決定](../experience-decisioning/gs-experience-decisioning.md) | ライセンスによって異なります | 決定 |
-| [AIを活用したランキング ](../offers/ranking/ai-models.md) | ライセンスによって異なります | 決定 |
+| [AIを活用したランキング &#x200B;](../offers/ranking/ai-models.md) | ライセンスによって異なります | 決定 |
 
 >[!NOTE]
 >
@@ -204,7 +204,7 @@ ht-degree: 3%
 
 +++**オーケストレーションされたキャンペーンでサポートされているチャネルはどれですか？**
 
-[ オーケストレーションされたキャンペーン ](../orchestrated/gs-orchestrated-campaigns.md) （キャンペーンオーケストレーション機能を使用するマルチステップのオーディエンスワークフロー）は、**電子メール、SMS、プッシュ通知、およびダイレクトメール**&#x200B;のみをサポートします。 web、アプリ内、コードベース、コンテンツカードの各チャネルは、オーケストレーションされたキャンペーンワークフローではサポートされていません。
+[&#x200B; オーケストレーションされたキャンペーン &#x200B;](../orchestrated/gs-orchestrated-campaigns.md) （キャンペーンオーケストレーション機能を使用するマルチステップのオーディエンスワークフロー）は、**電子メール、SMS、プッシュ通知、およびダイレクトメール**&#x200B;のみをサポートします。 web、アプリ内、コードベース、コンテンツカードの各チャネルは、オーケストレーションされたキャンペーンワークフローではサポートされていません。
 
 +++
 
@@ -216,7 +216,7 @@ ht-degree: 3%
 
 +++**Select、Prime、またはUltimateについて聞いたことがあります。 これらは現在のパッケージ モデルですか？**
 
-[!DNL Adobe Journey Optimizer]は、基本オファー（キャンペーン、ジャーニー、キャンペーン、ジャーニー）とアドオンを中心に構築されたモジュール式パッケージモデルを通じて提供されるようになりました。 Select、Prime、またはUltimateの用語を使用している既存のお客様の場合は、機能参照については、以下の[従来のパッケージ ](#legacy-packaging)を参照するか、現在の使用権限についてAdobe担当者にお問い合わせください。
+[!DNL Adobe Journey Optimizer]は、基本オファー（キャンペーン、ジャーニー、キャンペーン、ジャーニー）とアドオンを中心に構築されたモジュール式パッケージモデルを通じて提供されるようになりました。 Select、Prime、またはUltimateの用語を使用している既存のお客様の場合は、機能参照については、以下の[従来のパッケージ &#x200B;](#legacy-packaging)を参照するか、現在の使用権限についてAdobe担当者にお問い合わせください。
 
 +++
 
@@ -251,17 +251,17 @@ ht-degree: 3%
 
 | 機能 | 実行できること | 選択 | Prime | Ultimate | 詳細情報 |
 |-----------|----------------|:------:|:-----:|:--------:|-----------|
-| **メール** | パーソナライズされたメールメッセージのデザインと送信 | ✓ | ✓ | ✓ | [ メールの送信方法について](../email/get-started-email.md) |
-| **SMS / MMS** | テキストおよびマルチメディアメッセージの送信 | ✓ | ✓ | ✓ | [ モバイルメッセージの送信方法を学ぶ](../mobile/get-started-mobile.md) |
-| **プッシュ通知** | モバイルプッシュアラートを送信 | ✓ | ✓ | ✓ | [ プッシュ通知の送信方法を確認](../push/get-started-push.md) |
-| **バッチキャンペーン** | オーディエンスへのメッセージのスケジュール | ✓ | ✓ | ✓ | [ キャンペーンの作成方法を学ぶ](../campaigns/get-started-with-campaigns.md) |
-| **自動ジャーニー** | イベントをトリガーとしたカスタマージャーニーの設計 | ✓ | ✓ | ✓ | [ ジャーニーの構築方法を学ぶ](../building-journeys/journey-gs.md) |
-| **リアルタイムのジャーニートリガー** | 顧客の行動にリアルタイムで対応 | — | ✓ | ✓ | [ ジャーニーイベントについて学ぶ](../event/about-events.md) |
-| **アプリ内メッセージ** | モバイルアプリ内でのメッセージの表示 | — | ✓ | ✓ | [ アプリ内メッセージの使用方法を説明](../in-app/get-started-in-app.md) |
+| **メール** | パーソナライズされたメールメッセージのデザインと送信 | ✓ | ✓ | ✓ | [&#x200B; メールの送信方法について](../email/get-started-email.md) |
+| **SMS / MMS** | テキストおよびマルチメディアメッセージの送信 | ✓ | ✓ | ✓ | [&#x200B; モバイルメッセージの送信方法を学ぶ](../mobile/get-started-mobile.md) |
+| **プッシュ通知** | モバイルプッシュアラートを送信 | ✓ | ✓ | ✓ | [&#x200B; プッシュ通知の送信方法を確認](../push/get-started-push.md) |
+| **バッチキャンペーン** | オーディエンスへのメッセージのスケジュール | ✓ | ✓ | ✓ | [&#x200B; キャンペーンの作成方法を学ぶ](../campaigns/get-started-with-campaigns.md) |
+| **自動ジャーニー** | イベントをトリガーとしたカスタマージャーニーの設計 | ✓ | ✓ | ✓ | [&#x200B; ジャーニーの構築方法を学ぶ](../building-journeys/journey-gs.md) |
+| **リアルタイムのジャーニートリガー** | 顧客の行動にリアルタイムで対応 | — | ✓ | ✓ | [&#x200B; ジャーニーイベントについて学ぶ](../event/about-events.md) |
+| **アプリ内メッセージ** | モバイルアプリ内でのメッセージの表示 | — | ✓ | ✓ | [&#x200B; アプリ内メッセージの使用方法を説明](../in-app/get-started-in-app.md) |
 | **Web チャネル** | web ページをリアルタイムでパーソナライズ | — | ✓ | ✓ | [Web チャネルの使用方法を学ぶ](../web/get-started-web.md) |
-| **コードベースのエクスペリエンス** | APIまたはSDKを使用して、任意のサーフェスをパーソナライズ | — | ✓ | ✓ | [ コードベースのエクスペリエンスの使用方法を学ぶ](../code-based/get-started-code-based.md) |
-| **コンテンツカード** | 永続的で邪魔にならない製品内メッセージを配信します | — | ✓ | ✓ | [ コンテンツカードの使用方法を学ぶ](../content-card/get-started-content-card.md) |
-| **ダイレクトメール** | 物理的なメールの作成と送信 | — | Prime以降で利用可能 | ✓ | [ ダイレクトメールの使用方法を学ぶ](../direct-mail/get-started-direct-mail.md) |
+| **コードベースのエクスペリエンス** | APIまたはSDKを使用して、任意のサーフェスをパーソナライズ | — | ✓ | ✓ | [&#x200B; コードベースのエクスペリエンスの使用方法を学ぶ](../code-based/get-started-code-based.md) |
+| **コンテンツカード** | 永続的で邪魔にならない製品内メッセージを配信します | — | ✓ | ✓ | [&#x200B; コンテンツカードの使用方法を学ぶ](../content-card/get-started-content-card.md) |
+| **ダイレクトメール** | 物理的なメールの作成と送信 | — | Prime以降で利用可能 | ✓ | [&#x200B; ダイレクトメールの使用方法を学ぶ](../direct-mail/get-started-direct-mail.md) |
 | **決定** | それぞれの顧客に最適なオファーをリアルタイムで選択 | — | — | ✓ | [決定機能の使用方法を学ぶ](../experience-decisioning/gs-experience-decisioning.md) |
 | **AIを活用したランキング** | マシンラーニングを活用してオファーとコンテンツの選択を最適化 | — | — | ✓ | [AI モデルについて学ぶ](../offers/ranking/ai-models.md) |
 | **WhatsApp** | WhatsApp Business経由でメッセージを送信する | ライセンスとチャネル設定によって異なります | ライセンスとチャネル設定によって異なります | ライセンスとチャネル設定によって異なります | [WhatsAppの使用方法を学ぶ](../whatsapp/get-started-whatsapp.md) |
@@ -273,7 +273,7 @@ ht-degree: 3%
 [!DNL Adobe Journey Optimizer]のパッケージ化を理解したところで、次の手順を説明します。
 
 - **製品の基本を学ぶ** – 環境を設定し、コアの概念を学びます。 [Journey Optimizerの基本を学ぶ](get-started.md)
-- **実装の計画** – プロジェクトの構造化されたオンボーディングパスに従います。 [ オンボーディングプロジェクトガイド ](onboarding-hub.md)
+- **実装の計画** – プロジェクトの構造化されたオンボーディングパスに従います。 [&#x200B; オンボーディングプロジェクトガイド &#x200B;](onboarding-hub.md)
 - **機能の可用性を確認** – どの機能が有効か、ライフサイクルステータス（GA / LA / Beta）、発送時期を確認します。 [機能の可用性](ajo-features-availability.md)
-- **適切なユースケースを見つける** — エンゲージメント目標をそれらをサポートする機能にマッピングします。 [ ユースケースガイド ](ajo-use-case-guide.md)
-- **チャネルを設定** – どのアドオンを使用しているかがわかったら、必要なチャネルを設定します：[電子メール ](../email/get-started-email.md)、[ プッシュ通知](../push/get-started-push.md)、[SMS / MMS](../mobile/get-started-mobile.md)、[ アプリ内メッセージ ](../in-app/get-started-in-app.md)、[ コンテンツカード ](../content-card/get-started-content-card.md)、[web チャネル ](../web/get-started-web.md)、および[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md)。
+- **適切なユースケースを見つける** — エンゲージメント目標をそれらをサポートする機能にマッピングします。 [&#x200B; ユースケースガイド &#x200B;](ajo-use-case-guide.md)
+- **チャネルを設定** – どのアドオンを使用しているかがわかったら、必要なチャネルを設定します：[電子メール &#x200B;](../email/get-started-email.md)、[&#x200B; プッシュ通知](../push/get-started-push.md)、[SMS / MMS](../mobile/get-started-mobile.md)、[&#x200B; アプリ内メッセージ &#x200B;](../in-app/get-started-in-app.md)、[&#x200B; コンテンツカード &#x200B;](../content-card/get-started-content-card.md)、[web チャネル &#x200B;](../web/get-started-web.md)、および[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)。
