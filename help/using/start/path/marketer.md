@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1727
-ht-degree: 96%
+source-wordcount: 1737
+ht-degree: 94%
 
 ---
 
@@ -145,7 +145,7 @@ ht-degree: 96%
 
 ### キャンペーンオーケストレーション
 
-* **適切なアプローチを選択**：リアルタイムの行動トリガーエクスペリエンスの場合は[ジャーニータイプ](../../building-journeys/journey.md#journey-types)、スケジュールバッチキャンペーンの場合は[キャンペーンタイプを比較](../../campaigns/get-started-with-campaigns.md#campaign-types)します
+* **適切なアプローチを選択**:「[ジャーニー vs キャンペーン &#x200B;](../journeys-vs-campaigns.md)」でリアルタイムオーケストレーションとスケジュール配信を選択し、[ジャーニーの種類：適切なジャーニーの種類を選択](../../building-journeys/journey-types-selection.md)
 * **明確なキャンペーン目標を定義**：マルチステップのワークフローをデザインする前に、目標を設確立します
 * **パイロットオーディエンスから開始**：スケーリングする前に、カウントとセグメント化ロジックを検証します
 * **リレーショナルデータを活用**：マルチエンティティのセグメント化を使用して、お客様データをアカウント、購入、購読に関連付け、正確なターゲティングを実現します

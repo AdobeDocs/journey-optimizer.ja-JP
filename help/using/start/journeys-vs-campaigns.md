@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4be496be65eef2c9cab727804f762350957223a
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2483
-ht-degree: 29%
+source-wordcount: 2545
+ht-degree: 28%
 
 ---
 
@@ -88,26 +88,22 @@ ht-degree: 29%
 
 ### 手順 1：実行要件は何ですか？
 
-**顧客行動に対するリアルタイムの個々の応答？**
-→ **ジャーニーの使用**
+**顧客行動に対するリアルタイムの個別応答ですか？→**&#x200B;ジャーニーを使用&#x200B;**
 * プロファイルは、独自のペースで移動する必要があります
 * 行動に基づく条件付きロジック
 * リアルタイムコンテキストが重要です
 
-**スケジュールされた時間にオーディエンスにシンプルなメッセージを配信しますか？**
-→ **アクションキャンペーンの使用**
+**スケジュールされた時間にオーディエンスにメッセージを簡単に配信できますか？→** アクションキャンペーンを使用&#x200B;**
 * すべてのプロファイルが同時にメッセージを受信します
 * スケジュール済みまたは定期的な送信
 * 複雑なマルチステップのロジックは必要ありません
 
-**外部システムによって即座にトリガーされるメッセージですか？**
-→ **API トリガーのキャンペーン** （単一メッセージ）を使用&#x200B;**または単一イベントジャーニー** （マルチステップオーケストレーション）を使用
+**外部システムによって即座にメッセージがトリガーされますか？→** API トリガーのキャンペーン **（単一メッセージ）を使用**&#x200B;するか、単一イベントジャーニー&#x200B;**（マルチステップオーケストレーション）を使用
 * API呼び出しを介してオンデマンドでトリガー – キャンペーンは1つのメッセージを配信します。単一ジャーニーは、[Experience Platform取り込み](../event/additional-steps-to-send-events-to-journey.md)を介してイベントを取り込み、ジャーニーフロー全体を実行します
 * ペイロード主導のパーソナライゼーション
 * マルチステップロジックが必要ない場合にキャンペーンを選択したり
 
-**高度なセグメンテーション、マルチエンティティデータ、または正確な事前送信数を使用して、複雑なバッチワークフローを作成できますか？**
-→ **オーケストレーションされたキャンペーンを使用** – 詳細なガイダンスについては、[&#x200B; オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
+**高度なセグメンテーション、マルチエンティティデータ、または正確な事前送信数を使用して、複雑なバッチワークフローを実行しますか？→** オーケストレーションされたキャンペーンを使用&#x200B;**– 詳細なガイダンスについては、[&#x200B; オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
 
 >[!NOTE]
 >
@@ -152,7 +148,7 @@ Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immedi
 
 各顧客は、自分のアクションに基づいて独自のジャーニータイムラインを体験します。
 
-[ジャーニーの詳細情報](../building-journeys/journey.md)
+[ジャーニーについて詳しく見る](../building-journeys/journey.md) | [ジャーニーの種類：適切なものを選ぶ](../building-journeys/journey-types-selection.md)
 
 ### キャンペーン：シンプルなバッチ配信またはトリガー配信
 
@@ -292,11 +288,13 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 作成を開始する準備は整っていますか？ 選択したアプローチに関する詳細なドキュメントを参照してください。
 
 * **[ジャーニーの基本を学ぶ](../building-journeys/journey.md)** - ジャーニーの種類、デザイナー、ワークフロー
+* **[ジャーニーの種類：適切なものを選ぶ](../building-journeys/journey-types-selection.md)** – 単一イベント、オーディエンスの読み取り、オーディエンスの選定、ビジネスイベント
 * **[キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)** - アクションとAPI トリガーのキャンペーン
 * **[オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)** - マルチエンティティデータを使用したバッチキャンバスワークフロー（個別のガイダンス）
 
 >[!MORELIKETHIS]
 >
+>* [ジャーニーの種類：適切なものを選ぶ](../building-journeys/journey-types-selection.md)
 >* [ジャーニータイプの比較](../building-journeys/journey.md#journey-types-comparison)
 >* [&#x200B; キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)

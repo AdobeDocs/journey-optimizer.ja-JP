@@ -33,10 +33,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 804
-ht-degree: 85%
+source-wordcount: 831
+ht-degree: 83%
 
 ---
 
@@ -93,6 +93,8 @@ Journey Optimizerは、リアルタイムのトリガージャーニーやカー
 
 目標に合った機能を見つけるには、[Journey Optimizerのユースケースの概要](ajo-use-case-guide.md)を参照してください。 エンドツーエンドの作業済み例については、[&#x200B; ジャーニーのユースケースライブラリ &#x200B;](../building-journeys/jo-use-cases.md)を参照してください。
 
+目標にジャーニーを使用するか、キャンペーンを使用するかを判断できない場合は、 [ジャーニーとキャンペーンの比較：適切なアプローチの選択](journeys-vs-campaigns.md)を参照してください。
+
 
 ## 可用性とライセンス {#availability}
 
@@ -123,4 +125,5 @@ Journey Optimizer は、Adobe Experience Platform 上にネイティブに作成
 | Journey OptimizerとAdobe Experience Platformの連携について説明します | [Journey Optimizerについて](understanding-ajo.md) |
 | 特定の役割に関する基本を学ぶ | [役割と責任](quick-start.md) |
 | ユースケースの探索 | [Journey Optimizer ユースケースの概要](ajo-use-case-guide.md) |
+| ジャーニーと施策の選定 | [ジャーニーとキャンペーン](journeys-vs-campaigns.md) |
 | 関連用語 | [用語](terminology.md) |
