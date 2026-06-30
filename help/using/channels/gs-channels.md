@@ -47,7 +47,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 メールチャネル
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
 
 プッシュ通知チャネル
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
 
 iOS ライブアクティビティ
 
@@ -77,7 +77,7 @@ IPhone のロック画面と Dynamic Island で、永続的なリアルタイム
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ja)
 
 モバイルメッセージ
 
@@ -87,7 +87,7 @@ IPhone のロック画面と Dynamic Island で、永続的なリアルタイム
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ja)
 
 ダイレクトメール
 
@@ -97,7 +97,7 @@ IPhone のロック画面と Dynamic Island で、永続的なリアルタイム
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
 
 WhatsApp Messaging
 
@@ -107,7 +107,7 @@ WhatsApp Messaging
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=ja)
 
 LINE メッセージ
 
@@ -125,7 +125,7 @@ LINE メッセージ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
 
 アプリ内メッセージ
 
@@ -135,7 +135,7 @@ LINE メッセージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ja)
 
 Web
 
@@ -145,7 +145,7 @@ Web エクスペリエンスを作成、設定、パーソナライズし、web 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
 
 コードベースのエクスペリエンス
 
@@ -155,7 +155,7 @@ SDK と API を使用して、デジタルプラットフォーム全体でパ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=ja)
 
 コンテンツカード
 
