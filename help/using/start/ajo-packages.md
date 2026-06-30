@@ -9,10 +9,10 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer, パッケージ，ライセンス，キャンペーン，ジャーニー，チャネル，意思決定，アウトバウンド，モバイル，web, モジュール式，sms, mms, whatsapp, アドオン，select, prime, ultimate, legacy
 hide: true
-source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 2%
+source-wordcount: '1993'
+ht-degree: 3%
 
 ---
 
@@ -27,13 +27,11 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer]はモジュール式パッケージ モデルを使用しています。 主要なユースケースに一致する基本オファーから開始し、必要なチャネルと高度な機能を追加します。
 
+パッケージの可用性と含まれる機能は、契約書、選択したアドオン、地域の可用性によって異なります。 お客様の組織に固有の詳細については、Adobeの担当者にお問い合わせください。
+
 >[!TIP]
 >
 >**使用しているモデルが不明ですか？** モジュラーパッケージモデルで[!DNL Adobe Journey Optimizer]を購入した場合、このページで説明されている基本オファーとアドオンが適用されます。 契約書で&#x200B;**Select**、**Prime**、または&#x200B;**Ultimate**&#x200B;が参照されている場合は、レガシーパッケージモデルを利用しています。現在の使用権限を確認するには、Adobe担当者にお問い合わせください。
-
->[!NOTE]
->
->パッケージの可用性と含まれる機能は、契約書、選択したアドオン、地域の可用性によって異なります。 お客様の組織に固有の詳細については、Adobeの担当者にお問い合わせください。
 
 ## 簡単な回答 {#quick-answers}
 
@@ -77,13 +75,13 @@ ht-degree: 2%
 
 | | Journey Optimizer - Campaigns | Journey Optimizer -ジャーニー | Journey Optimizer - キャンペーンとジャーニー |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| [&#x200B; オーディエンスベースのバッチオーケストレーション &#x200B;](../campaigns/get-started-with-campaigns.md) | ✓ | 限定的¹ | ✓ |
+| [&#x200B; オーディエンスベースのバッチオーケストレーション &#x200B;](../campaigns/get-started-with-campaigns.md) | ✓ | 制限付き<sup>1</sup> | ✓ |
 | [&#x200B; リアルタイムイベント駆動型オーケストレーション &#x200B;](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | トランザクションメッセージ（電子メール、プッシュ、SMS） | ✓ | ✓ | ✓ |
 | [&#x200B; チャネルアドオンを利用できます](#channel-addons) | ✓ | ✓ | ✓ |
 | [&#x200B; アドオンを決定しています](#decisioning-addon) | ✓ | ✓ | ✓ |
 
-¹ **Journey Optimizer - ジャーニー**&#x200B;では、オーディエンスベースのオーケストレーションは、スタンドアロンのバッチキャンペーンではなく、ジャーニーのユースケース内でのみサポートされます。
+<sup>1</sup> **Journey Optimizer - ジャーニー**&#x200B;では、オーディエンスベースのオーケストレーションは、スタンドアロンのバッチキャンペーンではなく、ジャーニーのユースケース内でのみサポートされます。
 
 ## ステップ 2 – 必要なチャネルを追加する {#channel-addons}
 

@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
 source-wordcount: '3383'
 ht-degree: 98%
@@ -54,7 +54,7 @@ ht-degree: 98%
       + [検索、フィルター、整理](using/start/search-filter-categorize.md)
       + [トラブルシューティングに関する FAQ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [アクセシビリティ](using/start/accessibility.md)
-      + [ジャーニーとキャンペーン](using/start/journeys-vs-campaigns.md)
+      + [ジャーニーと施策](using/start/journeys-vs-campaigns.md)
       + {hide-from-toc}[ジャーニーとキャンペーンの比較 – 2](using/start/journeys-vs-campaigns-v2.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
