@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
 workflow-type: tm+mt
-source-wordcount: 3714
-ht-degree: 84%
+source-wordcount: 3606
+ht-degree: 83%
 
 ---
 
@@ -133,7 +121,7 @@ ht-degree: 84%
 </table>
 
 
-* [!BADGE 非推奨]{type=Negative} **オーディエンス選定ノードでバッチオーディエンスが非推奨になりました** - **2026年8月**&#x200B;以降、Journey Optimizerは&#x200B;**オーディエンス選定** ノードでバッチオーディエンスを使用しているジャーニーの公開をブロックします。 ジャーニーキャンバスに検証警告が既に表示されています。 既存のライブジャーニーは影響を受けません。 この設定を含む新しいジャーニー、ドラフトおよび重複したジャーニーは、2026年8月より前に更新する必要があります。 オーディエンス選定ノードでストリーミングオーディエンスを使用するか、**オーディエンスの読み取り** アクティビティに切り替えます。 [&#x200B; ジャーニーを移行する方法について説明します](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE 非推奨]{type=Negative} **オーディエンス選定ノードでバッチオーディエンスが非推奨になりました** - **2026年8月**&#x200B;以降、Journey Optimizerは&#x200B;**オーディエンス選定** ノードでバッチオーディエンスを使用しているジャーニーの公開をブロックします。 ジャーニーキャンバスに検証警告が既に表示されています。 既存のライブジャーニーは影響を受けません。 この設定を含む新しいジャーニー、ドラフトおよび重複したジャーニーは、2026年8月より前に更新する必要があります。 オーディエンス選定ノードでストリーミングオーディエンスを使用するか、**オーディエンスの読み取り** アクティビティに切り替えます。 [ ジャーニーを移行する方法について説明します](../building-journeys/aq-batch-audiences-migration.md)
 
 * **一時停止したジャーニーを直接停止する** - **一時停止した**&#x200B;状態から直接ジャーニーを停止できるようになりました。 以前は、一時停止したジャーニーを停止する前に、**Live**&#x200B;に再開する必要がありました。 [詳細情報](../building-journeys/journey-pause.md#stop-close-paused)
 
@@ -353,7 +341,7 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>メールサイズ削減を有効にする</strong><br/></th>
+<th><strong>メールサイズの最適化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -527,15 +515,15 @@ ht-degree: 84%
 
   公開日：2026年6月1日（PT）
 
+<!--
++++ Coming soon — **Information below is subject to change**
 
-+++ 近日リリース予定 - **以下の情報は変更される場合があります**
-
-* **Web アプリケーションファイアウォール（WAF）IP 許可リストへの登録** - Adobe Journey Optimizer では、ランディングページの Web アプリケーションファイアウォール（WAF）IP 許可リストへの登録をサポートするようになりました。これにより、組織はすべての受信リクエストが設定済みの WAF インフラストラクチャを通じてのみルーティングされるように適用できます。 この機能強化により、顧客は Journey Optimizer を設定して、WAF レイヤーをバイパスする直接リクエストを却下でき、Imperva などのツールで定義されたセキュリティポリシーが一貫して適用されることが確保されます。 この機能により、ネットワークアクセスに関する厳格な要件を持つ企業のセキュリティ態勢が強化され、AJO でホストされているランディングページへのトラフィックフローを完全に制御できます。
-
-  公開日：2026年6月下旬
+* **Web Application Firewall (WAF) IP whitelisting** - Adobe Journey Optimizer now supports Web Application Firewall (WAF) IP whitelisting for landing pages, enabling organizations to enforce that all incoming requests are routed exclusively through their configured WAF infrastructure. With this enhancement, customers can configure Journey Optimizer to reject any direct requests that bypass the WAF layer, ensuring that security policies defined in tools such as Imperva are consistently applied. This capability strengthens the security posture for enterprises with strict network access requirements, giving them full control over the traffic flow to their AJO-hosted landing pages.
+  
+  Availability date: Late June, 2026
 
 +++
-
+-->
 
 ### モバイルメッセージ（SMS、MMS、RCS、LINE） {#june-26-mobile}
 
