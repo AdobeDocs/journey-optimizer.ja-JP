@@ -9,12 +9,19 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c13ff12d-60f1-49cd-833a-d43359628223
 source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
 workflow-type: tm+mt
 source-wordcount: 1040
@@ -52,11 +59,11 @@ ht-degree: 24%
 | 機能 | 説明 |
 |---|---|
 | **パーソナライゼーション** | パーソナライゼーションエディターを使用して、プロファイル属性、条件付きコンテンツ、動的データでメッセージをカスタマイズします。 [詳細情報](../personalization/personalize.md) |
-| **プロバイダーのサポート** | API統合を介して、[Sinch](mobile-configuration-sinch.md)、[Twilio](mobile-configuration-twilio.md)、[Infobip](mobile-configuration-infobip.md)、または任意の[ カスタムプロバイダー](mobile-configuration-custom.md)と接続します。 |
+| **プロバイダーのサポート** | API統合を介して、[Sinch](mobile-configuration-sinch.md)、[Twilio](mobile-configuration-twilio.md)、[Infobip](mobile-configuration-infobip.md)、または任意の[&#x200B; カスタムプロバイダー](mobile-configuration-custom.md)と接続します。 |
 | **URL短縮** | エンゲージメントを監視するために、追跡可能な短縮URLを追加します。 サブドメイン設定が必要です。 [詳細情報](mobile-subdomains.md) |
 | **オプトアウト管理** | 標準のオプトアウトキーワード（停止、終了、キャンセルなど）の組み込みの処理 SinchとInfobipの。 [詳細情報](mobile-opt-out.md) |
 | **プレビューとテスト** | 送信前に、テストプロファイルとサンプルデータを使用してコンテンツを検証します。 [詳細情報](send-mobile-message.md) |
-| **レポーティング** | 専用の[ キャンペーンレポート ](../reports/campaign-global-report-cja-sms.md)と[ ジャーニーレポート ](../reports/journey-global-report-cja-sms.md)を使用して、キャンペーンとジャーニーのパフォーマンスを追跡します。 |
+| **レポーティング** | 専用の[&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja-sms.md)と[&#x200B; ジャーニーレポート &#x200B;](../reports/journey-global-report-cja-sms.md)を使用して、キャンペーンとジャーニーのパフォーマンスを追跡します。 |
 
 ## 設定要件 {#configuration-requirements}
 
@@ -147,7 +154,7 @@ SMS をカスタマージャーニーやキャンペーンに組み込む方法�
 
 **ネイティブのRCS メッセージはTwilioまたはInfobipで利用できますか？**
 
-いいえ。 Journey Optimizerのネイティブ RCS デザイナーは、TwilioやInfobipなどのサードパーティのSMS プロバイダーを使用している場合は使用できません。 ただし、RCS メッセージは[ カスタムプロバイダー統合](mobile-configuration-custom.md)を介して送信できます。
+いいえ。 Journey Optimizerのネイティブ RCS デザイナーは、TwilioやInfobipなどのサードパーティのSMS プロバイダーを使用している場合は使用できません。 ただし、RCS メッセージは[&#x200B; カスタムプロバイダー統合](mobile-configuration-custom.md)を介して送信できます。
 
 **なぜRCSと一緒にSMSを購入するのですか？**
 
