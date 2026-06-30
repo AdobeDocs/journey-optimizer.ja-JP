@@ -21,12 +21,8 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
 workflow-type: tm+mt
 source-wordcount: 1040
 ht-degree: 24%
@@ -41,15 +37,15 @@ ht-degree: 24%
 
 >[!ENDSHADEBOX]
 
->[!IMPORTANT]
->
->モバイルメッセージを初めて作成する場合は、モバイルメッセージチャネルが設定されていることを確認します。 [詳細情報](mobile-configuration.md)
-
 [!DNL Journey Optimizer]を使用して、コンテンツを作成、パーソナライズ、プレビューできる単一のSMS/MMS/RCS エディターから、**SMS**、**MMS**、**RCS**&#x200B;の3つのチャネルで顧客にモバイルメッセージを送信します。
 
 * **SMS （ショートメッセージサービス）**：最大160文字のテキストのみのメッセージを送信し、すべてのモバイルデバイスでサポートします。
 * **MMS （マルチメディアメッセージサービス）**：画像、ビデオ、オーディオクリップ、GIFに加えて、最大1,600文字のテキストでメッセージを充実させます。 [MMS の制限の詳細情報](../start/guardrails.md#sms-guardrails)
 * **RCS （リッチコミュニケーションサービス）**:Deliver ブランドのインタラクティブなコンテンツを、お客様のネイティブメッセージングアプリで直接使用できます。追加のアプリのダウンロードは必要ありません。
+
+>[!IMPORTANT]
+>
+>モバイルメッセージを初めて作成する場合は、モバイルメッセージチャネルが設定されていることを確認します。 [詳細情報](mobile-configuration.md)
 
 モバイルメッセージは、次のモバイルメッセージアクションを使用して、ジャーニーまたはキャンペーンで作成および送信できます。
 

@@ -21,15 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
-workflow-type: ht
-source-wordcount: 722
-ht-degree: 100%
+source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+workflow-type: tm+mt
+source-wordcount: 718
+ht-degree: 99%
 
 ---
 
@@ -84,11 +79,11 @@ IPhone のロック画面と Dynamic Island で、永続的なリアルタイム
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ja)
 
-SMS／MMS／RCS メッセージ
+モバイルメッセージ
 
 コンプライアンスやパーソナライゼーションなど、マーケティングおよびトランザクションの目的で、SMS、MMS、RCS メッセージを作成、管理、設定する方法について説明します。
 
-[詳しくは、SMS／MMS／RCS メッセージを参照してください。](../../rp_landing_pages/sms-landing-page.md)
+[モバイルメッセージについて詳しく見る](../mobile/get-started-mobile.md)
 :::
 
 :::
