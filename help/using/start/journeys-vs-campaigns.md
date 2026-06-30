@@ -10,26 +10,16 @@ level: Beginner
 keywords: ジャーニー，キャンペーン，比較，選択，決定，ワークフロー，リアルタイム，バッチ，オーケストレーション，マルチステップ，スケジュール済み，API トリガー，イベント駆動型
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4be496be65eef2c9cab727804f762350957223a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2483
-ht-degree: 29%
+source-wordcount: 2545
+ht-degree: 28%
 
 ---
 
@@ -37,7 +27,7 @@ ht-degree: 29%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** アクションとAPI トリガーのキャンペーンを使用してジャーニーを比較し、Adobe Journey Optimizerのマーケティングユースケースごとに適切なアプローチを選択できるようにします。 オーケストレーションされたキャンペーンについては、[&#x200B; オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
+**このページ：** アクションとAPI トリガーのキャンペーンを使用してジャーニーを比較し、Adobe Journey Optimizerのマーケティングユースケースごとに適切なアプローチを選択できるようにします。 オーケストレーションされたキャンペーンについては、[ オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +37,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->**オーケストレーションされたキャンペーン**&#x200B;には、専用のガイダンスを必要とする明確なアーキテクチャ特性（ハブサイドのバッチ実行、マルチエンティティのリレーショナルデータ）があります。 過度な単純化を避けるために、以下の比較表には含まれていません。 [&#x200B; オーケストレーションされたキャンペーンについて詳しく見る](../orchestrated/gs-orchestrated-campaigns.md)
+>**オーケストレーションされたキャンペーン**&#x200B;には、専用のガイダンスを必要とする明確なアーキテクチャ特性（ハブサイドのバッチ実行、マルチエンティティのリレーショナルデータ）があります。 過度な単純化を避けるために、以下の比較表には含まれていません。 [ オーケストレーションされたキャンペーンについて詳しく見る](../orchestrated/gs-orchestrated-campaigns.md)
 
 ## クイック比較の概要 {#quick-overview}
 
@@ -88,26 +78,22 @@ ht-degree: 29%
 
 ### 手順 1：実行要件は何ですか？
 
-**顧客行動に対するリアルタイムの個々の応答？**
-→ **ジャーニーの使用**
+**顧客行動に対するリアルタイムの個別応答ですか？→**&#x200B;ジャーニーを使用&#x200B;**
 * プロファイルは、独自のペースで移動する必要があります
 * 行動に基づく条件付きロジック
 * リアルタイムコンテキストが重要です
 
-**スケジュールされた時間にオーディエンスにシンプルなメッセージを配信しますか？**
-→ **アクションキャンペーンの使用**
+**スケジュールされた時間にオーディエンスにメッセージを簡単に配信できますか？→** アクションキャンペーンを使用&#x200B;**
 * すべてのプロファイルが同時にメッセージを受信します
 * スケジュール済みまたは定期的な送信
 * 複雑なマルチステップのロジックは必要ありません
 
-**外部システムによって即座にトリガーされるメッセージですか？**
-→ **API トリガーのキャンペーン** （単一メッセージ）を使用&#x200B;**または単一イベントジャーニー** （マルチステップオーケストレーション）を使用
+**外部システムによって即座にメッセージがトリガーされますか？→** API トリガーのキャンペーン **（単一メッセージ）を使用**&#x200B;するか、単一イベントジャーニー&#x200B;**（マルチステップオーケストレーション）を使用
 * API呼び出しを介してオンデマンドでトリガー – キャンペーンは1つのメッセージを配信します。単一ジャーニーは、[Experience Platform取り込み](../event/additional-steps-to-send-events-to-journey.md)を介してイベントを取り込み、ジャーニーフロー全体を実行します
 * ペイロード主導のパーソナライゼーション
 * マルチステップロジックが必要ない場合にキャンペーンを選択したり
 
-**高度なセグメンテーション、マルチエンティティデータ、または正確な事前送信数を使用して、複雑なバッチワークフローを作成できますか？**
-→ **オーケストレーションされたキャンペーンを使用** – 詳細なガイダンスについては、[&#x200B; オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
+**高度なセグメンテーション、マルチエンティティデータ、または正確な事前送信数を使用して、複雑なバッチワークフローを実行しますか？→** オーケストレーションされたキャンペーンを使用&#x200B;**– 詳細なガイダンスについては、[ オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
 
 >[!NOTE]
 >
@@ -126,7 +112,7 @@ ht-degree: 29%
 | ビジネスイベントによりトリガーされる Flash セール | ジャーニー（ビジネスイベント） | 複数の顧客に影響を与えるリアルタイムトリガー |
 | API トリガーによるトランザクションメッセージ（単回送信） | API トリガーキャンペーン | 外部システムトリガー、即時のワンショット配信 |
 | API トリガーのマルチステップフロー | ジャーニー（単一イベント） | 外部システムがAPIを介して単一イベントを送信し、ジャーニーオーケストレーションがフォローアップステップを実行する |
-| マルチエンティティデータを使用した複雑なバッチワークフロー | オーケストレーションキャンペーン | [&#x200B; オーケストレーションされたキャンペーンの概要](../orchestrated/gs-orchestrated-campaigns.md)を参照してください |
+| マルチエンティティデータを使用した複雑なバッチワークフロー | オーケストレーションキャンペーン | [ オーケストレーションされたキャンペーンの概要](../orchestrated/gs-orchestrated-campaigns.md)を参照してください |
 
 ## 主な違いの説明 {#key-distinctions}
 
@@ -139,9 +125,9 @@ ht-degree: 29%
 * 待機アクティビティにより、パーソナライズされたタイミングが作成されます
 * 条件分岐により、プロファイルごとに一意のパスが作成されます
 * 組み込みのアクティブリスニング：定義された期間にわたり何も実行しないことで、明示的なイベントだけでなく、次のステップをトリガーにすることもできます。 [待機アクティビティについて説明](../building-journeys/wait-activity.md)
-* 頻度の上限設定：顧客がジャーニーにエントリしたり、ジャーニーからメッセージを受信したりできる頻度を制御します。 [&#x200B; ジャーニーの上限について説明します](../conflict-prioritization/journey-capping.md)
-* オーディエンスの割合による分割 – プロファイルをランダムな割合ベースのグループに分割し、ジャーニーパス全体でA/B実験を実施できます。 [&#x200B; パーセンテージ分割について説明](../building-journeys/condition-activity.md)
-* テストモード：ライブ公開前に、テストプロファイルを使用してジャーニーロジックとメッセージ配信を検証します。 [&#x200B; テストモードについて学ぶ](../building-journeys/testing-the-journey.md)
+* 頻度の上限設定：顧客がジャーニーにエントリしたり、ジャーニーからメッセージを受信したりできる頻度を制御します。 [ ジャーニーの上限について説明します](../conflict-prioritization/journey-capping.md)
+* オーディエンスの割合による分割 – プロファイルをランダムな割合ベースのグループに分割し、ジャーニーパス全体でA/B実験を実施できます。 [ パーセンテージ分割について説明](../building-journeys/condition-activity.md)
+* テストモード：ライブ公開前に、テストプロファイルを使用してジャーニーロジックとメッセージ配信を検証します。 [ テストモードについて学ぶ](../building-journeys/testing-the-journey.md)
 
 **フローの例：**
 
@@ -152,7 +138,7 @@ Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immedi
 
 各顧客は、自分のアクションに基づいて独自のジャーニータイムラインを体験します。
 
-[ジャーニーの詳細情報](../building-journeys/journey.md)
+[ジャーニーについて詳しく見る](../building-journeys/journey.md) | [ジャーニーの種類：適切なものを選ぶ](../building-journeys/journey-types-selection.md)
 
 ### キャンペーン：シンプルなバッチ配信またはトリガー配信
 
@@ -220,7 +206,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 >[!NOTE]
 >
->オーケストレーションされたキャンペーンのチャネルの可用性については、「ジャーニーとキャンペーンの[&#x200B; チャネル &#x200B;](../channels/gs-channels.md#channels)」を参照してください。
+>オーケストレーションされたキャンペーンのチャネルの可用性については、「ジャーニーとキャンペーンの[ チャネル ](../channels/gs-channels.md#channels)」を参照してください。
 
 ### 高度な機能
 
@@ -241,7 +227,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 >[!NOTE]
 >
->オーケストレーションされたキャンペーン機能の詳細（コンテンツ実験、バッチ API トリガー、複数エンティティのセグメント化など）については、[&#x200B; オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
+>オーケストレーションされたキャンペーン機能の詳細（コンテンツ実験、バッチ API トリガー、複数エンティティのセグメント化など）については、[ オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
 
 ## よくある質問 {#common-questions}
 
@@ -252,7 +238,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 * 行動によるリアルタイムのエンゲージメントに関する&#x200B;**ジャーニー**
 * スケジュールされたコミュニケーションまたはインバウンドアクティベーションの&#x200B;**アクションキャンペーン**
 * トランザクションメッセージ用の&#x200B;**API トリガーキャンペーン**
-* 複雑でデータ集約的なバッチキャンペーンの&#x200B;**オーケストレーションされたキャンペーン** — [&#x200B; オーケストレーションされたキャンペーンの概要](../orchestrated/gs-orchestrated-campaigns.md)を参照
+* 複雑でデータ集約的なバッチキャンペーンの&#x200B;**オーケストレーションされたキャンペーン** — [ オーケストレーションされたキャンペーンの概要](../orchestrated/gs-orchestrated-campaigns.md)を参照
 
 すべてを無理なく進めるのではなく、各ユースケースに適したツールを使用する。
 
@@ -277,7 +263,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 * **オーディエンスの読み取りジャーニー**&#x200B;と&#x200B;**アクションキャンペーン**&#x200B;は、大規模なバッチオーディエンス（1つのメッセージまたは一度に多くのプロファイルに送信）に最適化されています。
 * **単一（イベントベース）ジャーニー**&#x200B;は、イベントが発生するとプロファイルを個別に処理するので、スケールはイベントのボリュームとスループットに依存します。
 
-大規模なデータセットとマルチエンティティデータを使用した複雑なセグメンテーションについては、[&#x200B; オーケストレーションされたキャンペーン &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
+大規模なデータセットとマルチエンティティデータを使用した複雑なセグメンテーションについては、[ オーケストレーションされたキャンペーン ](../orchestrated/gs-orchestrated-campaigns.md)を参照してください。
 
 +++
 
@@ -292,15 +278,17 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 作成を開始する準備は整っていますか？ 選択したアプローチに関する詳細なドキュメントを参照してください。
 
 * **[ジャーニーの基本を学ぶ](../building-journeys/journey.md)** - ジャーニーの種類、デザイナー、ワークフロー
+* **[ジャーニーの種類：適切なものを選ぶ](../building-journeys/journey-types-selection.md)** – 単一イベント、オーディエンスの読み取り、オーディエンスの選定、ビジネスイベント
 * **[キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)** - アクションとAPI トリガーのキャンペーン
 * **[オーケストレーションされたキャンペーンの基本を学ぶ](../orchestrated/gs-orchestrated-campaigns.md)** - マルチエンティティデータを使用したバッチキャンバスワークフロー（個別のガイダンス）
 
 >[!MORELIKETHIS]
 >
+>* [ジャーニーの種類：適切なものを選ぶ](../building-journeys/journey-types-selection.md)
 >* [ジャーニータイプの比較](../building-journeys/journey.md#journey-types-comparison)
->* [&#x200B; キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [ キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
->* [&#x200B; オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [ オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
 
 +++ AI ナレッジリファレンス
 

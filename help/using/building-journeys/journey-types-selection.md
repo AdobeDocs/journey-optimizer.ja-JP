@@ -10,26 +10,16 @@ keywords: ジャーニータイプ, 単一, オーディエンスを読み取り
 version: Journey Orchestration
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2274
-ht-degree: 19%
+source-wordcount: 2296
+ht-degree: 18%
 
 ---
 
@@ -59,7 +49,7 @@ ht-degree: 19%
 
 **カート放棄の回復、新規会員のオンボーディング、登録時のウェルカムメール、ログイン後のパーソナライゼーションなど、**&#x200B;に最適です。
 
-➡️ [&#x200B; イベントについて学ぶ](../event/about-events.md) | [購読者へのメッセージのユースケース &#x200B;](message-to-subscribers-uc.md) | [最初のジャーニーを作成](journey-gs.md)
+➡️ [ イベントについて学ぶ](../event/about-events.md) | [購読者へのメッセージのユースケース ](message-to-subscribers-uc.md) | [最初のジャーニーを作成](journey-gs.md)
 
 >[!TAB オーディエンスを読み取りジャーニー]
 
@@ -69,7 +59,7 @@ ht-degree: 19%
 
 **毎月のニュースレター、ターゲットセグメントに対するプロモーションキャンペーン、製品のお知らせ、定期的なリエンゲージメントシリーズ、季節ごとのマーケティングキャンペーンに最適です。**
 
-➡️ [&#x200B; オーディエンスの読み取りに関する学習](read-audience.md) | [&#x200B; オーディエンスの基本を学ぶ](../audience/about-audiences.md) | [最初のジャーニーを作成する](journey-gs.md)
+➡️ [ オーディエンスの読み取りに関する学習](read-audience.md) | [ オーディエンスの基本を学ぶ](../audience/about-audiences.md) | [最初のジャーニーを作成する](journey-gs.md)
 
 >[!TAB オーディエンスの選定ジャーニー]
 
@@ -79,11 +69,11 @@ ht-degree: 19%
 
 >[!CAUTION]
 >
->**2026年8月**&#x200B;以降、オーディエンス選定ノードでバッチオーディエンスを使用するジャーニーを公開できません。 [&#x200B; ジャーニーを移行する方法について説明します](aq-batch-audiences-migration.md)
+>**2026年8月**&#x200B;以降、オーディエンス選定ノードでバッチオーディエンスを使用するジャーニーを公開できません。 [ ジャーニーを移行する方法について説明します](aq-batch-audiences-migration.md)
 
 **最適な用途：** VIP層アップグレード通知、最初の購入のお祝いメッセージ、解約リスクアラート、ロイヤルティライフサイクルステージの移行。
 
-➡️ [&#x200B; オーディエンス選定について学ぶ](audience-qualification-events.md) | [&#x200B; オーディエンスの作成](../audience/creating-a-segment-definition.md) | [最初のジャーニーを作成](journey-gs.md)
+➡️ [ オーディエンス選定について学ぶ](audience-qualification-events.md) | [ オーディエンスの作成](../audience/creating-a-segment-definition.md) | [最初のジャーニーを作成](journey-gs.md)
 
 >[!TAB ビジネスイベントジャーニー]
 
@@ -93,7 +83,7 @@ ht-degree: 19%
 
 **最適な用途：**&#x200B;興味を示した顧客への低在庫アラート、フラッシュセールのお知らせ、値下げ通知、商品の再入荷アラート。
 
-➡️ [&#x200B; ビジネスイベントについて学ぶ](../event/about-creating-business.md) | [&#x200B; エントリ管理](entry-management.md) | [最初のジャーニーを作成](journey-gs.md)
+➡️ [ ビジネスイベントについて学ぶ](../event/about-creating-business.md) | [ エントリ管理](entry-management.md) | [最初のジャーニーを作成](journey-gs.md)
 
 >[!ENDTABS]
 
@@ -146,7 +136,7 @@ ht-degree: 19%
 | オーディエンスの選定アクティビティ（ジャーニー内） | ✅ | ✅ | ✅ | ✅ |
 | ジャンプアクティビティ | ✅ | ❌ | ❌ | ✅ |
 | **プロファイル管理** | | | | |
-| プロファイルの再エントリ | ✅ 設定可能 | ❌ デフォルトで実行ごとに1回（[&#x200B; スケジュールされた実行時に繰り返し](read-audience.md#schedule)に強制的に再エントリ） | ✅設定可能（ジャーニー内のプロファイルは同じバージョンを再入力できません） | ✅ イベントごと |
+| プロファイルの再エントリ | ✅ 設定可能 | ❌ デフォルトで実行ごとに1回（[ スケジュールされた実行時に繰り返し](read-audience.md#schedule)に強制的に再エントリ） | ✅設定可能（ジャーニー内のプロファイルは同じバージョンを再入力できません） | ✅ イベントごと |
 | 名前空間設定 | ✅ 必須 | ✅ オプション | ✅ 必須 | ✅ 必須 |
 | プロファイルキャップ | ✅ | ✅ | ✅ | ✅ |
 | **テストと最適化** | | | | |
@@ -180,6 +170,7 @@ ht-degree: 19%
 
 これで、ジャーニータイプを選択しました。
 
+* **[ジャーニーとキャンペーン](../start/journeys-vs-campaigns.md)** — ジャーニーとキャンペーンのどちらが適切か判断できない場合は、 最初に、上位レベルの決定に戻る
 * **[最初のジャーニーを作成](journey-gs.md)** – 開始から公開までのステップバイステップガイド
 * **[ジャーニーデザイナーについて学ぶ](using-the-journey-designer.md)** — ジャーニーキャンバスをデザインする
 * ジャーニーの&#x200B;**[プロファイルのエントリ](entry-management.md)** – 入力ルール、再エントリ、タイプ別のスループット
@@ -220,7 +211,7 @@ ht-degree: 19%
 * オーディエンスの読み取りジャーニーでのプロファイルの再エントリは、デフォルトでは実行ごとに1回に制限されています。スケジュールされた実行で繰り返しに強制的に再エントリを使用すると、次の実行でプロファイルが再エントリできるようになります
 * オーディエンスの読み取りアクティビティは、単一のイベントまたはオーディエンスの選定エントリジャーニーではなく、オーディエンスの読み取りとビジネスイベントジャーニーのジャーニーエントリとしてのみ使用できます
 * オーディエンスの選定とオーディエンスの読み取りのジャーニーにジャンプアクティビティを含めることはできず、別のジャーニーのジャンプアクティビティのターゲットにすることはできません
-* オーディエンス選定ジャーニーには、ストリーミング評価されたオーディエンスが必要です。 2026年8月以降、バッチ評価されたオーディエンスをAudience Qualification ノードで使用することはできません。[移行ガイド &#x200B;](aq-batch-audiences-migration.md)を参照してください
+* オーディエンス選定ジャーニーには、ストリーミング評価されたオーディエンスが必要です。 2026年8月以降、バッチ評価されたオーディエンスをAudience Qualification ノードで使用することはできません。[移行ガイド ](aq-batch-audiences-migration.md)を参照してください
 * 単一のイベントとオーディエンスの選定ジャーニーでは、組織レベルで5,000 TPSのスループット制限が共有されます。読み取りオーディエンスジャーニーは、サンドボックスごとに最大20,000 TPSをサポートします
 * ジャーニーに既に存在するプロファイルは、再入力設定に関係なく、そのジャーニーの同じバージョンを再入力することはできません
 
