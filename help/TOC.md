@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
 source-wordcount: '3383'
 ht-degree: 98%
@@ -30,7 +30,7 @@ ht-degree: 98%
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[ジャーニーキャンバスの向上](using/rn/new-canvas.md)
-   + {hide-from-toc}[&#x200B; オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[ オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
 + 基本を学ぶ {#get-started}
    + [ここから開始](/help/rp_landing_pages/get-started-landing-page.md)
    + [オンボーディングハブ](using/start/onboarding-hub.md)
@@ -54,7 +54,7 @@ ht-degree: 98%
       + [検索、フィルター、整理](using/start/search-filter-categorize.md)
       + [トラブルシューティングに関する FAQ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [アクセシビリティ](using/start/accessibility.md)
-      + [ジャーニーとキャンペーン](using/start/journeys-vs-campaigns.md)
+      + [ジャーニーと施策](using/start/journeys-vs-campaigns.md)
       + {hide-from-toc}[ジャーニーとキャンペーンの比較 – 2](using/start/journeys-vs-campaigns-v2.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
@@ -149,7 +149,7 @@ ht-degree: 98%
    + {hide-from-toc}[ロイヤルティの課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[ロイヤルティの課題のパフォーマンスの監視](using/loyalty-challenges/loyalty-reporting.md)
    + {hide-from-toc}[ロイヤルティの課題の設定](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[ロイヤルティデータとデータセット](using/loyalty-challenges/loyalty-data-and-datasets.md)
