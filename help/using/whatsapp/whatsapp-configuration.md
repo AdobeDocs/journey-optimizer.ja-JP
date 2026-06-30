@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1377
 ht-degree: 87%
 
 ---
@@ -132,7 +132,7 @@ WhatsApp API資格情報が正常に作成されたら、Webhookを次のよう�
 
 >[!NOTE]
 >
->インバウンド WhatsApp メッセージは、_AJO メールトラッキングデータセット_ システムデータセットに取り込まれます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [詳細情報](../data/get-started-datasets.md#system-datasets)
+>インバウンド WhatsApp メッセージは、_AJO メールトラッキングデータセット_ システムデータセットに取り込まれます。 このデータセットに受信メッセージがキャプチャされる前に、プロファイルに [!DNL Journey Optimizer] から送信されたメッセージを 1 つ以上含める必要があります。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
 Webhookは、MetaのWhatsApp Business PlatformとAdobe Journey Optimizer間のコミュニケーションブリッジとして機能し、メッセージイベントやユーザーインタラクションに関するリアルタイムの通知を受け取ることができます。
 
@@ -208,7 +208,7 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
    ![](assets/whatsapp-config-3.png){width=80%}
 
-1. コミュニケーションに使用する&#x200B;**[!UICONTROL 送信者電話番号]**&#x200B;を入力します。
+1. コミュニケーションに使用する&#x200B;**[!UICONTROL 送信者電話番号]**&#x200B;を入力します。 番号の前に「+」記号を含めないでください。これにより、オプトアウトフローが正しく機能しなくなる可能性があります。
 
 1. **[!UICONTROL WhatsApp 実行フィールド]**&#x200B;を使用して、プロファイル属性の中から、データベースで複数の番号が使用可能な場合に優先して使用する電話番号を選択します。 [詳細情報](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
