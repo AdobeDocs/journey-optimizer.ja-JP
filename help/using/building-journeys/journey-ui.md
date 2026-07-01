@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 2066
-ht-degree: 69%
+source-wordcount: 2122
+ht-degree: 66%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 69%
 
 ## ジャーニーダッシュボード {#dashboard-jo}
 
-「ジャーニー管理」メニューセクションで、「**[!UICONTROL ジャーニー]**」をクリックします。 「**[!UICONTROL 概要]**」と「**[!UICONTROL 参照]**」の 2 つのタブが使用できます。
+「ジャーニー管理」メニューセクションで、「**[!UICONTROL ジャーニー]**」をクリックします。 3つの専用タブを使用できます：**[!UICONTROL 概要]** （ダッシュボード）、**[!UICONTROL 参照]** （リストとカレンダー）、**[!UICONTROL フォルダービュー]** （フォルダー内のジャーニーを整理）。
 
 ### ジャーニーの概要
 
@@ -53,7 +53,7 @@ ht-degree: 69%
 
 ### ジャーニーリスト
 
-「**[!UICONTROL 参照]**」タブには、既存のジャーニーのリストが表示されます。 ジャーニーを検索し、フィルターを使用して、各要素に対して基本的なアクションを実行できます。 例えば、項目の複製や削除が可能です。
+「**[!UICONTROL 参照]**」タブには、既存のジャーニーのリストが表示されます。 ジャーニーを検索し、フィルターを使用し、各要素に対して基本的なアクションを実行できます。 例えば、項目の複製や削除が可能です。
 
 ![「参照」タブをハイライト表示したジャーニーダッシュボード](assets/journeys-browse.png)
 
@@ -109,6 +109,15 @@ ht-degree: 69%
 
    ![情報パネルを開いた状態のキャンペーンリスト](assets/journey-calendar-4.png)
 
+### フォルダービュー {#journeys-folders}
+
+ジャーニーリストに「**[!UICONTROL フォルダーを表示]**」アイコンを付けてジャーニーフォルダー表示を開くか、「**[!UICONTROL フォルダー表示]**」タブを使用します。 [詳しくは、フォルダーの操作方法を参照してください](../start/search-filter-categorize.md#organize-folders)
+
+![](assets/folders-view-journeys.png)
+
+>[!AVAILABILITY]
+>
+>ジャーニー用のフォルダーは限定的です。 現在のリリースステータスについては、[Journey Optimizer リリースサイクル &#x200B;](../rn/releases.md)を参照してください。
 
 ## ジャーニーのフィルタリング {#journey-filter}
 
