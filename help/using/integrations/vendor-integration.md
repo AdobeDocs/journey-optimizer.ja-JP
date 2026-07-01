@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 keywords: 統合、ベンダー、サードパーティ
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10185
+source-wordcount: 10209
 ht-degree: 6%
 
 ---
@@ -37,10 +36,10 @@ ht-degree: 6%
 以下のグループ化されたリンクを使用して、関連するベンダーパターンにすばやく移動できます。
 
 * **コンテンツ管理システム：** [Contentful](#contentful)、[Sitecore](#sitecore)、[Salsify](#salsify)、[Contentstack](#contentstack)、[Akeneo](#akeneo)、[Magnolia](#magnolia)
-* **ロイヤルティと報酬：** [Voucherify](#voucherify)、[Talon.One](#talon-one)、[Antavo](#antavo)、[Salesforce ロイヤルティ &#x200B;](#salesforce-loyalty)、[&#x200B; キャピラリー](#capillary)
-* **テンプレート、パーソナライズとレコメンデーション：** [Stensul](#stensul)、[Marigold](#marigold)、[Adobe Targetのレコメンデーション &#x200B;](#adobe-target-recommendations)
+* **ロイヤルティと報酬：** [Voucherify](#voucherify)、[Talon.One](#talon-one)、[Antavo](#antavo)、[Salesforce ロイヤルティ ](#salesforce-loyalty)、[ キャピラリー](#capillary)
+* **テンプレート、パーソナライズとレコメンデーション：** [Stensul](#stensul)、[Marigold](#marigold)、[Adobe Targetのレコメンデーション ](#adobe-target-recommendations)
 * **データ、天気、および操作：** [AccuWeather](#accuweather)、[ShipStation](#shipstation)、[RevenueCat](#revenuecat)、[Databricks](#databricks)
-* **レビュー、同意、およびソーシャル：** [Bynder](#bynder)、[Trustpilot](#trustpilot)、[Bazaarvoice](#bazaarvoice)、[OneTrust](#onetrust)、[Meta](#meta)、[Aprimo](#aprimo)、[Epsilon （Epsilon3） &#x200B;](#epsilon)
+* **レビュー、同意、およびソーシャル：** [Bynder](#bynder)、[Trustpilot](#trustpilot)、[Bazaarvoice](#bazaarvoice)、[OneTrust](#onetrust)、[Meta](#meta)、[Aprimo](#aprimo)、[Epsilon （Epsilon3） ](#epsilon)
 
 ## コンテンツとCMS {#content-and-cms}
 
@@ -100,7 +99,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-統合フィールドのサンプル（お使いのスペースと環境の[&#x200B; コンテンツ配信API](https://www.contentful.com/developers/docs/references/content-delivery-api/){target="_blank"}に合わせる）:
+統合フィールドのサンプル（お使いのスペースと環境の[ コンテンツ配信API](https://www.contentful.com/developers/docs/references/content-delivery-api/){target="_blank"}に合わせる）:
 
 | フィールド | 値 |
 | -- | -- |
@@ -189,7 +188,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-Journey Optimizerでこのサンプル呼び出しを設定する場合は、次のフィールドを使用します。 [Sitecore ドキュメント &#x200B;](https://doc.sitecore.com/){target="_blank"}で、製品（Content Hub、XM Cloudなど）のホスト名とAPI バージョンを確認します。
+Journey Optimizerでこのサンプル呼び出しを設定する場合は、次のフィールドを使用します。 [Sitecore ドキュメント ](https://doc.sitecore.com/){target="_blank"}で、製品（Content Hub、XM Cloudなど）のホスト名とAPI バージョンを確認します。
 
 | フィールド | 値 |
 | --- | --- |
@@ -555,7 +554,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-パターンの例：`https://{domain}/magnoliaAuthor/.rest/delivery/...`またはパブリック配信ツアースタイルのURL。 パスは、インストール済みのモジュールによって異なります。 [Magnolia ドキュメント &#x200B;](https://docs.magnolia-cms.com/){target="_blank"}を参照してください。
+パターンの例：`https://{domain}/magnoliaAuthor/.rest/delivery/...`またはパブリック配信ツアースタイルのURL。 パスは、インストール済みのモジュールによって異なります。 [Magnolia ドキュメント ](https://docs.magnolia-cms.com/){target="_blank"}を参照してください。
 
 | フィールド | 値 |
 | --- | --- |
@@ -838,7 +837,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-統合フィールドのサンプルには、**ステージング** ホストが使用されます。実稼動では、Antavo スタック ホスト名が使用されます。 [Antavo ドキュメント &#x200B;](https://antavo.com/docs/){target="_blank"}を参照してください。
+統合フィールドのサンプルには、**ステージング** ホストが使用されます。実稼動では、Antavo スタック ホスト名が使用されます。 [Antavo ドキュメント ](https://antavo.com/docs/){target="_blank"}を参照してください。
 
 | フィールド | 値 |
 | --- | --- |
@@ -1022,7 +1021,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-例：`https://ushc.intouch.capillarytech.com/api/v3/rewards/{reward_id}` （ホストは地域によって異なります）。 ホストと認証スキームを[&#x200B; キャピラリー](https://capillarytech.com/){target="_blank"}で検証します。
+例：`https://ushc.intouch.capillarytech.com/api/v3/rewards/{reward_id}` （ホストは地域によって異なります）。 ホストと認証スキームを[ キャピラリー](https://capillarytech.com/){target="_blank"}で検証します。
 
 
 | フィールド | 値 |
@@ -1201,7 +1200,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 >[!IMPORTANT]
 >
->このコンフィギュレーションは、Adobe Journey Optimizer チームによってテストされたイラストパターンです。 Adobe Target Recommendationsは、独自のリリースサイクルとAPI バージョン管理を備えた個別のAdobe製品です。 実稼動環境にデプロイする前に、常に現在のAPIの詳細を[Adobe Target開発者向けドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/overview)で確認してください。
+>このコンフィギュレーションは、Adobe Journey Optimizer チームによってテストされたイラストパターンです。 Adobe Target Recommendationsは、独自のリリースサイクルとAPI バージョン管理を備えた個別のAdobe製品です。 実稼動環境にデプロイする前に、常に現在のAPIの詳細を[Adobe Target開発者向けドキュメント ](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview)で確認してください。
 
 >[!BEGINSHADEBOX]
 
@@ -1209,9 +1208,7 @@ Adobe Targetには、使用権限に応じて、サーバーサイドまたは�
 
 一般的なユースケースには、Journey Optimizerで作成したエクスペリエンスにレコメンデーションを挿入したり、プロファイルやExperience Platformのコンテキストとキーを整合させたりすることが含まれます。
 
-<!--
-➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
--->
+➡️統合をアクティベートしたら、[ コンテンツオーサリングで統合を追加する](integrations-personalization.md#apply-integration-personalization)方法と[ メッセージテンプレートでAdobe Target データを使用する方法](integrations-personalization.md#use-adobe-target-in-templates)について説明します。
 
 >[!ENDSHADEBOX]
 
@@ -1231,7 +1228,7 @@ Adobe Targetには、使用権限に応じて、サーバーサイドまたは�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](integrations.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [&#x200B; ターゲット認証](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
+1. [統合の操作](integrations.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [ ターゲット認証](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
 
 1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
@@ -1284,7 +1281,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-[Target認証設定](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication)を参照し、JSONをペイロードに追加してください。
+[Target認証設定](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication)を参照し、JSONをペイロードに追加してください。
 
 **要求ペイロード**
 
@@ -1596,7 +1593,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-パターンの例：[RevenueCat ドキュメント &#x200B;](https://docs.revenuecat.com/){target="_blank"}のRevenueCatの&#x200B;**製品の取得** （または同等の製品/使用権限GET）を、プロジェクトのベース URLとバージョンと共に使用します。
+パターンの例：[RevenueCat ドキュメント ](https://docs.revenuecat.com/){target="_blank"}のRevenueCatの&#x200B;**製品の取得** （または同等の製品/使用権限GET）を、プロジェクトのベース URLとバージョンと共に使用します。
 
 | フィールド | 値 |
 | --- | --- |
@@ -1687,7 +1684,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++統合フィールドの例
 
-以下の&#x200B;**GET** ジョブの例は実例です。SQL ドリブン型のパーソナライゼーションの場合は、ワークスペースがサポートする[&#x200B; ステートメント実行API](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} パターンを優先します。
+以下の&#x200B;**GET** ジョブの例は実例です。SQL ドリブン型のパーソナライゼーションの場合は、ワークスペースがサポートする[ ステートメント実行API](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} パターンを優先します。
 
 | フィールド | 値 |
 | --- | --- |
@@ -1771,7 +1768,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-統合フィールドのサンプル。 OAuth 2.0 ペイロードの詳細については、[Bynder API ドキュメント &#x200B;](https://developer.bynder.com/){target="_blank"}を参照してください。
+統合フィールドのサンプル。 OAuth 2.0 ペイロードの詳細については、[Bynder API ドキュメント ](https://developer.bynder.com/){target="_blank"}を参照してください。
 
 | フィールド | 値 |
 | --- | --- |
