@@ -5,10 +5,10 @@ title: ジャーニーの管理
 description: ジャーニーの管理
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 93%
 
 ---
 
@@ -20,17 +20,17 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーの参照とフィルタリング
 
-ジャーニーダッシュボードの指標、カレンダー表示、複製プロセスなど、ジャーニーを効果的に移動、フィルターおよび管理する方法について説明します。
+ジャーニーダッシュボードの指標、カレンダービュー、複製プロセスなど、ジャーニーの移動、フィルタリング、フォルダー内のジャーニーの整理、ジャーニーを効果的に管理する方法について説明します。
 
 [ジャーニー管理の探索](../using/building-journeys/journey-ui.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ジャーニーのプロファイルエントリ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ジャーニーでの補助識別子の使用
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 タイムゾーンの管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 送信時間の最適化
 
@@ -70,7 +70,7 @@ AI 駆動モデルを使用して最適な送信時間を予測することで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ジャーニーの終了
 
