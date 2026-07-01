@@ -8,8 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 統合
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
 source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
 workflow-type: tm+mt
 source-wordcount: 1302
@@ -171,7 +173,7 @@ Target Delivery APIは`prefetch.mboxes`配列を返します。 各mboxには、
 
 1. **Targetの応答を取得します。** 設定済みのTarget統合を`externalDataLookup`と呼び出します。 `integrationName`をその統合の&#x200B;**[!UICONTROL Name]**&#x200B;に設定します（例のプレースホルダー`target_recommendations`を置き換えます）。 `result` パラメーターを使用して、完全な配信API ペイロードを保持するテンプレート変数（例：`targetResponse`）に名前を付けます。
 
-   パーソナライゼーションエディターの左側のナビゲーションの&#x200B;**[!UICONTROL 統合]** メニューから直接統合を選択することもできます。 [ コンテンツに統合パーソナライゼーションを適用する](#apply-integration-personalization)を参照してください。
+   パーソナライゼーションエディターの左側のナビゲーションの&#x200B;**[!UICONTROL 統合]** メニューから直接統合を選択することもできます。 [&#x200B; コンテンツに統合パーソナライゼーションを適用する](#apply-integration-personalization)を参照してください。
 
    ```handlebars
    {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
