@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
+source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: 1311
 ht-degree: 12%
 
 ---
@@ -137,9 +137,9 @@ ht-degree: 12%
 
 ![](assets/uc-integrations-7.png)
 
-## テンプレートでのAdobe Target データの使用 {#use-adobe-target-in-templates}
+## コンテンツでAdobe Target Recommendationsを使用する {#use-adobe-target-in-templates}
 
-この節では、Adobe Journey Optimizerで&#x200B;**統合**&#x200B;を使用して、送信時に&#x200B;**[!DNL Adobe Target]**&#x200B;からパーソナライゼーションデータを取得し、メッセージテンプレートで使用する方法について説明します。 Target Delivery APIが統合として既に設定されていることを前提としています。
+この節では、Adobe Journey Optimizerで&#x200B;**統合**&#x200B;を使用して、送信時に&#x200B;**[!DNL Adobe Target]**&#x200B;からパーソナライゼーションデータを取得し、テンプレートで作成したコンテンツでもインラインで作成したコンテンツでも使用する方法について説明します。 Target Delivery APIが統合として既に設定されていることを前提としています。
 
 設定手順については、[統合の操作](integrations.md)および[Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations)のサンプルを参照してください。
 
