@@ -8,13 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 統合
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: 1311
 ht-degree: 12%
 
 ---
@@ -137,9 +135,9 @@ ht-degree: 12%
 
 ![](assets/uc-integrations-7.png)
 
-## テンプレートでのAdobe Target データの使用 {#use-adobe-target-in-templates}
+## コンテンツでAdobe Target Recommendationsを使用する {#use-adobe-target-in-templates}
 
-この節では、Adobe Journey Optimizerで&#x200B;**統合**&#x200B;を使用して、送信時に&#x200B;**[!DNL Adobe Target]**&#x200B;からパーソナライゼーションデータを取得し、メッセージテンプレートで使用する方法について説明します。 Target Delivery APIが統合として既に設定されていることを前提としています。
+この節では、Adobe Journey Optimizerで&#x200B;**統合**&#x200B;を使用して、送信時に&#x200B;**[!DNL Adobe Target]**&#x200B;からパーソナライゼーションデータを取得し、テンプレートで作成したコンテンツでもインラインで作成したコンテンツでも使用する方法について説明します。 Target Delivery APIが統合として既に設定されていることを前提としています。
 
 設定手順については、[統合の操作](integrations.md)および[Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations)のサンプルを参照してください。
 
@@ -173,7 +171,7 @@ Target Delivery APIは`prefetch.mboxes`配列を返します。 各mboxには、
 
 1. **Targetの応答を取得します。** 設定済みのTarget統合を`externalDataLookup`と呼び出します。 `integrationName`をその統合の&#x200B;**[!UICONTROL Name]**&#x200B;に設定します（例のプレースホルダー`target_recommendations`を置き換えます）。 `result` パラメーターを使用して、完全な配信API ペイロードを保持するテンプレート変数（例：`targetResponse`）に名前を付けます。
 
-   パーソナライゼーションエディターの左側のナビゲーションの&#x200B;**[!UICONTROL 統合]** メニューから直接統合を選択することもできます。 [&#x200B; コンテンツに統合パーソナライゼーションを適用する](#apply-integration-personalization)を参照してください。
+   パーソナライゼーションエディターの左側のナビゲーションの&#x200B;**[!UICONTROL 統合]** メニューから直接統合を選択することもできます。 [ コンテンツに統合パーソナライゼーションを適用する](#apply-integration-personalization)を参照してください。
 
    ```handlebars
    {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
@@ -263,4 +261,4 @@ mboxを取得して抽出し、`content`を直接レンダリングします。 
 
 このビデオでは、**統合**&#x200B;がAdobe Journey Optimizerを外部APIに接続して、ライブデータとコンテンツを&#x200B;**アウトバウンド**&#x200B;のチャネル、電子メール、SMS、プッシュ通知に取り込み、より適切なパーソナライゼーションを実現する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3484119/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
