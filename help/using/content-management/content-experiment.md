@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: fdddc1053c86ac91128a9cefd2288c7f7c4ea10b
 workflow-type: tm+mt
-source-wordcount: 2025
+source-wordcount: 2009
 ht-degree: 95%
 
 ---
@@ -122,8 +122,6 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
 1. アプリ内または web チャネルを使用して実験を設定し、「**[!UICONTROL インバウンドクリック数]**」、「**[!UICONTROL ユニークインバウンドクリック数]**」、「**[!UICONTROL ページビュー数]**」、「**[!UICONTROL ユニークページビュー数]**」のいずれかの指標を選択する際には、「**[!UICONTROL ディメンション]**」フィールドで、特定のページのクリック数とビュー数を正確に追跡および監視できます。
 
-   ![](assets/content_experiment_20.png)
-
 1. API トリガーキャンペーンを作成した場合は、**[!UICONTROL 実験タイプ]**&#x200B;ドロップダウンから「**[!UICONTROL A/B 実験]**」を選択します。
 
 1. 「**[!UICONTROL 処理を追加]**」をクリックして、新しい処理を必要な数だけ作成します。
@@ -149,8 +147,6 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
    ![](assets/content_experiment_12.png)
 
 1. その後、各&#x200B;**[!UICONTROL 処理]**&#x200B;に正確な割合を割り当てるか、**[!UICONTROL 等しく分布]**&#x200B;切り替えバーをオンにするかを選択できます。
-
-   ![](assets/content_experiment_13.png)
 
 1. 自動スケール実験を有効にすると、実験の勝利バリエーションが自動的にロールアウトされます。 [勝者をスケールする方法の詳細情報](#scale-winner)
 
@@ -240,7 +236,7 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
 ## 処理の設計 {#treatment-experiment}
 
-1. **[!UICONTROL コンテンツを編集]**&#x200B;ウィンドウで、処理 B を選択してコンテンツを変更します。
+1. 「**[!UICONTROL コンテンツ]**」タブで、処理Bを選択してコンテンツを変更します。
 
    ここでは、「**[!UICONTROL 件名]**」でオファーを指定しないようにします。
 
@@ -250,15 +246,14 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
    ![](assets/content_experiment_9.png)
 
-1. 処理を設計したら、「**[!UICONTROL その他のアクション]**」をクリックして、処理に関連するオプション（「**[!UICONTROL 名前変更]**」、「**[!UICONTROL 複製]**」および「**[!UICONTROL 削除]**」）にアクセスします。
-
-   ![](assets/content_experiment_7.png)
-
-1. 必要に応じて、 **[!UICONTROL 実験の設定]**&#x200B;メニューにアクセスして、処理の設定を変更します。
+1. 必要に応じて、「**[!UICONTROL アクション]**」タブから「**[!UICONTROL 実験の設定]**」メニューにアクセスして、処理の設定を変更します。
 
    ![](assets/content_experiment_19.png)
 
-1. メッセージコンテンツを定義したら、シミュレーション方式を使用して配信のレンダリングを制御し、パーソナライゼーション設定を確認します。「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。 [詳細情報](../content-management/preview-test.md)
+1. メッセージコンテンツを定義したら、いずれかのシミュレーション方法を使用して配信のレンダリングを制御し、パーソナライゼーション設定を確認します。
+
+   * 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストします。
+   * 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。 [詳細情報](../content-management/preview-test.md)
 
 実験を設定したら、レポートを使用して、問題なく配信できたかどうかを追跡できます。 [詳細情報](../reports/campaign-global-report-cja-experimentation.md)
 
