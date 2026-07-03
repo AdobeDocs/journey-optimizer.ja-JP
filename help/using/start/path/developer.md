@@ -6,11 +6,27 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
 source-wordcount: 3490
@@ -30,9 +46,9 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->**実装指示：** [管理者](administrator.md) → [ データエンジニア ](data-engineer.md) →現在地：**開発者** → [ マーケター](marketer.md)
+>**実装指示：** [管理者](administrator.md) → [&#x200B; データエンジニア &#x200B;](data-engineer.md) →現在地：**開発者** → [&#x200B; マーケター](marketer.md)
 >
->モバイルとwebの統合を実装する前に、[ データスキーマとイベント ](data-engineer.md)が設定されていることを確認してください。
+>モバイルとwebの統合を実装する前に、[&#x200B; データスキーマとイベント &#x200B;](data-engineer.md)が設定されていることを確認してください。
 
 ## Journey Optimizer エコシステムでの役割
 
@@ -125,7 +141,7 @@ Web SDK （`alloy.js`）は、サイトで必要になる可能性のある個�
 
 ### ジャーニーをトリガーするイベントの送信
 
-ジャーニーは、イベントにもとづいて実行されます。利用者がログインし、カートに商品を追加すると、購入が完了し、フォームが放棄されます。 あなたの仕事は、適切なタイミングでアプリケーションからそれらのイベントを放出することです。 各イベントは、Experience Platform Streaming Ingestion APIに送信されるXDM構造化JSON ペイロードです。Journey Optimizerは、ミリ秒以内にイベントを取得し、プロファイルを任意の一致するジャーニーにルーティングします。 イベントスキーマとペイロード構造は、[ データエンジニア ](data-engineer.md)によって定義されます。コーディングを開始する前に調整してください。
+ジャーニーは、イベントにもとづいて実行されます。利用者がログインし、カートに商品を追加すると、購入が完了し、フォームが放棄されます。 あなたの仕事は、適切なタイミングでアプリケーションからそれらのイベントを放出することです。 各イベントは、Experience Platform Streaming Ingestion APIに送信されるXDM構造化JSON ペイロードです。Journey Optimizerは、ミリ秒以内にイベントを取得し、プロファイルを任意の一致するジャーニーにルーティングします。 イベントスキーマとペイロード構造は、[&#x200B; データエンジニア &#x200B;](data-engineer.md)によって定義されます。コーディングを開始する前に調整してください。
 
 1. **イベントペイロードを理解**：データエンジニアと連携して、イベントスキーマと必要なペイロード構造を取得します。 ペイロードは、設定した XDM スキーマに準拠する必要があります。 詳しくは、[イベントスキーマ要件](../../event/experience-event-schema.md)を参照してください。
 
@@ -261,7 +277,7 @@ Journey Optimizerの本番環境では、数百万のイベントと1秒間に�
 
 ## Journey Optimizer REST APIの呼び出し {#rest-apis}
 
-SDKやイベントストリーミングを実装するだけでなく、独自のシステムからプログラムでJourney Optimizerを実行することもできます。 完全なAPI リファレンス、OpenAPI仕様、およびコードサンプルは、[Journey Optimizer デベロッパーポータル ](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}にあります。
+SDKやイベントストリーミングを実装するだけでなく、独自のシステムからプログラムでJourney Optimizerを実行することもできます。 完全なAPI リファレンス、OpenAPI仕様、およびコードサンプルは、[Journey Optimizer デベロッパーポータル &#x200B;](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}にあります。
 
 >[!NOTE]
 >
@@ -275,15 +291,15 @@ Interactive Message Execution REST APIを使用して、外部システムから
 * 呼び出しのタイムアウトは&#x200B;**60秒**&#x200B;です。内部再試行は予期しないタイムアウトを処理します。
 * キャンペーンの開始日/終了日が設定されている場合、それらの日付以外のAPI呼び出しは失敗します。
 * ペイロードを作成するには、Journey Optimizer UIのライブキャンペーンの&#x200B;**cURL リクエスト** セクションから、生成されたサンプル cURL リクエストを取得します。このリクエストには、そのキャンペーンのすべてのパーソナライゼーション変数が含まれます。
-* 標準キャンペーンと[ ハイスループットキャンペーン ](../../campaigns/api-triggered-high-throughput.md)では、異なるエンドポイントを使用しています。
+* 標準キャンペーンと[&#x200B; ハイスループットキャンペーン &#x200B;](../../campaigns/api-triggered-high-throughput.md)では、異なるエンドポイントを使用しています。
 
-[API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} ・ [ コードサンプル ](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} ・ [API トリガーキャンペーンの操作](../../campaigns/api-triggered-campaigns.md)
+[API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} ・ [&#x200B; コードサンプル &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} ・ [API トリガーキャンペーンの操作](../../campaigns/api-triggered-campaigns.md)
 
 ### 外部エンドポイントのキャッピングとスロットル {#capping-throttling}
 
 ジャーニーがカスタムアクションまたはデータソースを介して外部システムを呼び出す場合、Capping APIとThrottling APIは、これらのシステムを過負荷から保護します。 キャッピングは、設定された制限を超える呼び出しを拒否します。スロットルキューは最大6時間待機します（実稼動サンドボックス、カスタムアクションのみ）。
 
-[Capping API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} ・ [Capping APIの操作](../../configuration/capping.md) ・ [ スロットル APIの操作](../../configuration/throttling.md)
+[Capping API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} ・ [Capping APIの操作](../../configuration/capping.md) ・ [&#x200B; スロットル APIの操作](../../configuration/throttling.md)
 
 ### その他のREST API {#more-rest-apis}
 
@@ -293,15 +309,15 @@ Journey Optimizerでは、メッセージとキャッピングの枠を超えて
 | ------------------- | ------------- |
 | 電子メールアドレスまたはドメインをプログラムで送信から除外 | [抑制API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} ・ [抑制リストを管理](../../configuration/manage-suppression-list.md) |
 | 監査または外部同期用にジャーニーのメタデータを取得 | [ジャーニー API](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
-| 外部パイプラインからのコンテンツテンプレートとフラグメントの作成と管理 | [ コンテンツ API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [ テンプレート ](../../content-management/content-templates.md) ・ [ フラグメント ](../../content-management/fragments.md) |
-| アクションキャンペーンの取得とフィルタリング | [ キャンペーン API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
-| 施策をプレビューし、プログラムにより校正を送信する | [ シミュレーション API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+| 外部パイプラインからのコンテンツテンプレートとフラグメントの作成と管理 | [&#x200B; コンテンツ API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [&#x200B; テンプレート &#x200B;](../../content-management/content-templates.md) ・ [&#x200B; フラグメント &#x200B;](../../content-management/fragments.md) |
+| アクションキャンペーンの取得とフィルタリング | [&#x200B; キャンペーン API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
+| 施策をプレビューし、プログラムにより校正を送信する | [&#x200B; シミュレーション API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
 
 >[!NOTE]
 >
 >シミュレーション APIは、API トリガーおよびアクション（スケジュール済み）キャンペーンで使用できます。 オーケストレーションされたキャンペーンでは&#x200B;**はサポートされていません**：代わりに、オーケストレーションされたキャンペーンのユーザーインターフェイスでプレビューとプルーフのワークフローを使用します。
 
-| データセットとトリガーオーケストレーションされたキャンペーンの実行の検証| [ データセットの検証](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [トリガー](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [ データセットを有効にする](../../orchestrated/manual-schema.md) |
+| データセットとトリガーオーケストレーションされたキャンペーンの実行の検証| [&#x200B; データセットの検証](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [トリガー](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [&#x200B; データセットを有効にする](../../orchestrated/manual-schema.md) |
 
 ## その他のリソース {#additional-resources}
 
@@ -318,30 +334,30 @@ Journey Optimizerでは、メッセージとキャッピングの枠を超えて
 
 >[!TAB データエンジニアとの連携]
 
-データとイベントの設定について[ データエンジニア ](data-engineer.md)と共同作業を行います。 ユーザーの行動に反応するジャーニーは、送信するイベントによって異なります。データエンジニアがスキーマを定義し、スキーマを生成するコードを実装します。
+データとイベントの設定について[&#x200B; データエンジニア &#x200B;](data-engineer.md)と共同作業を行います。 ユーザーの行動に反応するジャーニーは、送信するイベントによって異なります。データエンジニアがスキーマを定義し、スキーマを生成するコードを実装します。
 
-* 実装に必要な[XDM スキーマ ](../../data/get-started-schemas.md)とイベント構造を取得します
-* 送信する必要があるイベントと必要なペイロード形式について説明します。[ ジャーニーイベントの操作](../../event/about-events.md)を参照してください。
-* 各イベントペイロードで必須フィールドとオプションのフィールド、および期待されるフィールドが見つからないか形式が正しくない場合にジャーニーで何が起こるかを確認します。[ スキーマ要件](../../event/experience-event-schema.md#schema-requirements)を参照してください。
+* 実装に必要な[XDM スキーマ &#x200B;](../../data/get-started-schemas.md)とイベント構造を取得します
+* 送信する必要があるイベントと必要なペイロード形式について説明します。[&#x200B; ジャーニーイベントの操作](../../event/about-events.md)を参照してください。
+* 各イベントペイロードで必須フィールドとオプションのフィールド、および期待されるフィールドが見つからないか形式が正しくない場合にジャーニーで何が起こるかを確認します。[&#x200B; スキーマ要件](../../event/experience-event-schema.md#schema-requirements)を参照してください。
 * [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ja){target="_blank"}を使用して、イベント配信とデータ取り込みをテストします
 
 >[!TAB 管理者との連携]
 
 アクセスとチャネルの設定について、[管理者](administrator.md)と共同作業を行います。 ジャーニーは、管理者が設定したチャネルを通じてのみユーザーにリーチできます。早期に調整することで、SDKの作業と設定を同期させることができます。
 
-* Journey Optimizerで設定する[ カスタムアクション ](../../action/about-custom-action-configuration.md)のAPI仕様を指定します
+* Journey Optimizerで設定する[&#x200B; カスタムアクション &#x200B;](../../action/about-custom-action-configuration.md)のAPI仕様を指定します
 * [Adobe Developer Console](https://developer.adobe.com){target="_blank"}経由で必要な権限とAPI資格情報をリクエストする
-* チャネル設定要件に関する調整 – [iOS](../../push/push-configuration.md)およびAndroidのプッシュ証明書、[web プッシュ ](../../push/push-configuration-web.md)設定、[SMS webhook](../../mobile/mobile-webhook.md) エンドポイント
-* [ ジャーニーテストモード ](../../building-journeys/testing-the-journey.md)を実行する前に、サンドボックス戦略とテスト環境を調整します
+* チャネル設定要件に関する調整 – [iOS](../../push/push-configuration.md)およびAndroidのプッシュ証明書、[web プッシュ &#x200B;](../../push/push-configuration-web.md)設定、[SMS webhook](../../mobile/mobile-webhook.md) エンドポイント
+* [&#x200B; ジャーニーテストモード &#x200B;](../../building-journeys/testing-the-journey.md)を実行する前に、サンドボックス戦略とテスト環境を調整します
 
 >[!TAB マーケターとの連携]
 
-ジャーニーの設計とテストに関して[ マーケター](marketer.md)と共同作業を行います。 マーケターは、送信するイベントと公開するサーフェスに完全に依存するジャーニーとコンテンツを構築します。近ければ近いほど、ジャーニーはより迅速に開始されます。
+ジャーニーの設計とテストに関して[&#x200B; マーケター](marketer.md)と共同作業を行います。 マーケターは、送信するイベントと公開するサーフェスに完全に依存するジャーニーとコンテンツを構築します。近ければ近いほど、ジャーニーはより迅速に開始されます。
 
 * [Journey Optimizer](../../building-journeys/journey.md)のジャーニーデザインを一緒に確認して、どのユーザーインタラクションがイベントをトリガーする必要があり、どのサーフェスがパーソナライズを必要としているかを把握します
-* マーケターが[ コンテンツのパフォーマンスとユーザーエンゲージメント ](../../reports/report-gs-cja.md)を測定できるようにトラッキングを実装します
-* テストプロファイルを使用して[ ジャーニーテストモード ](../../building-journeys/testing-the-journey.md)を一緒に実行し、エンドツーエンドでフルフローを検証します
-* メッセージ配信、パーソナライゼーションのレンダリングまたは[ カスタムアクション ](../../action/action.md)応答に関する問題のトラブルシューティング
+* マーケターが[&#x200B; コンテンツのパフォーマンスとユーザーエンゲージメント &#x200B;](../../reports/report-gs-cja.md)を測定できるようにトラッキングを実装します
+* テストプロファイルを使用して[&#x200B; ジャーニーテストモード &#x200B;](../../building-journeys/testing-the-journey.md)を一緒に実行し、エンドツーエンドでフルフローを検証します
+* メッセージ配信、パーソナライゼーションのレンダリングまたは[&#x200B; カスタムアクション &#x200B;](../../action/action.md)応答に関する問題のトラブルシューティング
 
 >[!ENDTABS]
 
@@ -361,7 +377,7 @@ Journey Optimizerでは、メッセージとキャッピングの枠を超えて
 | 役割 | ガイド |
 |------|-------|
 | 管理者 | [管理者の基本を学ぶ](administrator.md) |
-| データエンジニア | [ データエンジニア向けの基本を学ぶ](data-engineer.md) |
+| データエンジニア | [&#x200B; データエンジニア向けの基本を学ぶ](data-engineer.md) |
 | 開発者 | [開発者向けの基本を学ぶ](developer.md) |
 | マーケター | [マーケター向けの基本を学ぶ](marketer.md) |
 
