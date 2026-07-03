@@ -8,10 +8,10 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 508
-ht-degree: 84%
+source-wordcount: 539
+ht-degree: 80%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 84%
 
 * 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプルーフを送信します。
 * 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAIによる自動生成で作成されたコンテンツのバリエーションのプルーフを送信します。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md#proofs)
+
+API トリガーおよびアクション（スケジュール済み）キャンペーンの場合は、[&#x200B; シミュレーション API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}を使用してプログラムでプルーフを送信することもできます。 これは、オーケストレーションされたキャンペーンではサポートされていません。
 
 ## 必読 {#must-read}
 

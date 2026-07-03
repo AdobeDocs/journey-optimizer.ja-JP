@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 3456
+source-wordcount: 3490
 ht-degree: 54%
 
 ---
@@ -312,7 +312,12 @@ Journey Optimizerでは、メッセージとキャッピングの枠を超えて
 | 外部パイプラインからのコンテンツテンプレートとフラグメントの作成と管理 | [&#x200B; コンテンツ API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [&#x200B; テンプレート &#x200B;](../../content-management/content-templates.md) ・ [&#x200B; フラグメント &#x200B;](../../content-management/fragments.md) |
 | アクションキャンペーンの取得とフィルタリング | [&#x200B; キャンペーン API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | 施策をプレビューし、プログラムにより校正を送信する | [&#x200B; シミュレーション API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| データセットとトリガーを検証し、キャンペーンを実行 | [&#x200B; データセットの検証](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [トリガー](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [&#x200B; データセットの有効化](../../orchestrated/manual-schema.md) |
+
+>[!NOTE]
+>
+>シミュレーション APIは、API トリガーおよびアクション（スケジュール済み）キャンペーンで使用できます。 オーケストレーションされたキャンペーンでは&#x200B;**はサポートされていません**：代わりに、オーケストレーションされたキャンペーンのユーザーインターフェイスでプレビューとプルーフのワークフローを使用します。
+
+| データセットとトリガーオーケストレーションされたキャンペーンの実行の検証| [&#x200B; データセットの検証](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [トリガー](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [&#x200B; データセットを有効にする](../../orchestrated/manual-schema.md) |
 
 ## その他のリソース {#additional-resources}
 
