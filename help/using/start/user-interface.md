@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
+source-git-commit: 39612a9e2db22b063efb48b0eab093fa72105ed3
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 99%
+source-wordcount: 1648
+ht-degree: 97%
 
 ---
 
@@ -410,4 +410,9 @@ AI アシスタントは、即座に役立つヘルプと運用上のインサ�
 >abstract="**ファイルを読み込み**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。 オーケストレーションキャンペーンキャンバスに CSV ファイルまたは TXT ファイルをアップロードし、キャンペーンオーディエンスとして使用します。 ファイルデータは、実行時に消費され、Adobe Experience Platform データセットとして保持されません。 行は、ID 列とターゲティングディメンションを使用して、既存の受信者と紐付けられます。"
 
 
+<!-- OC - LINE ACTIVITY -->
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="ラインアクティビティ"
+>abstract="**Line** アクティビティを使用すると、オーケストレーションされたキャンペーンにLINE アクションを追加できます。 テキストやステッカーから画像、動画、場所、Flexメッセージに至るまで、パーソナライズされたコンテンツを制作し、LINEで顧客を惹きつけることができます。"
