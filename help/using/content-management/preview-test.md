@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: ht
-source-wordcount: 606
-ht-degree: 100%
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+workflow-type: tm+mt
+source-wordcount: 637
+ht-degree: 96%
 
 ---
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 
 また、テストと検証に特定の受信者または購読者にメールメッセージのテスト配信を送信したり、一般的なデスクトップ、モバイル、web ベースのクライアントでレンダリングを確認したりすることもできます。 さらに、読みやすさや有効性など、コンテンツ品質の一般的な側面を評価できます。 [コンテンツ品質の検証の詳細情報](brands-score.md#validate-quality)
 
-これらのアクションはすべて、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。このボタンには、メッセージのコンテンツ編集画面からアクセスするか、メールチャネルおよび web チャネルのメールおよび web の各デザイナーからアクセスできます。「**[!UICONTROL コンテンツをシミュレート]**」をクリックすると、サンプル入力データを使用してコンテンツのバリエーションをテストできます。テストプロファイルを使用してプレビューしたり、本配信前確認を送信したり、メールのレンダリングを確認したりするには、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択します。
+これらのアクションはすべて、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。このボタンには、メッセージのコンテンツ編集画面からアクセスするか、メールチャネルおよび web チャネルのメールおよび web の各デザイナーからアクセスできます。 「**[!UICONTROL コンテンツをシミュレート]**」をクリックすると、サンプル入力データを使用してコンテンツのバリエーションをテストできます。 テストプロファイルを使用してプレビューしたり、本配信前確認を送信したり、メールのレンダリングを確認したりするには、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択します。
 
 ![](../email/assets/email-preview-button.png)
 
@@ -67,9 +66,11 @@ Journey Optimizer には、コンテンツをテストするための次の 2 �
 
   ➡️ [コンテンツのバリエーションをシミュレート](../test-approve/simulate-sample-input.md)
 
+API トリガーおよびアクション（スケジュール済み）キャンペーンの場合は、[ シミュレーション API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}を使用してプログラムでプルーフを送信することもできます。 これは、オーケストレーションされたキャンペーンではサポートされていません。
+
 ## 必読
 
-* **必要な権限** - **[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Simulate Content]** 権限が必要です。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+* **必要な権限** - **[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Simulate Content]** 権限が必要です。 [学習を増やす](../administration/ootb-product-profiles.md#content-library-manager)。
 
   配達確認を送信するには、メールに関連付けられた特定のリソース（キャンペーンまたはジャーニー）に対する&#x200B;**承認および公開**&#x200B;権限を持っている必要があります。 また、ジャーニーで配達確認を送信するには、**ジャーニーを公開**&#x200B;権限も必要です。 [詳しくは、権限を参照してください](../administration/ootb-permissions.md)。
 
@@ -81,4 +82,4 @@ Journey Optimizer には、コンテンツをテストするための次の 2 �
 
 テストプロファイルを使用して、複数のインボックスにわたってメールのレンダリングをテストする方法、パーソナライズされたメールをテストプロファイルに対してプレビューする方法、配達確認を送信する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430339?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
