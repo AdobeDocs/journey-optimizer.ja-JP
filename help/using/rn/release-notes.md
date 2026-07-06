@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3b047112c11396b0a7806478100093225ca7dbb3
+source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
 workflow-type: tm+mt
-source-wordcount: 3295
-ht-degree: 83%
+source-wordcount: 2698
+ht-degree: 79%
 
 ---
 
@@ -242,69 +242,6 @@ ht-degree: 83%
 </tbody>
 </table>
 
-+++ 近日リリース予定 - **以下の情報は変更される場合があります。**
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Optimizer での Adobe Experience Manager コンテンツフラグメントの機能強化</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>このリリースでは、Journey Optimizer オーサリングワークフロー内で <strong>Adobe Experience Manager コンテンツフラグメント</strong>をより使いやすく、より管理しやすく、より本番環境ですぐに使用できるようにする、いくつかの機能強化が行われています。</p>
-<ul>
-<li>Journey Optimizer では、オーサー、パブリッシュ、認証済みパブリッシュの各階層など、複数の Adobe Experience Manager 設定からのコンテンツフラグメントの取得をサポートするようになりました。</li>
-<li>フラグメントを選択すると、そのコンテキストはメッセージを通じて保持されるので、オーサーは再選択することなく、コンテンツブロックをまたいでフラグメントフィールドを再利用できます。</li>
-<li>Journey Optimizer に、ライフサイクル管理を向上させるための新しい専用のコンテンツフラグメントリストページが導入されました。ユーザーは同期されていないフラグメントを特定し、手動で同期をトリガーして最新の状態を維持できます。</li>
-<li>ロケールとバリエーションのサポートにより、マーケターは同じコンテンツフラグメントの代替バージョンをより慎重に操作できるようになりました。</li>
-<li>Adobe Journey Optimizer で Adobe Experience Manager コンテンツにアクセスする方法を、より柔軟に指定できるようになりました。 このリリースでは、ジャーニーやキャンペーンで使用されるコンテンツフラグメントの<strong>ソースリポジトリを切り替える</strong>機能が導入されました。</li>
-<li><b>Managed Services</b> との互換性が確立されたことで、パーソナライゼーション用に Adobe Experience Manager コンテンツフラグメントを Journey Optimizer で直接表示、アクセス、使用できます。 設定画面に Adobe Experience Manager Managed Services のリポジトリ URL を 1 回限りの設定として追加するだけです。</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>AI アシスタントと Adobe Experience Manager Asset Essentials の統合</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI アシスタントは、メール、web ページ、プッシュ通知を生成する際に、Adobe Experience Manager Assets から<b>ブランド承認済み画像</b>を自動的に直接取得するようになりました。 これにより、Assets を手動で検索したり、汎用的な AI フォールバックに依存する必要がなくなり、すべてのビジュアルが完全に正確でブランドに準拠していることが確保されます。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>コンテンツ生成用 AI アシスタントの機能強化</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>このリリースでは、画像編集の強化、ブランド抽出の信頼性向上、画像フローでの Content Authenticity サポートを含む、<strong>AI アシスタント</strong>のコンテンツ生成エクスペリエンスが向上しました。</p>
-<ul>
-<li>Firefly サードパーティモデルのサポートを含む、<strong>AI 画像編集</strong>が画像生成フローで使用できるようになりました。これにより、アシスタントを終了することなく、ソース画像を絞り込むことができます。</li>
-<li><strong>ブランドシグナル抽出</strong>は、より高品質な結果が得られます。 選択したページに十分なシグナルがない場合、カラー、テキスト編集、書き込みガイドライン、その他のブランド属性が、改善されたフォールバックによって自動的に入力されるようになりました。</li>
-<li><strong>Web ベースのブランド抽出</strong>は信頼性が高くなります。 タイムアウト処理の改善により、低速ページ、ポップアップ、Cookie バナーが抽出をブロックするのを防ぐことができます。</li>
-<li><strong>Content Authenticity（CAI）</strong>が画像フローでサポートされるようになりました。 このリリースでは、参照画像のアップロードに関する問題も修正され、既存の C2PA マニフェストを持たない画像の処理も改善されています。</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 
 ### メールチャネル {#june-26-email}
 
@@ -410,18 +347,19 @@ ht-degree: 83%
 </tbody>
 </table>
 
-+++ 近日リリース予定 - **以下の情報は変更される場合があります。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタントと Adobe Experience Manager Asset Essentials の統合</strong><br/></th>
+<th><strong>AI assistant integration with Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI アシスタントは、メール、web ページ、プッシュ通知を生成する際に、Adobe Experience Manager Assets から<b>ブランド承認済み画像</b>を自動的に直接取得するようになりました。 これにより、Assets を手動で検索したり、汎用的な AI フォールバックに依存する必要がなくなり、すべてのビジュアルが完全に正確でブランドに準拠していることが確保されます。</p>
+<p>The AI Assistant now automatically fetches <b>brand-approved images</b> directly from your Adobe Experience Manager Assets when generating Emails, Web pages, and Push notifications. This eliminates the need to manually search the Assets or rely on generic AI fallbacks, ensuring every visual is perfectly accurate and brand-compliant.</p>
 </td>
 </tr>
 </tbody>
@@ -430,18 +368,18 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>コンテンツ生成用 AI アシスタントの機能強化</strong><br/></th>
+<th><strong>AI Assistant for content generation enhancements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>このリリースでは、画像編集の強化、ブランド抽出の信頼性向上、画像フローでの Content Authenticity サポートを含む、<strong>AI アシスタント</strong>のコンテンツ生成エクスペリエンスが向上しました。</p>
+<p>This release improves the <strong>AI Assistant</strong> content generation experience with stronger image editing, more reliable brand extraction, and content authenticity support in the image flow:</p>
 <ul>
-<li>Firefly サードパーティモデルのサポートを含む、<strong>AI 画像編集</strong>が画像生成フローで使用できるようになりました。これにより、アシスタントを終了することなく、ソース画像を絞り込むことができます。</li>
-<li><strong>ブランドシグナル抽出</strong>は、より高品質な結果が得られます。 選択したページに十分なシグナルがない場合、カラー、テキスト編集、書き込みガイドライン、その他のブランド属性が、改善されたフォールバックによって自動的に入力されるようになりました。</li>
-<li><strong>Web ベースのブランド抽出</strong>は信頼性が高くなります。 タイムアウト処理の改善により、低速ページ、ポップアップ、Cookie バナーが抽出をブロックするのを防ぐことができます。</li>
-<li><strong>Content Authenticity（CAI）</strong>が画像フローでサポートされるようになりました。 このリリースでは、参照画像のアップロードに関する問題も修正され、既存の C2PA マニフェストを持たない画像の処理も改善されています。</li>
+<li><strong>AI image editing</strong> is now available in the image generation flow, including Firefly third-party model support, so you can refine source images without leaving the assistant.</li>
+<li><strong>Brand signal extraction</strong> delivers higher-quality results. When selected pages lack sufficient signal, improved fallbacks now populate colors, typography, writing guidelines, and other brand attributes.</li>
+<li><strong>Web-based brand extraction</strong> is more reliable. Improved timeout handling helps prevent slow pages, popups, and cookie banners from blocking extraction.</li>
+<li><strong>Content authenticity (CAI)</strong> is now supported in the image flow. This release also fixes reference image upload issues and improves handling for images without an existing C2PA manifest.</li>
 </ul>
 </td>
 </tr>
@@ -449,6 +387,7 @@ ht-degree: 83%
 </table>
 
 +++
+-->
 
 ### レポート {#june-26-reporting}
 
