@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: '3383'
-ht-degree: 98%
+source-wordcount: '3415'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[ジャーニーキャンバスの向上](using/rn/new-canvas.md)
-   + {hide-from-toc}[&#x200B; オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[ オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
 + 基本を学ぶ {#get-started}
    + [ここから開始](/help/rp_landing_pages/get-started-landing-page.md)
    + [オンボーディングハブ](using/start/onboarding-hub.md)
@@ -149,7 +149,7 @@ ht-degree: 98%
    + {hide-from-toc}[ロイヤルティの課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[ロイヤルティの課題のパフォーマンスの監視](using/loyalty-challenges/loyalty-reporting.md)
    + {hide-from-toc}[ロイヤルティの課題の設定](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[ロイヤルティデータとデータセット](using/loyalty-challenges/loyalty-data-and-datasets.md)
@@ -335,11 +335,13 @@ ht-degree: 98%
    + アプリ内チャネル {#in-app}
       + [アプリ内チャネル](/help/rp_landing_pages/in-app-landing-page.md)
       + [アプリ内の基本を学ぶ](using/in-app/get-started-in-app.md)
-      + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
       + [モバイルアプリ内メッセージの作成](using/in-app/create-in-app.md)
       + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
       + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
       + [アプリ内通知の確認および送信](using/in-app/send-in-app.md)
+      + アプリ内チャネルの設定 {#configure-inapp}
+         + [アプリ内チャネルの設定と前提条件](using/in-app/inapp-configuration.md)
+         + [Web SDKでのWeb アプリ内メッセージの設定](using/in-app/web-in-app-messaging.md)
    + プッシュ通知チャネル {#push}
       + [プッシュ通知チャネル](/help/rp_landing_pages/push-landing-page.md)
       + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
@@ -360,7 +362,7 @@ ht-degree: 98%
       + [モバイルメッセージのオプトアウトの管理](using/mobile/mobile-opt-out.md)
       + [SMS サブドメインの設定](using/mobile/mobile-subdomains.md)
       + [SMS コスト最適化のベストプラクティス](using/mobile/mobile-cost-optimization.md)
-      + [SMS使用状況レポートの生成](using/mobile/sms-usage-report.md)
+      + [SMS 使用状況レポートの生成](using/mobile/sms-usage-report.md)
       + モバイルチャネルの設定 {#configure-mobile}
          + [モバイル設定の基本を学ぶ](using/mobile/mobile-configuration.md)
          + [Sinch プロバイダーの設定](using/mobile/mobile-configuration-sinch.md)
@@ -391,7 +393,10 @@ ht-degree: 98%
          + [非ビジュアルエディターの使用](using/web/web-non-visual-editor.md)
          + [変更の管理](using/web/manage-web-modifications.md)
          + [Web エクスペリエンスの監視](using/web/monitor-web-experiences.md)
+      + シングルページアプリケーションとWeb SDK {#web-sdk}
          + [シングルページアプリケーションの作成](using/web/web-spa.md)
+         + [シングルページアプリケーションの実装](using/web/web-spa-implementation.md)
+         + [Journey OptimizerとExperience Platform Web SDK](using/web/web-sdk.md)
    + コードベースのエクスペリエンス {#code-based-experience}
       + [コードベースのエクスペリエンス](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [コードベースのチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
@@ -506,6 +511,7 @@ ht-degree: 98%
       + [フラグメントを作成](using/content-management/create-fragments.md)
       + [既存のコンテンツをフラグメントとして保存](using/content-management/save-fragments.md)
       + [カスタマイズ可能なフラグメント](using/content-management/customizable-fragments.md)
+      + [動的フラグメント](using/content-management/dynamic-fragments.md)
       + [フラグメントの管理](using/content-management/manage-fragments.md)
       + {hide-from-toc}[公開済みのフラグメントへのコンテキスト属性の追加](using/content-management/manage-fragments-contextual-attributes.md)
    + 動的コンテンツ {#dynamic}

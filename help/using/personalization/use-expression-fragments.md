@@ -10,24 +10,16 @@ level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 TQID: https://experienceleague.adobe.com/0N5waBGElHBnlsk1pHhKT8roaly-A6srIjb3UPIDNqY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 1346
-ht-degree: 95%
+source-wordcount: 1402
+ht-degree: 92%
 
 ---
 
@@ -55,7 +47,7 @@ ht-degree: 95%
 
 1. [パーソナライゼーションエディター](personalization-build-expressions.md)を開き、左側のパネルで「**[!UICONTROL フラグメント]**」ボタンを選択します。
 
-   リストには、現在のサンドボックスで作成またはフラグメントとして保存されたすべての式フラグメントが表示されます。 [&#x200B; フラグメントの作成方法を学ぶ](../content-management/create-fragments.md)
+   リストには、現在のサンドボックスで作成またはフラグメントとして保存されたすべての式フラグメントが表示されます。 [ フラグメントの作成方法を学ぶ](../content-management/create-fragments.md)
 作成日で並べ替えられます。最近追加された式フラグメントは、リストの最初に表示されます。
 
    ![](assets/expression-fragments-pane.png)
@@ -227,6 +219,12 @@ ht-degree: 95%
    ![](../content-management/assets/fragment-expression-use.png)
 
 メールの作成時に編集可能なフィールドを式フラグメントに追加し、その値を上書きする方法を示す例について詳しくは、[この節](../content-management/customizable-fragments.md#example)を参照してください。
+
+## 動的フラグメント解決の使用 {#dynamic-resolution}
+
+デザイン時にフラグメント IDを静的に埋め込む代わりに、受信者ごとに実行時にフラグメント IDを動的に解決できます。 これにより、プロファイル属性、データセット参照、コンテキストデータにもとづいて、異なるプロファイルが同じキャンペーンやジャーニー内で完全に異なるコンテンツブロックを受け取ることができます。
+
+[動的フラグメントの使用方法を学ぶ](../content-management/dynamic-fragments.md)
 
 ## 継承の解除 {#break-inheritance}
 
