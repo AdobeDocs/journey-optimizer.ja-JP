@@ -8,18 +8,42 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, コンテンツフラグメント，管理，リポジトリ，認証，著者，公開
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 0%
+source-wordcount: 709
+ht-degree: 10%
 
 ---
 
 # Adobe Experience Manager リポジトリアクセスの設定 {#aem-admin-settings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="「Adobe Experience Manager設定"
+>abstract="サンドボックスをAdobe Experience Managerリポジトリに接続するには、作成者専用または公開アクセス、カスタムドメイン、認証を設定します。これにより、マーケターはジャーニーやキャンペーンでAdobe Experience Managerコンテンツフラグメントを使用できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="インスタンス設定"
+>abstract="設定に適したインスタンス設定タイプを選択します。 </br>オーサーのみ設定：AEM オーサーインスタンスのコンテンツフラグメントを使用します。 パブリッシュインスタンス設定とライブアップデートはサポートされていません。</br>パブリッシュインスタンス設定：パブリッシュインスタンス設定を指定します。 オプションで「パブリッシュインスタンスにトークンを送信」を有効にして、認証用のサービス資格情報を指定します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="パブリッシュインスタンスにトークンを送信"
+>abstract="有効にすると、サービス資格情報が送信され、パブリッシュインスタンスへのリクエストが認証されます。 以下に有効なサービス資格情報JSONを入力します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="サービス資格情報 JSON をペースト"
+>abstract="Adobe Experience Manager サービス資格情報JSONを貼り付けます。 自動的に書式設定および検証されます。"
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="カスタムドメイン"
+>abstract="オプション。 「your-publish-instance.adobeaemcloud.com」が組織のコンテンツ取得からブロックされている場合は、カスタムドメインを指定します。"
 
 >[!BEGINSHADEBOX]
 
@@ -39,7 +63,7 @@ Adobe Journey Optimizerは&#x200B;**[!DNL Adobe Experience Manager as a Cloud Se
 
 Journey Optimizerには、組織、サンドボックス、Adobe Experience Manager リポジトリごとに1つの統合機能が保存されます。 同じ組み合わせで新しい統合機能を保存すると、以前の設定が置き換えられ、最新の設定のみが保持されます。
 
-➡️ [&#x200B; ビデオ &#x200B;](#video)でAdobe Experience Manager Managed Serviceのこの機能を確認する
+➡️ [ ビデオ ](#video)でAdobe Experience Manager Managed Serviceのこの機能を確認する
 
 リポジトリを設定するには：
 
@@ -119,4 +143,4 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
 マーケターがジャーニーやキャンペーンでコンテンツフラグメントを使用できるように、管理者がJourney OptimizerでAdobe Experience Manager Managed Services リポジトリの設定を行う方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492530?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
