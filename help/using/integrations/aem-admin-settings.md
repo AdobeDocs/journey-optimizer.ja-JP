@@ -12,14 +12,40 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 0%
+source-wordcount: 709
+ht-degree: 10%
 
 ---
 
 # Adobe Experience Manager リポジトリアクセスの設定 {#aem-admin-settings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="「Adobe Experience Manager設定"
+>abstract="サンドボックスをAdobe Experience Managerリポジトリに接続するには、作成者専用または公開アクセス、カスタムドメイン、認証を設定します。これにより、マーケターはジャーニーやキャンペーンでAdobe Experience Managerコンテンツフラグメントを使用できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="インスタンス設定"
+>abstract="設定に適したインスタンス設定タイプを選択します。 </br>オーサーのみ設定：AEM オーサーインスタンスのコンテンツフラグメントを使用します。 パブリッシュインスタンス設定とライブアップデートはサポートされていません。</br>パブリッシュインスタンス設定：パブリッシュインスタンス設定を指定します。 オプションで「パブリッシュインスタンスにトークンを送信」を有効にして、認証用のサービス資格情報を指定します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="パブリッシュインスタンスにトークンを送信"
+>abstract="有効にすると、サービス資格情報が送信され、パブリッシュインスタンスへのリクエストが認証されます。 以下に有効なサービス資格情報JSONを入力します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="サービス資格情報 JSON をペースト"
+>abstract="Adobe Experience Manager サービス資格情報JSONを貼り付けます。 自動的に書式設定および検証されます。"
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="カスタムドメイン"
+>abstract="オプション。 「your-publish-instance.adobeaemcloud.com」が組織のコンテンツ取得からブロックされている場合は、カスタムドメインを指定します。"
 
 >[!BEGINSHADEBOX]
 

@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39612a9e2db22b063efb48b0eab093fa72105ed3
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 1648
-ht-degree: 97%
+source-wordcount: 1515
+ht-degree: 96%
 
 ---
 
@@ -368,31 +368,6 @@ AI アシスタントは、即座に役立つヘルプと運用上のインサ�
 >title="ヘッダーパラメーター"
 >abstract="このセクションでは、各 webhook リクエストと共に送信される追加のカスタムヘッダーを設定できます。"
 
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_content_fragment_configuration"
->title="&quot;AEM 設定ヘルプ"
->abstract="設定の作成と管理の詳細情報"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_configure_instance"
->title="インスタンス設定"
->abstract="設定に適したインスタンス設定タイプを選択します。 </br>オーサーのみ設定：AEM オーサーインスタンスのコンテンツフラグメントを使用します。 パブリッシュインスタンス設定とライブアップデートはサポートされていません。</br>パブリッシュインスタンス設定：パブリッシュインスタンス設定を指定します。 オプションで「パブリッシュインスタンスにトークンを送信」を有効にして、認証用のサービス資格情報を指定します。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_send_token"
->title="パブリッシュインスタンスにトークンを送信"
->abstract="有効にすると、パブリッシュインスタンスへのリクエストを認証するサービス資格情報が送信されます。 以下に有効なサービス資格情報 JSON を指定します。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_service_credential"
->title="サービス資格情報 JSON をペースト"
->abstract="公開テクニカルアカウントドキュメントを参照して、AEM サービス資格情報を作成した後にペーストします。 自動的に書式設定および検証されます。"
->additional-url=""
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_custom_domain"
->title="カスタムドメイン"
->abstract="オプション。 publish-p16552-e147195.adobeaemcloud.com が組織のコンテンツ取得をブロックしている場合は、カスタムドメインを指定します。"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
