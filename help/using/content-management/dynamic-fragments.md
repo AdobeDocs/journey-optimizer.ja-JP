@@ -45,7 +45,7 @@ ht-degree: 3%
 
 * [!DNL Journey Optimizer]でフラグメントを作成および公開するために必要な権限があります。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 * 参照するフラグメントは&#x200B;**公開済み** （ステータス：**ライブ**）です。 ドラフトフラグメントは実行時に解決できません。
-* データセットからフラグメント IDを解決する場合、データセットスキーマにはフラグメント IDを格納するフィールドが含まれ、データセットは検索](../data/lookup-aep-data.md)に対して[有効になります。
+* データセットからフラグメント IDを解決する場合、データセットスキーマにはフラグメント IDを格納するフィールドが含まれ、データセットは検索[&#128279;](../data/lookup-aep-data.md)に対して有効になります。
 * 動的フラグメント自体が参照するすべてのプロファイル属性は、メッセージ書き出しパスに含まれているか、送信時にプロファイルで使用できます。
 
 >[!CAUTION]
@@ -58,7 +58,7 @@ ht-degree: 3%
 
 1. [!DNL Journey Optimizer]で、**[!UICONTROL コンテンツ管理]** > **[!UICONTROL フラグメント]**&#x200B;に移動します。
 
-1. 「**[!UICONTROL フラグメントを作成]**」を選択し、コンテンツをオーサリングします。 [ フラグメントの作成方法を学ぶ](create-fragments.md)
+1. 「**[!UICONTROL フラグメントを作成]**」を選択し、コンテンツをオーサリングします。 [&#x200B; フラグメントの作成方法を学ぶ](create-fragments.md)
 
 1. コンテンツの準備ができたら、**[!UICONTROL 公開]**&#x200B;をクリックします。 公開は非同期で、数秒かかる場合があります。 続行する前に、フラグメントのステータスが&#x200B;**Live**&#x200B;に変更されていることを確認してください。
 
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->`GET /fragments` APIを使用して、プログラムですべての公開フラグメント IDを取得できます。 詳しくは、[Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}を参照してください。
+>`GET /fragments` APIを使用して、プログラムですべての公開フラグメント IDを取得できます。 詳しくは、[Journey Optimizer API ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}を参照してください。
 
 ## 手順2：動的フラグメント参照を使用したメッセージの作成 {#author-message}
 
@@ -176,7 +176,7 @@ ht-degree: 3%
 
 1. フラグメントコンテンツが見つからないか正しくない場合は、フラグメント IDが有効であり、フラグメントが公開され、必要なすべてのプロファイル属性が存在することを確認します。
 
-Campaign APIについて詳しくは、[Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"}を参照してください。
+Campaign APIについて詳しくは、[Journey Optimizer API ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"}を参照してください。
 
 ## ガードレールと制限 {#guardrails}
 
@@ -205,4 +205,4 @@ Campaign APIについて詳しくは、[Journey Optimizer API ドキュメント
 1. 除外イベントのキャンペーン配信レポートを確認します。
 1. 実行時に渡されたフラグメント IDが、公開されたフラグメントと一致することを確認します。
 1. フラグメントに必要なすべてのプロファイル属性が、送信時にプロファイルに存在することを確認します。
-1. キャンペーンをアクティブ化する前に、[ プルーフ API](#proof-validate)を使用して、特定のフラグメント IDをテストします。
+1. キャンペーンをアクティブ化する前に、[&#x200B; プルーフ API](#proof-validate)を使用して、特定のフラグメント IDをテストします。
