@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 9055
-ht-degree: 93%
+source-wordcount: 9109
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年6月 {#june-2026}
+
+* **ダイレクトメールメッセージの確認と送信** ページが更新され、ダイレクトメールの書き出しのタイミングとバッチ処理の動作が明確になりました。これには、固定の4時間のUTC書き出しスケジュール、1日に複数のファイルを生成できる理由、**[!UICONTROL プロファイルの更新]**&#x200B;がジャーニーで実行される場合、1日に1 ファイルごとのシナリオの推奨事項が含まれます。 [詳細情報](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
 * 新しい&#x200B;**ジャーニーの種類：適切なページを選択** ページが利用可能になりました。 オーディエンス、オーディエンスの選定、単一イベント、ビジネスイベントなど、あらゆるジャーニーエントリポイントを、意思決定ガイドや機能互換性マトリックスと比較することで、ユースケースに適したタイプを選択するのに役立ちます。 [詳細情報](../building-journeys/journey-types-selection.md)
 
