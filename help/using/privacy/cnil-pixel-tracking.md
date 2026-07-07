@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL、トラッキング、ピクセル、電子メール、同意、オプトアウト、プライバシー
-source-git-commit: 66b0ca498ae2b39575ed57118739234d1f54c887
+source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 1%
@@ -24,9 +24,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
->[!NOTE]
->
->このページは、情報提供のみを目的としています。 法的アドバイスではなく、適用法の遵守を保証するものではありません。 以下に説明するAdobe Journey Optimizer製品の機能は、適切に設定および操作されたビルディングブロックであり、コンプライアンスの実装をサポートする場合があります。 各顧客は、適用法に基づく義務を決定し、遵守する責任があります。
+このページは、情報提供のみを目的としています。 法的アドバイスではなく、適用法の遵守を保証するものではありません。 以下に説明するAdobe Journey Optimizer製品の機能は、適切に設定および操作されたビルディングブロックであり、コンプライアンスの実装をサポートする場合があります。 各顧客は、適用法に基づく義務を決定し、遵守する責任があります。
 
 ## 概要 {#overview}
 
@@ -38,11 +36,11 @@ CNILなどの規制当局がトラッキングのピクセルや関連する問�
 
 Adobe Journey Optimizerには、配信レベルでのオープントラッキングの管理に役立つコントロールが用意されています。 顧客は、適用されるCNIL ガイダンスやその他の法律に基づいて独自のコンプライアンス義務を決定する責任を負いますが、これらの機能は顧客コンプライアンスの取り組みをサポートする可能性があります。
 
-## メールトラッキングピクセルとは {#tracking-pixel}
+### メールトラッキングピクセルとは {#tracking-pixel}
 
 電子メールトラッキングピクセルは、電子メールのHTMLに埋め込まれた1x1の透明画像です。 受信者のメールクライアントがその画像を読み込むと、ピクセルはタイムスタンプ、デバイスの種類、メールクライアント、場合によってはIP アドレスなどのデータを記録するサーバーにping送信し、おおよその場所を確認します。 その後、そのログは受信者のレコードに関連付けられ、マーケターはメールが開封されたかどうかを確認できます。
 
-## カスタマーサポート {#support}
+### カスタマーサポート {#support}
 
 上記の変更の導入についてサポートを求めるお客様は、既存のAdobe エコシステムを利用できます。 参照されているAdobe機能に関する技術的な質問については、カスタマーサクセスマネージャーまたはテクニカルアカウントマネージャーにお問い合わせください。
 
@@ -57,7 +55,7 @@ Adobe Journey Optimizerでは、あらゆるメールチャネル設定をマー
 * **マーケティングメール**：オプトインした購読者にプロモーションコミュニケーションを送信しました。 ユーザーの同意が必要です。 これらのメールでは、抑制とオプトアウトの設定が自動的に尊重されます。
 * **トランザクションメール**：非商用コミュニケーション（注文確認、パスワードリセットなど）。 これらの電子メールは、適用法に従って、マーケティングコミュニケーションを登録解除したプロファイルに送信できます。
 
-電子メールの種類は、[&#x200B; チャネル設定](../email/email-settings.md#email-type) レベルで設定されます。 ジャーニーまたはキャンペーンでメールを作成する場合、作成者は、メールの種類がコミュニケーションの性質と一致するチャネル設定を選択する必要があります。 この分類は、配信前に適用される同意チェックを通知します。
+電子メールの種類は、[ チャネル設定](../email/email-settings.md#email-type) レベルで設定されます。 ジャーニーまたはキャンペーンでメールを作成する場合、作成者は、メールの種類がコミュニケーションの性質と一致するチャネル設定を選択する必要があります。 この分類は、配信前に適用される同意チェックを通知します。
 
 ### トラッキングコントロールを開く {#open-tracking}
 
@@ -92,7 +90,7 @@ Adobe Journey Optimizerの電子メールDesignerでは、メッセージごと�
 
 ### 同意の取得と管理 {#consent-management}
 
-Adobe Journey Optimizerは、Adobe Experience Platform （AEP） [同意と環境設定スキーマ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}を通じて同意を処理します。 同意設定はプロファイルレベルで保存され、ジャーニーおよびキャンペーンの実行中に自動的に適用されます。
+Adobe Journey Optimizerは、Adobe Experience Platform （AEP） [同意と環境設定スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}を通じて同意を処理します。 同意設定はプロファイルレベルで保存され、ジャーニーおよびキャンペーンの実行中に自動的に適用されます。
 
 メールトラッキングに関連する主な同意属性には、次のようなものがあります。
 
@@ -157,5 +155,5 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 
 ### レポート {#reporting}
 
-Adobe Journey Optimizerの電子メールレポートでは、[&#x200B; ライブレポート &#x200B;](../reports/live-report.md)および[Customer Journey Analytics レポート &#x200B;](../reports/report-gs-cja.md)を通じて、開封率とクリック率の指標が提供されます。 メッセージに対して&#x200B;**[!UICONTROL 電子メールが開く]**&#x200B;追跡が無効になっている場合、その配信に対して開いているデータは収集されません。レポートには、クリックやその他のエンゲージメントシグナルのみが反映されます。
+Adobe Journey Optimizerの電子メールレポートでは、[ ライブレポート ](../reports/live-report.md)および[Customer Journey Analytics レポート ](../reports/report-gs-cja.md)を通じて、開封率とクリック率の指標が提供されます。 メッセージに対して&#x200B;**[!UICONTROL 電子メールが開く]**&#x200B;追跡が無効になっている場合、その配信に対して開いているデータは収集されません。レポートには、クリックやその他のエンゲージメントシグナルのみが反映されます。
 
