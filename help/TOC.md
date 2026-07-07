@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
+source-git-commit: 3203d6e4c48314d0f361a492fe8a71ef4a23f1b5
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3421'
 ht-degree: 97%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 97%
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[ジャーニーキャンバスの向上](using/rn/new-canvas.md)
-   + {hide-from-toc}[&#x200B; オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[ オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[電子メールトラッキングピクセルに関するCNIL ガイダンス ](using/privacy/cnil-pixel-tracking.md)
 + 基本を学ぶ {#get-started}
    + [ここから開始](/help/rp_landing_pages/get-started-landing-page.md)
    + [オンボーディングハブ](using/start/onboarding-hub.md)
@@ -149,7 +150,7 @@ ht-degree: 97%
    + {hide-from-toc}[ロイヤルティの課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[ロイヤルティの課題のパフォーマンスの監視](using/loyalty-challenges/loyalty-reporting.md)
    + {hide-from-toc}[ロイヤルティの課題の設定](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[ロイヤルティデータとデータセット](using/loyalty-challenges/loyalty-data-and-datasets.md)
