@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL、トラッキング、ピクセル、電子メール、同意、オプトアウト、プライバシー
-source-git-commit: 24d6a17d57ede317d3f04add2fd01bd3ff0ab9af
+source-git-commit: 66b0ca498ae2b39575ed57118739234d1f54c887
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 2%
+source-wordcount: '1466'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 2026年4月14日、フランスのデータ保護機関である&#x200B;*Commission Nationale de l&#39;Informatique et des Libertés* （CNIL）は、メール内でのトラッキングピクセルの使用に関する[の推奨事項](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)を公開しました。 このガイダンスでは、同意が必要なタイミングを明確にし、メールのピクセル追跡における適切な同意管理の重要性を強調しています。 このポリシーは、フランスに拠点を置く購読者にメールを配信するエンティティの送信方法に影響を与える可能性があります。
 
-CNILは、企業がトラッキングピクセルの存在、目的、およびユーザーのオプトアウト権をメール受信者（「ユーザー」）に通知するための推奨日から3か月間を提供しました。 この移行期間中、顧客はユーザーにピクセルトラッキングについて通知し、必要に応じてオプトアウトを提供することが期待されます。 CNILは、2026年7月14日以降に強制執行活動を開始する予定です。
+CNILは、企業がトラッキングピクセルの存在、目的、およびユーザーのオプトアウト権をメール受信者（「ユーザー」）に通知するための推奨日から3か月間を提供しました。 この移行期間中、顧客はユーザーにピクセルトラッキングについて通知し、必要に応じてオプトアウトを提供することが期待されます。 **CNILは、2026年7月14日以降に強制実行アクティビティを開始する予定です。**
 
 CNILなどの規制当局がトラッキングのピクセルや関連する問題に関するガイダンスを明確にするため、Adobeは引き続きアップデートを監視し、Adobe Journey Optimizerを含むメールマーケティングをサポートするAdobe製品の技術的能力をお客様に通知します。
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizerでは、あらゆるメールチャネル設定をマー
 * **マーケティングメール**：オプトインした購読者にプロモーションコミュニケーションを送信しました。 ユーザーの同意が必要です。 これらのメールでは、抑制とオプトアウトの設定が自動的に尊重されます。
 * **トランザクションメール**：非商用コミュニケーション（注文確認、パスワードリセットなど）。 これらの電子メールは、適用法に従って、マーケティングコミュニケーションを登録解除したプロファイルに送信できます。
 
-メールタイプは、チャネル設定レベルで設定されます。 ジャーニーまたはキャンペーンでメールを作成する場合、作成者は、メールの種類がコミュニケーションの性質と一致するチャネル設定を選択する必要があります。 この分類は、配信前に適用される同意チェックを通知します。
+電子メールの種類は、[ チャネル設定](../email/email-settings.md#email-type) レベルで設定されます。 ジャーニーまたはキャンペーンでメールを作成する場合、作成者は、メールの種類がコミュニケーションの性質と一致するチャネル設定を選択する必要があります。 この分類は、配信前に適用される同意チェックを通知します。
 
 ### トラッキングコントロールを開く {#open-tracking}
 
@@ -77,7 +77,7 @@ Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel fr
 
 ### リンクレベルのトラッキング管理 {#link-tracking}
 
-Adobe Journey Optimizerの電子メールDesignerでは、メッセージごとの開封トラッキングトグル以外にも、トラッキングするURLを詳細に制御できます。 作成者は、メールDesignerのリンクパネルを使用して、トラッキングされたすべてのURLをメッセージで表示し、各リンクのトラッキングモードを個別に設定できます。
+Adobe Journey Optimizerの電子メールDesignerでは、メッセージごとの開封トラッキングトグル以外にも、トラッキングするURLを詳細に制御できます。 作成者は、メールDesignerの&#x200B;**[!UICONTROL リンク]** パネルを使用して、すべてのトラッキング済みURLをメッセージで表示し、各リンクのトラッキングモードを個別に設定できます。
 
 各リンクで使用できるトラッキングモードには、次のものがあります。
 
@@ -88,9 +88,11 @@ Adobe Journey Optimizerの電子メールDesignerでは、メッセージごと�
 
 特定のリンクを&#x200B;**Never**&#x200B;に設定すると、メッセージレベルのトラッキングが有効になっている場合でも、特定のURLがトラッキングされないようにすることができます。
 
+[E メール Designerでのトラッキングの管理方法を説明します](../email/message-tracking.md#manage-tracking)
+
 ### 同意の取得と管理 {#consent-management}
 
-Adobe Journey Optimizerは、Adobe Experience Platform（AEP）の同意および環境設定スキーマを通じて同意を処理します。 同意設定はプロファイルレベルで保存され、ジャーニーおよびキャンペーンの実行中に自動的に適用されます。
+Adobe Journey Optimizerは、Adobe Experience Platform （AEP） [同意と環境設定スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}を通じて同意を処理します。 同意設定はプロファイルレベルで保存され、ジャーニーおよびキャンペーンの実行中に自動的に適用されます。
 
 メールトラッキングに関連する主な同意属性には、次のようなものがあります。
 
@@ -104,6 +106,8 @@ Adobe Journey Optimizerでは、購読者がコミュニケーションをオプ
 
 メールチャネル設定で「**[!UICONTROL リストの購読解除を有効にする]**」オプションがオンになっている場合、ワンクリックの購読解除URLとメールアドレスが自動的にメールヘッダーに追加されます。 受信者は、メール本文をクリックすることなく、メールクライアントから直接オプトアウトできます。 このオプションは、新しいチャネル設定に対してデフォルトで有効になっています。
 
+[List-Unsubscribeの設定方法を学ぶ](../email/list-unsubscribe.md)
+
 **ワンクリックのオプトアウト（メール本文）**
 
 作成者は、メールDesignerを使用して、ワンクリックのオプトアウトリンクをメールコンテンツに直接挿入できます。 受信者がこのリンクをクリックすると、設定がすぐに更新されます。 オプトアウトの範囲は、次のいずれかです。
@@ -111,11 +115,15 @@ Adobe Journey Optimizerでは、購読者がコミュニケーションをオプ
 * **チャネルレベル**: チャネル全体の今後のすべてのメール通信からプロファイルをオプトアウトします。
 * **ID レベル**：現在のメッセージでのみ使用されている特定の電子メールアドレスをオプトアウトします。
 
-**AJO ランディングページ経由のプリファレンスセンター**
+[ワンクリックのオプトアウトリンクを追加する方法を説明します](../email/email-opt-out.md#one-click-opt-out)
+
+**ランディングページ経由のプリファレンスセンター**
 
 Adobe Journey Optimizerのネイティブなランディングページ機能により、企業は、購読者がコミュニケーションやトラッキングのプリファレンスセンターを管理できる環境を構築できます。 顧客がプリファレンスセンターフォームを送信すると、選択した内容は、同意と環境設定フィールドグループのAEP プロファイル属性に書き戻されます。
 
 CNIL コンプライアンスのシナリオの場合、プリファレンスセンターのランディングページをメールフッターからリンクして（購読解除リンクとは異なります）、受信者が購読状況に関係なくトラッキング設定を管理できるようにします。
+
+[顧客のプリファレンスを管理する方法](../action/preference-center.md)
 
 ### 同意の処理と適用 {#consent-enforcement}
 
@@ -125,6 +133,8 @@ CNIL コンプライアンスのシナリオの場合、プリファレンスセ
 * プロファイルは、ジャーニーやキャンペーンでの今後のマーケティングメール送信からすぐに除外されます。
 * オプトアウト情報は、AEP Consent Service データセットに保存されます。
 * Journey Optimizerでは、各送信の前にチャネルレベルで同意チェックを実行し、オプトアウトされたプロファイルがマーケティングコミュニケーションを受け取らないようにします。
+
+[オプトアウト管理について詳しく見る](opt-out.md)
 
 ### 同意ポリシー {#consent-policies}
 
@@ -138,6 +148,8 @@ Adobe Journey Optimizerは、ハードバウンス、ソフトバウンス、迷
 
 Journey Optimizer抑制REST APIは、送信メッセージに対する追加のプログラム制御を提供し、APIを介して抑制と許可リストに加えるの動作を管理できるようにします。
 
+[抑制リストの管理方法を説明します](../configuration/manage-suppression-list.md)
+
 <!--
 EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
 AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys. Confirm with Engineering: (1) whether this guidance should be included in this article, and (2) whether any native AJO improvements are planned in this area.
@@ -145,19 +157,5 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 
 ### レポート {#reporting}
 
-Adobe Journey Optimizerのメールレポートでは、ライブレポートとCustomer Journey Analyticsレポートを通じて、開封率とクリック率の指標を提供します。 メッセージに対して&#x200B;**[!UICONTROL 電子メールが開く]**&#x200B;追跡が無効になっている場合、その配信に対して開いているデータは収集されません。レポートには、クリックやその他のエンゲージメントシグナルのみが反映されます。
+Adobe Journey Optimizerの電子メールレポートでは、[ ライブレポート ](../reports/live-report.md)および[Customer Journey Analytics レポート ](../reports/report-gs-cja.md)を通じて、開封率とクリック率の指標が提供されます。 メッセージに対して&#x200B;**[!UICONTROL 電子メールが開く]**&#x200B;追跡が無効になっている場合、その配信に対して開いているデータは収集されません。レポートには、クリックやその他のエンゲージメントシグナルのみが反映されます。
 
-## ドキュメントの参照 {#references}
-
-Adobe Journey Optimizerでの電子メールのトラッキングと同意管理について詳しくは、以下のドキュメントを参照してください。
-
-| トピック | ドキュメント参照 |
-|-------|------------------------|
-| 開いたトラッキングを有効または無効にする | [&#x200B; メッセージトラッキング &#x200B;](../email/message-tracking.md) |
-| メールオプトアウトの管理 | [メールオプトアウトの管理](../email/email-opt-out.md) |
-| List-Unsubscribe （メールヘッダー） | [&#x200B; リストの登録解除の設定](../email/list-unsubscribe.md) |
-| プリファレンスセンターのランディングページ | [ランディングページのユースケース](../landing-pages/lp-use-cases.md) |
-| 同意とオプトアウトの管理 | [&#x200B; オプトアウトの管理](opt-out.md) |
-| 同意ポリシー | [同意ポリシーの操作](../action/consent.md) |
-| メールチャネル設定 | [&#x200B; メール設定の設定](../email/email-settings.md) |
-| 抑制リスト | [抑制リストを管理](../configuration/manage-suppression-list.md) |
