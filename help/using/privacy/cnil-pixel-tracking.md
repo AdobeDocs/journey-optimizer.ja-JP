@@ -153,11 +153,11 @@ Adobe Journey Optimizerでの電子メールのトラッキングと同意管理
 
 | トピック | ドキュメント参照 |
 |-------|------------------------|
-| 開いたトラッキングを有効または無効にする | [ メッセージトラッキング ](../email/message-tracking.md) |
+| 開いたトラッキングを有効または無効にする | [&#x200B; メッセージトラッキング &#x200B;](../email/message-tracking.md) |
 | メールオプトアウトの管理 | [メールオプトアウトの管理](../email/email-opt-out.md) |
-| List-Unsubscribe （メールヘッダー） | [ リストの登録解除の設定](../email/list-unsubscribe.md) |
+| List-Unsubscribe （メールヘッダー） | [&#x200B; リストの登録解除の設定](../email/list-unsubscribe.md) |
 | プリファレンスセンターのランディングページ | [ランディングページのユースケース](../landing-pages/lp-use-cases.md) |
-| 同意とオプトアウトの管理 | [ オプトアウトの管理](opt-out.md) |
+| 同意とオプトアウトの管理 | [&#x200B; オプトアウトの管理](opt-out.md) |
 | 同意ポリシー | [同意ポリシーの操作](../action/consent.md) |
-| メールチャネル設定 | [ メール設定の設定](../email/email-settings.md) |
+| メールチャネル設定 | [&#x200B; メール設定の設定](../email/email-settings.md) |
 | 抑制リスト | [抑制リストを管理](../configuration/manage-suppression-list.md) |
