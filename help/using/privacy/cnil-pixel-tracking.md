@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL、トラッキング、ピクセル、電子メール、同意、オプトアウト、プライバシー
-source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
+source-git-commit: 9ecd8953d7bdd2fe78c28be104fbb954c263338a
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Adobe Journey Optimizerでは、あらゆるメールチャネル設定をマー
 * **マーケティングメール**：オプトインした購読者にプロモーションコミュニケーションを送信しました。 ユーザーの同意が必要です。 これらのメールでは、抑制とオプトアウトの設定が自動的に尊重されます。
 * **トランザクションメール**：非商用コミュニケーション（注文確認、パスワードリセットなど）。 これらの電子メールは、適用法に従って、マーケティングコミュニケーションを登録解除したプロファイルに送信できます。
 
-電子メールの種類は、[&#x200B; チャネル設定](../email/email-settings.md#email-type) レベルで設定されます。 ジャーニーまたはキャンペーンでメールを作成する場合、作成者は、メールの種類がコミュニケーションの性質と一致するチャネル設定を選択する必要があります。 この分類は、配信前に適用される同意チェックを通知します。
+電子メールの種類は、[ チャネル設定](../email/email-settings.md#email-type) レベルで設定されます。 ジャーニーまたはキャンペーンでメールを作成する場合、作成者は、メールの種類がコミュニケーションの性質と一致するチャネル設定を選択する必要があります。 この分類は、配信前に適用される同意チェックを通知します。
 
 ### トラッキングコントロールを開く {#open-tracking}
 
@@ -64,11 +64,10 @@ Adobe Journey Optimizerを使用すると、マーケターは個々のメッセ
 * **[!UICONTROL 電子メールが開く]**：開封追跡ピクセルを電子メールに含めるかどうかを制御します。 このオプションは、デフォルトでは有効になっています。
 * **[!UICONTROL 電子メールのクリック]**: リンクのクリックを追跡するかどうかを制御します。 このオプションはデフォルトでも有効になっています。
 
-特定の電子メールの開封追跡を無効にするには、メッセージの作成時に「**[!UICONTROL 電子メールを開く]**」オプションのチェックを外します。 このオプションを無効にすると、その配信に対して開いているトラッキングデータが収集されなくなります。 フランスのサブスクライバーに送信する組織の場合は、適用日前にすべてのアクティブなジャーニーとキャンペーンのオープン トラッキング設定を確認します。
+特定の電子メールの開封追跡を無効にするには、メッセージの作成時に「**[!UICONTROL 電子メールを開く]**」オプションのチェックを外します。 このオプションを無効にすると、その配信に対して開いているトラッキングデータが収集されなくなります。 スコープ内の組織の場合は、施行日前にすべてのアクティブなジャーニーとキャンペーンのオープン トラッキング設定を確認します。
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral. If the pixel is removed: update to state this explicitly. If the pixel remains but data is not processed: reword to make that distinction clear, to avoid misleading customers seeking CNIL compliance.
+Unclear whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral as engineering wasn't able to clarify.
 -->
 
 [メッセージを追跡する方法を学ぶ](../email/message-tracking.md)
@@ -90,7 +89,7 @@ Adobe Journey Optimizerの電子メールDesignerでは、メッセージごと�
 
 ### 同意の取得と管理 {#consent-management}
 
-Adobe Journey Optimizerは、Adobe Experience Platform （AEP） [同意と環境設定スキーマ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}を通じて同意を処理します。 同意設定はプロファイルレベルで保存され、ジャーニーおよびキャンペーンの実行中に自動的に適用されます。
+Adobe Journey Optimizerは、Adobe Experience Platform （AEP） [同意と環境設定スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}を通じて同意を処理します。 同意設定はプロファイルレベルで保存され、ジャーニーおよびキャンペーンの実行中に自動的に適用されます。
 
 メールトラッキングに関連する主な同意属性には、次のようなものがあります。
 
@@ -149,11 +148,10 @@ Journey Optimizer抑制REST APIは、送信メッセージに対する追加の�
 [抑制リストの管理方法を説明します](../configuration/manage-suppression-list.md)
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys. Confirm with Engineering: (1) whether this guidance should be included in this article, and (2) whether any native AJO improvements are planned in this area.
+AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys.
 -->
 
 ### レポート {#reporting}
 
-Adobe Journey Optimizerの電子メールレポートでは、[&#x200B; ライブレポート &#x200B;](../reports/live-report.md)および[Customer Journey Analytics レポート &#x200B;](../reports/report-gs-cja.md)を通じて、開封率とクリック率の指標が提供されます。 メッセージに対して&#x200B;**[!UICONTROL 電子メールが開く]**&#x200B;追跡が無効になっている場合、その配信に対して開いているデータは収集されません。レポートには、クリックやその他のエンゲージメントシグナルのみが反映されます。
+Adobe Journey Optimizerの電子メールレポートでは、[ ライブレポート ](../reports/live-report.md)および[Customer Journey Analytics レポート ](../reports/report-gs-cja.md)を通じて、開封率とクリック率の指標が提供されます。 メッセージに対して&#x200B;**[!UICONTROL 電子メールが開く]**&#x200B;追跡が無効になっている場合、その配信に対して開いているデータは収集されません。レポートには、クリックやその他のエンゲージメントシグナルのみが反映されます。
 
