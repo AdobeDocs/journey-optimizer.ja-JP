@@ -35,17 +35,17 @@ Web アプリ内メッセージを設定する場合は、CSPに次のディレ�
 default-src  blob:;
 ```
 
-CSPの設定について詳しくは、[ データ収集ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html){target="_blank"}を参照してください。
+CSPの設定について詳しくは、[&#x200B; データ収集ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html){target="_blank"}を参照してください。
 
 ## Web SDK タグ拡張機能を使用したWeb アプリ内メッセージの設定 {#tag-extension}
 
-以下の設定内容については、[Web SDK タグ拡張機能の設定ページ ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ja){target="_blank"}を参照してください。
+以下の設定内容については、[Web SDK タグ拡張機能の設定ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ja){target="_blank"}を参照してください。
 
-Web SDK タグ拡張機能を[ インストール ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"}したら、次の手順に従って、Web アプリ内メッセージ用の拡張機能を設定します。
+Web SDK タグ拡張機能を[&#x200B; インストール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"}したら、次の手順に従って、Web アプリ内メッセージ用の拡張機能を設定します。
 
 「**[!UICONTROL Personalization]**」セクションで、「**[!UICONTROL パーソナライゼーションストレージを有効にする]**」オプションを確認します。 このオプションを使用すると、Web SDKは、ページ読み込み全体でどのエクスペリエンスがユーザーに表示されたかを追跡できます。
 
-![ タグ拡張機能の設定ページでパーソナライゼーションのストレージ オプションを示す画像。](assets/enable-personalization-storage.png)
+![&#x200B; タグ拡張機能の設定ページでパーソナライゼーションのストレージ オプションを示す画像。](assets/enable-personalization-storage.png)
 
 Web アプリ内メッセージは、次の2種類のトリガーをサポートしています。
 
@@ -56,12 +56,12 @@ Web アプリ内メッセージは、次の2種類のトリガーをサポート
 
 ### **[!UICONTROL Experience Platformにデータを送信]**&#x200B;トリガーの設定手順 {#send-data-platform}
 
-1. Web SDK拡張機能を含むタグプロパティを選択し、次の設定で[新しいルール ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/managing-resources/rules.html#create-a-rule){target="_blank"}を作成します。
+1. Web SDK拡張機能を含むタグプロパティを選択し、次の設定で[新しいルール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/managing-resources/rules.html#create-a-rule){target="_blank"}を作成します。
 
    * **[!UICONTROL 拡張機能]**: [!UICONTROL Core]
-   * **[!UICONTROL イベントタイプ]**: [!UICONTROL  ライブラリが読み込まれました（ページトップ） ]
+   * **[!UICONTROL イベントタイプ]**: [!UICONTROL &#x200B; ライブラリが読み込まれました（ページトップ） &#x200B;]
 
-   ![ イベント設定画面を示す画像。](assets/rule-configuration.png)
+   ![&#x200B; イベント設定画面を示す画像。](assets/rule-configuration.png)
 
 1. 「**[!UICONTROL 変更を保持]**」を選択して、イベント設定を保存します。
 
@@ -70,65 +70,65 @@ Web アプリ内メッセージは、次の2種類のトリガーをサポート
    次の&#x200B;**[!UICONTROL アクション]**&#x200B;設定を使用します。
 
    * **[!UICONTROL 拡張機能]**: [!UICONTROL Adobe Experience Platform Web SDK]
-   * **[!UICONTROL アクションの種類]**: [!UICONTROL  イベントの送信]
+   * **[!UICONTROL アクションの種類]**: [!UICONTROL &#x200B; イベントの送信]
 
-   ![ ルールを編集する画面を示す画像。](assets/add-action.png)
+   ![&#x200B; ルールを編集する画面を示す画像。](assets/add-action.png)
 
 1. 画面の右側の&#x200B;**[!UICONTROL Personalization]** セクションで、**[!UICONTROL 視覚的なパーソナライゼーションの決定をレンダリング]** オプションを有効にします。
 
-   ![ パーソナライゼーション設定画面を示す画像。](assets/render-visual-personalization.png)
+   ![&#x200B; パーソナライゼーション設定画面を示す画像。](assets/render-visual-personalization.png)
 
 1. 画面の右側の&#x200B;**[!UICONTROL 決定コンテキスト]** セクションで、キャンペーン設定で使用した&#x200B;**[!UICONTROL キー]**/**[!UICONTROL 値]**&#x200B;のペアを定義して、アプリ内メッセージの対象にします。
 
-   ![ パーソナライゼーション設定画面を示す画像。](assets/decision-context.png)
+   ![&#x200B; パーソナライゼーション設定画面を示す画像。](assets/decision-context.png)
 
 1. 設定を保存するには、**[!UICONTROL 変更を保持]**&#x200B;を選択します。
 
 1. 次に、新しく作成したルールをタグプロパティライブラリに追加する必要があります。 これを行うには、**[!UICONTROL 公開フロー]**&#x200B;に移動し、以前に作成したルールを選択します。
 
-   ![ ライブラリ画面を示す画像。](assets/add-rule-to-library.png)
+   ![&#x200B; ライブラリ画面を示す画像。](assets/add-rule-to-library.png)
 
 1. ルールをライブラリに追加したら、**[!UICONTROL 開発に保存してビルド]**&#x200B;を選択します。
 
-   ![ パーソナライゼーション設定画面を示す画像。](assets/publish-flow.png)
+   ![&#x200B; パーソナライゼーション設定画面を示す画像。](assets/publish-flow.png)
 
 これで設定プロセスが完了し、メッセージをユーザーに表示する準備が整いました。
 
 ### 手動トリガーを使用するための設定手順 {#manual-trigger}
 
-1. Web SDK拡張機能を含むタグプロパティを選択し、次の設定を使用して[新しいルール ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/managing-resources/rules.html#create-a-rule){target="_blank"}を作成します。
+1. Web SDK拡張機能を含むタグプロパティを選択し、次の設定を使用して[新しいルール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/managing-resources/rules.html#create-a-rule){target="_blank"}を作成します。
 
    * **[!UICONTROL 拡張機能]**: [!UICONTROL Core]
-   * **[!UICONTROL イベントタイプ]**: [!UICONTROL  クリック ]
+   * **[!UICONTROL イベントタイプ]**: [!UICONTROL &#x200B; クリック &#x200B;]
 
 1. ページ上の特定の要素のトリガーを設定します。これは、選択したCSS セレクターによって識別されます。
 
-   ![ イベント設定画面を示す画像。](assets/event-configuration-manual.png)
+   ![&#x200B; イベント設定画面を示す画像。](assets/event-configuration-manual.png)
 
 1. 作成したルールにアクションを追加する必要があります。 [!DNL Actions] セクションで、**[!UICONTROL 追加]**&#x200B;を選択し、次の&#x200B;**[!UICONTROL アクション]**&#x200B;設定を使用します。
 
    * **[!UICONTROL 拡張機能]**: [!UICONTROL Adobe Experience Platform Web SDK]
-   * **[!UICONTROL アクションの種類]**: [!UICONTROL  ルールセットの評価]
+   * **[!UICONTROL アクションの種類]**: [!UICONTROL &#x200B; ルールセットの評価]
 
-   ![ ルールを編集する画面を示す画像。](assets/add-action.png)
+   ![&#x200B; ルールを編集する画面を示す画像。](assets/add-action.png)
 
 1. 画面の右側で、**[!UICONTROL 視覚的なパーソナライゼーション決定のレンダリング]** オプションを有効にします。
 
-   ![ パーソナライゼーション設定画面を示す画像。](assets/manual-trigger-render.png)
+   ![&#x200B; パーソナライゼーション設定画面を示す画像。](assets/manual-trigger-render.png)
 
 1. 画面の右側の&#x200B;**[!UICONTROL 決定コンテキスト]** セクションで、キャンペーン設定で使用した&#x200B;**[!UICONTROL キー]**/**[!UICONTROL 値]**&#x200B;のペアを定義して、アプリ内メッセージの対象にします。
 
-   ![ パーソナライゼーション設定画面を示す画像。](assets/manual-trigger-decision-context.png)
+   ![&#x200B; パーソナライゼーション設定画面を示す画像。](assets/manual-trigger-decision-context.png)
 
 1. 設定を保存するには、**[!UICONTROL 変更を保持]**&#x200B;を選択します。
 
 1. 新しく作成したルールをタグプロパティライブラリに追加します。 これを行うには、**[!UICONTROL 公開フロー]**&#x200B;に移動し、以前に作成したルールを選択します。
 
-   ![ ライブラリ画面を示す画像。](assets/add-rule-to-library.png)
+   ![&#x200B; ライブラリ画面を示す画像。](assets/add-rule-to-library.png)
 
 1. ルールをライブラリに追加したら、**[!UICONTROL 開発に保存してビルド]**&#x200B;を選択します。
 
-   ![ パーソナライゼーション設定画面を示す画像。](assets/publish-flow.png)
+   ![&#x200B; パーソナライゼーション設定画面を示す画像。](assets/publish-flow.png)
 
 これで設定プロセスが完了し、メッセージをユーザーに表示する準備が整いました。
 
@@ -174,5 +174,5 @@ Web SDKでページ読み込み時にパーソナライゼーションコンテ�
 
 [Web SDK設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html){target="_blank"}で、必要に応じて`personalizationStorageEnabled` オプションを設定します。
 
-* `personalizationStorageEnabled: true`さんが、[ キャンペーン ](create-in-app-web.md#configure-inapp)で定義した頻度でアプリ内メッセージをトリガーします。
+* `personalizationStorageEnabled: true`さんが、[&#x200B; キャンペーン &#x200B;](create-in-app-web.md#configure-inapp)で定義した頻度でアプリ内メッセージをトリガーします。
 * `personalizationStorageEnabled: false`は、ページが読み込まれるたびにアプリ内メッセージをトリガーします。

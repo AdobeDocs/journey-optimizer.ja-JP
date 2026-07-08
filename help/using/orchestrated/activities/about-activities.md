@@ -6,10 +6,14 @@ description: 調整されたキャンペーンアクティビティの操作方�
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 628
@@ -44,7 +48,7 @@ ht-degree: 67%
 
 * **キャンバスアクティビティの制限** - キャンバス上のアクティビティの数は500に制限されています。 メンテナンス性とパフォーマンスを確保するために、ワークフローを実際には100 アクティビティ未満に抑えます。
 
-オーケストレーションされたすべてのキャンペーンのガードレールと制限事項については、[ ガードレールと制限事項](../guardrails.md)を参照してください。
+オーケストレーションされたすべてのキャンペーンのガードレールと制限事項については、[&#x200B; ガードレールと制限事項](../guardrails.md)を参照してください。
 
 ## ターゲティングアクティビティ {#targeting}
 
@@ -68,7 +72,7 @@ ht-degree: 67%
 
 使用可能なデータ管理アクティビティは次のとおりです。
 
-* [ ファイルを読み込む](load-file.md) （限定提供）: CSVまたはTXT ファイルをキャンバスにアップロードし、ファイルをAdobe Experience Platformに取り込まずにキャンペーンオーディエンス（ファイルベースのターゲティング）を定義するために使用します。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
+* [&#x200B; ファイルを読み込む](load-file.md) （限定提供）: CSVまたはTXT ファイルをキャンバスにアップロードし、ファイルをAdobe Experience Platformに取り込まずにキャンペーンオーディエンス（ファイルベースのターゲティング）を定義するために使用します。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
 
 ## チャネルアクティビティ {#channel}
 

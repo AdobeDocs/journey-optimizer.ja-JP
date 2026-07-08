@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # [!DNL Adobe Journey Optimizer]を[!DNL Experience Platform Web SDK]と共に使用
 
-[!DNL Adobe Experience Platform] [!DNL Web SDK]は、[!DNL Adobe Journey Optimizer]で管理されているパーソナライズされたエクスペリエンスをweb チャネルに配信してレンダリングできます。 WYSIWYG エディター、[!DNL Adobe Journey Optimizer] [Web チャネル ](get-started-web.md)、または非ビジュアル インターフェイスの[ コードベースのエクスペリエンスチャネル ](../code-based/get-started-code-based.md)を使用して、[!DNL Journey Optimizer Web]のキャンペーンとパーソナライゼーションエクスペリエンスを作成、アクティブ化、配信できます。
+[!DNL Adobe Experience Platform] [!DNL Web SDK]は、[!DNL Adobe Journey Optimizer]で管理されているパーソナライズされたエクスペリエンスをweb チャネルに配信してレンダリングできます。 WYSIWYG エディター、[!DNL Adobe Journey Optimizer] [Web チャネル &#x200B;](get-started-web.md)、または非ビジュアル インターフェイスの[&#x200B; コードベースのエクスペリエンスチャネル &#x200B;](../code-based/get-started-code-based.md)を使用して、[!DNL Journey Optimizer Web]のキャンペーンとパーソナライゼーションエクスペリエンスを作成、アクティブ化、配信できます。
 
 ## 用語 {#terminology}
 
@@ -29,8 +29,8 @@ ht-degree: 4%
 
 1. [の前提条件](web-prerequisites.md)を確認します。具体的には：
    * [!DNL Adobe Experience Cloud Visual Editing Helper]を設定します。
-   * [ データストリーム ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で[!DNL Adobe Journey Optimizer]を有効にします。
-   * 「[!UICONTROL  アクティブ時Edge結合ポリシー]」オプションを有効にします。
+   * [&#x200B; データストリーム &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で[!DNL Adobe Journey Optimizer]を有効にします。
+   * 「[!UICONTROL &#x200B; アクティブ時Edge結合ポリシー]」オプションを有効にします。
 
 1. イベントに`renderDecisions` オプションを追加します。 Web ページサーフェスで配信されたJourney Optimizer コンテンツ提案の自動レンダリングを行うには、`renderDecisions`から`true`に設定します。
 
@@ -79,11 +79,11 @@ ht-degree: 4%
    }
    ```
 
-1. 他のパーソナライゼーション機能と同様に、**[事前非表示スニペット ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html){target="_blank"}**&#x200B;を追加して、エクスペリエンスの取得中にページの特定の部分のみを非表示にすることができます。
+1. 他のパーソナライゼーション機能と同様に、**[事前非表示スニペット &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html){target="_blank"}**&#x200B;を追加して、エクスペリエンスの取得中にページの特定の部分のみを非表示にすることができます。
 
 ## パーソナライズされたコンテンツのレンダリング {#rendering-personalized-content}
 
-パーソナライズされたコンテンツのレンダリングについて詳しくは、[Adobe Experience Platform Web SDK ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"}を参照してください。
+パーソナライズされたコンテンツのレンダリングについて詳しくは、[Adobe Experience Platform Web SDK ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"}を参照してください。
 
 web サーフェスのAdobe Journey Optimizer提案は、`__view__`決定範囲提案と同様の方法で処理されます。 特に、`sendEvent` コマンドで`renderDecisions` オプションが`true`に設定されている場合、これらはWeb SDKによって自動的にレンダリングされます。
 
@@ -124,6 +124,6 @@ Adobe Journey Optimizerのコンテンツに関する提案の例：
 
 ## デバッグ {#debugging}
 
-Adobe Journey Optimizer パーソナライゼーションの実装をデバッグするには、[Web SDK デバッグ ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html){target="_blank"}を使用します。 [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)を使用してトラブルシューティングを行う場合、[!DNL Adobe Journey Optimizer]個のデバッグトレースを利用できます。 `AJO:`接頭辞を持つイベントを確認します。
+Adobe Journey Optimizer パーソナライゼーションの実装をデバッグするには、[Web SDK デバッグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html){target="_blank"}を使用します。 [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)を使用してトラブルシューティングを行う場合、[!DNL Adobe Journey Optimizer]個のデバッグトレースを利用できます。 `AJO:`接頭辞を持つイベントを確認します。
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)
