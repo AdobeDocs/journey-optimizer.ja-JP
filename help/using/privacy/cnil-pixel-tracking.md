@@ -55,7 +55,7 @@ Adobe Journey Optimizerでは、あらゆるメールチャネル設定をマー
 * **マーケティングメール**：オプトインした購読者にプロモーションコミュニケーションを送信しました。 ユーザーの同意が必要です。 これらのメールでは、抑制とオプトアウトの設定が自動的に尊重されます。
 * **トランザクションメール**：非商用コミュニケーション（注文確認、パスワードリセットなど）。 これらの電子メールは、適用法に従って、マーケティングコミュニケーションを登録解除したプロファイルに送信できます。
 
-電子メールの種類は、[ チャネル設定](../email/email-settings.md#email-type) レベルで設定されます。 ジャーニーまたはキャンペーンでメールを作成する場合、作成者は、メールの種類がコミュニケーションの性質と一致するチャネル設定を選択する必要があります。 この分類は、配信前に適用される同意チェックを通知します。
+電子メールの種類は、[&#x200B; チャネル設定](../email/email-settings.md#email-type) レベルで設定されます。 ジャーニーまたはキャンペーンでメールを作成する場合、作成者は、メールの種類がコミュニケーションの性質と一致するチャネル設定を選択する必要があります。 この分類は、配信前に適用される同意チェックを通知します。
 
 ### トラッキングコントロールを開く {#open-tracking}
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizerの電子メールDesignerでは、メッセージごと�
 
 ### 同意の取得と管理 {#consent-management}
 
-Adobe Journey Optimizerは、Adobe Experience Platform （AEP） [同意と環境設定スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}を通じて同意を処理します。 同意設定はプロファイルレベルで保存され、ジャーニーおよびキャンペーンの実行中に自動的に適用されます。
+Adobe Journey Optimizerは、Adobe Experience Platform （AEP） [同意と環境設定スキーマ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}を通じて同意を処理します。 同意設定はプロファイルレベルで保存され、ジャーニーおよびキャンペーンの実行中に自動的に適用されます。
 
 メールトラッキングに関連する主な同意属性には、次のようなものがあります。
 
@@ -153,4 +153,4 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 
 ### レポート {#reporting}
 
-Adobe Journey Optimizerの電子メールレポートでは、[ ライブレポート ](../reports/live-report.md)および[Customer Journey Analytics レポート ](../reports/report-gs-cja.md)を通じて、開封率とクリック率の指標が提供されます。 メッセージに対して&#x200B;**[!UICONTROL 電子メールが開く]**&#x200B;追跡が無効になっている場合、その配信に対して開いているデータは収集されません。レポートには、クリックやその他のエンゲージメントシグナルのみが反映されます。
+Adobe Journey Optimizerの電子メールレポートでは、[&#x200B; ライブレポート &#x200B;](../reports/live-report.md)および[Customer Journey Analytics レポート &#x200B;](../reports/report-gs-cja.md)を通じて、開封率とクリック率の指標が提供されます。 メッセージに対して&#x200B;**[!UICONTROL 電子メールが開く]**&#x200B;追跡が無効になっている場合、その配信に対して開いているデータは収集されません。レポートには、クリックやその他のエンゲージメントシグナルのみが反映されます。
