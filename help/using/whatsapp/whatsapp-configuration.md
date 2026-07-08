@@ -26,10 +26,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
+source-git-commit: b2f1ca57af462b91496fcf5ec94f7f4a3254cbd7
 workflow-type: tm+mt
-source-wordcount: 1377
-ht-degree: 87%
+source-wordcount: 1447
+ht-degree: 83%
 
 ---
 
@@ -135,6 +135,8 @@ WhatsApp API資格情報が正常に作成されたら、Webhookを次のよう�
 >インバウンド WhatsApp メッセージは、_AJO メールトラッキングデータセット_ システムデータセットに取り込まれます。 このデータセットに受信メッセージがキャプチャされる前に、プロファイルに [!DNL Journey Optimizer] から送信されたメッセージを 1 つ以上含める必要があります。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
 Webhookは、MetaのWhatsApp Business PlatformとAdobe Journey Optimizer間のコミュニケーションブリッジとして機能し、メッセージイベントやユーザーインタラクションに関するリアルタイムの通知を受け取ることができます。
+
+Metaでは、複数のサンドボックスやWhatsApp資格情報をまたいでも、WhatsApp Business アカウントごとに1つのWebhook、コールバック URL、検証トークンのみを使用できます。 **フィードバックイベント** （送信済み、配信済み、読み取り、エラー、ボタンのクリック）は、すべてのサンドボックスで引き続き正しくキャプチャされます。 **インバウンドイベント** （返信、オプトイン/オプトアウト/ヘルプキーワード）は、Webhookが登録されている単一のサンドボックスでのみ受信されます。このサンドボックスに&#x200B;**実稼動サンドボックス**&#x200B;に登録して、インバウンドイベントを受信します。
 
 1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;に移動し、**[!UICONTROL WhatsApp 設定]**&#x200B;の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、「**[!UICONTROL Webhook を作成]**」ボタンをクリックします。
 
