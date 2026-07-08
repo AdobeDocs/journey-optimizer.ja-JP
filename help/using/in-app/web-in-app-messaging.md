@@ -35,13 +35,13 @@ Web アプリ内メッセージを設定する場合は、CSPに次のディレ�
 default-src  blob:;
 ```
 
-CSPの設定について詳しくは、[&#x200B; データ収集ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html){target="_blank"}を参照してください。
+CSPの設定について詳しくは、[&#x200B; データ収集ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html?lang=ja){target="_blank"}を参照してください。
 
 ## Web SDK タグ拡張機能を使用したWeb アプリ内メッセージの設定 {#tag-extension}
 
 以下の設定内容については、[Web SDK タグ拡張機能の設定ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ja){target="_blank"}を参照してください。
 
-Web SDK タグ拡張機能を[&#x200B; インストール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"}したら、次の手順に従って、Web アプリ内メッセージ用の拡張機能を設定します。
+Web SDK タグ拡張機能を[&#x200B; インストール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ja#install-the-web-sdk-tag-extension){target="_blank"}したら、次の手順に従って、Web アプリ内メッセージ用の拡張機能を設定します。
 
 「**[!UICONTROL Personalization]**」セクションで、「**[!UICONTROL パーソナライゼーションストレージを有効にする]**」オプションを確認します。 このオプションを使用すると、Web SDKは、ページ読み込み全体でどのエクスペリエンスがユーザーに表示されたかを追跡できます。
 
@@ -172,7 +172,7 @@ Web SDKでページ読み込み時にパーソナライゼーションコンテ�
 
 `personalizationStorageEnabled`設定オプションを使用して、ユーザーがページにアクセスするたびに、アプリ内メッセージを設定された回数だけ表示するか、ユーザーに表示するかを選択できます。
 
-[Web SDK設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html){target="_blank"}で、必要に応じて`personalizationStorageEnabled` オプションを設定します。
+[Web SDK設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja){target="_blank"}で、必要に応じて`personalizationStorageEnabled` オプションを設定します。
 
 * `personalizationStorageEnabled: true`さんが、[&#x200B; キャンペーン &#x200B;](create-in-app-web.md#configure-inapp)で定義した頻度でアプリ内メッセージをトリガーします。
 * `personalizationStorageEnabled: false`は、ページが読み込まれるたびにアプリ内メッセージをトリガーします。

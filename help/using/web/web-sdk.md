@@ -41,7 +41,7 @@ ht-degree: 4%
    })
    ```
 
-1. 必要に応じて、イベント内の追加のサーフェスを指定します。 デフォルトでは、Web SDKは現在のweb ページのweb サーフェスを自動生成し、Edge Networkへのリクエストに含めます。 必要に応じて、`sendEvent` コマンドの`personalization.surfaces` オプションでこれらを指定するか、Web SDK拡張機能の対応する&#x200B;**[!UICONTROL Surfaces]** [[!UICONTROL Send event] action](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html#send-event){target="_blank"}設定でこれらを指定することで、リクエストに追加のサーフェスを含めることができます。
+1. 必要に応じて、イベント内の追加のサーフェスを指定します。 デフォルトでは、Web SDKは現在のweb ページのweb サーフェスを自動生成し、Edge Networkへのリクエストに含めます。 必要に応じて、`sendEvent` コマンドの`personalization.surfaces` オプションでこれらを指定するか、Web SDK拡張機能の対応する&#x200B;**[!UICONTROL Surfaces]** [[!UICONTROL Send event] action](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html?lang=ja#send-event){target="_blank"}設定でこれらを指定することで、リクエストに追加のサーフェスを含めることができます。
 
    ```javascript
    alloy("sendEvent", {
@@ -79,11 +79,11 @@ ht-degree: 4%
    }
    ```
 
-1. 他のパーソナライゼーション機能と同様に、**[事前非表示スニペット &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html){target="_blank"}**&#x200B;を追加して、エクスペリエンスの取得中にページの特定の部分のみを非表示にすることができます。
+1. 他のパーソナライゼーション機能と同様に、**[事前非表示スニペット &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html?lang=ja){target="_blank"}**&#x200B;を追加して、エクスペリエンスの取得中にページの特定の部分のみを非表示にすることができます。
 
 ## パーソナライズされたコンテンツのレンダリング {#rendering-personalized-content}
 
-パーソナライズされたコンテンツのレンダリングについて詳しくは、[Adobe Experience Platform Web SDK ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"}を参照してください。
+パーソナライズされたコンテンツのレンダリングについて詳しくは、[Adobe Experience Platform Web SDK ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html?lang=ja){target="_blank"}を参照してください。
 
 web サーフェスのAdobe Journey Optimizer提案は、`__view__`決定範囲提案と同様の方法で処理されます。 特に、`sendEvent` コマンドで`renderDecisions` オプションが`true`に設定されている場合、これらはWeb SDKによって自動的にレンダリングされます。
 
@@ -124,6 +124,6 @@ Adobe Journey Optimizerのコンテンツに関する提案の例：
 
 ## デバッグ {#debugging}
 
-Adobe Journey Optimizer パーソナライゼーションの実装をデバッグするには、[Web SDK デバッグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html){target="_blank"}を使用します。 [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)を使用してトラブルシューティングを行う場合、[!DNL Adobe Journey Optimizer]個のデバッグトレースを利用できます。 `AJO:`接頭辞を持つイベントを確認します。
+Adobe Journey Optimizer パーソナライゼーションの実装をデバッグするには、[Web SDK デバッグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=ja){target="_blank"}を使用します。 [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)を使用してトラブルシューティングを行う場合、[!DNL Adobe Journey Optimizer]個のデバッグトレースを利用できます。 `AJO:`接頭辞を持つイベントを確認します。
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)
