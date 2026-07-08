@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL、トラッキング、ピクセル、電子メール、同意、オプトアウト、プライバシー
-source-git-commit: 9ecd8953d7bdd2fe78c28be104fbb954c263338a
+source-git-commit: dc428295d1916580c1b15eacce987696f178668b
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 1%
@@ -154,4 +154,3 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 ### レポート {#reporting}
 
 Adobe Journey Optimizerの電子メールレポートでは、[&#x200B; ライブレポート &#x200B;](../reports/live-report.md)および[Customer Journey Analytics レポート &#x200B;](../reports/report-gs-cja.md)を通じて、開封率とクリック率の指標が提供されます。 メッセージに対して&#x200B;**[!UICONTROL 電子メールが開く]**&#x200B;追跡が無効になっている場合、その配信に対して開いているデータは収集されません。レポートには、クリックやその他のエンゲージメントシグナルのみが反映されます。
-
