@@ -24,10 +24,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 1346
-ht-degree: 95%
+source-wordcount: 1402
+ht-degree: 92%
 
 ---
 
@@ -227,6 +227,12 @@ ht-degree: 95%
    ![](../content-management/assets/fragment-expression-use.png)
 
 メールの作成時に編集可能なフィールドを式フラグメントに追加し、その値を上書きする方法を示す例について詳しくは、[この節](../content-management/customizable-fragments.md#example)を参照してください。
+
+## 動的フラグメント解決の使用 {#dynamic-resolution}
+
+デザイン時にフラグメント IDを静的に埋め込む代わりに、受信者ごとに実行時にフラグメント IDを動的に解決できます。 これにより、プロファイル属性、データセット参照、コンテキストデータにもとづいて、異なるプロファイルが同じキャンペーンやジャーニー内で完全に異なるコンテンツブロックを受け取ることができます。
+
+[動的フラグメントの使用方法を学ぶ](../content-management/dynamic-fragments.md)
 
 ## 継承の解除 {#break-inheritance}
 

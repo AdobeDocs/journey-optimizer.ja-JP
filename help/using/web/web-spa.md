@@ -23,10 +23,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 6be6438a23ad673d97417c5205ae5985abfc52c2
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 93%
+source-wordcount: 512
+ht-degree: 92%
 
 ---
 
@@ -56,9 +56,9 @@ Adobe Experience Platform Web SDK 実装でビューを定義するには、1 �
 
 ## Web SDK 実装でのビューの定義 {#define-views}
 
-XDM ビューを Adobe [!DNL Journey Optimizer] で活用すると、マーケターは web ビジュアルエディターを使用して、SPA 上で web パーソナライゼーションおよび実験キャンペーンを実行できます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ja){target="_blank"}
+XDM ビューを Adobe [!DNL Journey Optimizer] で活用すると、マーケターは web ビジュアルエディターを使用して、SPA 上で web パーソナライゼーションおよび実験キャンペーンを実行できます。 [詳細情報](web-spa-implementation.md)
 
-[!DNL Journey Optimizer] ユーザーインターフェイスでビューへのアクセスやビューを作成するには、[こちらの節](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ja#implement-xdm-views){target="_blank"}に記載されている手順に従うようにしてください。
+[!DNL Journey Optimizer] ユーザーインターフェイスでビューへのアクセスやビューを作成するには、[こちらの節](web-spa-implementation.md#implement-xdm-views)に記載されている手順に従うようにしてください。
 
 ## Web designer でビューの確認 {#discover-views}
 

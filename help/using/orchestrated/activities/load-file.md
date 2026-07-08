@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 1687
+source-wordcount: 1697
 ht-degree: 5%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 **[!UICONTROL ファイルを読み込み]**&#x200B;アクティビティは、**[!UICONTROL データ管理]**&#x200B;アクティビティです。 外部ファイルに保存されているプロファイルとデータを操作する場合に使用します。 受信者リストが外部システム（CRM書き出しやパートナーファイルなど）から取得され、最初に完全なAdobe Experience Platform取り込みパイプラインを構築せずにキャンペーンを実行する場合、オーケストレーションされたキャンペーンで&#x200B;**ファイルベースのターゲティング**&#x200B;がサポートされます。
 
+ファイルの設定時に、列のマッピング、データタイプ、NULL処理、列ごとのエラーポリシーを定義できます。 検証に失敗した行は、キャンペーンが実行される前に却下され、ログに記録されます。これにより、手作業による事前処理なしでオーディエンスをクリーンに保つことができます。
+
 >[!AVAILABILITY]
 >
->**ファイルの読み込み** アクティビティは、組織のセットに対して&#x200B;**可用性の制限**&#x200B;で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。 可用性フェーズについては、[Journey Optimizer リリースサイクル &#x200B;](../../rn/releases.md)を参照してください。
->
->アクティビティは現在、**Healthcare Shield**&#x200B;では使用できません。
+>**ファイルを読み込む** アクティビティは現在、**Healthcare Shield**&#x200B;では使用できません。
 
 ## 権限 {#permissions}
 

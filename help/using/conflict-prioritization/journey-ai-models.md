@@ -11,14 +11,14 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 16%
 
 ---
 
-# AI モデルを使用してジャーニーをランク付けする {#journey-ai-models}
+# AI モデルを使用したジャーニーのランク付け {#journey-ai-models}
 
 >[!BEGINSHADEBOX]
 
@@ -29,6 +29,8 @@ ht-degree: 16%
 >[!AVAILABILITY]
 >
 >この機能は現在限定的です。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>
+>AI モデルは、**Decisioning** アドオンオファーを購入した組織のみが利用できます。
 
 [!DNL Adobe Journey Optimizer]を使用すると、プロファイルがシステムで許可されている以上の条件を満たす場合に入力できるジャーニーを制御できます。 これには、[&#x200B; ルールセット &#x200B;](rule-sets.md)を使用して、ジャーニーのエントリまたは同時実行の上限を定義できます。 プロファイルがキャップが許可する以上のジャーニーの対象となる場合、各ジャーニーに割り当てられた優先度によって、選択されるジャーニーが決まります。
 

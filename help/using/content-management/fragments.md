@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 82%
+source-wordcount: 439
+ht-degree: 78%
 
 ---
 
@@ -58,6 +58,7 @@ ht-degree: 82%
 
 * **独自のフラグメントを作成**：ビジュアルフラグメントまたは式フラグメントを、ゼロから作成するか、コンテンツをフラグメントとして保存して作成します。 [フラグメントの作成方法を学ぶ](create-fragments.md) また、Journey Optimizer の **Content REST API** を活用すると、コンテンツフラグメントを管理できます。 詳しくは、[Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}を参照してください。
 * **フラグメントの再利用**：作成したフラグメントを、必要な回数だけコンテンツで使用します。 [ビジュアルフラグメントの追加](../email/use-visual-fragments.md)および[式フラグメントの活用](../personalization/use-expression-fragments.md)を参照してください
+* **動的フラグメントを使用：** プロファイル属性、データセット参照、コンテキストデータに基づいて、受信者ごとに実行時に挿入するフラグメントを解決します。 [動的フラグメントの使用方法を学ぶ](dynamic-fragments.md)
 
 
 >[!NOTE]
