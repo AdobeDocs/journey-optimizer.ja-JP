@@ -9,8 +9,12 @@ role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 version: Journey Orchestration
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 product_v2: []
 source-git-commit: d52c60bd4741153c42d7df9db43a5daf58ddf0d0
 workflow-type: tm+mt
@@ -29,7 +33,7 @@ ht-degree: 17%
 
 パーソナライズされた最適化では、各オファーのグローバルパフォーマンスにもとづいて最適化される、パーソナライズされていないランキングとは異なり、個々の顧客の属性と、その顧客に対して選択されたKPIを最も促進する可能性が高いオファーとの関係を学習します。 これにより、一人ひとりの顧客に最適なオファーを提供するのではなく、各プロファイルに合わせたオファーを選択できます。
 
-![ パーソナライズされた最適化モデルのアニメーション ](../../rn/assets/do-not-localize/ai-ranking.gif)
+![&#x200B; パーソナライズされた最適化モデルのアニメーション &#x200B;](../../rn/assets/do-not-localize/ai-ranking.gif)
 
 ## ユースケースと利点 {#use-cases}
 
@@ -82,7 +86,7 @@ ht-degree: 17%
 
 オファーAでは、両方のシグナルが一致する（高い場合も低い場合も）場合、コンバージョンの可能性が高くなります。 オファーBでは、ロイヤルティ層に関係なく、電子メールが開封されたときにコンバージョンに達する可能性が高くなります。 このモデルは、学習したパターンにもとづいて、顧客一人ひとりのシグナルにもとづいて、より優れたオファーを予測できます。
 
-顧客シグナルに基づく、オファーAとオファーBの![ バイナリコンバージョン応答](../assets/perso-ranking-binary-response.png)
+顧客シグナルに基づく、オファーAとオファーBの![&#x200B; バイナリコンバージョン応答](../assets/perso-ranking-binary-response.png)
 
 *図1：強調表示された不一致の行で、シグナルが一致せず、コンバージョンしなかった場合にオファーAが表示されます。 学習したパターンに基づいて、オファーBは次回の顧客に対する推奨として最適です。*
 

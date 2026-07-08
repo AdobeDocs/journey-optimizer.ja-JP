@@ -9,11 +9,19 @@ level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ytq-DaCojPLwO0ReHyA6oYnAzepr02rthWrZwU-lehY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: d52c60bd4741153c42d7df9db43a5daf58ddf0d0
 workflow-type: tm+mt
 source-wordcount: 2297
@@ -84,7 +92,7 @@ ht-degree: 16%
 
 オファーAでは、両方のシグナルが一致する（高い場合も低い場合も）場合、コンバージョンの可能性が高くなります。 オファーBでは、ロイヤルティ層に関係なく、電子メールが開封されたときにコンバージョンに達する可能性が高くなります。 このモデルは、学習したパターンにもとづいて、顧客一人ひとりのシグナルにもとづいて、より優れたオファーを予測できます。
 
-顧客シグナルに基づく、オファーAとオファーBの![ バイナリコンバージョン応答](../assets/perso-ranking-binary-response.png)
+顧客シグナルに基づく、オファーAとオファーBの![&#x200B; バイナリコンバージョン応答](../assets/perso-ranking-binary-response.png)
 
 *図1：強調表示された不一致の行で、シグナルが一致せず、コンバージョンしなかった場合にオファーAが表示されます。 学習したパターンに基づいて、オファーBは次回の顧客に対する推奨として最適です。*
 
