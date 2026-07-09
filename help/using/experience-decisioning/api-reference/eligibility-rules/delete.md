@@ -7,12 +7,9 @@ role: Developer
 level: Experienced
 exl-id: 19baf888-23b7-46de-9d3c-9a0fa8ab2297
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 93712df16d9a3df94fd31cb8bc4da9762691d1ef
 workflow-type: tm+mt
 source-wordcount: 127
 ht-degree: 100%
@@ -26,7 +23,7 @@ ht-degree: 100%
 **API 形式**
 
 ```http
-DELETE /{ENDPOINT_PATH}/eligibility-rules/{ID}
+DELETE /{ENDPOINT_PATH}/offer-rules/{ID}
 ```
 
 | パラメーター | 説明 | 例 |
