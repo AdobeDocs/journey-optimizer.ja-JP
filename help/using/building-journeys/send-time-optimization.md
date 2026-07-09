@@ -11,27 +11,16 @@ keywords: 送信時間, 送信, メッセージ, 最適化, ジャーニー, AI,
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 2279
-ht-degree: 55%
+source-wordcount: 2316
+ht-degree: 54%
 
 ---
 
@@ -68,6 +57,8 @@ AdobeのジャーニーAI サービスを活用した[!DNL Adobe Journey Optimiz
 >
 >* 送信時間の最適化は、**メール**&#x200B;チャネルと&#x200B;**プッシュ通知**&#x200B;チャネルにのみ適用されます。
 >
+>* Send-Time Optimizationは、次のAEP ハブ リージョンでサポートされています：**VA7、NLD2、AUS5、CAN2、GBR9、IND2、CHE2**。 これらはAdobe デプロイメントのリージョン コードです。組織がどのリージョンを使用しているかわからない場合は、Adobe担当者にお問い合わせください。
+>
 
 ## 送信時間の最適化の使用{#use-send-time-optimization}
 
@@ -87,7 +78,7 @@ AdobeのジャーニーAI サービスを活用した[!DNL Adobe Journey Optimiz
 
    最適な結果を得るには、**クリック数**&#x200B;のほとんどの電子メールを最適化してください。 メッセージが情報提供であり、特定のアクションを促すためのものではない場合は、**Opens**&#x200B;を選択します。
 
-1. 電子メールとプッシュメッセージの両方で、**[!UICONTROL 次の]**&#x200B;以内に送信する時間を、システムがメッセージを送信するまでの最大時間数（1 ～ 168）に設定します。
+1. 電子メールとプッシュメッセージの両方で、**[!UICONTROL 次の]**&#x200B;以内に送信する時間を、システムがメッセージを送信するまでの最大時間数（2 ～ 100）に設定します。
 
    最適な結果を得るには、6 ～ 24時間の値を選択してください。 値を小さくすると、使用可能な送信時間が減り、送信時間の最適化のメリットが制限される可能性があります。 値が大きいほど、メッセージが古くなったり、送信されるまでに関連性が低くなったりする可能性があります。
 
@@ -97,7 +88,7 @@ AdobeのジャーニーAI サービスを活用した[!DNL Adobe Journey Optimiz
 
 ジャーニーをアクティブ化し、顧客がジャーニーのメールアクションまたはプッシュアクションに到達すると、送信時間の最適化により、指定した制限内で各ユーザーに使用できる最適な予測送信時間が選択されます。
 
-ジャーニーのパフォーマンスを監視するには、[概要ページ &#x200B;](../reports/channel-report-cja.md)を参照してください。
+ジャーニーのパフォーマンスを監視するには、[概要ページ ](../reports/channel-report-cja.md)を参照してください。
 
 ## 送信時間の最適化の仕組み {#how-send-time}
 
@@ -132,7 +123,7 @@ Send-Time Optimization モデルは、組織の[!DNL Adobe Journey Optimizer]件
 
 送信時間の最適化に関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？ このページの下部にあるフィードバックオプションを使用して質問を提起するか、[[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながってください。
+さらに詳細が必要ですか？ このページの下部にあるフィードバックオプションを使用して質問を提起するか、[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながってください。
 
 +++送信時間の最適化を使用する前に、どのくらいの時間を待機する必要がありますか？
 
@@ -216,14 +207,14 @@ Send-Time Optimization モデルは、組織の[!DNL Adobe Journey Optimizer]件
 * **ジャーニーAI**: Journey Optimizer *（製品固有）*&#x200B;内のSend-Time Optimizationを強化するAdobeのAI サービス
 * **探索送信時間**：ランダムに選択された送信時間（送信の5%に使用）を使用して、異なる時間をテストし、モデルの精度を向上させます&#x200B;*（製品固有）*
 * **送信時間の最適化**: クリック率または開封率を最大化するために選択されたモデルで予測される送信時間（送信の95%に使用） *（製品固有）*
-* **次の**&#x200B;以内に送信：システムがメッセージを特定のプロファイル *（製品固有）*&#x200B;に送信するまでの最大時間数（1 ～ 168）
+* **次の**&#x200B;以内に送信：システムがメッセージを特定のプロファイル *（製品固有）*&#x200B;に送信するまでの最大時間数（2 ～ 100）
 
 **ガードレール：**
 * Send-Time Optimizationは、組織のAdobeで有効にする必要があります。Adobe カスタマーケアまたはAdobe担当者に連絡して有効にしてください。
 * Send-Time Optimizationは、ジャーニー内のメールおよびプッシュ通知チャネルにのみ適用されます。キャンペーンやカスタムアクションでは使用できません。
 * Send-Time Optimizationが意味のある結果を生成するには、Journey Optimizerでメールまたはプッシュのアクションを少なくとも30日間使用している必要があります。
 * 緊急性の高いメッセージや時間制限のある運用メッセージ（注文確認、パスワードリセット、フライトゲートの変更など）には、Send-Time Optimizationを使用しないでください。
-* 最大待機時間の範囲は1 ～ 168時間です。最良の結果を得るには、推奨される範囲は6 ～ 24時間です。
+* 最大待機時間の範囲は2 ～ 100時間です。最良の結果を得るには、推奨される範囲は6 ～ 24時間です。
 * モデル スコアは`_experience.intelligentServices.journeyAI.sendTimeOptimization`のプロファイル属性に保存され、人間が読み取ることはできません。
 * モデルは毎週トレーニングされ、その後16週間後に毎月再学習およびスコアリングされます。
 
