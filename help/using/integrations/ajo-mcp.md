@@ -9,7 +9,8 @@ badge: label="ベータ版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 subfeature_v2: []
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 source-git-commit: 05ad3d2af373c7eeb26bb8c789edfb2c864f5bca
 workflow-type: tm+mt
 source-wordcount: 1552
