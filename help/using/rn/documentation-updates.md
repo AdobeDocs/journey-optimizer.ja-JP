@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: cd4321060d1b35b4d0f173d0388d0a9f0ae7c74a
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 9227
+source-wordcount: 9262
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年7月 {#july-2026}
+
+* **Send-Time Optimization** ドキュメントが更新され、次の&#x200B;**以内に送信できる新しい**&#x200B;送信時間が&#x200B;**2～100時間** （以前は1～168）に制限され、この機能でサポートされているAEP Hub リージョンがドキュメントに表示されるようになりました。 [詳細情報](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
 * **パーソナライズされた最適化モデル** ページが更新され、最新のモデル改善点を反映し、アンサンブルモデルの仕組み、データセット要件、ユースケース、主要な仮定、コールドスタート動作がカバーされるようになりました。 詳しくは、[Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md)および[Offer Decisioning](../offers/ranking/personalized-optimization-model.md)の節を参照してください。
 
