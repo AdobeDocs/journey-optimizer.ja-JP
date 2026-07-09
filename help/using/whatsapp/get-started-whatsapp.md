@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: ht
-source-wordcount: 440
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 686
+ht-degree: 65%
 
 ---
 
@@ -39,9 +33,31 @@ Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) �
 
 * **ジャーニー**&#x200B;の場合： ジャーニーを作成し、**WhatsApp** アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：WhatsApp]** パネルを参照して WhatsApp メッセージのコンテンツを作成します。 ジャーニーを作成する方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
-* **キャンペーン**&#x200B;の場合： キャンペーンを作成し、アクションとして「**WhatsApp**」を選択し、基本設定を定義してから、メッセージのコンテンツを編集して送信する WhatsApp メッセージを定義します。 詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)の作成方法を参照してください。
+* **キャンペーン**&#x200B;の場合： キャンペーンを作成し、アクションとして「**WhatsApp**」を選択し、基本設定を定義してから、メッセージのコンテンツを編集して送信する WhatsApp メッセージを定義します。 詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)を作成する方法を参照してください
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
+
+## ユースケース {#use-cases}
+
+WhatsAppは、オーディエンスが既にプラットフォームを使用しており、リッチコンテンツと真の双方向の会話を組み合わせたい場合に最も効果的に機能します。
+
+| 利点 | 理由 | ユースケースの例 |
+| --- | --- | --- |
+| グローバルな高いエンゲージメント | 多くの地域で広く利用されているメッセージングプラットフォーム | WhatsAppですでにアクティブな国際的な視聴者にリーチ |
+| リッチでインタラクティブなメッセージ | 画像、ビデオ、ボタン、クイック返信をサポート | 商品カタログ、予約確認、クイック返信オプション |
+| 双方向の会話体験 | 受信者は同じスレッド内で返信できます | カスタマーサポートとの会話、注文追跡に関する質問 |
+| 公式APIによるコンプライアンスと信頼 | Metaの検証済みCloud APIを介して配信され、送信者確認が可能 | 受信者の信頼を築く、ブランド検証済みのコミュニケーション |
+| 他のチャネルとの統合 | 他のチャネルと並行して、ジャーニーやキャンペーンのレイヤー化が可能 | WhatsAppを補完的な接点として利用したマルチチャネルジャーニー |
+
+## 使用しない場合 {#when-not-to-use}
+
+WhatsAppは、オーディエンスの導入と明示的な同意に依存しているため、あらゆるシナリオに適しているわけではありません。 次のような状況では、別のチャネルを検討してください。
+
+* オーディエンスはWhatsAppを利用しません。なぜなら、地域やデモグラフィックによって採用は大きく異なるからです
+* 受信者は、Metaのメッセージングポリシーで必要とされる明示的なオプトインを行っていません
+* メッセージは緊急であり、保証された配信が必要であり、WhatsAppの配信とテンプレートレビューの制約により、SMSまたはプッシュ通知の処理が向上します
+* コンテンツは長いまたは複雑で、メールに適しており、よりスペースと豊富なフォーマットが提供されます
+* リアルタイムの会話サポートは、双方向のWhatsApp スレッドがタイムリーな返信の期待を設定するため、あなたの側では実現不可能です
 
 ## 前提条件 {#prereq}
 
@@ -76,7 +92,7 @@ WhatsApp を Journey Optimizer と統合するには、次が必要です。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470245?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

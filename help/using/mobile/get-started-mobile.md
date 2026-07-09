@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 24%
+source-wordcount: 1314
+ht-degree: 19%
 
 ---
 
@@ -53,17 +46,37 @@ ht-degree: 24%
 
 * キャンペーンの&#x200B;**キャンペーン**:Create&#x200B;で、「モバイルメッセージ」をアクションとして選択し、基本設定を定義してから、メッセージコンテンツを編集します。 詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)を作成する方法を参照してください
 
+## ユースケース {#use-cases}
+
+SMS、MMS、RCSは、アプリがインストールされているか、インターネット接続があるかにかかわらず、確実にユーザーにリーチする必要がある場合に最も機能します。
+
+| 利点 | 理由 | ユースケースの例 |
+| --- | --- | --- |
+| リーチの最大化と即時性 | メッセージの受信にアプリやインターネット接続は必要ありません | スマートフォンアプリをインストールせずに利用者にリーチ |
+| 可視性の確保 | SMSの開封率が90%を超えています | OTP コード、予約リマインダー、配達通知 |
+| MMS/RCSによるリッチコンテンツ | プレーンテキストの枠を超えて、画像、ビデオ、インタラクティブ要素を追加します | ブランドプロモーション、商品カタログ |
+| アプリにアクセスせずにユーザーにリーチ | アプリをインストールまたは開いていない受信者に対して機能します | 一度離脱したアプリの利用者のリエンゲージメント、アプリ以外の顧客のオンボーディング |
+| 緊急性の高いCTA | 利用者が頻繁にチェックするデバイスに直接配信 | フラッシュセールス、不正アラート、サービス停止の通知 |
+| 他のチャンネルとのレイヤー | プッシュ通知、電子メール、アプリ内メッセージを補完し、幅広く対応 | SMSをフォールバックチャネルとして使用したマルチチャネルジャーニー |
+
+## 使用しない場合 {#when-not-to-use}
+
+SMS、MMS、RCSは、必ずしも最も効率的または適切な選択肢ではありません。 次のような状況では、別のチャネルを検討してください。
+
+* SMSおよびMMSはメッセージごとに課金されるため、配信数が多い場合はコストが懸念されます。メッセージあたりのコストは、大規模になると急増します
+* コンテンツは長文または複雑で、より充実したフォーマットと長いテキストをサポートするメールに適しています
+* 受信者は明示的にオプトインしていないため、ほとんどの地域やメッセージ規制において法的およびコンプライアンス上のリスクが伴います
 
 ## 主な特長 {#key-features}
 
 | 機能 | 説明 |
 |---|---|
 | **パーソナライゼーション** | パーソナライゼーションエディターを使用して、プロファイル属性、条件付きコンテンツ、動的データでメッセージをカスタマイズします。 [詳細情報](../personalization/personalize.md) |
-| **プロバイダーのサポート** | API統合を介して、[Sinch](mobile-configuration-sinch.md)、[Twilio](mobile-configuration-twilio.md)、[Infobip](mobile-configuration-infobip.md)、または任意の[&#x200B; カスタムプロバイダー](mobile-configuration-custom.md)と接続します。 |
+| **プロバイダーのサポート** | API統合を介して、[Sinch](mobile-configuration-sinch.md)、[Twilio](mobile-configuration-twilio.md)、[Infobip](mobile-configuration-infobip.md)、または任意の[ カスタムプロバイダー](mobile-configuration-custom.md)と接続します。 |
 | **URL短縮** | エンゲージメントを監視するために、追跡可能な短縮URLを追加します。 サブドメイン設定が必要です。 [詳細情報](mobile-subdomains.md) |
 | **オプトアウト管理** | 標準のオプトアウトキーワード（停止、終了、キャンセルなど）の組み込みの処理 SinchとInfobipの。 [詳細情報](mobile-opt-out.md) |
 | **プレビューとテスト** | 送信前に、テストプロファイルとサンプルデータを使用してコンテンツを検証します。 [詳細情報](send-mobile-message.md) |
-| **レポーティング** | 専用の[&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja-sms.md)と[&#x200B; ジャーニーレポート &#x200B;](../reports/journey-global-report-cja-sms.md)を使用して、キャンペーンとジャーニーのパフォーマンスを追跡します。 |
+| **レポーティング** | 専用の[ キャンペーンレポート ](../reports/campaign-global-report-cja-sms.md)と[ ジャーニーレポート ](../reports/journey-global-report-cja-sms.md)を使用して、キャンペーンとジャーニーのパフォーマンスを追跡します。 |
 
 ## 設定要件 {#configuration-requirements}
 
@@ -88,7 +101,7 @@ Journey OptimizerでRCSを使用するには、次の前提条件が必要です
 
 ## その他のリソース {#additional-resources}
 
-Journey Optimizerのモバイルメッセージについて詳しくは、以下のトピックを参照してください。
+Journey Optimizerのモバイルメッセージについて詳しくは、以下のトピックを参照してください。 詳しいユースケースとベストプラクティスについては、モバイル学習ハブの[SMS/MMS/RCSの概要](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}も参照してください。
 
 +++設定ガイド
 
@@ -154,7 +167,7 @@ SMS をカスタマージャーニーやキャンペーンに組み込む方法�
 
 **ネイティブのRCS メッセージはTwilioまたはInfobipで利用できますか？**
 
-いいえ。 Journey Optimizerのネイティブ RCS デザイナーは、TwilioやInfobipなどのサードパーティのSMS プロバイダーを使用している場合は使用できません。 ただし、RCS メッセージは[&#x200B; カスタムプロバイダー統合](mobile-configuration-custom.md)を介して送信できます。
+いいえ。 Journey Optimizerのネイティブ RCS デザイナーは、TwilioやInfobipなどのサードパーティのSMS プロバイダーを使用している場合は使用できません。 ただし、RCS メッセージは[ カスタムプロバイダー統合](mobile-configuration-custom.md)を介して送信できます。
 
 **なぜRCSと一緒にSMSを購入するのですか？**
 
@@ -186,7 +199,7 @@ SMS メッセージを設定、作成およびカスタマージャーニーに�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3422696?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -196,7 +209,7 @@ Adobe Journey Optimizer がマーケターに提供する包括的なモバイ�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3430376?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -206,6 +219,6 @@ Adobe Journey Optimizer がマーケターに提供する包括的なモバイ�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3464756?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++

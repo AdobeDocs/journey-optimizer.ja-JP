@@ -7,26 +7,15 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 TQID: https://experienceleague.adobe.com/ZOCKgdEGK0G3GOhNbwxSXVOQo0We6-QdjzItFtZ5T3E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
-workflow-type: ht
-source-wordcount: 986
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f88eedcc-cf3e-46b8-9e94-0293589325f3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 1246
+ht-degree: 79%
 
 ---
 
@@ -54,6 +43,28 @@ ht-degree: 100%
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
 ➡️ コンテンツ実験を使用してコードベースのエクスペリエンスチャネルと決定を比較する方法を示すエンドツーエンドのユースケースについて詳しくは、[この節](../experience-decisioning/experience-decisioning-uc.md)を参照してください。
+
+## ユースケース {#use-cases}
+
+コードベースのチャネルは、ビジュアルエディターがサポートする範囲を超えて、実装の構築と保守に利用可能な開発リソースがある場合に最も効果的に機能します。
+
+| 利点 | 理由 | ユースケースの例 |
+| --- | --- | --- |
+| 高度なパーソナライゼーション | ビジュアルエディターが公開する以上の複雑なロジックとリアルタイムデータをサポートします | リアルタイムのインベントリやユーザーコンテキストにもとづくPersonalization |
+| 外部システムとの統合 | コンテンツは、外部システムからのデータを使用して構成できます | 天候にもとづくプロモーションとリアルタイムの在庫主導型オファー |
+| 高度なマルチステップの条件付きワークフロー | 事前に定義されたビジュアルチャネルのアクションに限定されません | 顧客接点をまたいだマルチステップの意思決定ロジック |
+| プラットフォームの限界を超える | 制作者はインタラクティブなカスタムエレメントを作成し | すぐに使用できるチャネルでサポートされていないカスタム UI コンポーネント |
+| キャンペーンの柔軟性を向上 | コンテンツとロジックは、独自の実装で定義されます | ヘッドレス、API ベース、またはブラウザー以外のデジタルプロパティ |
+
+## 使用しない場合 {#when-not-to-use}
+
+コードベースのチャネルには開発の労力が必要となるため、あらゆるシナリオに最適な選択肢ではありません。 次のような状況では、別のチャネルを検討してください。
+
+* 施策は迅速かつシンプルで、webやアプリなどのノーコードチャネルで、開発の手間をかけずに構築できます
+* カスタム実装のビルドと検証に利用できる開発者向けリソースまたはテスト環境がありません
+* コードベースのエクスペリエンスでは、より事前の計画が必要となるため、カスタム開発のタイムラインや予算は限られています
+* 標準メッセージは既に組み込みのチャネル機能に適合しているため、カスタム開発は不要です
+* カスタムコードの長期的なメンテナンス性は懸念事項です。サーフェスと実装には継続的な開発者サポートが必要です
 
 ## コードベースのチャネルと他のチャネルを使用する場合 {#code-based-vs-other-channels}
 
@@ -133,4 +144,5 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 * **[コードベースのエクスペリエンスのテスト](test-code-based.md)** - 公開前にコードベースのエクスペリエンスをプレビューおよびテストする方法について説明します。
 * **[実装サンプル](code-based-implementation-samples.md)** - 様々なユースケースのコード例と実装パターンについて説明します。
 * **[コードベースのエクスペリエンスのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - コードベースの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
+
 
