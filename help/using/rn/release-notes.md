@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
+source-git-commit: d61f15e630592fa21ac2667fffa4d215a7baf6e1
 workflow-type: tm+mt
-source-wordcount: 2698
-ht-degree: 79%
+source-wordcount: 2765
+ht-degree: 78%
 
 ---
 
@@ -50,6 +50,8 @@ ht-degree: 79%
 
 ## 26年7月の更新 {#july-26-updates}
 
+### 新機能 {#july-26-new-capabilities}
+
 <table>
 <thead>
 <tr>
@@ -66,6 +68,12 @@ ht-degree: 79%
 </tr>
 </tbody>
 </table>
+
+### 改善点 {#july-26-improvements}
+
+* **AJO MCP サーバーの新しいツール** - [!DNL Adobe Journey Optimizer] MCP サーバーには、さらに5つの読み取り専用&#x200B;**チャネル設定ツール**&#x200B;が公開され、AI アシスタントから直接チャネル設定、サポートリソース、およびマーケティングアクションをクエリできるようになりました。 **List Channel Configurations** （すべてのAJO チャネルで）、**Get Channel Configuration**、**List Configuration Resources**、**Get Configuration Resource**、および&#x200B;**List Marketing Actions**&#x200B;を使用できるようになりました。 [詳細情報](../integrations/ajo-mcp.md#mcp-tools)
+
+  ご利用いただけます：2026年7月9日（PT）
 
 ## 26年6月のリリースノート {#june-26-rn}
 
