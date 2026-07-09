@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 93%
+source-wordcount: 558
+ht-degree: 91%
 
 ---
 
@@ -48,6 +48,8 @@ ht-degree: 93%
 >[!PREREQUISITES]
 >
 >node と npm をインストールする必要があります。 [詳しくは、このドキュメントを参照してください。](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>
+>コンテンツカードで失格ルールを使用するには、Web SDK バージョン 2.28.0以降が必要です。
 
 
 1. HTTPS 用のローカル SSL 証明書を設定します。 これらのサンプルでは、HTTPS 経由でのコンテンツの提供に、ローカルに署名された SSL 証明書が必要です。

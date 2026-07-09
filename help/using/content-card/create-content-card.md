@@ -11,9 +11,9 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 1785
+source-wordcount: 1794
 ht-degree: 80%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 80%
 >[!IMPORTANT]
 >
 >デフォルトでは、「閉じる」ボタンをクリックすると、カードが非表示になります。 さらに機能を追加するには、却下または非選定のルールを手動で定義します。
+>
+>失効ルールには、Web SDK バージョン 2.28.0以降が必要です。
 
 >[!BEGINTABS]
 
