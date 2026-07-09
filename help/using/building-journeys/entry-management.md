@@ -27,7 +27,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
 workflow-type: tm+mt
 source-wordcount: 1875
 ht-degree: 54%
@@ -102,7 +102,7 @@ ht-degree: 54%
 
 * 再エントリが無効な場合、プロファイルはグローバルジャーニータイムアウト期間内に同じジャーニーに複数回エントリできません。 詳しくは、この[節](../building-journeys/journey-properties.md#global_timeout)を参照してください。
 
-デフォルトでは、ジャーニーで再エントリが許可されています。 「**再エントリを許可**」オプションがアクティブ化されると、「**再エントリ待機期間**」フィールドが表示されます。 プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。 これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。 デフォルトでは、このフィールドは 5 分に設定されています。 最大期間は 91 日間（[グローバルタイムアウト](journey-properties.md#global_timeout)）です。
+デフォルトでは、ジャーニーで再エントリが許可されています。 「**再エントリを許可**」オプションがアクティブ化されると、「**再エントリ待機期間**」フィールドが表示されます。 プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。 これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。 デフォルトでは、このフィールドは 5 分に設定されています。 最大期間は90日（[&#x200B; グローバル タイムアウト &#x200B;](journey-properties.md#global_timeout)）です。
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
