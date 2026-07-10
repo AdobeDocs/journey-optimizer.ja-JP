@@ -8,8 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
 source-wordcount: 9416
@@ -25,11 +29,11 @@ ht-degree: 89%
 
 * **PTR レコードを編集** ページに警告が追加され、プラットフォームに新しい転送DNS レコードを追加する際に、古いサブドメインの転送DNS レコードを削除しないでください。削除すると、編集が失敗します。 [詳細情報](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
-* ウェーブを使用した&#x200B;**送信** ページが更新され、ウェーブ間でのオーディエンスの再評価の動作が明確になりました。オーディエンスメンバーシップはアクティベーション時（スナップショット）に固定されますが、プロファイル属性と同意は各ウェーブプロセス時に評価されます。 つまり、波間で発生するオプトアウトが尊重されます。 詳しくは、[ ジャーニー](../building-journeys/send-using-waves.md#faq)および[ キャンペーン ](../campaigns/send-using-waves.md#faq)に関するFAQ セクションをご覧ください。
+* ウェーブを使用した&#x200B;**送信** ページが更新され、ウェーブ間でのオーディエンスの再評価の動作が明確になりました。オーディエンスメンバーシップはアクティベーション時（スナップショット）に固定されますが、プロファイル属性と同意は各ウェーブプロセス時に評価されます。 つまり、波間で発生するオプトアウトが尊重されます。 詳しくは、[&#x200B; ジャーニー](../building-journeys/send-using-waves.md#faq)および[&#x200B; キャンペーン &#x200B;](../campaigns/send-using-waves.md#faq)に関するFAQ セクションをご覧ください。
 
 * **データガバナンス** ページが更新され、DULE ポリシーの適用が&#x200B;**プロファイル属性フィールドのみに**&#x200B;適用されることが明確になりました。 イベントベースのフィールド（ジャーニーイベントフィールドなどのコンテキスト属性）はサポートされていません。UIのこれらのフィールドに適用されるラベルは、データの使用を制限しません。 [詳細情報](../action/action-privacy.md)
 
-* **Send-Time Optimization** ドキュメントが更新され、次の&#x200B;]**以内に送信できる新しい**[!UICONTROL &#x200B;送信時間が&#x200B;**2～100時間** （以前は1～168）に制限され、この機能でサポートされているAEP Hub リージョンがドキュメントに表示されるようになりました。 [詳細情報](../building-journeys/send-time-optimization.md#use-send-time-optimization)
+* **Send-Time Optimization** ドキュメントが更新され、次の&#x200B;**以内に送信できる新しい**&#x200B;送信時間が&#x200B;**2～100時間** （以前は1～168）に制限され、この機能でサポートされているAEP Hub リージョンがドキュメントに表示されるようになりました。 [詳細情報](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
 * **パーソナライズされた最適化モデル** ページが更新され、最新のモデル改善点を反映し、アンサンブルモデルの仕組み、データセット要件、ユースケース、主要な仮定、コールドスタート動作がカバーされるようになりました。 詳しくは、[Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md)および[Offer Decisioning](../offers/ranking/personalized-optimization-model.md)の節を参照してください。
 
@@ -55,7 +59,7 @@ ht-degree: 89%
 
 * フラグメントに関連するテーマが含まれていない場合に、フラグメントの挿入がブロックされることを説明するために、5 テーマの互換性の制限（Adobeのデフォルトのテーマ制約を含む）を明示的に文書化するために、フラグメントのテーマを利用&#x200B;**ドキュメントが明確になりました**。 [詳細情報](../email/apply-email-themes.md#leverage-themes-fragment)
 
-* 主要な考慮事項、データセットと基礎スキーマの無効化の違い、Adobe Experience Platform計画およびベストプラクティスのドキュメントへのリンクなど、リアルタイム顧客プロファイルのデータセットとスキーマの有効化に関するガイダンスを含む、**データセットの基本を学ぶ** ページと&#x200B;**スキーマの基本を学ぶ** ページが更新されました。 [ データセットの詳細](../data/get-started-datasets.md)および[ スキーマの詳細](../data/get-started-schemas.md)
+* 主要な考慮事項、データセットと基礎スキーマの無効化の違い、Adobe Experience Platform計画およびベストプラクティスのドキュメントへのリンクなど、リアルタイム顧客プロファイルのデータセットとスキーマの有効化に関するガイダンスを含む、**データセットの基本を学ぶ** ページと&#x200B;**スキーマの基本を学ぶ** ページが更新されました。 [&#x200B; データセットの詳細](../data/get-started-datasets.md)および[&#x200B; スキーマの詳細](../data/get-started-schemas.md)
 
 * 新しい&#x200B;**Adobe Journey Optimizerの使用を開始する** オンボーディングハブが利用可能になりました。 新規顧客は、役割ごとにパスを選択したり、基礎を調べたり、オンボーディング済みの場合は、最初に確認すべき点を知らなくても日々の業務に取り組むことができます。 [詳細情報](../../rp_landing_pages/get-started-landing-page.md)
 
