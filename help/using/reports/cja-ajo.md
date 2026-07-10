@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: a2519d68e847dd9866ed385a21e405dc6157730b
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 79%
+source-wordcount: 601
+ht-degree: 74%
 
 ---
 
@@ -79,9 +79,12 @@ ht-degree: 79%
 
 * **[!DNL Journey Optimizer] レポートでは、送信済み指標には、再試行指標も含まれます。**
 
-  **[!UICONTROL 再試行]**&#x200B;は、[!DNL Customer Journey Analytics]の&#x200B;**[!UICONTROL 送信済み]**&#x200B;指標には含まれません。これにより、[!DNL Customer Journey Analytics] **[!UICONTROL 送信済み]**&#x200B;指標が[!DNL Journey Optimizer]より低い値を示します。ただし、再試行データは、**[!UICONTROL メッセージが正常に送信された]**&#x200B;または&#x200B;**[!UICONTROL バウンス]**&#x200B;指標に統合されます。
-相違を減らすには、1週間前またはそれ以降の日付範囲を使用します。
+  **[!UICONTROL 再試行]**&#x200B;は、[!DNL Customer Journey Analytics]での&#x200B;**[!UICONTROL 送信済み]**&#x200B;指標には含まれません。 そのため、[!DNL Customer Journey Analytics] **[!UICONTROL 送信済み]**&#x200B;指標には、[!DNL Journey Optimizer] より低い値が表示されます。 ただし、再試行データは、「**[!UICONTROL 正常に送信されたメッセージ]**」または「**[!UICONTROL バウンス]**」指標に収束されます。相違を減らすには、1 週間前またはそれ以降の日付範囲を使用します。
 
 * **レポートは、異なるデータソースから提供されています。**
 
   その結果、製品間で 1～2％のデータの相違が生じる可能性があります。
+
+* **データセットが最近レポート接続に追加されました。**
+
+  新しく追加されたデータセットの履歴を自動的にバックフィルするには、数日かかる場合があります。 完了するまで、新しいデータが既に正しく流れ込んでいても、そのデータセットの過去のレポートは不完全またはゼロとして表示される場合があります。 これは、データの損失ではなく、期待される動作であることに注意してください。

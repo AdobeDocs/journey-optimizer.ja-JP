@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 9262
-ht-degree: 91%
+source-wordcount: 9416
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 91%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年7月 {#july-2026}
+
+* **PTR レコードを編集** ページに警告が追加され、プラットフォームに新しい転送DNS レコードを追加する際に、古いサブドメインの転送DNS レコードを削除しないでください。削除すると、編集が失敗します。 [詳細情報](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+* ウェーブを使用した&#x200B;**送信** ページが更新され、ウェーブ間でのオーディエンスの再評価の動作が明確になりました。オーディエンスメンバーシップはアクティベーション時（スナップショット）に固定されますが、プロファイル属性と同意は各ウェーブプロセス時に評価されます。 つまり、波間で発生するオプトアウトが尊重されます。 詳しくは、[&#x200B; ジャーニー](../building-journeys/send-using-waves.md#faq)および[&#x200B; キャンペーン &#x200B;](../campaigns/send-using-waves.md#faq)に関するFAQ セクションをご覧ください。
+
+* **データガバナンス** ページが更新され、DULE ポリシーの適用が&#x200B;**プロファイル属性フィールドのみに**&#x200B;適用されることが明確になりました。 イベントベースのフィールド（ジャーニーイベントフィールドなどのコンテキスト属性）はサポートされていません。UIのこれらのフィールドに適用されるラベルは、データの使用を制限しません。 [詳細情報](../action/action-privacy.md)
 
 * **Send-Time Optimization** ドキュメントが更新され、次の&#x200B;**以内に送信できる新しい**&#x200B;送信時間が&#x200B;**2～100時間** （以前は1～168）に制限され、この機能でサポートされているAEP Hub リージョンがドキュメントに表示されるようになりました。 [詳細情報](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
