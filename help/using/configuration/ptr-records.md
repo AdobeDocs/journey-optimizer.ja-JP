@@ -10,24 +10,15 @@ level: Experienced
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 TQID: https://experienceleague.adobe.com/sdx-XnJMWY5UAkd9-O2Rayjoww3CfeCAgGQgarO2TlY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
-ht-degree: 95%
+source-wordcount: 922
+ht-degree: 90%
 
 ---
 
@@ -117,11 +108,13 @@ PTR レコードを使用すると、受信メールサーバーは、送信メ�
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. 「最初に転送 DNS を作成してからもう一度お試しください」というメッセージが表示された場合は、以下の手順に従ってください。
+   * 転送 DNS レコードが正常に作成されたかどうかを DNS プロバイダーで確認します。
+   * DNS をまたいだレコードはただちに同期されない場合があります。 数分待ってから、もう一度お試しください。
+
+   >[!WARNING]
    >
-   >「最初に転送 DNS を作成してからもう一度お試しください」というメッセージが表示された場合は、以下の手順に従ってください。
-   >   * 転送 DNS レコードが正常に作成されたかどうかを DNS プロバイダーで確認します。
-   >   * DNS をまたいだレコードはただちに同期されない場合があります。 数分待ってから、もう一度お試しください。
+   >ホスティングプラットフォーム上の新しいサブドメインに新しい転送DNS レコードを追加する場合は、移動が完了するまで、古いサブドメインの転送DNS レコードを削除しないでください。 プロセスが完了する前に古いレコードを削除すると、PTR レコードの編集が失敗します。
 
 1. 「 **[!UICONTROL 保存]**」をクリックして変更を確定します。 **[!UICONTROL IP]**&#x200B;および&#x200B;**[!UICONTROL PTR レコード]** フィールドは変更できません。
 
