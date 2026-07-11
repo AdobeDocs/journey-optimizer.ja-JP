@@ -10,31 +10,16 @@ level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
-source-wordcount: 1866
-ht-degree: 52%
+source-wordcount: 1883
+ht-degree: 53%
 
 ---
 
@@ -65,7 +50,7 @@ ht-degree: 52%
 
 >[!TAB ジャーニーへのメールの追加]
 
-1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから「**[!UICONTROL アクション]**」アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから「**[!UICONTROL アクション]**」アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -93,7 +78,7 @@ ht-degree: 52%
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。 [詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB キャンペーンへのメールの追加]
 
@@ -114,7 +99,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ &#x200B;](../campaigns/get-started-with-campaigns.md)を参照してください。
+キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 >[!ENDTABS]
 
@@ -209,20 +194,24 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >
 >メールを使用してジャーニー／キャンペーンをテストまたはアクティブ化できるようにするには、すべての&#x200B;**エラー**&#x200B;アラートを解決する必要があります。
 
-## メールHTMLサイズの最適化 {#optimize-html-size}
+## メールの HTML サイズの最適化 {#optimize-html-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
->title="HTMLのサイズを小さくする"
->abstract="このオプションを有効にすると、不要な空白、インデント、必須ではないコメントを削除して、公開中にメール HTMLを圧縮できます。 これにより、100 KBを超えるメッセージを切り捨てるGmailなどのクライアントでのメールクリッピングを防ぐことができます。 多言語メールを使用する場合、このオプションはすべてのロケールに対してデフォルトで有効になっています。"
+>title="HTML サイズを削減"
+>abstract="不要な空白とインデントを削除して、公開中にメール HTMLを圧縮するには、このオプションを有効にします。 これにより、100 KB を超えるメッセージを切り捨てる Gmail などのクライアントでのメールクリッピングを防ぐことができます。 多言語メールを操作する際、このオプションはすべてのロケールでデフォルトで有効になっています。"
 
-[!DNL Journey Optimizer]を使用すると、不要な空白、インデント、必須ではないコメントを削除して、公開プロセス中にメール HTMLのバージョンを圧縮できます。 HTMLのサイズを小さくすると、次のことが可能になります。
+[!DNL Journey Optimizer]を使用すると、不要な空白とインデントを削除して、公開プロセス中にメール HTMLのバージョンを圧縮できます。 HTMLのサイズを小さくすると、次のことが可能になります。
+
+>[!NOTE]
+>
+>HTMLの重要でないコメントの削除も最適化の一部ですが、2026年7月10日（PT）をもって一時的に無効化されています。
 
 * **電子メールクリッピング**&#x200B;を避けます。Gmailなどの一部のクライアントでは、100 KBを超えるメッセージが切り捨てられ、受信者が完全なコンテンツを表示できなくなります。
 * 受信者の受信トレイに&#x200B;**メールの読み込み時間**&#x200B;を短縮します。
 * **配信品質**&#x200B;を向上させ、帯域幅の使用を減らします。
 
-この最適化は自動的に適用されません。[&#x200B; コンテンツを編集](#define-email-content)画面で手動で有効にする必要があります。
+この最適化は自動的に適用されません。[ コンテンツを編集](#define-email-content)画面で手動で有効にする必要があります。
 
 ![](assets/email-optimize-html-size.png)
 
@@ -243,7 +232,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ### 多言語メールでのHTMLのサイズの最適化 {#optimize-html-multilingual}
 
-[多言語メールのバリエーション &#x200B;](../content-management/multilingual-gs.md)を操作する場合、**[!UICONTROL HTML サイズの最適化]**&#x200B;設定は、ロケールではなく、メールレベルで追跡されます。
+[多言語メールのバリエーション ](../content-management/multilingual-gs.md)を操作する場合、**[!UICONTROL HTML サイズの最適化]**&#x200B;設定は、ロケールではなく、メールレベルで追跡されます。
 
 したがって、任意のロケールでこの設定を有効にすると、公開時にその電子メールのすべてのロケールに適用されます。UIでチェックボックスがまだオフになっているロケールも含まれます。 ロケールごとにアクションを繰り返す必要はありません。
 
@@ -251,7 +240,7 @@ HTML サイズの最適化を無効にするには、すべてのロケールで
 
 >[!NOTE]
 >
->[&#x200B; コンテンツ実験](../content-management/content-experiment.md)を実行している場合、各処理は個別のメッセージと見なされるため、**[!UICONTROL HTML サイズの最適化]**&#x200B;設定は各処理ごとに個別に管理されます。
+>[ コンテンツ実験](../content-management/content-experiment.md)を実行している場合、各処理は個別のメッセージと見なされるため、**[!UICONTROL HTML サイズの最適化]**&#x200B;設定は各処理ごとに個別に管理されます。
 
 ## メールの確認および送信
 
@@ -296,7 +285,7 @@ HTML サイズの最適化を無効にするには、すべてのロケールで
 1. 送信したら、**[!UICONTROL シミュレーション]**&#x200B;画面に戻り、**[!UICONTROL プルーフを表示]** ボタンをクリックします。
 1. プルーフのステータスの横にある情報アイコンをクリックします。 最適化の詳細は、元のHTML サイズ、最適化されたHTML サイズ、サイズ縮小率など、ポップアップウィンドウに表示されます。
 
-   ![&#x200B; メール最適化の詳細](assets/email-optimize-size-view-proof.png)
+   ![ メール最適化の詳細](assets/email-optimize-size-view-proof.png)
 
    この情報を使用して、最適化された出力を検証し、電子メールが公開前に推奨される100 KBのしきい値内に収まることを確認します。
 
