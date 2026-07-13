@@ -12,7 +12,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
+source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
 workflow-type: tm+mt
 source-wordcount: 709
 ht-degree: 10%
@@ -20,6 +20,14 @@ ht-degree: 10%
 ---
 
 # Adobe Experience Manager リポジトリアクセスの設定 {#aem-admin-settings}
+
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;管理者がサンドボックスをAdobe Experience Manager リポジトリに接続し、オーサーのみのアクセスまたはパブリッシュアクセス、カスタムドメイン、認証を設定して、マーケターがジャーニーやキャンペーンでAEM コンテンツフラグメントを使用できるようにする方法について説明します。
+
+>[!ENDSHADEBOX]
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
@@ -46,12 +54,6 @@ ht-degree: 10%
 >id="ajo_admin_aem_custom_domain"
 >title="カスタムドメイン"
 >abstract="オプション。 「your-publish-instance.adobeaemcloud.com」が組織のコンテンツ取得からブロックされている場合は、カスタムドメインを指定します。"
-
->[!BEGINSHADEBOX]
-
-**このページでは、**&#x200B;管理者がサンドボックスをAdobe Experience Manager リポジトリに接続し、オーサーのみのアクセスまたはパブリッシュアクセス、カスタムドメイン、認証を設定して、マーケターがジャーニーやキャンペーンでAEM コンテンツフラグメントを使用できるようにする方法について説明します。
-
->[!ENDSHADEBOX]
 
 Adobe Journey Optimizerは&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;および&#x200B;**[!DNL Adobe Experience Manager Managed Service]**&#x200B;と統合されているため、ジャーニーとキャンペーンで&#x200B;**コンテンツフラグメント**&#x200B;を使用できます。 **コンテンツフラグメント**&#x200B;は、デフォルトでAdobe Experience Manager パブリッシュリポジトリから読み取られます。管理者は、**[!UICONTROL AEM統合]** メニューでオーサー専用に切り替えたり、パブリッシュアクセスを調整したりできます。
 
