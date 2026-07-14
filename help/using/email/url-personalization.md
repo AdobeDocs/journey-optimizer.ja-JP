@@ -11,10 +11,10 @@ keywords: url、リンク、パーソナライゼーション、トラッキン�
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 23%
+source-wordcount: 570
+ht-degree: 17%
 
 ---
 
@@ -73,9 +73,15 @@ Journey Optimizerでは、URLの&#x200B;**entire** URLまたは&#x200B;**base do
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!IMPORTANT]
+>[!CAUTION]
 >
->URLの完全なパーソナライズまたはベースのパーソナライズを有効にするには、Adobeに連絡し、許可されたドメインのリストを提供します。 これは、安全でないリダイレクトを防ぐために必要です。
+>* URLの完全なパーソナライズまたはベースのパーソナライズを有効にするには、Adobeに連絡し、許可されたドメインのリストを提供します。 これは、安全でないリダイレクトを防ぐために必要です。
+>
+>* 動的に生成されたURL （送信時にURLまたはベースドメイン全体がプロファイル属性から解決される）には、既知のトラッキング制限があります。Journey Optimizerはこれらのリンクのクリックを確実にトラッキングできず、**クリックデータがジャーニーレポートまたはキャンペーンレポートに表示されない場合があります**。 これは、トラッキングリダイレクトがデザイン時に適用され、最終的なURLが既知になる前に発生します。 解決された値が受信者ごとに異なる場合、リダイレクトチェーンが壊れてクリックが未記録になります。 さらに、解決されたURLは、受信者ごとに`http`または`https`で始まる必要があります。そうでない場合、そのリンクのトラッキングはサイレントスキップされます。 クリックの追跡を維持するには、次のいずれかの方法を使用します。
+>
+>   * 固定ベース URLを使用し、パーソナライズされたパラメーターのみを追加します（例：`https://www.example.com/page?uid={{profile.person.crmid}}`）。
+>   
+>   * 受信者ごとにパーソナライズされたURLを事前生成し、プロファイル属性として保存し、メールコンテンツで参照します。
 
 ## URL トラッキングパラメーターのパーソナライズ {#personalize-url-tracking-parameters}
 
