@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 958f85bb600cc3534070c77ef3ad1c76d4ce4d2d
+source-git-commit: c40641c63a5ec361d80475c0ffdf282db5a16424
 workflow-type: tm+mt
-source-wordcount: '3421'
-ht-degree: 97%
+source-wordcount: '3467'
+ht-degree: 96%
 
 ---
 
@@ -449,6 +449,18 @@ ht-degree: 97%
       + ライブアクティビティチャネルの設定 {#configure}
          + [Journey Optimizer でのライブアクティビティの設定](using/mobile-live/mobile-live-configuration.md)
          + [ライブアクティビティ SDK 統合の設定](using/mobile-live/mobile-live-configuration-sdk.md)
+   + カスタムチャネル {#custom-channel}
+      + {hide-from-toc}[&#x200B; カスタムチャネルの基本を学ぶ](using/custom-channel/get-started-custom-channel.md)
+      + カスタムチャネルの設定 {#configure-custom-channel}
+         + {hide-from-toc}[&#x200B; カスタムチャネルの設定](using/custom-channel/configure-custom-channel.md)
+         + {hide-from-toc}[&#x200B; カスタムチャネルの作成](using/custom-channel/create-custom-channel.md)
+         + {hide-from-toc}[API資格情報の管理](using/custom-channel/custom-channel-api-credentials.md)
+         + {hide-from-toc}[&#x200B; サブドメインのデリゲート &#x200B;](using/custom-channel/custom-channel-subdomains.md)
+         + {hide-from-toc}[&#x200B; チャネル設定の作成](using/custom-channel/custom-channel-configuration.md)
+      + カスタムチャネルエクスペリエンスの構築 {#create-custom-channel-experiences}
+         + {hide-from-toc}[&#x200B; カスタムチャネルエクスペリエンスの作成](using/custom-channel/create-custom-experience.md)
+         + {hide-from-toc}[&#x200B; カスタムチャネルエクスペリエンスをテストする](using/custom-channel/test-custom-channel.md)
+      + {hide-from-toc}[&#x200B; カスタムチャネルの監視](using/custom-channel/monitor-custom-channel.md)
 + コンテンツ管理 {#content-management}
    + [コンテンツ管理](/help/rp_landing_pages/content-management-landing-page.md)
    + パーソナライゼーション {#personalization}

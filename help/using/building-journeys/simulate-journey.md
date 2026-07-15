@@ -11,9 +11,9 @@ keywords: テスト, ジャーニー, チェック, エラー, トラブルシ�
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
+source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: 2909
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >事前入力された実行メールと電話番号のフィールドは、Adobe IMSユーザープロファイルのメールアドレスと電話番号から取得されます。
+   >事前に入力された実行メールおよび電話フィールドは、以前にジャーニーシミュレーションで使用され、ブラウザーにキャッシュされた値から取得されます。
 
    ![&#x200B; クイックシミュレーション値の更新ステップ （待機時間の上書き、プルーフの電子メールおよび電話フィールドを含む） &#x200B;](assets/quick-simulation-3.png)
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >電子メールと電話のフィールドは、Adobe IMSのユーザープロファイルから事前入力されます。
+   >電子メールと電話のフィールドは、ジャーニーシミュレーションで以前に使用した値から事前入力され、ブラウザーにキャッシュされます。
 
    ![実行メールと電話フィールドを含むシミュレートされたユーザーの生成ダイアログと「生成」ボタン &#x200B;](assets/simulate-generate.png)
 

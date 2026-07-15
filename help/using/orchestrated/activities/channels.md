@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
+source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
-source-wordcount: 1877
-ht-degree: 50%
+source-wordcount: 1972
+ht-degree: 48%
 
 ---
 
@@ -69,13 +69,19 @@ UNUSED IDs in BJ
 >title="ダイレクトメールアクティビティ"
 >abstract="ダイレクトメールアクティビティでは、調整されたキャンペーン内でのダイレクトメール送信が促進され、1 回限りのメッセージと繰り返しメッセージの両方を送信できます。 これは、ダイレクトメールプロバイダーが必要とする抽出ファイルを生成するプロセスを自動化するのに役立ちます。 チャネルアクティビティをオーケストレーションキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
 
-[!DNL Adobe Journey Optimizer]を使用すると、マーケティングメッセージとトランザクションメッセージの両方に対して、メール、SMS、プッシュ通知、ダイレクトメールなどのチャネルをまたいでキャンペーンを自動化および実行できます。 これらのチャネルアクティビティをキャンペーンキャンバスに組み合わせて、クロスチャネルのオーケストレーションされたキャンペーンを作成できます。 これらの施策では、顧客の行動やデータにもとづいて行動をトリガーにすることができます。
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_custom"
+>title="カスタムチャネルアクティビティ"
+>abstract="カスタムチャネルアクティビティを使用すると、サードパーティシステムまたはオーケストレーションされたキャンペーン内のカスタム統合を通じてメッセージを送信できます。 オーディエンスデータを外部システムに書き出すことで、パートナープラットフォームや独自のメッセージングツールなどの外部配信プロセスをトリガーにすることができます。 カスタムチャネルのアクティビティをキャンペーンキャンバス内の他のチャネルアクティビティと組み合わせて、ネイティブとカスタムの両方の顧客接点で顧客を惹きつけるクロスチャネルキャンペーンを作成できます。"
+
+[!DNL Adobe Journey Optimizer]を使用すると、マーケティングメッセージとトランザクションメッセージの両方に対して、メール、SMS、プッシュ通知、ダイレクトメール、カスタムのチャネルをまたいでキャンペーンを自動化および実行できます。 これらのチャネルアクティビティをキャンペーンキャンバスに組み合わせて、クロスチャネルのオーケストレーションされたキャンペーンを作成できます。 これらの施策では、顧客の行動やデータにもとづいて行動をトリガーにすることができます。
 
 次に例を示します。
 
 * 電子メール、SMS、プッシュ通知、ダイレクトメールを通じて、ウェルカムシリーズを送信します。
 * 購入後にフォローアップメールを配信します。
 * パーソナライズされた誕生日の挨拶を SMS 経由で送信します。
+* 顧客がショッピングカートを放棄した際に、カスタムチャネルを通じてメッセージをトリガーします。
 
 チャネルアクティビティを使用すると、複数のタッチポイントで顧客を引きつけてコンバージョンを促進する、包括的でパーソナライズされたキャンペーンを作成できます。
 
@@ -180,7 +186,7 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="メール" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>メールの作成</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>SMS の作成</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="プッシュ" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>プッシュ通知の作成</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="ダイレクトメール" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>ダイレクトメールの作成</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="プッシュ" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>プッシュ通知の作成</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="ダイレクトメール" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>ダイレクトメールの作成</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="カスタムチャネル" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>カスタムアクションの作成</strong></a></td>
 </tr></table>
 
 ### パーソナライゼーションの追加 {#add-personalization}
@@ -238,6 +244,22 @@ UNUSED IDs in BJ
 >[!IMPORTANT]
 >
 >配信率を設定する場合、キャンペーンオーディエンスが実行できる最大期間は12時間です。 配信率が、すべてのオーディエンスが12時間以内にメッセージを送信できない値に設定されている場合、残りのプロファイルはキャンペーンから除外されます。 これらの除外されたプロファイルの数は、キャンペーンレポートで確認できます。
+
+<!--
+## Example: cross-channel campaign with a custom channel {#example-custom}
+
+The following example shows an Orchestrated campaign that combines native and custom channels to re-engage lapsed customers.
+
+The campaign targets customers who have not made a purchase in the last 90 days:
+
+1. A **Build audience** activity filters profiles with no purchase in the last 90 days.
+1. A **Split** activity divides the audience into two groups:
+   * **Group A** — customers with a known email address receive a re-engagement email with a personalized discount offer.
+   * **Group B** — customers without an email address, or those who did not open the email after 3 days, are routed to a **Custom channel** activity that triggers a message through a third-party messaging platform (for example, a WhatsApp Business provider or an in-house notification system).
+1. Both branches converge on a **Wait** activity, then a follow-up **SMS** is sent to all profiles who still have not converted.
+
+This pattern lets you extend your campaign reach beyond native channels and engage customers on the platforms they are most active on, without requiring a separate campaign workflow.
+-->
 
 ## 次の手順 {#next}
 
