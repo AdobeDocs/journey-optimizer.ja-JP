@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 82%
+source-wordcount: 352
+ht-degree: 72%
 
 ---
 
@@ -29,6 +28,8 @@ ht-degree: 82%
 >abstract="テストプロファイルを使用して、コンテンツをプレビューおよびテストします。 パーソナライズされたフィールドを追加した場合は、テストプロファイルデータを使用して、その表示方法を確認できます。"
 
 テストプロファイルは、定義したターゲティング条件に一致しない追加の受信者です。 [テストプロファイルの作成方法を学ぶ](../audience/creating-test-profiles.md)
+
+テストプロファイルを選択する前に、使用するID名前空間が、テストプロファイルがAdobe Experience Platformに保存されている名前空間（例：**電子メール**&#x200B;または&#x200B;**電話**）と一致していることを確認してください。 一致しない場合、テストプロファイルは検索フィールドで正しく解決されません。
 
 テストプロファイルを使用してコンテンツをテストする前に、まずテストプロファイルを選択する必要があります。 それには、次の手順に従います。
 
