@@ -31,7 +31,7 @@ ht-degree: 6%
 | **クリック数** | ペイロードで追跡されたリンククリック数。 カスタムチャネルにデリゲートされたサブドメインが必要です。 |
 | **エラー/失敗** | 失敗した配信の試行回数（エラーの理由による内訳）。 |
 
-[ ライブレポート ](../reports/live-report.md)および[ グローバルレポート ](../reports/report-gs-cja.md)の詳細をご覧ください。 レポート機能について詳しくは、[このドキュメント ](../reports/report-cja-manage.md)を参照してください。
+[&#x200B; ライブレポート &#x200B;](../reports/live-report.md)および[&#x200B; グローバルレポート &#x200B;](../reports/report-gs-cja.md)の詳細をご覧ください。 レポート機能について詳しくは、[このドキュメント &#x200B;](../reports/report-cja-manage.md)を参照してください。
 
 <!--
 ### Journey reports {#journey-reports}
@@ -57,7 +57,7 @@ The campaign report includes execution count, successful deliveries, errors, and
 
 [!DNL Journey Optimizer]には、キャンペーンとジャーニーレポートに加えて、専用のカスタムチャネル監視ダッシュボードが用意されています。 **[!UICONTROL 管理]** > **[!UICONTROL チャネル]** > **[!UICONTROL チャネルビルダー]** > **[!UICONTROL カスタムチャネル監視]**&#x200B;からアクセスできます。
 
-![ カスタムチャネル監視ダッシュボード ](assets/custom_channel_monitoring_dashboard.png){width="100%"}
+![&#x200B; カスタムチャネル監視ダッシュボード &#x200B;](assets/custom_channel_monitoring_dashboard.png){width="100%"}
 
 このダッシュボードでは、カスタムチャネルメッセージを配信する際に、[!DNL Journey Optimizer]が外部エンドポイントに対して行うAPI呼び出しの信頼性とパフォーマンスを監視できます。 統合の問題、待ち時間、スロットリングの制限をすばやく特定するために使用します。
 
@@ -67,7 +67,7 @@ The campaign report includes execution count, successful deliveries, errors, and
 
 「**[!UICONTROL カスタムチャネル指標]**」セクションでは、カスタムチャネル呼び出しの運用上の健全性と信頼性の統合ビューを提供します。
 
-![ カスタムチャネル指標](assets/custom_channel_metrics.png){width="100%"}
+![&#x200B; カスタムチャネル指標](assets/custom_channel_metrics.png){width="100%"}
 
 +++ カスタムチャネル指標の詳細
 
@@ -105,7 +105,7 @@ The campaign report includes execution count, successful deliveries, errors, and
 
 ### カスタムチャネルの長期的な成果 {#outcomes-overtime}
 
-![ カスタムチャネルの結果](assets/custom_channel_metrics.png){width="100%"}
+![&#x200B; カスタムチャネルの結果](assets/custom_channel_metrics.png){width="100%"}
 
 **[!UICONTROL カスタムチャネルの経時的な結果]** グラフは、選択した期間におけるHTTP呼び出しKPIの傾向を示しています。 時系列の精度は、選択した時間範囲によって異なります。
 
@@ -115,13 +115,13 @@ The campaign report includes execution count, successful deliveries, errors, and
 
 ### 時間の経過に伴う待ち時間 {#latency-overtime}
 
-![ カスタムチャネルの遅延が時間の経過に伴う](assets/custom_channel_latency.png){width="100%"}
+![&#x200B; カスタムチャネルの遅延が時間の経過に伴う](assets/custom_channel_latency.png){width="100%"}
 
 **[!UICONTROL 時間の遅延]** グラフは、選択した期間の遅延メトリックの傾向を視覚化します。 この時系列ビューでは、パフォーマンスパターンを追跡し、ピーク時の待ち時間を特定し、時間の経過に伴う最適化やシステムの変更の影響を監視することができます。
 
 ### カスタムチャネル結果の内訳 {#outcome-breakdown}
 
-![ カスタムチャネルの結果の内訳](assets/custom_channel_latency.png){width="100%"}
+![&#x200B; カスタムチャネルの結果の内訳](assets/custom_channel_latency.png){width="100%"}
 
 **[!UICONTROL カスタムチャネル成果分類]** テーブルは、HTTP呼び出し指標の階層的な内訳を提供します。上位レベルのエンドポイントごとの全体的な指標から、そのエンドポイントを使用するカスタムチャネルごとの指標、下位レベルでそれらを使用するキャンペーンやジャーニーに至るまで、HTTP呼び出し指標の階層的な内訳を示します。
 

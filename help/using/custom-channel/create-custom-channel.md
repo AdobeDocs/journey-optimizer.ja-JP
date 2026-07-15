@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->チャネルビルダーにアクセスし、カスタムチャネルを作成および管理するには、**カスタムチャネルの表示**&#x200B;および&#x200B;**カスタムチャネルの管理**&#x200B;権限が付与されている必要があります。<!--[Learn more](../administration/high-low-permissions.md)--> [このセクション ](../administration/permissions.md)で権限を管理する方法について説明します。
+>チャネルビルダーにアクセスし、カスタムチャネルを作成および管理するには、**カスタムチャネルの表示**&#x200B;および&#x200B;**カスタムチャネルの管理**&#x200B;権限が付与されている必要があります。<!--[Learn more](../administration/high-low-permissions.md)--> [このセクション &#x200B;](../administration/permissions.md)で権限を管理する方法について説明します。
 
 ## カスタムチャネルへのアクセスと管理 {#access-channel-builder}
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL チャネルビルダー]**」セクションで「**[!UICONTROL カスタムチャネル]**」を選択します。
 
-   ![ カスタムチャネルインベントリ ](assets/custom_channels_inventory.png){width="70%"}
+   ![&#x200B; カスタムチャネルインベントリ &#x200B;](assets/custom_channels_inventory.png){width="70%"}
 
 1. インベントリには、サンドボックス内のすべてのカスタムチャネルが一覧表示されます。これには、現在のステータスと、外部エンドポイントへの接続に使用された認証タイプが含まれます。
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 外部メッセージングシステムのHTTP URLであるエンドポイントを設定する必要があります。 プロファイルがキャンペーンまたはジャーニーで適格である場合、[!DNL Journey Optimizer]は、パーソナライズされたペイロードを使用して、このエンドポイントにPOST リクエストを送信します。
 
-![ エンドポイント設定](assets/custom_channel_endpoint_configuration.png){width="70%"}
+![&#x200B; エンドポイント設定](assets/custom_channel_endpoint_configuration.png){width="70%"}
 
 1. **[!UICONTROL エンドポイント設定]** セクションで、外部メッセージシステムのホスト **[!UICONTROL URL]**&#x200B;を入力します。
 
@@ -105,7 +105,7 @@ ht-degree: 1%
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![ ヘッダー設定](assets/custom_channel_endpoint_headers.png)
+   ![&#x200B; ヘッダー設定](assets/custom_channel_endpoint_headers.png)
 
    各ヘッダーについて、その値が次であるかどうかを定義できます。
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL ポリシー設定]**」セクションで、[!DNL Journey Optimizer]がリクエストのスループットと失敗をどのように処理するかを定義します。 これは、外部システムがリクエストの量を処理できるようにし、過剰な負荷を避けるために重要です。
 
-   ![ ポリシー設定](assets/custom_channel_endpoint_policy_config.png)
+   ![&#x200B; ポリシー設定](assets/custom_channel_endpoint_policy_config.png)
 
    * **[!UICONTROL スロットルを有効にする]** - デフォルトでは無効になっています。 1秒あたりのリクエストの最大数を設定します（デフォルト：**5,000c**）。 制限に達すると、リクエストはキューに入れられ、できるだけ早く送信されます。
    * **[!UICONTROL 再試行を有効にする]** - デフォルトで有効になっています。 失敗したリクエストの最大再試行回数（デフォルト：**3**、設定可能な範囲：0 ～ 10）を設定します。 これにより、一時的なエラー時にエンドポイントに負担をかけるのを防ぐことができます。
@@ -134,7 +134,7 @@ ht-degree: 1%
 
 このチャネルに使用する必要がある&#x200B;**[!UICONTROL 認証タイプ]**&#x200B;を選択します。 使用可能なオプションは、外部メッセージングシステムでサポートされている認証方法によって異なります。
 
-![認証タイプ ](assets/custom_channel_authentication_type.png){width="70%"}
+![認証タイプ &#x200B;](assets/custom_channel_authentication_type.png){width="70%"}
 
 エンドポイントで必要に応じて認証の詳細を指定します。
 
@@ -190,7 +190,7 @@ ht-degree: 1%
 
 チャネルのステータスが&#x200B;**[!UICONTROL ドラフト]**&#x200B;である間、画面上部の&#x200B;**[!UICONTROL 接続をテスト]** ボタンを使用して、エンドポイントにテストリクエストを送信し、エンドツーエンドの接続を検証します。
 
-![接続をテスト ボタン ](assets/custom_channel_test_connection.png){width="70%"}
+![接続をテスト ボタン &#x200B;](assets/custom_channel_test_connection.png){width="70%"}
 
 外部システムのログを確認して、リクエストが期待される認証とペイロードで受信されたことを確認します。
 
@@ -210,5 +210,5 @@ ht-degree: 1%
 これでカスタムチャネルが作成されました。 残りの手順に従って、設定を完了します。
 
 * [API資格情報を設定](custom-channel-api-credentials.md) （チャネルが認証を使用している場合）
-* [ サブドメインをデリゲート ](custom-channel-subdomains.md) （オプション – リンクトラッキングに必要）
+* [&#x200B; サブドメインをデリゲート &#x200B;](custom-channel-subdomains.md) （オプション – リンクトラッキングに必要）
 * [チャネル設定の作成](custom-channel-configuration.md)

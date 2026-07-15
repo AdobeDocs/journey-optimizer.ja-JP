@@ -49,5 +49,5 @@ ht-degree: 4%
 
 ## 次の手順 {#next-steps}
 
-* [ サブドメインをデリゲート ](custom-channel-subdomains.md) （オプション – リンクトラッキングに必要）
+* [&#x200B; サブドメインをデリゲート &#x200B;](custom-channel-subdomains.md) （オプション – リンクトラッキングに必要）
 * [チャネル設定の作成](custom-channel-configuration.md)

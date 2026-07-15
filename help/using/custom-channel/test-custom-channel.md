@@ -62,7 +62,7 @@ ht-degree: 2%
 
 プルーフの結果は、メールプルーフと同じ検証パターンを使用して表示されます。必須フィールド、タイプの不一致、スキーマ検証エラーは、プルーフが送信される前に表示されます。
 
-[ キャンペーン ](../campaigns/create-campaign.md#send-proof)および[ ジャーニー](../building-journeys/testing-the-journey.md)でのプルーフの送信について詳しく見る。
+[&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md#send-proof)および[&#x200B; ジャーニー](../building-journeys/testing-the-journey.md)でのプルーフの送信について詳しく見る。
 
 ## ジャーニーテストモードでのテスト {#test-journey}
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 1. トリガーイベントを設定するか、オーディエンストリガージャーニーのテストプロファイルを選択します。
 
-1. **[!UICONTROL トリガーをクリックするか、**[!UICONTROL  オーディエンスを読み取り&#x200B;]**アクティビティを通じてプロファイルを入力します。]**
+1. **[!UICONTROL トリガーをクリックするか、**&#x200B;[!UICONTROL &#x200B; オーディエンスを読み取り&#x200B;]&#x200B;**アクティビティを通じてプロファイルを入力します。]**
 
 1. カンバス内のフローを確認します。 プロファイルがカスタムチャネルアクションノードに到達すると、[!DNL Journey Optimizer]はパーソナライズされたペイロードで外部エンドポイントを呼び出します。
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 1. 完了したら、**[!UICONTROL テストの停止]**&#x200B;をクリックします。
 
-[ テストモード ](../building-journeys/testing-the-journey.md)でのジャーニーのテストについて詳しく説明します。
+[&#x200B; テストモード &#x200B;](../building-journeys/testing-the-journey.md)でのジャーニーのテストについて詳しく説明します。
 
 ## ジャーニーのシミュレーション {#simulate-journey}
 
