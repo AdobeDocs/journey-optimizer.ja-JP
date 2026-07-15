@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 958f85bb600cc3534070c77ef3ad1c76d4ce4d2d
+source-git-commit: c40641c63a5ec361d80475c0ffdf282db5a16424
 workflow-type: tm+mt
-source-wordcount: '3421'
-ht-degree: 97%
+source-wordcount: '3467'
+ht-degree: 96%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 97%
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[ジャーニーキャンバスの向上](using/rn/new-canvas.md)
-   + {hide-from-toc}[&#x200B; オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
-   + {hide-from-toc}[電子メールトラッキングピクセルに関するCNIL ガイダンス &#x200B;](using/privacy/cnil-pixel-tracking.md)
+   + {hide-from-toc}[ オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[電子メールトラッキングピクセルに関するCNIL ガイダンス ](using/privacy/cnil-pixel-tracking.md)
 + 基本を学ぶ {#get-started}
    + [ここから開始](/help/rp_landing_pages/get-started-landing-page.md)
    + [オンボーディングハブ](using/start/onboarding-hub.md)
@@ -150,7 +150,7 @@ ht-degree: 97%
    + {hide-from-toc}[ロイヤルティの課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[ロイヤルティの課題のパフォーマンスの監視](using/loyalty-challenges/loyalty-reporting.md)
    + {hide-from-toc}[ロイヤルティの課題の設定](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[ロイヤルティデータとデータセット](using/loyalty-challenges/loyalty-data-and-datasets.md)
@@ -449,6 +449,18 @@ ht-degree: 97%
       + ライブアクティビティチャネルの設定 {#configure}
          + [Journey Optimizer でのライブアクティビティの設定](using/mobile-live/mobile-live-configuration.md)
          + [ライブアクティビティ SDK 統合の設定](using/mobile-live/mobile-live-configuration-sdk.md)
+   + カスタムチャネル {#custom-channel}
+      + {hide-from-toc}[ カスタムチャネルの基本を学ぶ](using/custom-channel/get-started-custom-channel.md)
+      + カスタムチャネルの設定 {#configure-custom-channel}
+         + {hide-from-toc}[ カスタムチャネルの設定](using/custom-channel/configure-custom-channel.md)
+         + {hide-from-toc}[ カスタムチャネルの作成](using/custom-channel/create-custom-channel.md)
+         + {hide-from-toc}[API資格情報の管理](using/custom-channel/custom-channel-api-credentials.md)
+         + {hide-from-toc}[ サブドメインのデリゲート ](using/custom-channel/custom-channel-subdomains.md)
+         + {hide-from-toc}[ チャネル設定の作成](using/custom-channel/custom-channel-configuration.md)
+      + カスタムチャネルエクスペリエンスの構築 {#create-custom-channel-experiences}
+         + {hide-from-toc}[ カスタムチャネルエクスペリエンスの作成](using/custom-channel/create-custom-experience.md)
+         + {hide-from-toc}[ カスタムチャネルエクスペリエンスをテストする](using/custom-channel/test-custom-channel.md)
+      + {hide-from-toc}[ カスタムチャネルの監視](using/custom-channel/monitor-custom-channel.md)
 + コンテンツ管理 {#content-management}
    + [コンテンツ管理](/help/rp_landing_pages/content-management-landing-page.md)
    + パーソナライゼーション {#personalization}
