@@ -10,23 +10,16 @@ level: Intermediate
 keywords: 式，エディター，ヘルパー，ユースケース，パーソナライゼーション
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 81%
+source-wordcount: 1712
+ht-degree: 61%
 
 ---
 
@@ -77,13 +70,13 @@ ht-degree: 81%
 1. このイベントで開始されるジャーニーを作成します。
 1. ジャーニーに&#x200B;**メール**&#x200B;アクティビティを追加します。
 
-   ![&#x200B; フロー内のイベントとメールアクティビティを含むジャーニーキャンバス &#x200B;](assets/personalization-uc-helpers-8.png)
+   ![ フロー内のイベントとメールアクティビティを含むジャーニーキャンバス ](assets/personalization-uc-helpers-8.png)
 
 ## 手順 2： メールの作成 {#configure-email}
 
 1. **メール**&#x200B;アクティビティで、「**[!UICONTROL コンテンツを編集]**」をクリックしたあと、「**[!UICONTROL E メールデザイナー]**」をクリックします。
 
-   ![&#x200B; コンテンツの編集およびDesignerの電子メール オプションを使用した電子メールアクティビティ &#x200B;](assets/personalization-uc-helpers-1.png)
+   ![ コンテンツの編集およびDesignerの電子メール オプションを使用した電子メールアクティビティ ](assets/personalization-uc-helpers-1.png)
 
 1. E メールデザイナーホームページの左側のパレットから、3 つの構造コンポーネントをメッセージの本文にドラッグ＆ドロップします。
 
@@ -96,7 +89,7 @@ ht-degree: 81%
 1. E メールデザイナーのホームページで、顧客の名を追加する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
-   ![&#x200B; ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
+   ![ ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`upperCase` 文字列関数を追加します。
    1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
@@ -109,7 +102,7 @@ ht-degree: 81%
       {%= upperCase(string) %}
       ```
 
-      ![&#x200B; ヘルパー関数でupperCase関数が選択された式エディター](assets/personalization-uc-helpers-4.png)
+      ![ ヘルパー関数でupperCase関数が選択された式エディター](assets/personalization-uc-helpers-4.png)
 
 1. 式から「string」プレースホルダーを削除します。
 1. 名トークンを追加します。
@@ -123,7 +116,7 @@ ht-degree: 81%
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![&#x200B; プロファイル名トークンを含むupperCaseを表示する式エディター](assets/personalization-uc-helpers-5.png)
+      ![ プロファイル名トークンを含むupperCaseを表示する式エディター](assets/personalization-uc-helpers-5.png)
 
       ユーザー名データタイプについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target="_blank"}を参照してください。
 
@@ -142,7 +135,7 @@ ht-degree: 81%
 1. E メールデザイナーのホームページで、買い物かごの内容を一覧表示する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
-   ![&#x200B; ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
+   ![ ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`each` ヘルパーを追加します。
    1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
@@ -178,7 +171,7 @@ ht-degree: 81%
 
       この例では、*event_ID* はイベントの ID を表します。
 
-      ![&#x200B; コンテクスト属性にproductListItemsが含まれる式エディター](assets/personalization-uc-helpers-10.png)
+      ![ コンテクスト属性にproductListItemsが含まれる式エディター](assets/personalization-uc-helpers-10.png)
 
    1. 式を次のように変更します。
       1. 「.product」文字列を削除します。
@@ -239,7 +232,7 @@ ht-degree: 81%
 1. E メールデザイナーのホームページで、メモを挿入する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
-   ![&#x200B; ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
+   ![ ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`if` ヘルパーを追加します。
    1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
@@ -331,19 +324,19 @@ ht-degree: 81%
 
 1. 「**[!UICONTROL テスト]**」切替スイッチをオンにしてから、「**[!UICONTROL イベントをトリガー]**」をクリックします。
 
-   ![&#x200B; テスト トグルをオンにしてジャーニー ボタンをトリガーするイベントボタン &#x200B;](assets/personalization-uc-helpers-15.png)
+   ![ テスト トグルをオンにしてジャーニー ボタンをトリガーするイベントボタン ](assets/personalization-uc-helpers-15.png)
 
 1. **[!UICONTROL イベント設定]**&#x200B;ウィンドウで、入力値を入力し、「**[!UICONTROL 送信]**」をクリックします。
 
    テストモードは、テストプロファイルでのみ機能します。
 
-   入力値と送信ボタンを含む![&#x200B; イベント設定ウィンドウ &#x200B;](assets/personalization-uc-helpers-16.png)
+   入力値と送信ボタンを含む![ イベント設定ウィンドウ ](assets/personalization-uc-helpers-16.png)
 
    メールがテストプロファイルのアドレスに送信されます。
 
    この例では、Juno Jacket に関するメモがメールに含まれています。これは、この製品が買い物かごに入っているからです。
 
-   ![&#x200B; メッセージ本文にJuno Jacketの配送伝票が表示されているメールの例](assets/personalization-uc-helpers-17.png)
+   ![ メッセージ本文にJuno Jacketの配送伝票が表示されているメールの例](assets/personalization-uc-helpers-17.png)
 
 1. エラーがないことを確認し、ジャーニーを公開します。
 
@@ -366,4 +359,66 @@ ht-degree: 81%
 
 ヘルパー関数の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+
+## クイックリファレンス {#quick-reference}
+
+このセクションには、このトピックに関連する解釈、検索、質問への回答をサポートすることを目的とした構造化された知識が含まれています。
+
+理解を深めるには、この情報をこのページのドキュメントと組み合わせる必要があります。 どちらのソースも単独で使用することを意図していません。このページでは、機能について説明しますが、この節では、用語、意図、適用可能性、および制約の曖昧さを解消するのに役立つ追加のコンテキストを提供します。
+
+>[!BEGINTABS]
+
+>[!TAB 概要]
+
+**TL;DR**
+
+このページでは、`upperCase`、`each`、`if`という3つのヘルパー関数を使用したカート放棄メールのユースケースを説明します。この機能を使用すると、大文字で顧客の名前を表示し、カート項目を一覧表示し、製品固有の配送伝票を条件付きで挿入できます。
+
+**インテント**
+
+* スキーマに`productListItems`配列が含まれるジャーニーイベントを作成します
+* `{%= upperCase(profile.person.name.firstName) %}`を使用して顧客の名前を大文字で挿入する
+* `context.journey.events.event_ID.productListItems`を`{{#each}}`で繰り返し処理して、カート項目を一覧表示します
+* `{%#if context.journey.events.\`event_ID\&#39;.productListItems.name = &quot;product_name&quot; %}&#39;を使用して、製品固有のメモを条件付きで表示します
+* イベントペイロードを使用したテストプロファイルを使用して、テストモードでジャーニーをテストし、公開します
+
+>[!TAB 用語集]
+
+* **`upperCase`**：文字列を大文字に変換するPQL文字列関数。`{%= upperCase(string) %}`で呼び出されます。 *（製品固有）*
+* **`each`ヘルパー**: `productListItems`などの配列を反復処理するHandlebars ブロックヘルパー（`{{#each array as |alias|}} ... {{/each}}`）。 *（製品固有）*
+* **`if`ヘルパー**：指定された条件がtrueの場合にのみコンテンツをレンダリングする条件付きブロックヘルパー（`{%#if condition%} ... {%else%} ... {%/if%}`）。
+* **`productListItems`**: カートの内容を表す標準のXDM配列。フィールドには`name`、`quantity`、および`priceTotal`が含まれます。 *（製品固有）*
+* **テストモード**：公開前にジャーニーとメッセージの動作を検証するために、テストメッセージをテストプロファイルアドレスに送信できるようにするジャーニー機能。 *（製品固有）*
+
+>[!TAB 用語]
+
+* **正規名：** カート放棄メール – バリエーション：カート放棄のユースケース
+* **混同しないでください：** `context.journey.events.event_ID.productListItems` （イベントソースの配列、コンテキスト属性を介してアクセス） ≠ `profile.*`属性（プロファイルソース、常に使用可能）
+
+>[!TAB  ガードレールと制限]
+
+* コンテキスト属性（ジャーニーイベントデータを含む）は、メッセージが関連イベントを含むジャーニー内に配置された後にのみ、パーソナライゼーションエディターで使用できます。
+* テストモードは、テストプロファイルでのみ機能します。
+
+>[!TAB FAQ]
+
+**Q：この使用例では、どのヘルパー関数が使用されていますか？**
+
+3つ：`upperCase` （大文字で名前をレンダリング）、`each` （買い物かごアイテムの配列を繰り返し処理）、`if` （製品固有の配送伝票を条件付きで表示）。
+
+**Q: パーソナライゼーション式の買い物かご項目データの取得元はどこですか？**
+
+ジャーニーイベントの`productListItems`配列から、`context.journey.events.event_ID.productListItems`のコンテキスト属性を介してアクセスします。
+
+**Q: メッセージをジャーニー内に配置する前に、コンテキスト属性を使用できますか？**
+
+いいえ。 コンテキスト属性は、メッセージが関連イベントを含むジャーニー内に配置された後にのみ、パーソナライゼーションエディターで使用できます。
+
+**Q: カートデータを使用してメールをテストするにはどうすればよいですか？**
+
+ジャーニーの&#x200B;**テスト** トグルをオンにし、**イベントのトリガー**&#x200B;をクリックし、イベント設定ウィンドウに入力値を入力してから、**送信**&#x200B;をクリックします。 テストプロファイルのアドレスにメールが送信されます。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->
