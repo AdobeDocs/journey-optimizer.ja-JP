@@ -10,12 +10,19 @@ level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2:
+  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
+  - id: e51e8901-97d9-4f7d-a835-503025a90e32
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 1979
@@ -33,7 +40,7 @@ ht-degree: 31%
 
 [!DNL Journey Optimizer]のPersonalizationは、同じ式で一緒に動作する2つの補完的な構文を使用します。
 
-* **Handlebars** （`{{...}}`） – プロファイル属性のレンダリング、配列のループ、および呼び出しブロックヘルパーに使用されます。 詳しくは、[HandlebarsJS ドキュメント ](https://handlebarsjs.com/)を参照してください。
+* **Handlebars** （`{{...}}`） – プロファイル属性のレンダリング、配列のループ、および呼び出しブロックヘルパーに使用されます。 詳しくは、[HandlebarsJS ドキュメント &#x200B;](https://handlebarsjs.com/)を参照してください。
 * **Profile Query Language （PQL）** （`{%= ... %}`） – 組み込み関数の呼び出し（例：`upperCase()`、`formatDate()`、`dateDiff()`）および条件式の評価に使用されます。
 
 どのコンテキストにいるのかを理解することは、ランタイムエラーを回避するための鍵となります。 例えば、`{{...}}`内に配置されたPQL関数呼び出しは、HandlebarsがPQL式として評価するのではなくヘルパーとして解決しようとするため、失敗します。
@@ -105,7 +112,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->予約済みキーワードのバックティック エスケープは、`{{...}}`個のHandlebars パスと`{%= ... %}`個のPQL エクスプレッションの両方に適用されます。これは、これらのキーワードがパス解決レベルで予約されているためです。 これは、バックティックエスケープがPQL式の内部でのみサポートされるハイフネーション付きフィールド名とは異なります。 [ ハイフネーションされた属性キー](#hyphenated-keys)を参照してください。
+>予約済みキーワードのバックティック エスケープは、`{{...}}`個のHandlebars パスと`{%= ... %}`個のPQL エクスプレッションの両方に適用されます。これは、これらのキーワードがパス解決レベルで予約されているためです。 これは、バックティックエスケープがPQL式の内部でのみサポートされるハイフネーション付きフィールド名とは異なります。 [&#x200B; ハイフネーションされた属性キー](#hyphenated-keys)を参照してください。
 
 ## 特殊属性キーのPQL構文ルール {#pql-special-keys}
 
@@ -312,7 +319,7 @@ XDM スキーマフィールド名にハイフン （例：`order-total`）が�
 {%= profile.events.`order-total` > 100 %}
 ```
 
-すぐに使用できるエクスプレッションについては、[Personalization レシピ ](personalization-recipes.md)を参照してください。
+すぐに使用できるエクスプレッションについては、[Personalization レシピ &#x200B;](personalization-recipes.md)を参照してください。
 
 ## クイックリファレンス {#quick-reference}
 
@@ -381,7 +388,7 @@ PQLの等価比較には、1つの`=`を使用します。 `==`を使用する�
 
 **Q：名前が予約されたキーワードであるスキーマフィールドを参照する方法（例：`next`、`last`、`this`）を教えてください。**
 
-バックティックで折り返します：`{{profile.person.\`next\&#39;.name}&#39;。 これは、Handlebars パスとPQL エクスプレッションの両方に適用されます。
+バックティックで折り返します：`{{profile.person.\`next\&#39;.name&rbrace;&#39;。 これは、Handlebars パスとPQL エクスプレッションの両方に適用されます。
 
 **Q: `{{...}}` Handlebars ブロック内でPQL関数を呼び出すことはできますか？**
 

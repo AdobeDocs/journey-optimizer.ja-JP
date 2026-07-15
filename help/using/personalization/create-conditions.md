@@ -9,8 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, 条件, ルール
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: a757b957-83f3-4a4d-9775-a93854f84f77
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 1255

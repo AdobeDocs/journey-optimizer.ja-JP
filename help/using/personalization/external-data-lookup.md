@@ -8,8 +8,10 @@ level: Experienced
 hide: true
 badge: label="限定提供" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 2044
