@@ -8,8 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, コンテンツフラグメント，管理，リポジトリ，認証，著者，公開
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
@@ -64,7 +66,7 @@ Adobe Journey Optimizerは&#x200B;**[!DNL Adobe Experience Manager as a Cloud Se
 
 Journey Optimizerには、組織、サンドボックス、Adobe Experience Manager リポジトリごとに1つの統合機能が保存されます。 同じ組み合わせで新しい統合機能を保存すると、以前の設定が置き換えられ、最新の設定のみが保持されます。
 
-➡️ [ ビデオ ](#video)でAdobe Experience Manager Managed Serviceのこの機能を確認する
+➡️ [&#x200B; ビデオ &#x200B;](#video)でAdobe Experience Manager Managed Serviceのこの機能を確認する
 
 リポジトリを設定するには：
 
