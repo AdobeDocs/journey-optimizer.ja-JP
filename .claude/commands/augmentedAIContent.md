@@ -1,32 +1,48 @@
 ---
-source-git-commit: c81615909e033d52fbed56f0195467a3e346a4be
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 1%
+source-wordcount: '1406'
+ht-degree: 0%
 
 ---
 # augmentedAIContent
 
-Journey Optimizer ドキュメントリポジトリの1つ以上のマークダウンファイルの最後に、自動生成AI アシスタント アコーディオンを追加します。
+Journey Optimizer ドキュメントリポジトリの1つ以上のマークダウンファイルの最後に、自動生成された&#x200B;**クイックリファレンス** セクションを追加します。
 
 ## ターゲットリポジトリ
 
 `help/using/` （リポジトリルートに対して相対的）
 
-## アコーディオン構文（Experience League）
+## セクションとタブの構文（Experience League）
+
+### セクション見出し
 
 ```
-+++Title of the accordion
+## Quick reference {#quick-reference}
+```
+
+### タブ
+
+```
+>[!BEGINTABS]
+
+>[!TAB Tab name]
 
 Content here — any standard markdown is valid.
 
-+++
+>[!TAB Another tab]
+
+Content here.
+
+>[!ENDTABS]
 ```
 
 **ルール：**
-- 1行の`+++Title` — タイトルはすぐに`+++`に続きます
-- 行の`+++`のみがアコーディオンを閉じます
-- 開始`+++`の前と終了`+++`の後の空白行
+
+- `>[!BEGINTABS]`と`>[!ENDTABS]`はそれぞれ自分の行で、空白行で囲まれています
+- `>[!TAB Name]`を行い、その後にコンテンツの前に空白行が続きます
+- タブ名はタイトルケース、短い（1～3語）
+- `>[!BEGINTABS]`の前と`>[!ENDTABS]`の後の空白行
 
 &#x200B;---
 
@@ -46,71 +62,103 @@ Content here — any standard markdown is valid.
 
 1. **ファイル**&#x200B;を完全に読み取ります。
 2. **ページトピックを理解する** – どのような機能、概念、タスクをカバーしていますか？
-3. **以下のコンテンツ生成ルールを使用して、アコーディオンコンテンツ**&#x200B;を生成します。
+3. **以下のコンテンツ生成ルールを使用して、セクションコンテンツ**&#x200B;を生成します。
 4. **生成後の検証チェックリストを実行する** （以下を参照） – スキップしないでください。
-5. **AI アコーディオンが既に末尾に存在するかどうかを**&#x200B;確認します（末尾の`+++AI Knowledge Reference`を探してください）。 はい場合は、ユーザーに「置換」または「スキップ」を依頼します。
+5. **クイック参照セクションが既に末尾に存在するかどうかを**&#x200B;確認します（末尾の`## Quick reference`を探してください）。 はい場合は、ユーザーに「置換」または「スキップ」を依頼します。
 
-### ステップ 3 - アコーディオンを追加する
+### ステップ 3 - ページ本文に対するすべての要求を検証する
+
+追加する前に、生成されたセクションのクレームをクレーム別に再度読みます。 この手順は&#x200B;**必須で、短いファイルであっても** スキップできません。 手順4に進む前に、エラーを修正します。
+
+**用語とラベル**
+
+- [ ] セクション内のすべての用語、ラベル、およびUI名がページ本文に表示されます。別のページから読み込まれたり、一般的な製品知識から推測されたりすることはありません
+- [ ]両方のフォームがページに表示されない限り、同義語は表示されません
+- [ ]すべての「混同しない」エントリは、このページで言及された概念のみを参照します
+
+**ガードレールと制限**
+
+- [ ]すべての数値は、ページ本文と正確に一致します
+- [ ] ページ本文がその単語を使用しているか、システムが適用することを明確に示している場合にのみ、制限を&#x200B;**ハード**&#x200B;と呼びます（例：「超過できません」、「最大許容」、「サポートされている場合のみ」）
+- [ ] ページ本文がその単語または同等の単語を使用している場合にのみ、制限を&#x200B;**推奨**&#x200B;と呼びます（「最適なパフォーマンスを得るために」、「推奨されます」）
+- [ ] ページ本文が修飾子を与えない場合、セクションは何も与えません。1つ作成しないでください
+- [ ] ソースページの内容に関するメタコメンデーションがありません（例：「このページには特定の番号は記載されていません」）
+
+**用語集の定義**
+
+- [ ] ページ本文に含まれていない技術的な詳細が定義されていません
+- [ ] ドキュメントセット内の他のページからの情報を使用して詳細な入力を行わない
+
+**FAQの回答**
+
+- [ ]すべての特定の詳細（UI アフォーダンス、ボタン名、フィールド名、ステップシーケンス）は、推測や他のページから読み込まれることなく、ページ本文に記載されています
+- [ ] No answerは、ページ本文がアドレス指定していない情報を紹介します
+
+**修正ルール：**&#x200B;いずれかのチェックが失敗した場合は、コンテンツ **before**&#x200B;の追加を修正してください。 手順5 レポートに修正をすべて記録します。
+
+&#x200B;---
+
+### ステップ 4 - セクションを追加する
 
 以下の&#x200B;**コンテンツ生成ルール**&#x200B;で定義されている固定開始ブロックと完全テンプレートを使用します。 ファイルの最後に追加し、その後すぐに同期コメントを追加します。
 
 ```
-<!-- ai-accordion-version: 1 | source-hash: [first 8 chars of MD5 of file content before accordion] -->
+<!-- ai-section-version: 1 | source-hash: [first 8 chars of MD5 of file content before section] -->
 ```
 
-このコメントを使用すると、将来のツールやライターは、ページ本文がアコーディオンからドリフトしたことを検出できます。 他のコンテンツは変更しないでください。
+このコメントを使用すると、将来のツールやライターは、ページ本文がセクションからドリフトした場合に検出できます。 他のコンテンツは変更しないでください。
 
-### ステップ 4：レポート
+### ステップ 5 - レポート
 
 - 変更されたファイル：✓
-- スキップされたファイル +理由（既にアコーディオン/空/インデックスページがあります）
+- スキップされたファイル +理由（既にセクション / 空/ インデックスページがあります）
 - 手順2中に発生した検証警告
 
 &#x200B;---
 
 ## コンテンツ生成ルール
 
-ページを分析し、**の下のセクションをマークダウン箇条書きとして**&#x200B;順番に作成します。 意味のあるコンテンツを抽出できないセクションをスキップします。
+ページを分析し、**の下のタブを順番**&#x200B;に作成します。 意味のあるコンテンツを抽出できない場合は、タブを完全にスキップします。
 
-### アコーディオンのタイトルと固定開封部分 – 冗長、変更しない
+### セクションの見出しと固定開口部 – 一語一句修正しない
 
-すべてのアコーディオンは、このブロックから始まる必要があります。 そのままコピーします。言い換えたり、凝縮したり、並べ替えたりしないでください。
+すべてのクイックリファレンスセクションは、このブロックから始まる必要があります。 そのままコピーします。言い換えたり、凝縮したり、並べ替えたりしないでください。
 
 ```
-+++ AI Knowledge Reference
+## Quick reference {#quick-reference}
 
 This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
 
 For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 ```
 
-生成されたコンテンツの節は、この2つの段落の直後に続きます。
+`>[!BEGINTABS]` ブロックは、これら2つの段落の直後に続きます。
 
-### 1. TL;DR
+### タブ 1 – 概要
 
-そのページが教えたり可能にすることの一文の要約。
-
-```
-- **TL;DR:** [one sentence]
-```
-
-### &#x200B;2. 意図
-
-3-6このページを読んだ後に達成できること。
+1文のTL；ページが教えているか有効にするもののDR サマリーに続いて、ユーザーがこのページを読んだ後に達成できること3-6を示します。
 
 ```
-**Intents:**
-- [action]
-- [action]
+>[!TAB Overview]
+
+**TL;DR**
+
+[one sentence]
+
+**Intents**
+
+* [action]
+* [action]
 ```
 
-### &#x200B;3. 用語集
+### タブ 2 – 用語集
 
 短い定義を含むこのページ/機能に固有の主な用語。 製品固有の用語にフラグを付ける：
 
 ```
-**Glossary:**
-- **[Term]**: [definition] *(product-specific)*
+>[!TAB Glossary]
+
+* **[Term]**: [definition] *(product-specific)*
 ```
 
 このページに関連する用語のみを含めます。 一般的なマーケティング用語は使用しないでください。
@@ -123,47 +171,52 @@ For complete understanding, this information should be combined with the documen
 
 ページに存在するモードのみを含めます。 ページ本文から製品正確な用語をコピーします。これらのいずれかに「合成プロファイル」、「偽データ」、「実際のデータなし」を代入しないでください。
 
-### &#x200B;4. ガードレール
-
-制限事項、前提条件、権限、またはページに記載されている制約。
-
-```
-**Guardrails:**
-- [guardrail]
-```
-
-**ガードレール精度ルール – 必須：**
-
-- **すべての数値制限**&#x200B;を推奨またはハードとして選定します。 例：「最大10個のデータセット検索」ではなく、「最大10個のデータセット検索」メッセージ（ハード制限）。
-- **すべてのスループットまたはレート図**&#x200B;をスコープで選定します。 例：「150,000 メッセージ/時間TPS キャップ（サンドボックスあたり）」ではなく、「150,000 メッセージ/時間キャップ」。
-- **ページ本文**&#x200B;に対するすべてのガードレールをクロスチェックしてから、それを含めます。 ページが10、アコーディオンが5と表示されている場合、アコーディオンは間違っています。 ページ本文はAuthoritativeです。
-- **ページに記載されていないガードレール**&#x200B;を推測しないでください。 制約が存在するが、ページに記述されていない場合は、その制約を省略します。
-
-### &#x200B;5. 用語
+### タブ 3 – 用語
 
 正規の名前、頭字語、使用可能なバリアント、類義語、曖昧さ回避。 主にAI パイプラインの正規化に関するものです。
 
 ```
-**Terminology:**
-- Canonical name: [name] — Acronym: [acronym] — variants: [list]
-- Synonyms: "[term A]" = "[term B]"
-- Do not confuse: "[term]" ≠ "[other term]"
+>[!TAB Terminology]
+
+* **Canonical name:** [name] — Acronym: [acronym] — variants: [list]
+* **Synonyms:** "[term A]" = "[term B]"
+* **Do not confuse:** "[term]" ≠ "[other term]"
 ```
 
 **状態とライフサイクルの精度ルール：**
 ページがライフサイクル（ジャーニーのステータス、メッセージのステータス、キャンペーンの状態など）を説明する場合は、ページ本文から正確なステータスラベルをコピーします。 言い換えないでください。 「混同しない」エントリを使用して、ルートワードを共有するが明確な意味を持つステータスを明確にします。 例：
 
 ```
-- Do not confuse: "Stop" (user-initiated action) ≠ "Stopped" (resulting status) ≠ "Close" (action on Live journey allowing in-progress profiles to finish) ≠ "Closed" (resulting status)
+* Do not confuse: "Stop" (user-initiated action) ≠ "Stopped" (resulting status) ≠ "Close" (action on Live journey allowing in-progress profiles to finish) ≠ "Closed" (resulting status)
 ```
 
-### &#x200B;6. よくある質問
+### タブ 4 - ガードレールと制限
 
-3～6の質問に簡単に回答。
+制限事項、前提条件、権限、またはページに記載されている制約。
 
 ```
-**FAQ:**
-- **Q: [question]** — [short answer]
+>[!TAB Guardrails & Limitations]
+
+* [guardrail]
+```
+
+**ガードレール精度ルール – 必須：**
+
+- **すべての数値制限**&#x200B;を推奨またはハードとして選定します。 例：「最大10個のデータセット検索」ではなく、「最大10個のデータセット検索」メッセージ（ハード制限）。
+- **すべてのスループットまたはレート図**&#x200B;をスコープで選定します。 例：「150,000 メッセージ/時間TPS キャップ（サンドボックスあたり）」ではなく、「150,000 メッセージ/時間キャップ」。
+- **ページ本文**&#x200B;に対するすべてのガードレールをクロスチェックしてから、それを含めます。 ページに「10」と表示され、セクションに「5」と表示された場合、そのセクションは間違っています。 ページ本文はAuthoritativeです。
+- **ページに記載されていないガードレール**&#x200B;を推測しないでください。 制約が存在するが、ページに記述されていない場合は、その制約を省略します。
+
+### タブ 5 — FAQ
+
+3～6の質問に簡単に回答。 各アイテムを太字の問題見出しにしてから段落の回答を挿入します。
+
+```
+>[!TAB FAQ]
+
+**Q: [question]**
+
+[short answer]
 ```
 
 **FAQ精度ルール：**
@@ -180,10 +233,11 @@ For complete understanding, this information should be combined with the documen
 
 ## 生成後の検証チェックリスト
 
-追加する前に、すべてのアコーディオンでこのチェックリストを実行します。 続行する前に、ユーザーにエラーをフラグ付けします。
+追加する前に、すべてのセクションでこのチェックリストを実行します。 続行する前に、ユーザーにエラーをフラグ付けします。
 
 ### ガードレール検査
-- [ ] アコーディオン内のすべての数値が冗長であるか、ページ本文から派生しています
+
+- [ ] セクション内のすべての数値が冗長であるか、ページ本文から派生しています
 - [ ]すべての制限が推奨またはハードとして修飾されています
 - [ ]すべてのスループット図には、そのスコープが含まれます（サンドボックス / 組織/ インスタンス）
 
@@ -196,55 +250,68 @@ For complete understanding, this information should be combined with the documen
 - [ ]用語集には、ページに関連しない一般的なマーケティング用語が含まれていません
 - [ ]件のFAQの回答で、ページに欠けている情報が紹介されない
 
-チェックが失敗した場合は、アコーディオンを修正してから追加します。 手順4のレポートに修正を記録します。
+チェックが失敗した場合は、追加する前にセクションを修正してください。 手順4のレポートに修正を記録します。
 
 &#x200B;---
 
 ## 同期の責任
 
-アコーディオンは、ある時点でのページ本文の派生形です。 ページの一部として扱う必要があります。
+クイックリファレンスセクションは、特定の時点でのページ本文の派生です。 ページの一部として扱う必要があります。
 
 **ページ本文が更新されたとき（リリース PR、修正など）:**
-- 更新によって、アコーディオンに記載されているガードレール、制限、ステータスラベル、または検証モードが変更され→場合は、同じPRでアコーディオンを再生成するか、手動で更新します。
-- 更新がアコーディオンコンテンツ（手順の手順、スクリーンショットの更新など）と無関係な場合は、アコーディオンは変更されないままになる可能性があります→、簡単に確認してください。
 
-アコーディオン （`<!-- ai-accordion-version -->`）の後に追加された同期コメントはシグナルです。そのハッシュが書き込まれてからアコーディオンの前のファイルコンテンツが変更された場合、アコーディオンはレビューの候補となります。
+- 更新によって、セクションで説明されているガードレール、制限、ステータスラベル、または検証モードが変更され→場合は、同じPRのセクションを再生成するか、手動で更新します。
+- 更新がセクションの内容（手順の手順、スクリーンショットの更新など）と関係がない場合は、セクションは変更されないままになる可能性があります→ただし、簡単に確認してください。
+
+セクション （`<!-- ai-section-version -->`）の後に追加された同期コメントはシグナルです。そのハッシュが書き込まれてからセクションの前のファイルコンテンツが変更された場合、セクションはレビューの候補となります。
 
 &#x200B;---
 
 ## 完全テンプレート
 
 ```markdown
-+++ AI Knowledge Reference
+## Quick reference {#quick-reference}
 
 This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
 
 For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
-- **TL;DR:** [one sentence]
+>[!BEGINTABS]
 
-**Intents:**
-- [intent]
+>[!TAB Overview]
 
-**Glossary:**
-- **[Term]**: [definition]
+**TL;DR**
 
-**Guardrails:**
-- [guardrail — type: recommended|hard — scope: sandbox|org]
+[one sentence]
 
-**Terminology:**
-- Canonical name: [name] — Acronym: [acronym] — variants: [variants]
-- Synonyms: "[a]" = "[b]"
-- Do not confuse: "[x]" ≠ "[y]"
+**Intents**
 
-**FAQ:**
-- **Q: [question]** — [short answer]
+* [intent]
 
-+++
-<!-- ai-accordion-version: 1 | source-hash: [hash] -->
+>[!TAB Glossary]
+
+* **[Term]**: [definition] *(product-specific)*
+
+>[!TAB Terminology]
+
+* **Canonical name:** [name] — Acronym: [acronym] — variants: [variants]
+* **Synonyms:** "[a]" = "[b]"
+* **Do not confuse:** "[x]" ≠ "[y]"
+
+>[!TAB Guardrails & Limitations]
+
+* [guardrail — type: recommended|hard — scope: sandbox|org]
+
+>[!TAB FAQ]
+
+**Q: [question]**
+
+[short answer]
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: [hash] -->
 ```
-
-&#x200B;---
 
 ## メモ
 
