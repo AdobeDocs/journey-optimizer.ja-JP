@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 20%
+source-wordcount: 1855
+ht-degree: 18%
 
 ---
 
@@ -83,11 +83,26 @@ ht-degree: 20%
 >title="グローバル設定"
 >abstract="グローバル設定は、イベントや課題全体でメンバーを識別するために使用される ID 名前空間など、ロイヤルティの課題に関する組織レベルの設定を定義します。"
 
-「**[!UICONTROL グローバル設定]**」タブを開き、**[!UICONTROL 名前空間]** ドロップダウンで「[Adobe Experience Platform ID名前空間](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces) for Loyalty Challenges」を選択します。 この名前空間は、データ内のメンバープロファイルの識別方法と一致する必要があります。
+「**[!UICONTROL グローバル設定]**」タブを開いて、ロイヤルティチャレンジのグローバル設定を設定します。
 
 ![](assets/admin-global-settings.png)
 
-➡️ [ID名前空間の操作方法について説明します](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces){target="_blank"}
+* **[!UICONTROL 組織の設定]** セクションで、ロイヤルティチャレンジ用のAdobe Experience Platform [ID名前空間](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)を選択します。 この名前空間は、データ内のメンバープロファイルの識別方法と一致する必要があります。
+
+  ➡️ [ID名前空間の操作方法について説明します](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces){target="_blank"}
+
+* **[!UICONTROL レポート]** セクションを使用して、ロイヤルティインサイトダッシュボードの組織の優先度指標を設定します。 この設定により、フィードでどのインサイトに重点を置くかを決定し、ビジネスにとって最も重要な指標に集中することができます。
+
+  次のいずれかのKPI オプションを選択します。
+
+   * **[!UICONTROL 収益]** – 金銭的取引と販売実績に関するインサイトを優先する
+   * **[!UICONTROL エンゲージメント]** – メンバーのアクティビティと参加に関するインサイトを優先する
+   * **[!UICONTROL 引き換え]** – 特典の引き換え率とアクティビティに関連するインサイトを優先します
+   * **[!UICONTROL コンバージョン]** — コンバージョン指標と目標完了に関連するインサイトを優先します
+
+  KPIを選択すると、その指標に関連するインサイトにスコアリングが強化され、フィードの上部に表示されます。 つまり、選択したKPIに最も関連性の高いインサイトが最初に表示されます。 インサイトは非表示にされません。insightのフィード全体が引き続き表示され、選択したKPIが他の指標よりも優先されます。 この設定は、インサイトがフィードでどのようにランク付けされるかだけに影響し、ロイヤルティプログラムの動作や課題の評価方法は変更されません。 KPIの選択範囲はいつでも変更できます。insight フィードでは、新しい優先度を反映するために、次の更新サイクルで優先順位が変更されます。
+
+  ロイヤルティインサイトとパフォーマンス監視について詳しくは、[&#x200B; ロイヤルティチャレンジのパフォーマンスの監視](loyalty-reporting.md)を参照してください。
 
 ## 報酬プロバイダー {#reward-providers}
 

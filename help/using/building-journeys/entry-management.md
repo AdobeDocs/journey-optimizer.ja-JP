@@ -27,10 +27,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+source-git-commit: 48d26b4669ef3fad87fd05d61ec187b7445d00a8
 workflow-type: tm+mt
-source-wordcount: 1875
-ht-degree: 54%
+source-wordcount: 2175
+ht-degree: 46%
 
 ---
 
@@ -115,6 +115,35 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 <!--
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
 -->
+
+### ジャーニーバージョン間の再エントリ {#reentrance-versions}
+
+プロファイルは、ジャーニーのアクティブなバージョンを含め、同じジャーニーで同時に複数回アクティブにすることはできません。
+
+再エントリ設定は現在のジャーニーのバージョンで設定されますが、[!DNL Journey Optimizer]は、同じジャーニーの別のアクティブなバージョンでプロファイルが既にアクティブであるかどうかも確認します。 プロファイルがまだ以前のバージョンを進んでいる場合、そのアクティブなインスタンスが終了するか、プロファイルが削除されるまで、新しいエントリがブロックされます。
+
+新しいジャーニーバージョンを公開しても、実行中のプロファイルは新しいバージョンに移動しません。 以前のバージョンに既にエントリしたプロファイルは、ジャーニーを終了するまで、そのバージョンのままになります。 後で再度対象となる場合は、最新のライブバージョンを入力します。
+
+**例**
+
+クロスバージョンブロックの仕組みを理解するには、次の順序を考慮してください。
+
+1. ジャーニーのバージョン 1がライブになり、プロファイルがジャーニーにエントリします。
+1. 同じジャーニーのバージョン 2を公開します。
+1. プロファイルがまだバージョン 1でアクティブな場合、バージョン 2で同時に新しいアクティブなインスタンスを開始することはできません。
+1. プロファイルが以前のインスタンスを終了した後、ジャーニーの再エントリ設定に従って、最新のライブバージョンを再度入力できます。
+
+>[!WARNING]
+>
+>**なぜ`exportedsegment_existinginstance`が表示されるのですか？**
+>
+>エラー`exportedsegment_existinginstance`が表示された場合、通常、プロファイルには同じジャーニー内にアクティブなインスタンスが既に存在することを意味します。 これは、プロファイルがそのジャーニーの別のインスタンス（以前のアクティブなバージョンを含む）でアクティブである間に、繰り返しまたは繰り返しエントリが開始しようとしたときに最もよく発生します。
+>
+>このエラーのトラブルシューティングを行う場合は、次の点を確認してください。
+>
+>* ジャーニーの別のアクティブなバージョンでプロファイルがまだ進行中かどうか。
+>* 以前の定期的な実行がまだアクティブかどうかを確認します。
+>* ジャーニーの設計に長時間の待機またはプロファイルを長期間アクティブに保つその他のアクティビティが含まれているかどうか。
 
 ## ビジネスジャーニー {#entry-business}
 

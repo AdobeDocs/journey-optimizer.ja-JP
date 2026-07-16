@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
 source-wordcount: 3490
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -119,7 +119,7 @@ Web SDK （`alloy.js`）は、サイトで必要になる可能性のある個�
 
 1. **データストリームを設定**：Journey Optimizer を有効にして、[!DNL Adobe Experience Platform Data Collection] でデータストリームを作成および設定します。 詳しくは、[データストリームドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}を参照してください。
 
-1. **Web プッシュ通知を有効にする**（オプション）：Web プッシュ通知が一般提供されるようになりました。 Web SDK 設定で [pushNotifications プロパティ](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}を設定し、[sendPushSubscription コマンド](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}を使用してプッシュ購読を登録します。 [Web プッシュ設定の詳細情報](../../push/push-configuration-web.md)。
+1. **Web プッシュ通知を有効にする**（オプション）：Web プッシュ通知が一般提供されるようになりました。 Web SDK 設定で [pushNotifications プロパティ](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"}を設定し、[sendPushSubscription コマンド](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"}を使用してプッシュ購読を登録します。 [Web プッシュ設定の詳細情報](../../push/push-configuration-web.md)。
 
 ### コードベースのエクスペリエンスの実装（Web SDK）
 

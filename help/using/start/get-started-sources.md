@@ -25,10 +25,10 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: ht
-source-wordcount: 724
-ht-degree: 100%
+source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
+workflow-type: tm+mt
+source-wordcount: 726
+ht-degree: 96%
 
 ---
 
@@ -95,6 +95,11 @@ Journey Optimizer では、既存のシステムに接続するための様々�
 * Salesforce
 * Salesforce Marketing Cloud
 
+**ロイヤルティと報酬：**
+* Talon.One
+* キャピラリー
+* コビエ
+
 ➡️完全なリストについて詳しくは、[Experience Platform ソースカタログ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#sources-catalog){target="_blank"}を参照してください
 
 ## 始める前に {#prerequisites}
@@ -138,7 +143,7 @@ Adobe Journey Optimizer は、Adobe Experience Platform のソースフレーム
 ソースの概要と重要な理由を理解したら、次のことを行います。
 
 * [ソースカタログ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#sources-catalog){target="_blank"}を参照して、システムのコネクタを見つけます
-* [ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=ja){target="_blank"}方法を学びます
-* [データマッピングと変換](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=ja){target="_blank"}について理解します
+* [ソース接続の作成](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home){target="_blank"}方法を学びます
+* [データマッピングと変換](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home){target="_blank"}について理解します
 * [インポートしたデータをジャーニーで使用](../building-journeys/journey-gs.md)する方法を確認します
 * Journey Optimizer の完全なデータ設定にソースが適合する仕組みについて詳しくは、[データ管理の基本を学ぶ](../data/gs-data.md)を参照してください。

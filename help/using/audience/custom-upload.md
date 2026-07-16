@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 75%
+source-wordcount: 183
+ht-degree: 58%
 
 ---
 
@@ -40,13 +40,13 @@ Adobe Experience Platform オーディエンスポータルでは、CSV ファ�
 
 カスタムアップロードプロセス中に、ID として使用する CSV 属性と、そのマッピング先のプロファイル ID を指定します。 これにより、オーディエンスデータとプロファイルの間にリンクが作成されます。 CSV ファイルに、プロファイルで見つからない ID 値が含まれている場合、その ID 値を使用して新しいプロファイルが作成されます。
 
->[!NOTE]
->
->カスタムアップロードオーディエンスでは、繰り返しジャーニーで「増分読み取り」が有効になっている場合、これらのオーディエンスは固定されているので、プロファイルは最初の繰り返しでのみ取得されます。
-
 ![](assets/import-audience.png)
 
 オーディエンスの読み込み方法について詳しくは、Adobe Experience Platform [&#x200B; セグメント化サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}を参照してください。
+
+>[!NOTE]
+>
+>カスタムアップロードオーディエンス（CSV アップロード）およびその他の外部オーディエンスの場合、**[!UICONTROL 増分読み取り]**&#x200B;は現在、機能としてサポートされていません。 繰り返しごとに、増分読み取り切り替え設定に関係なく、**オーディエンス全体**&#x200B;が取得されます。
 
 オーディエンスを CSV 形式でアップロードする方法について詳しくは、次のビデオをご覧ください。
 

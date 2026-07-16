@@ -29,10 +29,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
-source-wordcount: 2099
-ht-degree: 97%
+source-wordcount: 2097
+ht-degree: 96%
 
 ---
 
@@ -192,7 +192,7 @@ ht-degree: 97%
 
    1. Adobe Experience Platform のデータ収集で、タグのプロパティにアクセスします。
 
-   1. **[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [&#x200B; データ収集ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください
+   1. **[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [&#x200B; データ収集ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/ui/rules){target="_blank"}を参照してください
 
    1. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 
