@@ -10,27 +10,15 @@ keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 48d26b4669ef3fad87fd05d61ec187b7445d00a8
 workflow-type: tm+mt
-source-wordcount: 1875
-ht-degree: 54%
+source-wordcount: 2175
+ht-degree: 46%
 
 ---
 
@@ -102,7 +90,7 @@ ht-degree: 54%
 
 * 再エントリが無効な場合、プロファイルはグローバルジャーニータイムアウト期間内に同じジャーニーに複数回エントリできません。 詳しくは、この[節](../building-journeys/journey-properties.md#global_timeout)を参照してください。
 
-デフォルトでは、ジャーニーで再エントリが許可されています。 「**再エントリを許可**」オプションがアクティブ化されると、「**再エントリ待機期間**」フィールドが表示されます。 プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。 これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。 デフォルトでは、このフィールドは 5 分に設定されています。 最大期間は90日（[&#x200B; グローバル タイムアウト &#x200B;](journey-properties.md#global_timeout)）です。
+デフォルトでは、ジャーニーで再エントリが許可されています。 「**再エントリを許可**」オプションがアクティブ化されると、「**再エントリ待機期間**」フィールドが表示されます。 プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。 これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。 デフォルトでは、このフィールドは 5 分に設定されています。 最大期間は90日（[ グローバル タイムアウト ](journey-properties.md#global_timeout)）です。
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
@@ -115,6 +103,35 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 <!--
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
 -->
+
+### ジャーニーバージョン間の再エントリ {#reentrance-versions}
+
+プロファイルは、ジャーニーのアクティブなバージョンを含め、同じジャーニーで同時に複数回アクティブにすることはできません。
+
+再エントリ設定は現在のジャーニーのバージョンで設定されますが、[!DNL Journey Optimizer]は、同じジャーニーの別のアクティブなバージョンでプロファイルが既にアクティブであるかどうかも確認します。 プロファイルがまだ以前のバージョンを進んでいる場合、そのアクティブなインスタンスが終了するか、プロファイルが削除されるまで、新しいエントリがブロックされます。
+
+新しいジャーニーバージョンを公開しても、実行中のプロファイルは新しいバージョンに移動しません。 以前のバージョンに既にエントリしたプロファイルは、ジャーニーを終了するまで、そのバージョンのままになります。 後で再度対象となる場合は、最新のライブバージョンを入力します。
+
+**例**
+
+クロスバージョンブロックの仕組みを理解するには、次の順序を考慮してください。
+
+1. ジャーニーのバージョン 1がライブになり、プロファイルがジャーニーにエントリします。
+1. 同じジャーニーのバージョン 2を公開します。
+1. プロファイルがまだバージョン 1でアクティブな場合、バージョン 2で同時に新しいアクティブなインスタンスを開始することはできません。
+1. プロファイルが以前のインスタンスを終了した後、ジャーニーの再エントリ設定に従って、最新のライブバージョンを再度入力できます。
+
+>[!WARNING]
+>
+>**なぜ`exportedsegment_existinginstance`が表示されるのですか？**
+>
+>エラー`exportedsegment_existinginstance`が表示された場合、通常、プロファイルには同じジャーニー内にアクティブなインスタンスが既に存在することを意味します。 これは、プロファイルがそのジャーニーの別のインスタンス（以前のアクティブなバージョンを含む）でアクティブである間に、繰り返しまたは繰り返しエントリが開始しようとしたときに最もよく発生します。
+>
+>このエラーのトラブルシューティングを行う場合は、次の点を確認してください。
+>
+>* ジャーニーの別のアクティブなバージョンでプロファイルがまだ進行中かどうか。
+>* 以前の定期的な実行がまだアクティブかどうかを確認します。
+>* ジャーニーの設計に長時間の待機またはプロファイルを長期間アクティブに保つその他のアクティビティが含まれているかどうか。
 
 ## ビジネスジャーニー {#entry-business}
 
