@@ -219,7 +219,7 @@ stepEvent データを&#x200B;**外部システム**&#x200B;に書き出す場�
 
 ジャーニーのドライラン方法について詳しくは、このビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464683/?captions=jpn&learn=on&enablevpops)
 
 +++ AI ナレッジリファレンス
 
