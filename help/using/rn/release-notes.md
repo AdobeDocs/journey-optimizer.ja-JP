@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 709457e3a823c56785b4046dc2e5032a802f8b5c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5201f92a07a911fe1fbbb5b6adeb4c63841c1dc3
 workflow-type: tm+mt
-source-wordcount: 2884
-ht-degree: 78%
+source-wordcount: 3059
+ht-degree: 74%
 
 ---
 
@@ -95,6 +83,32 @@ ht-degree: 78%
 * **AJO MCP サーバーの新しいツール** - [!DNL Adobe Journey Optimizer] MCP サーバーには、さらに5つの読み取り専用&#x200B;**チャネル設定ツール**&#x200B;が公開され、AI アシスタントから直接チャネル設定、サポートリソース、およびマーケティングアクションをクエリできるようになりました。 **List Channel Configurations** （すべてのAJO チャネルで）、**Get Channel Configuration**、**List Configuration Resources**、**Get Configuration Resource**、および&#x200B;**List Marketing Actions**&#x200B;を使用できるようになりました。 [詳細情報](../integrations/ajo-mcp.md#mcp-tools)
 
   ご利用いただけます：2026年7月9日（PT）
+
+
+### 使いやすさの向上 {#july-26-usability}
+
+2026年7月にリリースされた操作性の改善点は次のとおりです。
+
+#### コンテンツ管理
+
+* **フラグメントインベントリ**&#x200B;のクイック起動ショートカット - **[!UICONTROL その他のアクション]** ボタンを使用して、フラグメントリストから一般的なアクションにすばやくアクセスできるようになりました。 使用可能なショートカットには、フラグメントの編集、詳細の開き方、ドラフトバージョンの破棄などがあります。 [詳細情報](../content-management/manage-fragments.md#quick-launch-fragments)
+
+  ![](../content-management/assets/fragment-quick-launch.png)
+
+* **テンプレート インベントリのクイック起動ショートカット** - コンテンツテンプレートリストの&#x200B;**[!UICONTROL その他のアクション]** ボタンで、テンプレートの詳細の編集、コンテンツのシミュレーション、テンプレートの削除など、一般的なアクションにすばやくアクセスできるようになりました。 メールテンプレートの場合、件名とメール本文の編集、プルーフの表示または送信、迷惑メールレポートの実行、メールのレンダリングを追加のショートカットで実行できます。 [詳細情報](../content-management/access-content-templates.md#quick-launch-templates)
+
+  ![](../content-management/assets/content-template-quick-launch.png)
+
+#### ジャーニー
+
+ジャーニーキャンバスに&#x200B;**新しいユーザーインターフェイス**&#x200B;が導入され、大規模なジャーニーのパフォーマンスの向上、読みやすさの向上による自動レイアウト、ガイド付きのオーサリング体験が実現されました。
+
+![](../building-journeys/assets/journey-new-canvas.png)
+
+新しいUIに切り替えるには、**[!UICONTROL 新しいエクスペリエンス]** ボタンをクリックします。 この設定はジャーニーレベルで保存されるので、ジャーニーはデフォルトで新しいエクスペリエンスで再開されます。 元に戻すには、**[!UICONTROL 古いエクスペリエンス]**&#x200B;をクリックします。 [詳細情報](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+![](../building-journeys/assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## 26年6月のリリースノート {#june-26-rn}
 
@@ -181,7 +195,7 @@ ht-degree: 78%
 </table>
 
 
-* [!BADGE 非推奨]{type=Negative} **オーディエンス選定ノードでバッチオーディエンスが非推奨になりました** - **2026年8月**&#x200B;以降、Journey Optimizerは&#x200B;**オーディエンス選定** ノードでバッチオーディエンスを使用しているジャーニーの公開をブロックします。 ジャーニーキャンバスに検証警告が既に表示されています。 既存のライブジャーニーは影響を受けません。 この設定を含む新しいジャーニー、ドラフトおよび重複したジャーニーは、2026年8月より前に更新する必要があります。 オーディエンス選定ノードでストリーミングオーディエンスを使用するか、**オーディエンスの読み取り** アクティビティに切り替えます。 [&#x200B; ジャーニーを移行する方法について説明します](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE 非推奨]{type=Negative} **オーディエンス選定ノードでバッチオーディエンスが非推奨になりました** - **2026年8月**&#x200B;以降、Journey Optimizerは&#x200B;**オーディエンス選定** ノードでバッチオーディエンスを使用しているジャーニーの公開をブロックします。 ジャーニーキャンバスに検証警告が既に表示されています。 既存のライブジャーニーは影響を受けません。 この設定を含む新しいジャーニー、ドラフトおよび重複したジャーニーは、2026年8月より前に更新する必要があります。 オーディエンス選定ノードでストリーミングオーディエンスを使用するか、**オーディエンスの読み取り** アクティビティに切り替えます。 [ ジャーニーを移行する方法について説明します](../building-journeys/aq-batch-audiences-migration.md)
 
 * **一時停止したジャーニーを直接停止する** - **一時停止した**&#x200B;状態から直接ジャーニーを停止できるようになりました。 以前は、一時停止したジャーニーを停止する前に、**Live**&#x200B;に再開する必要がありました。 [詳細情報](../building-journeys/journey-pause.md#stop-close-paused)
 
