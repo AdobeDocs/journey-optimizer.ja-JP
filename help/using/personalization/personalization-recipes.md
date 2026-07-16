@@ -5,14 +5,11 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: ac5d9310-7772-40fb-9d78-864562e1bfd6
+source-git-commit: 18067b68e09b98e616126dd40b8ad729233c49fa
 workflow-type: tm+mt
-source-wordcount: 1524
+source-wordcount: 1530
 ht-degree: 0%
 
 ---
@@ -27,11 +24,11 @@ ht-degree: 0%
 
 このページでは、Adobe Journey Optimizerの最も一般的なユースケース向けに、すぐに使用できるパーソナライゼーションパターンを提供します。 あらゆる例でパーソナライゼーションエディターの構文を使用しており、電子メール、SMS、プッシュコンテンツに直接コピーできます。
 
-使用可能な関数の完全な参照については、[&#x200B; ヘルパー関数](functions/helpers.md)、[日付/時刻関数](functions/dates.md)、[文字列関数](functions/string.md)、および[配列関数](functions/arrays-list.md)を参照してください。
+使用可能な関数の完全な参照については、[ ヘルパー関数](functions/helpers.md)、[日付/時刻関数](functions/dates.md)、[文字列関数](functions/string.md)、および[配列関数](functions/arrays-list.md)を参照してください。
 
 >[!TIP]
 >
->例をコピーする前に、[Personalizationのベストプラクティス &#x200B;](personalization-syntax.md#best-practices)を確認して、最も一般的な構文エラーを回避します。
+>例をコピーする前に、[Personalizationのベストプラクティス ](personalization-syntax.md#best-practices)を確認して、最も一般的な構文エラーを回避します。
 
 ## 日付と時刻のレシピ {#date-time-recipes}
 
@@ -56,7 +53,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->年の境界で予期しない結果を避けるには、`Y` （週ベースの年）ではなく小文字の`y` （暦年）を使用します。 完全な参照については、[&#x200B; パターン文字](functions/dates.md#pattern-characters)を参照してください。
+>年の境界で予期しない結果を避けるには、`Y` （週ベースの年）ではなく小文字の`y` （暦年）を使用します。 完全な参照については、[ パターン文字](functions/dates.md#pattern-characters)を参照してください。
 
 ### レシピ 2 – 有効期限またはイベント日までのカウントダウン {#recipe-countdown}
 
@@ -139,7 +136,7 @@ Our team will get back to you within 24 hours.
 
 >[!NOTE]
 >
->ジャーニー条件アクティビティでは`{{#each}}`はサポートされていません。 条件の配列フィルタリングには、[&#x200B; コレクション管理関数](../building-journeys/expression/collection-management-functions.md)を使用します。
+>ジャーニー条件アクティビティでは`{{#each}}`はサポートされていません。 条件の配列フィルタリングには、[ コレクション管理関数](../building-journeys/expression/collection-management-functions.md)を使用します。
 
 ### レシピ 7 – 価格で配列から上位N個の項目を表示します {#recipe-first-n}
 
@@ -363,7 +360,7 @@ PQL関数の結果を`{% let variableName = pqlFunction(...) %}`を使用して�
 
 **Q：名前にハイフンが含まれるフィールドを参照する方法を教えてください。**
 
-ハイフネーションされたキーをPQL式の内部でバックティックにラップします：`{%= profile.events.\`order-total\&#39; > 100 %&rbrace;`. Backticks are not supported in plain Handlebars interpolation — use a `{% let %}&#39;変数を必要に応じて中間ステップとして使用します。
+ハイフネーション付きのキーをPQL式``{%= profile.events.`order-total` > 100 %}``内でバックティックに折り返します。 プレーンハンドルバー補間では、バックティックはサポートされていません。必要に応じて、中間ステップとして`{% let %}`変数を使用してください。
 
 **Q: `topN`さんが`{{#each}}` ループの前に`{% let %}`を必要とするのはなぜですか？**
 
