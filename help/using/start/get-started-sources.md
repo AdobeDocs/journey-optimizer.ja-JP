@@ -143,7 +143,7 @@ Adobe Journey Optimizer は、Adobe Experience Platform のソースフレーム
 ソースの概要と重要な理由を理解したら、次のことを行います。
 
 * [ソースカタログ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#sources-catalog){target="_blank"}を参照して、システムのコネクタを見つけます
-* [ソース接続の作成](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}方法を学びます
-* [データマッピングと変換](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}について理解します
+* [ソース接続の作成](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home){target="_blank"}方法を学びます
+* [データマッピングと変換](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home){target="_blank"}について理解します
 * [インポートしたデータをジャーニーで使用](../building-journeys/journey-gs.md)する方法を確認します
 * Journey Optimizer の完全なデータ設定にソースが適合する仕組みについて詳しくは、[データ管理の基本を学ぶ](../data/gs-data.md)を参照してください。
