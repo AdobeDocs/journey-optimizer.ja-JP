@@ -113,7 +113,7 @@ ht-degree: 12%
 
 ロイヤルティへの取り組みに参加できる登録者を定義。
 
-1. **[!UICONTROL Audience]** セクションで、**[!UICONTROL Add audience]**&#x200B;を選択して、チャレンジを特定のAdobe Experience Platform オーディエンスに制限します。 [ オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
+1. **[!UICONTROL Audience]** セクションで、**[!UICONTROL Add audience]**&#x200B;を選択して、チャレンジを特定のAdobe Experience Platform オーディエンスに制限します。 [&#x200B; オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
 
    ![](assets/challenge-create-audience.png)
 
@@ -150,7 +150,7 @@ ht-degree: 12%
 * **[!UICONTROL オプトイントリガー]**:
 
    * **[!UICONTROL オプトイン方法]**：お客様がチャレンジに手動で参加するか、イベントトリガーを通じて参加するかを選択します。
-   * **[!UICONTROL Event]**: イベントベースのオプトインの場合は、トリガーがオプトインするイベントを選択します。 管理者は、![gear](assets/do-not-localize/settings-icon.svg) ボタンをクリックして、イベント定義を作成できます。 [ イベント定義の設定方法を学ぶ](loyalty-admin.md#event-definitions)
+   * **[!UICONTROL Event]**: イベントベースのオプトインの場合は、トリガーがオプトインするイベントを選択します。 管理者は、![gear](assets/do-not-localize/settings-icon.svg) ボタンをクリックして、イベント定義を作成できます。 [&#x200B; イベント定義の設定方法を学ぶ](loyalty-admin.md#event-definitions)
 
 * **[!UICONTROL 進行状況の追跡を開始]**:
 
@@ -195,7 +195,7 @@ ht-degree: 12%
 
    ![](assets/challenge-create-add-task.png)
 
-1. **[!UICONTROL タスクインベントリ]**&#x200B;が開きます。 リストから1つ以上のタスクを選択し、**[!UICONTROL 追加]**&#x200B;を選択します。 新しいタスクを作成するには、**[!UICONTROL 新規]**&#x200B;を選択します。 [ タスクの作成と設定方法について説明します](create-tasks.md)。
+1. **[!UICONTROL タスクインベントリ]**&#x200B;が開きます。 リストから1つ以上のタスクを選択し、**[!UICONTROL 追加]**&#x200B;を選択します。 新しいタスクを作成するには、**[!UICONTROL 新規]**&#x200B;を選択します。 [&#x200B; タスクの作成と設定方法について説明します](create-tasks.md)。
 
 1. チャレンジが完了したと見なされるタイミングを指定します。 使用可能な設定は、チャレンジのタイプによって異なります。
 
@@ -282,7 +282,7 @@ ht-degree: 12%
 
    +++
 
-タスクと報酬を使用してチャレンジ構造を設定した後、オプションでチャレンジを顧客に表示する方法を設定できます。 チャレンジコンテンツが必要ない場合は、この手順をスキップして、[ メッセージングの設定](#configure-messaging)に直接進みます。
+タスクと報酬を使用してチャレンジ構造を設定した後、オプションでチャレンジを顧客に表示する方法を設定できます。 チャレンジコンテンツが必要ない場合は、この手順をスキップして、[&#x200B; メッセージングの設定](#configure-messaging)に直接進みます。
 
 ## チャレンジ コンテンツの設定（オプション） {#configure-content-cards}
 
@@ -299,8 +299,8 @@ ht-degree: 12%
 
 1. アクションタイプを選択します。
 
-   * **[!UICONTROL コンテンツカード]**：課題をカード形式のエクスペリエンスとして顧客デバイスに表示します。 **[!UICONTROL チャネル設定]**&#x200B;を選択し、**[!UICONTROL コンテンツを編集]**&#x200B;をクリックして、カードをデザインおよびパーソナライズします。 [ コンテンツカードの詳細](../content-card/create-content-card.md)。
-   * **[!UICONTROL コードベースのエクスペリエンス]**: Journey Optimizerのコードベースのチャネルを使用して、独自のカスタム実装を通じて課題コンテンツを提供します。 **[!UICONTROL チャネル設定]**&#x200B;を選択し、**[!UICONTROL コンテンツを編集]**&#x200B;をクリックしてコンテンツを定義します。 [ コードベースのエクスペリエンスの詳細](../code-based/create-code-based.md)。
+   * **[!UICONTROL コンテンツカード]**：課題をカード形式のエクスペリエンスとして顧客デバイスに表示します。 **[!UICONTROL チャネル設定]**&#x200B;を選択し、**[!UICONTROL コンテンツを編集]**&#x200B;をクリックして、カードをデザインおよびパーソナライズします。 [&#x200B; コンテンツカードの詳細](../content-card/create-content-card.md)。
+   * **[!UICONTROL コードベースのエクスペリエンス]**: Journey Optimizerのコードベースのチャネルを使用して、独自のカスタム実装を通じて課題コンテンツを提供します。 **[!UICONTROL チャネル設定]**&#x200B;を選択し、**[!UICONTROL コンテンツを編集]**&#x200B;をクリックしてコンテンツを定義します。 [&#x200B; コードベースのエクスペリエンスの詳細](../code-based/create-code-based.md)。
 
    ![](assets/challenge-create-content.png)
 
@@ -331,7 +331,7 @@ ht-degree: 12%
 
    ![](assets/challenge-create-messaging.png)
 
-特定のチャネルのメッセージを作成する方法については、次の節を参照してください。[ アプリ内メッセージ ](../in-app/get-started-in-app.md) - [ メールメッセージ ](../email/get-started-email.md) - [ プッシュ通知](../push/get-started-push.md)
+特定のチャネルのメッセージを作成する方法については、次の節を参照してください。[&#x200B; アプリ内メッセージ &#x200B;](../in-app/get-started-in-app.md) - [&#x200B; メールメッセージ &#x200B;](../email/get-started-email.md) - [&#x200B; プッシュ通知](../push/get-started-push.md)
 
 これで、課題の設定、構造、コンテンツ、メッセージが完全に設定されました。 チャレンジを起動するには、チャレンジと関連するジャーニーを公開する必要があります。
 
@@ -349,13 +349,13 @@ ht-degree: 12%
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizerは、「ドラフト」ステータスでジャーニーを自動的に作成します。 ジャーニーがジャーニーインベントリに表示され、名前フォーマットは&#x200B;*「ジャーニー: [ チャレンジ名]」*&#x200B;です。 [ ジャーニーインベントリの詳細](../building-journeys/journey-ui.md)。
+1. Journey Optimizerは、「ドラフト」ステータスでジャーニーを自動的に作成します。 ジャーニーがジャーニーインベントリに表示され、名前フォーマットは&#x200B;*「ジャーニー: [ チャレンジ名]」*&#x200B;です。 [&#x200B; ジャーニーインベントリの詳細](../building-journeys/journey-ui.md)。
 
    ![](assets/challenge-create-journey.png)
 
-1. ジャーニーを開いて公開します。 ジャーニーは、指定したチャレンジ開始日に自動的に開始され、設定に従ってコンテンツとメッセージが配信されます。 [ ジャーニーを公開する方法について説明します](../building-journeys/publish-journey.md)。
+1. ジャーニーを開いて公開します。 ジャーニーは、指定したチャレンジ開始日に自動的に開始され、設定に従ってコンテンツとメッセージが配信されます。 [&#x200B; ジャーニーを公開する方法について説明します](../building-journeys/publish-journey.md)。
 
-1. チャレンジが開始されたら、[ ロイヤルティチャレンジレポート ](loyalty-reporting.md)で、プログラムのKPI、チャレンジの結果、タスクレベルの指標を監視します。 [ ジャーニーレポート ](../reports/journey-global-report-cja.md)でメッセージ配信を監視することもできます。
+1. チャレンジが開始されたら、[&#x200B; ロイヤルティチャレンジレポート &#x200B;](loyalty-reporting.md)で、プログラムのKPI、チャレンジの結果、タスクレベルの指標を監視します。 [&#x200B; ジャーニーレポート &#x200B;](../reports/journey-global-report-cja.md)でメッセージ配信を監視することもできます。
 
 >[!NOTE]
 >
