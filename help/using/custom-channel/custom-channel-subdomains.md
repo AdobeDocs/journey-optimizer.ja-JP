@@ -35,7 +35,7 @@ ht-degree: 42%
 
 ## カスタムチャネルサブドメインの基本を学ぶ {#gs-custom-channel-subdomains}
 
-カスタムチャネルメッセージでリンクトラッキングを有効にするには、[&#x200B; カスタムチャネル設定の作成時に選択するサブドメインを設定する必要があります](custom-channel-configuration.md#subdomain-delegation)。
+カスタムチャネルメッセージでリンクトラッキングを有効にするには、[ カスタムチャネル設定の作成時に選択するサブドメインを設定する必要があります](custom-channel-configuration.md#subdomain-delegation)。
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。 サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)を参照してください。
 
@@ -47,7 +47,6 @@ TBC
 >
 >To access and edit custom channel subdomains, you must have the **[!UICONTROL Manage Custom Channel Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 -->
-
 ## 既存のサブドメインの使用 {#custom-channel-use-existing-subdomain}
 
 既にアドビにデリゲートされているサブドメインを使用するには、次の手順に従います。
@@ -163,4 +162,4 @@ After your request is handled by Adobe, the undelegated domain is no longer disp
 
 ## 次の手順 {#next-steps}
 
-* [&#x200B; チャネル設定](custom-channel-configuration.md)を作成して、カスタムチャネルを、マーケターがキャンペーンやジャーニーで選択するサブドメイン、資格情報、およびペイロードのデフォルトにリンクします。
+* [ チャネル設定](custom-channel-configuration.md)を作成して、カスタムチャネルを、マーケターがキャンペーンやジャーニーで選択するサブドメイン、資格情報、およびペイロードのデフォルトにリンクします。
