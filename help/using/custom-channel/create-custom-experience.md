@@ -48,15 +48,15 @@ ht-degree: 9%
 
 1. ジャーニーを「[イベント](../building-journeys/general-events.md)」または「[オーディエンスを読み取り](../building-journeys/read-audience.md)」アクティビティで開始します。
 
-1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
 
 1. 「**[!UICONTROL アクション]**」ドロップダウンで、使用するカスタムチャネルを選択します。 カスタムチャネルは、チャネルビルダーで割り当てられた名前とアイコンで一覧表示されます。
 
    ![](assets/custom_channel_journey_action.png){width="80%"}
 
-1. アクションにラベルを追加し、右側のパネルの&#x200B;**[!DNL Configure action]**&#x200B;をクリックして、使用する&#x200B;**[!UICONTROL チャネル設定]**&#x200B;を選択します。 [ カスタムチャネル設定の作成方法について説明します](custom-channel-configuration.md#create-channel-config)
+1. アクションにラベルを追加し、右側のパネルの&#x200B;**[!DNL Configure action]**&#x200B;をクリックして、使用する&#x200B;**[!UICONTROL チャネル設定]**&#x200B;を選択します。 [&#x200B; カスタムチャネル設定の作成方法について説明します](custom-channel-configuration.md#create-channel-config)
 
-1. **[!UICONTROL メッセージ]** セクションで、**[!UICONTROL コンテンツを編集]**&#x200B;をクリックしてペイロードエディターを開き、メッセージを作成します。 [ コンテンツの作成方法を学ぶ](#author-content)
+1. **[!UICONTROL メッセージ]** セクションで、**[!UICONTROL コンテンツを編集]**&#x200B;をクリックしてペイロードエディターを開き、メッセージを作成します。 [&#x200B; コンテンツの作成方法を学ぶ](#author-content)
 
 1. 必要に応じて追加の手順を追加してジャーニーフローを完了し、ジャーニーを公開します。 [詳細情報](../building-journeys/journey-gs.md)
 
@@ -64,29 +64,29 @@ ht-degree: 9%
 
 キャンペーンでカスタムチャネルを使用するには：
 
-1. [ キャンペーンを作成](../campaigns/create-campaign.md)。
+1. [&#x200B; キャンペーンを作成](../campaigns/create-campaign.md)。
 
 1. キャンペーンタイプを選択します。
 
    * **[!UICONTROL スケジュール済み – マーケティング]** – すぐに、または指定した日付に実行されました。 マーケティングメッセージ用に設計され、UIから設定できます。
    * **[!UICONTROL API トリガー – マーケティング/トランザクション]** - API呼び出しを介して実行されます。 イベントをトリガーとしたメッセージ（注文確認やパスワードリセットなど）用に設計されています。 [詳細情報](../campaigns/api-triggered-campaigns.md)
 
-1. キャンペーンの設定を完了します。キャンペーンプロパティ、[ オーディエンス ](../audience/about-audiences.md)、[ スケジュール ](../campaigns/create-campaign.md#schedule)。
+1. キャンペーンの設定を完了します。キャンペーンプロパティ、[&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)、[&#x200B; スケジュール &#x200B;](../campaigns/create-campaign.md#schedule)。
 
 1. 「**[!UICONTROL アクション]**」セクションで、チャネルセレクターからカスタムチャネルを選択します。 サンドボックスで設定されたすべてのカスタムチャネルが、ネイティブチャネルと一緒に表示されます。
 
    ![](assets/custom_channel_campaign_action.png){width="80%"}
 
-1. 使用する&#x200B;**[!UICONTROL チャネル設定]**&#x200B;を選択または作成します。 [ チャネル設定の作成方法について説明します](custom-channel-configuration.md#create-channel-config)
+1. 使用する&#x200B;**[!UICONTROL チャネル設定]**&#x200B;を選択または作成します。 [&#x200B; チャネル設定の作成方法について説明します](custom-channel-configuration.md#create-channel-config)
 
-1. オプションで、**[!UICONTROL アクショントラッキング]**&#x200B;を有効にして、メッセージペイロードに含まれるリンクを自動的に追跡します（カスタムチャネル用に設定されたサブドメインが必要です）。 [ カスタムチャネルのサブドメインをデリゲートする方法について説明します](custom-channel-subdomains.md#subdomain-delegation)
+1. オプションで、**[!UICONTROL アクショントラッキング]**&#x200B;を有効にして、メッセージペイロードに含まれるリンクを自動的に追跡します（カスタムチャネル用に設定されたサブドメインが必要です）。 [&#x200B; カスタムチャネルのサブドメインをデリゲートする方法について説明します](custom-channel-subdomains.md#subdomain-delegation)
 
 1. 「**[!UICONTROL 最適化]**」セクションでは、次のことができます。
 
    * **[!UICONTROL ターゲティングルール]**&#x200B;を作成して、オーディエンスのさまざまなセグメントに異なるメッセージを送信します。 [詳細情報](../campaigns/create-campaign.md#targeting)
    * 「**[!UICONTROL 実験を作成]**」をクリックして、カスタムチャネルメッセージに対してA/B テストを実行します。 [詳細情報](../campaigns/create-campaign.md#content-experiment)
 
-1. 「**[!UICONTROL コンテンツを編集]**」をクリックしてペイロードエディターを開き、メッセージを作成します。 [ コンテンツの作成方法を学ぶ](#author-content)
+1. 「**[!UICONTROL コンテンツを編集]**」をクリックしてペイロードエディターを開き、メッセージを作成します。 [&#x200B; コンテンツの作成方法を学ぶ](#author-content)
 
 1. キャンペーンを確認し、アクティブ化します。 [詳細情報](../campaigns/create-campaign.md)
 
@@ -168,7 +168,7 @@ To add a custom channel in an orchestrated campaign:
 
 >[!NOTE]
 >
->リンクトラッキングには、カスタムチャネル用に設定されたサブドメインが必要です。 [ カスタムチャネルのサブドメインをデリゲートする方法について説明します](custom-channel-subdomains.md#subdomain-delegation)
+>リンクトラッキングには、カスタムチャネル用に設定されたサブドメインが必要です。 [&#x200B; カスタムチャネルのサブドメインをデリゲートする方法について説明します](custom-channel-subdomains.md#subdomain-delegation)
 
 **例 – LINE ペイロードで追跡されたリンク：**
 
