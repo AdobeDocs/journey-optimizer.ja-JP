@@ -31,8 +31,8 @@ ht-degree: 96%
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[ジャーニーキャンバスの向上](using/rn/new-canvas.md)
-   + {hide-from-toc}[ オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
-   + {hide-from-toc}[電子メールトラッキングピクセルに関するCNIL ガイダンス ](using/privacy/cnil-pixel-tracking.md)
+   + {hide-from-toc}[&#x200B; オーディエンス選定からバッチオーディエンスを移行](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[電子メールトラッキングピクセルに関するCNIL ガイダンス &#x200B;](using/privacy/cnil-pixel-tracking.md)
 + 基本を学ぶ {#get-started}
    + [ここから開始](/help/rp_landing_pages/get-started-landing-page.md)
    + [オンボーディングハブ](using/start/onboarding-hub.md)
@@ -151,7 +151,7 @@ ht-degree: 96%
    + {hide-from-toc}[ロイヤルティの課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[ロイヤルティの課題のパフォーマンスの監視](using/loyalty-challenges/loyalty-reporting.md)
    + {hide-from-toc}[ロイヤルティの課題の設定](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[ロイヤルティデータとデータセット](using/loyalty-challenges/loyalty-data-and-datasets.md)
@@ -451,17 +451,17 @@ ht-degree: 96%
          + [Journey Optimizer でのライブアクティビティの設定](using/mobile-live/mobile-live-configuration.md)
          + [ライブアクティビティ SDK 統合の設定](using/mobile-live/mobile-live-configuration-sdk.md)
    + カスタムチャネル {#custom-channel}
-      + {hide-from-toc}[ カスタムチャネルの基本を学ぶ](using/custom-channel/get-started-custom-channel.md)
+      + {hide-from-toc}[&#x200B; カスタムチャネルの基本を学ぶ](using/custom-channel/get-started-custom-channel.md)
       + カスタムチャネルの設定 {#configure-custom-channel}
-         + {hide-from-toc}[ カスタムチャネルの設定](using/custom-channel/configure-custom-channel.md)
-         + {hide-from-toc}[ カスタムチャネルの作成](using/custom-channel/create-custom-channel.md)
+         + {hide-from-toc}[&#x200B; カスタムチャネルの設定](using/custom-channel/configure-custom-channel.md)
+         + {hide-from-toc}[&#x200B; カスタムチャネルの作成](using/custom-channel/create-custom-channel.md)
          + {hide-from-toc}[API資格情報の管理](using/custom-channel/custom-channel-api-credentials.md)
-         + {hide-from-toc}[ サブドメインのデリゲート ](using/custom-channel/custom-channel-subdomains.md)
-         + {hide-from-toc}[ チャネル設定の作成](using/custom-channel/custom-channel-configuration.md)
+         + {hide-from-toc}[&#x200B; サブドメインのデリゲート &#x200B;](using/custom-channel/custom-channel-subdomains.md)
+         + {hide-from-toc}[&#x200B; チャネル設定の作成](using/custom-channel/custom-channel-configuration.md)
       + カスタムチャネルエクスペリエンスの構築 {#create-custom-channel-experiences}
-         + {hide-from-toc}[ カスタムチャネルエクスペリエンスの作成](using/custom-channel/create-custom-experience.md)
-         + {hide-from-toc}[ カスタムチャネルエクスペリエンスをテストする](using/custom-channel/test-custom-channel.md)
-      + {hide-from-toc}[ カスタムチャネルの監視](using/custom-channel/monitor-custom-channel.md)
+         + {hide-from-toc}[&#x200B; カスタムチャネルエクスペリエンスの作成](using/custom-channel/create-custom-experience.md)
+         + {hide-from-toc}[&#x200B; カスタムチャネルエクスペリエンスをテストする](using/custom-channel/test-custom-channel.md)
+      + {hide-from-toc}[&#x200B; カスタムチャネルの監視](using/custom-channel/monitor-custom-channel.md)
 + コンテンツ管理 {#content-management}
    + [コンテンツ管理](/help/rp_landing_pages/content-management-landing-page.md)
    + パーソナライゼーション {#personalization}
