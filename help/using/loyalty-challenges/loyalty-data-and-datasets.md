@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 5%
+source-wordcount: 613
+ht-degree: 9%
 
 ---
 
@@ -62,7 +62,19 @@ ht-degree: 5%
 
 ロイヤルティの課題は、ID、プロファイル属性、エクスペリエンスイベント、オーディエンスをAdobe Adobe Experience Platformに依存します。 このページでは、課題を作成したり、ロイヤルティチャレンジ APIを使用したりする前に、**有効期間（TTL）**&#x200B;がリテンションにどのように影響するかを説明します。
 
-Journey Optimizer プログラムの設定については、Adobe管理者にお問い合わせいただくか、**[!UICONTROL ロイヤルティ管理者]** メニューで報酬フルフィルメントとイベントマッピングを設定してください。 [&#x200B; ロイヤルティに関する課題を設定する方法について説明します](loyalty-admin.md)。 REST エンドポイントと認証については、[&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を参照してください。
+Journey Optimizer プログラムの設定については、Adobe管理者にお問い合わせいただくか、**[!UICONTROL ロイヤルティ管理者]** メニューで報酬フルフィルメントとイベントマッピングを設定してください。 [ ロイヤルティに関する課題を設定する方法について説明します](loyalty-admin.md)。 REST エンドポイントと認証については、[ ロイヤルティチャレンジ API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を参照してください。
+
+## ソース経由のロイヤルティコネクタ {#loyalty-connectors-sources}
+
+ロイヤルティデータが外部の報酬プラットフォームで管理されている場合は、**Sources** コネクタを使用してAdobe Experience Platformにそのデータを取り込み、ロイヤルティチャレンジで使用できます。
+
+Journey Optimizer ドキュメントに記載されているロイヤルティコネクタと報酬コネクタには、次のものが含まれます。
+
+* **Talon.One**
+* **キャピラリー**
+* **Kobie**
+
+コネクタオンボーディングとエンドツーエンドの設定については、[ ソースコネクタの基本を学ぶ](../start/get-started-sources.md)および[Experience Platform ソースカタログ ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#sources-catalog){target="_blank"}を参照してください。
 
 ## Adobe Experience Platform data {#aep-data}
 
@@ -70,19 +82,19 @@ Journey Optimizer プログラムの設定については、Adobe管理者にお
 
 **[!DNL XDM Individual Profile]** クラスのプロファイルを使用して、オーディエンス、パーソナライゼーション、レポートに挑戦します。 ロイヤルティチャレンジに使用するID [名前空間](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces){target="_blank"}を、プロファイルデータ内のメンバーの識別方法と、**[!UICONTROL ロイヤルティ管理者]** メニューの&#x200B;**[!UICONTROL グローバル設定]**&#x200B;で選択した名前空間に合わせます。
 
-プロファイル（ポイント、階層、プログラム、ステータス、および関連フィールド）の標準ロイヤルティ属性の場合は、Experience Platform **[ロイヤルティの詳細](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** スキーマフィールドグループを使用します。 このフィールドグループは、`loyalty` オブジェクトとそのプロパティ （例：`points`、`tier`、`program`、および`status`）を定義します。
+プロファイル（ポイント、階層、プログラム、ステータス、および関連フィールド）の標準ロイヤルティ属性の場合は、Experience Platform **[ロイヤルティの詳細](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** スキーマフィールドグループを使用します。 このフィールドグループは、`loyalty` オブジェクトとそのプロパティ （例：`points`、`tier`、`program`、および`status`）を定義します。
 
-➡️ [&#x200B; ロイヤルティの詳細スキーマフィールドグループ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [ ロイヤルティの詳細スキーマフィールドグループ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### エクスペリエンスイベント {#experience-events}
 
-**[!UICONTROL 購入]**、**[!UICONTROL 支出]**&#x200B;および&#x200B;**[!UICONTROL カスタムイベント]** タスクは、Adobe Experience Platformに取り込まれたエクスペリエンスイベントによって異なります。 **[!UICONTROL カスタムイベント]** タスクの場合、マーケターがタスクビルダーにカスタムイベント値を入力する前に、一致するイベント定義（識別子パス、オプションのXDM スキーマ ID、スキーマ、トランスフォーマ）を&#x200B;**[!UICONTROL ロイヤルティ管理者]** メニューで設定する必要があります。 [&#x200B; イベント定義の設定方法を学ぶ](loyalty-admin.md#event-definitions)
+**[!UICONTROL 購入]**、**[!UICONTROL 支出]**&#x200B;および&#x200B;**[!UICONTROL カスタムイベント]** タスクは、Adobe Experience Platformに取り込まれたエクスペリエンスイベントによって異なります。 **[!UICONTROL カスタムイベント]** タスクの場合、マーケターがタスクビルダーにカスタムイベント値を入力する前に、一致するイベント定義（識別子パス、オプションのXDM スキーマ ID、スキーマ、トランスフォーマ）を&#x200B;**[!UICONTROL ロイヤルティ管理者]** メニューで設定する必要があります。 [ イベント定義の設定方法を学ぶ](loyalty-admin.md#event-definitions)
 
 イベントペイロードでロイヤルティチャレンジの設定と同じID名前空間を使用することで、進行状況を正しいプロファイルに起因させることができます。
 
 ### オーディエンスとレポート {#audiences-reporting}
 
-マーケターは、チャレンジの実施要件を設定する際に、プラットフォーム [&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)を選択します。 ロイヤルティレポートダッシュボードでは、Adobe Customer Journey Analyticsを使用します。 [&#x200B; ロイヤルティチャレンジのパフォーマンスを監視する方法について説明します](loyalty-reporting.md)
+マーケターは、チャレンジの実施要件を設定する際に、プラットフォーム [ オーディエンス ](../audience/about-audiences.md)を選択します。 ロイヤルティレポートダッシュボードでは、Adobe Customer Journey Analyticsを使用します。 [ ロイヤルティチャレンジのパフォーマンスを監視する方法について説明します](loyalty-reporting.md)
 
 ## データセットの有効期間（TTL） {#dataset-ttl}
 
@@ -90,7 +102,7 @@ Journey Optimizer プログラムの設定については、Adobe管理者にお
 
 Journey Optimizerでは、システム生成の多くのデータセットにTTL ガードレールを適用します。 ロイヤルティ関連のデータセットは、サンドボックスと同じプラットフォーム維持モデルに従います。
 
-➡️ [Journey Optimizerのデータセットの有効期間（TTL）ガードレール &#x200B;](../data/datasets-ttl.md)
+➡️ [Journey Optimizerのデータセットの有効期間（TTL）ガードレール ](../data/datasets-ttl.md)
 
 >[!NOTE]
 >
