@@ -122,7 +122,8 @@ ht-degree: 1%
 
    * **[!UICONTROL スロットルを有効にする]** - デフォルトでは無効になっています。 1秒あたりのリクエストの最大数を設定します（デフォルト：**5,000c**）。 制限に達すると、リクエストはキューに入れられ、できるだけ早く送信されます。
    * **[!UICONTROL 再試行を有効にする]** - デフォルトで有効になっています。 失敗したリクエストの最大再試行回数（デフォルト：**3**、設定可能な範囲：0 ～ 10）を設定します。 これにより、一時的なエラー時にエンドポイントに負担をかけるのを防ぐことができます。
-   * **[!UICONTROL タイムアウト]** - デフォルト：**5,000 ミリ秒**。 リクエストが失敗したと考える前に、エンドポイントからの応答を待つための最大時間を設定します。     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
+   * **[!UICONTROL タイムアウト]** - デフォルト：**5,000 ミリ秒**。 リクエストが失敗したと考える前に、エンドポイントからの応答を待つための最大時間を設定します。
+     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
 
 ## 認証設定 {#authentication-settings}
 

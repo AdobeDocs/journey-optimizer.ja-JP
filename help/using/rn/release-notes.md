@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d61f15e630592fa21ac2667fffa4d215a7baf6e1
+source-git-commit: cc7181975bf21a8464dca60422b045e0f047b511
 workflow-type: tm+mt
-source-wordcount: 2765
-ht-degree: 78%
+source-wordcount: 3064
+ht-degree: 74%
 
 ---
 
@@ -55,6 +55,27 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
+<th><strong>E メールデザイナーのコンテンツチェック</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer に、E メールデザイナーでの自動技術検証が直接含まれるようになりました。これにより、送信前に HTML や CSS の問題を把握できます。</p>
+<p>チェック対象には、<code>&lt;script&gt;</code> タグおよび <code>&lt;base&gt;</code> タグ、Microsoft Outlook でレイアウトを崩す場合がある空の div、HTML メタ更新タグ、Gmail でレンダリングエラーをトリガーする CSS または HTML のサイズしきい値など、サポートされていない要素が含まれます。</p>
+<p>結果は、エラー、警告または情報通知としてオーサリングパネルに直接表示され、コンテキストの詳細とワンクリック修正が可能な場合は表示されるので、エディターを離れることなく問題を解決できます。</p>
+<p>この機能は、以前は限定提供で公開されていましたが、現在はすべてのお客様に一般提供されるようになりました。</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>詳しくは、<a href="../email/content-check.md">詳細ドキュメント</a>を参照してください。</p>
+<p>公開日：2026年7月16日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>オーケストレーションされたキャンペーンでのファイルベースのターゲティング</strong><br/></th>
 </tr>
 </thead>
@@ -74,6 +95,34 @@ ht-degree: 78%
 * **AJO MCP サーバーの新しいツール** - [!DNL Adobe Journey Optimizer] MCP サーバーには、さらに5つの読み取り専用&#x200B;**チャネル設定ツール**&#x200B;が公開され、AI アシスタントから直接チャネル設定、サポートリソース、およびマーケティングアクションをクエリできるようになりました。 **List Channel Configurations** （すべてのAJO チャネルで）、**Get Channel Configuration**、**List Configuration Resources**、**Get Configuration Resource**、および&#x200B;**List Marketing Actions**&#x200B;を使用できるようになりました。 [詳細情報](../integrations/ajo-mcp.md#mcp-tools)
 
   ご利用いただけます：2026年7月9日（PT）
+
+
+### 使いやすさの向上 {#july-26-usability}
+
+2026年7月にリリースされた操作性の改善点は次のとおりです。
+
+#### コンテンツ管理
+
+* **フラグメントインベントリ**&#x200B;のクイック起動ショートカット - **[!UICONTROL その他のアクション]** ボタンを使用して、フラグメントリストから一般的なアクションにすばやくアクセスできるようになりました。 使用可能なショートカットには、フラグメントの編集、詳細の開き方、ドラフトバージョンの破棄などがあります。 [詳細情報](../content-management/manage-fragments.md#quick-launch-fragments)
+
+  ![](../content-management/assets/fragment-quick-launch.png)
+
+* **テンプレート インベントリのクイック起動ショートカット** - コンテンツテンプレートリストの&#x200B;**[!UICONTROL その他のアクション]** ボタンで、テンプレートの詳細の編集、コンテンツのシミュレーション、テンプレートの削除など、一般的なアクションにすばやくアクセスできるようになりました。 メールテンプレートの場合、件名とメール本文の編集、プルーフの表示または送信、迷惑メールレポートの実行、メールのレンダリングを追加のショートカットで実行できます。 [詳細情報](../content-management/access-content-templates.md#quick-launch-templates)
+
+  ![](../content-management/assets/content-template-quick-launch.png)
+
+#### ジャーニー
+
+ジャーニーキャンバスに&#x200B;**新しいユーザーインターフェイス**&#x200B;が導入され、大規模なジャーニーのパフォーマンスの向上、読みやすさの向上による自動レイアウト、ガイド付きのオーサリング体験が実現されました。
+
+![](../building-journeys/assets/journey-new-canvas.png)
+
+新しいUIに切り替えるには、**[!UICONTROL 新しいエクスペリエンス]** ボタンをクリックします。 この設定はジャーニーレベルで保存されるので、ジャーニーはデフォルトで新しいエクスペリエンスで再開されます。 元に戻すには、**[!UICONTROL 古いエクスペリエンス]**&#x200B;をクリックします。 [詳細情報](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+![](../building-journeys/assets/journey-new-experience-switch.png)
+
+公開日：2026年7月16日（PT）
+
 
 ## 26年6月のリリースノート {#june-26-rn}
 

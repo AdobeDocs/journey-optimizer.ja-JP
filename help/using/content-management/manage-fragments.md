@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 92%
+source-wordcount: 1607
+ht-degree: 89%
 
 ---
 
@@ -76,6 +76,16 @@ ht-degree: 92%
 * フラグメントをフォルダーに移動します。 [詳細情報](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### クイック起動ショートカット {#quick-launch-fragments}
+
+各フラグメントの横にある&#x200B;**[!UICONTROL その他のアクション]** ボタンから、次のクイックローンチショートカットも使用できます。
+
+* **[!UICONTROL Edit]** — フラグメントエディターを直接開きます。
+* **[!UICONTROL 開く]** — フラグメントの詳細とプレビュー画面を開きます。
+* **[!UICONTROL ドラフトを破棄]** – 現在のドラフトバージョンを破棄し、最後に公開されたバージョンに戻します。
+
+![](assets/fragment-quick-launch.png)
 
 ### 一括アクション {#bulk-actions-fragments}
 

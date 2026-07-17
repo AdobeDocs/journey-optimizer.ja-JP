@@ -10,9 +10,9 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+source-git-commit: 18067b68e09b98e616126dd40b8ad729233c49fa
 workflow-type: tm+mt
-source-wordcount: 1524
+source-wordcount: 1530
 ht-degree: 0%
 
 ---
@@ -363,7 +363,7 @@ PQL関数の結果を`{% let variableName = pqlFunction(...) %}`を使用して�
 
 **Q：名前にハイフンが含まれるフィールドを参照する方法を教えてください。**
 
-ハイフネーションされたキーをPQL式の内部でバックティックにラップします：`{%= profile.events.\`order-total\&#39; > 100 %&rbrace;`. Backticks are not supported in plain Handlebars interpolation — use a `{% let %}&#39;変数を必要に応じて中間ステップとして使用します。
+ハイフネーション付きのキーをPQL式``{%= profile.events.`order-total` > 100 %}``内でバックティックに折り返します。 プレーンハンドルバー補間では、バックティックはサポートされていません。必要に応じて、中間ステップとして`{% let %}`変数を使用してください。
 
 **Q: `topN`さんが`{{#each}}` ループの前に`{% let %}`を必要とするのはなぜですか？**
 

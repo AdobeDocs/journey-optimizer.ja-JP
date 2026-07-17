@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 5%
+source-wordcount: 613
+ht-degree: 9%
 
 ---
 
@@ -63,6 +63,18 @@ ht-degree: 5%
 ロイヤルティの課題は、ID、プロファイル属性、エクスペリエンスイベント、オーディエンスをAdobe Adobe Experience Platformに依存します。 このページでは、課題を作成したり、ロイヤルティチャレンジ APIを使用したりする前に、**有効期間（TTL）**&#x200B;がリテンションにどのように影響するかを説明します。
 
 Journey Optimizer プログラムの設定については、Adobe管理者にお問い合わせいただくか、**[!UICONTROL ロイヤルティ管理者]** メニューで報酬フルフィルメントとイベントマッピングを設定してください。 [&#x200B; ロイヤルティに関する課題を設定する方法について説明します](loyalty-admin.md)。 REST エンドポイントと認証については、[&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を参照してください。
+
+## ソース経由のロイヤルティコネクタ {#loyalty-connectors-sources}
+
+ロイヤルティデータが外部の報酬プラットフォームで管理されている場合は、**Sources** コネクタを使用してAdobe Experience Platformにそのデータを取り込み、ロイヤルティチャレンジで使用できます。
+
+Journey Optimizer ドキュメントに記載されているロイヤルティコネクタと報酬コネクタには、次のものが含まれます。
+
+* **Talon.One**
+* **キャピラリー**
+* **Kobie**
+
+コネクタオンボーディングとエンドツーエンドの設定については、[&#x200B; ソースコネクタの基本を学ぶ](../start/get-started-sources.md)および[Experience Platform ソースカタログ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#sources-catalog){target="_blank"}を参照してください。
 
 ## Adobe Experience Platform data {#aep-data}
 
